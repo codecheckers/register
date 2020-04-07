@@ -1,13 +1,12 @@
 ---
 name: New community CODECHECK
-about: Add a paper to be codeched in the community review process
+about: Add a paper to be codechecked in the community review process
 title: "[Author 1, Author 2, ...]"
 labels: community, needs codechecker
 assignees: nuest
-
 ---
 
-<!-- Thank you for starting a codecheck community process! See https://codecheck.org.uk/guide/community-process for the full documentation. -->
+<!-- Thank you for starting a codecheck community process! See https://codecheck.org.uk/guide/community-process for the full documentation. These HTML commments will not render in the issue, but you can delete them once you've read them if you prefer! -->
 
 **Repository**: ... <!-- link to the repository in the codecheckers organisation with the code; if you do not have access reach out to Daniel (https://github.com/nuest/) please. -->
 
