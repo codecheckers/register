@@ -7,14 +7,11 @@ library("knitr")
 library("gh")
 # see https://github.com/r-lib/gh#readme for usage
 
-the_register <- read.csv("register.csv", as.is = TRUE)
-
-## For each row of the CSV we can do some basic checks, e.g. like
+## For each entry in the registry we can do some basic checks, e.g. like
 ## - checking the certificate numbers match
 ## - checking the yaml exists?
 ## - linting the yaml?
-
-get_codecheck_yml <- function(repo) {
+get_codecheck_yml_uncached <- function(repo) {
     repo_files <- gh::gh("GET /repos/codecheckers/:repo/contents/",
             repo = repo,
             .accept = "application/vnd.github.VERSION.raw")
@@ -33,6 +30,35 @@ get_codecheck_yml <- function(repo) {
     }
 }
 
+library("R.cache")
+library("assertthat")
+get_codecheck_yml <- addMemoization(get_codecheck_yml_uncached)
+
+# MUST-contents only, see https://codecheck.org.uk/spec/config/latest/
+validate_codecheck_yml <- function(configuration) {
+    codecheck_yml <- NULL
+    if (is.character(configuration) && file.exists(configuration)) {
+        # TODO: validate that file encoding is UTF-8, if a file is given
+        # TODO: check the 
+        stop("File checking not yet implemented.")
+        # read file to YAML, continue
+    }
+
+    codecheck_yml <- configuration
+
+    # MUST have manifest
+    assertthat::assert_that(assertthat::has_name(codecheck_yml, "manifest"))
+
+    # manifest must not be named
+    assertthat::assert_that(assertthat::has_name(codecheck_yml$manifest, NULL))
+
+    # each element of the manifest MUST have a file
+    sapply(X = hopfield$manifest, FUN = function(manifest_item) {
+        assertthat::assert_that(assertthat::has_name(manifest_item, "file"))
+        }
+    )
+}
+
 check_register <- function(register) {
     for (i in seq_len(nrow(register))) {
         cat("Checking", toString(register[i, ]), "\n")
@@ -41,9 +67,13 @@ check_register <- function(register) {
         # check certificate IDs if there is a codecheck.yml
         codecheck_yaml <- get_codecheck_yml(entry$Repo)
         if (!is.null(codecheck_yaml)) {
-            if (entry$Certificate != codecheck_yaml$codecheck$certificate) {
+            if (entry$Certificate != codecheck_yaml$certificate) {
                 stop("Certificate mismatch, register: ", entry$Certificate,
-                     " vs. repo ", configFile$codecheck$certificate)
+                     " vs. repo ", codecheck_yaml$certificate)
+            }
+
+            if (is.null(codecheck_yaml$report)) {
+                warning("Report mis missing for ", entry$Certificate)
             }
         } else {
             warning(entry$Certificate, " does not have a codecheck.yml file")
@@ -66,26 +96,36 @@ check_register <- function(register) {
     }
 }
 
+the_register <- read.csv("register.csv", as.is = TRUE)
+
 check_register(the_register)
 
 # Futher test ideas:
 # - Does the repo have a LICENSE?
 
-# add DOIs if available
-dois <- c()
+register_table <- the_register
+
+# add report links if available
+reports <- c()
 for (i in seq_len(nrow(the_register))) {
     config_yml <- get_codecheck_yml(the_register[i, ]$Repo)
 
-    the_doi <- NA
-    if (is.null(config_yml)) {
-    } else {
-        if (is.character(config_yml$codecheck$doi))
-            the_doi <- config_yml$codecheck$doi
+    report <- NA
+    if (!is.null(config_yml)) {
+        report <- config_yml$report
     }
 
-    dois <- c(dois, the_doi)
+    reports <- c(reports, report)
 }
+register_table$Report <- reports
 
-the_register$DOI <- dois
+# turn IDs into links for table rendering
+register_table$Issue <- sapply(X = register_table$Issue, FUN = function(issue_id) {
+    if (!is.na(issue_id)) {
+        paste0("[", issue_id, "](https://github.com/codecheckers/register/issues/", issue_id, ")")
+    } else {
+        issue_id
+    }
+})
 
-capture.output(kable(the_register, format = "markdown"), file = "register.md")
+capture.output(kable(register_table, format = "markdown"), file = "register.md")
