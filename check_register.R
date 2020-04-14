@@ -141,4 +141,4 @@ capture.output(
 library("rmarkdown")
 rmarkdown::render("register.md",
                   output_yaml = "docs/html_document.yml",
-                  output_file = "docs/index.html",)
+                  output_file = "docs/index.html")
