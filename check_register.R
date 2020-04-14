@@ -120,9 +120,13 @@ for (i in seq_len(nrow(the_register))) {
 register_table$Report <- reports
 
 # turn IDs into links for table rendering
-register_table$Issue <- sapply(X = register_table$Issue, FUN = function(issue_id) {
+register_table$Issue <- sapply(X = register_table$Issue,
+                               FUN = function(issue_id) {
     if (!is.na(issue_id)) {
-        paste0("[", issue_id, "](https://github.com/codecheckers/register/issues/", issue_id, ")")
+        paste0("[",
+               issue_id,
+               "](https://github.com/codecheckers/register/issues/",
+               issue_id, ")")
     } else {
         issue_id
     }
