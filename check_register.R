@@ -132,4 +132,13 @@ register_table$Issue <- sapply(X = register_table$Issue,
     }
 })
 
-capture.output(kable(register_table, format = "markdown"), file = "register.md")
+capture.output(
+    cat("---\ntitle: CODECHECK Register\n---\n"),
+    kable(register_table, format = "markdown", caption = "Testttileeee"),
+    file = "register.md")
+
+# render register to HTML
+library("rmarkdown")
+rmarkdown::render("register.md",
+                  output_yaml = "docs/html_document.yml",
+                  output_file = "docs/index.html",)
