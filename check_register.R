@@ -89,7 +89,7 @@ check_register <- function(register) {
             issue$labels
             if (issue$state != "closed") {
                 warning(entry$Certificate, " issue is still open: ",
-                    "<https://github.com/codecheckers/register/issue/",
+                    "<https://github.com/codecheckers/register/issues/",
                     entry$Issue, ">")
             }
         }
