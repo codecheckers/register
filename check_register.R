@@ -31,6 +31,9 @@ get_codecheck_yml_uncached <- function(repo) {
 }
 
 library("R.cache")
+# clear the cache, we only want to cache subsequent calls to GitHub API
+unlink(getCacheRootPath())
+
 library("assertthat")
 get_codecheck_yml <- addMemoization(get_codecheck_yml_uncached)
 
@@ -120,7 +123,7 @@ for (i in seq_len(nrow(the_register))) {
 register_table$Report <- reports
 
 # turn IDs into links for table rendering
-register_table$Issue <- sapply(X = register_table$Issue,
+register_table$Issue <- sapply(X = the_register$Issue,
                                FUN = function(issue_id) {
     if (!is.na(issue_id)) {
         paste0("[",
@@ -132,11 +135,31 @@ register_table$Issue <- sapply(X = register_table$Issue,
     }
 })
 
+library("parsedate")
+check_times <- c()
+for (i in seq_len(nrow(the_register))) {
+    config_yml <- get_codecheck_yml(the_register[i, ]$Repo)
+
+    check_time <- NA
+    if (!is.null(config_yml)) {
+        check_time <- config_yml$check_time
+    }
+
+    check_times <- c(check_times, check_time)
+}
+check_times <- parsedate::parse_date(check_times)
+register_table$`Check date` <- format(check_times, "%Y-%m-%d")
+
 capture.output(
-    cat("---\ntitle: CODECHECK Register\n---\n"),
+    cat("---\ntitle: CODECHECK Register\n---"),
     kable(register_table, format = "markdown"),
     file = "register.md"
 )
+# hack to reduce colum width of 4th column
+md_table <- readLines("register.md")
+md_table[6] <- "|:-----------|:--------------------------|:---------------------|:---|:--------------------------------------|:----------|"
+writeLines(md_table, "register.md")
+# TODO: fix table colum width, e.g. via using a register.Rmd with kableExtra
 
 # render register to HTML
 library("rmarkdown")
