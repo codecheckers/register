@@ -12,3 +12,4 @@ title: CODECHECK Register
 |2020-006    |Detorakis-reproduction     |community             |[6](https://github.com/codecheckers/register/issues/6) |NA                                     |NA         |
 |2020-007    |Hathway-Goodman-2018       |community             |[7](https://github.com/codecheckers/register/issues/7) |NA                                     |NA         |
 |2020-008    |covid-uk                   |community (preprint)  |[8](https://github.com/codecheckers/register/issues/8) |http://doi.org/10.5281/zenodo.3746024  |2020-04-09 |
+|2020-009    |2020-cov-tracing           |community (preprint)  |[9](https://github.com/codecheckers/register/issues/9) |NA                                     |NA         |
