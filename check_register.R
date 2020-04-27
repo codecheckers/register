@@ -56,7 +56,7 @@ validate_codecheck_yml <- function(configuration) {
     assertthat::assert_that(assertthat::has_name(codecheck_yml$manifest, NULL))
 
     # each element of the manifest MUST have a file
-    sapply(X = hopfield$manifest, FUN = function(manifest_item) {
+    sapply(X = hopfield$manifest, FUN = function(manifest_item) { ## SJE -- note the hopfield!!!!
         assertthat::assert_that(assertthat::has_name(manifest_item, "file"))
         }
     )
