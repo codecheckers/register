@@ -7,7 +7,7 @@ Register of CODECHECK certificates
 [`register.csv`](register.csv) is the file to edit to generate a new certificate.
 
 [`register.md`](register.md) and [`docs/index.html`](https://codecheck.org.uk/register) are processed, human-readable outputs based on the register with some additional information.
-Do not edit these files! They can be regenerated with `R -e "library(codecheck); codecheck::register_render()`.
+Do not edit these files! They can be regenerated with `R -e "codecheck::register_render()"`.
 
 ## License
 
