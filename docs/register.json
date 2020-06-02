@@ -1,0 +1,66 @@
+[
+  {
+    "Certificate": "2020-001",
+    "Repository": "Piccolo-2020",
+    "Type": "journal (GigaScience)",
+    "Report": "http://doi.org/10.5281/zenodo.3674056",
+    "Check date": "2019-02-14"
+  },
+  {
+    "Certificate": "2020-002",
+    "Repository": "Reproduction-Hancock",
+    "Type": "community",
+    "Report": "http://doi.org/10.5281/zenodo.3750741",
+    "Check date": "2020-04-13"
+  },
+  {
+    "Certificate": "2020-003",
+    "Repository": "Hopfield-1982",
+    "Type": "community",
+    "Report": "https://doi.org/10.5281/zenodo.3741797",
+    "Check date": "2020-04-06"
+  },
+  {
+    "Certificate": "2020-004",
+    "Repository": "Barto-Sutton-Anderson-1983",
+    "Type": "community",
+    "Report": "https://doi.org/10.5281/zenodo.3827371",
+    "Check date": "2020-05-14"
+  },
+  {
+    "Certificate": "2020-005",
+    "Repository": "Larisch-reproduction",
+    "Type": "community"
+  },
+  {
+    "Certificate": "2020-006",
+    "Repository": "Detorakis-reproduction",
+    "Type": "community"
+  },
+  {
+    "Certificate": "2020-007",
+    "Repository": "Hathway-Goodman-2018",
+    "Type": "community"
+  },
+  {
+    "Certificate": "2020-008",
+    "Repository": "covid-uk",
+    "Type": "community (preprint)",
+    "Report": "http://doi.org/10.5281/zenodo.3746024",
+    "Check date": "2020-04-09"
+  },
+  {
+    "Certificate": "2020-009",
+    "Repository": "2020-cov-tracing",
+    "Type": "community (preprint)",
+    "Report": "http://doi.org/10.5281/zenodo.3767060",
+    "Check date": "2020-04-26"
+  },
+  {
+    "Certificate": "2020-010",
+    "Repository": "covid-report9",
+    "Type": "community (preprint)",
+    "Report": "https://doi.org/10.5281/zenodo.3865491",
+    "Check date": "2020-05-29"
+  }
+]

@@ -1,13 +1,16 @@
-# register
+# Register of CODECHECK certificates
 
-Register of CODECHECK certificates
+See the register online at [**https://codecheck.org.uk/register/**](https://codecheck.org.uk/register/).
 
 ## Files in this repository
 
-[`register.csv`](register.csv) is the file to edit to generate a new certificate.
+[`register.csv`](register.csv) is the main file to edit to put a new certificate into the register.
 
-[`register.md`](register.md) and [`docs/index.html`](https://codecheck.org.uk/register) are processed, human-readable outputs based on the register with some additional information.
-Do not edit these files! They can be regenerated with `R -e "codecheck::register_render()"`.
+[`docs/register.md`](register.md), [`docs/register.json`](docs/register.json),  and [`docs/index.html`](https://codecheck.org.uk/register) are processed, human-readable and machine-readable outputs based on the register with some additional information.
+Do not edit these files!
+They must be regenerated with `R -e "codecheck::register_render()"` after each update of the main register file.
+
+To fix problems with hitting the GitHub API rate limit, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
 
 ## License
 
