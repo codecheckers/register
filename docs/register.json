@@ -39,7 +39,10 @@
   {
     "Certificate": "2020-006",
     "Repository": "Detorakis-reproduction",
-    "Type": "community"
+    "Type": "community",
+    "Report": "https://doi.org/10.5281/zenodo.3948353",
+    "Title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
+    "Check date": "2020-07-16"
   },
   {
     "Certificate": "2020-007",
@@ -69,5 +72,29 @@
     "Report": "https://doi.org/10.5281/zenodo.3865491",
     "Title": "Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020.",
     "Check date": "2020-05-29"
+  },
+  {
+    "Certificate": "2020-011",
+    "Repository": "covid19model-nature",
+    "Type": "community (in press)",
+    "Report": "https://doi.org/10.5281/zenodo.3893138",
+    "Title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
+    "Check date": "2020-06-13"
+  },
+  {
+    "Certificate": "2020-012",
+    "Repository": "covid19model-report23",
+    "Type": "community (preprint)",
+    "Report": "https://doi.org/10.5281/zenodo.3893617",
+    "Title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)",
+    "Check date": "2020-06-14"
+  },
+  {
+    "Certificate": "2020-013",
+    "Repository": "Spitschan2020_bioRxiv",
+    "Type": "community (preprint)",
+    "Report": "https://doi.org/10.5281/zenodo.3947959",
+    "Title": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision",
+    "Check date": "2020-07-14"
   }
 ]
