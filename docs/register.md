@@ -19,4 +19,4 @@ title: CODECHECK Register
 |2020-013    |Spitschan2020_bioRxiv      |community (preprint)  |[20](https://github.com/codecheckers/register/issues/20) |https://doi.org/10.5281/zenodo.3947959 |2020-07-14 |
 |2020-014    |Sadeh-and-Clopath          |community             |[21](https://github.com/codecheckers/register/issues/21) |https://doi.org/10.5281/zenodo.3967326 |2020-07-28 |
 |2020-015    |Liou-and-Bateman           |community             |[22](https://github.com/codecheckers/register/issues/22) |NA                                     |NA         |
-|2020-016    |OpeningPractice            |community             |[15](https://github.com/codecheckers/register/issues/15) |https://doi.org/10.5281/zenodo.3873153 |2020-06-02 |
+|2020-016    |OpeningPractice            |community             |[15](https://github.com/codecheckers/register/issues/15) |https://doi.org/10.5281/zenodo.3981253 |2020-06-02 |
