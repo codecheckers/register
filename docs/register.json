@@ -34,7 +34,10 @@
   {
     "Certificate": "2020-005",
     "Repository": "Larisch-reproduction",
-    "Type": "community"
+    "Type": "community",
+    "Report": "https://doi.org/10.5281/zenodo.3959175",
+    "Title": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis",
+    "Check date": "2020-07-23"
   },
   {
     "Certificate": "2020-006",
@@ -96,5 +99,26 @@
     "Report": "https://doi.org/10.5281/zenodo.3947959",
     "Title": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision",
     "Check date": "2020-07-14"
+  },
+  {
+    "Certificate": "2020-014",
+    "Repository": "Sadeh-and-Clopath",
+    "Type": "community",
+    "Report": "https://doi.org/10.5281/zenodo.3967326",
+    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
+    "Check date": "2020-07-28"
+  },
+  {
+    "Certificate": "2020-015",
+    "Repository": "Liou-and-Bateman",
+    "Type": "community"
+  },
+  {
+    "Certificate": "2020-016",
+    "Repository": "OpeningPractice",
+    "Type": "community",
+    "Report": "https://doi.org/10.5281/zenodo.3873153",
+    "Title": "Opening practice: supporting reproducibility and critical spatial data science",
+    "Check date": "2020-06-02"
   }
 ]
