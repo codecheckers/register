@@ -111,13 +111,16 @@
   {
     "Certificate": "2020-015",
     "Repository": "Liou-and-Bateman",
-    "Type": "community"
+    "Type": "community",
+    "Report": "https://doi.org/10.5281/zenodo.3978402",
+    "Title": "A model for focal seizure onset, propagation, evolution, and progression",
+    "Check date": "2020-08-04"
   },
   {
     "Certificate": "2020-016",
     "Repository": "OpeningPractice",
     "Type": "community",
-    "Report": "https://doi.org/10.5281/zenodo.3981253",
+    "Report": "https://doi.org/10.5281/zenodo.3873153",
     "Title": "Opening practice: supporting reproducibility and critical spatial data science",
     "Check date": "2020-06-02"
   }
