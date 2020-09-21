@@ -20,3 +20,4 @@ title: CODECHECK Register
 |2020-014    |[Sadeh-and-Clopath](https://github.com/codecheckers/Sadeh-and-Clopath)                   |community             |[21](https://github.com/codecheckers/register/issues/21) |https://doi.org/10.5281/zenodo.3967326 |2020-07-28 |
 |2020-015    |[Liou-and-Bateman](https://github.com/codecheckers/Liou-and-Bateman)                     |community             |[22](https://github.com/codecheckers/register/issues/22) |https://doi.org/10.5281/zenodo.3978402 |2020-08-04 |
 |2020-016    |[OpeningPractice](https://github.com/codecheckers/OpeningPractice)                       |community             |[15](https://github.com/codecheckers/register/issues/15) |https://doi.org/10.5281/zenodo.3981253 |2020-06-02 |
+|2020-017    |[JGSY-D-19-00087](https://github.com/codecheckers/JGSY-D-19-00087)                       |community             |[24](https://github.com/codecheckers/register/issues/24) |https://doi.org/10.5281/zenodo.4003848 |2020-08-27 |
