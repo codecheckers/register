@@ -147,5 +147,59 @@
     "Title": "Progress in the R ecosystem for representing and handling spatial data",
     "Paper reference": "https://doi.org/10.1007/s10109-020-00336-0",
     "Check date": "2020-08-27"
+  },
+  {
+    "Certificate": "2020-018",
+    "Repository Link": "https://github.com/reproducible-agile/AGILECA",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
+    "Title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-6-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-019",
+    "Repository Link": "https://osf.io/5SVMT",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
+    "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-020",
+    "Repository Link": "https://osf.io/7TWR2",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
+    "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-021",
+    "Repository Link": "https://github.com/reproducible-agile/Spatial-nominal-entity-recognition",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
+    "Title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-022",
+    "Repository Link": "https://osf.io/7XRQG",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/7XRQG",
+    "Title": "Extracting interrogative intents and concepts from geo-analytic questions.",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-23-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-023",
+    "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
+    "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "Check date": "2020-07-13"
   }
 ]
