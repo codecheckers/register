@@ -1,0 +1,26 @@
+name: Render register
+
+on:
+  push:
+    branches: master
+
+jobs:
+  render:
+    runs-on: codecheckers/register
+    steps:
+      - name: Checkout
+        # Checkout is required before did-files-change
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+          # be sure to override the default value (1) for fetch-depth
+      
+      - name: Check changes
+        id: check-regoster
+        uses: rdietrick/did-files-change@v1.2
+        with:
+          pathspec: register.csv
+
+      - name: Debug
+        run: |
+          echo "::debug Changes detected in register: ${{ steps.check-register.outputs.changed }}"
