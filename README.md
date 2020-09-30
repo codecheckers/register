@@ -2,7 +2,7 @@
 
 See the register online at [**https://codecheck.org.uk/register/**](https://codecheck.org.uk/register/).
 
-[![DOI](https://zenodo.org/badge/241481531.svg)](https://zenodo.org/badge/latestdoi/241481531)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg)](https://doi.org/10.5281/zenodo.4059767)
 
 ## Editing the register
 
