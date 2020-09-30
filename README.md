@@ -23,6 +23,17 @@ Here are some possible values or rules for the specific columns in the file:
 To update the register, simply edit the `register.csv` file and submit the change.
 A GitHub Action will apply the process outlined below for manual rendering to update the different representations of the register, including the website, in case the main register file changes.
 
+## Deposit/archive
+
+This repository is archived manually, in regular intervals, on Zenodo using the [GitHub-Zenodo-Integration]().
+To deposit a new version on Zenodo, create a new release following the naming scheme of previous releases.
+Then, go to the new record and manually make the following changes:
+
+- add the CIDECHECK community
+- update the ORCIDs and affiliations of authors
+- update the Desription text (see previous records)
+- add https://codecheck.org.uk/register/ as a related identifier
+
 ## Files in this repository
 
 - [`register.csv`](register.csv): the main file to edit to put a new certificate into the register
