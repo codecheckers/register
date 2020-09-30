@@ -1,88 +1,92 @@
 [
   {
-    "Certificate": "2020-001",
-    "Repository Link": "https://github.com/codecheckers/Piccolo-2020",
-    "Type": "journal (GigaScience)",
-    "Report": "http://doi.org/10.5281/zenodo.3674056",
-    "Title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
-    "Paper reference": "https://doi.org/10.1093/gigascience/giaa026",
-    "Check date": "2019-02-14"
-  },
-  {
-    "Certificate": "2020-002",
-    "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
+    "Certificate": "2020-014",
+    "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
     "Type": "community",
-    "Report": "http://doi.org/10.5281/zenodo.3750741",
-    "Title": "The principal components of natural images",
-    "Paper reference": "https://doi.org/10.1088/0954-898X_3_1_008",
-    "Check date": "2020-04-13"
+    "Report": "https://doi.org/10.5281/zenodo.3967326",
+    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
+    "Paper reference": "https://doi.org/10.7554/eLife.52757",
+    "Check date": "2020-07-28"
   },
   {
-    "Certificate": "2020-003",
-    "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
+    "Certificate": "2020-015",
+    "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
     "Type": "community",
-    "Report": "https://doi.org/10.5281/zenodo.3741797",
-    "Title": "Neural networks and physical systems with emergent collective computational abilities",
-    "Paper reference": "https://doi.org/10.1073/pnas.79.8.2554",
-    "Check date": "2020-04-06"
+    "Report": "https://doi.org/10.5281/zenodo.3978402",
+    "Title": "A model for focal seizure onset, propagation, evolution, and progression",
+    "Paper reference": "https://doi.org/10.7554/eLife.50927",
+    "Check date": "2020-08-04"
   },
   {
-    "Certificate": "2020-004",
-    "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
-    "Type": "community",
-    "Report": "https://doi.org/10.5281/zenodo.3827371",
-    "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
-    "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
-    "Check date": "2020-05-14"
+    "Certificate": "2020-016",
+    "Repository Link": "https://github.com/codecheckers/OpeningPractice",
+    "Type": "journal (J Geogr Syst)",
+    "Report": "https://doi.org/10.5281/zenodo.3981253",
+    "Title": "Opening practice: supporting reproducibility and critical spatial data science",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00334-2",
+    "Check date": "2020-06-02"
   },
   {
-    "Certificate": "2020-005",
-    "Repository Link": "https://github.com/codecheckers/Larisch-reproduction",
-    "Type": "community",
-    "Report": "https://doi.org/10.5281/zenodo.3959175",
-    "Title": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis",
-    "Paper reference": "ReScience C (2019) 5, 3, 2 http://rescience.github.io/bibliography/Larisch_2019.html",
-    "Check date": "2020-07-23"
+    "Certificate": "2020-017",
+    "Repository Link": "https://github.com/codecheckers/JGSY-D-19-00087",
+    "Type": "journal (J Geogr Syst)",
+    "Report": "https://doi.org/10.5281/zenodo.4003848",
+    "Title": "Progress in the R ecosystem for representing and handling spatial data",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00336-0",
+    "Check date": "2020-08-27"
   },
   {
-    "Certificate": "2020-006",
-    "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
-    "Type": "community",
-    "Report": "https://doi.org/10.5281/zenodo.3948353",
-    "Title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
-    "Paper reference": "ReScience (2017) 3, 1, 7 http://rescience.github.io/bibliography/detorakis_2017.html",
-    "Check date": "2020-07-16"
+    "Certificate": "2020-018",
+    "Repository Link": "https://github.com/reproducible-agile/AGILECA",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
+    "Title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-6-2020",
+    "Check date": "2020-07-13"
   },
   {
-    "Certificate": "2020-007",
-    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
-    "Type": "community"
+    "Certificate": "2020-019",
+    "Repository Link": "https://osf.io/5SVMT",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
+    "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
+    "Check date": "2020-07-13"
   },
   {
-    "Certificate": "2020-008",
-    "Repository Link": "https://github.com/codecheckers/covid-uk",
-    "Type": "community (preprint)",
-    "Report": "http://doi.org/10.5281/zenodo.3746024",
-    "Title": "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study",
-    "Paper reference": "<https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf>",
-    "Check date": "2020-04-09"
+    "Certificate": "2020-020",
+    "Repository Link": "https://osf.io/7TWR2",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
+    "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "Check date": "2020-07-13"
   },
   {
-    "Certificate": "2020-009",
-    "Repository Link": "https://github.com/codecheckers/2020-cov-tracing",
-    "Type": "community (preprint)",
-    "Report": "http://doi.org/10.5281/zenodo.3767060",
-    "Title": "Model of isolation, contact tracing, and physical distancing",
-    "Paper reference": "Preprint https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf",
-    "Check date": "2020-04-26"
+    "Certificate": "2020-021",
+    "Repository Link": "https://github.com/reproducible-agile/Spatial-nominal-entity-recognition",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
+    "Title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
+    "Check date": "2020-07-13"
   },
   {
-    "Certificate": "2020-010",
-    "Repository Link": "https://github.com/codecheckers/covid-report9",
-    "Type": "community (preprint)",
-    "Report": "https://doi.org/10.5281/zenodo.3865491",
-    "Title": "Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020.",
-    "Paper reference": "Imperial College Preprint  https://doi.org/10.25561/77482",
-    "Check date": "2020-05-29"
+    "Certificate": "2020-022",
+    "Repository Link": "https://osf.io/7XRQG",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/7XRQG",
+    "Title": "Extracting interrogative intents and concepts from geo-analytic questions.",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-23-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-023",
+    "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
+    "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "Check date": "2020-07-13"
   }
 ]

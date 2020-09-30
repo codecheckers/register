@@ -3,7 +3,7 @@ title: CODECHECK Register
 ---
 
 |Certificate |Repository                                                                                                                                                |Type                   |Issue                                                    |Report                                 |Check date |
-|:-----------|:--------------------------|:---------------------|:---|:--------------------------------------|:----------|
+|:-------|:--------------------------------|:------------------|:---|:--------------------------|:----------|
 |2020-001    |[codecheckers/Piccolo-2020](https://github.com/codecheckers/Piccolo-2020)                                                                                 |journal (GigaScience)  |NA                                                       |http://doi.org/10.5281/zenodo.3674056  |2019-02-14 |
 |2020-002    |[codecheckers/Reproduction-Hancock](https://github.com/codecheckers/Reproduction-Hancock)                                                                 |community              |[2](https://github.com/codecheckers/register/issues/2)   |http://doi.org/10.5281/zenodo.3750741  |2020-04-13 |
 |2020-003    |[codecheckers/Hopfield-1982](https://github.com/codecheckers/Hopfield-1982)                                                                               |community              |[1](https://github.com/codecheckers/register/issues/1)   |https://doi.org/10.5281/zenodo.3741797 |2020-04-06 |

@@ -8,7 +8,7 @@ See the register online at [**https://codecheck.org.uk/register/**](https://code
 
 [`docs/register.md`](register.md), [`docs/register.json`](docs/register.json),  and [`docs/index.html`](https://codecheck.org.uk/register) are processed, human-readable and machine-readable outputs based on the register with some additional information.
 Do not edit these files!
-They must be regenerated with `R -q -e "codecheck::register_render()"` of the [`codecheck` R package](https://github.com/codecheckers/codecheck) after each update of the main register file.
+They must be regenerated with `R -q -e "codecheck::register_render(); warnings()"` of the [`codecheck` R package](https://github.com/codecheckers/codecheck) after each update of the main register file.
 You can check the configuration files with `R -q -e "codecheck::register_check(); warnings()"` and clear the cache (in case you made a recent change to an online repo) with `R -q -e "codecheck::register_clear_cache()"`
 
 To fix problems with hitting the GitHub API rate limit, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
