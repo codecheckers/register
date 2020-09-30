@@ -1,14 +1,5 @@
 [
   {
-    "Certificate": "2020-014",
-    "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
-    "Type": "community",
-    "Report": "https://doi.org/10.5281/zenodo.3967326",
-    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
-    "Paper reference": "https://doi.org/10.7554/eLife.52757",
-    "Check date": "2020-07-28"
-  },
-  {
     "Certificate": "2020-015",
     "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
     "Type": "community",
@@ -82,6 +73,15 @@
   },
   {
     "Certificate": "2020-023",
+    "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
+    "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-024",
     "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
     "Type": "conference (AGILEGIS)",
     "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
