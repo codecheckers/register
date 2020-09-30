@@ -2,25 +2,25 @@ name: Render register
 
 on:
   push:
-    branches: master
+    branches:
+      - master
 
 jobs:
   render:
-    runs-on: codecheckers/register
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         # Checkout is required before did-files-change
         uses: actions/checkout@v2
+      - name: Check
+        # https://github.com/dorny/paths-filter
+        uses: dorny/paths-filter@v2
+        id: filter
         with:
-          fetch-depth: 0
-          # be sure to override the default value (1) for fetch-depth
-      
-      - name: Check changes
-        id: check-regoster
-        uses: rdietrick/did-files-change@v1.2
-        with:
-          pathspec: register.csv
-
-      - name: Debug
+          filters: |
+            register:
+              - 'register.csv'
+      - name: Render
+        if: steps.filter.outputs.register == 'true'
         run: |
-          echo "::debug Changes detected in register: ${{ steps.check-register.outputs.changed }}"
+          echo "Run it!"
