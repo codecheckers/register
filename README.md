@@ -2,20 +2,11 @@
 
 See the register online at [**https://codecheck.org.uk/register/**](https://codecheck.org.uk/register/).
 
-## Files in this repository
-
-[`register.csv`](register.csv) is the main file to edit to put a new certificate into the register.
-
-[`docs/register.md`](register.md), [`docs/register.json`](docs/register.json),  and [`docs/index.html`](https://codecheck.org.uk/register) are processed, human-readable and machine-readable outputs based on the register with some additional information.
-Do not edit these files!
-They must be regenerated with `R -q -e "codecheck::register_render(); warnings()"` of the [`codecheck` R package](https://github.com/codecheckers/codecheck) after each update of the main register file.
-You can check the configuration files with `R -q -e "codecheck::register_check(); warnings()"` and clear the cache (in case you made a recent change to an online repo) with `R -q -e "codecheck::register_clear_cache()"`
-
-To fix problems with hitting the GitHub API rate limit, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
+[![DOI](https://zenodo.org/badge/241481531.svg)](https://zenodo.org/badge/latestdoi/241481531)
 
 ## Editing the register
 
-The main register file is a simple CSV file, which connects the pieces published elsewhere to create a complete metadata set for each CODECHECK.
+The main register file is a simple CSV file, `register.csv` which connects the pieces published elsewhere to create a complete metadata set for each CODECHECK.
 The CSV file should not unneedingly replicate information from elsewhere, especially from the CODECHECK configuration files (i.e., `codecheck.yml`).
 Here are some possible values or rules for the specific columns in the file:
 
@@ -28,6 +19,38 @@ Here are some possible values or rules for the specific columns in the file:
   - `journal (<journal abbreviation>)` = check conducted as part of a peer review process with a scientific journal, including a reference to the check in the published article; the journal abbreviation uses the [ISO 4](https://en.wikipedia.org/wiki/ISO_4) standard name for the journal, using common capitalization and omitting full stops, for example `J Geogr Syst` or `GigaScience` (find the correct name via Wikipedia or the journal website)
   - `conference (<conf name>)` = check conducted as part of a peer review process at a scientific conference, e.g., `conference (AGILEGIS)`
 - `Issue`: number of the issue in the register project where the CODECHECK is managed (informative mostly, not for metadata retrieval)
+
+To update the register, simply edit the `register.csv` file and submit the change.
+A GitHub Action will apply the process outlined below for manual rendering to update the different representations of the register, including the website, in case the main register file changes.
+
+## Files in this repository
+
+- [`register.csv`](register.csv): the main file to edit to put a new certificate into the register
+- [`docs/register.md`](register.md): Markdown table of the register with additional metadata for checks
+- [`docs/register.json`](docs/register.json): JSON file with additional metadata for checks; use for integration of CODECHECK metadata in third party services, APIs, etc.; public link: []()
+- [`docs/index.html`](https://codecheck.org.uk/register): HTML rendering of the extended register
+
+The above files are human-readable and machine-readable representations based on the register and metadata from the `codecheck.yml` files.
+
+_Do not edit any file besides `register.csv` by hand!_
+
+## Manual register rendering and checking
+
+The representations above can also be generated manually using the following command from the [`codecheck` R package](https://github.com/codecheckers/codecheck):
+
+```bash
+R -q -e "codecheck::register_render(); warnings()"
+```
+
+You can also check the configuration files with
+
+```bash
+R -q -e "codecheck::register_check(); warnings()"
+```
+
+and clear the cache (in case you made a recent change to an online repo) with `R -q -e "codecheck::register_clear_cache()"`.
+
+To fix problems with hitting the GitHub API rate limit on local register management, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
 
 ## License
 
