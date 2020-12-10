@@ -24,7 +24,7 @@ jobs:
   render:
     needs: changes
     if: ${{ needs.changes.outputs.register == 'true' }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     container:
       image: codecheckers/register:latest
       volumes:
