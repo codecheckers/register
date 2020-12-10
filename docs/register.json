@@ -205,7 +205,7 @@
   {
     "Certificate": "2020-024",
     "Repository Link": "https://github.com/codecheckers/driftage",
-    "Type": "journal (Gigascience)",
+    "Type": "journal (GigaScience)",
     "Report": "https://doi.org/10.5281/zenodo.4310025",
     "Title": "Driftage: a multi-agent system for concept drift detection and an application on electromyography.",
     "Paper reference": "Gigascience (2020) under review.",
