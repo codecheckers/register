@@ -1,14 +1,5 @@
 [
   {
-    "Certificate": "2020-015",
-    "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
-    "Type": "community",
-    "Report": "https://doi.org/10.5281/zenodo.3978402",
-    "Title": "A model for focal seizure onset, propagation, evolution, and progression",
-    "Paper reference": "https://doi.org/10.7554/eLife.50927",
-    "Check date": "2020-08-04"
-  },
-  {
     "Certificate": "2020-016",
     "Repository Link": "https://github.com/codecheckers/OpeningPractice",
     "Type": "journal (J Geogr Syst)",
@@ -88,5 +79,14 @@
     "Title": "Driftage: a multi-agent system for concept drift detection and an application on electromyography.",
     "Paper reference": "Gigascience (2020) under review.",
     "Check date": "2020-12-07"
+  },
+  {
+    "Certificate": "2020-025",
+    "Repository Link": "https://github.com/codecheckers/LICD_article",
+    "Type": " journal (J Archaeol Sci)",
+    "Report": "https://doi.org/10.5281/zenodo.4279275",
+    "Title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+    "Paper reference": "https://doi.org/10.1016/j.jas.2020.105306",
+    "Check date": "2020-11-19"
   }
 ]
