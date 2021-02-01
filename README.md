@@ -25,11 +25,11 @@ A GitHub Action will apply the process outlined below for manual rendering to up
 
 ## Deposit/archive
 
-This repository is archived manually, in regular intervals, on Zenodo using the [GitHub-Zenodo-Integration]().
+This repository is archived manually, in regular intervals, on Zenodo using the [GitHub-Zenodo-Integration](https://guides.github.com/activities/citable-code/).
 To deposit a new version on Zenodo, create a new release following the naming scheme of previous releases.
 Then, go to the new record and manually make the following changes:
 
-- add the CIDECHECK community
+- add the record to [the CODECHECK community](https://zenodo.org/communities/codecheck/)
 - update the ORCIDs and affiliations of authors
 - update the Desription text (see previous records)
 - add https://codecheck.org.uk/register/ as a related identifier
