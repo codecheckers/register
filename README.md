@@ -29,10 +29,12 @@ This repository is archived manually, in regular intervals, on Zenodo using the 
 To deposit a new version on Zenodo, create a new release following the naming scheme of previous releases.
 Then, go to the new record and manually make the following changes:
 
-- add the record to [the CODECHECK community](https://zenodo.org/communities/codecheck/)
+- add the record to [the CODECHECK community](https://zenodo.org/communities/codecheck/) (if not already included)
+- change the record type to "Dataset"
 - update the ORCIDs and affiliations of authors
+- set the license to "CC BY SA 4.0 international"
 - update the Desription text (see previous records)
-- add https://codecheck.org.uk/register/ as a related identifier
+- add https://codecheck.org.uk/register/ as a related identifier with "is new version of this upload"
 
 ## Files in this repository
 
