@@ -23,4 +23,5 @@ Certificate,Repository,Type,Issue
 2020-022,osf::7XRQG,conference (AGILEGIS),25
 2020-023,github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter,conference (AGILEGIS),25
 2020-024,github::codecheckers/driftage,journal (GigaScience),31
-2020-025,github::codecheckers/LICD_article, journal (J Archaeol Sci),29
+2020-025,github::codecheckers/LICD_article,journal (J Archaeol Sci),29
+2020-026,github::codecheckers//causality-review,community (preprint),35
