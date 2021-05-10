@@ -5,7 +5,6 @@ Certificate,Repository,Type,Issue
 2020-004,github::codecheckers/Barto-Sutton-Anderson-1983,community,4
 2020-005,github::codecheckers/Larisch-reproduction,community,5
 2020-006,github::codecheckers/Detorakis-reproduction,community,6
-2020-007,github::codecheckers/Hathway-Goodman-2018,community,7
 2020-008,github::codecheckers/covid-uk,community (preprint),8
 2020-009,github::codecheckers/2020-cov-tracing,community (preprint),9
 2020-010,github::codecheckers/covid-report9,community (preprint),14
@@ -23,4 +22,5 @@ Certificate,Repository,Type,Issue
 2020-022,osf::7XRQG,conference (AGILEGIS),25
 2020-023,github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter,conference (AGILEGIS),25
 2020-024,github::codecheckers/driftage,journal (GigaScience),31
-2020-025,github::codecheckers/LICD_article, journal (J Archaeol Sci),29
+2020-025,github::codecheckers/LICD_article,journal (J Archaeol Sci),29
+2020-026,github::codecheckers/causality-review,community (preprint),35
