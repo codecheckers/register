@@ -1,14 +1,5 @@
 [
   {
-    "Certificate": "2020-016",
-    "Repository Link": "https://github.com/codecheckers/OpeningPractice",
-    "Type": "journal (J Geogr Syst)",
-    "Report": "https://doi.org/10.5281/zenodo.3981253",
-    "Title": "Opening practice: supporting reproducibility and critical spatial data science",
-    "Paper reference": "https://doi.org/10.1007/s10109-020-00334-2",
-    "Check date": "2020-06-02"
-  },
-  {
     "Certificate": "2020-017",
     "Repository Link": "https://github.com/codecheckers/JGSY-D-19-00087",
     "Type": "journal (J Geogr Syst)",
@@ -83,10 +74,19 @@
   {
     "Certificate": "2020-025",
     "Repository Link": "https://github.com/codecheckers/LICD_article",
-    "Type": " journal (J Archaeol Sci)",
+    "Type": "journal (J Archaeol Sci)",
     "Report": "https://doi.org/10.5281/zenodo.4279275",
     "Title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
     "Paper reference": "https://doi.org/10.1016/j.jas.2020.105306",
     "Check date": "2020-11-19"
+  },
+  {
+    "Certificate": "2020-026",
+    "Repository Link": "https://github.com/codecheckers/causality-review",
+    "Type": "community (preprint)",
+    "Report": "https://doi.org/10.5281/zenodo.4720843",
+    "Title": "Causality indices for bivariate time series data: a comparative review of performance",
+    "Paper reference": "https://arxiv.org/abs/2104.00718",
+    "Check date": "2021-04-27"
   }
 ]
