@@ -1,2 +1,2 @@
 default:
-	R -e "codecheck::register_render()"
+	R -q -e "codecheck::register_render()"
