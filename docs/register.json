@@ -202,8 +202,8 @@
     "Repository Link": "https://github.com/codecheckers/driftage",
     "Type": "journal (GigaScience)",
     "Report": "https://doi.org/10.5281/zenodo.4310025",
-    "Title": "Driftage: a multi-agent system for concept drift detection and an application on electromyography.",
-    "Paper reference": "Gigascience (2020) under review.",
+    "Title": "Driftage: a multi-agent system framework for concept drift detection",
+    "Paper reference": "https://doi.org/10.1093/gigascience/giab030",
     "Check date": "2020-12-07"
   },
   {
@@ -223,5 +223,86 @@
     "Title": "Causality indices for bivariate time series data: a comparative review of performance",
     "Paper reference": "https://arxiv.org/abs/2104.00718",
     "Check date": "2021-04-27"
+  },
+  {
+    "Certificate": "2021-002",
+    "Repository Link": "https://osf.io/rsf4m",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/rsf4m",
+    "Title": "Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-10-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-003",
+    "Repository Link": "https://osf.io/dx92a",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/dx92a",
+    "Title": "Investigating drivers’ geospatial abilities in unfamiliar environments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-3-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-004",
+    "Repository Link": "https://osf.io/2sc7g",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/2sc7g",
+    "Title": "Extraction of linear structures from digital terrain models using deep learning",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-11-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-005",
+    "Repository Link": "https://osf.io/7fqtm",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/7fqtm",
+    "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-006",
+    "Repository Link": "https://osf.io/4cpm3",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/4CPM3",
+    "Title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-14-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-007",
+    "Repository Link": "https://osf.io/anv9r",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/anv9r",
+    "Title": "Automated Extraction of Labels from Large-Scale Historical Maps",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-12-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-008",
+    "Repository Link": "https://osf.io/g4dcq",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/g4dcq",
+    "Title": "Flood Impact Assessment on Road Network and Healthcare Access at the example of Jakarta, Indonesia",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-4-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-009",
+    "Repository Link": "https://osf.io/rdnyu",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/rdnyu",
+    "Title": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-010",
+    "Repository Link": "https://osf.io/bdu28",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/bdu28",
+    "Title": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
+    "Check date": "2021-06-10"
   }
 ]
