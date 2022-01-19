@@ -304,5 +304,10 @@
     "Title": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
     "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2022-001",
+    "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
+    "Type": "community"
   }
 ]
