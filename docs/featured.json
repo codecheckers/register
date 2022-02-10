@@ -83,6 +83,10 @@
   {
     "Certificate": "2022-001",
     "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
-    "Type": "community"
+    "Type": "community",
+    "Report": "https://doi.org/10.5281/zenodo.6040066",
+    "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
+    "Paper reference": "IIEP technical note (2021) http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
+    "Check date": "2022-01-19"
   }
 ]
