@@ -15,7 +15,7 @@ Here are some possible values or rules for the specific columns in the file:
   - `github::` for referencing a GitHub repository using `org/name`, e.g., `github::codecheckers/Piccolo-2020` from codecheckers organisation
   - `osf::` for referencing an OSF project using the project identifier, e.g.,  `osf::ZTC7M`
 - `Type`: type of the check, e.g., solicited as part of peer review in a journal or conference, or initiated from the community; possible values:
-  - `community` = check initiated independently by community members and following the [CODECHECK community process guide](https://codecheck.org.uk/guide/community-process); may be qualified further, e.g., for preprints as `community (preprint)`
+  - `community` = check initiated independently by community members and following the [CODECHECK community workflow guide](https://codecheck.org.uk/guide/community-workflow); may be qualified further, e.g., for preprints as `community (preprint)`
   - `journal (<journal abbreviation>)` = check conducted as part of a peer review process with a scientific journal, including a reference to the check in the published article; the journal abbreviation uses the [ISO 4](https://en.wikipedia.org/wiki/ISO_4) standard name for the journal, using common capitalization and omitting full stops, for example `J Geogr Syst` or `GigaScience` (find the correct name via Wikipedia or the journal website)
   - `conference (<conf name>)` = check conducted as part of a peer review process at a scientific conference, e.g., `conference (AGILEGIS)`
 - `Issue`: number of the issue in the register project where the CODECHECK is managed (informative mostly, not for metadata retrieval)
