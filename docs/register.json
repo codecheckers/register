@@ -313,5 +313,149 @@
     "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
     "Paper reference": "IIEP technical note (2021) http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
     "Check date": "2022-01-19"
+  },
+  {
+    "Certificate": "2022-002",
+    "Repository Link": "https://osf.io/Z7P8K",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/z7p8k",
+    "Title": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-2-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-003",
+    "Repository Link": "https://osf.io/JDTN3",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
+    "Title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-004",
+    "Repository Link": "https://osf.io/XPG6Y",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/XPG6Y",
+    "Title": "What are intersections for pedestrian users?",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-4-2022",
+    "Check date": "2021-07-09"
+  },
+  {
+    "Certificate": "2022-005",
+    "Repository Link": "https://osf.io/CDFAH",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/cdfah",
+    "Title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-006",
+    "Repository Link": "https://osf.io/W7VPH",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/W7VPH",
+    "Title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-6-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-007",
+    "Repository Link": "https://osf.io/3DSMV",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
+    "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-008",
+    "Repository Link": "https://osf.io/K78EB",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
+    "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-009",
+    "Repository Link": "https://osf.io/94VNX",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/94vnx",
+    "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
+    "Check date": "2021-07-09"
+  },
+  {
+    "Certificate": "2022-010",
+    "Repository Link": "https://osf.io/8B7MR",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/8b7mr",
+    "Title": "Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-13-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-011",
+    "Repository Link": "https://osf.io/KF8SR",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/kf8sr",
+    "Title": "Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-14-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-012",
+    "Repository Link": "https://osf.io/R6PSQ",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/r6psq",
+    "Title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-15-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-013",
+    "Repository Link": "https://osf.io/3G9S8",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/3g9s8",
+    "Title": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-16-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-014",
+    "Repository Link": "https://osf.io/6S2GP",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/6s2gp",
+    "Title": "A method to produce metadata describing and assessing the quality of spatial landmark datasets in mountain area",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-17-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-015",
+    "Repository Link": "https://osf.io/MVQCW",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/mvqcw",
+    "Title": "Unlocking social network analysis methods for studying human mobility",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-19-2022",
+    "Check date": "2021-07-09"
+  },
+  {
+    "Certificate": "2022-016",
+    "Repository Link": "https://osf.io/DJFC2",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/DJFC2",
+    "Title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
+    "Check date": "2021-07-09"
+  },
+  {
+    "Certificate": "2022-017",
+    "Repository Link": "https://osf.io/WNCSM",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/wncsm",
+    "Title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
+    "Check date": "2022-07-09"
   }
 ]
