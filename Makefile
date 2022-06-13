@@ -15,7 +15,7 @@ check: clean
 
 # automated builds not available on Docker Hub anymore
 image_build:
-	docker build --tag codecheckers/register:latest .
+	docker build --tag codecheckers/register:latest --no-cache .
 .phone: image_build
 
 image_push: image_build
