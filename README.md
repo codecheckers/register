@@ -39,13 +39,15 @@ Then, go to the new record and manually make the following changes:
 ## Files in this repository
 
 - [`register.csv`](register.csv): the main file to edit to put a new certificate into the register
+- [`Makefile`](Makefile): common commands for managing the register
+- [`Dockerfile`](Dockerfile): Dockerfile for building and image to use in the GitHub action; needs to be build and pushed to Docker Hub
 - [`docs/register.md`](register.md): Markdown table of the register with additional metadata for checks
 - [`docs/register.json`](docs/register.json) and [`docs/featured.json`](docs/featured.json): JSON file with additional metadata for checks, whereas the "featured" file only contains the last ten codechecks; use for integration of CODECHECK metadata in third party services, APIs, etc.; public links: [https://codecheck.org.uk/register/register.json](https://codecheck.org.uk/register/register.json) and [https://codecheck.org.uk/register/featured.json](https://codecheck.org.uk/register/featured.json)
 - [`docs/index.html`](https://codecheck.org.uk/register): HTML rendering of the extended register
 
 The above files are human-readable and machine-readable representations based on the register and metadata from the `codecheck.yml` files.
 
-_Do not edit any file besides `register.csv` by hand!_
+_Do not edit any file in the `docs` directory by hand! Edit only `register.csv`._
 
 ## Manual register rendering and checking
 
