@@ -1,14 +1,5 @@
 [
   {
-    "Certificate": "2022-008",
-    "Repository Link": "https://osf.io/K78EB",
-    "Type": "conference (AGILEGIS)",
-    "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
-    "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
-    "Check date": "2022-07-09"
-  },
-  {
     "Certificate": "2022-009",
     "Repository Link": "https://osf.io/94VNX",
     "Type": "conference (AGILEGIS)",
@@ -88,5 +79,14 @@
     "Title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
     "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-018",
+    "Repository Link": "https://gitlab.com/cdchck/community-codechecks/2022-svaRetro-svaNUMT",
+    "Type": "journal (GigaByte)",
+    "Report": "https://doi.org/10.5281/zenodo.7084333",
+    "Title": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
+    "Paper reference": "https://doi.org/10.46471/gigabyte.70",
+    "Check date": "2022-09-27"
   }
 ]

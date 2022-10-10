@@ -201,7 +201,7 @@
     "Certificate": "2020-024",
     "Repository Link": "https://github.com/codecheckers/driftage",
     "Type": "journal (GigaScience)",
-    "Report": "https://doi.org/10.5281/zenodo.4310025",
+    "Report": "https://doi.org/10.5281/zenodo.4964880",
     "Title": "Driftage: a multi-agent system framework for concept drift detection",
     "Paper reference": "https://doi.org/10.1093/gigascience/giab030",
     "Check date": "2020-12-07"
@@ -457,5 +457,14 @@
     "Title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
     "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-018",
+    "Repository Link": "https://gitlab.com/cdchck/community-codechecks/2022-svaRetro-svaNUMT",
+    "Type": "journal (GigaByte)",
+    "Report": "https://doi.org/10.5281/zenodo.7084333",
+    "Title": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
+    "Paper reference": "https://doi.org/10.46471/gigabyte.70",
+    "Check date": "2022-09-27"
   }
 ]
