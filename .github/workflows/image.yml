@@ -22,7 +22,7 @@ jobs:
 
   docker:
     needs: changes
-    if: ${{ needs.changes.outputs.dockerfile == 'true' }}
+    if: needs.changes.outputs.dockerfile == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Set up Docker Buildx
