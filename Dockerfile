@@ -20,4 +20,4 @@ LABEL maintainer = "Daniel Nüst <daniel.nuest@uni-muenster.de>"
 
 # Usage, from local copy of the register repository
 # docker build --tag codecheckers-register .
-# docker run --rm -it --user $UID -v $(pwd):/register codecheckers-register
+# docker run --rm -it --user rstudio -v $(pwd):/register codecheckers-register

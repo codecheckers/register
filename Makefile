@@ -13,11 +13,13 @@ clean: version
 check: clean
 	R -q -e "codecheck::register_check(); warnings();"
 
-# automated builds not available on Docker Hub anymore
+# automated build is active via GitHub Action
 image_build:
 	docker build --tag codecheckers/register:latest --no-cache .
-.phone: image_build
-
 image_push: image_build
 	docker push codecheckers/register:latest
-.phony: image_push
+.phony: image_build, image_push
+
+image_render:
+	docker pull codecheckers/register:latest
+	docker run --rm -it --user rstudio -v $(shell pwd):/register codecheckers/register:latest
