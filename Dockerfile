@@ -1,5 +1,5 @@
 # Dockerfile to render the CODECHECK register, see https://github.com/codecheckers/register
-FROM rocker/verse:4.2.0
+FROM rocker/verse:4.2
 
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   # needed for zen4R's dependency 'keyring'
