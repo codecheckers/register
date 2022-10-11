@@ -19,5 +19,5 @@ CMD [ "-e", "options(\"R.cache.rootPath\" = \"/tmp\"); codecheck::register_rende
 LABEL maintainer = "Daniel Nüst <daniel.nuest@uni-muenster.de>"
 
 # Usage, from local copy of the register repository
-# docker build --tag codecheckers/register .
-# docker run --rm -it --user $UID -v $(pwd):/register codecheckers/register
+# docker build --tag codecheckers-register .
+# docker run --rm -it --user $UID -v $(pwd):/register codecheckers-register
