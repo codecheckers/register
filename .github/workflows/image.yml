@@ -3,26 +3,10 @@ name: Build and push Docker image
 on:
   push:
     branches:
-      - 'master'
+      - master
 
 jobs:
-  changes:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Check if a rebuild is needed
-        # https://github.com/dorny/paths-filter
-        uses: dorny/paths-filter@v2
-        id: filter
-        with:
-          filters: |
-            dockerfile:
-              - 'Dockerfile'
-
   docker:
-    needs: changes
-    if: needs.changes.outputs.dockerfile == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Set up Docker Buildx
