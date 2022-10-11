@@ -7,7 +7,7 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
 
 ENV R_REMOTES_UPGRADE="never"
 
-RUN R -q -e 'remotes::install_github("eblondel/zen4R"); remotes::install_github("codecheckers/codecheck")'
+RUN R -q -e 'remotes::install_github("codecheckers/codecheck")'
 
 WORKDIR /register
 
