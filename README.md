@@ -34,7 +34,7 @@ Then, go to the new record and manually make the following changes:
 - update the ORCIDs and affiliations of authors
 - set the license to "CC BY SA 4.0 international"
 - update the Desription text (see previous records)
-- add https://codecheck.org.uk/register/ as a related identifier with "is new version of this upload"
+- add <https://codecheck.org.uk/register/> as a related identifier with "is new version of this upload"
 
 ## Files in this repository
 
