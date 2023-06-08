@@ -32,6 +32,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - run: git config --system --add safe.directory /__w/register/register
       - name: Rate before
         run: |
           curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit
@@ -45,5 +46,5 @@ jobs:
       - name: Update register
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_author: CODECHECK bot <daniel.nuest@uni-muenster.de>
+          commit_author: CODECHECK bot <daniel.nuest@tu-dresden.de>
           commit_message: Update register renderings
