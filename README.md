@@ -54,6 +54,8 @@ _Do not edit any file in the `docs` directory by hand! Edit only `register.csv`.
 The representations above can also be generated manually using the following command from the [`codecheck` R package](https://github.com/codecheckers/codecheck):
 
 ```bash
+# R -q -e "remotes::install_github('codecheckers/codecheck')"
+
 R -q -e "codecheck::register_render(); warnings()"
 ```
 
