@@ -23,6 +23,8 @@ Here are some possible values or rules for the specific columns in the file:
 To update the register, simply edit the `register.csv` file and submit the change.
 A GitHub Action will apply the process outlined below for manual rendering to update the different representations of the register, including the website, in case the main register file changes.
 
+**Note:** The GitHub action requiest a `PAT` token to be added, because the default per-action-run token is not used by the R code that renders the package.
+
 ## Deposit/archive
 
 This repository is archived manually, in regular intervals, on Zenodo using the [GitHub-Zenodo-Integration](https://guides.github.com/activities/citable-code/).
