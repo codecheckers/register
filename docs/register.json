@@ -556,5 +556,10 @@
     "Title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-4-2023",
     "Check date": "2023-06-13"
+  },
+  {
+    "Certificate": "2023-011",
+    "Repository Link": "https://github.com/codecheckers/rmr-solver",
+    "Type": "community (preprint)"
   }
 ]
