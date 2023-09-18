@@ -61,4 +61,4 @@ Certificate,Repository,Type,Issue
 2023-008,osf::aqgxr,conference (AGILEGIS),49
 2023-009,osf::9kp7u,conference (AGILEGIS),49
 2023-010,osf::8t3bh,conference (AGILEGIS),49
-2023-011,missing,community (preprint),56
+2023-011,github::codecheckers/rmr-solver,community (preprint),56
