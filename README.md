@@ -34,7 +34,7 @@ Then, go to the new record and manually make the following changes:
 - add the record to [the CODECHECK community](https://zenodo.org/communities/codecheck/) (if not already included)
 - change the record type to "Dataset"
 - update the ORCIDs and affiliations of authors
-- set the license to "CC BY SA 4.0 international"
+- set the license to "Open Data Commons Attribution License"
 - update the Desription text (see previous records)
 - add <https://codecheck.org.uk/register/> as a related identifier with "is new version of this upload"
 
