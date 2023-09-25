@@ -66,4 +66,4 @@ title: CODECHECK Register
 |2023-008    |[aqgxr](https://osf.io/aqgxr)                                     |conference (AGILEGIS)    |[49](https://github.com/codecheckers/register/issues/49)|https://doi.org/10.17605/osf.io/aqgxr  |2023-06-13 |
 |2023-009    |[9kp7u](https://osf.io/9kp7u)                                     |conference (AGILEGIS)    |[49](https://github.com/codecheckers/register/issues/49)|https://doi.org/10.17605/osf.io/9kp7u  |2023-06-13 |
 |2023-010    |[8t3bh](https://osf.io/8t3bh)                                     |conference (AGILEGIS)    |[49](https://github.com/codecheckers/register/issues/49)|https://doi.org/10.17605/osf.io/8t3bh  |2023-06-13 |
-|2023-011    |[codecheckers/rmr-solver](https://github.com/codecheckers/rmr-solver)|community (preprint)     |[56](https://github.com/codecheckers/register/issues/56)|NA                                     |NA         |
+|2023-011    |[codecheckers/rmr-solver](https://github.com/codecheckers/rmr-solver)|community (preprint)     |[56](https://github.com/codecheckers/register/issues/56)|https://doi.org/10.5281/zenodo.8359199 |2023-09-18 |
