@@ -1,14 +1,5 @@
 [
   {
-    "Certificate": "2023-002",
-    "Repository Link": "https://osf.io/rbgvk",
-    "Type": "conference (AGILEGIS)",
-    "Report": "https://doi.org/10.17605/osf.io/rbgvk",
-    "Title": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-4-12-2023",
-    "Check date": "2023-06-13"
-  },
-  {
     "Certificate": "2023-003",
     "Repository Link": "https://osf.io/m5bhk",
     "Type": "conference (AGILEGIS)",
@@ -88,5 +79,10 @@
     "Title": "Does enforcing glenohumeral joint stability matter? A new rapid muscle redundancy solver highlights the importance of non-superficial shoulder muscles",
     "Paper reference": "BioRxiv preprint (2023)  https://www.biorxiv.org/content/10.1101/2023.07.11.548542v1",
     "Check date": "2023-09-18"
+  },
+  {
+    "Certificate": "2023-012",
+    "Repository Link": "https://github.com/codecheckers/leba-manuscript",
+    "Type": "community (preprint)"
   }
 ]
