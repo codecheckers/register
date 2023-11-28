@@ -569,6 +569,10 @@
   {
     "Certificate": "2023-012",
     "Repository Link": "https://github.com/codecheckers/leba-manuscript",
-    "Type": "community (preprint)"
+    "Type": " community (preprint)",
+    "Report": "https://doi.org/10.5281/zenodo.10213244",
+    "Title": "An inventory of human light exposure related behaviour",
+    "Paper reference": "Scientific Reports, in press (DOI 10.1038/s41598-023-48241-y) https://www.researchsquare.com/article/rs-2587424/v1",
+    "Check date": "2023-11-26"
   }
 ]
