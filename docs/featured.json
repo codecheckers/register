@@ -1,14 +1,5 @@
 [
   {
-    "Certificate": "2023-003",
-    "Repository Link": "https://osf.io/m5bhk",
-    "Type": "conference (AGILEGIS)",
-    "Report": "https://doi.org/10.17605/osf.io/m5bhk",
-    "Title": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquak",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-4-5-2023",
-    "Check date": "2023-06-13"
-  },
-  {
     "Certificate": "2023-004",
     "Repository Link": "https://osf.io/2em7v",
     "Type": "conference (AGILEGIS)",
@@ -88,5 +79,10 @@
     "Title": "An inventory of human light exposure related behaviour",
     "Paper reference": "Scientific Reports, in press (DOI 10.1038/s41598-023-48241-y) https://www.researchsquare.com/article/rs-2587424/v1",
     "Check date": "2023-11-26"
+  },
+  {
+    "Certificate": "2024-001",
+    "Repository Link": "https://github.com/codecheckers/LazarEtAl_RSocOpenSci_2024",
+    "Type": " community (preprint)"
   }
 ]

@@ -68,3 +68,4 @@ title: CODECHECK Register
 |2023-010    |[8t3bh](https://osf.io/8t3bh)                                     |conference (AGILEGIS)    |[4](https://github.com/codecheckers/register/issues/4)|https://doi.org/10.17605/osf.io/8t3bh   |2023-06-13 |
 |2023-011    |[codecheckers/rmr-solver](https://github.com/codecheckers/rmr-solver)|community (preprint)     |[56](https://github.com/codecheckers/register/issues/56)|https://doi.org/10.5281/zenodo.8359199  |2023-09-18 |
 |2023-012    |[codecheckers/leba-manuscript](https://github.com/codecheckers/leba-manuscript)|community (preprint)     |[59](https://github.com/codecheckers/register/issues/59)|https://doi.org/10.5281/zenodo.10213244 |2023-11-26 |
+|2024-001    |[codecheckers/LazarEtAl_RSocOpenSci_2024](https://github.com/codecheckers/LazarEtAl_RSocOpenSci_2024)|community (preprint)     |[60](https://github.com/codecheckers/register/issues/60)|NA                                      |NA         |
