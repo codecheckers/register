@@ -1,23 +1,24 @@
 ---
-title: CODECHECK Register
+title: CODECHECK Register 
 ---
+
 
 |Certificate |Repository                                                        |Type                     |Issue |Report                                  |Check date |
 |:-------|:--------------------------------|:------------------|:---|:--------------------------|:----------|
 |2020-001    |[codecheckers/Piccolo-2020](https://github.com/codecheckers/Piccolo-2020)|journal (GigaScience)    |NA    |http://doi.org/10.5281/zenodo.3674056   |2019-02-14 |
-|2020-002    |[codecheckers/Reproduction-Hancock](https://github.com/codecheckers/Reproduction-Hancock)|community                |[2](https://github.com/codecheckers/register/issues/2)|http://doi.org/10.5281/zenodo.3750741   |2020-04-13 |
-|2020-003    |[codecheckers/Hopfield-1982](https://github.com/codecheckers/Hopfield-1982)|community                |[1](https://github.com/codecheckers/register/issues/1)|https://doi.org/10.5281/zenodo.3741797  |2020-04-06 |
-|2020-004    |[codecheckers/Barto-Sutton-Anderson-1983](https://github.com/codecheckers/Barto-Sutton-Anderson-1983)|community                |[4](https://github.com/codecheckers/register/issues/4)|https://doi.org/10.5281/zenodo.3827371  |2020-05-14 |
-|2020-005    |[codecheckers/Larisch-reproduction](https://github.com/codecheckers/Larisch-reproduction)|community                |[5](https://github.com/codecheckers/register/issues/5)|https://doi.org/10.5281/zenodo.3959175  |2020-07-23 |
-|2020-006    |[codecheckers/Detorakis-reproduction](https://github.com/codecheckers/Detorakis-reproduction)|community                |[6](https://github.com/codecheckers/register/issues/6)|https://doi.org/10.5281/zenodo.3948353  |2020-07-16 |
+|2020-002    |[codecheckers/Reproduction-Hancock](https://github.com/codecheckers/Reproduction-Hancock)|community (codecheck)    |[2](https://github.com/codecheckers/register/issues/2)|http://doi.org/10.5281/zenodo.3750741   |2020-04-13 |
+|2020-003    |[codecheckers/Hopfield-1982](https://github.com/codecheckers/Hopfield-1982)|community (codecheck)    |[1](https://github.com/codecheckers/register/issues/1)|https://doi.org/10.5281/zenodo.3741797  |2020-04-06 |
+|2020-004    |[codecheckers/Barto-Sutton-Anderson-1983](https://github.com/codecheckers/Barto-Sutton-Anderson-1983)|community (codecheck)    |[4](https://github.com/codecheckers/register/issues/4)|https://doi.org/10.5281/zenodo.3827371  |2020-05-14 |
+|2020-005    |[codecheckers/Larisch-reproduction](https://github.com/codecheckers/Larisch-reproduction)|community (codecheck)    |[5](https://github.com/codecheckers/register/issues/5)|https://doi.org/10.5281/zenodo.3959175  |2020-07-23 |
+|2020-006    |[codecheckers/Detorakis-reproduction](https://github.com/codecheckers/Detorakis-reproduction)|community (codecheck)    |[6](https://github.com/codecheckers/register/issues/6)|https://doi.org/10.5281/zenodo.3948353  |2020-07-16 |
 |2020-008    |[codecheckers/covid-uk](https://github.com/codecheckers/covid-uk) |community (preprint)     |[8](https://github.com/codecheckers/register/issues/8)|http://doi.org/10.5281/zenodo.3746024   |2020-04-09 |
 |2020-009    |[codecheckers/2020-cov-tracing](https://github.com/codecheckers/2020-cov-tracing)|community (preprint)     |[9](https://github.com/codecheckers/register/issues/9)|http://doi.org/10.5281/zenodo.3767060   |2020-04-26 |
 |2020-010    |[codecheckers/covid-report9](https://github.com/codecheckers/covid-report9)|community (preprint)     |[14](https://github.com/codecheckers/register/issues/14)|https://doi.org/10.5281/zenodo.3865491  |2020-05-29 |
 |2020-011    |[codecheckers/covid19model-nature](https://github.com/codecheckers/covid19model-nature)|community (in press)     |[18](https://github.com/codecheckers/register/issues/18)|https://doi.org/10.5281/zenodo.3893138  |2020-06-13 |
 |2020-012    |[codecheckers/covid19model-report23](https://github.com/codecheckers/covid19model-report23)|community (preprint)     |[19](https://github.com/codecheckers/register/issues/19)|https://doi.org/10.5281/zenodo.3893617  |2020-06-14 |
 |2020-013    |[codecheckers/Spitschan2020_bioRxiv](https://github.com/codecheckers/Spitschan2020_bioRxiv)|community (preprint)     |[20](https://github.com/codecheckers/register/issues/20)|https://doi.org/10.5281/zenodo.3947959  |2020-07-14 |
-|2020-014    |[codecheckers/Sadeh-and-Clopath](https://github.com/codecheckers/Sadeh-and-Clopath)|community                |[21](https://github.com/codecheckers/register/issues/21)|https://doi.org/10.5281/zenodo.3967326  |2020-07-28 |
-|2020-015    |[codecheckers/Liou-and-Bateman](https://github.com/codecheckers/Liou-and-Bateman)|community                |[22](https://github.com/codecheckers/register/issues/22)|https://doi.org/10.5281/zenodo.3978402  |2020-08-04 |
+|2020-014    |[codecheckers/Sadeh-and-Clopath](https://github.com/codecheckers/Sadeh-and-Clopath)|community (codecheck)    |[21](https://github.com/codecheckers/register/issues/21)|https://doi.org/10.5281/zenodo.3967326  |2020-07-28 |
+|2020-015    |[codecheckers/Liou-and-Bateman](https://github.com/codecheckers/Liou-and-Bateman)|community (codecheck)    |[22](https://github.com/codecheckers/register/issues/22)|https://doi.org/10.5281/zenodo.3978402  |2020-08-04 |
 |2020-016    |[codecheckers/OpeningPractice](https://github.com/codecheckers/OpeningPractice)|journal (J Geogr Syst)   |[15](https://github.com/codecheckers/register/issues/15)|https://doi.org/10.5281/zenodo.3981253  |2020-06-02 |
 |2020-017    |[codecheckers/JGSY-D-19-00087](https://github.com/codecheckers/JGSY-D-19-00087)|journal (J Geogr Syst)   |[24](https://github.com/codecheckers/register/issues/24)|https://doi.org/10.5281/zenodo.4003848  |2020-08-27 |
 |2020-018    |[reproducible-agile/AGILECA](https://github.com/reproducible-agile/AGILECA)|conference (AGILEGIS)    |[25](https://github.com/codecheckers/register/issues/25)|https://doi.org/10.17605/OSF.IO/ZTC7M   |2020-07-13 |
@@ -38,7 +39,7 @@ title: CODECHECK Register
 |2021-008    |[g4dcq](https://osf.io/g4dcq)                                     |conference (AGILEGIS)    |[38](https://github.com/codecheckers/register/issues/38)|https://doi.org/10.17605/osf.io/g4dcq   |2021-06-10 |
 |2021-009    |[rdnyu](https://osf.io/rdnyu)                                     |conference (AGILEGIS)    |[38](https://github.com/codecheckers/register/issues/38)|https://doi.org/10.17605/osf.io/rdnyu   |2021-06-10 |
 |2021-010    |[bdu28](https://osf.io/bdu28)                                     |conference (AGILEGIS)    |[38](https://github.com/codecheckers/register/issues/38)|https://doi.org/10.17605/osf.io/bdu28   |2021-06-10 |
-|2022-001    |[codecheckers/GWR-in-educational-planning](https://github.com/codecheckers/GWR-in-educational-planning)|community                |[40](https://github.com/codecheckers/register/issues/40)|https://doi.org/10.5281/zenodo.6040066  |2022-01-19 |
+|2022-001    |[codecheckers/GWR-in-educational-planning](https://github.com/codecheckers/GWR-in-educational-planning)|community (codecheck)    |[40](https://github.com/codecheckers/register/issues/40)|https://doi.org/10.5281/zenodo.6040066  |2022-01-19 |
 |2022-002    |[Z7P8K](https://osf.io/Z7P8K)                                     |conference (AGILEGIS)    |[41](https://github.com/codecheckers/register/issues/41)|https://doi.org/10.17605/osf.io/z7p8k   |2022-07-09 |
 |2022-003    |[JDTN3](https://osf.io/JDTN3)                                     |conference (AGILEGIS)    |[41](https://github.com/codecheckers/register/issues/41)|https://doi.org/10.17605/OSF.IO/JDTN3   |2022-07-09 |
 |2022-004    |[XPG6Y](https://osf.io/XPG6Y)                                     |conference (AGILEGIS)    |[41](https://github.com/codecheckers/register/issues/41)|https://doi.org/10.17605/osf.io/XPG6Y   |2022-07-09 |
