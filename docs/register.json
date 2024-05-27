@@ -11,7 +11,7 @@
   {
     "Certificate": "2020-002",
     "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
-    "Type": "community",
+    "Type": "community (codecheck)",
     "Report": "http://doi.org/10.5281/zenodo.3750741",
     "Title": "The principal components of natural images",
     "Paper reference": "https://doi.org/10.1088/0954-898X_3_1_008",
@@ -20,7 +20,7 @@
   {
     "Certificate": "2020-003",
     "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
-    "Type": "community",
+    "Type": "community (codecheck)",
     "Report": "https://doi.org/10.5281/zenodo.3741797",
     "Title": "Neural networks and physical systems with emergent collective computational abilities",
     "Paper reference": "https://doi.org/10.1073/pnas.79.8.2554",
@@ -29,7 +29,7 @@
   {
     "Certificate": "2020-004",
     "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
-    "Type": "community",
+    "Type": "community (codecheck)",
     "Report": "https://doi.org/10.5281/zenodo.3827371",
     "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
     "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
@@ -38,7 +38,7 @@
   {
     "Certificate": "2020-005",
     "Repository Link": "https://github.com/codecheckers/Larisch-reproduction",
-    "Type": "community",
+    "Type": "community (codecheck)",
     "Report": "https://doi.org/10.5281/zenodo.3959175",
     "Title": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis",
     "Paper reference": "ReScience C (2019) 5, 3, 2 http://rescience.github.io/bibliography/Larisch_2019.html",
@@ -47,7 +47,7 @@
   {
     "Certificate": "2020-006",
     "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
-    "Type": "community",
+    "Type": "community (codecheck)",
     "Report": "https://doi.org/10.5281/zenodo.3948353",
     "Title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
     "Paper reference": "ReScience (2017) 3, 1, 7 http://rescience.github.io/bibliography/detorakis_2017.html",
@@ -110,7 +110,7 @@
   {
     "Certificate": "2020-014",
     "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
-    "Type": "community",
+    "Type": "community (codecheck)",
     "Report": "https://doi.org/10.5281/zenodo.3967326",
     "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
     "Paper reference": "https://doi.org/10.7554/eLife.52757",
@@ -119,7 +119,7 @@
   {
     "Certificate": "2020-015",
     "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
-    "Type": "community",
+    "Type": "community (codecheck)",
     "Report": "https://doi.org/10.5281/zenodo.3978402",
     "Title": "A model for focal seizure onset, propagation, evolution, and progression",
     "Paper reference": "https://doi.org/10.7554/eLife.50927",
@@ -308,7 +308,7 @@
   {
     "Certificate": "2022-001",
     "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
-    "Type": "community",
+    "Type": "community (codecheck)",
     "Report": "https://doi.org/10.5281/zenodo.6040066",
     "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
     "Paper reference": "IIEP technical note (2021) http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
