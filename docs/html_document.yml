@@ -1,9 +1,0 @@
-html_document:
-  includes:
-    in_header: index_header.html
-    before_body: index_prefix.html
-    after_body: index_postfix.html
-  mathjax: null
-  highlight: null
-  self_contained: false
-  lib_dir: libs
