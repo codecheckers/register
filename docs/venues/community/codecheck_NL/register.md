@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for  community (codecheck NL)
+title: CODECHECK Register for community (codecheck NL)
 ---
 
 

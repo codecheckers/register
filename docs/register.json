@@ -569,7 +569,7 @@
   {
     "Certificate": "2023-012",
     "Repository Link": "https://github.com/codecheckers/leba-manuscript",
-    "Type": " community (preprint)",
+    "Type": "community (preprint)",
     "Report": "https://doi.org/10.5281/zenodo.10213244",
     "Title": "An inventory of human light exposure related behaviour",
     "Paper reference": "Scientific Reports, in press (DOI 10.1038/s41598-023-48241-y) https://www.researchsquare.com/article/rs-2587424/v1",
@@ -578,7 +578,7 @@
   {
     "Certificate": "2024-001",
     "Repository Link": "https://github.com/codecheckers/LazarEtAl_RSocOpenSci_2024",
-    "Type": " community (preprint)",
+    "Type": "community (preprint)",
     "Report": "https://doi.org/10.5281/zenodo.10823246",
     "Title": "Regulation of pupil size in natural vision across the human lifespan",
     "Paper reference": "Royal Society Open Science (in press) https://osf.io/zrksf/",
@@ -587,7 +587,7 @@
   {
     "Certificate": "2024-002",
     "Repository Link": "https://github.com/codecheckers/domestic.wastewater.variability",
-    "Type": " community (codecheck NL)",
+    "Type": "community (codecheck NL)",
     "Report": "https://doi.org/10.5281/zenodo.FIXME",
     "Title": "The principal components of natural images",
     "Paper reference": "Network (1992) 3:61-70 http://pdfs.semanticscholar.org/7dcf/a42cfe3b59becb441844b72558b361693608.pdf",
@@ -596,7 +596,7 @@
   {
     "Certificate": "2024-003",
     "Repository Link": "https://github.com/codecheckers/sddtmpc",
-    "Type": " community (codecheck NL)",
+    "Type": "community (codecheck NL)",
     "Report": "https://doi.org/10.5281/zenodo.11403956",
     "Title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
     "Paper reference": "https://arxiv.org/pdf/2310.19997",
