@@ -1,0 +1,191 @@
+[
+  {
+    "Certificate": "2020-002",
+    "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
+    "Type": "community (codecheck)",
+    "Report": "http://doi.org/10.5281/zenodo.3750741",
+    "Title": "The principal components of natural images",
+    "Paper reference": "https://doi.org/10.1088/0954-898X_3_1_008",
+    "Check date": "2020-04-13"
+  },
+  {
+    "Certificate": "2020-003",
+    "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
+    "Type": "community (codecheck)",
+    "Report": "https://doi.org/10.5281/zenodo.3741797",
+    "Title": "Neural networks and physical systems with emergent collective computational abilities",
+    "Paper reference": "https://doi.org/10.1073/pnas.79.8.2554",
+    "Check date": "2020-04-06"
+  },
+  {
+    "Certificate": "2020-004",
+    "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
+    "Type": "community (codecheck)",
+    "Report": "https://doi.org/10.5281/zenodo.3827371",
+    "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
+    "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
+    "Check date": "2020-05-14"
+  },
+  {
+    "Certificate": "2020-016",
+    "Repository Link": "https://github.com/codecheckers/OpeningPractice",
+    "Type": "journal (J Geogr Syst)",
+    "Report": "https://doi.org/10.5281/zenodo.3981253",
+    "Title": "Opening practice: supporting reproducibility and critical spatial data science",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00334-2",
+    "Check date": "2020-06-02"
+  },
+  {
+    "Certificate": "2020-017",
+    "Repository Link": "https://github.com/codecheckers/JGSY-D-19-00087",
+    "Type": "journal (J Geogr Syst)",
+    "Report": "https://doi.org/10.5281/zenodo.4003848",
+    "Title": "Progress in the R ecosystem for representing and handling spatial data",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00336-0",
+    "Check date": "2020-08-27"
+  },
+  {
+    "Certificate": "2020-018",
+    "Repository Link": "https://github.com/reproducible-agile/AGILECA",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
+    "Title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-6-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-019",
+    "Repository Link": "https://osf.io/5SVMT",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
+    "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-020",
+    "Repository Link": "https://osf.io/7TWR2",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
+    "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-021",
+    "Repository Link": "https://github.com/reproducible-agile/Spatial-nominal-entity-recognition",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
+    "Title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-022",
+    "Repository Link": "https://osf.io/7XRQG",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/7XRQG",
+    "Title": "Extracting interrogative intents and concepts from geo-analytic questions.",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-23-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-023",
+    "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
+    "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-025",
+    "Repository Link": "https://github.com/codecheckers/LICD_article",
+    "Type": "journal (J Archaeol Sci)",
+    "Report": "https://doi.org/10.5281/zenodo.4279275",
+    "Title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+    "Paper reference": "https://doi.org/10.1016/j.jas.2020.105306",
+    "Check date": "2020-11-19"
+  },
+  {
+    "Certificate": "2021-004",
+    "Repository Link": "https://osf.io/2sc7g",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/2sc7g",
+    "Title": "Extraction of linear structures from digital terrain models using deep learning",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-11-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-005",
+    "Repository Link": "https://osf.io/7fqtm",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/7fqtm",
+    "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-007",
+    "Repository Link": "https://osf.io/anv9r",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/anv9r",
+    "Title": "Automated Extraction of Labels from Large-Scale Historical Maps",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-12-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-009",
+    "Repository Link": "https://osf.io/rdnyu",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/rdnyu",
+    "Title": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2021-010",
+    "Repository Link": "https://osf.io/bdu28",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/bdu28",
+    "Title": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2022-007",
+    "Repository Link": "https://osf.io/3DSMV",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
+    "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-008",
+    "Repository Link": "https://osf.io/K78EB",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
+    "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-010",
+    "Repository Link": "https://osf.io/8B7MR",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/8b7mr",
+    "Title": "Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-13-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2024-002",
+    "Repository Link": "https://github.com/codecheckers/domestic.wastewater.variability",
+    "Type": "CODECHECK NL",
+    "Report": "https://doi.org/10.5281/zenodo.FIXME",
+    "Title": "The principal components of natural images",
+    "Paper reference": "Network (1992) 3:61-70 http://pdfs.semanticscholar.org/7dcf/a42cfe3b59becb441844b72558b361693608.pdf",
+    "Check date": "2020-04-13"
+  }
+]
