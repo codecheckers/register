@@ -1,7 +1,6 @@
 ---
-title: CODECHECK Register 
+title: CODECHECK Register
 ---
-
 
 |Certificate |Repository                                                        |Type                     |Issue |Report                                  |Check date |
 |:-------|:--------------------------------|:------------------|:---|:--------------------------|:----------|
