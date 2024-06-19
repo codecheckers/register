@@ -1,0 +1,20 @@
+[
+  {
+    "Certificate": "2024-002",
+    "Repository Link": "https://github.com/codecheckers/domestic.wastewater.variability",
+    "Type": " community (codecheck NL)",
+    "Report": "https://doi.org/10.5281/zenodo.FIXME",
+    "Title": "The principal components of natural images",
+    "Paper reference": "Network (1992) 3:61-70 http://pdfs.semanticscholar.org/7dcf/a42cfe3b59becb441844b72558b361693608.pdf",
+    "Check date": "2020-04-13"
+  },
+  {
+    "Certificate": "2024-003",
+    "Repository Link": "https://github.com/codecheckers/sddtmpc",
+    "Type": " community (codecheck NL)",
+    "Report": "https://doi.org/10.5281/zenodo.11403956",
+    "Title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
+    "Paper reference": "https://arxiv.org/pdf/2310.19997",
+    "Check date": "2024-05-30"
+  }
+]
