@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for codechecks by Daniel Nüst
+title: Codechecks by Daniel Nüst (0000-0002-0024-5046)
 ---
 
 
@@ -25,4 +25,4 @@ title: CODECHECK Register for codechecks by Daniel Nüst
 |2022-007    |[3DSMV](https://osf.io/3DSMV)                                     |conference (AGILEGIS)    |[41](https://github.com/codecheckers/register/issues/41)|https://doi.org/10.17605/OSF.IO/3DSMV  |2022-07-09 |
 |2022-008    |[K78EB](https://osf.io/K78EB)                                     |conference (AGILEGIS)    |[41](https://github.com/codecheckers/register/issues/41)|https://doi.org/10.17605/OSF.IO/K78EB  |2022-07-09 |
 |2022-010    |[8B7MR](https://osf.io/8B7MR)                                     |conference (AGILEGIS)    |[41](https://github.com/codecheckers/register/issues/41)|https://doi.org/10.17605/osf.io/8b7mr  |2022-07-09 |
-|2024-002    |[codecheckers/domestic.wastewater.variability](https://github.com/codecheckers/domestic.wastewater.variability)|CODECHECK NL             |[61](https://github.com/codecheckers/register/issues/61)|https://doi.org/10.5281/zenodo.FIXME   |2020-04-13 |
+|2024-002    |[codecheckers/domestic.wastewater.variability](https://github.com/codecheckers/domestic.wastewater.variability)|community (codecheck NL) |[61](https://github.com/codecheckers/register/issues/61)|https://doi.org/10.5281/zenodo.FIXME   |2020-04-13 |

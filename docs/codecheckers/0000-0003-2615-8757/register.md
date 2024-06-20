@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for codechecks by Jakub Krukar
+title: Codechecks by Jakub Krukar (0000-0003-2615-8757)
 ---
 
 

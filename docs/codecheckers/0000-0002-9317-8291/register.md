@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for codechecks by Frank O. Ostermann
+title: Codechecks by Frank O. Ostermann (0000-0002-9317-8291)
 ---
 
 

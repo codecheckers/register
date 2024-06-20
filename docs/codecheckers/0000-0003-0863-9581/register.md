@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for codechecks by Rémy Decoupes
+title: Codechecks by Rémy Decoupes (0000-0003-0863-9581)
 ---
 
 

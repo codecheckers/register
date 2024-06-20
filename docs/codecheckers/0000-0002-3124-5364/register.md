@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for codechecks by Philipp A. Friese
+title: Codechecks by Philipp A. Friese (0000-0002-3124-5364)
 ---
 
 
