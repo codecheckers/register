@@ -62,6 +62,7 @@ Certificate,Repository,Type,Issue
 2023-009,osf::9kp7u,conference (AGILEGIS),49
 2023-010,osf::8t3bh,conference (AGILEGIS),4
 2023-011,github::codecheckers/rmr-solver,community (preprint),56
-2023-012,github::codecheckers/leba-manuscript, community (preprint),59
-2024-001,github::codecheckers/LazarEtAl_RSocOpenSci_2024, community (preprint),60
-2024-002,github::codecheckers/domestic.wastewater.variability,CODECHECK NL,61
+2023-012,github::codecheckers/leba-manuscript,community (preprint),59
+2024-001,github::codecheckers/LazarEtAl_RSocOpenSci_2024,community (preprint),60
+2024-002,github::codecheckers/domestic.wastewater.variability,community (codecheck NL),61
+2024-003,github::codecheckers/sddtmpc,community (codecheck NL),66
