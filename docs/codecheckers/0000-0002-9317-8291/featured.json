@@ -1,0 +1,56 @@
+[
+  {
+    "Certificate": "2020-020",
+    "Repository Link": "https://osf.io/7TWR2",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
+    "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-021",
+    "Repository Link": "https://github.com/reproducible-agile/Spatial-nominal-entity-recognition",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
+    "Title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2020-023",
+    "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
+    "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2021-005",
+    "Repository Link": "https://osf.io/7fqtm",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/7fqtm",
+    "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate": "2022-005",
+    "Repository Link": "https://osf.io/CDFAH",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/cdfah",
+    "Title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-009",
+    "Repository Link": "https://osf.io/94VNX",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/osf.io/94vnx",
+    "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
+    "Check date": "2022-07-09"
+  }
+]

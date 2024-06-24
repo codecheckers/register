@@ -1,0 +1,29 @@
+[
+  {
+    "Certificate": "2020-019",
+    "Repository Link": "https://osf.io/5SVMT",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
+    "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
+    "Check date": "2020-07-13"
+  },
+  {
+    "Certificate": "2022-003",
+    "Repository Link": "https://osf.io/JDTN3",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
+    "Title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2022-016",
+    "Repository Link": "https://osf.io/DJFC2",
+    "Type": "conference (AGILEGIS)",
+    "Report": "https://doi.org/10.17605/OSF.IO/DJFC2",
+    "Title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
+    "Check date": "2022-07-09"
+  }
+]
