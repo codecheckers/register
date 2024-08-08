@@ -1,0 +1,47 @@
+[
+  {
+    "Venue name": "Journal GigaScience",
+    "No. of codechecks": "2",
+    "Venue type": "Journal"
+  },
+  {
+    "Venue name": "Codecheck",
+    "No. of codechecks": "8",
+    "Venue type": "Community"
+  },
+  {
+    "Venue name": "Preprint",
+    "No. of codechecks": "9",
+    "Venue type": "Community"
+  },
+  {
+    "Venue name": "In press",
+    "No. of codechecks": "1",
+    "Venue type": "Community"
+  },
+  {
+    "Venue name": "Journal of Geographical Systems",
+    "No. of codechecks": "2",
+    "Venue type": "Journal"
+  },
+  {
+    "Venue name": "Conference AGILEGIS",
+    "No. of codechecks": "41",
+    "Venue type": "Conference"
+  },
+  {
+    "Venue name": "Journal of Archaeological Science",
+    "No. of codechecks": "1",
+    "Venue type": "Journal"
+  },
+  {
+    "Venue name": "GigaByte",
+    "No. of codechecks": "1",
+    "Venue type": "Journal"
+  },
+  {
+    "Venue name": "Codecheck NL",
+    "No. of codechecks": "2",
+    "Venue type": "Community"
+  }
+]
