@@ -1,4 +1,4 @@
 
 .Renviron
 html_document.yml
-*.DS_Store
+.DS_Store
