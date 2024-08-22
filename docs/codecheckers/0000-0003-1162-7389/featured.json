@@ -2,7 +2,8 @@
   {
     "Certificate": "2022-004",
     "Repository Link": "https://osf.io/XPG6Y",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/XPG6Y",
     "Title": "What are intersections for pedestrian users?",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-4-2022",
@@ -11,7 +12,8 @@
   {
     "Certificate": "2022-007",
     "Repository Link": "https://osf.io/3DSMV",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
     "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",

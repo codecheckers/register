@@ -2,7 +2,8 @@
   {
     "Certificate": "2020-001",
     "Repository Link": "https://github.com/codecheckers/Piccolo-2020",
-    "Type": "journal (GigaScience)",
+    "Type": "journal",
+    "Venue": "GigaScience",
     "Report": "http://doi.org/10.5281/zenodo.3674056",
     "Title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
     "Paper reference": "https://doi.org/10.1093/gigascience/giaa026",
@@ -11,7 +12,8 @@
   {
     "Certificate": "2020-002",
     "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
-    "Type": "community (codecheck)",
+    "Type": "community",
+    "Venue": "codecheck",
     "Report": "http://doi.org/10.5281/zenodo.3750741",
     "Title": "The principal components of natural images",
     "Paper reference": "https://doi.org/10.1088/0954-898X_3_1_008",
@@ -20,7 +22,8 @@
   {
     "Certificate": "2020-003",
     "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
-    "Type": "community (codecheck)",
+    "Type": "community",
+    "Venue": "codecheck",
     "Report": "https://doi.org/10.5281/zenodo.3741797",
     "Title": "Neural networks and physical systems with emergent collective computational abilities",
     "Paper reference": "https://doi.org/10.1073/pnas.79.8.2554",
@@ -29,7 +32,8 @@
   {
     "Certificate": "2020-004",
     "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
-    "Type": "community (codecheck)",
+    "Type": "community",
+    "Venue": "codecheck",
     "Report": "https://doi.org/10.5281/zenodo.3827371",
     "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
     "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
@@ -38,7 +42,8 @@
   {
     "Certificate": "2020-005",
     "Repository Link": "https://github.com/codecheckers/Larisch-reproduction",
-    "Type": "community (codecheck)",
+    "Type": "community",
+    "Venue": "codecheck",
     "Report": "https://doi.org/10.5281/zenodo.3959175",
     "Title": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis",
     "Paper reference": "ReScience C (2019) 5, 3, 2 http://rescience.github.io/bibliography/Larisch_2019.html",
@@ -47,7 +52,8 @@
   {
     "Certificate": "2020-006",
     "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
-    "Type": "community (codecheck)",
+    "Type": "community",
+    "Venue": "codecheck",
     "Report": "https://doi.org/10.5281/zenodo.3948353",
     "Title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
     "Paper reference": "ReScience (2017) 3, 1, 7 http://rescience.github.io/bibliography/detorakis_2017.html",
@@ -56,7 +62,8 @@
   {
     "Certificate": "2020-008",
     "Repository Link": "https://github.com/codecheckers/covid-uk",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "http://doi.org/10.5281/zenodo.3746024",
     "Title": "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study",
     "Paper reference": "<https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf>",
@@ -65,7 +72,8 @@
   {
     "Certificate": "2020-009",
     "Repository Link": "https://github.com/codecheckers/2020-cov-tracing",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "http://doi.org/10.5281/zenodo.3767060",
     "Title": "Model of isolation, contact tracing, and physical distancing",
     "Paper reference": "Preprint https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf",
@@ -74,7 +82,8 @@
   {
     "Certificate": "2020-010",
     "Repository Link": "https://github.com/codecheckers/covid-report9",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.3865491",
     "Title": "Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020.",
     "Paper reference": "Imperial College Preprint  https://doi.org/10.25561/77482",
@@ -83,7 +92,8 @@
   {
     "Certificate": "2020-011",
     "Repository Link": "https://github.com/codecheckers/covid19model-nature",
-    "Type": "community (in press)",
+    "Type": "community",
+    "Venue": "in press",
     "Report": "https://doi.org/10.5281/zenodo.3893138",
     "Title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
     "Paper reference": "http://doi.org/10.1038/s41586-020-2405-7",
@@ -92,7 +102,8 @@
   {
     "Certificate": "2020-012",
     "Repository Link": "https://github.com/codecheckers/covid19model-report23",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.3893617",
     "Title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)",
     "Paper reference": "https://doi.org/10.25561/79231",
@@ -101,7 +112,8 @@
   {
     "Certificate": "2020-013",
     "Repository Link": "https://github.com/codecheckers/Spitschan2020_bioRxiv",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.3947959",
     "Title": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision",
     "Paper reference": "https://doi.org/10.1101/2020.06.02.129502",
@@ -110,7 +122,8 @@
   {
     "Certificate": "2020-014",
     "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
-    "Type": "community (codecheck)",
+    "Type": "community",
+    "Venue": "codecheck",
     "Report": "https://doi.org/10.5281/zenodo.3967326",
     "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
     "Paper reference": "https://doi.org/10.7554/eLife.52757",
@@ -119,7 +132,8 @@
   {
     "Certificate": "2020-015",
     "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
-    "Type": "community (codecheck)",
+    "Type": "community",
+    "Venue": "codecheck",
     "Report": "https://doi.org/10.5281/zenodo.3978402",
     "Title": "A model for focal seizure onset, propagation, evolution, and progression",
     "Paper reference": "https://doi.org/10.7554/eLife.50927",
@@ -128,7 +142,8 @@
   {
     "Certificate": "2020-016",
     "Repository Link": "https://github.com/codecheckers/OpeningPractice",
-    "Type": "journal (J Geogr Syst)",
+    "Type": "journal",
+    "Venue": "J Geogr Syst",
     "Report": "https://doi.org/10.5281/zenodo.3981253",
     "Title": "Opening practice: supporting reproducibility and critical spatial data science",
     "Paper reference": "https://doi.org/10.1007/s10109-020-00334-2",
@@ -137,7 +152,8 @@
   {
     "Certificate": "2020-017",
     "Repository Link": "https://github.com/codecheckers/JGSY-D-19-00087",
-    "Type": "journal (J Geogr Syst)",
+    "Type": "journal",
+    "Venue": "J Geogr Syst",
     "Report": "https://doi.org/10.5281/zenodo.4003848",
     "Title": "Progress in the R ecosystem for representing and handling spatial data",
     "Paper reference": "https://doi.org/10.1007/s10109-020-00336-0",
@@ -146,7 +162,8 @@
   {
     "Certificate": "2020-018",
     "Repository Link": "https://github.com/reproducible-agile/AGILECA",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
     "Title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-6-2020",
@@ -155,7 +172,8 @@
   {
     "Certificate": "2020-019",
     "Repository Link": "https://osf.io/5SVMT",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
     "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
@@ -164,7 +182,8 @@
   {
     "Certificate": "2020-020",
     "Repository Link": "https://osf.io/7TWR2",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
     "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
@@ -173,7 +192,8 @@
   {
     "Certificate": "2020-021",
     "Repository Link": "https://github.com/reproducible-agile/Spatial-nominal-entity-recognition",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
     "Title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
@@ -182,7 +202,8 @@
   {
     "Certificate": "2020-022",
     "Repository Link": "https://osf.io/7XRQG",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/7XRQG",
     "Title": "Extracting interrogative intents and concepts from geo-analytic questions.",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-23-2020",
@@ -191,7 +212,8 @@
   {
     "Certificate": "2020-023",
     "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
     "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
@@ -200,7 +222,8 @@
   {
     "Certificate": "2020-024",
     "Repository Link": "https://github.com/codecheckers/driftage",
-    "Type": "journal (GigaScience)",
+    "Type": "journal",
+    "Venue": "GigaScience",
     "Report": "https://doi.org/10.5281/zenodo.4964880",
     "Title": "Driftage: a multi-agent system framework for concept drift detection",
     "Paper reference": "https://doi.org/10.1093/gigascience/giab030",
@@ -209,7 +232,8 @@
   {
     "Certificate": "2020-025",
     "Repository Link": "https://github.com/codecheckers/LICD_article",
-    "Type": "journal (J Archaeol Sci)",
+    "Type": "journal",
+    "Venue": "J Archaeol Sci",
     "Report": "https://doi.org/10.5281/zenodo.4279275",
     "Title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
     "Paper reference": "https://doi.org/10.1016/j.jas.2020.105306",
@@ -218,7 +242,8 @@
   {
     "Certificate": "2021-001",
     "Repository Link": "https://github.com/codecheckers/causality-review",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.4720843",
     "Title": "Causality indices for bivariate time series data: a comparative review of performance",
     "Paper reference": "https://arxiv.org/abs/2104.00718",
@@ -227,7 +252,8 @@
   {
     "Certificate": "2021-002",
     "Repository Link": "https://osf.io/rsf4m",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/rsf4m",
     "Title": "Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-10-2021",
@@ -236,7 +262,8 @@
   {
     "Certificate": "2021-003",
     "Repository Link": "https://osf.io/dx92a",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/dx92a",
     "Title": "Investigating drivers’ geospatial abilities in unfamiliar environments",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-3-2021",
@@ -245,7 +272,8 @@
   {
     "Certificate": "2021-004",
     "Repository Link": "https://osf.io/2sc7g",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/2sc7g",
     "Title": "Extraction of linear structures from digital terrain models using deep learning",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-11-2021",
@@ -254,7 +282,8 @@
   {
     "Certificate": "2021-005",
     "Repository Link": "https://osf.io/7fqtm",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/7fqtm",
     "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
@@ -263,7 +292,8 @@
   {
     "Certificate": "2021-006",
     "Repository Link": "https://osf.io/4cpm3",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/4CPM3",
     "Title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-14-2021",
@@ -272,7 +302,8 @@
   {
     "Certificate": "2021-007",
     "Repository Link": "https://osf.io/anv9r",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/anv9r",
     "Title": "Automated Extraction of Labels from Large-Scale Historical Maps",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-12-2021",
@@ -281,7 +312,8 @@
   {
     "Certificate": "2021-008",
     "Repository Link": "https://osf.io/g4dcq",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/g4dcq",
     "Title": "Flood Impact Assessment on Road Network and Healthcare Access at the example of Jakarta, Indonesia",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-4-2021",
@@ -290,7 +322,8 @@
   {
     "Certificate": "2021-009",
     "Repository Link": "https://osf.io/rdnyu",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/rdnyu",
     "Title": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
@@ -299,7 +332,8 @@
   {
     "Certificate": "2021-010",
     "Repository Link": "https://osf.io/bdu28",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/bdu28",
     "Title": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
@@ -308,7 +342,8 @@
   {
     "Certificate": "2022-001",
     "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
-    "Type": "community (codecheck)",
+    "Type": "community",
+    "Venue": "codecheck",
     "Report": "https://doi.org/10.5281/zenodo.6040066",
     "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
     "Paper reference": "IIEP technical note (2021) http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
@@ -317,7 +352,8 @@
   {
     "Certificate": "2022-002",
     "Repository Link": "https://osf.io/Z7P8K",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/z7p8k",
     "Title": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-2-2022",
@@ -326,7 +362,8 @@
   {
     "Certificate": "2022-003",
     "Repository Link": "https://osf.io/JDTN3",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
     "Title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
@@ -335,7 +372,8 @@
   {
     "Certificate": "2022-004",
     "Repository Link": "https://osf.io/XPG6Y",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/XPG6Y",
     "Title": "What are intersections for pedestrian users?",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-4-2022",
@@ -344,7 +382,8 @@
   {
     "Certificate": "2022-005",
     "Repository Link": "https://osf.io/CDFAH",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/cdfah",
     "Title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
@@ -353,7 +392,8 @@
   {
     "Certificate": "2022-006",
     "Repository Link": "https://osf.io/W7VPH",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/W7VPH",
     "Title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-6-2022",
@@ -362,7 +402,8 @@
   {
     "Certificate": "2022-007",
     "Repository Link": "https://osf.io/3DSMV",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
     "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
@@ -371,7 +412,8 @@
   {
     "Certificate": "2022-008",
     "Repository Link": "https://osf.io/K78EB",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
     "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
@@ -380,7 +422,8 @@
   {
     "Certificate": "2022-009",
     "Repository Link": "https://osf.io/94VNX",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/94vnx",
     "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
@@ -389,7 +432,8 @@
   {
     "Certificate": "2022-010",
     "Repository Link": "https://osf.io/8B7MR",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/8b7mr",
     "Title": "Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-13-2022",
@@ -398,7 +442,8 @@
   {
     "Certificate": "2022-011",
     "Repository Link": "https://osf.io/KF8SR",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/kf8sr",
     "Title": "Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-14-2022",
@@ -407,7 +452,8 @@
   {
     "Certificate": "2022-012",
     "Repository Link": "https://osf.io/R6PSQ",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/r6psq",
     "Title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-15-2022",
@@ -416,7 +462,8 @@
   {
     "Certificate": "2022-013",
     "Repository Link": "https://osf.io/3G9S8",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/3g9s8",
     "Title": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-16-2022",
@@ -425,7 +472,8 @@
   {
     "Certificate": "2022-014",
     "Repository Link": "https://osf.io/6S2GP",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/6s2gp",
     "Title": "A method to produce metadata describing and assessing the quality of spatial landmark datasets in mountain area",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-17-2022",
@@ -434,7 +482,8 @@
   {
     "Certificate": "2022-015",
     "Repository Link": "https://osf.io/MVQCW",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/mvqcw",
     "Title": "Unlocking social network analysis methods for studying human mobility",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-19-2022",
@@ -443,7 +492,8 @@
   {
     "Certificate": "2022-016",
     "Repository Link": "https://osf.io/DJFC2",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/DJFC2",
     "Title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
@@ -452,7 +502,8 @@
   {
     "Certificate": "2022-017",
     "Repository Link": "https://osf.io/WNCSM",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/wncsm",
     "Title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
@@ -461,7 +512,8 @@
   {
     "Certificate": "2022-018",
     "Repository Link": "https://gitlab.com/cdchck/community-codechecks/2022-svaRetro-svaNUMT",
-    "Type": "journal (GigaByte)",
+    "Type": "journal",
+    "Venue": "GigaByte",
     "Report": "https://doi.org/10.5281/zenodo.7084333",
     "Title": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
     "Paper reference": "https://doi.org/10.46471/gigabyte.70",
@@ -470,7 +522,8 @@
   {
     "Certificate": "2023-001",
     "Repository Link": "https://osf.io/c7vx3",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/c7vx3",
     "Title": "Urban Sound Mapping for Wayfinding - A theoretical Approach and an empirical Study",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-9-2023",
@@ -479,7 +532,8 @@
   {
     "Certificate": "2023-002",
     "Repository Link": "https://osf.io/rbgvk",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/rbgvk",
     "Title": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-12-2023",
@@ -488,7 +542,8 @@
   {
     "Certificate": "2023-003",
     "Repository Link": "https://osf.io/m5bhk",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/m5bhk",
     "Title": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquak",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-5-2023",
@@ -497,7 +552,8 @@
   {
     "Certificate": "2023-004",
     "Repository Link": "https://osf.io/2em7v",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/2em7v",
     "Title": "Does spatial thinking ability relate to performance when using web-mapping services? A survey with digital natives",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-13-2023",
@@ -506,7 +562,8 @@
   {
     "Certificate": "2023-005",
     "Repository Link": "https://osf.io/27wzp",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/27wzp",
     "Title": "Advancing Forest Monitoring and Assessment Through Immersive Virtual Reality",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-15-2023",
@@ -515,7 +572,8 @@
   {
     "Certificate": "2023-006",
     "Repository Link": "https://osf.io/d2shf",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/osf.io/d2shf",
     "Title": "Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4--2023",
@@ -524,7 +582,8 @@
   {
     "Certificate": "2023-007",
     "Repository Link": "https://osf.io/eu8kw",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/eu8kw",
     "Title": "Extreme heat alerts and impacts across Mozambique 2016 - 2022: gathering evidence from media articles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-11-2023",
@@ -533,7 +592,8 @@
   {
     "Certificate": "2023-008",
     "Repository Link": "https://osf.io/aqgxr",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/aqgxr",
     "Title": "Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-8-2023",
@@ -542,7 +602,8 @@
   {
     "Certificate": "2023-009",
     "Repository Link": "https://osf.io/9kp7u",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/9kp7u",
     "Title": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-3-2023",
@@ -551,7 +612,8 @@
   {
     "Certificate": "2023-010",
     "Repository Link": "https://osf.io/8t3bh",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/8t3bh",
     "Title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-4-2023",
@@ -560,7 +622,8 @@
   {
     "Certificate": "2023-011",
     "Repository Link": "https://github.com/codecheckers/rmr-solver",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.8359199",
     "Title": "Does enforcing glenohumeral joint stability matter? A new rapid muscle redundancy solver highlights the importance of non-superficial shoulder muscles",
     "Paper reference": "BioRxiv preprint (2023)  https://www.biorxiv.org/content/10.1101/2023.07.11.548542v1",
@@ -569,7 +632,8 @@
   {
     "Certificate": "2023-012",
     "Repository Link": "https://github.com/codecheckers/leba-manuscript",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.10213244",
     "Title": "An inventory of human light exposure related behaviour",
     "Paper reference": "Scientific Reports, in press (DOI 10.1038/s41598-023-48241-y) https://www.researchsquare.com/article/rs-2587424/v1",
@@ -578,7 +642,8 @@
   {
     "Certificate": "2024-001",
     "Repository Link": "https://github.com/codecheckers/LazarEtAl_RSocOpenSci_2024",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.10823246",
     "Title": "Regulation of pupil size in natural vision across the human lifespan",
     "Paper reference": "Royal Society Open Science (in press) https://osf.io/zrksf/",
@@ -587,7 +652,8 @@
   {
     "Certificate": "2024-002",
     "Repository Link": "https://github.com/codecheckers/domestic.wastewater.variability",
-    "Type": "community (codecheck NL)",
+    "Type": "community",
+    "Venue": "codecheck NL",
     "Report": "https://doi.org/10.5281/zenodo.FIXME",
     "Title": "The principal components of natural images",
     "Paper reference": "Network (1992) 3:61-70 http://pdfs.semanticscholar.org/7dcf/a42cfe3b59becb441844b72558b361693608.pdf",
@@ -596,7 +662,8 @@
   {
     "Certificate": "2024-003",
     "Repository Link": "https://github.com/codecheckers/sddtmpc",
-    "Type": "community (codecheck NL)",
+    "Type": "community",
+    "Venue": "codecheck NL",
     "Report": "https://doi.org/10.5281/zenodo.11403956",
     "Title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
     "Paper reference": "https://arxiv.org/pdf/2310.19997",
