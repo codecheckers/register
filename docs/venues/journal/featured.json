@@ -1,0 +1,56 @@
+[
+  {
+    "Certificate": "2020-001",
+    "Repository Link": "https://github.com/codecheckers/Piccolo-2020",
+    "Type": "journal",
+    "Report": "http://doi.org/10.5281/zenodo.3674056",
+    "Title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
+    "Paper reference": "https://doi.org/10.1093/gigascience/giaa026",
+    "Check date": "2019-02-14"
+  },
+  {
+    "Certificate": "2020-016",
+    "Repository Link": "https://github.com/codecheckers/OpeningPractice",
+    "Type": "journal",
+    "Report": "https://doi.org/10.5281/zenodo.3981253",
+    "Title": "Opening practice: supporting reproducibility and critical spatial data science",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00334-2",
+    "Check date": "2020-06-02"
+  },
+  {
+    "Certificate": "2020-017",
+    "Repository Link": "https://github.com/codecheckers/JGSY-D-19-00087",
+    "Type": "journal",
+    "Report": "https://doi.org/10.5281/zenodo.4003848",
+    "Title": "Progress in the R ecosystem for representing and handling spatial data",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00336-0",
+    "Check date": "2020-08-27"
+  },
+  {
+    "Certificate": "2020-024",
+    "Repository Link": "https://github.com/codecheckers/driftage",
+    "Type": "journal",
+    "Report": "https://doi.org/10.5281/zenodo.4964880",
+    "Title": "Driftage: a multi-agent system framework for concept drift detection",
+    "Paper reference": "https://doi.org/10.1093/gigascience/giab030",
+    "Check date": "2020-12-07"
+  },
+  {
+    "Certificate": "2020-025",
+    "Repository Link": "https://github.com/codecheckers/LICD_article",
+    "Type": "journal",
+    "Report": "https://doi.org/10.5281/zenodo.4279275",
+    "Title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+    "Paper reference": "https://doi.org/10.1016/j.jas.2020.105306",
+    "Check date": "2020-11-19"
+  },
+  {
+    "Certificate": "2022-018",
+    "Repository Link": "https://gitlab.com/cdchck/community-codechecks/2022-svaRetro-svaNUMT",
+    "Type": "journal",
+    "Report": "https://doi.org/10.5281/zenodo.7084333",
+    "Title": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
+    "Paper reference": "https://doi.org/10.46471/gigabyte.70",
+    "Check date": "2022-09-27"
+  }
+]
