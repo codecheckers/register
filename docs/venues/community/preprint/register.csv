@@ -1,10 +1,10 @@
-"Certificate","Repository","Type","Issue"
-"2020-008","github::codecheckers/covid-uk","community (preprint)",8
-"2020-009","github::codecheckers/2020-cov-tracing","community (preprint)",9
-"2020-010","github::codecheckers/covid-report9","community (preprint)",14
-"2020-012","github::codecheckers/covid19model-report23","community (preprint)",19
-"2020-013","github::codecheckers/Spitschan2020_bioRxiv","community (preprint)",20
-"2021-001","github::codecheckers/causality-review","community (preprint)",35
-"2023-011","github::codecheckers/rmr-solver","community (preprint)",56
-"2023-012","github::codecheckers/leba-manuscript","community (preprint)",59
-"2024-001","github::codecheckers/LazarEtAl_RSocOpenSci_2024","community (preprint)",60
+"Certificate","Repository","Issue"
+"2020-008","github::codecheckers/covid-uk",8
+"2020-009","github::codecheckers/2020-cov-tracing",9
+"2020-010","github::codecheckers/covid-report9",14
+"2020-012","github::codecheckers/covid19model-report23",19
+"2020-013","github::codecheckers/Spitschan2020_bioRxiv",20
+"2021-001","github::codecheckers/causality-review",35
+"2023-011","github::codecheckers/rmr-solver",56
+"2023-012","github::codecheckers/leba-manuscript",59
+"2024-001","github::codecheckers/LazarEtAl_RSocOpenSci_2024",60

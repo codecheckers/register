@@ -2,7 +2,8 @@
   {
     "Certificate": "2021-010",
     "Repository Link": "https://osf.io/bdu28",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/bdu28",
     "Title": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
@@ -11,7 +12,8 @@
   {
     "Certificate": "2023-009",
     "Repository Link": "https://osf.io/9kp7u",
-    "Type": "conference (AGILEGIS)",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/9kp7u",
     "Title": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-3-2023",

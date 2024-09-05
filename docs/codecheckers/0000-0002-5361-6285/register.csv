@@ -1,6 +1,6 @@
-"Certificate","Repository","Type","Issue"
-"2020-005","github::codecheckers/Larisch-reproduction","community (codecheck)",5
-"2020-006","github::codecheckers/Detorakis-reproduction","community (codecheck)",6
-"2020-013","github::codecheckers/Spitschan2020_bioRxiv","community (preprint)",20
-"2020-014","github::codecheckers/Sadeh-and-Clopath","community (codecheck)",21
-"2020-015","github::codecheckers/Liou-and-Bateman","community (codecheck)",22
+"Certificate","Repository","Type","Venue","Issue"
+"2020-005","github::codecheckers/Larisch-reproduction","community","codecheck",5
+"2020-006","github::codecheckers/Detorakis-reproduction","community","codecheck",6
+"2020-013","github::codecheckers/Spitschan2020_bioRxiv","community","preprint",20
+"2020-014","github::codecheckers/Sadeh-and-Clopath","community","codecheck",21
+"2020-015","github::codecheckers/Liou-and-Bateman","community","codecheck",22

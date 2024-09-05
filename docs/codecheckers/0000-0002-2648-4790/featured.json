@@ -2,7 +2,8 @@
   {
     "Certificate": "2021-001",
     "Repository Link": "https://github.com/codecheckers/causality-review",
-    "Type": "community (preprint)",
+    "Type": "community",
+    "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.4720843",
     "Title": "Causality indices for bivariate time series data: a comparative review of performance",
     "Paper reference": "https://arxiv.org/abs/2104.00718",

@@ -1,0 +1,18 @@
+[
+  {
+    "Certificate": "2020-001",
+    "Repository Link": "https://github.com/codecheckers/Piccolo-2020",
+    "Report": "http://doi.org/10.5281/zenodo.3674056",
+    "Title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
+    "Paper reference": "https://doi.org/10.1093/gigascience/giaa026",
+    "Check date": "2019-02-14"
+  },
+  {
+    "Certificate": "2020-024",
+    "Repository Link": "https://github.com/codecheckers/driftage",
+    "Report": "https://doi.org/10.5281/zenodo.4964880",
+    "Title": "Driftage: a multi-agent system framework for concept drift detection",
+    "Paper reference": "https://doi.org/10.1093/gigascience/giab030",
+    "Check date": "2020-12-07"
+  }
+]
