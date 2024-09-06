@@ -1,15 +1,15 @@
-"Certificate","Repository","Type","Issue"
-"2020-001","github::codecheckers/Piccolo-2020","journal",NA
-"2020-002","github::codecheckers/Reproduction-Hancock","community",2
-"2020-008","github::codecheckers/covid-uk","community",8
-"2020-009","github::codecheckers/2020-cov-tracing","community",9
-"2020-010","github::codecheckers/covid-report9","community",14
-"2020-011","github::codecheckers/covid19model-nature","community",18
-"2020-012","github::codecheckers/covid19model-report23","community",19
-"2020-024","github::codecheckers/driftage","journal",31
-"2022-001","github::codecheckers/GWR-in-educational-planning","community",40
-"2023-011","github::codecheckers/rmr-solver","community",56
-"2023-012","github::codecheckers/leba-manuscript","community",59
-"2024-001","github::codecheckers/LazarEtAl_RSocOpenSci_2024","community",60
-"2024-002","github::codecheckers/domestic.wastewater.variability","community",61
-"2024-003","github::codecheckers/sddtmpc","community",66
+"Certificate","Repository","Type","Venue","Issue"
+"2020-001","github::codecheckers/Piccolo-2020","journal","GigaScience",NA
+"2020-002","github::codecheckers/Reproduction-Hancock","community","codecheck",2
+"2020-008","github::codecheckers/covid-uk","community","preprint",8
+"2020-009","github::codecheckers/2020-cov-tracing","community","preprint",9
+"2020-010","github::codecheckers/covid-report9","community","preprint",14
+"2020-011","github::codecheckers/covid19model-nature","community","in press",18
+"2020-012","github::codecheckers/covid19model-report23","community","preprint",19
+"2020-024","github::codecheckers/driftage","journal","GigaScience",31
+"2022-001","github::codecheckers/GWR-in-educational-planning","community","codecheck",40
+"2023-011","github::codecheckers/rmr-solver","community","preprint",56
+"2023-012","github::codecheckers/leba-manuscript","community","preprint",59
+"2024-001","github::codecheckers/LazarEtAl_RSocOpenSci_2024","community","preprint",60
+"2024-002","github::codecheckers/domestic.wastewater.variability","community","codecheck NL",61
+"2024-003","github::codecheckers/sddtmpc","community","codecheck NL",66

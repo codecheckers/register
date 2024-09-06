@@ -45,4 +45,4 @@ title: CODECHECK Register for conference (AGILEGIS)
 |2023-007    |[eu8kw](https://osf.io/eu8kw)                                     |[49](https://github.com/codecheckers/register/issues/49)|https://doi.org/10.17605/osf.io/eu8kw |2023-06-13 |
 |2023-008    |[aqgxr](https://osf.io/aqgxr)                                     |[49](https://github.com/codecheckers/register/issues/49)|https://doi.org/10.17605/osf.io/aqgxr |2023-06-13 |
 |2023-009    |[9kp7u](https://osf.io/9kp7u)                                     |[49](https://github.com/codecheckers/register/issues/49)|https://doi.org/10.17605/osf.io/9kp7u |2023-06-13 |
-|2023-010    |[8t3bh](https://osf.io/8t3bh)                                     |[4](https://github.com/codecheckers/register/issues/4)|https://doi.org/10.17605/osf.io/8t3bh |2023-06-13 |
+|2023-010    |[8t3bh](https://osf.io/8t3bh)                                     |[49](https://github.com/codecheckers/register/issues/49)|https://doi.org/10.17605/osf.io/8t3bh |2023-06-13 |
