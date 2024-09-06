@@ -1,6 +1,18 @@
 [
   {
-    "Journal name": {},
-    "No. of codechecks": "6"
+    "Journal name": "GigaScience",
+    "No. of codechecks": 2
+  },
+  {
+    "Journal name": "Journal of Geographical Systems",
+    "No. of codechecks": 2
+  },
+  {
+    "Journal name": "Journal of Archaeological Science",
+    "No. of codechecks": 1
+  },
+  {
+    "Journal name": "GigaByte",
+    "No. of codechecks": 1
   }
 ]
