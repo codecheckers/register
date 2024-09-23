@@ -7,7 +7,7 @@
   {
     "Codechecker name": "Daniel Nüst",
     "ORCID ID": "0000-0002-0024-5046",
-    "No. of codechecks": 21
+    "No. of codechecks": 20
   },
   {
     "Codechecker name": "Iain Davies",
@@ -77,6 +77,11 @@
   {
     "Codechecker name": "Mehtab Alam Syed",
     "ORCID ID": "0000-0003-3696-0030",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Sam Langton",
+    "ORCID ID": "0000-0002-1322-1553",
     "No. of codechecks": 1
   }
 ]
