@@ -43,5 +43,10 @@
     "Venue type": "community",
     "Venue name": "CODECHECK NL",
     "No. of codechecks": 2
+  },
+  {
+    "Venue type": "community",
+    "Venue name": "Amsterdam UMC",
+    "No. of codechecks": 1
   }
 ]
