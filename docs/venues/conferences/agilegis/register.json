@@ -326,5 +326,69 @@
     "Title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-4-2023",
     "Check date": "2023-06-13"
+  },
+  {
+    "Certificate": "2024-006",
+    "Repository Link": "https://osf.io/ymc3t",
+    "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
+    "Title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-15-2024",
+    "Check date": "2024-05-23"
+  },
+  {
+    "Certificate": "2024-007",
+    "Repository Link": "https://osf.io/gvpd9",
+    "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
+    "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-7-2024",
+    "Check date": "2024-05-23"
+  },
+  {
+    "Certificate": "2024-008",
+    "Repository Link": "https://osf.io/3nbjw",
+    "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
+    "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
+    "Check date": "2024-05-23"
+  },
+  {
+    "Certificate": "2024-009",
+    "Repository Link": "https://osf.io/csb7r",
+    "Report": "https://doi.org/10.17605/osf.io/CSB7R",
+    "Title": "Developing a city-specific walkability index through a participatory approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
+    "Check date": "2024-05-23"
+  },
+  {
+    "Certificate": "2024-010",
+    "Repository Link": "https://osf.io/nbk57",
+    "Report": "https://doi.org/10.17605/osf.io/NBK57",
+    "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-12-2024",
+    "Check date": "2024-05-27"
+  },
+  {
+    "Certificate": "2024-011",
+    "Repository Link": "https://osf.io/fmgb4",
+    "Report": "https://doi.org/10.17605/osf.io/FMGB4",
+    "Title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-5-2024",
+    "Check date": "2024-05-27"
+  },
+  {
+    "Certificate": "2024-012",
+    "Repository Link": "https://osf.io/w42ad",
+    "Report": "https://doi.org/10.17605/osf.io/W42AD",
+    "Title": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-...",
+    "Check date": "2024-05-30"
+  },
+  {
+    "Certificate": "2024-013",
+    "Repository Link": "https://osf.io/txgzv",
+    "Report": "https://doi.org/10.17605/osf.io/TXGZV",
+    "Title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-...",
+    "Check date": "2024-05-31"
   }
 ]

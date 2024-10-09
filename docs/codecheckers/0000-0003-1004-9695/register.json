@@ -28,5 +28,25 @@
     "Title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
     "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2024-006",
+    "Repository Link": "https://osf.io/ymc3t",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
+    "Title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-15-2024",
+    "Check date": "2024-05-23"
+  },
+  {
+    "Certificate": "2024-007",
+    "Repository Link": "https://osf.io/gvpd9",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
+    "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-7-2024",
+    "Check date": "2024-05-23"
   }
 ]

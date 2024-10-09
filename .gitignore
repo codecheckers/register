@@ -2,3 +2,6 @@
 .Renviron
 html_document.yml
 .DS_Store
+.RData
+
+.Rhistory

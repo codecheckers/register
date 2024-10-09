@@ -16,7 +16,7 @@ ENTRYPOINT [ "R" ]
 # set R.cache path to avoid interactive prompt
 CMD [ "-e", "options(\"R.cache.rootPath\" = \"/tmp\"); codecheck::register_render(); warnings()'" ]
 
-LABEL maintainer = "Daniel Nüst <daniel.nuest@uni-muenster.de>"
+LABEL maintainer = "Daniel Nüst <daniel.nuest@tu-dresden.de>"
 
 # Usage, from local copy of the register repository
 # docker build --tag codecheckers-register .
