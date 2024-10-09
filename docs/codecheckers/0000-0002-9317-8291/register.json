@@ -58,5 +58,25 @@
     "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
     "Check date": "2022-07-09"
+  },
+  {
+    "Certificate": "2024-008",
+    "Repository Link": "https://osf.io/3nbjw",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
+    "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
+    "Check date": "2024-05-23"
+  },
+  {
+    "Certificate": "2024-009",
+    "Repository Link": "https://osf.io/csb7r",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Report": "https://doi.org/10.17605/osf.io/CSB7R",
+    "Title": "Developing a city-specific walkability index through a participatory approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
+    "Check date": "2024-05-23"
   }
 ]

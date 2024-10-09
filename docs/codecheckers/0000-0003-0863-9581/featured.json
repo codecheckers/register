@@ -38,5 +38,25 @@
     "Title": "Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-8-2023",
     "Check date": "2023-06-13"
+  },
+  {
+    "Certificate": "2024-010",
+    "Repository Link": "https://osf.io/nbk57",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Report": "https://doi.org/10.17605/osf.io/NBK57",
+    "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-12-2024",
+    "Check date": "2024-05-27"
+  },
+  {
+    "Certificate": "2024-011",
+    "Repository Link": "https://osf.io/fmgb4",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Report": "https://doi.org/10.17605/osf.io/FMGB4",
+    "Title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-5-2024",
+    "Check date": "2024-05-27"
   }
 ]
