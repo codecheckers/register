@@ -14,7 +14,7 @@ WORKDIR /register
 ENTRYPOINT [ "R" ]
 
 # set R.cache path to avoid interactive prompt
-CMD [ "-e", "options(\"R.cache.rootPath\" = \"/tmp\"); codecheck::register_render(); warnings()'" ]
+CMD [ "-e", "options(\"R.cache.rootPath\" = \"/tmp\"); codecheck::register_render(); sessionInfo(); warnings()'" ]
 
 LABEL maintainer = "Daniel Nüst <daniel.nuest@tu-dresden.de>"
 
