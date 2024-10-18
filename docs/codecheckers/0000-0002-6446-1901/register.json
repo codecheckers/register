@@ -1,0 +1,12 @@
+[
+  {
+    "Certificate": "2024-005",
+    "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Report": "https://doi.org/10.5281/zenodo.13945051",
+    "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
+    "Paper reference": "https://doi.org/10.31234/osf.io/cz32t (currently under review at Developmental Cognitive Neuroscience)",
+    "Check date": "2024-10-15"
+  }
+]
