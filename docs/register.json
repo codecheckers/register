@@ -768,5 +768,35 @@
     "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
     "Paper reference": "https://doi.org/10.31234/osf.io/cz32t",
     "Check date": "2024-10-15"
+  },
+  {
+    "Certificate": "2024-006",
+    "Repository Link": "https://osf.io/spxt5",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
+    "Title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
+    "Paper reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
+    "Check date": "2024-09-26"
+  },
+  {
+    "Certificate": "2024-007",
+    "Repository Link": "https://osf.io/mwbuq",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Report": "https://doi.org/10.17605/OSF.IO/mwbuq",
+    "Title": "Landscape Character Assessment - Nigeria",
+    "Paper reference": "https://doi.org/10.17605/OSF.IO/E2K73",
+    "Check date": "2024-09-26"
+  },
+  {
+    "Certificate": "2024-008",
+    "Repository Link": "https://osf.io/6ngyc",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Report": "https://doi.org/10.17605/OSF.IO/6NGYC",
+    "Title": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
+    "Paper reference": "https://doi.org/10.5281/zenodo.13734819",
+    "Check date": "2024-09-26"
   }
 ]

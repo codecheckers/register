@@ -14,5 +14,29 @@
     "Title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
     "Paper reference": "https://arxiv.org/pdf/2310.19997",
     "Check date": "2024-05-30"
+  },
+  {
+    "Certificate": "2024-006",
+    "Repository Link": "https://osf.io/spxt5",
+    "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
+    "Title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
+    "Paper reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
+    "Check date": "2024-09-26"
+  },
+  {
+    "Certificate": "2024-007",
+    "Repository Link": "https://osf.io/mwbuq",
+    "Report": "https://doi.org/10.17605/OSF.IO/mwbuq",
+    "Title": "Landscape Character Assessment - Nigeria",
+    "Paper reference": "https://doi.org/10.17605/OSF.IO/E2K73",
+    "Check date": "2024-09-26"
+  },
+  {
+    "Certificate": "2024-008",
+    "Repository Link": "https://osf.io/6ngyc",
+    "Report": "https://doi.org/10.17605/OSF.IO/6NGYC",
+    "Title": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
+    "Paper reference": "https://doi.org/10.5281/zenodo.13734819",
+    "Check date": "2024-09-26"
   }
 ]
