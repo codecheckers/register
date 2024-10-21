@@ -22,7 +22,7 @@
   {
     "Codechecker name": "Frank Ostermann",
     "ORCID ID": "0000-0002-9317-8291",
-    "No. of codechecks": 8
+    "No. of codechecks": 9
   },
   {
     "Codechecker name": "Marcel Stimberg",
@@ -87,6 +87,26 @@
   {
     "Codechecker name": "Lukas Röseler",
     "ORCID ID": "0000-0002-6446-1901",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Patrick Eneche",
+    "ORCID ID": "0000-0002-0504-9677",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Amira Al Balushi",
+    "ORCID ID": "0009-0002-8188-6271",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Angelina Momin",
+    "ORCID ID": "0000-0002-6875-1551",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Jasper van Doninck",
+    "ORCID ID": "0000-0003-2177-7882",
     "No. of codechecks": 1
   }
 ]
