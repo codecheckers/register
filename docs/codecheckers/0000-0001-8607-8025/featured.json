@@ -1,6 +1,6 @@
 [
   {
-    "Certificate": "2020-010",
+    "Certificate": "[2020-010](https://codecheck.org.uk/register/certs/2020-010/)",
     "Repository Link": "https://github.com/codecheckers/covid-report9",
     "Type": "community",
     "Venue": "preprint",
@@ -10,7 +10,7 @@
     "Check date": "2020-05-29"
   },
   {
-    "Certificate": "2020-011",
+    "Certificate": "[2020-011](https://codecheck.org.uk/register/certs/2020-011/)",
     "Repository Link": "https://github.com/codecheckers/covid19model-nature",
     "Type": "community",
     "Venue": "in press",
@@ -20,7 +20,7 @@
     "Check date": "2020-06-13"
   },
   {
-    "Certificate": "2020-012",
+    "Certificate": "[2020-012](https://codecheck.org.uk/register/certs/2020-012/)",
     "Repository Link": "https://github.com/codecheckers/covid19model-report23",
     "Type": "community",
     "Venue": "preprint",
@@ -30,7 +30,7 @@
     "Check date": "2020-06-14"
   },
   {
-    "Certificate": "2020-024",
+    "Certificate": "[2020-024](https://codecheck.org.uk/register/certs/2020-024/)",
     "Repository Link": "https://github.com/codecheckers/driftage",
     "Type": "journal",
     "Venue": "GigaScience",
@@ -40,7 +40,7 @@
     "Check date": "2020-12-07"
   },
   {
-    "Certificate": "2022-001",
+    "Certificate": "[2022-001](https://codecheck.org.uk/register/certs/2022-001/)",
     "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
     "Type": "community",
     "Venue": "codecheck",
@@ -50,7 +50,7 @@
     "Check date": "2022-01-19"
   },
   {
-    "Certificate": "2023-011",
+    "Certificate": "[2023-011](https://codecheck.org.uk/register/certs/2023-011/)",
     "Repository Link": "https://github.com/codecheckers/rmr-solver",
     "Type": "community",
     "Venue": "preprint",
@@ -60,27 +60,27 @@
     "Check date": "2023-09-18"
   },
   {
-    "Certificate": "2023-012",
+    "Certificate": "[2023-012](https://codecheck.org.uk/register/certs/2023-012/)",
     "Repository Link": "https://github.com/codecheckers/leba-manuscript",
     "Type": "community",
     "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.10213244",
     "Title": "An inventory of human light exposure related behaviour",
-    "Paper reference": "https://doi.org/10.1038/s41598-023-48241-y",
+    "Paper reference": "https://doi.org/10.21203/rs.3.rs-2587424/v1",
     "Check date": "2023-11-26"
   },
   {
-    "Certificate": "2024-001",
+    "Certificate": "[2024-001](https://codecheck.org.uk/register/certs/2024-001/)",
     "Repository Link": "https://github.com/codecheckers/LazarEtAl_RSocOpenSci_2024",
     "Type": "community",
     "Venue": "preprint",
     "Report": "https://doi.org/10.5281/zenodo.10823246",
     "Title": "Regulation of pupil size in natural vision across the human lifespan",
-    "Paper reference": "https://doi.org/10.1098/rsos.191613",
+    "Paper reference": "https://doi.org/10.17605/OSF.IO/ZRKSF",
     "Check date": "2024-03-15"
   },
   {
-    "Certificate": "2024-002",
+    "Certificate": "[2024-002](https://codecheck.org.uk/register/certs/2024-002/)",
     "Repository Link": "https://github.com/codecheckers/domestic.wastewater.variability",
     "Type": "community",
     "Venue": "codecheck NL",
@@ -90,7 +90,7 @@
     "Check date": "2020-05-21"
   },
   {
-    "Certificate": "2024-003",
+    "Certificate": "[2024-003](https://codecheck.org.uk/register/certs/2024-003/)",
     "Repository Link": "https://github.com/codecheckers/sddtmpc",
     "Type": "community",
     "Venue": "codecheck NL",
