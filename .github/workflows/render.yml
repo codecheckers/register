@@ -36,13 +36,20 @@ jobs:
       - name: Rate before
         run: |
           curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Render
         run: |
           # R -e "sessionInfo(); cat('\n'); list.files(); cat('\n'); getwd()"
           R -e 'options("R.cache.rootPath" = "/tmp"); codecheck::register_render(); warnings()'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Rate after
+        if: always()
         run: |
           curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Update register
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
