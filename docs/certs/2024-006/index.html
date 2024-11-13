@@ -55,8 +55,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    </style>
 
 
 
@@ -230,15 +229,13 @@ pre code {
 <h4>
 Previous
 </h4>
-</button>
-<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image -->
-<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -252,27 +249,19 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a
-href="https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f">CY-Bench : A
-comprehensive benchmark dataset for sub-national crop yield
-forecasting</a>
+<strong>Title</strong>: <a href="https://doi.org/10.5194/agile-giss-5-15-2024">Random Data Distribution for Efficient Parallel Point Cloud Processing</a>
 </p>
 <p>
-<strong>Authors</strong>: D Paudel, H Baja1, R van Bree, M Kallenberg, S
-Ofori-Ampofo, A Potze, P Poudel, A Saleh, W Anderson, M von Bloh, A
-Castellano, O Ennaji, R Hamed, R Laudien, D Lee, I Luna, D Masiliunas, M
-Meroni, S Mkuhlani, J Mutuku, J Richetti, A Ruane, R Sahajpal, G Shuai,
-V Sitokonstantinou, R de S. Nóia Jr, A Srivastava, R Strong, L Sweet, P
-Vojnovic, A de Wit, M Zachow, N Athanasiadis
+<strong>Authors</strong>: <a href="https://orcid.org/0000-0002-2811-1920">Balthasar Teuscher</a>, Martin Werner
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="scrollable-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <span
-class="math inline"><em>a</em><em>b</em><em>s</em><em>t</em><em>r</em><em>a</em><em>c</em><em>t</em><sub><em>s</em></sub><em>o</em><em>u</em><em>r</em><em>c</em><em>e</em></span></i>
+<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="scrollable-text-box">
 <p>
+<jats:p>Abstract. Current point cloud data management systems and formats are heavily specialized and targeted solely towards visualization purposes and fail to address the diverse needs of progressive point cloud workflows like for example semantic segmentation using machine learning. We therefore propose a distributed data infrastructure for dynamic point cloud data management that can support interactive real-time visualization at scale while simultaneously serving as a platform for analytical tasks. By introducing random data distribution, we show that simple query fragmentation and efficient and effective parallelism at scale are possible. At the same time, arbitrary queries in space and time can be efficiently run over the infrastructure including query semantics which returns only a random sample of the query results or preferred points based on an importance dimension calculated, for example, from a local point density information as commonly done in point cloud visualization. To cope with the unknown amount of user-specific attributes and to support even multiple ways of deciding the importance of a given point (ground point removal, coverage of space, random subset) the system is designed to support all of them transparently as multidimensional range queries backed by spatial indices. </jats:p>
 </p>
 </div>
 </div>
@@ -289,22 +278,16 @@ Codecheck details
 <strong>Certificate identifier</strong>: 2024-006
 </p>
 <p>
-<strong>Codechecker names</strong>: Adhitya Bhawiyuga, Nadia
-Shafaeipour, Nestor de la Paz Ruiz, <a
-href="https://orcid.org/0000-0002-0504-9677">Patrick Eneche</a>, <a
-href="https://orcid.org/0000-0002-9317-8291">Frank Ostermann</a>
+<strong>Codechecker name</strong>: <a href="https://orcid.org/0000-0003-1004-9695">Carlos Granell</a>
 </p>
 <p>
-<strong>Time of codecheck</strong>: 2024-09-26
+<strong>Time of codecheck</strong>: 2024-05-23 12:00:00
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://osf.io/spxt5"
-class="uri">https://osf.io/spxt5</a>
+<strong>Repository</strong>: <a href="https://osf.io/ymc3t" class="uri">https://osf.io/ymc3t</a>
 </p>
 <p>
-<strong>Codecheck report</strong>: <a
-href="https://doi.org/10.17605/OSF.IO/spxt5"
-class="uri">https://doi.org/10.17605/OSF.IO/spxt5</a>
+<strong>Codecheck report</strong>: <a href="https://doi.org/10.17605/OSF.IO/YMC3T" class="uri">https://doi.org/10.17605/OSF.IO/YMC3T</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="scrollable-container">
@@ -313,10 +296,7 @@ class="uri">https://doi.org/10.17605/OSF.IO/spxt5</a>
 </p>
 <div id="summary-content" class="scrollable-text-box">
 <p>
-The CODECHECK used a smaller sample dataset, since the original data set
-is quite large and would require several days of computation on the
-available hardware. However, the produced output matches that of the
-reported output with one exception.
+The workflow provided was partially reproduced in the sense that I was able to reproduce the system reported in the paper qualitatively. That is, I did not reproduce the experiment or other results (figures, etc.) included in the article, but I was able to set up and run the system described in the paper and test it with some query samples. Therefore, by doing this, this report ensures that the system works as described in the manuscript.
 </p>
 </div>
 </div>
@@ -370,7 +350,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
-</div>
 
 <p style="margin-bottom: 2em;">
 </p>
