@@ -23,7 +23,7 @@ Here are some possible values or rules for the specific columns in the file:
 To update the register, simply edit the `register.csv` file and submit the change.
 A GitHub Action will apply the process outlined below for manual rendering to update the different representations of the register, including the website, in case the main register file changes.
 
-**Note:** The GitHub action requiest a `PAT` token to be added, because the default per-action-run token is not used by the R code that renders the package.
+**Note:** The GitHub action requieres a `PAT` token to be added, because the default per-action-run token is not used by the R code that renders the package. See the docs about manual rendering below for details.
 
 ## Deposit/archive
 
@@ -70,6 +70,7 @@ R -q -e "codecheck::register_check(); warnings()"
 and clear the cache (in case you made a recent change to an online repo) with `R -q -e "codecheck::register_clear_cache()"`.
 
 To fix problems with hitting the GitHub API rate limit on local register management, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
+Alternatively, you may log into your GitHub account locally using the [GitHub CLI (`gh`)](https://cli.github.com/).
 
 ## License
 
