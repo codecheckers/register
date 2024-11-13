@@ -1,4 +1,4 @@
-name: Render register
+name: Check register
 
 on:
   push:
