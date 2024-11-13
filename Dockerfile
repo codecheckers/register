@@ -3,7 +3,9 @@ FROM rocker/verse:4.2
 
 RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   # needed for zen4R's dependency 'keyring'
-  libsecret-1-dev
+  libsecret-1-dev \
+  # for pdftools
+  libpoppler-cpp-dev
 
 ENV R_REMOTES_UPGRADE="never"
 
