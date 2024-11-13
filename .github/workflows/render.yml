@@ -12,7 +12,7 @@ jobs:
       register: ${{ steps.filter.outputs.register }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Check
         # https://github.com/dorny/paths-filter
         uses: dorny/paths-filter@v2
@@ -31,7 +31,7 @@ jobs:
           - "/home/runner/work/codecheckers/register:/register"
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - run: git config --system --add safe.directory /__w/register/register
       - name: Rate before
         run: |
