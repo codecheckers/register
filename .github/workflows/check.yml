@@ -1,0 +1,28 @@
+name: Render register
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  check:
+    runs-on: ubuntu-20.04
+    container:
+      image: codecheckers/register:latest
+      volumes:
+          - "/home/runner/work/codecheckers/register:/register"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: git config --system --add safe.directory /__w/register/register
+      - name: Rate before
+        run: |
+          curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit
+      - name: Check
+        run: |
+          # R -e "sessionInfo(); cat('\n'); list.files(); cat('\n'); getwd()"
+          R -e 'options("R.cache.rootPath" = "/tmp"); codecheck::register_check(); warnings()'
+      - name: Rate after
+        run: |
+          curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit
