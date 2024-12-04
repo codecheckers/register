@@ -2,7 +2,7 @@
   {
     "Codechecker name": "Stephen J. Eglen",
     "ORCID ID": "0000-0001-8607-8025",
-    "No. of codechecks": 14
+    "No. of codechecks": 16
   },
   {
     "Codechecker name": "Daniel Nüst",
@@ -107,6 +107,66 @@
   {
     "Codechecker name": "Jasper van Doninck",
     "ORCID ID": "0000-0003-2177-7882",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Mareike Wendelmuth",
+    "ORCID ID": "0009-0008-5638-1670",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Yasel Quintero",
+    "ORCID ID": "0009-0005-9240-7370",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Joslyn Sun",
+    "ORCID ID": "0009-0002-2379-0060",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Roel Janssen",
+    "ORCID ID": "0000-0003-4324-5350",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Joey Tang",
+    "ORCID ID": "00000-0002-0820-6674",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Max Reichert",
+    "ORCID ID": "0009-0003-8352-7288",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Flora Zhou",
+    "ORCID ID": "0009-0002-4934-1474",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Eduard Klapwijk",
+    "ORCID ID": "0000-0002-8936-0365",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Tina Rozsos",
+    "ORCID ID": "0009-0008-5383-5497",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Stijn Peeters",
+    "ORCID ID": "0009-0004-3684-3584",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Hanne Oberman",
+    "ORCID ID": "0000-0003-3276-2141",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Veerle van Harten",
+    "ORCID ID": "0000-0003-0451-4052",
     "No. of codechecks": 1
   }
 ]

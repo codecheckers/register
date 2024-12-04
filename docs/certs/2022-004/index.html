@@ -55,7 +55,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -229,13 +230,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -249,7 +252,9 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="https://doi.org/10.5194/agile-giss-3-4-2022">What are intersections for pedestrian users?</a>
+<strong>Title</strong>: <a
+href="https://doi.org/10.5194/agile-giss-3-4-2022">What are
+intersections for pedestrian users?</a>
 </p>
 <p>
 <strong>Authors</strong>: Jean-Marie Favreau, Jérémy Kalsron
@@ -257,11 +262,34 @@ Paper details
 <!-- Abstract section -->
 <div id="abstract-section" class="scrollable-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="scrollable-text-box">
 <p>
-<jats:p>Abstract. The increase of accessibility and pedestrian data in geographic databases such as OpenStreetMap brings with it the possibility to find a number of applications for pedestrian users.The way in which different urban spaces are crossed obviously depends on their nature. In particular, crossing an intersection is not the same as walking along a street. Intersections are particularly complex areas, where crossing is almost mandatory, often with several possible routes.Although there are various works in the literature that are interested in locating these intersections in a road network, to our knowledge there is no work that deals with the precise segmentation of intersections at the scale of pedestrian use.In this article, we propose an approach that allows us to segment the OpenStreetMap street network at the pedestrian level, by precisely identifying the boundaries between intersections and other spaces.By combining the geometry, topology and semantics of the urban automobile network of OpenStreetMap, we propose an algorithm for locating elementary intersections, and then successively assembling them in a multi-scale approach, in order to obtain the intersections as they are considered by pedestrians during their movements. In particular, our approach relies on the elements that constitute the boundaries of these intersections, such as pedestrian crossings and traffic lights.After presenting an implementation of this approach, we offer a number of results that illustrate the robustness of the proposed approach. </jats:p>
+<jats:p>Abstract. The increase of accessibility and pedestrian data in
+geographic databases such as OpenStreetMap brings with it the
+possibility to find a number of applications for pedestrian users.The
+way in which different urban spaces are crossed obviously depends on
+their nature. In particular, crossing an intersection is not the same as
+walking along a street. Intersections are particularly complex areas,
+where crossing is almost mandatory, often with several possible
+routes.Although there are various works in the literature that are
+interested in locating these intersections in a road network, to our
+knowledge there is no work that deals with the precise segmentation of
+intersections at the scale of pedestrian use.In this article, we propose
+an approach that allows us to segment the OpenStreetMap street network
+at the pedestrian level, by precisely identifying the boundaries between
+intersections and other spaces.By combining the geometry, topology and
+semantics of the urban automobile network of OpenStreetMap, we propose
+an algorithm for locating elementary intersections, and then
+successively assembling them in a multi-scale approach, in order to
+obtain the intersections as they are considered by pedestrians during
+their movements. In particular, our approach relies on the elements that
+constitute the boundaries of these intersections, such as pedestrian
+crossings and traffic lights.After presenting an implementation of this
+approach, we offer a number of results that illustrate the robustness of
+the proposed approach. </jats:p>
 </p>
 </div>
 </div>
@@ -278,16 +306,20 @@ Codecheck details
 <strong>Certificate identifier</strong>: 2022-004
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://orcid.org/0000-0003-1162-7389">Eleni Tomai</a>
+<strong>Codechecker name</strong>: <a
+href="https://orcid.org/0000-0003-1162-7389">Eleni Tomai</a>
 </p>
 <p>
 <strong>Time of codecheck</strong>: 2022-07-09 12:00:00
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://osf.io/XPG6Y" class="uri">https://osf.io/XPG6Y</a>
+<strong>Repository</strong>: <a href="https://osf.io/XPG6Y"
+class="uri">https://osf.io/XPG6Y</a>
 </p>
 <p>
-<strong>Codecheck report</strong>: <a href="https://doi.org/10.17605/osf.io/XPG6Y" class="uri">https://doi.org/10.17605/osf.io/XPG6Y</a>
+<strong>Codecheck report</strong>: <a
+href="https://doi.org/10.17605/osf.io/XPG6Y"
+class="uri">https://doi.org/10.17605/osf.io/XPG6Y</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="scrollable-container">
@@ -296,7 +328,12 @@ Codecheck details
 </p>
 <div id="summary-content" class="scrollable-text-box">
 <p>
-The updated submission contains a DASA section and links to two repositories on GitHub, which have been updated by the author during the reproducibility review process. The first repository contains all necessary files and code for implementing the segmentation process, while the second, comprises all files necessary for using the evaluation tool. The reproduction was successful.
+The updated submission contains a DASA section and links to two
+repositories on GitHub, which have been updated by the author during the
+reproducibility review process. The first repository contains all
+necessary files and code for implementing the segmentation process,
+while the second, comprises all files necessary for using the evaluation
+tool. The reproduction was successful.
 </p>
 </div>
 </div>
@@ -350,6 +387,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p style="margin-bottom: 2em;">
 </p>

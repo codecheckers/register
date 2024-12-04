@@ -55,7 +55,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -229,13 +230,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -249,19 +252,48 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="https://doi.org/10.5194/agile-giss-3-2-2022">Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment</a>
+<strong>Title</strong>: <a
+href="https://doi.org/10.5194/agile-giss-3-2-2022">Understanding the
+Imperfection of 3D point Cloud and Semantic Segmentation algorithms for
+3D Models of Indoor Environment</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="https://orcid.org/0000-0002-5189-8442">Guoray Cai orcid 1 and</a>, Yimu Pan
+<strong>Authors</strong>: <a
+href="https://orcid.org/0000-0002-5189-8442">Guoray Cai orcid 1 and</a>,
+Yimu Pan
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="scrollable-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="scrollable-text-box">
 <p>
-<jats:p>Abstract. Point clouds data provides new potentials for automated construction of more geometrically accurate and semantically rich 3D models for indoor environments. Recent advances in deep learning methods on point cloud semantic segmentation demonstrated impressive accuracy in labeling points of 3D surfaces with object classes. However, it remains challenging to reconstruct the shape of semantic objects from semantically-labeled 3D points, due to imperfection of such data and the under-determination of object construction algorithms. We have little empirical knowledge about how data imperfections affect the reconstruction of 3D indoor room objects. This paper contributes to understanding the nature of such imperfection of 3D point cloud data and semantic segmentation algorithms by analyzing the reconstructability of indoor room objects from semantically-labeled point cloud. 181 rooms from Stanford Large-Scale 3D Indoor Spaces Dataset (S3DIS) were used in our experiment. After generating semantic labels on point-clouds using PointNet++ segmentic segmentation algorithm, we use human coders to judge the reconstructability of indoor objects, following a qualitative coding scheme. Human exploration of object shape imperfection was assisted by a visual analytic tool in making their judgement. We found that high point-level accuracy achieved through semantic segmentation of point cloud data does not guarantee high object-level accuracy. The extent of this problem varies widely among different spatial settings and configurations. We discuss the significance of these findings on the choice of 3D reconstruction methods. </jats:p>
+<jats:p>Abstract. Point clouds data provides new potentials for
+automated construction of more geometrically accurate and semantically
+rich 3D models for indoor environments. Recent advances in deep learning
+methods on point cloud semantic segmentation demonstrated impressive
+accuracy in labeling points of 3D surfaces with object classes. However,
+it remains challenging to reconstruct the shape of semantic objects from
+semantically-labeled 3D points, due to imperfection of such data and the
+under-determination of object construction algorithms. We have little
+empirical knowledge about how data imperfections affect the
+reconstruction of 3D indoor room objects. This paper contributes to
+understanding the nature of such imperfection of 3D point cloud data and
+semantic segmentation algorithms by analyzing the reconstructability of
+indoor room objects from semantically-labeled point cloud. 181 rooms
+from Stanford Large-Scale 3D Indoor Spaces Dataset (S3DIS) were used in
+our experiment. After generating semantic labels on point-clouds using
+PointNet++ segmentic segmentation algorithm, we use human coders to
+judge the reconstructability of indoor objects, following a qualitative
+coding scheme. Human exploration of object shape imperfection was
+assisted by a visual analytic tool in making their judgement. We found
+that high point-level accuracy achieved through semantic segmentation of
+point cloud data does not guarantee high object-level accuracy. The
+extent of this problem varies widely among different spatial settings
+and configurations. We discuss the significance of these findings on the
+choice of 3D reconstruction methods. </jats:p>
 </p>
 </div>
 </div>
@@ -278,16 +310,20 @@ Codecheck details
 <strong>Certificate identifier</strong>: 2022-002
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://orcid.org/0000-0003-0863-9581">Rémy Decoupes</a>
+<strong>Codechecker name</strong>: <a
+href="https://orcid.org/0000-0003-0863-9581">Rémy Decoupes</a>
 </p>
 <p>
 <strong>Time of codecheck</strong>: 2022-07-09 12:00:00
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://osf.io/Z7P8K" class="uri">https://osf.io/Z7P8K</a>
+<strong>Repository</strong>: <a href="https://osf.io/Z7P8K"
+class="uri">https://osf.io/Z7P8K</a>
 </p>
 <p>
-<strong>Codecheck report</strong>: <a href="https://doi.org/10.17605/osf.io/z7p8k" class="uri">https://doi.org/10.17605/osf.io/z7p8k</a>
+<strong>Codecheck report</strong>: <a
+href="https://doi.org/10.17605/osf.io/z7p8k"
+class="uri">https://doi.org/10.17605/osf.io/z7p8k</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="scrollable-container">
@@ -296,7 +332,13 @@ Codecheck details
 </p>
 <div id="summary-content" class="scrollable-text-box">
 <p>
-The code and data provided by the authors allow to partially reproduce the computational work presented in the Section 4.4 of the paper. The model training (PointNet++) and the input data for Section 4.4 are not reproducible with the provided code but the authors added a note, in the GitHub repository of their project, explaining how the data was generated. Three figures in Section 4.4 are fully reproducible (5, 6, and 7), 2 partially (4 and 8) and 4 are not (3, 9, 10, and 11).
+The code and data provided by the authors allow to partially reproduce
+the computational work presented in the Section 4.4 of the paper. The
+model training (PointNet++) and the input data for Section 4.4 are not
+reproducible with the provided code but the authors added a note, in the
+GitHub repository of their project, explaining how the data was
+generated. Three figures in Section 4.4 are fully reproducible (5, 6,
+and 7), 2 partially (4 and 8) and 4 are not (3, 9, 10, and 11).
 </p>
 </div>
 </div>
@@ -350,6 +392,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p style="margin-bottom: 2em;">
 </p>

@@ -55,7 +55,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -229,13 +230,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -249,19 +252,40 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="https://doi.org/10.5194/agile-giss-5-4-2024">The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna</a>
+<strong>Title</strong>: <a
+href="https://doi.org/10.5194/agile-giss-5-4-2024">The Impact of Traffic
+Lights on Modal Split and Route Choice: A use-case in Vienna</a>
 </p>
 <p>
-<strong>Authors</strong>: Ioanna Gogousou, Manuela Canestrini, Negar Alinaghi, Dimitrios Michail, Ioannis Giannopoulos
+<strong>Authors</strong>: Ioanna Gogousou, Manuela Canestrini, Negar
+Alinaghi, Dimitrios Michail, Ioannis Giannopoulos
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="scrollable-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="scrollable-text-box">
 <p>
-<jats:p>Abstract. The transportation dynamics within a European city, Vienna, are examined using a multi-graph representation of the city’s network. The focus is on time-optimized routing algorithms and the effects of altering the average waiting penalty at traffic lights. The impact of these modifications, whether an increase to 60, 90, or even 150 seconds or a decrease to 10 seconds, is observed in the selection of transportation modes and routes for identical origin and destination pairs. The investigation also extends to whether routes shift towards secondary street networks to avoid traffic lights as the waiting penalty increases. Experimental variations in average waiting time for cars aim to uncover detailed effects on transportation mode choices, route length and time changes, and variations in human energy expenditure. These findings could provide valuable insights into the transportation network and its possibilities and help in urban planning and policy development. The results indicate a shift in transportation mode as the waiting penalty for cars at traffic lights increases, and in some instances, routes are redirected to roads of lower importance such as residential or service roads. </jats:p>
+<jats:p>Abstract. The transportation dynamics within a European city,
+Vienna, are examined using a multi-graph representation of the city’s
+network. The focus is on time-optimized routing algorithms and the
+effects of altering the average waiting penalty at traffic lights. The
+impact of these modifications, whether an increase to 60, 90, or even
+150 seconds or a decrease to 10 seconds, is observed in the selection of
+transportation modes and routes for identical origin and destination
+pairs. The investigation also extends to whether routes shift towards
+secondary street networks to avoid traffic lights as the waiting penalty
+increases. Experimental variations in average waiting time for cars aim
+to uncover detailed effects on transportation mode choices, route length
+and time changes, and variations in human energy expenditure. These
+findings could provide valuable insights into the transportation network
+and its possibilities and help in urban planning and policy development.
+The results indicate a shift in transportation mode as the waiting
+penalty for cars at traffic lights increases, and in some instances,
+routes are redirected to roads of lower importance such as residential
+or service roads. </jats:p>
 </p>
 </div>
 </div>
@@ -278,16 +302,20 @@ Codecheck details
 <strong>Certificate identifier</strong>: 2024-012
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://orcid.org/0000-0003-0928-1139">Eftychia Koukouraki</a>
+<strong>Codechecker name</strong>: <a
+href="https://orcid.org/0000-0003-0928-1139">Eftychia Koukouraki</a>
 </p>
 <p>
 <strong>Time of codecheck</strong>: 2024-05-30 05:02:00
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://osf.io/w42ad" class="uri">https://osf.io/w42ad</a>
+<strong>Repository</strong>: <a href="https://osf.io/w42ad"
+class="uri">https://osf.io/w42ad</a>
 </p>
 <p>
-<strong>Codecheck report</strong>: <a href="https://doi.org/10.17605/osf.io/W42AD" class="uri">https://doi.org/10.17605/osf.io/W42AD</a>
+<strong>Codecheck report</strong>: <a
+href="https://doi.org/10.17605/osf.io/W42AD"
+class="uri">https://doi.org/10.17605/osf.io/W42AD</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="scrollable-container">
@@ -296,7 +324,16 @@ Codecheck details
 </p>
 <div id="summary-content" class="scrollable-text-box">
 <p>
-The paper investigates the impact of different traffic light waiting times on individuals’ choice of transportation mode (e.g., bicycle, bus, car, etc.). The calculations of this study are based on Open Street Map (OSM) data analysed with Dijkstra’s algorithm. The data, code, and intermediate results have been made publicly available by the authors under permissive licenses (CC BY 4.0 and MIT). For the purposes of this reproducibility review, we verified the functionality of all scripts and the reported results in Figures 1-5 and in Table 2. The reproduced results were in accordance with the reported results and therefore the reproduction of the paper is considered successful.
+The paper investigates the impact of different traffic light waiting
+times on individuals’ choice of transportation mode (e.g., bicycle, bus,
+car, etc.). The calculations of this study are based on Open Street Map
+(OSM) data analysed with Dijkstra’s algorithm. The data, code, and
+intermediate results have been made publicly available by the authors
+under permissive licenses (CC BY 4.0 and MIT). For the purposes of this
+reproducibility review, we verified the functionality of all scripts and
+the reported results in Figures 1-5 and in Table 2. The reproduced
+results were in accordance with the reported results and therefore the
+reproduction of the paper is considered successful.
 </p>
 </div>
 </div>
@@ -350,6 +387,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p style="margin-bottom: 2em;">
 </p>

@@ -55,7 +55,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -229,13 +230,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -249,19 +252,46 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="https://doi.org/10.5194/agile-giss-3-19-2022">Unlocking social network analysis methods for studying human mobility</a>
+<strong>Title</strong>: <a
+href="https://doi.org/10.5194/agile-giss-3-19-2022">Unlocking social
+network analysis methods for studying human mobility</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="https://orcid.org/0000-0002-8160-7634">Nina Wiedemann</a>, Henry Martin, Martin Raubal
+<strong>Authors</strong>: <a
+href="https://orcid.org/0000-0002-8160-7634">Nina Wiedemann</a>, Henry
+Martin, Martin Raubal
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="scrollable-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="scrollable-text-box">
 <p>
-<jats:p>Abstract. Planning and operations in urban spaces are strongly affected by human mobility behavior. A better understanding of individual mobility is key to improve transportation systems and to guide the allocation of public space. Previous studies have discovered statistical laws of travel distances, but the topology of movement between places has received little attention. We propose to employ network modelling methods to analyze the effect of spatial and context attributes on individual movement patterns. The perspective of mobility as a network allows to explicitly regard dyadic dependencies of sequential location visits. Here, we consider two methods developed for social networks and provide a formulation of mobility networks to justify their applicability. First, we use the Multiple Regression Quadratic Assignment Procedure to test hypotheses on the influence of location attributes on mobility behavior. Secondly, Stochastic Actor-Oriented Models are applied to model the evolution of mobility networks over time. As a proof-of-concept study, we transform data from one GNSS-based and one check-in based dataset into mobility networks and present results from both methods. We find relations that appear for a majority of samples and thus seem inherent to mobility networks. The differences between individuals and the available datasets are further quantified and discussed. We conclude that the transfer of network modeling methods is an interesting opportunity to study network-related phenomena in geographic information science. </jats:p>
+<jats:p>Abstract. Planning and operations in urban spaces are strongly
+affected by human mobility behavior. A better understanding of
+individual mobility is key to improve transportation systems and to
+guide the allocation of public space. Previous studies have discovered
+statistical laws of travel distances, but the topology of movement
+between places has received little attention. We propose to employ
+network modelling methods to analyze the effect of spatial and context
+attributes on individual movement patterns. The perspective of mobility
+as a network allows to explicitly regard dyadic dependencies of
+sequential location visits. Here, we consider two methods developed for
+social networks and provide a formulation of mobility networks to
+justify their applicability. First, we use the Multiple Regression
+Quadratic Assignment Procedure to test hypotheses on the influence of
+location attributes on mobility behavior. Secondly, Stochastic
+Actor-Oriented Models are applied to model the evolution of mobility
+networks over time. As a proof-of-concept study, we transform data from
+one GNSS-based and one check-in based dataset into mobility networks and
+present results from both methods. We find relations that appear for a
+majority of samples and thus seem inherent to mobility networks. The
+differences between individuals and the available datasets are further
+quantified and discussed. We conclude that the transfer of network
+modeling methods is an interesting opportunity to study network-related
+phenomena in geographic information science. </jats:p>
 </p>
 </div>
 </div>
@@ -278,16 +308,20 @@ Codecheck details
 <strong>Certificate identifier</strong>: 2022-015
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://orcid.org/0000-0003-2615-8757">Jakub Krukar</a>
+<strong>Codechecker name</strong>: <a
+href="https://orcid.org/0000-0003-2615-8757">Jakub Krukar</a>
 </p>
 <p>
 <strong>Time of codecheck</strong>: 2022-07-09 12:00:00
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://osf.io/MVQCW" class="uri">https://osf.io/MVQCW</a>
+<strong>Repository</strong>: <a href="https://osf.io/MVQCW"
+class="uri">https://osf.io/MVQCW</a>
 </p>
 <p>
-<strong>Codecheck report</strong>: <a href="https://doi.org/10.17605/osf.io/mvqcw" class="uri">https://doi.org/10.17605/osf.io/mvqcw</a>
+<strong>Codecheck report</strong>: <a
+href="https://doi.org/10.17605/osf.io/mvqcw"
+class="uri">https://doi.org/10.17605/osf.io/mvqcw</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="scrollable-container">
@@ -296,7 +330,15 @@ Codecheck details
 </p>
 <div id="summary-content" class="scrollable-text-box">
 <p>
-The paper provides a link to a GitHub repository that was initially difficult to use but was promptly improved by the authors after an email exchange. The repository contains only one out of two datasets presented in the paper but most results based on this dataset have been successfully reproduced with minor disparities due to automated scaling of graphs. In sum, the manuscript has been partially reproduced. The repository is well-documented, it includes the documentation of required software versions, and the authors’ response to questions and bugs has been prompt and helpful.
+The paper provides a link to a GitHub repository that was initially
+difficult to use but was promptly improved by the authors after an email
+exchange. The repository contains only one out of two datasets presented
+in the paper but most results based on this dataset have been
+successfully reproduced with minor disparities due to automated scaling
+of graphs. In sum, the manuscript has been partially reproduced. The
+repository is well-documented, it includes the documentation of required
+software versions, and the authors’ response to questions and bugs has
+been prompt and helpful.
 </p>
 </div>
 </div>
@@ -350,6 +392,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p style="margin-bottom: 2em;">
 </p>
