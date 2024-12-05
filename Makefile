@@ -3,6 +3,9 @@ default: render
 version:
 	R -q -e "library('codecheck'); sessionInfo();"
 
+install:
+	R -q -e "remotes::install_github('codecheckers/codecheck');"
+
 render: version
 	R -q -e "codecheck::register_render()"
 
