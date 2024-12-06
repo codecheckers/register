@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2024-019](https://codecheck.org.uk/register/certs/2024-019/)",
+    "Certificate ID": "2024-019",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-019/",
     "Repository Link": "https://github.com/codecheckers/wearable-hrv",
     "Type": "community",
     "Venue": "codecheck NL",

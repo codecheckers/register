@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2020-001](https://codecheck.org.uk/register/certs/2020-001/)",
+    "Certificate ID": "2020-001",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-001/",
     "Repository Link": "https://github.com/codecheckers/Piccolo-2020",
     "Report": "http://doi.org/10.5281/zenodo.3674056",
     "Title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
@@ -8,7 +9,8 @@
     "Check date": "2019-02-14"
   },
   {
-    "Certificate": "[2020-024](https://codecheck.org.uk/register/certs/2020-024/)",
+    "Certificate ID": "2020-024",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-024/",
     "Repository Link": "https://github.com/codecheckers/driftage",
     "Report": "https://doi.org/10.5281/zenodo.4964880",
     "Title": "Driftage: a multi-agent system framework for concept drift detection",

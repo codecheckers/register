@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2024-014](https://codecheck.org.uk/register/certs/2024-014/)",
+    "Certificate ID": "2024-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-014/",
     "Repository Link": "https://osf.io/spxt5",
     "Type": "community",
     "Venue": "codecheck NL",

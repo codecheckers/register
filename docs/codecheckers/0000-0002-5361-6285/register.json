@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2020-005](https://codecheck.org.uk/register/certs/2020-005/)",
+    "Certificate ID": "2020-005",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-005/",
     "Repository Link": "https://github.com/codecheckers/Larisch-reproduction",
     "Type": "community",
     "Venue": "codecheck",
@@ -10,7 +11,8 @@
     "Check date": "2020-07-23"
   },
   {
-    "Certificate": "[2020-006](https://codecheck.org.uk/register/certs/2020-006/)",
+    "Certificate ID": "2020-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-006/",
     "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
     "Type": "community",
     "Venue": "codecheck",
@@ -20,7 +22,8 @@
     "Check date": "2020-07-16"
   },
   {
-    "Certificate": "[2020-013](https://codecheck.org.uk/register/certs/2020-013/)",
+    "Certificate ID": "2020-013",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-013/",
     "Repository Link": "https://github.com/codecheckers/Spitschan2020_bioRxiv",
     "Type": "community",
     "Venue": "preprint",
@@ -30,7 +33,8 @@
     "Check date": "2020-07-14"
   },
   {
-    "Certificate": "[2020-014](https://codecheck.org.uk/register/certs/2020-014/)",
+    "Certificate ID": "2020-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
     "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
     "Type": "community",
     "Venue": "codecheck",
@@ -40,7 +44,8 @@
     "Check date": "2020-07-28"
   },
   {
-    "Certificate": "[2020-015](https://codecheck.org.uk/register/certs/2020-015/)",
+    "Certificate ID": "2020-015",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-015/",
     "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
     "Type": "community",
     "Venue": "codecheck",

@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2020-025](https://codecheck.org.uk/register/certs/2020-025/)",
+    "Certificate ID": "2020-025",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-025/",
     "Repository Link": "https://github.com/codecheckers/LICD_article",
     "Report": "https://doi.org/10.5281/zenodo.4279275",
     "Title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",

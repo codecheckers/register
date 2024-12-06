@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2024-022](https://codecheck.org.uk/register/certs/2024-022/)",
+    "Certificate ID": "2024-022",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-022/",
     "Repository Link": "https://github.com/codecheckers/DEISM",
     "Type": "community",
     "Venue": "codecheck NL",

@@ -7,7 +7,7 @@ install:
 	R -q -e "remotes::install_github('codecheckers/codecheck');"
 
 render: version
-	R -q -e "codecheck::register_render()"
+	R -q -e "codecheck::register_render(); warnings();"
 
 clean: version
 	rm -r -f .cache/R

@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2021-010](https://codecheck.org.uk/register/certs/2021-010/)",
+    "Certificate ID": "2021-010",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-010/",
     "Repository Link": "https://osf.io/bdu28",
     "Type": "conference",
     "Venue": "AGILEGIS",
@@ -10,7 +11,8 @@
     "Check date": "2021-06-10"
   },
   {
-    "Certificate": "[2023-009](https://codecheck.org.uk/register/certs/2023-009/)",
+    "Certificate ID": "2023-009",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-009/",
     "Repository Link": "https://osf.io/9kp7u",
     "Type": "conference",
     "Venue": "AGILEGIS",

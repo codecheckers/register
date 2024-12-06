@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2020-019](https://codecheck.org.uk/register/certs/2020-019/)",
+    "Certificate ID": "2020-019",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-019/",
     "Repository Link": "https://osf.io/5SVMT",
     "Type": "conference",
     "Venue": "AGILEGIS",
@@ -10,7 +11,8 @@
     "Check date": "2020-07-13"
   },
   {
-    "Certificate": "[2022-003](https://codecheck.org.uk/register/certs/2022-003/)",
+    "Certificate ID": "2022-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-003/",
     "Repository Link": "https://osf.io/JDTN3",
     "Type": "conference",
     "Venue": "AGILEGIS",
@@ -20,7 +22,8 @@
     "Check date": "2022-07-09"
   },
   {
-    "Certificate": "[2022-016](https://codecheck.org.uk/register/certs/2022-016/)",
+    "Certificate ID": "2022-016",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-016/",
     "Repository Link": "https://osf.io/DJFC2",
     "Type": "conference",
     "Venue": "AGILEGIS",
@@ -30,7 +33,8 @@
     "Check date": "2022-07-09"
   },
   {
-    "Certificate": "[2024-006](https://codecheck.org.uk/register/certs/2024-006/)",
+    "Certificate ID": "2024-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-006/",
     "Repository Link": "https://osf.io/ymc3t",
     "Type": "conference",
     "Venue": "AGILEGIS",
@@ -40,7 +44,8 @@
     "Check date": "2024-05-23"
   },
   {
-    "Certificate": "[2024-007](https://codecheck.org.uk/register/certs/2024-007/)",
+    "Certificate ID": "2024-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-007/",
     "Repository Link": "https://osf.io/gvpd9",
     "Type": "conference",
     "Venue": "AGILEGIS",

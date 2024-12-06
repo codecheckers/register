@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2021-001](https://codecheck.org.uk/register/certs/2021-001/)",
+    "Certificate ID": "2021-001",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-001/",
     "Repository Link": "https://github.com/codecheckers/causality-review",
     "Type": "community",
     "Venue": "preprint",

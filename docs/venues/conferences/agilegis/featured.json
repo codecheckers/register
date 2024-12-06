@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2023-009](https://codecheck.org.uk/register/certs/2023-009/)",
+    "Certificate ID": "2023-009",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-009/",
     "Repository Link": "https://osf.io/9kp7u",
     "Report": "https://doi.org/10.17605/osf.io/9kp7u",
     "Title": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism",
@@ -8,7 +9,8 @@
     "Check date": "2023-06-13"
   },
   {
-    "Certificate": "[2023-010](https://codecheck.org.uk/register/certs/2023-010/)",
+    "Certificate ID": "2023-010",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-010/",
     "Repository Link": "https://osf.io/8t3bh",
     "Report": "https://doi.org/10.17605/osf.io/8t3bh",
     "Title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
@@ -16,7 +18,8 @@
     "Check date": "2023-06-13"
   },
   {
-    "Certificate": "[2024-006](https://codecheck.org.uk/register/certs/2024-006/)",
+    "Certificate ID": "2024-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-006/",
     "Repository Link": "https://osf.io/ymc3t",
     "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
     "Title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
@@ -24,7 +27,8 @@
     "Check date": "2024-05-23"
   },
   {
-    "Certificate": "[2024-007](https://codecheck.org.uk/register/certs/2024-007/)",
+    "Certificate ID": "2024-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-007/",
     "Repository Link": "https://osf.io/gvpd9",
     "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
     "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
@@ -32,7 +36,8 @@
     "Check date": "2024-05-23"
   },
   {
-    "Certificate": "[2024-008](https://codecheck.org.uk/register/certs/2024-008/)",
+    "Certificate ID": "2024-008",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-008/",
     "Repository Link": "https://osf.io/3nbjw",
     "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
     "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
@@ -40,7 +45,8 @@
     "Check date": "2024-05-23"
   },
   {
-    "Certificate": "[2024-009](https://codecheck.org.uk/register/certs/2024-009/)",
+    "Certificate ID": "2024-009",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-009/",
     "Repository Link": "https://osf.io/csb7r",
     "Report": "https://doi.org/10.17605/osf.io/CSB7R",
     "Title": "Developing a city-specific walkability index through a participatory approach",
@@ -48,7 +54,8 @@
     "Check date": "2024-05-23"
   },
   {
-    "Certificate": "[2024-010](https://codecheck.org.uk/register/certs/2024-010/)",
+    "Certificate ID": "2024-010",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-010/",
     "Repository Link": "https://osf.io/nbk57",
     "Report": "https://doi.org/10.17605/osf.io/NBK57",
     "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
@@ -56,7 +63,8 @@
     "Check date": "2024-05-27"
   },
   {
-    "Certificate": "[2024-011](https://codecheck.org.uk/register/certs/2024-011/)",
+    "Certificate ID": "2024-011",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-011/",
     "Repository Link": "https://osf.io/fmgb4",
     "Report": "https://doi.org/10.17605/osf.io/FMGB4",
     "Title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
@@ -64,7 +72,8 @@
     "Check date": "2024-05-27"
   },
   {
-    "Certificate": "[2024-012](https://codecheck.org.uk/register/certs/2024-012/)",
+    "Certificate ID": "2024-012",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-012/",
     "Repository Link": "https://osf.io/w42ad",
     "Report": "https://doi.org/10.17605/osf.io/W42AD",
     "Title": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
@@ -72,7 +81,8 @@
     "Check date": "2024-05-30"
   },
   {
-    "Certificate": "[2024-013](https://codecheck.org.uk/register/certs/2024-013/)",
+    "Certificate ID": "2024-013",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-013/",
     "Repository Link": "https://osf.io/txgzv",
     "Report": "https://doi.org/10.17605/osf.io/TXGZV",
     "Title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",

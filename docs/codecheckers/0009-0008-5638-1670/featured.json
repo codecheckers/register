@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2024-017](https://codecheck.org.uk/register/certs/2024-017/)",
+    "Certificate ID": "2024-017",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-017/",
     "Repository Link": "https://github.com/codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation",
     "Type": "community",
     "Venue": "codecheck NL",

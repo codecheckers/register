@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2024-020](https://codecheck.org.uk/register/certs/2024-020/)",
+    "Certificate ID": "2024-020",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-020/",
     "Repository Link": "https://github.com/codecheckers/codecheck_LangtonRuiterVerlaan2022",
     "Type": "community",
     "Venue": "codecheck NL",

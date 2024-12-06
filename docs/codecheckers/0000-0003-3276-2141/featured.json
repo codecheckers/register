@@ -1,6 +1,7 @@
 [
   {
-    "Certificate": "[2024-021](https://codecheck.org.uk/register/certs/2024-021/)",
+    "Certificate ID": "2024-021",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-021/",
     "Repository Link": "https://github.com/codecheckers/DementiaPhysicalActivity",
     "Type": "community",
     "Venue": "codecheck NL",
