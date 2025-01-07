@@ -13,7 +13,7 @@
 
 <title>CODECHECK Certificate 2024-018</title>
 
-<script src="../../libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="../../libs/header-attrs-2.21/header-attrs.js"></script>
 <script src="../../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="../../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -55,7 +55,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -229,13 +230,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -249,15 +252,21 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="https://doi.org/10.21203/rs.3.rs-3771881/v1">Power analysis for personal light exposure measurements and interventions</a>
+<strong>Title</strong>: <a
+href="https://doi.org/10.21203/rs.3.rs-3771881/v1">Power analysis for
+personal light exposure measurements and interventions</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="https://orcid.org/0000-0003-2171-4566">Johannes Zauner</a>, <a href="https://orcid.org/0000-0002-6035-8309">Ljiljana Udovicic</a>, <a href="https://orcid.org/0000-0002-8572-9268">Manuel Spitschan</a>
+<strong>Authors</strong>: <a
+href="https://orcid.org/0000-0003-2171-4566">Johannes Zauner</a>, <a
+href="https://orcid.org/0000-0002-6035-8309">Ljiljana Udovicic</a>, <a
+href="https://orcid.org/0000-0002-8572-9268">Manuel Spitschan</a>
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="scrollable-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="scrollable-text-box">
 <p>
@@ -265,7 +274,46 @@ Paper details
 Abstract
 </title>
 <pre><code>    &lt;p&gt;Background</code></pre>
-Light exposure regulates the human circadian system and more widely affects health, well-being, and performance. As field studies examining how light exposure impacts these aspects in the real world increase in number, so does the amount of light exposure data collected using wearable light loggers. These data are considerably more complex compared to singular stationary measurements in the laboratory, and they require special consideration not only during analysis, but already at the design stage of a study. How to estimate the required sample size of study participants remains an open topic, as evidenced by the large variability of employed sample sizes in the small but growing published literature: sample sizes between 2 and 1,887 from a recent review of the field (median 37) and approaching 10<sup>5</sup> participants in first studies using national databases. Methods Here, we present a novel procedure based on robust bootstrapping to calculate statistical power and required sample size for wearable light logging data and derived summary metrics taking into account the hierarchical data structure (mixed-effect model). Alongside this method, we publish a dataset that serves as one possible basis to perform these calculations: one week of continuous data in winter and summer, respectively, for 13 participants (collected in Dortmund, Germany, lat. 51.514° N, lon. 7.468° E). Results Applying our method on the dataset for twelve different summary metrics (luminous exposure, geometric mean and standard deviation, timing/time above/below threshold, mean/midpoint of darkest/brightest hours, intradaily variability) with a target comparison across winter and summer, reveals a large range of required sample sizes from 3 to &gt; 50. About half of the metrics – those that focus on the bright time of day – showed sufficient power already with the smallest sample, while metrics centered around the dark time of the day and daily patterns required higher sample sizes: mean timing of light below 10 lux (5), intradaily variability (17), mean of darkest 5 hours (24) and mean timing of light above 250 lux (45). Geometric standard deviation and midpoint of the darkest 5 hours did not reach the required power within the investigated sample size. Conclusions The results clearly show the importance of a sound theoretical basis for a study using wearable light loggers, as this dictates the type of metric to be used and, thus, sample size. Our method applies to other datasets that allow comparisons of scenarios beyond seasonal differences. With an ever-growing pool of data from the emerging literature, the utility of this method will increase and provide a solid statistical basis for the selection of sample sizes.
+Light exposure regulates the human circadian system and more widely
+affects health, well-being, and performance. As field studies examining
+how light exposure impacts these aspects in the real world increase in
+number, so does the amount of light exposure data collected using
+wearable light loggers. These data are considerably more complex
+compared to singular stationary measurements in the laboratory, and they
+require special consideration not only during analysis, but already at
+the design stage of a study. How to estimate the required sample size of
+study participants remains an open topic, as evidenced by the large
+variability of employed sample sizes in the small but growing published
+literature: sample sizes between 2 and 1,887 from a recent review of the
+field (median 37) and approaching 10<sup>5</sup> participants in first
+studies using national databases. Methods Here, we present a novel
+procedure based on robust bootstrapping to calculate statistical power
+and required sample size for wearable light logging data and derived
+summary metrics taking into account the hierarchical data structure
+(mixed-effect model). Alongside this method, we publish a dataset that
+serves as one possible basis to perform these calculations: one week of
+continuous data in winter and summer, respectively, for 13 participants
+(collected in Dortmund, Germany, lat. 51.514° N, lon. 7.468° E). Results
+Applying our method on the dataset for twelve different summary metrics
+(luminous exposure, geometric mean and standard deviation, timing/time
+above/below threshold, mean/midpoint of darkest/brightest hours,
+intradaily variability) with a target comparison across winter and
+summer, reveals a large range of required sample sizes from 3 to
+&gt; 50. About half of the metrics – those that focus on the bright time
+of day – showed sufficient power already with the smallest sample, while
+metrics centered around the dark time of the day and daily patterns
+required higher sample sizes: mean timing of light below 10 lux (5),
+intradaily variability (17), mean of darkest 5 hours (24) and mean
+timing of light above 250 lux (45). Geometric standard deviation and
+midpoint of the darkest 5 hours did not reach the required power within
+the investigated sample size. Conclusions The results clearly show the
+importance of a sound theoretical basis for a study using wearable light
+loggers, as this dictates the type of metric to be used and, thus,
+sample size. Our method applies to other datasets that allow comparisons
+of scenarios beyond seasonal differences. With an ever-growing pool of
+data from the emerging literature, the utility of this method will
+increase and provide a solid statistical basis for the selection of
+sample sizes.
 </p>
 </p>
 </div>
@@ -283,16 +331,21 @@ Codecheck details
 <strong>Certificate identifier</strong>: 2024-018
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://orcid.org/0000-0001-8607-8025">Stephen J. Eglen</a>
+<strong>Codechecker name</strong>: <a
+href="https://orcid.org/0000-0001-8607-8025">Stephen J. Eglen</a>
 </p>
 <p>
 <strong>Time of codecheck</strong>: 2024-11-28 11:00:00
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://github.com/codecheckers/ZaunerEtAl_PLoS_ONE_2024" class="uri">https://github.com/codecheckers/ZaunerEtAl_PLoS_ONE_2024</a>
+<strong>Repository</strong>: <a
+href="https://github.com/codecheckers/ZaunerEtAl_PLoS_ONE_2024"
+class="uri">https://github.com/codecheckers/ZaunerEtAl_PLoS_ONE_2024</a>
 </p>
 <p>
-<strong>Codecheck report</strong>: <a href="https://doi.org/10.5281/zenodo.14235113" class="uri">https://doi.org/10.5281/zenodo.14235113</a>
+<strong>Codecheck report</strong>: <a
+href="https://doi.org/10.5281/zenodo.14235113"
+class="uri">https://doi.org/10.5281/zenodo.14235113</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="scrollable-container">
@@ -301,7 +354,8 @@ Codecheck details
 </p>
 <div id="summary-content" class="scrollable-text-box">
 <p>
-R quarto document that was able to compile, but see certificate for details of issues arising.
+R quarto document that was able to compile, but see certificate for
+details of issues arising.
 </p>
 </div>
 </div>
