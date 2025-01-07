@@ -944,5 +944,16 @@
     "Title": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method",
     "Paper reference": "https://doi.org/10.1121/10.0023935",
     "Check date": "2024-12-05"
+  },
+  {
+    "Certificate ID": "2024-024",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-024/",
+    "Repository Link": "https://github.com/codecheckers/iteval-sims",
+    "Type": "community",
+    "Venue": "AUMC",
+    "Report": "https://doi.org/10.5281/zenodo.14576035",
+    "Title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
+    "Paper reference": "https://doi.org/10.1002/sim.10186",
+    "Check date": "2024-12-16"
   }
 ]
