@@ -97,5 +97,14 @@
     "Title": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method",
     "Paper reference": "https://doi.org/10.1121/10.0023935",
     "Check date": "2024-12-05"
+  },
+  {
+    "Certificate ID": "2024-023",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-023/",
+    "Repository Link": "https://zenodo.org/records/14900193",
+    "Report": "https://doi.org/10.5281/zenodo.14900193",
+    "Title": "Influence of the cochlear partition’s flexibility on the macro mechanisms in the inner ear",
+    "Paper reference": "https://doi.org/10.1016/j.heares.2024.109127",
+    "Check date": "2024-11-08"
   }
 ]
