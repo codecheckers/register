@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for conference (AGILEGIS)
+title: CODECHECK Register for AGILEGIS (conference)
 ---
 
 

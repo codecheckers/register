@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for community (AUMC)
+title: CODECHECK Register for AUMC (community)
 ---
 
 

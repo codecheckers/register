@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for journal (GigaScience)
+title: CODECHECK Register for GigaScience (journal)
 ---
 
 

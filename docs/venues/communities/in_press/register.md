@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for community (in press)
+title: CODECHECK Register for in press (community)
 ---
 
 

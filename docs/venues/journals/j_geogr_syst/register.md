@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for journal (J Geogr Syst)
+title: CODECHECK Register for J Geogr Syst (journal)
 ---
 
 

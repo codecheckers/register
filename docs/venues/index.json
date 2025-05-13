@@ -42,11 +42,16 @@
   {
     "Venue type": "community",
     "Venue name": "CODECHECK NL",
-    "No. of codechecks": 13
+    "No. of codechecks": 14
   },
   {
     "Venue type": "community",
     "Venue name": "Amsterdam UMC",
     "No. of codechecks": 2
+  },
+  {
+    "Venue type": "institution",
+    "Venue name": "TU Delft Digital Competence Centre",
+    "No. of codechecks": 1
   }
 ]

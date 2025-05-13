@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for journal (J Archaeol Sci)
+title: CODECHECK Register for J Archaeol Sci (journal)
 ---
 
 

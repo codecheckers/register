@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for journal (GigaByte)
+title: CODECHECK Register for GigaByte (journal)
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: CODECHECK Register for community (preprint)
+title: CODECHECK Register for preprint (community)
 ---
 
 
