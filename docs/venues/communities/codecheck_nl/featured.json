@@ -1,14 +1,5 @@
 [
   {
-    "Certificate ID": "2024-015",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-015/",
-    "Repository Link": "https://osf.io/mwbuq",
-    "Report": "https://doi.org/10.17605/OSF.IO/mwbuq",
-    "Title": "Landscape Character Assessment - Nigeria",
-    "Paper reference": "https://doi.org/10.17605/OSF.IO/E2K73",
-    "Check date": "2024-09-26"
-  },
-  {
     "Certificate ID": "2024-016",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-016/",
     "Repository Link": "https://osf.io/6ngyc",
@@ -88,5 +79,14 @@
     "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
     "Paper reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
     "Check date": "2024-11-08"
+  },
+  {
+    "Certificate ID": "2025-001",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-001/",
+    "Repository Link": "https://github.com/codecheckers/mb11CalculusPilot",
+    "Report": "https://doi.org/10.5281/zenodo.15389126",
+    "Title": "Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population",
+    "Paper reference": "https://doi.org/10.24072/pcjournal.414",
+    "Check date": "2025-02-14"
   }
 ]

@@ -88,3 +88,5 @@ Certificate,Repository,Type,Venue,Issue
 2024-024,github::codecheckers/iteval-sims,community,AUMC,139
 2024-023,zenodo::14900193,community,codecheck NL,138
 2024-025,zenodo::15025861,community,codecheck NL,149
+2025-003,github::codecheckers/certificate-2025-003,institution,TU Delft DCC,157
+2025-001,github::codecheckers/mb11CalculusPilot,community,codecheck NL,148
