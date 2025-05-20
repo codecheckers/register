@@ -1,16 +1,5 @@
 [
   {
-    "Certificate ID": "2020-012",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-012/",
-    "Repository Link": "https://github.com/codecheckers/covid19model-report23",
-    "Type": "community",
-    "Venue": "preprint",
-    "Report": "https://doi.org/10.5281/zenodo.3893617",
-    "Title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)",
-    "Paper reference": "https://doi.org/10.25561/79231",
-    "Check date": "2020-06-14"
-  },
-  {
     "Certificate ID": "2020-024",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-024/",
     "Repository Link": "https://github.com/codecheckers/driftage",
@@ -108,5 +97,16 @@
     "Title": "Power analysis for personal light exposure measurements and interventions",
     "Paper reference": "https://doi.org/10.21203/rs.3.rs-3771881/v1",
     "Check date": "2024-11-28"
+  },
+  {
+    "Certificate ID": "2020-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
+    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Report": "https://doi.org/10.53962/nsys-9a40",
+    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "Check date": "2025-05-19"
   }
 ]

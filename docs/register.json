@@ -999,5 +999,16 @@
     "Title": "Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population",
     "Paper reference": "https://doi.org/10.24072/pcjournal.414",
     "Check date": "2025-02-14"
+  },
+  {
+    "Certificate ID": "2020-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
+    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Report": "https://doi.org/10.53962/nsys-9a40",
+    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "Check date": "2025-05-19"
   }
 ]
