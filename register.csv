@@ -93,4 +93,5 @@ Certificate,Repository,Type,Venue,Issue
 2020-007,github::codecheckers/Hathway-Goodman-2018,community,codecheck,7
 2025-004,github::codecheckers/certificate-2025-004,institution,TU Delft DCC,156
 2025-005,zenodo::15323262,journal,Lifecycle Journal,158
+2025-006,github::codecheckers/sarscov2-variants,institution,TU Delft DCC,159
 2025-007,github::codecheckers/certificate-2025-007,institution,TU Delft DCC,164
