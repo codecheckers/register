@@ -52,6 +52,11 @@
   {
     "Venue type": "institution",
     "Venue name": "TU Delft Digital Competence Centre",
+    "No. of codechecks": 3
+  },
+  {
+    "Venue type": "journal",
+    "Venue name": "Lifecycle Journal",
     "No. of codechecks": 1
   }
 ]

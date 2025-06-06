@@ -7,7 +7,7 @@
   {
     "Codechecker name": "Daniel Nüst",
     "ORCID": "0000-0002-0024-5046",
-    "No. of codechecks": 21
+    "No. of codechecks": 22
   },
   {
     "Codechecker name": "Iain Davies",
@@ -120,7 +120,7 @@
   {
     "Codechecker name": "Yasel Quintero",
     "ORCID": "0009-0005-9240-7370",
-    "No. of codechecks": 2
+    "No. of codechecks": 3
   },
   {
     "Codechecker name": "Joslyn Sun",
@@ -220,6 +220,16 @@
   {
     "Codechecker name": "Daniela Gawehns",
     "ORCID": "0000-0002-9678-9012",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Joao Guimaraes",
+    "ORCID": "0000-0002-6545-3102",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Josip Grguric",
+    "ORCID": "0009-0003-3725-9454",
     "No. of codechecks": 1
   }
 ]
