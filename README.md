@@ -12,12 +12,17 @@ Here are some possible values or rules for the specific columns in the file:
 
 - `Certificate`: the certificate number
 - `Repository`: qualified reference to the repository where the `codecheck.yml` file can be retrieved; the file must be in the project "root"; supported types and examples:
-  - `github::` for referencing a GitHub repository using `org/name`, e.g., `github::codecheckers/Piccolo-2020` from codecheckers organisation
-  - `osf::` for referencing an OSF project using the project identifier, e.g.,  `osf::ZTC7M`
+  - `github::` for referencing a GitHub repository using `org/name`, e.g., `github::codecheckers/Piccolo-2020` from codecheckers organisation; you may also append a path seperated by a pipe character `|` within a GitHub repository if the `codecheck.yml` file is not in the root, e.g., `github::reproducible-agile/reviews-2025|reports/08`
+  - `osf::` for referencing an OSF project using the project identifier, e.g., `osf::ZTC7M`
+  - `zenodo::` for referencing a Zenodo record using the record identifier, e.g., `zenodo::1234567`
+  - `gitlab::` for referencing a GitLab repository using `org/name`, e.g., `gitlab::codecheckers/Piccolo-2020`
 - `Type`: type of the check, e.g., solicited as part of peer review in a journal or conference, or initiated from the community; possible values:
-  - `community` = check initiated independently by community members and following the [CODECHECK community workflow guide](https://codecheck.org.uk/guide/community-workflow); may be qualified further, e.g., for preprints as `community (preprint)`
-  - `journal (<journal abbreviation>)` = check conducted as part of a peer review process with a scientific journal, including a reference to the check in the published article; the journal abbreviation uses the [ISO 4](https://en.wikipedia.org/wiki/ISO_4) standard name for the journal, using common capitalization and omitting full stops, for example `J Geogr Syst` or `GigaScience` (find the correct name via Wikipedia or the journal website)
-  - `conference (<conf name>)` = check conducted as part of a peer review process at a scientific conference, e.g., `conference (AGILEGIS)`
+  - `community` = check initiated independently by community members and following the [CODECHECK community workflow guide](https://codecheck.org.uk/guide/community-workflow); may be qualified further with a venue
+  - `journal` = check conducted as part of a peer review process with a scientific journal, including a reference to the check in the published article
+  - `conference` = check conducted as part of a peer review process at a scientific conference
+  - `institution` = check conducted as part of a peer review process at an institution
+- `Venue`: name of the journal, conference, or institution where the check was conducted, including specifications such as `preprint` or `in press`
+  - the journal abbreviation uses the [ISO 4](https://en.wikipedia.org/wiki/ISO_4) standard name for the journal, using common capitalization and omitting full stops, for example `J Geogr Syst` or `GigaScience` (find the correct name via Wikipedia or the journal website)
 - `Issue`: number of the issue in the register project where the CODECHECK is managed (informative mostly, not for metadata retrieval)
 
 To update the register, simply edit the `register.csv` file and submit the change.
