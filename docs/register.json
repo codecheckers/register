@@ -1054,5 +1054,16 @@
     "Title": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
     "Paper reference": "https://doi.org/10.5194/wes-2025-77",
     "Check date": "2025-05-26"
+  },
+  {
+    "Certificate ID": "2025-018",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-018/",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-018",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Report": "https://doi.org/10.5281/zenodo.15630442",
+    "Title": "Scalable control synthesis for stochastic systems via structural IMDP abstractions",
+    "Paper reference": "0000-0003-1190-6097",
+    "Check date": "2025-05-28"
   }
 ]
