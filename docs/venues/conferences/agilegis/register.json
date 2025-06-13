@@ -439,5 +439,23 @@
     "Title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-6-2024",
     "Check date": "2024-05-31"
+  },
+  {
+    "Certificate ID": "2025-008",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-008/",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2025|reports/08",
+    "Report": "https://doi.org/10.53962/wxh7-8yjd",
+    "Title": "Measuring Landmark Salience in Rural Areas: A Comparative Study of Two Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-7-2025",
+    "Check date": "2025-06-06"
+  },
+  {
+    "Certificate ID": "2025-017",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-017/",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2025|reports/28",
+    "Report": "https://doi.org/10.53962/wgtb-cagt",
+    "Title": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-11-2025",
+    "Check date": "2025-06-06"
   }
 ]

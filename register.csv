@@ -95,4 +95,14 @@ Certificate,Repository,Type,Venue,Issue
 2025-005,zenodo::15323262,journal,Lifecycle Journal,158
 2025-006,github::codecheckers/sarscov2-variants,institution,TU Delft DCC,159
 2025-007,github::codecheckers/certificate-2025-007,institution,TU Delft DCC,164
+2025-008,github::reproducible-agile/reviews-2025|reports/08,conference,AGILEGIS,147
+#2025-009,osf::https://doi.org/10.17605/OSF.IO/gv2z4 (not public yet),conference,AGILEGIS,147
+#2025-010,osf::https://doi.org/10.17605/OSF.IO/FXKWS,conference,AGILEGIS,147
+#2025-011,osf::https://doi.org/10.17605/OSF.IO/GT5BW,conference,AGILEGIS,147
+#2025-012,osf::https://doi.org/10.17605/OSF.IO/956a8,conference,AGILEGIS,147
+#2025-013,osf::https://doi.org/10.17605/OSF.IO/BGY83,conference,AGILEGIS,147
+#2025-014,osf::https://doi.org/10.17605/OSF.IO/st98a,conference,AGILEGIS,147
+#2025-015,osf::https://osf.io/chx28/,conference,AGILEGIS,147
+#2025-016,osf::https://osf.io/28jt4/,conference,AGILEGIS,147
+2025-017,github::reproducible-agile/reviews-2025|reports/28,conference,AGILEGIS,147
 2025-018,github::codecheckers/certificate-2025-018,institution,TU Delft DCC,167
