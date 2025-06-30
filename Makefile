@@ -9,6 +9,9 @@ install:
 render: version
 	R -q -e "codecheck::register_render(); warnings();"
 
+render_latest: clean
+	R -q -e "register = read.csv('register.csv', as.is = TRUE, comment.char = '#'); codecheck::register_check(from = nrow(register), to = nrow(register) - 2);"
+
 clean: version
 	rm -r -f .cache/R
 	R -q -e "codecheck::register_clear_cache();"
@@ -17,7 +20,7 @@ check: clean
 	R -q -e "codecheck::register_check(); warnings();"
 
 check_latest: clean
-	R -q -e "register = read.csv('register.csv', as.is = TRUE, comment.char = '#'); codecheck::register_check(from = nrow(register), to = nrow(register) - 5); warnings();"
+	R -q -e "register = read.csv('register.csv', as.is = TRUE, comment.char = '#'); codecheck::register_check(from = nrow(register), to = nrow(register) - 5);"
 
 # automated build is active via GitHub Action
 image_build:

@@ -225,7 +225,7 @@
   {
     "Codechecker name": "Joao Guimaraes",
     "ORCID": "0000-0002-6545-3102",
-    "No. of codechecks": 1
+    "No. of codechecks": 2
   },
   {
     "Codechecker name": "Elviss Dvinskis",
@@ -245,6 +245,11 @@
   {
     "Codechecker name": "Niket Agrawal",
     "ORCID": "0000-0002-3208-3440",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Prince Oppong Boakye",
+    "ORCID": "0009-0003-5447-8034",
     "No. of codechecks": 1
   }
 ]

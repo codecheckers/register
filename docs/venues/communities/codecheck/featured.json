@@ -1,14 +1,5 @@
 [
   {
-    "Certificate ID": "2020-002",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-002/",
-    "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
-    "Report": "http://doi.org/10.5281/zenodo.3750741",
-    "Title": "The principal components of natural images",
-    "Paper reference": "https://doi.org/10.1088/0954-898X_3_1_008",
-    "Check date": "2020-04-13"
-  },
-  {
     "Certificate ID": "2020-003",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-003/",
     "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
@@ -88,5 +79,14 @@
     "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
     "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
     "Check date": "2025-05-19"
+  },
+  {
+    "Certificate ID": "2025-020",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-020/",
+    "Repository Link": "https://github.com/codecheckers/Exploring-Categorical-Colors",
+    "Report": "https://doi.org/10.5281/zenodo.15762107",
+    "Title": "Exploring Categorical Colors",
+    "Paper reference": "https://doi.org/10.31234/osf.io/gj76p",
+    "Check date": "2025-06-28"
   }
 ]
