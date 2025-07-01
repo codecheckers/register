@@ -96,14 +96,14 @@ Certificate,Repository,Type,Venue,Issue
 2025-006,github::codecheckers/sarscov2-variants,institution,TU Delft DCC,159
 2025-007,github::codecheckers/certificate-2025-007,institution,TU Delft DCC,164
 2025-008,github::reproducible-agile/reviews-2025|reports/08,conference,AGILEGIS,147
-#2025-009,osf::gv2z4,conference,AGILEGIS,147
-#2025-010,osf::FXKWS,conference,AGILEGIS,147
-#2025-011,osf::GT5BW,conference,AGILEGIS,147
-#2025-012,osf::956a8,conference,AGILEGIS,147
-#2025-013,osf::BGY83,conference,AGILEGIS,147
-#2025-014,osf::st98a,conference,AGILEGIS,147
-#2025-015,osf::chx28,conference,AGILEGIS,147
-#2025-016,osf::28jt4,conference,AGILEGIS,147
+2025-009,osf::gv2z4,conference,AGILEGIS,147
+2025-010,osf::FXKWS,conference,AGILEGIS,147
+2025-011,osf::GT5BW,conference,AGILEGIS,147
+2025-012,osf::956a8,conference,AGILEGIS,147
+2025-013,osf::BGY83,conference,AGILEGIS,147
+2025-014,osf::st98a,conference,AGILEGIS,147
+2025-015,osf::chx28,conference,AGILEGIS,147
+2025-016,osf::28jt4,conference,AGILEGIS,147
 2025-017,github::reproducible-agile/reviews-2025|reports/28,conference,AGILEGIS,147
 2025-018,github::codecheckers/certificate-2025-018,institution,TU Delft DCC,167
 2025-019,github::codecheckers/certificate-2025-019,institution,TU Delft DCC,169

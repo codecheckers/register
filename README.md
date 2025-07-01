@@ -79,6 +79,12 @@ and clear the cache (in case you made a recent change to an online repo) with `R
 To fix problems with hitting the GitHub API rate limit on local register management, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
 Alternatively, you may log into your GitHub account locally using the [GitHub CLI (`gh`)](https://cli.github.com/).
 
+## Editing of codecheck.yml files
+
+Copilot promts:
+
+- "Update the codecheck metadata file with paper information (title, authors, ORCIDs) based on https://api.openalex.org/w4411152705 and codechecker information, including the ORCID via the profile link, and the summary and check time from https://doi.org/10.17605/OSF.IO/956a8"
+
 ## License
 
 The data in this repository is published under a [Open Data Commons Attribution License](https://opendatacommons.org/licenses/by/summary/) (ODC-BY).

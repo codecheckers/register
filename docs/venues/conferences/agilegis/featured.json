@@ -1,83 +1,83 @@
 [
   {
-    "Certificate ID": "2024-006",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-006/",
-    "Repository Link": "https://osf.io/ymc3t",
-    "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
-    "Title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-15-2024",
-    "Check date": "2024-05-23"
-  },
-  {
-    "Certificate ID": "2024-007",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-007/",
-    "Repository Link": "https://osf.io/gvpd9",
-    "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
-    "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-7-2024",
-    "Check date": "2024-05-23"
-  },
-  {
-    "Certificate ID": "2024-008",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-008/",
-    "Repository Link": "https://osf.io/3nbjw",
-    "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
-    "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
-    "Check date": "2024-05-23"
-  },
-  {
-    "Certificate ID": "2024-009",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-009/",
-    "Repository Link": "https://osf.io/csb7r",
-    "Report": "https://doi.org/10.17605/osf.io/CSB7R",
-    "Title": "Developing a city-specific walkability index through a participatory approach",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
-    "Check date": "2024-05-23"
-  },
-  {
-    "Certificate ID": "2024-010",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-010/",
-    "Repository Link": "https://osf.io/nbk57",
-    "Report": "https://doi.org/10.17605/osf.io/NBK57",
-    "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-12-2024",
-    "Check date": "2024-05-27"
-  },
-  {
-    "Certificate ID": "2024-011",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-011/",
-    "Repository Link": "https://osf.io/fmgb4",
-    "Report": "https://doi.org/10.17605/osf.io/FMGB4",
-    "Title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-5-2024",
-    "Check date": "2024-05-27"
-  },
-  {
-    "Certificate ID": "2024-012",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-012/",
-    "Repository Link": "https://osf.io/w42ad",
-    "Report": "https://doi.org/10.17605/osf.io/W42AD",
-    "Title": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-4-2024",
-    "Check date": "2024-05-30"
-  },
-  {
-    "Certificate ID": "2024-013",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-013/",
-    "Repository Link": "https://osf.io/txgzv",
-    "Report": "https://doi.org/10.17605/osf.io/TXGZV",
-    "Title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-6-2024",
-    "Check date": "2024-05-31"
-  },
-  {
     "Certificate ID": "2025-008",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-008/",
     "Repository Link": "https://github.com/reproducible-agile/reviews-2025|reports/08",
     "Report": "https://doi.org/10.53962/wxh7-8yjd",
     "Title": "Measuring Landmark Salience in Rural Areas: A Comparative Study of Two Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-7-2025",
+    "Check date": "2025-06-06"
+  },
+  {
+    "Certificate ID": "2025-009",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-009/",
+    "Repository Link": "https://osf.io/gv2z4",
+    "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
+    "Title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-9-2025",
+    "Check date": "2025-06-13"
+  },
+  {
+    "Certificate ID": "2025-010",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-010/",
+    "Repository Link": "https://osf.io/FXKWS",
+    "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
+    "Title": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-3-2025",
+    "Check date": "2025-03-23"
+  },
+  {
+    "Certificate ID": "2025-011",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-011/",
+    "Repository Link": "https://osf.io/GT5BW",
+    "Report": "https://doi.org/10.17605/OSF.IO/GT5BW",
+    "Title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-5-2025",
+    "Check date": "2025-06-12"
+  },
+  {
+    "Certificate ID": "2025-012",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-012/",
+    "Repository Link": "https://osf.io/956a8",
+    "Report": "https://doi.org/10.17605/OSF.IO/956a8",
+    "Title": "Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-12-2025",
+    "Check date": "2025-06-12"
+  },
+  {
+    "Certificate ID": "2025-013",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-013/",
+    "Repository Link": "https://osf.io/BGY83",
+    "Report": "https://doi.org/10.17605/OSF.IO/BGY83",
+    "Title": "Exploring Urban Place Function through User-Generated Textual Content",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-6-2025",
+    "Check date": "2025-06-12"
+  },
+  {
+    "Certificate ID": "2025-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-014/",
+    "Repository Link": "https://osf.io/st98a",
+    "Report": "https://doi.org/10.17605/OSF.IO/st98a",
+    "Title": "Beyond Walking and Biking: Expanding the 15-Minute City Area through Public Transport",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-2-2025",
+    "Check date": "2025-04-03"
+  },
+  {
+    "Certificate ID": "2025-015",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-015/",
+    "Repository Link": "https://osf.io/chx28",
+    "Report": "https://doi.org/10.17605/OSF.IO/CHX28",
+    "Title": "Accessibility for pedestrians under heat stress - the example of Heidelberg, Germany",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-4-2025",
+    "Check date": "2025-05-06"
+  },
+  {
+    "Certificate ID": "2025-016",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-016/",
+    "Repository Link": "https://osf.io/28jt4",
+    "Report": "https://doi.org/10.17605/OSF.IO/28JT4",
+    "Title": "Changes in Road Centrality and Hospital Access Redundancy: Impacts of the 2024 Flood in the Metropolitan Core of Porto Alegre, Brazil",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-10-2025",
     "Check date": "2025-06-06"
   },
   {
