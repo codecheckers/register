@@ -79,6 +79,13 @@ and clear the cache (in case you made a recent change to an online repo) with `R
 To fix problems with hitting the GitHub API rate limit on local register management, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
 Alternatively, you may log into your GitHub account locally using the [GitHub CLI (`gh`)](https://cli.github.com/).
 
+To render the register manually in a local **Docker container**, you must mount a local `.Renviron` file with the `GITHUB_PAT` variable to not hit the GitHub API rate limit.
+Example (see also `Makefile`):
+
+```bash
+docker run --rm -it --user rstudio -v $PWD:/register:rw -v $HOME/.Renviron:/home/rstudio/.Renviron:ro codecheckers/register:latest
+```
+
 ## Editing of codecheck.yml files
 
 Copilot promts:

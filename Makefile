@@ -27,11 +27,16 @@ check_latest: clean
 
 # automated build is active via GitHub Action
 image_build:
-	docker build --tag codecheckers/register:latest --no-cache .
+	docker build --tag codecheckers/register:latest --no-cache --build-arg GITHUB_PAT=@bash -c "source ~/.Renviron && echo \$\$GITHUB_PAT" .
+
+# use the local GITHUB_PAT to avoid rate limits
+image_build_local: $(eval SHELL:=/bin/bash)
+	source ~/.Renviron && docker build --tag codecheckers/register:latest --no-cache --build-arg GITHUB_PAT=$$GITHUB_PAT .
+
 image_push: image_build
 	docker push codecheckers/register:latest
 .phony: image_build, image_push
 
-image_render:
+image_render: $(eval SHELL:=/bin/bash)
 	docker pull codecheckers/register:latest
-	docker run --rm -it --user rstudio -v $(shell pwd):/register codecheckers/register:latest
+	source ~/.Renviron && docker run --rm -it --user rstudio -v $(shell pwd):/register:rw -e GITHUB_PAT=$$GITHUB_PAT codecheckers/register:latest
