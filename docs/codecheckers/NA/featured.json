@@ -33,17 +33,6 @@
     "Check date": "2024-09-26"
   },
   {
-    "Certificate ID": "2024-015",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-015/",
-    "Repository Link": "https://osf.io/mwbuq",
-    "Type": "community",
-    "Venue": "codecheck NL",
-    "Report": "https://doi.org/10.17605/OSF.IO/mwbuq",
-    "Title": "Landscape Character Assessment - Nigeria",
-    "Paper reference": "https://doi.org/10.17605/OSF.IO/E2K73",
-    "Check date": "2024-09-26"
-  },
-  {
     "Certificate ID": "2024-017",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-017/",
     "Repository Link": "https://github.com/codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation",
@@ -108,5 +97,16 @@
     "Title": "Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-12-2025",
     "Check date": "2025-06-12"
+  },
+  {
+    "Certificate ID": "2025-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-002/",
+    "Repository Link": "https://github.com/codecheckers/EvalSubtitle",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Report": "https://doi.org/10.5281/zenodo.15173758",
+    "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
+    "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
+    "Check date": "2025-02-14"
   }
 ]

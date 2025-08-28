@@ -1,14 +1,5 @@
 [
   {
-    "Certificate ID": "2024-016",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-016/",
-    "Repository Link": "https://osf.io/6ngyc",
-    "Report": "https://doi.org/10.17605/OSF.IO/6NGYC",
-    "Title": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
-    "Paper reference": "https://doi.org/10.5281/zenodo.13734819",
-    "Check date": "2024-09-26"
-  },
-  {
     "Certificate ID": "2024-017",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-017/",
     "Repository Link": "https://github.com/codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation",
@@ -87,6 +78,15 @@
     "Report": "https://doi.org/10.5281/zenodo.15389126",
     "Title": "Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population",
     "Paper reference": "https://doi.org/10.24072/pcjournal.414",
+    "Check date": "2025-02-14"
+  },
+  {
+    "Certificate ID": "2025-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-002/",
+    "Repository Link": "https://github.com/codecheckers/EvalSubtitle",
+    "Report": "https://doi.org/10.5281/zenodo.15173758",
+    "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
+    "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
     "Check date": "2025-02-14"
   }
 ]

@@ -80,7 +80,7 @@
     "No. of codechecks": 1
   },
   {
-    "No. of codechecks": 14
+    "No. of codechecks": 15
   },
   {
     "Codechecker name": "Samuel Langton",
@@ -120,7 +120,7 @@
   {
     "Codechecker name": "Yasel Quintero",
     "ORCID": "0009-0005-9240-7370",
-    "No. of codechecks": 4
+    "No. of codechecks": 5
   },
   {
     "Codechecker name": "Joslyn Sun",
@@ -270,6 +270,16 @@
   {
     "Codechecker name": "Prince Oppong Boakye",
     "ORCID": "0009-0003-5447-8034",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Alex Brandsen",
+    "ORCID": "0000-0003-1623-1340",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Matthijs Westera",
+    "ORCID": "0000-0001-7777-1864",
     "No. of codechecks": 1
   }
 ]

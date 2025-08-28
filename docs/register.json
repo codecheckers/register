@@ -1197,5 +1197,27 @@
     "Title": "Exploring Categorical Colors",
     "Paper reference": "https://doi.org/10.31234/osf.io/gj76p",
     "Check date": "2025-06-28"
+  },
+  {
+    "Certificate ID": "2025-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-002/",
+    "Repository Link": "https://github.com/codecheckers/EvalSubtitle",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Report": "https://doi.org/10.5281/zenodo.15173758",
+    "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
+    "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
+    "Check date": "2025-02-14"
+  },
+  {
+    "Certificate ID": "2025-022",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-022/",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-022",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Report": "https://doi.org/10.5281/zenodo.16814874",
+    "Title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
+    "Paper reference": "https://doi.org/10.1109/TITS.2025.3549227",
+    "Check date": "2025-08-04"
   }
 ]

@@ -124,5 +124,14 @@
     "Title": "Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population",
     "Paper reference": "https://doi.org/10.24072/pcjournal.414",
     "Check date": "2025-02-14"
+  },
+  {
+    "Certificate ID": "2025-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-002/",
+    "Repository Link": "https://github.com/codecheckers/EvalSubtitle",
+    "Report": "https://doi.org/10.5281/zenodo.15173758",
+    "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
+    "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
+    "Check date": "2025-02-14"
   }
 ]
