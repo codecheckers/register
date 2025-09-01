@@ -1230,5 +1230,16 @@
     "Title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
     "Paper reference": "https://doi.org/10.1109/TITS.2025.3549227",
     "Check date": "2025-08-04"
+  },
+  {
+    "Certificate ID": "2025-025",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-025/",
+    "Repository Link": "https://github.com/codecheckers/absolution_codecheck",
+    "Type": "institution",
+    "Venue": "AUMC",
+    "Report": "https://doi.org/10.5281/zenodo.16758977",
+    "Title": "AbSolution Report v.0.71",
+    "Paper reference": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html",
+    "Check date": "2025-01-29"
   }
 ]

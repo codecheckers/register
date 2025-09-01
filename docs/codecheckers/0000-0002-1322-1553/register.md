@@ -1,5 +1,5 @@
 ---
-title: Codechecks by Samuel Langton (0000-0002-1322-1553)
+title: Codechecks by Sam Langton (0000-0002-1322-1553)
 ---
 
 
@@ -7,3 +7,4 @@ title: Codechecks by Samuel Langton (0000-0002-1322-1553)
 |:-------|:---------------------------------------------|:------------------|:------------------|:---|:--------------------------|:------------------|
 |[2024-004](https://codecheck.org.uk/register/certs/2024-004/)|[Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint ](https://doi.org/10.31222/osf.io/a8rmu)|[Institution](https://codecheck.org.uk/register/venues/institutions)|[AUMC](https://codecheck.org.uk/register/venues/institutions/aumc)|[96](https://github.com/codecheckers/register/issues/96)|https://doi.org/10.5281/zenodo.13364677 |2024-08-01 |
 |[2024-024](https://codecheck.org.uk/register/certs/2024-024/)|[Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment ](https://doi.org/10.1002/sim.10186)|[Institution](https://codecheck.org.uk/register/venues/institutions)|[AUMC](https://codecheck.org.uk/register/venues/institutions/aumc)|[139](https://github.com/codecheckers/register/issues/139)|https://doi.org/10.5281/zenodo.14576035 |2024-12-16 |
+|[2025-025](https://codecheck.org.uk/register/certs/2025-025/)|[AbSolution Report v.0.71 ](https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html)|[Institution](https://codecheck.org.uk/register/venues/institutions)|[AUMC](https://codecheck.org.uk/register/venues/institutions/aumc)|[174](https://github.com/codecheckers/register/issues/174)|https://doi.org/10.5281/zenodo.16758977 |2025-01-29 |
