@@ -1,16 +1,5 @@
 [
   {
-    "Certificate ID": "2025-013",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-013/",
-    "Repository Link": "https://osf.io/BGY83",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Report": "https://doi.org/10.17605/OSF.IO/BGY83",
-    "Title": "Exploring Urban Place Function through User-Generated Textual Content",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-6-6-2025",
-    "Check date": "2025-06-12"
-  },
-  {
     "Certificate ID": "2025-014",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-014/",
     "Repository Link": "https://osf.io/st98a",
@@ -97,6 +86,17 @@
     "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
     "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
     "Check date": "2025-02-14"
+  },
+  {
+    "Certificate ID": "2025-021",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-021/",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-021",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Report": "https://doi.org/10.5281/zenodo.16616998",
+    "Title": "Airspeed estimation for UAVs using only propeller feedback",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2507.03456",
+    "Check date": "2025-07-30"
   },
   {
     "Certificate ID": "2025-022",
