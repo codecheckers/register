@@ -10,7 +10,7 @@ The main register file is a simple CSV file, `register.csv` which connects the p
 The CSV file should not unneedingly replicate information from elsewhere, especially from the CODECHECK configuration files (i.e., `codecheck.yml`).
 Here are some possible values or rules for the specific columns in the file:
 
-- `Certificate`: the certificate number
+- `Certificate`: the certificate number or certificate identifier in the form `YYYY-NNN` (e.g., `2020-001`), which must match the ; if we ever need to write down a range, we seperate the first and last complete ID by a "/", e.g., `2025-111/2025-222`
 - `Repository`: qualified reference to the repository where the `codecheck.yml` file can be retrieved; the file must be in the project "root"; supported types and examples:
   - `github::` for referencing a GitHub repository using `org/name`, e.g., `github::codecheckers/Piccolo-2020` from codecheckers organisation; you may also append a path seperated by a pipe character `|` within a GitHub repository if the `codecheck.yml` file is not in the root, e.g., `github::reproducible-agile/reviews-2025|reports/08`
   - `osf::` for referencing an OSF project using the project identifier, e.g., `osf::ZTC7M`
@@ -25,16 +25,17 @@ Here are some possible values or rules for the specific columns in the file:
   - the journal abbreviation uses the [ISO 4](https://en.wikipedia.org/wiki/ISO_4) standard name for the journal, using common capitalization and omitting full stops, for example `J Geogr Syst` or `GigaScience` (find the correct name via Wikipedia or the journal website)
 - `Issue`: number of the issue in the register project where the CODECHECK is managed (informative mostly, not for metadata retrieval)
 
-To update the register, simply edit the `register.csv` file and submit the change.
+To update the register, edit the `register.csv` file and submit the change.
 You can add preliminary information by starting the line with the comment character `#`, this row will be ignored.
 
 A GitHub Action will apply the process outlined below for manual rendering to update the different representations of the register, including the website, in case the main register file changes.
 
-**Note:** The GitHub action requieres a `PAT` token to be added, because the default per-action-run token is not used by the R code that renders the package. See the docs about manual rendering below for details.
+**Note:** The GitHub action requieres a `PAT` token to be added, because the default per-action-run token is not used by the R code that renders the package.
+See the docs about manual rendering below for details.
 
 ## Deposit/archive
 
-This repository is archived manually, in regular intervals, on Zenodo using the [GitHub-Zenodo-Integration](https://guides.github.com/activities/citable-code/).
+This repository is archived *manually*, in irregular intervals, on Zenodo using the [GitHub-Zenodo-Integration](https://guides.github.com/activities/citable-code/).
 To deposit a new version on Zenodo, create a new release following the naming scheme of previous releases.
 Then, go to the new record and manually make the following changes:
 
@@ -44,6 +45,8 @@ Then, go to the new record and manually make the following changes:
 - set the license to "Open Data Commons Attribution License"
 - update the Desription text (see previous records)
 - add <https://codecheck.org.uk/register/> as a related identifier with "is new version of this upload"
+
+In the future, these steps may be automated, see [issue #34](https://github.com/codecheckers/register/issues/34).
 
 ## Files in this repository
 
@@ -56,7 +59,7 @@ Then, go to the new record and manually make the following changes:
 
 The above files are human-readable and machine-readable representations based on the register and metadata from the `codecheck.yml` files.
 
-_Do not edit any file in the `docs` directory by hand! Edit only `register.csv`._
+**Important**: Do not edit any file in the `docs` directory by hand! Edit only `register.csv`.
 
 ## Manual register rendering and checking
 

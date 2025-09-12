@@ -1,7 +1,7 @@
 ---
 name: New institutional CODECHECK
 about: Add a paper to be codechecked in an institutional review process
-title: "[Author 1, Author 2, ...] - CERTIFICATE-ID"
+title: "Author 1, Author 2, ... | CERTIFICATE-ID"
 labels: institution
 assignees: nuest
 ---
@@ -12,6 +12,8 @@ assignees: nuest
 
 **Certificate draft** (if applicable): ... <!-- link to the draft certificate on Zenodo/OSF, if you already have one; please consider holding back on the publishing until the editor could take a quick look -->
 
-**Certificate identifier**: `YYYY-NNN` <!-- please check other issues to derive the next certificate identifier -->
+<!-- Certificate identifier in the form `YYYY-NNN` is documented in the issue title; try to derive the next certificate identifier, the CODECHECK editor will double check; if you need to enter a range, seperate the first and last complete ID by a "/", e.g., 2025-111/2025-222 -->
 
 **Institution**: ... <!-- short name of the institution where the codecheck is conducted, see the list of existing ones https://codecheck.org.uk/register/venues/institutions/ -->
+
+**Codechecker(s)**: ... <!-- GitHub handle/mention of the tasked codechecker(s), if already known -->
