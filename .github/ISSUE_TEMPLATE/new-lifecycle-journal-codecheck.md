@@ -6,7 +6,7 @@ labels: lifecycle journal, needs codechecker
 assignees: nuest
 ---
 
-**Submission ID**: ...
+**Submission**: ... <!-- submission identifier and/or link to the published preprint --->
 
 **Links to code and data**:
 

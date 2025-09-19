@@ -12,6 +12,6 @@ assignees: nuest
 
 **Repository**: ... <!-- link to the repository in the codecheckers organisation with the code; if you do not have access reach out to Daniel (https://github.com/nuest/) please. -->
 
-**About**: ... <!-- short description of the code to be checked, e.g., title of the paper, link to preprint or published article, extra links to data repositories, etc. -->
+**Workflow**: ... <!-- short description of the code to be checked, e.g., title of the paper, link to preprint or published article, extra links to data repositories, etc. -->
 
 <!-- Do you have suggestions for potential codecheckers? Mention them here! -->
