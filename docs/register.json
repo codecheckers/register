@@ -1241,5 +1241,16 @@
     "Title": "AbSolution Report v.0.71",
     "Paper reference": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html",
     "Check date": "2025-01-29"
+  },
+  {
+    "Certificate ID": "2025-028",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-028/",
+    "Repository Link": "https://github.com/codecheckers/surv-tcav-pbc",
+    "Type": "journal",
+    "Venue": "Lifecycle Journal",
+    "Report": "https://doi.org/10.5281/zenodo.17533508",
+    "Title": "Clinically Interpretable Survival Prediction in Primary Biliary Cholangitis with TreeSHAP and Gradient-Boosted Model",
+    "Paper reference": "https://doi.org/10.71240/lcyc.66O7260",
+    "Check date": "2025-11-04"
   }
 ]

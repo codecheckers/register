@@ -1,16 +1,5 @@
 [
   {
-    "Certificate ID": "2021-007",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-007/",
-    "Repository Link": "https://osf.io/anv9r",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Report": "https://doi.org/10.17605/osf.io/anv9r",
-    "Title": "Automated Extraction of Labels from Large-Scale Historical Maps",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-2-12-2021",
-    "Check date": "2021-06-10"
-  },
-  {
     "Certificate ID": "2021-009",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2021-009/",
     "Repository Link": "https://osf.io/rdnyu",
@@ -108,5 +97,16 @@
     "Title": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-11-2025",
     "Check date": "2025-06-06"
+  },
+  {
+    "Certificate ID": "2025-028",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-028/",
+    "Repository Link": "https://github.com/codecheckers/surv-tcav-pbc",
+    "Type": "journal",
+    "Venue": "Lifecycle Journal",
+    "Report": "https://doi.org/10.5281/zenodo.17533508",
+    "Title": "Clinically Interpretable Survival Prediction in Primary Biliary Cholangitis with TreeSHAP and Gradient-Boosted Model",
+    "Paper reference": "https://doi.org/10.71240/lcyc.66O7260",
+    "Check date": "2025-11-04"
   }
 ]
