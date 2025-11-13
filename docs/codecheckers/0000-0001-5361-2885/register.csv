@@ -1,3 +1,3 @@
-"Certificate","Repository","Venue","Type"
-"2021-004","osf::2sc7g","AGILEGIS","conference"
-"2021-008","osf::g4dcq","AGILEGIS","conference"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"osf::2sc7g","https://osf.io/2sc7g","https://doi.org/10.17605/osf.io/2sc7g","Extraction of linear structures from digital terrain models using deep learning","https://doi.org/10.5194/agile-giss-2-11-2021","AGILEGIS","conference"
+"osf::g4dcq","https://osf.io/g4dcq","https://doi.org/10.17605/osf.io/g4dcq","Flood Impact Assessment on Road Network and Healthcare Access at the example of Jakarta, Indonesia","https://doi.org/10.5194/agile-giss-2-4-2021","AGILEGIS","conference"

@@ -1,0 +1,44 @@
+{
+  "certificate": {
+    "id": "2024-008",
+    "url": "https://codecheck.org.uk/register/certs/2024-008/"
+  },
+  "paper": {
+    "title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
+    "authors": [
+      {
+        "name": "Irada Ismayilova",
+        "orcid": "0000-0003-4414-4084"
+      },
+      {
+        "name": "Sabine Timpf",
+        "orcid": "0000-0002-7964-4110"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
+    "abstract": {
+      "text": "<jats:p>Abstract. Urban Green Spaces (UGS) play a crucial role in enhancing the quality of life in cities by providing numerous environmental, social, and health benefits. Among these green spaces, allotment gardens stand out as a unique type that contributes to ecological services, preservation of biodiversity, and the overall well-being of urban dwellers. Unfortunately, the significance of allotment gardens as a specific type of UGS is still disregarded and they are not recognized as a separate category in land use / land cover maps or city maps of green spaces. This is mainly due to the mixed use of allotment areas, their small size and absence of tailored identification or mapping workflows. In this research, we address the latter one by proposing an approach that utilizes various semantic characteristics of allotment gardens to create distinctive spatial representations. The semantic characteristics we consider include the presence, density, and height of garden huts, proximity to water bodies and railroads, as well as the presence of pathways within the allotment gardens. Allotments are delineated using a three-step procedure. This involves utilizing a Random Forest machine learning classifier to create maps of the distribution of green spaces, extracting garden huts employing a threshold, and demarcating the area using a density based clustering technique. Furthermore, we repeat the same workflow in a new study area to assess the applicability of the proposed workflow. With the established workflow, we are able to accurately identify 78% of allotments in Augsburg and 88% in Wuerzburg respectively. Our results demonstrate that the proposed workflow can be a useful approach to validate and extend existing land use and land cover data sets while remaining time and cost effective. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "check_time": "2024-05-23 03:49:00",
+    "repository": "osf::3nbjw",
+    "report": "https://doi.org/10.17605/OSF.IO/3NBJW",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper addresses the issue that allotment gardens are not recognized as separate land use / land  cover category, although they are unique among urban green spaces and provide highly significant benefits.\nThe research uses a three-step procedure: First, a random forest classifier identifies green spaces from digital orthophotos; second, garden huts are extracted; and third, a density-based clustering identifies areas of allotment gardens.\nThe computational environment relies on a mix of free and open source software (R software for the random forest classification) and proprietary GIS software (ESRI ArcGIS for the height thresholds, refinement of the classification, and density-based clustering).\n\nUpon request, the authors provided the digital orthophoto, training data and code for step one, as  well as a sample data set (smaller area) and executable workflow for the ArcGIS Modelbuilder as an  ArcGIS project package.\nThe reproducibility review can confirm that that the analysis runs as intended, but not check the validity of the outputs shown in the paper. \nAll the provided code was run and executes without errors, generating valid output.\nThe clustering  algorithm does not find any clusters, but that may be due to the small size of the sample area. \nThis reproducibility review was thus able to validate the entire analysis workflow. With the provided  documentation, code, and sample data (see references), other researchers should be able to succeed in replicating the results. The functionality used in the proprietary software is available in free and  open software packages and can thus be implemented without access to ArcGIS.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2024 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/69"
+      }
+    ]
+  }
+}

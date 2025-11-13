@@ -1,0 +1,60 @@
+{
+  "certificate": {
+    "id": "2023-009",
+    "url": "https://codecheck.org.uk/register/certs/2023-009/"
+  },
+  "paper": {
+    "title": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism",
+    "authors": [
+      {
+        "name": "Raphaël Bres",
+        "orcid": "0000-0001-5597-8602"
+      },
+      {
+        "name": "Veronika Peralta",
+        "orcid": "0000-0002-9236-9088"
+      },
+      {
+        "name": "Arnaud Le-Guilcher",
+        "orcid": "0000-0001-6673-6158"
+      },
+      {
+        "name": "Thomas Devogele",
+        "orcid": "0000-0001-9187-8385"
+      },
+      {
+        "name": "Ana-Maria Olteanu Raimond",
+        "orcid": "0000-0002-1101-1333"
+      },
+      {
+        "name": "Cyril de Runz",
+        "orcid": "0000-0002-5951-6859"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-4-3-2023",
+    "abstract": {
+      "text": "<jats:p>Abstract. Cycling practice has been constantly increasing for several years and the COVID crisis has just accelerated the process. Indeed, more and more municipalities have developed new cycle paths to facilitate cycling. Considering this increasing interest for cycling, it makes sense to study how this recent evolution is reflected in the underlying representation of the cycling network in the geographic databases. Main studies analysing the evolution of the road network focus on the motor vehicle network in the major cities of the world. These studies do not seem applicable to cycling network specially to some low population density areas or even to smaller cities. This paper analyses the changes in the cycling network through OSM data from a data freshness perspective. These changes can be either updates from changes in the real-world network or upgrades to the network. To these end, we propose a method using a Monte Carlo simulation (MCS) to analyse the frequency of changes in cycling routes in several areas with different population density, all in the Loire Valley region in France. We also define the cycling network, which is a very complex concept and we explain how it is represented in OSM data and suffers from different data quality issues. Results show that the number of changes across time are similar in areas having a similar population density, while being lower in low population density areas. These phenomena is higher in the cycling network compared to other networks. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Alexander Kmoch",
+        "orcid": "0000-0003-4386-4450"
+      }
+    ],
+    "check_time": "2023-06-13 12:00:00",
+    "repository": "osf::9kp7u",
+    "report": "https://doi.org/10.17605/osf.io/9kp7u",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The authors execute their study fully within a framework of open source geospatial software.\nThe study is reproducible and the authors provide provide 2 scripts that query and subsequently visualise aspects of the data.\nFurthermore, they provide a How-to / Readme file that made it easy to reproduce.\nThe main challenges in reproduction were related to acquiring the correct data and the handling of the OSRM software.\nThis was overcome jointly through authors communication and fortunate experience with the Docker ecosystem of the reviewer.\nThe data analysis and visualisation was straightforward and the results were consistent with the original paper.\nFigures 4a and 4b are reproduced.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2023 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/49"
+      }
+    ]
+  }
+}

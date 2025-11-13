@@ -1,0 +1,80 @@
+{
+  "certificate": {
+    "id": "2020-025",
+    "url": "https://codecheck.org.uk/register/certs/2020-025/"
+  },
+  "paper": {
+    "title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+    "authors": [
+      {
+        "name": "Francesco Carrer",
+        "orcid": "0000-0003-4397-4502"
+      },
+      {
+        "name": "Tomasz M. Kossowski",
+        "orcid": "0000-0002-9976-4398"
+      },
+      {
+        "name": "Justyna Wilk",
+        "orcid": "0000-0003-1495-2910"
+      },
+      {
+        "name": "Michał B. Pietrzak",
+        "orcid": "0000-0002-9263-4478"
+      },
+      {
+        "name": "Roger S. Bivand",
+        "orcid": "0000-0003-2392-6140"
+      }
+    ],
+    "reference": "https://doi.org/10.1016/j.jas.2020.105306"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-11-19 12:00:00",
+    "repository": "github::codecheckers/LICD_article",
+    "report": "https://doi.org/10.5281/zenodo.4279275",
+    "type": "journal",
+    "venue": "J Archaeol Sci",
+    "summary": "This workflow was very straightforward to check following the authors' README. All figures stored in the repository could be recreated and match the ones given in the manuscript.\n",
+    "manifest": [
+      {
+        "file": "Torridge_HLC.jpeg",
+        "comment": "Figure 3"
+      },
+      {
+        "file": "Torridge_LICD.jpeg",
+        "comment": "Figure 4"
+      },
+      {
+        "file": "jc_out.csv",
+        "comment": "data for Table 2"
+      },
+      {
+        "file": "HLC_output.Rout",
+        "comment": "Verbatim console output of LICD-Archaeo-HCL.R captured by sink, including messages"
+      },
+      {
+        "file": "barmose_jc_out.csv",
+        "comment": "data for Table 3"
+      },
+      {
+        "file": "Barmose_Grid_Cores.jpeg",
+        "comment": "Figure 5"
+      },
+      {
+        "file": "Barmose_LICD_class.jpeg",
+        "comment": "Figure 6"
+      },
+      {
+        "file": "Grid_output.Rout",
+        "comment": "Verbatim console output of LICD-Archaeo-Grid.R captured by sink, including messages"
+      }
+    ]
+  }
+}

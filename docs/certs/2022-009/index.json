@@ -1,0 +1,47 @@
+{
+  "certificate": {
+    "id": "2022-009",
+    "url": "https://codecheck.org.uk/register/certs/2022-009/"
+  },
+  "paper": {
+    "title": "\"Landmark Route\": A Comparison to the Shortest Route",
+    "authors": [
+      {
+        "name": "Eva Nuhn",
+        "orcid": "0000-0003-2443-8122"
+      },
+      {
+        "name": "Franziska König"
+      },
+      {
+        "name": "Sabine Timpf",
+        "orcid": "0000-0002-7964-4110"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Most navigation systems for pedestrians output the shortest route. However, there are findings that travellers do not use the shortest route when free to choose. One alternative to minimising spatial distance is the incorporation of landmark information in a shortest route algorithm. Yet, we do not know whether pedestrians prefer such a landmark route over the shortest route. Therefore, we perform a survey and show participants videos of a shortest and a landmark route. We let participants answer questions concerning navigation satisfaction, route communication, and route comparison. Our findings show that the landmark route is more favourable.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::94VNX",
+    "report": "https://doi.org/10.17605/osf.io/94vnx",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper presents a type of study that is highly valuable as a scientific contribution yet almost impossible to reproduce: a survey and user study involving participants from a convenience sample of a university course, implemented in several phases and using a particular geographic locale. The  study aims to learn more about user preferences on route choice, i.e., whether users prefer the  shortest route or a slightly longer route including landmarks. However, the difficult pandemic conditions under which the study had to be carried out had at least one positive aspect on replicability: The entire communication and survey had to be carried out online, facilitating a similar setup elsewhere. This review there fore attempts not a full reproduction of the study, but evaluates two distinct things:  First, whether there is sufficient information available to replicate the study elsewhere and compare results. Second, whether the statistical analysis of the survey and experimental data is indeed reproducible. The evaluation for both is positive.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

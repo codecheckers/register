@@ -5,7 +5,7 @@ title: CODECHECK Register for codecheck (community)
 
 
 |Certificate |Report                                  |Paper Title                                                                                                                                        |Check date |
-|:-------|:--------------------------------|:---|:--------------------------|:----------|
+|:-------|:-----------------------------------------------------------------------------------|:---|:--------------------------|
 |[2020-002](https://codecheck.org.uk/register/certs/2020-002/)|http://doi.org/10.5281/zenodo.3750741   |[The principal components of natural images](https://doi.org/10.1088/0954-898X_3_1_008)                                                            |2020-04-13 |
 |[2020-003](https://codecheck.org.uk/register/certs/2020-003/)|https://doi.org/10.5281/zenodo.3741797  |[Neural networks and physical systems with emergent collective computational abilities](https://doi.org/10.1073/pnas.79.8.2554)                    |2020-04-06 |
 |[2020-004](https://codecheck.org.uk/register/certs/2020-004/)|https://doi.org/10.5281/zenodo.3827371  |[Neuronlike adaptive elements that can solve difficult learning control problems](https://doi.org/10.1109/TSMC.1983.6313077)                       |2020-05-14 |

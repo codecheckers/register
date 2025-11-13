@@ -1,0 +1,73 @@
+{
+  "certificate": {
+    "id": "2020-002",
+    "url": "https://codecheck.org.uk/register/certs/2020-002/"
+  },
+  "paper": {
+    "title": "The principal components of natural images",
+    "authors": [
+      {
+        "name": "Peter J. B. Hancock"
+      },
+      {
+        "name": "Roland J. Baddeley"
+      },
+      {
+        "name": "Leslie S. Smith"
+      }
+    ],
+    "reference": "https://doi.org/10.1088/0954-898X_3_1_008",
+    "abstract": {
+      "text": "A neural net was used to analyse samples of natural images and text. For the natural images, components resemble derivatives of Gaussian operators, similar to those found in visual cortex and inferred from psychophysics. While the results from natural images do not depend on scale, those from text images are highly scale dependent. Convolution of one of the text components with an original image shows that it is sensitive to inter-word gaps.",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-04-13 10:00:00",
+    "repository": "github::codecheckers/Reproduction-Hancock",
+    "report": "http://doi.org/10.5281/zenodo.3750741",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "Matlab code written by Iain Davies to reproduce original paper; natural images provided by Peter Hancock.",
+    "manifest": [
+      {
+        "file": "Figure2.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "Figure3.png",
+        "comment": "manuscript Figure 3"
+      },
+      {
+        "file": "Figure4.png",
+        "comment": "manuscript Figure 4"
+      },
+      {
+        "file": "Figure5.png",
+        "comment": "manuscript Figure 5"
+      },
+      {
+        "file": "Figure6.png",
+        "comment": "manuscript Figure 6"
+      },
+      {
+        "file": "Figure7.png",
+        "comment": "manuscript Figure 7"
+      },
+      {
+        "file": "Figure8.png",
+        "comment": "manuscript Figure 8"
+      }
+    ]
+  }
+}

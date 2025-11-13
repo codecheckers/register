@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2024-025","zenodo::15025861","codecheck NL","community"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"zenodo::15025861","https://zenodo.org/records/15025861","https://doi.org/10.5281/zenodo.15023714","Determination of a diffusion coefficient function for long rooms using a least square optimization approach","https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf","codecheck NL","community"

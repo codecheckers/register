@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2024-019","github::codecheckers/wearable-hrv","codecheck NL","community"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"github::codecheckers/wearable-hrv","https://github.com/codecheckers/wearable-hrv","https://doi.org/10.5281/zenodo.14279041","Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.","https://doi.org/10.31219/osf.io/wkzsn","codecheck NL","community"

@@ -1,0 +1,72 @@
+{
+  "certificate": {
+    "id": "2024-001",
+    "url": "https://codecheck.org.uk/register/certs/2024-001/"
+  },
+  "paper": {
+    "title": "Regulation of pupil size in natural vision across the human lifespan\n",
+    "authors": [
+      {
+        "name": "Rafael Lazar",
+        "orcid": "0000-0001-7972-5634"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "reference": "https://doi.org/10.1098/rsos.191613",
+    "abstract": {
+      "text": "<jats:p>\n            Vision is mediated by light passing through the pupil, which changes in diameter from approximately 2 to 8 mm between bright and dark illumination. With age, mean pupil size declines. In laboratory experiments, factors affecting pupil size can be experimentally controlled. How the pupil reflects the change in retinal input from the visual environment under natural viewing conditions is unclear. We address this question in a field experiment (\n            <jats:italic>N<\/jats:italic>\n            = 83, 43 female, 18–87 years) using a custom-made wearable video-based eye tracker with a spectroradiometer measuring near-corneal spectral irradiance. Participants moved in and between indoor and outdoor environments varying in spectrum and engaged in a range of everyday tasks. Our data confirm that light-adapted pupil size is determined by light level, with a better model fit of melanopic over photopic units, and that it decreased with increasing age, yielding steeper slopes at lower light levels. We found no indication that sex, iris colour or reported caffeine consumption affects pupil size. Our exploratory results point to a role of photoreceptor integration in controlling steady-state pupil size. The data provide evidence for considering age in personalized lighting solutions and against the use of photopic illuminance alone to assess the impact of real-world lighting conditions.\n          <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2024-03-15 21:00",
+    "repository": "github::codecheckers/LazarEtAl_RSocOpenSci_2024",
+    "report": "https://doi.org/10.5281/zenodo.10823246",
+    "type": "community",
+    "venue": "preprint",
+    "summary": "R code to generate all of the key figures in the paper.\n",
+    "manifest": [
+      {
+        "file": "06_output/dem_tab.pdf",
+        "comment": "manuscript Table 1"
+      },
+      {
+        "file": "06_output/agepyr_plot.pdf",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "06_output/weath_panels.pdf",
+        "comment": "manuscript Figure 3"
+      },
+      {
+        "file": "06_output/dataloss_plot.pdf",
+        "comment": "manuscript Figure 4"
+      },
+      {
+        "file": "06_output/lightcomp_panels.pdf",
+        "comment": "manuscript Figure 5"
+      },
+      {
+        "file": "06_output/agecomp_plot.pdf",
+        "comment": "manuscript Figure 6"
+      },
+      {
+        "file": "06_output/age_panels1.pdf",
+        "comment": "manuscript Figure 7"
+      },
+      {
+        "file": "06_output/age_panels2.pdf",
+        "comment": "manuscript Figure 8"
+      }
+    ]
+  }
+}

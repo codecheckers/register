@@ -1,0 +1,47 @@
+{
+  "certificate": {
+    "id": "2021-005",
+    "url": "https://codecheck.org.uk/register/certs/2021-005/"
+  },
+  "paper": {
+    "title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
+    "authors": [
+      {
+        "name": "Pei-Chun Lai"
+      },
+      {
+        "name": "Auriol Degbelo",
+        "orcid": "0000-0001-5087-8776"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "abstract": {
+      "text": "<jats:p>Abstract. Metadata is key to effective knowledge organization, and designing user interfaces that maximize user performance and user experience during metadata creation would benefit several areas of GIScience. Yet, empirically-derived guidelines for user interfaces supporting GI-metadata creation are still scarce. As a step towards mitigating that gap, this work has implemented and evaluated a prototype that produces semantically-rich metadata for web maps via one of two input modalities: typing or speech. A controlled experiment (N=12) to investigate the merits of both modalities has revealed that (i) typing and speech were comparable as far as input duration time is concerned; and (ii) they received opposed ratings concerning their pragmatic and hedonic qualities. Combining both might thus be beneficial for GI-metadata creation user interfaces. The findings are useful to ongoing work on semantic enablement for spatial data infrastructure and note-taking during visual analytics.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2021-06-10 12:00:00",
+    "repository": "osf::7fqtm",
+    "report": "https://doi.org/10.17605/osf.io/7fqtm",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper presents the results of a user experiment to improve GI-metadata using speech. A complete\nreproduction is practically impossible to achieve. This reproducibility report therefore investigated two\ncomponents: First, whether sufficient information is provided to replicate the experiment elsewhere with\na different group of participants. Second, whether sufficient information is provided to reproduce the\nanalysis of the experimental results. The conclusion is positive for both. The original \nprototype is accessible online at the time of this writing. To reproduce the results, the provided\ninput data, R code, and Excel spreadsheet lead to the same results as given in the paper and the \nprototype for the user experiment could be run locally.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2021 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

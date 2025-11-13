@@ -1,0 +1,48 @@
+{
+  "certificate": {
+    "id": "2023-008",
+    "url": "https://codecheck.org.uk/register/certs/2023-008/"
+  },
+  "paper": {
+    "title": "Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets",
+    "authors": [
+      {
+        "name": "Vasileios Milias"
+      },
+      {
+        "name": "Shahin Sharifi Noorian"
+      },
+      {
+        "name": "Alessandro Bozzon"
+      },
+      {
+        "name": "Achilleas Psyllidis"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-4-8-2023",
+    "abstract": {
+      "text": "<jats:p>Abstract. City streets that feel safe and attractive motivate active travel behaviour and promote people’s well-being. However, determining what makes a street safe and attractive is a challenging task because subjective qualities of the streetscape are difficult to quantify. Existing evidence typically focuses on how different street features influence perceived safety or attractiveness, but little is known about what influences both. To fill this knowledge gap, we developed a crowdsourcing tool and conducted a study with 403 participants, who were asked to virtually navigate city streets in Frankfurt, Germany, through a sequence of street-level images, rate locations based on perceived safety and attractiveness, and explain their ratings. Our results contribute new insights regarding the key similarities and differences between the factors influencing perceived safety and attractiveness. We show that the presence of human activity is strongly related to perceived safety, whereas attractiveness is influenced primarily by aesthetic qualities, as well as the number and type of amenities along a street. Moreover, we demonstrate that the presence of construction sites and underpasses has a disproportionately negative impact on perceived safety and attractiveness, outweighing the influence of any other features. We use the results to make evidence-informed recommendations for designing safer and more attractive streets that encourage active travel modes and promote well-being. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "check_time": "2023-06-13 12:00:00",
+    "repository": "osf::aqgxr",
+    "report": "https://doi.org/10.17605/osf.io/aqgxr",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The code and data provided by the authors allow to fully reproduce their work as presented in the reviewed paper.\nThe authors shared two repositories through github. The first one, called subjectivity, aims to build and run a whole web application (with database and a front web application).\nThis web application allows to collect annotations from surveyed persons by proposing them different pictures of places through a track (see Fig. 1).\nThe screenshot from the manuscript Figure 1 could be partially reproduced by this web application since the data used by the authors are not publicy available.\nThe second repository, streetception, proposes two notebook in order to reproduce the analysis of the data collected by the authors through their web application.\nThe authors have made significant efforts to improve their code and data sharing through the AGILE reproducibility process!\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2023 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/49"
+      }
+    ]
+  }
+}

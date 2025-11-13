@@ -1,0 +1,76 @@
+{
+  "certificate": {
+    "id": "2025-006",
+    "url": "https://codecheck.org.uk/register/certs/2025-006/"
+  },
+  "paper": {
+    "title": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
+    "authors": [
+      {
+        "name": "Aysun Urhan",
+        "orcid": "0000-0001-8584-4736"
+      },
+      {
+        "name": "Thomas Abeel",
+        "orcid": "0000-0002-7205-7431"
+      }
+    ],
+    "reference": "https://doi.org/10.1038/s41598-021-85363-7",
+    "abstract": {
+      "text": "<jats:title>Abstract<\/jats:title><jats:p>Coronavirus disease 2019 (COVID-19) has emerged in December 2019 when the first case was reported in Wuhan, China and turned into a pandemic with 27 million (September 9th) cases. Currently, there are over 95,000 complete genome sequences of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the virus causing COVID-19, in public databases, accompanying a growing number of studies. Nevertheless, there is still much to learn about the viral population variation when the virus is evolving as it continues to spread. We have analyzed SARS-CoV-2 genomes to identify the most variant sites, as well as the stable, conserved ones in samples collected in the Netherlands until June 2020. We identified the most frequent mutations in different geographies. We also performed a phylogenetic study focused on the Netherlands to detect novel variants emerging in the late stages of the pandemic and forming local clusters. We investigated the S and N proteins on SARS-CoV-2 genomes in the Netherlands and found the most variant and stable sites to guide development of diagnostics assays and vaccines. We observed that while the SARS-CoV-2 genome has accumulated mutations, diverging from reference sequence, the variation landscape is dominated by four mutations globally, suggesting the current reference does not represent the virus samples circulating currently. In addition, we detected novel variants of SARS-CoV-2 almost unique to the Netherlands that form localized clusters and region-specific sub-populations indicating community spread. We explored SARS-CoV-2 variants in the Netherlands until June 2020 within a global context; our results provide insight into the viral population diversity for localized efforts in tracking the transmission of COVID-19, as well as sequenced-based approaches in diagnostics and therapeutics. We emphasize that little diversity is observed globally in recent samples despite the increased number of mutations relative to the established reference sequence. We suggest sequence-based analyses should opt for a consensus representation to adequately cover the genomic variation observed to speed up diagnostics and vaccine design.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Elviss Dvinskis",
+        "orcid": "0000-0003-2873-0139"
+      },
+      {
+        "name": "Leila Iñigo de la Cruz",
+        "orcid": "0000-0003-0852-9219"
+      },
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "check_time": "2025-05-01 14:00:00",
+    "repository": "github::codecheckers/sarscov2-variants",
+    "report": "https://doi.org/10.5281/zenodo.15520471",
+    "type": "institution",
+    "venue": "TU Delft DCC",
+    "summary": "This project provides clear instructions on generating figures 1 – 9, described in the README.md document located in the GitHub repository linked to the publication. However, to run figures 8 and 9, the author recommends the use of an HPC cluster, which is beyond the scope of this CODECHECK. Figures 1 – 7 could be reproduced on certain systems and configurations.\n",
+    "manifest": [
+      {
+        "file": "fig_1_Distribution-of-SARS-CoV-2-genomes-across-five-continents.png",
+        "comment": "manuscript Figure 1"
+      },
+      {
+        "file": "fig_2_Distribution-of-SARS-CoV-2-clades-in-a-selection-among-the-12-most-sampled-countries.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "fig_3_Number-of-mutations-per-sample-per-day-over-the-course-of-pandemic-in-the-Netherlands.png",
+        "comment": "manuscript Figure 3"
+      },
+      {
+        "file": "fig_4_Total-number-of-nucleotide-mutations.png",
+        "comment": "manuscript Figure 4"
+      },
+      {
+        "file": "fig_5_Total-frequency-of-the-top-15-mutations-in-the-most-sampled-countries-in-our-dataset.png",
+        "comment": "manuscript Figure 5"
+      },
+      {
+        "file": "fig_6_Change-in-frequency-of-the-top-15-mutations-in-the-most-sampled-countries-in-our-dataset.png",
+        "comment": "manuscript Figure 6"
+      },
+      {
+        "file": "fig_7_Change-in-frequency-of-the-top-15-mutations-in-the-Netherlands.png",
+        "comment": "manuscript Figure 7"
+      }
+    ]
+  }
+}

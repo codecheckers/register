@@ -1,0 +1,44 @@
+{
+  "certificate": {
+    "id": "2025-009",
+    "url": "https://codecheck.org.uk/register/certs/2025-009/"
+  },
+  "paper": {
+    "title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
+    "authors": [
+      {
+        "name": "Dan Qiang",
+        "orcid": "0000-0002-7483-2681"
+      },
+      {
+        "name": "Grant McKenzie",
+        "orcid": "0000-0003-3247-7777"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-6-9-2025",
+    "abstract": {
+      "text": "<jats:p>Abstract. Urban vitality captures the dynamic and interactive nature of city environments by highlighting how residents engage with public spaces, making it essential for differentiating neighborhoods. Traditional indicators focused on static measures, such as density, land-use diversity, and built environment design. Most of these measures fail to capture the dynamic nature of vitality. This paper introduces the concept of Mobility Vitality, a novel measure that captures the dynamic and vibrant nature of human activities through the analysis of active and micro-mobility modes, including biking, e-scootering, and recreational running. Taking Washington, D.C. as a case study, we analyze the spatiotemporal patterns of mobility across different modes and time periods, revealing significant variations in mobility patterns between the downtown core and peripheral areas. The results also indicate that the most unique time series of the three micro-mobility modes are weekend mornings and weekday nights, and fluctuations are more pronounced within a day than between weekdays and weekends. The proposed analysis framework may guide infrastructure investments, optimize urban transport networks, and advance more equitable and sustainable cities. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Nina Wiedemann",
+        "orcid": "0000-0002-8160-7634"
+      }
+    ],
+    "check_time": "2025-06-13 12:00:00",
+    "repository": "osf::gv2z4",
+    "report": "https://doi.org/10.17605/OSF.IO/gv2z4",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper comes with a GitHub repository that includes all code to reproduce the figures in the paper from the raw data.\nHowever, part of the data can not be shared.\nWhile they are available via an API, the time to collect the data is not feasible within the reproducibility review.\nUsing only the available data, the corresponding figures could be successfully reproduced after minor code fixes done upon request.\nOverall, the paper is partly reproducible.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2025 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/147"
+      }
+    ]
+  }
+}

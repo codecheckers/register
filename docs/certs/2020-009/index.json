@@ -1,0 +1,50 @@
+{
+  "certificate": {
+    "id": "2020-009",
+    "url": "https://codecheck.org.uk/register/certs/2020-009/"
+  },
+  "paper": {
+    "title": "Model of isolation, contact tracing, and physical distancing (Preprint)",
+    "authors": [
+      {
+        "name": "Adam Kucharski"
+      },
+      {
+        "name": "COVID modelling group"
+      }
+    ],
+    "reference": "https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2020-04-26 20:00:00",
+    "repository": "github::codecheckers/2020-cov-tracing",
+    "report": "http://doi.org/10.5281/zenodo.3767060",
+    "type": "community",
+    "venue": "preprint",
+    "summary": "R code and packages worked well; simple edits needed to working directory.\n",
+    "manifest": [
+      {
+        "file": "outputs/plot1.png",
+        "comment": "manuscript Figure 1 (panels A and B)"
+      },
+      {
+        "file": "outputs/plot2.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "outputs/rr_supp_plot.png",
+        "comment": "manuscript Figure S1"
+      },
+      {
+        "file": "outputs/plot_symp.png",
+        "comment": "manuscript Figure S2"
+      }
+    ]
+  }
+}

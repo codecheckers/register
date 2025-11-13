@@ -2,34 +2,37 @@
   {
     "Certificate ID": "2023-003",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-003/",
+    "Repository": "osf::m5bhk",
     "Repository Link": "https://osf.io/m5bhk",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/m5bhk",
     "Title": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquake",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-5-2023",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Check date": "2023-06-13"
   },
   {
     "Certificate ID": "2023-010",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-010/",
+    "Repository": "osf::8t3bh",
     "Repository Link": "https://osf.io/8t3bh",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/8t3bh",
     "Title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-4-2023",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Check date": "2023-06-13"
   },
   {
     "Certificate ID": "2025-009",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-009/",
+    "Repository": "osf::gv2z4",
     "Repository Link": "https://osf.io/gv2z4",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
     "Title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-9-2025",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Check date": "2025-06-13"
   }
 ]

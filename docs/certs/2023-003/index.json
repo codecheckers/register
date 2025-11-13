@@ -1,0 +1,49 @@
+{
+  "certificate": {
+    "id": "2023-003",
+    "url": "https://codecheck.org.uk/register/certs/2023-003/"
+  },
+  "paper": {
+    "title": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquake",
+    "authors": [
+      {
+        "name": "Simon Groß"
+      },
+      {
+        "name": "Benjamin Herfort",
+        "orcid": "0000-0001-9738-4060"
+      },
+      {
+        "name": "Sabrina Marx"
+      },
+      {
+        "name": "Alexander Zipf"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-4-5-2023",
+    "abstract": {
+      "text": "<jats:p>Abstract. Fast and reliable geographic information is vital in disaster management. In the late 2000s, crowdsourcing emerged as a powerful method to provide this information. Base mapping through crowdsourcing is already well-established in relief workflows. However, crowdsourced post-disaster damage assessment is researched but not yet institutionalized. Based on MapSwipe, an established mobile application for crowdsourced base mapping, a damage assessment approach was developed and tested for a case study after the 2021 Haiti earthquake. First, MapSwipe’s damage mapping results are assessed for quality by using a reference dataset in regard to different aggregation methods. Then, the MapSwipe data was compared to an already established rapid damage assessment method by the Copernicus Emergency Management Service (CEMS). Crowdsourced building damage mapping achieved a maximum F1-score of 0.63 in comparison to the reference data set. MapSwipe and CEMS data showed only slight agreement with Cohen’s Kappa values reaching a maximum of 0.16. The results highlight the potential of crowdsourcing damage assessment as well as the importance for a scientific evaluation of the quality of CEMS data. Next steps for further integrating the presented workflow into MapSwipe are discussed. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Nina Wiedemann",
+        "orcid": "0000-0002-8160-7634"
+      }
+    ],
+    "check_time": "2023-06-13 12:00:00",
+    "repository": "osf::m5bhk",
+    "report": "https://doi.org/10.17605/osf.io/m5bhk",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper comes with a GitHub repository that mainly includes a jupyter notebook for reproducing the results.\nThe notebook could be executed right away and is very well-documented.\nThe outputs of the notebook include examplary data as well as all main plots from the paper.\nOn request, the authors further added the raw QGIS files for reproducing map-based visualizations, and deposited the code with a DOI (https://zenodo.org/badge/latestdoi/581154837).\nOverall, the paper is fully reproducible.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2023 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/49"
+      }
+    ]
+  }
+}

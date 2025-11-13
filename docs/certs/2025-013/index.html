@@ -36,13 +36,58 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-013/",
+  "name": "CODECHECK Certificate 2025-013",
+  "url": "https://codecheck.org.uk/register/certs/2025-013/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Ilya Ilyankou",
+      "@id": "https://orcid.org/0009-0008-7082-7122"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Exploring Urban Place Function through User-Generated Textual Content",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Shahreen Muntaha Nawfee",
+        "@id": "https://orcid.org/0000-0001-6154-8537"
+      },
+      {
+        "@type": "Person",
+        "name": "Stefano De Sabbata",
+        "@id": "https://orcid.org/0000-0002-2750-7579"
+      },
+      {
+        "@type": "Person",
+        "name": "Nicholas Tate",
+        "@id": "https://orcid.org/0009-0004-7648-5785"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Understanding the functions played by different places as part of the urban fabric is essential for the sustainable development of cities. The increase in the amount and variety of people's digital footprint, combined with the recent emergence of Large Language Models (LLMs), holds the potential to derive novel and useful insights into the function of urban places from unstructured textual content. This paper presents a reproducible and robust methodological framework to extract place functional characteristics from user-generated textual content. In particular, we analyse tags of Points of Interest (POIs) from OpenStreetMap (OSM) and summaries of geo-tagged articles from Wikipedia through spatial clustering and topic modelling, exploring classic and current approaches in Natural Language Processing (NLP). We evaluate and compare the performance of different LLMs, including Mistral and Llama. Our results show that the framework provides a good insight into place functionality for our case study. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-6-6-2025",
+    "sameAs": "https://doi.org/10.5194/agile-giss-6-6-2025"
+  },
+  "reviewBody": "The manuscript was partially reproducible, with three of seven figures recreated with some deviations, likely due to unset random states in the computational process. The remaining figures and tables could not be reproduced in this process due to code issues; the GitHub repository contained 16 code files but lacked sufficient documentation for navigating the complex workflow. While the code can be run on standard hardware with common Python and R libraries, there are no instructions on setup or library versioning. Communication with the authors (17 emails over ~10 days) was necessary to obtain intermediate data files and clarify the process.\n",
+  "datePublished": "2025-06-12",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/BGY83"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +374,9 @@ The manuscript was partially reproducible, with three of seven figures recreated
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +422,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +441,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

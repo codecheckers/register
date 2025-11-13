@@ -36,13 +36,52 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-018/",
+  "name": "CODECHECK Certificate 2020-018",
+  "url": "https://codecheck.org.uk/register/certs/2020-018/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Majid Hojati",
+        "@id": "https://orcid.org/0000-0001-7350-0055"
+      },
+      {
+        "@type": "Person",
+        "name": "Colin Robertson"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. With new forms of digital spatial data driving new applications for monitoring and understanding environmental change, there are growing demands on traditional GIS tools for spatial data storage, management and processing. Discrete Global Grid System (DGGS) are methods to tessellate globe into multiresolution grids, which represent a global spatial fabric capable of storing heterogeneous spatial data, and improved performance in data access, retrieval, and analysis. While DGGS-based GIS may hold potential for next-generation big data GIS platforms, few of studies have tried to implement them as a framework for operational spatial analysis. Cellular Automata (CA) is a classic dynamic modeling framework which has been used with traditional raster data model for various environmental modeling such as wildfire modeling, urban expansion modeling and so on. The main objectives of this paper are to (i) investigate the possibility of using DGGS for running dynamic spatial analysis, (ii) evaluate CA as a generic data model for dynamic phenomena modeling within a DGGS data model and (iii) evaluate an in-database approach for CA modelling. To do so, a case study into wildfire spread modelling is developed. Results demonstrate that using a DGGS data model not only provides the ability to integrate different data sources, but also provides a framework to do spatial analysis without using geometry-based analysis. This results in a simplified architecture and common spatial fabric to support development of a wide array of spatial algorithms. While considerable work remains to be done, CA modelling within a DGGS-based GIS is a robust and flexible modelling framework for big-data GIS analysis in an environmental monitoring context.  \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-1-6-2020",
+    "sameAs": "https://doi.org/10.5194/agile-giss-1-6-2020"
+  },
+  "reviewBody": "The check was straightforward as all material was provided and documented well, but computations took about 3 hours to run.\n",
+  "datePublished": "2020-07-13",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/ZTC7M"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -330,6 +369,9 @@ The check was straightforward as all material was provided and documented well, 
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -375,13 +417,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -394,10 +436,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

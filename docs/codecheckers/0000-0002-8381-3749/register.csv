@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2022-018","gitlab::cdchck/community-codechecks/2022-svaRetro-svaNUMT","GigaByte","journal"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"gitlab::cdchck/community-codechecks/2022-svaRetro-svaNUMT","https://gitlab.com/cdchck/community-codechecks/2022-svaRetro-svaNUMT","https://doi.org/10.5281/zenodo.7084333","svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data","https://doi.org/10.46471/gigabyte.70","GigaByte","journal"

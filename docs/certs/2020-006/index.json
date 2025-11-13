@@ -1,0 +1,44 @@
+{
+  "certificate": {
+    "id": "2020-006",
+    "url": "https://codecheck.org.uk/register/certs/2020-006/"
+  },
+  "paper": {
+    "title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours\n",
+    "authors": [
+      {
+        "name": "Tiziano Zito",
+        "orcid": "0000-0001-5891-1702"
+      }
+    ],
+    "reference": "https://doi.org/10.5281/zenodo.1003214"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "check_time": "2020-07-16 10:00:00",
+    "repository": "github::codecheckers/Detorakis-reproduction",
+    "report": "https://doi.org/10.5281/zenodo.3948353",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "The three figures from the ReScience article \"[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours\" were reproduced using the code provided by the article authors. The code was straightforward to run and took minimal computation time. \n",
+    "manifest": [
+      {
+        "file": "figures/figure_1.png",
+        "comment": "manuscript Figure 1"
+      },
+      {
+        "file": "figures/figure_2.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "figures/figure_3.png",
+        "comment": "manuscript Figure 3"
+      }
+    ]
+  }
+}

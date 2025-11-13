@@ -2,12 +2,13 @@
   {
     "Certificate ID": "2024-022",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-022/",
+    "Repository": "github::codecheckers/DEISM",
     "Repository Link": "https://github.com/codecheckers/DEISM",
-    "Type": "community",
-    "Venue": "codecheck NL",
     "Report": "http://doi.org/10.5281/zenodo.14273316",
     "Title": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method",
     "Paper reference": "https://doi.org/10.1121/10.0023935",
+    "Type": "community",
+    "Venue": "codecheck NL",
     "Check date": "2024-12-05"
   }
 ]

@@ -1,15 +1,15 @@
 ---
 title: Codechecks by Iain Davies
 ---
-<p style="margin-bottom: 1.5em;">
-<a href="https://orcid.org/0000-0002-5361-6285" title="ORCID iD"><i class="ai ai-orcid" style="font-size: 1.2em; color: #A6CE39;"></i> https://orcid.org/0000-0002-5361-6285</a>
+<p class="codechecker-profile-links">
+<a href="https://orcid.org/0000-0002-5361-6285" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-5361-6285</a>
  | 
 <a href="https://github.com/IainDaviesMaths" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
 </p>
 
 
 |Certificate |Report                                 |Paper Title                                                                                                                              |Venue     |Type      |Check date |
-|:-------|:---------------------------------------------|:------------------|:------------------|:---|:--------------------------|:------------------|
+|:-------|:-----------------------------------------------------------------------------------|:------------------|:------------------|:---|:--------------------------|
 |[2020-005](https://codecheck.org.uk/register/certs/2020-005/)|https://doi.org/10.5281/zenodo.3959175 |[[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis ](https://doi.org/10.5281/zenodo.3538217)             |[codecheck](https://codecheck.org.uk/register/venues/communities/codecheck)|[Community](https://codecheck.org.uk/register/venues/communities)|2020-07-23 |
 |[2020-006](https://codecheck.org.uk/register/certs/2020-006/)|https://doi.org/10.5281/zenodo.3948353 |[[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours ](https://doi.org/10.5281/zenodo.1003214) |[codecheck](https://codecheck.org.uk/register/venues/communities/codecheck)|[Community](https://codecheck.org.uk/register/venues/communities)|2020-07-16 |
 |[2020-013](https://codecheck.org.uk/register/certs/2020-013/)|https://doi.org/10.5281/zenodo.3947959 |[Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision ](https://doi.org/10.1101/2020.06.02.129502)|[preprint](https://codecheck.org.uk/register/venues/communities/preprint)|[Community](https://codecheck.org.uk/register/venues/communities)|2020-07-14 |

@@ -1,0 +1,67 @@
+{
+  "certificate": {
+    "id": "2025-021",
+    "url": "https://codecheck.org.uk/register/certs/2025-021/"
+  },
+  "paper": {
+    "title": "Airspeed estimation for UAVs using only propeller feedback",
+    "authors": [
+      {
+        "name": "Evangelos Ntouros",
+        "orcid": "0009-0006-3918-4240"
+      },
+      {
+        "name": "Pavel Kelley"
+      },
+      {
+        "name": "Ewoud Smeur",
+        "orcid": "0000-0002-0060-6526"
+      }
+    ],
+    "reference": "https://doi.org/10.48550/arXiv.2507.03456"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Heather Andrews",
+        "orcid": "0000-0002-6637-2830"
+      }
+    ],
+    "check_time": "2025-07-30 18:00:00",
+    "repository": "github::codecheckers/certificate-2025-021",
+    "report": "https://doi.org/10.5281/zenodo.16616998",
+    "type": "institution",
+    "venue": "TU Delft DCC",
+    "summary": "Full reproduction of the figures shown in the manuscript. Figures 1 and 3 of the manuscript are pictures which are also  provided in the `./photos/` directory of the code repository. All other figures are plots that are fully reproduced by the  scripts found in the `./src/` directory of the code repository. The figures are displayed in MATLAB itself and are provided  as pdf’s in the `./pdf/` directory of the code repository. \n",
+    "manifest": [
+      {
+        "file": "Cp-J_eta.pdf",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "Cp-J.pdf",
+        "comment": "manuscript Figure 4"
+      },
+      {
+        "file": "bem_Va-P-wconst_fit.pdf",
+        "comment": "manuscript Figure 5"
+      },
+      {
+        "file": "wt_Va_fit.pdf",
+        "comment": "manuscript Figure 6a"
+      },
+      {
+        "file": "wt_rpm.pdf",
+        "comment": "manuscript Figure 6b"
+      },
+      {
+        "file": "flight_Va_predict.pdf",
+        "comment": "manuscript Figure 7a"
+      },
+      {
+        "file": "flight_alpha_J.pdf",
+        "comment": "manuscript Figure 7b"
+      }
+    ]
+  }
+}

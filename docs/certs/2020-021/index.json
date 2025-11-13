@@ -1,0 +1,57 @@
+{
+  "certificate": {
+    "id": "2020-021",
+    "url": "https://codecheck.org.uk/register/certs/2020-021/"
+  },
+  "paper": {
+    "title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
+    "authors": [
+      {
+        "name": "Amine Medad",
+        "orcid": "0000-0002-6473-9969"
+      },
+      {
+        "name": "Mauro Gaio"
+      },
+      {
+        "name": "Ludovic Moncla",
+        "orcid": "0000-0002-1590-9546"
+      },
+      {
+        "name": "Sébastien Mustière"
+      },
+      {
+        "name": "Yannick Le Nir"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
+    "abstract": {
+      "text": "<jats:p>Abstract. Discourse may contain both named and nominal entities. Most common nouns or nominal mentions in natural language do not have a single, simple meaning but rather a number of related meanings. This form of ambiguity led to the development of a task in natural language processing known as Word Sense Disambiguation. Recognition and categorisation of named and nominal entities is an essential step for Word Sense Disambiguation methods. Up to now, named entity recognition and categorisation systems mainly focused on the annotation, categorisation and identification of named entities. This paper focuses on the annotation and the identification of spatial nominal entities. We explore the combination of Transfer Learning principle and supervised learning algorithms, in order to build a system to detect spatial nominal entities. For this purpose, different supervised learning algorithms are evaluated with three different context sizes on two manually annotated datasets built from Wikipedia articles and hiking description texts. The studied algorithms have been selected for one or more of their specific properties potentially useful in solving our problem. The results of the first phase of experiments reveal that the selected algorithms have similar performances in terms of ability to detect spatial nominal entities. The study also confirms the importance of the size of the window to describe the context, when word-embedding principle is used to represent the semantics of each word.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-07-13 11:47:00",
+    "repository": "github::reproducible-agile/Spatial-nominal-entity-recognition",
+    "report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "After some adjustments of the computational environment, the commendable material compiled by the authors lead to a mostly successful reproduction.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2020 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/25"
+      }
+    ]
+  }
+}

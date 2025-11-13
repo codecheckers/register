@@ -1,0 +1,45 @@
+{
+  "certificate": {
+    "id": "2024-009",
+    "url": "https://codecheck.org.uk/register/certs/2024-009/"
+  },
+  "paper": {
+    "title": "Developing a city-specific walkability index through a participatory approach",
+    "authors": [
+      {
+        "name": "Matias Cardoso1"
+      },
+      {
+        "name": "Vasileios Milias"
+      },
+      {
+        "name": "Maurice Harteveld"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
+    "abstract": {
+      "text": "<jats:p>Abstract. The extent to which the built environment encourages people to walk in public spaces, hence the quality of being walkable or ‘walkability’ has long been associated with positive outcomes on people’s health. While various studies have developed indices to assess walkability, limited attention has been given to indices that reflect the influence of specific city characteristics on walkability. This study showcases the development of a city-specific walkability index through a participatory approach using Amsterdam as a case study. It explores the viewpoints of urban designers and policy-makers who work or reside in Amsterdam on what constitutes a walkable street and identifies the most significant walkability factors for Amsterdam. These factors are then quantified based on open-access datasets and integrated into a street-level weighted walkability index. The resulting walkability index underscores the importance of factors such as traffic and crime safety, quality of the pedestrian infrastructure, and proximity to public amenities in shaping residents’ decisions to walk in specific public spaces. Finally, this research underscores the importance of involving individuals through participatory methods, considering subjective perspectives, and acknowledging shared experiences within particular groups and spaces when assessing walkability. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "check_time": "2024-05-23 15:47",
+    "repository": "osf::csb7r",
+    "report": "https://doi.org/10.17605/osf.io/CSB7R",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper investigates to improve on walkability indices that consider city-specifics.\nIt employs a  mixed methods approach, starting with a literature review to identify relevant elements, followed by participatory sessions with urban planners and policymakers to determine factors for the case study of Amsterdam.\nIn a last step, the authors quantify these factors and calculate walkability scores for the study area.\nThe first two steps in the research design are out of scope of this reproducibility review, which focuses on the computational reproducibility of the quantitative analysis (phase C in Figure 1 of the paper).\n\nThe authors provide data sets in the repository to execute the steps of normalization, calculation, and visualization.\nA visual inspection using QGIS shows similar patterns of walkability scores. \n\nThis reproducibility review was thus only able to validate part of the workflow. However, given that the input data is in principle openly available, the manual analysis steps are standard operations with documented parameters, the computations are deterministic, and all tools and software are free and open source, this review can conclude that the quantitative analysis part of the paper is reproducible. \n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2024 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/69"
+      }
+    ]
+  }
+}

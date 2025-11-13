@@ -1,0 +1,49 @@
+{
+  "certificate": {
+    "id": "2020-004",
+    "url": "https://codecheck.org.uk/register/certs/2020-004/"
+  },
+  "paper": {
+    "title": "Neuronlike adaptive elements that can solve difficult learning control problems",
+    "authors": [
+      {
+        "name": "Andrew G. Barto"
+      },
+      {
+        "name": "Richard S. Sutton"
+      },
+      {
+        "name": "C. W. Anderson"
+      }
+    ],
+    "reference": "https://doi.org/10.1109/TSMC.1983.6313077",
+    "abstract": {
+      "text": "It is shown how a system consisting of two neuronlike adaptive elements can solve a difficult learning control problem. The task is to balance a pole that is hinged to a movable cart by applying forces to the cart's base. It is argued that the learning problems faced by adaptive elements that are components of adaptive networks are at least as difficult as this version of the pole-balancing problem. The learning system consists of a single associative search element (ASE) and a single adaptive critic element (ACE). In the course of learning to balance the pole, the ASE constructs associations between input and output by searching under the influence of reinforcement feedback, and the ACE constructs a more informative evaluation function than reinforcement feedback alone can provide. The differences between this approach and other attempts to solve problems using neurolike elements are discussed, as is the relation of this work to classical and instrumental conditioning in animal learning studies and its possible implications for research in the neurosciences.",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-05-14 16:00:00",
+    "repository": "github::codecheckers/Barto-Sutton-Anderson-1983",
+    "report": "https://doi.org/10.5281/zenodo.3827371",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "The check was relatively easy to do because the Python code was simple, but the documentation was not good.\nComputations took about 6 minutes to run.\n",
+    "manifest": [
+      {
+        "file": "python code/output/fig4.pdf",
+        "comment": "Figure 4 in the paper with simulation results"
+      },
+      {
+        "file": "python code/output/fig5.pdf",
+        "comment": "Figure 5 in the paper with simulation results"
+      }
+    ]
+  }
+}

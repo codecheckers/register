@@ -2,12 +2,13 @@
   {
     "Certificate ID": "2024-019",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-019/",
+    "Repository": "github::codecheckers/wearable-hrv",
     "Repository Link": "https://github.com/codecheckers/wearable-hrv",
-    "Type": "community",
-    "Venue": "codecheck NL",
     "Report": "https://doi.org/10.5281/zenodo.14279041",
     "Title": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.",
     "Paper reference": "https://doi.org/10.31219/osf.io/wkzsn",
+    "Type": "community",
+    "Venue": "codecheck NL",
     "Check date": "2024-12-04"
   }
 ]

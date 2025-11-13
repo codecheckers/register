@@ -36,13 +36,48 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2021-007/",
+  "name": "CODECHECK Certificate 2021-007",
+  "url": "https://codecheck.org.uk/register/certs/2021-007/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Automated Extraction of Labels from Large-Scale Historical Maps",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Inga Schlegel",
+        "@id": "https://orcid.org/0000-0003-1468-4944"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Historical maps are frequently neither readable, searchable nor analyzable by machines due to lacking databases or ancillary information about their content. Identifying and annotating map labels is seen as a first step towards an automated legibility of those. This article investigates a universal and transferable methodology for the work with large-scale historical maps and their comparability to others while reducing manual intervention to a minimum. We present an end-to-end approach which increases the number of true positive identified labels by combining available text detection, recognition, and similarity measuring tools with own enhancements. The comparison of recognized historical with current street names produces a satisfactory accordance which can be used to assign their point-like representatives within a final rough georeferencing. The demonstrated workflow facilitates a spatial orientation within large-scale historical maps by enabling the establishment of relating databases. Assigning the identified labels to the geometries of related map features may contribute to machine-readable and analyzable historical maps.  \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-2-12-2021",
+    "sameAs": "https://doi.org/10.5194/agile-giss-2-12-2021"
+  },
+  "reviewBody": "The provided workflow could be partially reproduced, notably the text detection and string similarity\ncalculations could be executed and provide sufficiently similar results. Some manual steps were included which\ncould not be reproduced, as well as a final step due to long execution time. The software stack was challenging\nto install but overall well documented.\n",
+  "datePublished": "2021-06-10",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/anv9r"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -330,6 +365,9 @@ The provided workflow could be partially reproduced, notably the text detection 
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -375,13 +413,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -394,10 +432,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

@@ -1,0 +1,56 @@
+{
+  "certificate": {
+    "id": "2025-016",
+    "url": "https://codecheck.org.uk/register/certs/2025-016/"
+  },
+  "paper": {
+    "title": "Changes in Road Centrality and Hospital Access Redundancy: Impacts of the 2024 Flood in the Metropolitan Core of Porto Alegre, Brazil",
+    "authors": [
+      {
+        "name": "Ricardo Ruiz Sánchez",
+        "orcid": "0009-0000-6108-3389"
+      },
+      {
+        "name": "Marcel Reinmuth",
+        "orcid": "0000-0002-0204-5101"
+      },
+      {
+        "name": "Cristian Albornoz",
+        "orcid": "0000-0002-5476-2508"
+      },
+      {
+        "name": "Sven Lautenbach",
+        "orcid": "0000-0003-1825-9996"
+      },
+      {
+        "name": "Alexander Zipf",
+        "orcid": "0000-0003-4916-9838"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-6-10-2025",
+    "abstract": {
+      "text": "<jats:p>Abstract. In view of climate change driving extreme events such as floods, assessing urban infrastructure resilience is critical for disaster response and urban planning. We investigated how flooding in Rio Grande do Sul affected road network connectivity and urban resilience in terms of lack of redundancy to healthcare facilities. We performed centrality analysis using the edge betweenness indicator to identify urban arteries critical for connectivity at metropolitan and intracity scales and compared alternative routes to assess healthcare facilities resilience. Understanding how floods disrupt road connectivity and mobility is critical for identifying vulnerable areas and improving disaster response planning. The results revealed that just 71 km—or 2% of the total analysed network—accounted for 12% of core-metropolitan connectivity prior to the floods. These high-centrality urban arteries, including the BR-290 Freeway, were disproportionately affected: they lost approximately 92% of their total centrality after the flooding. Overall, the road network experienced a 59% reduction in betweenness centrality at the core metropolitan scale. At the municipal level, impacts varied. For example, Canoas experienced a 59% loss in intracity connectivity, while Nova Santa lost only 14%, despite a larger flooded area (113 km2 versus 65 km2). Regarding the analysis of urban resilience to access healthcare facilities, the results revealed higher deficits in peripheral hospitals, such as Hospital Restinga e Extremo Sul, indicating a lower resilience. These results indicate the importance of multi-scale analyses to reveal spatial disparities and inform disaster risk management. This study provides actionable insights to support decision-makers in improving emergency responses and strengthening infrastructure resilience to future climate-related disasters. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Barbara Hofer",
+        "orcid": "0000-0001-7078-3766"
+      }
+    ],
+    "check_time": "2025-06-06 12:00:00",
+    "repository": "osf::28jt4",
+    "report": "https://doi.org/10.17605/OSF.IO/28JT4",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "Partial reproduction with a focus on the analysis part presented in the paper.\nExcellent exchange with the authors that allowed a successful reproduction; meanwhile material to reproduce the preprocessing of data has been shared by the authors as well.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2025 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/147"
+      }
+    ]
+  }
+}

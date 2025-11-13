@@ -1,0 +1,43 @@
+{
+  "certificate": {
+    "id": "2024-006",
+    "url": "https://codecheck.org.uk/register/certs/2024-006/"
+  },
+  "paper": {
+    "title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
+    "authors": [
+      {
+        "name": "Balthasar Teuscher",
+        "orcid": "0000-0002-2811-1920"
+      },
+      {
+        "name": "Martin Werner"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-5-15-2024",
+    "abstract": {
+      "text": "<jats:p>Abstract. Current point cloud data management systems and formats are heavily specialized and targeted solely towards visualization purposes and fail to address the diverse needs of progressive point cloud workflows like for example semantic segmentation using machine learning. We therefore propose a distributed data infrastructure for dynamic point cloud data management that can support interactive real-time visualization at scale while simultaneously serving as a platform for analytical tasks. By introducing random data distribution, we show that simple query fragmentation and efficient and effective parallelism at scale are possible. At the same time, arbitrary queries in space and time can be efficiently run over the infrastructure including query semantics which returns only a random sample of the query results or preferred points based on an importance dimension calculated, for example, from a local point density information as commonly done in point cloud visualization. To cope with the unknown amount of user-specific attributes and to support even multiple ways of deciding the importance of a given point (ground point removal, coverage of space, random subset) the system is designed to support all of them transparently as multidimensional range queries backed by spatial indices. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "check_time": "2024-05-23 12:00:00",
+    "repository": "osf::ymc3t",
+    "report": "https://doi.org/10.17605/OSF.IO/YMC3T",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The workflow provided was partially reproduced in the sense that I was able to reproduce the system reported in the paper qualitatively.\nThat is, I did not reproduce the experiment or other results (figures, etc.) included in the article, but I was able to set up and run the system described in the paper and test it with some query samples.\nTherefore, by doing this, this report ensures that the system works as described in the manuscript.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2024 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/69"
+      }
+    ]
+  }
+}

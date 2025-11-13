@@ -36,13 +36,66 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2021-006/",
+  "name": "CODECHECK Certificate 2021-006",
+  "url": "https://codecheck.org.uk/register/certs/2021-006/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Jakub Krukar",
+      "@id": "https://orcid.org/0000-0003-2615-8757"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Meilin Shi"
+      },
+      {
+        "@type": "Person",
+        "name": "Krzysztof Janowicz"
+      },
+      {
+        "@type": "Person",
+        "name": "Ling Cai",
+        "@id": "https://orcid.org/0000-0001-7106-4907"
+      },
+      {
+        "@type": "Person",
+        "name": "Gengchen Mai",
+        "@id": "https://orcid.org/0000-0002-7818-7309"
+      },
+      {
+        "@type": "Person",
+        "name": "Rui Zhu",
+        "@id": "https://orcid.org/0000-0002-8910-9445"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Identifying determinants of tourist destination choice is an important task in the study of nature-based tourism. Traditionally, the study of tourist behavior relies on survey data and travel logs, which are labor-intensive and time-consuming. Thanks to location-based social networks, more detailed data is available at a finer grained spatio-temporal scale. This allows for better insights into travel patterns and interactions between attractions, e.g., parks. Meanwhile, such data sources also bring along a novel social influence component that has not yet been widely studied in terms of travel decisions. For example, social influencers post about certain places, which tend to influence destination choices of tourists. Therefore, in this paper, we propose a socially aware Huff model to account for this social factor in the study of destination choice. Moreover, with fine-grained social media data, interactions between attractions (i.e., the neighboring effects) can be better quantified and thus integrated into models as another factor. In our experiment, we calibrate a model by using trip sequences extracted from geotagged Flickr photos within two national parks in the United States. Our results demonstrate that the socially aware Huff model better simulates tourist travel preferences. In addition, we explore the significance of each factor and summarize the spatial-temporal travel pattern for each attraction. The socially aware Huff model and the calibration method can be applied to other fields such as promotional marketing.  \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-2-14-2021",
+    "sameAs": "https://doi.org/10.5194/agile-giss-2-14-2021"
+  },
+  "reviewBody": "The code, sample API query, and downloaded data were published in a public GitHub repository with a\nworking Binder link. All files containing the code could be executed and all tables presented in the paper\ncould be reproduced with only minor changes to the code. However, the code does not create figures\ncontained in the paper and an attempt to change the results of the model evaluation by changing its\nnumerical assumption was unsuccessful. The authors demonstrate concern for the reproducibility of their\nwork and actively improved the reproducibility workflow throughout the reproducibility review process.\n",
+  "datePublished": "2021-06-10",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/4CPM3"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -330,6 +383,9 @@ The code, sample API query, and downloaded data were published in a public GitHu
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -375,13 +431,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -394,10 +450,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

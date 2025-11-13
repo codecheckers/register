@@ -1,0 +1,97 @@
+{
+  "certificate": {
+    "id": "2020-012",
+    "url": "https://codecheck.org.uk/register/certs/2020-012/"
+  },
+  "paper": {
+    "title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)\n",
+    "authors": [
+      {
+        "name": "H Juliette T Unwin",
+        "orcid": "0000-0002-9120-4003"
+      },
+      {
+        "name": "Swapnil Mistra"
+      },
+      {
+        "name": "Valerie C Bradley"
+      },
+      {
+        "name": "et al."
+      }
+    ],
+    "reference": "https://doi.org/10.25561/79231",
+    "abstract": {
+      "text": "As of 1st June 2020, the US Centers for Disease Control and Prevention reported 104,232 confirmed or probable COVID-19-related deaths in the US. This was more than twice the number of deaths reported in the next most severely impacted country. We jointly model the US epidemic at the state-level, using publicly available deathdata within a Bayesian hierarchical semi-mechanistic framework. For each state, we estimate the number of individuals that have been infected, the number of individuals that are currently infectious and the time-varying reproduction number (the average number of secondary infections caused by an infected person). We use changes in mobility to capture the impact that non-pharmaceutical interventions and other behaviour changes have on therate of transmission of SARS-CoV-2. We estimate thatRtwas only below one in 23 states on 1st June. We also estimate that 3.7% [3.4%-4.0%] of the total population of the US had been infected, with wide variation between states, and approximately 0.01% of the population was infectious. We demonstrate good 3 week model forecasts of deaths with low error and good coverage of our credible intervals.",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2020-06-14 14:00:00",
+    "repository": "github::codecheckers/covid19model-report23",
+    "report": "https://doi.org/10.5281/zenodo.3893617",
+    "type": "community",
+    "venue": "preprint",
+    "summary": "R code for this paper shared with an earlier codecheck certifice (2020-011) from the same codebase.\n",
+    "manifest": [
+      {
+        "file": "usa/figures/rt_point__1006697.pdf",
+        "comment": "Manuscript Figure 4"
+      },
+      {
+        "file": "usa/figures/1006697_rt_map_chloropleth.pdf",
+        "comment": "Manuscript Figure 5"
+      },
+      {
+        "file": "usa/figures/WA_three_panel_1006697_.pdf",
+        "comment": "Manuscript Figure 6 (Washington)"
+      },
+      {
+        "file": "usa/figures/NY_three_panel_1006697_.pdf",
+        "comment": "Manuscript Figure 6 (New York)"
+      },
+      {
+        "file": "usa/figures/MA_three_panel_1006697_.pdf",
+        "comment": "Manuscript Figure 6 (Massachusetts)"
+      },
+      {
+        "file": "usa/figures/FL_three_panel_1006697_.pdf",
+        "comment": "Manuscript Figure 6 (Florida)"
+      },
+      {
+        "file": "usa/figures/CA_three_panel_1006697_.pdf",
+        "comment": "Manuscript Figure 6 (California)"
+      },
+      {
+        "file": "usa/figures/1006697_infectiousness_regions.pdf",
+        "comment": "Manuscript Figure 7"
+      },
+      {
+        "file": "usa/figures/WA_scenarios_56_0_20_40_1006697_deaths.pdf",
+        "comment": "Manuscript Figure 8 (Washington)"
+      },
+      {
+        "file": "usa/figures/NY_scenarios_56_0_20_40_1006697_deaths.pdf",
+        "comment": "Manuscript Figure 8 (New York)"
+      },
+      {
+        "file": "usa/figures/MA_scenarios_56_0_20_40_1006697_deaths.pdf",
+        "comment": "Manuscript Figure 8 (Massachusetts)"
+      },
+      {
+        "file": "usa/figures/FL_scenarios_56_0_20_40_1006697_deaths.pdf",
+        "comment": "Manuscript Figure 8 (Florida)"
+      },
+      {
+        "file": "usa/figures/CA_scenarios_56_0_20_40_1006697_deaths.pdf",
+        "comment": "Manuscript Figure 8 (California)"
+      }
+    ]
+  }
+}

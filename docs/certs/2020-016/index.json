@@ -1,0 +1,52 @@
+{
+  "certificate": {
+    "id": "2020-016",
+    "url": "https://codecheck.org.uk/register/certs/2020-016/"
+  },
+  "paper": {
+    "title": "Opening practice: supporting reproducibility and critical spatial data science ",
+    "authors": [
+      {
+        "name": "Chris Brunsdon",
+        "orcid": "0000-0003-4254-1780"
+      },
+      {
+        "name": "Alexis Comber",
+        "orcid": "0000-0002-3652-7846"
+      }
+    ],
+    "reference": "https://doi.org/10.1007/s10109-020-00334-2",
+    "abstract": {
+      "text": "<jats:title>Abstract<\/jats:title><jats:p>This paper reflects on a number of trends towards a more open and reproducible approach to geographic and spatial data science over recent years. In particular, it considers trends towards Big Data, and the impacts this is having on<jats:italic>spatial<\/jats:italic>data analysis and modelling. It identifies a turn in academia towards coding as a core analytic tool, and away from proprietary software tools offering ‘black boxes’ where the internal workings of the analysis are not revealed. It is argued that this closed form software is problematic and considers a number of ways in which issues identified in spatial data analysis (such as the MAUP) could be overlooked when working with closed tools, leading to problems of interpretation and possibly inappropriate actions and policies based on these. In addition, this paper considers the role that reproducible and open spatial science may play in such an approach, taking into account the issues raised. It highlights the dangers of failing to account for the geographical properties of data, now that all data are spatial (they are collected some<jats:italic>where<\/jats:italic>), the problems of a desire for<jats:inline-formula><jats:alternatives><jats:tex-math>$$n$$<\/jats:tex-math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>n<\/mml:mi><\/mml:math><\/jats:alternatives><\/jats:inline-formula> = <jats:italic>all<\/jats:italic>observations in data science and it identifies the need for a critical approach. This is one in which openness, transparency, sharing and reproducibility provide a mantra for defensible and robust spatial data science.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-06-02",
+    "repository": "github::codecheckers/OpeningPractice",
+    "report": "https://doi.org/10.5281/zenodo.3981253",
+    "type": "journal",
+    "venue": "J Geogr Syst",
+    "summary": "A small R script to render a map and two tables. Minor code adjustments were made, but reproduction of results (one figure, two tables) was successful.\n",
+    "manifest": [
+      {
+        "file": "figure1.png",
+        "comment": "Figure 1: Housing data and different census areas scales ..."
+      },
+      {
+        "file": "table2.md",
+        "comment": "Table 2: The model coefficient estimates for the individual input variables ..."
+      },
+      {
+        "file": "table3.md",
+        "comment": "Table 3: The variable importance (expressed as a percentage) ..."
+      }
+    ]
+  }
+}

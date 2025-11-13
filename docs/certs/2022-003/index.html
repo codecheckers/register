@@ -36,13 +36,59 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-003/",
+  "name": "CODECHECK Certificate 2022-003",
+  "url": "https://codecheck.org.uk/register/certs/2022-003/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carlos Granell",
+      "@id": "https://orcid.org/0000-0003-1004-9695"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Haojun Cai"
+      },
+      {
+        "@type": "Person",
+        "name": "Yanan Xin"
+      },
+      {
+        "@type": "Person",
+        "name": "Henry Martin"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Raubal"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. The number of electric vehicles (EVs) has been rapidly increasing over the last decade, motivated by the effort to decrease greenhouse gas emissions and the fast development of battery technology. This trend challenges distribution grids since EVs will bring significant stress if the charging of many EVs is not coordinated. Among the many strategies to cope with this challenge, next-day EV energy demand forecasting plays a key role. Existing studies have focused on predicting the next-day energy demand of EVs on the aggregated and individual levels. However, these studies have not yet extensively considered individual user mobility behaviors, which exhibit a high level of predictability. In this study, we consider several mobility features of individual users when forecasting the next-day energy demand of individual EVs. Three types of quantile regression models are used to generate probabilistic forecasts of energy demand, particularly the next-day energy consumption and parking duration. Based on the prediction results, two time-shifting smart charging strategies are designed: unidirectional and bidirectional smart charging. These two strategies are compared with an uncontrolled charging baseline to evaluate their financial benefits and peak-shaving effects. Our results show that human mobility features can partially improve the prediction of next-day individual EV energy demand. Additionally, users and distribution grids can benefit from smart charging strategies both financially and technically.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-3-2022"
+  },
+  "reviewBody": "The authors included a link to an anonymous GitHb repository containing detailed instructions and an entry point (`main` script) to run the entire analysis.\nThe authors claimed that input data cannot be disclosed. They provided me a few synthetic input samples (CSV format) to run the probabilistic models and charging strategies for simulation and evaluation, so there are differences between the results of the reproduction and the ones in the original paper.\nThe reproduction described in this report uses the Python code provided.\nEven though the reproduction exercise with synthetic data failed during the last step of the script, I consider the paper was partially reproducible based on the synthetic data.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/JDTN3"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +375,9 @@ The authors included a link to an anonymous GitHb repository containing detailed
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +423,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +442,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

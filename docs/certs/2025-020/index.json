@@ -1,0 +1,68 @@
+{
+  "certificate": {
+    "id": "2025-020",
+    "url": "https://codecheck.org.uk/register/certs/2025-020/"
+  },
+  "paper": {
+    "title": "Exploring Categorical Colors",
+    "authors": [
+      {
+        "name": "Lukas Röseler",
+        "orcid": "0000-0002-6446-1901"
+      }
+    ],
+    "reference": "https://doi.org/10.31234/osf.io/gj76p",
+    "abstract": {
+      "text": "<p>Language often uses categorical values (e.g., red, pink) when science provides continuous values (e.g,. rgb[255,0,0], rgb[255,0,125]). I presented participants with colors across a red (rgb[255,0,0]), purple (rgb[255,0,255]), and blue (rgb[0,0,255]) spectrum and explored whether remembered colors were assimilated towards prototypical colors (red, pink, purple, blue). This was the case for different shades of pink but it is uncertain whether this was due to the categoryhypothesis being correct, computer screens being unable to present colors correctly, or other reasons. The study’s code and data are available online (https://osf.io/86zv9/).<\/p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Prince Oppong Boakye",
+        "orcid": "0009-0003-5447-8034"
+      }
+    ],
+    "check_time": "2025-06-28 12:28:00",
+    "repository": "github::codecheckers/Exploring-Categorical-Colors",
+    "report": "https://doi.org/10.5281/zenodo.15762107",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "The workflow outlined in the authors’ README was easily comprehensible. All figures stored in the repository could be recreated in R, and they accurately matched those presented in the manuscript.\n",
+    "manifest": [
+      {
+        "file": "ministudy1_analyses_final.R",
+        "comment": "Analysis script for pilot study."
+      },
+      {
+        "file": "ministudy2_analyses_final.R",
+        "comment": "Analysis script for main study."
+      },
+      {
+        "file": "study1_data_processed.csv",
+        "comment": "Dataset for pilot study."
+      },
+      {
+        "file": "study2_data_processed.csv",
+        "comment": "Dataset for main study."
+      },
+      {
+        "file": "pilot.jpg",
+        "comment": "Figure 2 in the manuscript."
+      },
+      {
+        "file": "colors_scatterplot.jpg",
+        "comment": "Figure 3 in the manuscript."
+      },
+      {
+        "file": "colors_violinplot.jpg",
+        "comment": "Figure 5 in the manuscript."
+      },
+      {
+        "file": "colors_means.jpg",
+        "comment": "Figure 4 in the manuscript."
+      }
+    ]
+  }
+}

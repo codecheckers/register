@@ -2,23 +2,25 @@
   {
     "Certificate ID": "2025-004",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-004/",
+    "Repository": "github::codecheckers/certificate-2025-004",
     "Repository Link": "https://github.com/codecheckers/certificate-2025-004",
-    "Type": "institution",
-    "Venue": "TU Delft DCC",
     "Report": "https://doi.org/10.5281/zenodo.15310765",
     "Title": "Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach",
     "Paper reference": "https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
     "Check date": "2025-04-08"
   },
   {
     "Certificate ID": "2025-019",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-019/",
+    "Repository": "github::codecheckers/certificate-2025-019",
     "Repository Link": "https://github.com/codecheckers/certificate-2025-019",
-    "Type": "institution",
-    "Venue": "TU Delft DCC",
     "Report": "https://doi.org/10.5281/zenodo.15771677",
     "Title": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
     "Paper reference": "https://doi.org/10.48550/arXiv.2503.21065",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
     "Check date": "2025-06-11"
   }
 ]

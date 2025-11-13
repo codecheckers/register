@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2025-002","github::codecheckers/EvalSubtitle","codecheck NL","community"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"github::codecheckers/EvalSubtitle","https://github.com/codecheckers/EvalSubtitle","https://doi.org/10.5281/zenodo.15173758","Evaluating Subtitle Segmentation for End-to-end Generation systems","https://aclanthology.org/2022.lrec-1.328/","codecheck NL","community"

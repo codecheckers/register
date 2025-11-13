@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2024-005","github::codecheckers/sample-size-codecheck","codecheck","community"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"github::codecheckers/sample-size-codecheck","https://github.com/codecheckers/sample-size-codecheck","https://doi.org/10.5281/zenodo.13945051","Sample size estimation for task-related functional MRI studies using Bayesian updating.","https://doi.org/10.31234/osf.io/cz32t","codecheck","community"

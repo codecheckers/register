@@ -1,0 +1,48 @@
+{
+  "certificate": {
+    "id": "2022-017",
+    "url": "https://codecheck.org.uk/register/certs/2022-017/"
+  },
+  "paper": {
+    "title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
+    "authors": [
+      {
+        "name": "Stefania Zourlidou",
+        "orcid": "0000-0003-1759-7379"
+      },
+      {
+        "name": "Jens Golze",
+        "orcid": "0000-0001-7355-351X"
+      },
+      {
+        "name": "Monika Sester",
+        "orcid": "0000-0002-6656-8809"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. This article presents a method for traffic control recognition at junctions (traffic lights, stop, priority and right of way rule) using crowd-sensed GPS data (vehicle trajectories), as well as features extracted from OpenStreetMap. Traffic regulators are not mapped in most maps, although the way they regulate traffic at intersections affects the traffic flow and therefore the vehicle idle time at intersections, the fuel consumption, the CO2 emissions, and the arrival time at a destination. Because of the controlled interaction that road users have with each other at intersections, driving safety or assistance applications can be enabled if intersection regulators are mapped. In order to verify the proposed method two sets of trajectories were used, one of which is an open dataset, from two different cities, Hannover and Chicago. Two classification methods were tested, random forest and gradient boosting, using exclusively either dynamic features (trajectories), or static (only data from OSM) or a combination of the dynamic and static features (hybrid model). The results show that the gradient boosting classification with hybrid features can predict traffic regulations with high accuracy (93% in Chicago and 94% in Hannover), outperforming the other detection models (static and dynamic). At the end directions for further research on this topic are proposed.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::WNCSM",
+    "report": "https://doi.org/10.17605/osf.io/wncsm",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper compares several models for traffic control recognition at junctions, which are built upon Random Forest and Gradient Boosting classifiers.\nThe analysis makes use of 2 datasets, which correspond to the cities of Chicago and Hannover.\nThe authors agreed to share confidentially all their materials (data and code) with the Reproducibility Committee for the needs of the review.\nFor the needs of this review, we reproduced all the Tables and Figures of 'Section 5 - Results' and of the Appendix.\nThe reproduced results were in accordance with the final uploaded version of the manuscript.\nTherefore, the reproduction of the paper is considered successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "certificate": {
+    "id": "2024-021",
+    "url": "https://codecheck.org.uk/register/certs/2024-021/"
+  },
+  "paper": {
+    "title": "Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia\n",
+    "authors": [
+      {
+        "name": "Daniela Gawehns",
+        "orcid": "0000-0002-9678-9012"
+      },
+      {
+        "name": "Suzanne Portegijs"
+      },
+      {
+        "name": "Adriana Petronella Anna van Beek"
+      },
+      {
+        "name": "Matthijs van Leeuwen",
+        "orcid": "0000-0002-0510-3549"
+      }
+    ],
+    "reference": "https://doi.org/10.31234/osf.io/mqg86",
+    "abstract": {
+      "text": "<p>Physical activity of nursing home residents can be assessed with tools such as questionnaires and standardized fitness tests. For residents with dementia, however, those tools can be cognitively challenging and difficult to administer. Consumer wearables could potentially aid as an affordable tool for ubiquitous assessment. In this pilot study with 16 participants, we explore how measurements with an off-the-shelf wearable relate to structured observations of physical activity. We collected both processed and raw tri-axial accelerometer data from Samsung, wrist-worn fitness trackers. To anchor those data in the free living environment, we compare the measurements with the physical activity scale of the Medlo behavioral observation scheme. We show that consumer wearables are a valid tool for long term data collection in this vulnerable patient population. Regarding the movement intensity, the data collected by fitness trackers is overall in accordance with the data collected with the observational tool. Regarding the type of movement, we conclude that the automatic activity classification on the wearables is not yet ripe for use in a mostly sedentary patient population.<\/p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Tina Rozsos",
+        "orcid": "0009-0008-5383-5497"
+      },
+      {
+        "name": "Stijn Peeters",
+        "orcid": "0009-0004-3684-3584"
+      },
+      {
+        "name": "Hanne Oberman",
+        "orcid": "0000-0003-3276-2141"
+      },
+      {
+        "name": "Veerle van Harten",
+        "orcid": "0000-0003-0451-4052"
+      }
+    ],
+    "check_time": "2024-11-28 16:00:00",
+    "repository": "github::codecheckers/DementiaPhysicalActivity",
+    "report": "https://doi.org/10.5281/zenodo.14261193",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "This report checks the code of the article 'Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia'. The CODECHECK was successful. Two of the three figures created were visually identical to those in the paper. The third figure visually matched the figure in the code repository. This figure was equivalent in content but different in design compared to the one presented in the paper. \n",
+    "manifest": [
+      {
+        "file": "BoxplotallCatsMedloPercent.pdf",
+        "comment": "manuscript Figure 1"
+      },
+      {
+        "file": "BoxplotallCatsSamsungPercent.pdf",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "CorrelationMatrix_5sec_hc.tif",
+        "comment": "manuscript Figure 3"
+      }
+    ]
+  }
+}

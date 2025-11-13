@@ -1,0 +1,59 @@
+{
+  "certificate": {
+    "id": "2025-002",
+    "url": "https://codecheck.org.uk/register/certs/2025-002/"
+  },
+  "paper": {
+    "title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
+    "authors": [
+      {
+        "name": "Alina Karakanta"
+      },
+      {
+        "name": "François Buet"
+      },
+      {
+        "name": "Mauro Cettolo"
+      },
+      {
+        "name": "François Yvon"
+      }
+    ],
+    "reference": "https://aclanthology.org/2022.lrec-1.328/"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Alex Brandsen",
+        "orcid": "0000-0003-1623-1340"
+      },
+      {
+        "name": "Matthew Sung"
+      },
+      {
+        "name": "Matthijs Westera",
+        "orcid": "0000-0001-7777-1864"
+      }
+    ],
+    "check_time": "2025-02-14 12:00:00",
+    "repository": "github::codecheckers/EvalSubtitle",
+    "report": "https://doi.org/10.5281/zenodo.15173758",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "Full reproduction of code which evaluates subtitle segmentation\n",
+    "manifest": [
+      {
+        "file": "results_exp1.csv",
+        "comment": "Output of experiment 1"
+      },
+      {
+        "file": "results_exp2.csv",
+        "comment": "Output of experiment 2"
+      },
+      {
+        "file": "output/projected.fr",
+        "comment": "Output of experiment 3"
+      }
+    ]
+  }
+}

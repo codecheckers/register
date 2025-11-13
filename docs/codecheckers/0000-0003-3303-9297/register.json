@@ -2,12 +2,13 @@
   {
     "Certificate ID": "2024-025",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-025/",
+    "Repository": "zenodo::15025861",
     "Repository Link": "https://zenodo.org/records/15025861",
-    "Type": "community",
-    "Venue": "codecheck NL",
     "Report": "https://doi.org/10.5281/zenodo.15023714",
     "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
     "Paper reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
+    "Type": "community",
+    "Venue": "codecheck NL",
     "Check date": "2024-11-08"
   }
 ]

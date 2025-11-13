@@ -5,7 +5,7 @@ title: Codechecks by Philipp A. Friese
 
 
 |Certificate |Report                                |Paper Title                                                                                                                   |Venue    |Type       |Check date |
-|:-------|:---------------------------------------------|:------------------|:------------------|:---|:--------------------------|:------------------|
+|:-------|:-----------------------------------------------------------------------------------|:------------------|:------------------|:---|:--------------------------|
 |[2021-002](https://codecheck.org.uk/register/certs/2021-002/)|https://doi.org/10.17605/osf.io/rsf4m |[Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information](https://doi.org/10.5194/agile-giss-2-10-2021)|[AGILEGIS](https://codecheck.org.uk/register/venues/conferences/agilegis)|[Conference](https://codecheck.org.uk/register/venues/conferences)|2021-06-10 |
 |[2021-003](https://codecheck.org.uk/register/certs/2021-003/)|https://doi.org/10.17605/osf.io/dx92a |[Investigating drivers’ geospatial abilities in unfamiliar environments](https://doi.org/10.5194/agile-giss-2-3-2021)         |[AGILEGIS](https://codecheck.org.uk/register/venues/conferences/agilegis)|[Conference](https://codecheck.org.uk/register/venues/conferences)|2021-06-10 |
 |[2022-011](https://codecheck.org.uk/register/certs/2022-011/)|https://doi.org/10.17605/osf.io/kf8sr |[Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach](https://doi.org/10.5194/agile-giss-3-14-2022)      |[AGILEGIS](https://codecheck.org.uk/register/venues/conferences/agilegis)|[Conference](https://codecheck.org.uk/register/venues/conferences)|2022-07-09 |

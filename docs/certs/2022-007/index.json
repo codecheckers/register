@@ -1,0 +1,63 @@
+{
+  "certificate": {
+    "id": "2022-007",
+    "url": "https://codecheck.org.uk/register/certs/2022-007/"
+  },
+  "paper": {
+    "title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
+    "authors": [
+      {
+        "name": "Zilong Liu",
+        "orcid": "0000-0002-7699-3366"
+      },
+      {
+        "name": "Krzysztof Janowicz"
+      },
+      {
+        "name": "Ling Cai",
+        "orcid": "0000-0001-7106-4907"
+      },
+      {
+        "name": "Rui Zhu",
+        "orcid": "0000-0002-8910-9445"
+      },
+      {
+        "name": "Gengchen Mai",
+        "orcid": "0000-0002-7818-7309"
+      },
+      {
+        "name": "Meilin Shi",
+        "orcid": "0000-0001-6039-7810"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Geoparsing, the task of extracting toponyms from texts and associating them with geographic locations, has witnessed remarkable progress over the past years. However, despite its intrinsically geospatial nature, existing evaluations tend to focus on overall performance while paying little attention to its variation across geographic space. In this work, we attempt to answer the question whether geoparsing is solved or biased by conducting a spatially-explicit evaluation, namely an evaluation of the regional variability in geoparsing performance. Particularly, we will analyze the spatial autocorrelation underlying this regional variability. By performing hot and cold spot detection over results of several open-source geoparsers, we observe that none of them performs equally well across geographic space, and some are geographically biased towards some regions but against others. We also carry out a comparative experiment showing that stateof- the-art geoparsers developed with neural networks do not necessarily outperform the off-the-shelf tools across geographic space. To understand the implications behind this observed regional variability, we evaluate geographic biases involved in geoparsing research centered around data contribution and usage, algorithm design, and performance evaluations. Particularly, our spatially-explicit performance evaluation serves as an approach to evaluation bias mitigation in geoparsing.We conclude that previous performance evaluations published in the literature are overly optimistic, thus hiding the fact that geoparsing is far from solved, and geoparsers require debiasing in addition to further considerations when being applied to (geospatial) downstream tasks.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Eleni Tomai",
+        "orcid": "0000-0003-1162-7389"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::3DSMV",
+    "report": "https://doi.org/10.17605/OSF.IO/3DSMV",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The article presents an evaluation of geoparsing performance using a number of different datasets and methods from various sources.\nThough preprocessing steps and a core analysis step based on proprietary software could not be evaluated, one of two toponym resolution models could be executed successfully.\nThe provided notebooks for exploratory analysis, calculating statistical values, and geographic bias evaluation could be run and the outputs match the data and figures presented in the paper.\nTherefore, this reproducibility report can confirm a partially successful reproduction of a complex pipeline, for which authors provide reasonable but improvable documentation and share all details (code, data) of their computational workflow.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

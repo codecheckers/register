@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2025-006","github::codecheckers/sarscov2-variants","TU Delft DCC","institution"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"github::codecheckers/sarscov2-variants","https://github.com/codecheckers/sarscov2-variants","https://doi.org/10.5281/zenodo.15520471","Emergence of novel SARS-CoV-2 variants in the Netherlands","https://doi.org/10.1038/s41598-021-85363-7","TU Delft DCC","institution"

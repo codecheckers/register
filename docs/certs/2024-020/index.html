@@ -36,13 +36,73 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-020/",
+  "name": "CODECHECK Certificate 2024-020",
+  "url": "https://codecheck.org.uk/register/certs/2024-020/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Joey Tang",
+      "@id": "https://orcid.org/0000-0002-0820-6674"
+    },
+    {
+      "@type": "Person",
+      "name": "Max Reichert",
+      "@id": "https://orcid.org/0009-0003-8352-7288"
+    },
+    {
+      "@type": "Person",
+      "name": "Flora Zhou",
+      "@id": "https://orcid.org/0009-0002-4934-1474"
+    },
+    {
+      "@type": "Person",
+      "name": "Eduard Klapwijk",
+      "@id": "https://orcid.org/0000-0002-8936-0365"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Describing the scale and composition of calls for police service: a replication and extension using open data\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Samuel Langton",
+        "@id": "https://orcid.org/0000-0002-1322-1553"
+      },
+      {
+        "@type": "Person",
+        "name": "Stijn Ruiter",
+        "@id": "https://orcid.org/0000-0003-2872-2710"
+      },
+      {
+        "@type": "Person",
+        "name": "Tim Verlaan",
+        "@id": "https://orcid.org/0000-0002-3048-5817"
+      }
+    ],
+    "abstract": "This paper describes the scale and composition of emergency demand for police services in Detroit, United States. The contribution is made in replication and extension of analyses reported elsewhere in the United States. Findings indicate that police spend a considerable proportion of time performing a social service function. Just 51% of the total deployed time responding to 911 calls is consumed by crime incidents. The remainder is spent on quality of life (16%), traffic (15%), health (7%), community (5%), and proactive (4%) duties. A small number of incidents consume a disproportionately large amount of police officer time. Emergency demand is concentrated in time and space, and can differ between types of demand. The findings further highlight the potential implications of radically reforming police forces in the United States. The data and code used here are openly available for reproduction, reuse, and scrutiny.",
+    "url": "https://doi.org/10.1080/15614263.2022.2102494",
+    "sameAs": "https://doi.org/10.1080/15614263.2022.2102494"
+  },
+  "reviewBody": "Downloaded the data and ran the necessary R scripts to generate the figures. \n",
+  "datePublished": "2024-11-28",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.14278912"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +389,9 @@ Downloaded the data and ran the necessary R scripts to generate the figures.
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +437,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +456,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

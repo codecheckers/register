@@ -1,0 +1,54 @@
+{
+  "certificate": {
+    "id": "2025-011",
+    "url": "https://codecheck.org.uk/register/certs/2025-011/"
+  },
+  "paper": {
+    "title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
+    "authors": [
+      {
+        "name": "Ziyi Liu",
+        "orcid": "0000-0003-2198-7708"
+      },
+      {
+        "name": "Claudio Affolter"
+      },
+      {
+        "name": "Sidi Wu",
+        "orcid": "0000-0003-1669-6690"
+      },
+      {
+        "name": "Yizi Chen",
+        "orcid": "0000-0003-1637-0092"
+      },
+      {
+        "name": "Lorenz Hurni",
+        "orcid": "0000-0002-0453-8743"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-6-5-2025",
+    "abstract": {
+      "text": "<jats:p>Abstract. Historical maps provide valuable information and knowledge about the past. However, as they often feature non-standard projections, hand-drawn styles, and artistic elements, it is challenging for non-experts to identify and interpret them. While existing image captioning methods have achieved remarkable success on natural images, their performance on maps is suboptimal as maps are underrepresented in their pre-training process. Despite the recent advance of vision-enabled GPT models in text recognition and map captioning, they still have a limited understanding of maps, as their performance wanes when texts (e.g., titles and legends) in maps are missing or inaccurate. Besides, it is inefficient or even impractical to fine-tune these models with users’ own datasets. To address these problems, we propose a novel and lightweight map-captioning counterpart. Specifically, we fine-tune the state-of-the-art vision-language model CLIP to generate captions relevant to historical maps and enrich the captions with GPT models to tell a brief story regarding where, what, when and why of a given map. We propose a novel decision tree architecture to only generate captions relevant to the specified map type. Our system shows invariance to text alterations in maps. The system can be easily adapted and extended to other map types and scaled to a larger map captioning system. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Sophie Teichmann"
+      }
+    ],
+    "check_time": "2025-06-12 12:00:00",
+    "repository": "osf::GT5BW",
+    "report": "https://doi.org/10.17605/OSF.IO/GT5BW",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The main challenge during this reproduction is the combination of a closed source model (Chat GPT) and available models (like CLIP).\nUsing the models provided by the authors, the results were reproducible (Recreated Table 2).\nUsing Ubuntu the results were partly not recreatable on Ubuntu.\nOn Windows the training was successful.\nThus, there is a system dependence of the reproducibility when retraining the models.\nAnother challenge was the volume of models and corresponding inference.\nThus I only chose a subset of models to retrain and perform inference on.\nA part of the inference in the paper was done manually in the paper, which I was not able to recreate.\nI was able to fully recreate Table1, Table 3, Table 5, Table 6 and Table 7 from the original paper.\nI would count the overall reproduction as a success.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2025 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/147"
+      }
+    ]
+  }
+}

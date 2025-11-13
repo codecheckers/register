@@ -1,0 +1,48 @@
+{
+  "certificate": {
+    "id": "2022-016",
+    "url": "https://codecheck.org.uk/register/certs/2022-016/"
+  },
+  "paper": {
+    "title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
+    "authors": [
+      {
+        "name": "Pengxiang Zhao"
+      },
+      {
+        "name": "Aoyong Li"
+      },
+      {
+        "name": "Petter Pilesjö"
+      },
+      {
+        "name": "Ali Mansourian"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Shared electric scooters (e-scooters) have been rapidly growing in popularity across Europe over the past three years, which can bring various environmental and socioeconomic benefits. However, how to further improve the usage efficiency of shared e-scooters is still a major concern for micro-mobility operators and city planners. This paper proposes a machine learning based approach to predict the usage efficiency of shared e-scooters using GPS-based vehicle availability data. First, the usage efficiency of shared e-scooters is measured with the indicator Time to Booking at the trip level. Second, ten exploratory variables in time and space are calculated as features for the prediction based on the e-scooter trips and other related data. Last, three typical machine learning methods, including logistical regression, artificial neural network and random forest are applied to predict the usage efficiency by inputting the features. Besides, the variable importance is evaluated by taking the random forest model as an example. The results show that the random forest model yields the best prediction performance (accuracy = 71.2%, F1 = 78.0%), and the variables like the hour of day and POI density present high variable importance. The findings of this study will be beneficial for micro-mobility operators and city planners to design policies and strategies for further improving the usage efficiency of e-scooter sharing services.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::DJFC2",
+    "report": "https://doi.org/10.17605/OSF.IO/DJFC2",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The provided workflow was partially reproduced.\nAccess to a processed data set of the e-scooter sharing vehicle data Service in Stockholm, Sweden, is provided along with Python scripts to run three machine learning methods based on the Python library Scikit-learn.\nThe results reported here refer to Figure 5, which is a bar chart comparing the performance evaluation metrics (accuracy, F1, precision and recall) of the three ML methods.\nNevertheless, no code is provided to visually recreate the figure, but the scripts produce the required data to create that figure. \nFor the rest of figures and tables, no code is provided.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

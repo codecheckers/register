@@ -1,0 +1,48 @@
+{
+  "certificate": {
+    "id": "2022-003",
+    "url": "https://codecheck.org.uk/register/certs/2022-003/"
+  },
+  "paper": {
+    "title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
+    "authors": [
+      {
+        "name": "Haojun Cai"
+      },
+      {
+        "name": "Yanan Xin"
+      },
+      {
+        "name": "Henry Martin"
+      },
+      {
+        "name": "Martin Raubal"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. The number of electric vehicles (EVs) has been rapidly increasing over the last decade, motivated by the effort to decrease greenhouse gas emissions and the fast development of battery technology. This trend challenges distribution grids since EVs will bring significant stress if the charging of many EVs is not coordinated. Among the many strategies to cope with this challenge, next-day EV energy demand forecasting plays a key role. Existing studies have focused on predicting the next-day energy demand of EVs on the aggregated and individual levels. However, these studies have not yet extensively considered individual user mobility behaviors, which exhibit a high level of predictability. In this study, we consider several mobility features of individual users when forecasting the next-day energy demand of individual EVs. Three types of quantile regression models are used to generate probabilistic forecasts of energy demand, particularly the next-day energy consumption and parking duration. Based on the prediction results, two time-shifting smart charging strategies are designed: unidirectional and bidirectional smart charging. These two strategies are compared with an uncontrolled charging baseline to evaluate their financial benefits and peak-shaving effects. Our results show that human mobility features can partially improve the prediction of next-day individual EV energy demand. Additionally, users and distribution grids can benefit from smart charging strategies both financially and technically.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::JDTN3",
+    "report": "https://doi.org/10.17605/OSF.IO/JDTN3",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The authors included a link to an anonymous GitHb repository containing detailed instructions and an entry point (`main` script) to run the entire analysis.\nThe authors claimed that input data cannot be disclosed. They provided me a few synthetic input samples (CSV format) to run the probabilistic models and charging strategies for simulation and evaluation, so there are differences between the results of the reproduction and the ones in the original paper.\nThe reproduction described in this report uses the Python code provided.\nEven though the reproduction exercise with synthetic data failed during the last step of the script, I consider the paper was partially reproducible based on the synthetic data.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

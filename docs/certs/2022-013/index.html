@@ -36,13 +36,63 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-013/",
+  "name": "CODECHECK Certificate 2022-013",
+  "url": "https://codecheck.org.uk/register/certs/2022-013/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Jakub Krukar",
+      "@id": "https://orcid.org/0000-0003-2615-8757"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mehtab Alam Syed",
+        "@id": "https://orcid.org/0000-0003-3696-0030"
+      },
+      {
+        "@type": "Person",
+        "name": "Elena Arsevska",
+        "@id": "https://orcid.org/0000-0002-6693-2316"
+      },
+      {
+        "@type": "Person",
+        "name": "Mathieu Roche",
+        "@id": "https://orcid.org/0000-0003-3272-8568"
+      },
+      {
+        "@type": "Person",
+        "name": "Maguelonne Teisseire",
+        "@id": "https://orcid.org/0000-0001-9313-6414"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Spatial information has gained more attention in natural language processing tasks in different interdisciplinary domains. Moreover, the spatial information is available in two forms: Absolute Spatial Information (ASI) e.g., Paris, London, and Germany and Relative Spatial Information (RSI) e.g., south of Paris, north Madrid and 80 km from Rome. Therefore, it is challenging to extract RSI from textual data and compute its geotagging. This paper presents two strategies and the associated prototypes to address the following tasks: 1) extraction of relative spatial information from textual data and 2) geotagging of this relative spatial information. Experiments show promising results for RSI extraction and tagging.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-16-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-16-2022"
+  },
+  "reviewBody": "The main contribution of the paper are two web applications on the streamlit.io platform.\nThe paper includes the DASA section and links to live online instances of the applications, as well as to GitHub repositories with the code and data.  The repositories are well documented.\nI was able to clone the repositories and run the code, reproducing examples demonstrated on figures in the paper.\nOne of the reproduced figures differed from the one presented in the paper. \nThe tables demonstrating results of the evaluation of the app were partially reproducible but returned slightly different values.\nThe paper has been partially reproduced.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/3g9s8"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +379,9 @@ The main contribution of the paper are two web applications on the streamlit.io 
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +427,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +446,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

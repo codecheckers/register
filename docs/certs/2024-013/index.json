@@ -1,0 +1,48 @@
+{
+  "certificate": {
+    "id": "2024-013",
+    "url": "https://codecheck.org.uk/register/certs/2024-013/"
+  },
+  "paper": {
+    "title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
+    "authors": [
+      {
+        "name": "Samuel Hollendonner",
+        "orcid": "0009-0000-7923-3357"
+      },
+      {
+        "name": "Negar Alinaghi",
+        "orcid": "0000-0001-6594-4481"
+      },
+      {
+        "name": "Ioannis Giannopoulos",
+        "orcid": "0000-0002-2556-5230"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-5-6-2024",
+    "abstract": {
+      "text": "<jats:p>Abstract. Updating road networks in rapidly changing urban landscapes is an important but difficult task, often challenged by the complexity and errors of manual mapping processes. Traditional methods that primarily use RGB satellite imagery struggle with obstacles in the environment and varying road structures, leading to limitations in global data processing. This paper presents an innovative approach that utilizes deep learning and multispectral satellite imagery to improve road network extraction and mapping. By exploring U-Net models with DenseNet backbones and integrating different spectral bands we apply semantic segmentation and extensive post-processing techniques to create georeferenced road networks. We trained two identical models to evaluate the impact of using images created from specially selected multispectral bands rather than conventional RGB images. Our experiments demonstrate the positive impact of using multispectral bands, by improving the results of the metrics Intersection over Union (IoU) by 6.5%, F1 by 5.4%, and the newly proposed relative graph edit distance (relGED) and topology metrics by 2.2% and 2.6% respectively.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "check_time": "2024-05-31 04:51:00",
+    "repository": "osf::txgzv",
+    "report": "https://doi.org/10.17605/osf.io/TXGZV",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper uses semantic segmentation to extract the road network from RGB and multi-spectral high resolution satellite imagery and applies post-processing to improve the segmentation results.\nThe initial dataset is called SpaceNet (challenge 3) and is openly available, but the authors provided a small pre-processed subset of it in order to verify the functionality of the code.\nAs we were able to confirm that the used data and code are available and reusable, but unable to verify the reported results (due to the lack of available computational resources on the side of the reviewer), the reproduction of the paper is considered partially successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2024 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/69"
+      }
+    ]
+  }
+}

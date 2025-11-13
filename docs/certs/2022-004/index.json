@@ -1,0 +1,42 @@
+{
+  "certificate": {
+    "id": "2022-004",
+    "url": "https://codecheck.org.uk/register/certs/2022-004/"
+  },
+  "paper": {
+    "title": "What are intersections for pedestrian users?",
+    "authors": [
+      {
+        "name": "Jean-Marie Favreau"
+      },
+      {
+        "name": "Jérémy Kalsron"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-4-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. The increase of accessibility and pedestrian data in geographic databases such as OpenStreetMap brings with it the possibility to find a number of applications for pedestrian users.The way in which different urban spaces are crossed obviously depends on their nature. In particular, crossing an intersection is not the same as walking along a street. Intersections are particularly complex areas, where crossing is almost mandatory, often with several possible routes.Although there are various works in the literature that are interested in locating these intersections in a road network, to our knowledge there is no work that deals with the precise segmentation of intersections at the scale of pedestrian use.In this article, we propose an approach that allows us to segment the OpenStreetMap street network at the pedestrian level, by precisely identifying the boundaries between intersections and other spaces.By combining the geometry, topology and semantics of the urban automobile network of OpenStreetMap, we propose an algorithm for locating elementary intersections, and then successively assembling them in a multi-scale approach, in order to obtain the intersections as they are considered by pedestrians during their movements. In particular, our approach relies on the elements that constitute the boundaries of these intersections, such as pedestrian crossings and traffic lights.After presenting an implementation of this approach, we offer a number of results that illustrate the robustness of the proposed approach.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Eleni Tomai",
+        "orcid": "0000-0003-1162-7389"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::XPG6Y",
+    "report": "https://doi.org/10.17605/osf.io/XPG6Y",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The updated submission contains a DASA section and links to two repositories on GitHub, which have been updated by the author during the reproducibility review process.\nThe first repository contains all necessary files and code for implementing the segmentation process, while the second, comprises all files necessary for using the evaluation tool.\nThe reproduction was successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "certificate": {
+    "id": "2025-022",
+    "url": "https://codecheck.org.uk/register/certs/2025-022/"
+  },
+  "paper": {
+    "title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
+    "authors": [
+      {
+        "name": "Filippo Airaldi",
+        "orcid": "0000-0001-6595-2932"
+      },
+      {
+        "name": "Bart De Schutter",
+        "orcid": "0000-0001-9867-6196"
+      },
+      {
+        "name": "Azita Dabiri",
+        "orcid": "0000-0002-4051-4896"
+      }
+    ],
+    "reference": "https://doi.org/10.1109/TITS.2025.3549227"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "check_time": "2025-08-04 14:00:00",
+    "repository": "github::codecheckers/certificate-2025-022",
+    "report": "https://doi.org/10.5281/zenodo.16814874",
+    "type": "institution",
+    "venue": "TU Delft DCC",
+    "summary": "Full reproduction of figures in the article using precomputed results \n",
+    "manifest": [
+      {
+        "file": "Figure_3.png",
+        "comment": "manuscript Figure 3"
+      },
+      {
+        "file": "Figure_4.png",
+        "comment": "manuscript Figure 4"
+      },
+      {
+        "file": "Figure_5.png",
+        "comment": "manuscript Figure 5"
+      },
+      {
+        "file": "Figure_6.png",
+        "comment": "manuscript Figure 6"
+      },
+      {
+        "file": "Figure_7.png",
+        "comment": "manuscript Figure 7"
+      },
+      {
+        "file": "Figure_8.png",
+        "comment": "manuscript Figure 8"
+      },
+      {
+        "file": "Figure_9.png",
+        "comment": "manuscript Figure 9"
+      },
+      {
+        "file": "Figure_10.png",
+        "comment": "manuscript Figure 10"
+      }
+    ]
+  }
+}

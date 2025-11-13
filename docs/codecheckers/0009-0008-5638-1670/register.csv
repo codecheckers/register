@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2024-017","github::codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation","codecheck NL","community"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"github::codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation","https://github.com/codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation","https://doi.org/10.5281/zenodo.14211707","Determination of a diffusion coefficient function for long rooms using a least square optimization approach","https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf","codecheck NL","community"

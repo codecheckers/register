@@ -36,13 +36,66 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2023-002/",
+  "name": "CODECHECK Certificate 2023-002",
+  "url": "https://codecheck.org.uk/register/certs/2023-002/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rémy Decoupes",
+      "@id": "https://orcid.org/0000-0003-0863-9581"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Adrian Sarbach"
+      },
+      {
+        "@type": "Person",
+        "name": "Thierry Weber"
+      },
+      {
+        "@type": "Person",
+        "name": "Katharina Henggeler",
+        "@id": "https://orcid.org/0000-0002-8381-0863"
+      },
+      {
+        "@type": "Person",
+        "name": "Luis Lutnyk",
+        "@id": "https://orcid.org/0000-0002-9458-8575"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Raubal",
+        "@id": "https://orcid.org/0000-0001-5951-6835"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Given the challenge of visualising 3D space on a 2D map, maps used for in-flight navigation by pilots should be designed especially carefully. This paper studies, based on existing aeronautical charts, the visualisation, interaction, and interpretation of airspace structures with aviation infrastructure and the base map.We first developed a three-tiered evaluation grid for a cartographic analysis of existing aeronautical charts. Subsequently, we evaluated four countries’ maps based on our evaluation grid. To validate our analysis, we conducted a user study with 27 pilots, the users of aeronautical charts.The results of our cartographic analysis show that aeronautical charts produced by different countries all fulfil the need of pilots being able to orient themselves. According to our evaluation, the Swiss aeronautical chart scored slightly more favourably than the other evaluated charts for effective map-reading. These findings were confirmed in the results of the user study.The major contribution of this work is the evaluation grid for the cartographic analysis. With its different layers, adaptable main- and sub-topics, it can be used to compare and improve the design not only of aeronautical charts, but for a broad spectrum of thematic maps.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-4-12-2023",
+    "sameAs": "https://doi.org/10.5194/agile-giss-4-12-2023"
+  },
+  "reviewBody": "The purpose of the reviewed article is to evaluate and compare airspace structure visualization and perception on digital aeronautical charts.\nTo do so, the authors propose two ways.\nThe first one aims to define an evaluation grid on which they rely, as experts, to establish a cartographic analysis (they authors provide an access to their analysis).\nThe second is a survey of 27 airplane pilots to collect their perceptions about different maps.\nTherefore, the reproducibility review process focused on reproducing the result visualizations of both analyses (the experts and the survey).\nTo do so, the authors shared manually constructed data files as well as code files to reproduce the figures.\nThe provided code and data allow to fully and easily reproduce the three figures of the reviewed article.\n",
+  "datePublished": "2023-06-13",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/rbgvk"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +382,9 @@ The purpose of the reviewed article is to evaluate and compare airspace structur
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +430,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +449,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

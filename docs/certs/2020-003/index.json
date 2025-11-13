@@ -1,0 +1,52 @@
+{
+  "certificate": {
+    "id": "2020-003",
+    "url": "https://codecheck.org.uk/register/certs/2020-003/"
+  },
+  "paper": {
+    "title": "Neural networks and physical systems with emergent collective computational abilities",
+    "authors": [
+      {
+        "name": "J J Hopfield"
+      },
+      {
+        "name": "Wulfram Gerstner",
+        "orcid": "0000-0002-4344-2189"
+      },
+      {
+        "name": "Werner M. Kistler"
+      },
+      {
+        "name": "Richard Naud",
+        "orcid": "0000-0001-7383-3095"
+      },
+      {
+        "name": "Liam Paninski"
+      }
+    ],
+    "reference": "https://doi.org/10.1073/pnas.79.8.2554",
+    "abstract": {
+      "text": "<jats:p>Computational properties of use of biological organisms or to the construction of computers can emerge as collective properties of systems having a large number of simple equivalent components (or neurons). The physical meaning of content-addressable memory is described by an appropriate phase space flow of the state of a system. A model of such a system is given, based on aspects of neurobiology but readily adapted to integrated circuits. The collective properties of this model produce a content-addressable memory which correctly yields an entire memory from any subpart of sufficient size. The algorithm for the time evolution of the state of the system is based on asynchronous parallel processing. Additional emergent collective properties include some capacity for generalization, familiarity recognition, categorization, error correction, and time sequence retention. The collective properties are only weakly sensitive to details of the modeling or the failure of individual devices.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-04-06",
+    "repository": "github::codecheckers/Hopfield-1982",
+    "report": "https://doi.org/10.5281/zenodo.3741797",
+    "type": "community",
+    "venue": "codecheck",
+    "manifest": [
+      {
+        "file": "code/Fig 2.pdf",
+        "comment": "FIG 2 of the artiple (page 2557)"
+      }
+    ]
+  }
+}

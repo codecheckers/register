@@ -36,13 +36,63 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-005/",
+  "name": "CODECHECK Certificate 2024-005",
+  "url": "https://codecheck.org.uk/register/certs/2024-005/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Lukas Röseler",
+      "@id": "https://orcid.org/0000-0002-6446-1901"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Eduard Klapwijk",
+        "@id": "https://orcid.org/0000-0002-8936-0365"
+      },
+      {
+        "@type": "Person",
+        "name": "Joran Jongerling",
+        "@id": "https://orcid.org/0000-0001-5697-1381"
+      },
+      {
+        "@type": "Person",
+        "name": "Herbert Hoijtink",
+        "@id": "https://orcid.org/0000-0001-8509-1973"
+      },
+      {
+        "@type": "Person",
+        "name": "Eveline Crone",
+        "@id": "https://orcid.org/0000-0002-7508-6078"
+      }
+    ],
+    "abstract": "<p>Task-related functional MRI (fMRI) studies need to be properly powered with an adequate sample size to reliably detect effects of interest. But for most fMRI studies, it is not straightforward to determine a proper sample size using power calculations based on published effect sizes. Here, we present an alternative approach of sample size estimation with empirical Bayesian updating. First, this method provides an estimate of the required sample size using existing data from a similar task and similar region of interest. Using this estimate researchers can plan their research project, and report empirically determined sample size estimations in their research proposal or pre-registration. Second, researchers can expand the sample size estimations with new data. We illustrate this approach using four existing fMRI data sets where Cohen’s d is the effect size of interest for the hemodynamic response in the task condition of interest versus a control condition, and where a Pearson correlation between task effect and age is the covariate of interest. We show that sample sizes to reliably detect effects differ between various tasks and regions of interest. We provide an R package to allow researchers to use Bayesian updating with other task-related fMRI studies.A reproducible version of this manuscript including associated code notebooks is available here: https://eduardklap.github.io/sample-size-fmri/<\/p>",
+    "url": "https://doi.org/10.31234/osf.io/cz32t",
+    "sameAs": "https://doi.org/10.31234/osf.io/cz32t"
+  },
+  "reviewBody": "This report checks the code of the article Sample size estimation for task-related functional MRI studies using Bayesian updating. (https://doi.org/10.31234/osf.io/cz32t (currently under review at Developmental Cognitive Neuroscience)). See section Notes for details about running the code. The CODECHECK was successful. The created figures figures_cohens_d.html and figures-correlations.html are visually very close to the one in the repository. The reproduction of the figures from the repository was easy due to the workflow and integration with Quarto and RStudio.\n",
+  "datePublished": "2024-10-15",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.13945051"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -331,6 +381,9 @@ This report checks the code of the article Sample size estimation for task-relat
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -376,13 +429,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -395,10 +448,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

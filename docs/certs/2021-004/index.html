@@ -36,13 +36,62 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2021-004/",
+  "name": "CODECHECK Certificate 2021-004",
+  "url": "https://codecheck.org.uk/register/certs/2021-004/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    },
+    {
+      "@type": "Person",
+      "name": "Anita Graser",
+      "@id": "https://orcid.org/0000-0001-5361-2885"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Extraction of linear structures from digital terrain models using deep learning",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ramish Satari"
+      },
+      {
+        "@type": "Person",
+        "name": "Bashir Kazimi",
+        "@id": "https://orcid.org/0000-0003-1802-7511"
+      },
+      {
+        "@type": "Person",
+        "name": "Monika Sester",
+        "@id": "https://orcid.org/0000-0002-6656-8809"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. This paper explores the role deep convolutional neural networks play in automated extraction of linear structures using semantic segmentation techniques in Digital Terrain Models (DTMs). DTM is a regularly gridded raster created from laser scanning point clouds and represents elevations of the bare earth surface with respect to a reference. Recent advances in Deep Learning (DL) have made it possible to explore the use of semantic segmentation for detection of terrain structures in DTMs. This research examines two novel and practical deep convolutional neural network architectures i.e. an encoder-decoder network named as SegNet and the recent state-of-the-art high-resolution network (HRNet). This paper initially focuses on the pixel-wise binary classification in order to validate the applicability of the proposed approaches. The networks are trained to distinguish between points belonging to linear structures and those belonging to background. In the second step, multi-class segmentation is carried out on the same DTM dataset. The model is trained to not only detect a linear feature, but also to categorize it as one of the classes: hollow ways, roads, forest paths, historical paths, and streams. Results of the experiment in addition to the quantitative and qualitative analysis show the applicability of deep neural networks for detection of terrain structures in DTMs. From the deep learning models utilized, HRNet gives better results.  \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-2-11-2021",
+    "sameAs": "https://doi.org/10.5194/agile-giss-2-11-2021"
+  },
+  "reviewBody": "The provided workflow was partially reproduced. Based on the provided test file and instructions, we\nwere able to recreate the computing environment and run the segmentation models. Relevant tables from\nthe paper could be recreated. The training and validation part of the workflow is irreproducible because\nof proprietary data, therefore no figures could be recreated.\n",
+  "datePublished": "2021-06-10",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/2sc7g"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -330,6 +379,9 @@ The provided workflow was partially reproduced. Based on the provided test file 
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -375,13 +427,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -394,10 +446,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

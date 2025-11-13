@@ -1,0 +1,102 @@
+{
+  "certificate": {
+    "id": "2020-011",
+    "url": "https://codecheck.org.uk/register/certs/2020-011/"
+  },
+  "paper": {
+    "title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe\n",
+    "authors": [
+      {
+        "name": "Seth Flaxman"
+      },
+      {
+        "name": "Imperial College COVID-19 Response Team"
+      },
+      {
+        "name": "Samir Bhatt",
+        "orcid": "0000-0002-0891-4611"
+      }
+    ],
+    "reference": "http://doi.org/10.1038/s41586-020-2405-7"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2020-06-13 14:00:00",
+    "repository": "github::codecheckers/covid19model-nature",
+    "report": "https://doi.org/10.5281/zenodo.3893138",
+    "type": "community",
+    "venue": "in press",
+    "summary": "This reproduction required several hours of compute time, but the reproduction itself was straightforward.  All the R code was provided, along with a working Dockerfile.\n",
+    "manifest": [
+      {
+        "file": "nature/figures/France-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Figure 1 (France)"
+      },
+      {
+        "file": "nature/figures/Italy-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Figure 1 (Italy)"
+      },
+      {
+        "file": "nature/figures/Spain-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Figure 1 (Spain)"
+      },
+      {
+        "file": "nature/figures/United Kingdom-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Figure 1 (UK)"
+      },
+      {
+        "file": "nature/figures/covars-alpha-reductionbase-nature-708913.png",
+        "comment": "Manuscript Figure 2"
+      },
+      {
+        "file": "nature/results/per-cases-model-base-nature-708913.csv",
+        "comment": "Manuscript Table 1 (Total population infected by country)"
+      },
+      {
+        "file": "nature/figures/Belgium-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Extended Data Fig 1. (Belgium)"
+      },
+      {
+        "file": "nature/figures/Germany-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Extended Data Fig 1. (Germany)"
+      },
+      {
+        "file": "nature/figures/Sweden-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Extended Data Fig 1. (Sweden)"
+      },
+      {
+        "file": "nature/figures/Switzerland-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Extended Data Fig 1. (Switzerland)"
+      },
+      {
+        "file": "nature/figures/Austria-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Extended Data Fig 1. (Austria)"
+      },
+      {
+        "file": "nature/figures/Norway-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Extended Data Fig 1. (Norway)"
+      },
+      {
+        "file": "nature/figures/Denmark-three-pannel-base-nature-708913.png",
+        "comment": "Manuscript Extended Data Fig 1. (Denmark)"
+      },
+      {
+        "file": "nature/results/deaths-model-base-nature-708913.csv",
+        "comment": "Manuscript Extended Table 2 (column 3; model)"
+      },
+      {
+        "file": "nature/results/deaths-null-base-nature-708913.csv",
+        "comment": "Manuscript Extended Table 2 (column 3; null)"
+      },
+      {
+        "file": "nature/results/deaths-averted-base-nature-708913.csv",
+        "comment": "Manuscript Extended Table 2 (column 3; averted)"
+      }
+    ]
+  }
+}

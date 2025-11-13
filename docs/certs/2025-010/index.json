@@ -1,0 +1,48 @@
+{
+  "certificate": {
+    "id": "2025-010",
+    "url": "https://codecheck.org.uk/register/certs/2025-010/"
+  },
+  "paper": {
+    "title": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
+    "authors": [
+      {
+        "name": "Ayda Grišiūtė",
+        "orcid": "0000-0001-7328-847X"
+      },
+      {
+        "name": "Martin Raubal",
+        "orcid": "0000-0001-5951-6835"
+      },
+      {
+        "name": "Pieter Herthogs",
+        "orcid": "0000-0003-2262-8374"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-6-3-2025",
+    "abstract": {
+      "text": "<jats:p>Abstract. This study addresses the challenge of evaluating Singapore’s long-term urban strategy by quantifying the impact of planning regulations, a task often hampered by fragmented data and siloed tools. To overcome these limitations, we developed a data-driven workflow using Semantic Web Technologies (SWT). Central to this workflow are two ontologies: OntoPlanningRegulations, which captures a subset of Singapore’s planning rules, and OntoBuildableSpace, which defines measurable 3D spaces within urban plots. These ontologies integrate diverse regulatory data into a structured Knowledge Graph (KG), connecting regulations to 3D urban models. This approach bridges document-based urban policies and advanced urban analytics, offering an automated methodology to generate 3D master plans. In doing so, it provides valuable information on the cumulative impacts of regulations on the future urban form of the city. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Luke McQuade",
+        "orcid": "0009-0004-5292-6793"
+      }
+    ],
+    "check_time": "2025-03-23 12:00:00",
+    "repository": "osf::FXKWS",
+    "report": "https://doi.org/10.17605/OSF.IO/gv2z4",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "A partial reproduction, using intermediate results provided by the authors, was successfully achieved.\nTable and figure content were generated and materially match with those in the paper.\nSome minor code changes to match my environment were needed.\nI initially attempted a full reproduction, but had to abandon this due to time constraints.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2025 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/147"
+      }
+    ]
+  }
+}

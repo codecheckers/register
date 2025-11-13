@@ -36,13 +36,63 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-005/",
+  "name": "CODECHECK Certificate 2022-005",
+  "url": "https://codecheck.org.uk/register/certs/2022-005/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Frank O. Ostermann",
+      "@id": "https://orcid.org/0000-0002-9317-8291"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Marina Georgati",
+        "@id": "https://orcid.org/0000-0001-7794-8308"
+      },
+      {
+        "@type": "Person",
+        "name": "João Monteiro",
+        "@id": "https://orcid.org/0000-0003-4491-3744"
+      },
+      {
+        "@type": "Person",
+        "name": "Bruno Martins",
+        "@id": "https://orcid.org/0000-0002-3856-2936"
+      },
+      {
+        "@type": "Person",
+        "name": "Carsten Keßler",
+        "@id": "https://orcid.org/0000-0002-9724-820X"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Accurate and consistent estimations on the present and future population distribution, at fine spatial resolution, are fundamental to support a variety of activities. However, the sampling regime, sample size, and methods used to collect census data are heterogeneous across temporal periods and/or geographic regions. Moreover, the data is usually only made available in aggregated form, to ensure privacy. In an attempt to address these issues, several previous initiatives have addressed the use of spatial disaggregation methods to produce high-resolution gridded datasets describing the human population distribution, although these projects have usually not addressed specific population subgroups. This paper describes a spatial disaggregation method based on self-training regression models, innovating over previous studies in the simultaneous prediction of disaggregated counts for multiple inter-related variables, by leveraging multi-output models based on gradient tree boosting. We report on experiments for two case studies, using high-resolution data (i.e., counts for different subgroups available at a resolution of 100 meters) for the municipality of Amsterdam and the region of Greater Copenhagen. Results show that the proposed approach can capture spatial heterogeneity and the dependency on local factors, outperforming alternatives (e.g., seminal disaggregation algorithms, or approaches leveraging individual regression models for each variable) in terms of averaged error metrics, and also upon visual inspection of spatial variation in the resulting maps.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-5-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-5-2022"
+  },
+  "reviewBody": "The paper presents an extensive quantitative study that consists of numerous (pre-)processing steps involving multiple input data sets of different types (e.g., CSV, remotely sensed imagery, and geographic vector data).\nThe input data is not provided but sufficiently documented to be recreatable or retrievable from other sources. Unfortunately, despite great support from the corresponding author, the time constraints of this review, coupled with the need to organize the data and the complexity of the workflow, allowed only a partial reproduction of the processing pipeline: the initial dasymetric mapping to generate the first inputs of disaggregated population density, and one of the multiple analysis on that data for the city of Amsterdam.\nHowever, a careful evaluation of the available code led this reviewer to the conclusion that with more time, a successful reproduction of the entire workflow\nis highly likely. In any case, there is sufficient information to replicate the study for a different geographic area or with different methods or parameters.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/cdfah"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +379,9 @@ The paper presents an extensive quantitative study that consists of numerous (pr
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +427,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +446,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

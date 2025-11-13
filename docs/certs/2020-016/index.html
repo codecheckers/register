@@ -36,13 +36,53 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-016/",
+  "name": "CODECHECK Certificate 2020-016",
+  "url": "https://codecheck.org.uk/register/certs/2020-016/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Opening practice: supporting reproducibility and critical spatial data science ",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Chris Brunsdon",
+        "@id": "https://orcid.org/0000-0003-4254-1780"
+      },
+      {
+        "@type": "Person",
+        "name": "Alexis Comber",
+        "@id": "https://orcid.org/0000-0002-3652-7846"
+      }
+    ],
+    "abstract": "<jats:title>Abstract<\/jats:title><jats:p>This paper reflects on a number of trends towards a more open and reproducible approach to geographic and spatial data science over recent years. In particular, it considers trends towards Big Data, and the impacts this is having on<jats:italic>spatial<\/jats:italic>data analysis and modelling. It identifies a turn in academia towards coding as a core analytic tool, and away from proprietary software tools offering ‘black boxes’ where the internal workings of the analysis are not revealed. It is argued that this closed form software is problematic and considers a number of ways in which issues identified in spatial data analysis (such as the MAUP) could be overlooked when working with closed tools, leading to problems of interpretation and possibly inappropriate actions and policies based on these. In addition, this paper considers the role that reproducible and open spatial science may play in such an approach, taking into account the issues raised. It highlights the dangers of failing to account for the geographical properties of data, now that all data are spatial (they are collected some<jats:italic>where<\/jats:italic>), the problems of a desire for<jats:inline-formula><jats:alternatives><jats:tex-math>$$n$$<\/jats:tex-math><mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"><mml:mi>n<\/mml:mi><\/mml:math><\/jats:alternatives><\/jats:inline-formula> = <jats:italic>all<\/jats:italic>observations in data science and it identifies the need for a critical approach. This is one in which openness, transparency, sharing and reproducibility provide a mantra for defensible and robust spatial data science.<\/jats:p>",
+    "url": "https://doi.org/10.1007/s10109-020-00334-2",
+    "sameAs": "https://doi.org/10.1007/s10109-020-00334-2"
+  },
+  "reviewBody": "A small R script to render a map and two tables. Minor code adjustments were made, but reproduction of results (one figure, two tables) was successful.\n",
+  "datePublished": "2020-06-02",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.3981253"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +369,9 @@ A small R script to render a map and two tables. Minor code adjustments were mad
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +417,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +436,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

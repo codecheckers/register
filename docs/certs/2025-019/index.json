@@ -1,0 +1,92 @@
+{
+  "certificate": {
+    "id": "2025-019",
+    "url": "https://codecheck.org.uk/register/certs/2025-019/"
+  },
+  "paper": {
+    "title": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
+    "authors": [
+      {
+        "name": "Filip Surma",
+        "orcid": "0000-0002-6756-9598"
+      },
+      {
+        "name": "Anahita Jamshidnejad",
+        "orcid": "0000-0001-9151-2607"
+      }
+    ],
+    "reference": "https://doi.org/10.48550/arXiv.2503.21065",
+    "abstract": {
+      "text": "This paper introduces a novel concept, fuzzy-logic-based model predictive control (FLMPC), along with a multi-robot control approach for exploring unknown environments and locating targets. Traditional model predictive control (MPC) methods rely on Bayesian theory to represent environmental knowledge and optimize a stochastic cost function, often leading to high computational costs and lack of effectiveness in locating all the targets. Our approach instead leverages FLMPC and extends it to a bi-level parent-child architecture for enhanced coordination and extended decision making horizon. Extracting high-level information from probability distributions and local observations, FLMPC simplifies the optimization problem and significantly extends its operational horizon compared to other MPC methods. We conducted extensive simulations in unknown 2-dimensional environments with randomly placed obstacles and humans. We compared the performance and computation time of FLMPC against MPC with a stochastic cost function, then evaluated the impact of integrating the high-level parent FLMPC layer. The results indicate that our approaches significantly improve both performance and computation time, enhancing coordination of robots and reducing the impact of uncertainty in large-scale search and rescue environments.",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Joao Guimaraes",
+        "orcid": "0000-0002-6545-3102"
+      }
+    ],
+    "check_time": "2025-06-11 10:00:00",
+    "repository": "github::codecheckers/certificate-2025-019",
+    "report": "https://doi.org/10.5281/zenodo.15771677",
+    "type": "institution",
+    "venue": "TU Delft DCC",
+    "summary": "Figures 3-8 from the manuscript were successfully reproduced. Figures 1-2 and Tables 1-3 were not covered by this CODECHECK. To avoid the lengthy execution time required to run the full experiments, the pre-computed results used to generate the figures were provided in a separate repository.\n",
+    "manifest": [
+      {
+        "file": "Figure3_first_case_study.jpg",
+        "comment": "Manuscript Figure 3"
+      },
+      {
+        "file": "Figure4A_likelihood_cellstate_obstacle.jpg",
+        "comment": "Manuscript Figure 4A"
+      },
+      {
+        "file": "Figure4B_likelihood_cellstate_human.jpg",
+        "comment": "Manuscript Figure 4B"
+      },
+      {
+        "file": "Figure4C_cell_uncertainty.jpg",
+        "comment": "Manuscript Figure 4C"
+      },
+      {
+        "file": "Figure4D_time_steps.jpg",
+        "comment": "Manuscript Figure 4D"
+      },
+      {
+        "file": "Figure5L_uncertainty.jpg",
+        "comment": "Manuscript Figure 5 Left"
+      },
+      {
+        "file": "Figure5R_measurement_consistency.jpg",
+        "comment": "Manuscript Figure 5 Right"
+      },
+      {
+        "file": "Figure6_number_of_victories.jpg",
+        "comment": "Manuscript Figure 6"
+      },
+      {
+        "file": "Figure7_second_case_study.jpg",
+        "comment": "Manuscript Figure 7"
+      },
+      {
+        "file": "Figure8TL_mission1_singlelevelFLMPCsystem.jpg",
+        "comment": "Manuscript Figure 8 Top Left"
+      },
+      {
+        "file": "Figure8TR_mission4_singlelevelFLMPCsystem.jpg",
+        "comment": "Manuscript Figure 8 Top Right"
+      },
+      {
+        "file": "Figure8BL_mission1_parentchildFLMPCsystem.jpg",
+        "comment": "Manuscript Figure 8 Bottom Left"
+      },
+      {
+        "file": "Figure8BR_mission4_parentchildFLMPCsystem.jpg",
+        "comment": "Manuscript Figure 8 Bottom Right"
+      }
+    ]
+  }
+}

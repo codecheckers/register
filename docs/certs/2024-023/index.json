@@ -1,0 +1,75 @@
+{
+  "certificate": {
+    "id": "2024-023",
+    "url": "https://codecheck.org.uk/register/certs/2024-023/"
+  },
+  "paper": {
+    "title": "Influence of the cochlear partition’s flexibility on the macro mechanisms in the inner ear",
+    "authors": [
+      {
+        "name": "Simon Kersten",
+        "orcid": "0000-0003-3303-9297"
+      },
+      {
+        "name": "Henning Taschke"
+      },
+      {
+        "name": "Michael Vorländer",
+        "orcid": "0000-0002-7010-8370"
+      }
+    ],
+    "reference": "https://doi.org/10.1016/j.heares.2024.109127",
+    "abstract": {
+      "text": "Recent studies have highlighted the anatomy of the cochlear partition (CP), revealing insights into the flexible nature of the osseous spiral lamina (OSL) and the existence of a flexible cochlear partition bridge (CPB) between the OSL and the basilar membrane (BM). However, most existing inner ear models treat the OSL as a rigid structure and ignore the CPB, neglecting their potential impact on intracochlear sound pressure and motion of the BM. In this paper, we investigate the effect of the CP's flexibility by including the OSL and CPB as either rigid or flexible structures in a numerical anatomical model of the human inner ear. Our findings demonstrate that the flexibility of the OSL and the presence of the CPB significantly affect cochlear macro mechanisms, including differential intracochlear sound pressure, resistive behavior in cochlear impedances, CP stiffness, and BM velocity. These results emphasize the importance of considering the flexibility of the entire CP to enhance our understanding of cochlear function and to accurately interpret experimental data on inner ear mechanics.",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Jelle Langedijk",
+        "orcid": "0009-0009-6684-1930"
+      },
+      {
+        "name": "Tim Schellekens",
+        "orcid": "0009-0009-0918-9982"
+      }
+    ],
+    "check_time": "2024-11-08",
+    "repository": "zenodo::14900193",
+    "report": "https://doi.org/10.5281/zenodo.14900193",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "The codecheck was successfully executed.\nThe code provided was supposed to produce figures 2-7 from the paper, and did so successfully, but excluding referenced data.\n",
+    "manifest": [
+      {
+        "file": "codecheck_output/fig2.png",
+        "comment": "Figure 2 of the paper. Raw output Python script."
+      },
+      {
+        "file": "codecheck_output/fig3.png",
+        "comment": "Figure 3 of the paper. Raw output Python script."
+      },
+      {
+        "file": "codecheck_output/fig4.png",
+        "comment": "Figure 4 of the paper. Raw output Python script."
+      },
+      {
+        "file": "codecheck_output/fig5.png",
+        "comment": "Figure 5 of the paper. Raw output Python script."
+      },
+      {
+        "file": "codecheck_output/fig6.png",
+        "comment": "Figure 6 of the paper. Raw output Python script."
+      },
+      {
+        "file": "codecheck_output/fig7.png",
+        "comment": "Figure 7 of the paper. Raw output Python script."
+      },
+      {
+        "file": "codecheck_output/fig7_textwidth.png",
+        "comment": "Figure 7 of the paper. Textwidth changes to avoid legend to obscure important parts of the graphic."
+      }
+    ]
+  }
+}

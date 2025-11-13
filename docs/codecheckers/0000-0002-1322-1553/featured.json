@@ -2,34 +2,37 @@
   {
     "Certificate ID": "2024-004",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-004/",
+    "Repository": "github::codecheckers/scope",
     "Repository Link": "https://github.com/codecheckers/scope",
-    "Type": "institution",
-    "Venue": "AUMC",
     "Report": "https://doi.org/10.5281/zenodo.13364677",
     "Title": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint",
     "Paper reference": "https://doi.org/10.31222/osf.io/a8rmu",
+    "Type": "institution",
+    "Venue": "AUMC",
     "Check date": "2024-08-01"
   },
   {
     "Certificate ID": "2024-024",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-024/",
+    "Repository": "github::codecheckers/iteval-sims",
     "Repository Link": "https://github.com/codecheckers/iteval-sims",
-    "Type": "institution",
-    "Venue": "AUMC",
     "Report": "https://doi.org/10.5281/zenodo.14576035",
     "Title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
     "Paper reference": "https://doi.org/10.1002/sim.10186",
+    "Type": "institution",
+    "Venue": "AUMC",
     "Check date": "2024-12-16"
   },
   {
     "Certificate ID": "2025-025",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-025/",
+    "Repository": "github::codecheckers/absolution_codecheck",
     "Repository Link": "https://github.com/codecheckers/absolution_codecheck",
-    "Type": "institution",
-    "Venue": "AUMC",
     "Report": "https://doi.org/10.5281/zenodo.16758977",
     "Title": "AbSolution Report v.0.71",
     "Paper reference": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html",
+    "Type": "institution",
+    "Venue": "AUMC",
     "Check date": "2025-01-29"
   }
 ]

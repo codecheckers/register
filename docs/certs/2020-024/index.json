@@ -1,0 +1,49 @@
+{
+  "certificate": {
+    "id": "2020-024",
+    "url": "https://codecheck.org.uk/register/certs/2020-024/"
+  },
+  "paper": {
+    "title": "Driftage: a multi-agent system framework for concept drift detection\n",
+    "authors": [
+      {
+        "name": "Diogo Munaro Vieira"
+      },
+      {
+        "name": "Chrystinne Fernandes"
+      },
+      {
+        "name": "Carlos Lucena"
+      },
+      {
+        "name": "Sérgio Lifschitz",
+        "orcid": "0000-0003-3073-3734"
+      }
+    ],
+    "reference": "https://doi.org/10.1093/gigascience/giab030",
+    "abstract": {
+      "text": "<jats:title>Abstract<\/jats:title>\n               <jats:sec>\n                  <jats:title>Background<\/jats:title>\n                  <jats:p>The amount of data and behavior changes in society happens at a swift pace in this interconnected world. Consequently, machine learning algorithms lose accuracy because they do not know these new patterns. This change in the data pattern is known as concept drift. There exist many approaches for dealing with these drifts. Usually, these methods are costly to implement because they require (i) knowledge of drift detection algorithms, (ii) software engineering strategies, and (iii) continuous maintenance concerning new drifts.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Results<\/jats:title>\n                  <jats:p>This article proposes to create Driftage: a new framework using multi-agent systems to simplify the implementation of concept drift detectors considerably and divide concept drift detection responsibilities between agents, enhancing explainability of each part of drift detection. As a case study, we illustrate our strategy using a muscle activity monitor of electromyography. We show a reduction in the number of false-positive drifts detected, improving detection interpretability, and enabling concept drift detectors’ interactivity with other knowledge bases.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusion<\/jats:title>\n                  <jats:p>We conclude that using Driftage, arises a new paradigm to implement concept drift algorithms with multi-agent architecture that contributes to split drift detection responsability, algorithms interpretability and more dynamic algorithms adaptation.<\/jats:p>\n               <\/jats:sec>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2020-12-07 15:00:00",
+    "repository": "github::codecheckers/driftage",
+    "report": "https://doi.org/10.5281/zenodo.4964880",
+    "type": "journal",
+    "venue": "GigaScience",
+    "summary": "Reproduction from mybinder\n",
+    "manifest": [
+      {
+        "file": "driftage_download.png",
+        "comment": "manuscript Figure 5 (bottom two rows only)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "certificate": {
+    "id": "2024-025",
+    "url": "https://codecheck.org.uk/register/certs/2024-025/"
+  },
+  "paper": {
+    "title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
+    "authors": [
+      {
+        "name": "Ilaria Fichera",
+        "orcid": "0000-0002-0097-1486"
+      },
+      {
+        "name": "Cédric Van Hoorickx",
+        "orcid": "0000-0002-8343-6613"
+      },
+      {
+        "name": "Maarten Hornikx",
+        "orcid": "0000-0002-9671-5558"
+      }
+    ],
+    "reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "João Fatela",
+        "orcid": "0009-0009-4474-171X"
+      },
+      {
+        "name": "Simon Kersten",
+        "orcid": "0000-0003-3303-9297"
+      }
+    ],
+    "check_time": "2024-11-08",
+    "repository": "zenodo::15025861",
+    "report": "https://doi.org/10.5281/zenodo.15023714",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "A step-by-step execution of the guidelines present in the repository (README.md) led to accurate reproduction of the plots shown in the associated paper publication.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "Matlab figure plots"
+      }
+    ]
+  }
+}

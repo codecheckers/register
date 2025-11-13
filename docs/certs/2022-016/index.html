@@ -36,13 +36,59 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-016/",
+  "name": "CODECHECK Certificate 2022-016",
+  "url": "https://codecheck.org.uk/register/certs/2022-016/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carlos Granell",
+      "@id": "https://orcid.org/0000-0003-1004-9695"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Pengxiang Zhao"
+      },
+      {
+        "@type": "Person",
+        "name": "Aoyong Li"
+      },
+      {
+        "@type": "Person",
+        "name": "Petter Pilesjö"
+      },
+      {
+        "@type": "Person",
+        "name": "Ali Mansourian"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Shared electric scooters (e-scooters) have been rapidly growing in popularity across Europe over the past three years, which can bring various environmental and socioeconomic benefits. However, how to further improve the usage efficiency of shared e-scooters is still a major concern for micro-mobility operators and city planners. This paper proposes a machine learning based approach to predict the usage efficiency of shared e-scooters using GPS-based vehicle availability data. First, the usage efficiency of shared e-scooters is measured with the indicator Time to Booking at the trip level. Second, ten exploratory variables in time and space are calculated as features for the prediction based on the e-scooter trips and other related data. Last, three typical machine learning methods, including logistical regression, artificial neural network and random forest are applied to predict the usage efficiency by inputting the features. Besides, the variable importance is evaluated by taking the random forest model as an example. The results show that the random forest model yields the best prediction performance (accuracy = 71.2%, F1 = 78.0%), and the variables like the hour of day and POI density present high variable importance. The findings of this study will be beneficial for micro-mobility operators and city planners to design policies and strategies for further improving the usage efficiency of e-scooter sharing services.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-20-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-20-2022"
+  },
+  "reviewBody": "The provided workflow was partially reproduced.\nAccess to a processed data set of the e-scooter sharing vehicle data Service in Stockholm, Sweden, is provided along with Python scripts to run three machine learning methods based on the Python library Scikit-learn.\nThe results reported here refer to Figure 5, which is a bar chart comparing the performance evaluation metrics (accuracy, F1, precision and recall) of the three ML methods.\nNevertheless, no code is provided to visually recreate the figure, but the scripts produce the required data to create that figure. \nFor the rest of figures and tables, no code is provided.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/DJFC2"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +375,9 @@ The provided workflow was partially reproduced. Access to a processed data set o
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +423,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +442,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

@@ -1,0 +1,67 @@
+{
+  "certificate": {
+    "id": "2024-003",
+    "url": "https://codecheck.org.uk/register/certs/2024-003/"
+  },
+  "paper": {
+    "title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances\n",
+    "authors": [
+      {
+        "name": "Filip Surma",
+        "orcid": "0000-0002-6756-9598"
+      },
+      {
+        "name": "Anahita Jamshidnejad",
+        "orcid": "0000-0001-9151-2607"
+      }
+    ],
+    "reference": "https://arxiv.org/pdf/2310.19997\n"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      },
+      {
+        "name": "Delft 2024-05 participants"
+      }
+    ],
+    "check_time": "2024-05-30 11:30:00",
+    "repository": "github::codecheckers/sddtmpc",
+    "report": "https://doi.org/10.5281/zenodo.11403956",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "Matlab code, requiring 3 additional toolboxes.  Case study 2 only. Full reproduction possible, takes about 2 hours to run\n",
+    "manifest": [
+      {
+        "file": "fig1.png",
+        "comment": "manuscript Figure 11"
+      },
+      {
+        "file": "fig2.png",
+        "comment": "(not included in manuscript)"
+      },
+      {
+        "file": "fig3.png",
+        "comment": "manuscript Figure 12 (orange curve only)"
+      },
+      {
+        "file": "fig4.png",
+        "comment": "manuscript Figure 13"
+      },
+      {
+        "file": "fig5.png",
+        "comment": "manuscript Figure 14"
+      },
+      {
+        "file": "fig6.png",
+        "comment": "manuscript Figure 15"
+      },
+      {
+        "file": "fig7.png",
+        "comment": "manuscript Figure 16"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "certificate": {
+    "id": "2025-015",
+    "url": "https://codecheck.org.uk/register/certs/2025-015/"
+  },
+  "paper": {
+    "title": "Accessibility for pedestrians under heat stress - the example of Heidelberg, Germany ",
+    "authors": [
+      {
+        "name": "Johannes Huber"
+      },
+      {
+        "name": "Christina Ludwig",
+        "orcid": "0000-0003-4669-3298"
+      },
+      {
+        "name": "Kathrin Foshag",
+        "orcid": "0000-0002-8610-2563"
+      },
+      {
+        "name": "Nikolaos Kolaxidis",
+        "orcid": "0009-0008-8406-2028"
+      },
+      {
+        "name": "Alexander Zipf",
+        "orcid": "0000-0003-4916-9838"
+      },
+      {
+        "name": "Sven Lautenbach",
+        "orcid": "0000-0003-1825-9996"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-6-4-2025",
+    "abstract": {
+      "text": "<jats:p>Abstract. Anthropogenic climate change, combined with specific modifications of the urban climate, is expected to lead to an increase in the intensity, duration, and frequency of heat waves in urban areas. Prolonged heat stress - as expected due to these changes - has serious health consequences for vulnerable urban population groups. This study examines the effects of heat stress on the accessibility of essential services in Heidelberg, Germany. The concept of isochrones was extended to include heat stress factors and applied to the study area, the city of Heidelberg in Germany. The analysis was based on a heat-sensitive routing approach that uses OpenStreetMap data together with a digital surface model that was used to model solar exposure. Results showed that under moderate heat stress conditions, accessibility to essential services (transportation, healthcare, retail and social services) was largely maintained, while under high heat stress conditions, a significant portion of the population was excluded from these services. Differences in the affected population can be identified according to both administrative territorial units and building structures. The results provide relevant information for urban planning as they indicate where city inhabitants will face problems to access essential services under heat spells. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Lorena Abad",
+        "orcid": "0000-0003-0554-734X"
+      }
+    ],
+    "check_time": "2025-05-06 12:00:00",
+    "repository": "osf::chx28",
+    "report": "https://doi.org/10.17605/OSF.IO/CHX28",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The authors included a DASA section on the paper with an anonymous GitHub link to the repository with the code for the reproduction.\nAfter initial contact with the authors, the unanonymized link to the GitHub repository was obtained and forked into the reproducible AGILE organization.\nThe repository prepared by the authors has clear instructions on reproducibility for the Jupyter notebooks and points to the included QGIS project to recreate Figures 2-4. Figure 5 is the result of one of the notebooks (lcz_analysis.pynb).\nInitially, the code limited the AOI to a subset for testing purposes. This was not initially clear from the documentation, but contacting the authors clarified the discrepancies.\nFor this report, the code was successfully run for the whole AOI.\nFigures 2 to 5 could also be successfully reproduced besides manual edits in Figure 5.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2025 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/147"
+      }
+    ]
+  }
+}

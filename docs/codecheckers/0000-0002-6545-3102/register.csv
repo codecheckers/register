@@ -1,3 +1,3 @@
-"Certificate","Repository","Venue","Type"
-"2025-004","github::codecheckers/certificate-2025-004","TU Delft DCC","institution"
-"2025-019","github::codecheckers/certificate-2025-019","TU Delft DCC","institution"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"github::codecheckers/certificate-2025-004","https://github.com/codecheckers/certificate-2025-004","https://doi.org/10.5281/zenodo.15310765","Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach","https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b","TU Delft DCC","institution"
+"github::codecheckers/certificate-2025-019","https://github.com/codecheckers/certificate-2025-019","https://doi.org/10.5281/zenodo.15771677","Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making","https://doi.org/10.48550/arXiv.2503.21065","TU Delft DCC","institution"

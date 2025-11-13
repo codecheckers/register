@@ -36,13 +36,62 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2021-010/",
+  "name": "CODECHECK Certificate 2021-010",
+  "url": "https://codecheck.org.uk/register/certs/2021-010/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Alexander Kmoch",
+      "@id": "https://orcid.org/0000-0003-4386-4450"
+    },
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Martin Schmidl"
+      },
+      {
+        "@type": "Person",
+        "name": "Gerhard Navratil",
+        "@id": "https://orcid.org/0000-0002-2978-5724"
+      },
+      {
+        "@type": "Person",
+        "name": "Ioannis Giannopoulos",
+        "@id": "https://orcid.org/0000-0002-2556-5230"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. During spatial decision making, the quality of the utilized data is of high importance. During navigation these decisions are crucial for being routed to the desired destination (usually going by the shortest or fastest route). Road networks, the main data source for routing, are prone to changes which can have a big impact on the computed route and therefore on travel time. For instance, routes computed using an outdated street network can result in longer travel times, in longer distance, as well in cases where the desired destination might not be anymore reachable via the computed route. Data from OpenStreetMap with different timestamps allows us to download road network snapshots from different years, i.e., from 2014 to 2020. On each of those datasets the fastest route between 500 randomly chosen point pairs in Vienna, Austria, was computed. These routes were also reconstructed on the most recent dataset for evaluation reasons. The resulting travel times, travel length as well as feasibility of the route were compared with the most recent dataset. The results provide a first assessment of temporal quality based on the currentness of a dataset.  \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-2-13-2021",
+    "sameAs": "https://doi.org/10.5194/agile-giss-2-13-2021"
+  },
+  "reviewBody": "The reproduction was successful. All provided scripts could be execute after clarification with the authors\nusing the provided data. Some manual steps could not be reproduced, but all code and data are shared.\nThe script outputs match what is presented in the paper considering the randomness in the workflow.\nRelevant figures and tables could be recreated successfully.\n",
+  "datePublished": "2021-06-10",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/bdu28"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -330,6 +379,9 @@ The reproduction was successful. All provided scripts could be execute after cla
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -375,13 +427,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -394,10 +446,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

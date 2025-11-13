@@ -36,13 +36,58 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-010/",
+  "name": "CODECHECK Certificate 2025-010",
+  "url": "https://codecheck.org.uk/register/certs/2025-010/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Luke McQuade",
+      "@id": "https://orcid.org/0009-0004-5292-6793"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ayda Grišiūtė",
+        "@id": "https://orcid.org/0000-0001-7328-847X"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Raubal",
+        "@id": "https://orcid.org/0000-0001-5951-6835"
+      },
+      {
+        "@type": "Person",
+        "name": "Pieter Herthogs",
+        "@id": "https://orcid.org/0000-0003-2262-8374"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. This study addresses the challenge of evaluating Singapore’s long-term urban strategy by quantifying the impact of planning regulations, a task often hampered by fragmented data and siloed tools. To overcome these limitations, we developed a data-driven workflow using Semantic Web Technologies (SWT). Central to this workflow are two ontologies: OntoPlanningRegulations, which captures a subset of Singapore’s planning rules, and OntoBuildableSpace, which defines measurable 3D spaces within urban plots. These ontologies integrate diverse regulatory data into a structured Knowledge Graph (KG), connecting regulations to 3D urban models. This approach bridges document-based urban policies and advanced urban analytics, offering an automated methodology to generate 3D master plans. In doing so, it provides valuable information on the cumulative impacts of regulations on the future urban form of the city. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-6-3-2025",
+    "sameAs": "https://doi.org/10.5194/agile-giss-6-3-2025"
+  },
+  "reviewBody": "A partial reproduction, using intermediate results provided by the authors, was successfully achieved.\nTable and figure content were generated and materially match with those in the paper.\nSome minor code changes to match my environment were needed.\nI initially attempted a full reproduction, but had to abandon this due to time constraints.\n",
+  "datePublished": "2025-03-23",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/gv2z4"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +374,9 @@ A partial reproduction, using intermediate results provided by the authors, was 
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +422,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +441,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

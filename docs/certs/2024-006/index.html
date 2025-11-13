@@ -36,13 +36,52 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-006/",
+  "name": "CODECHECK Certificate 2024-006",
+  "url": "https://codecheck.org.uk/register/certs/2024-006/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carlos Granell",
+      "@id": "https://orcid.org/0000-0003-1004-9695"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Balthasar Teuscher",
+        "@id": "https://orcid.org/0000-0002-2811-1920"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Werner"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Current point cloud data management systems and formats are heavily specialized and targeted solely towards visualization purposes and fail to address the diverse needs of progressive point cloud workflows like for example semantic segmentation using machine learning. We therefore propose a distributed data infrastructure for dynamic point cloud data management that can support interactive real-time visualization at scale while simultaneously serving as a platform for analytical tasks. By introducing random data distribution, we show that simple query fragmentation and efficient and effective parallelism at scale are possible. At the same time, arbitrary queries in space and time can be efficiently run over the infrastructure including query semantics which returns only a random sample of the query results or preferred points based on an importance dimension calculated, for example, from a local point density information as commonly done in point cloud visualization. To cope with the unknown amount of user-specific attributes and to support even multiple ways of deciding the importance of a given point (ground point removal, coverage of space, random subset) the system is designed to support all of them transparently as multidimensional range queries backed by spatial indices. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-5-15-2024",
+    "sameAs": "https://doi.org/10.5194/agile-giss-5-15-2024"
+  },
+  "reviewBody": "The workflow provided was partially reproduced in the sense that I was able to reproduce the system reported in the paper qualitatively.\nThat is, I did not reproduce the experiment or other results (figures, etc.) included in the article, but I was able to set up and run the system described in the paper and test it with some query samples.\nTherefore, by doing this, this report ensures that the system works as described in the manuscript.\n",
+  "datePublished": "2024-05-23",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/YMC3T"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +368,9 @@ The workflow provided was partially reproduced in the sense that I was able to r
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +416,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +435,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

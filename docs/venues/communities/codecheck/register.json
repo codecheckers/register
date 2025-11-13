@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2020-002",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-002/",
+    "Repository": "github::codecheckers/Reproduction-Hancock",
     "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
     "Report": "http://doi.org/10.5281/zenodo.3750741",
     "Title": "The principal components of natural images",
@@ -11,6 +12,7 @@
   {
     "Certificate ID": "2020-003",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-003/",
+    "Repository": "github::codecheckers/Hopfield-1982",
     "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
     "Report": "https://doi.org/10.5281/zenodo.3741797",
     "Title": "Neural networks and physical systems with emergent collective computational abilities",
@@ -20,6 +22,7 @@
   {
     "Certificate ID": "2020-004",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-004/",
+    "Repository": "github::codecheckers/Barto-Sutton-Anderson-1983",
     "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
     "Report": "https://doi.org/10.5281/zenodo.3827371",
     "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
@@ -29,6 +32,7 @@
   {
     "Certificate ID": "2020-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-005/",
+    "Repository": "github::codecheckers/Larisch-reproduction",
     "Repository Link": "https://github.com/codecheckers/Larisch-reproduction",
     "Report": "https://doi.org/10.5281/zenodo.3959175",
     "Title": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis",
@@ -38,6 +42,7 @@
   {
     "Certificate ID": "2020-006",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-006/",
+    "Repository": "github::codecheckers/Detorakis-reproduction",
     "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
     "Report": "https://doi.org/10.5281/zenodo.3948353",
     "Title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
@@ -47,6 +52,7 @@
   {
     "Certificate ID": "2020-014",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
+    "Repository": "github::codecheckers/Sadeh-and-Clopath",
     "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
     "Report": "https://doi.org/10.5281/zenodo.3967326",
     "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
@@ -56,6 +62,7 @@
   {
     "Certificate ID": "2020-015",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-015/",
+    "Repository": "github::codecheckers/Liou-and-Bateman",
     "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
     "Report": "https://doi.org/10.5281/zenodo.3978402",
     "Title": "A model for focal seizure onset, propagation, evolution, and progression",
@@ -65,6 +72,7 @@
   {
     "Certificate ID": "2022-001",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-001/",
+    "Repository": "github::codecheckers/GWR-in-educational-planning",
     "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
     "Report": "https://doi.org/10.5281/zenodo.6040066",
     "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
@@ -74,6 +82,7 @@
   {
     "Certificate ID": "2024-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-005/",
+    "Repository": "github::codecheckers/sample-size-codecheck",
     "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
     "Report": "https://doi.org/10.5281/zenodo.13945051",
     "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
@@ -83,6 +92,7 @@
   {
     "Certificate ID": "2020-007",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
+    "Repository": "github::codecheckers/Hathway-Goodman-2018",
     "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
     "Report": "https://doi.org/10.53962/nsys-9a40",
     "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
@@ -92,6 +102,7 @@
   {
     "Certificate ID": "2025-020",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-020/",
+    "Repository": "github::codecheckers/Exploring-Categorical-Colors",
     "Repository Link": "https://github.com/codecheckers/Exploring-Categorical-Colors",
     "Report": "https://doi.org/10.5281/zenodo.15762107",
     "Title": "Exploring Categorical Colors",

@@ -1,0 +1,39 @@
+{
+  "certificate": {
+    "id": "2025-012",
+    "url": "https://codecheck.org.uk/register/certs/2025-012/"
+  },
+  "paper": {
+    "title": "Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback",
+    "authors": [
+      {
+        "name": "Martin Werner",
+        "orcid": "0000-0002-6951-8022"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-6-12-2025",
+    "abstract": {
+      "text": "<jats:p>Abstract. Information Retrieval is a set of techniques related to identifying and selecting documents from a very large collection of candidate documents based on their content. Traditionally, information retrieval is based on text documents and terms and various techniques for ranking the relevance of terms in documents. As an extension and to simplify the interaction of a user, however, techniques have been added enabling facet search. In this case, a search based on keywords or phrases is conducted. While doing this step, statistics on very specific low-rank properties of the documents are collected, e.g., price range, user ratings, color, manufacturer. This is then presented to the user together with search results in order to allow the user to filter or refine the search with respect to these queries. In this paper, we ask the question how meaningful facets can be computed for spatial databases and how this can be used to explore spatio-textual datasets exploiting such facets as an intuitive yet powerful information discovery mechanism beyond semantic categories. We show the feasibility of this approach on synthetic datasets, OpenStreetMap data, Wikipedia data, and social media data. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Sophie Teichmann"
+      }
+    ],
+    "check_time": "2025-06-12 12:00:00",
+    "repository": "osf::956a8",
+    "report": "https://doi.org/10.17605/OSF.IO/956a8",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The author provided clear steps for the partial reproduction.\nHowever, due to computational and privacy constraints, only two basic examples could be reproduced.\nSince those two minimal examples demonstrate both new methods introduced in the paper, I would consider the partial reproduction to be successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2025 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/147"
+      }
+    ]
+  }
+}

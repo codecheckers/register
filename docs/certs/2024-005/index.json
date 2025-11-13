@@ -1,0 +1,56 @@
+{
+  "certificate": {
+    "id": "2024-005",
+    "url": "https://codecheck.org.uk/register/certs/2024-005/"
+  },
+  "paper": {
+    "title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
+    "authors": [
+      {
+        "name": "Eduard Klapwijk",
+        "orcid": "0000-0002-8936-0365"
+      },
+      {
+        "name": "Joran Jongerling",
+        "orcid": "0000-0001-5697-1381"
+      },
+      {
+        "name": "Herbert Hoijtink",
+        "orcid": "0000-0001-8509-1973"
+      },
+      {
+        "name": "Eveline Crone",
+        "orcid": "0000-0002-7508-6078"
+      }
+    ],
+    "reference": "https://doi.org/10.31234/osf.io/cz32t",
+    "abstract": {
+      "text": "<p>Task-related functional MRI (fMRI) studies need to be properly powered with an adequate sample size to reliably detect effects of interest. But for most fMRI studies, it is not straightforward to determine a proper sample size using power calculations based on published effect sizes. Here, we present an alternative approach of sample size estimation with empirical Bayesian updating. First, this method provides an estimate of the required sample size using existing data from a similar task and similar region of interest. Using this estimate researchers can plan their research project, and report empirically determined sample size estimations in their research proposal or pre-registration. Second, researchers can expand the sample size estimations with new data. We illustrate this approach using four existing fMRI data sets where Cohen’s d is the effect size of interest for the hemodynamic response in the task condition of interest versus a control condition, and where a Pearson correlation between task effect and age is the covariate of interest. We show that sample sizes to reliably detect effects differ between various tasks and regions of interest. We provide an R package to allow researchers to use Bayesian updating with other task-related fMRI studies.A reproducible version of this manuscript including associated code notebooks is available here: https://eduardklap.github.io/sample-size-fmri/<\/p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Lukas Röseler",
+        "orcid": "0000-0002-6446-1901"
+      }
+    ],
+    "check_time": "2024-10-15",
+    "repository": "github::codecheckers/sample-size-codecheck",
+    "report": "https://doi.org/10.5281/zenodo.13945051",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "This report checks the code of the article Sample size estimation for task-related functional MRI studies using Bayesian updating. (https://doi.org/10.31234/osf.io/cz32t (currently under review at Developmental Cognitive Neuroscience)). See section Notes for details about running the code. The CODECHECK was successful. The created figures figures_cohens_d.html and figures-correlations.html are visually very close to the one in the repository. The reproduction of the figures from the repository was easy due to the workflow and integration with Quarto and RStudio.\n",
+    "manifest": [
+      {
+        "file": "figures-cohens_d.html",
+        "comment": "Figure 1 and 2 and Table 2 in the paper"
+      },
+      {
+        "file": "figures-correlation.html",
+        "comment": "Figure 3 and 4 and Table 3 in the paper"
+      }
+    ]
+  }
+}

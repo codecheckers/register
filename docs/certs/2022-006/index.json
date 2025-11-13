@@ -1,0 +1,52 @@
+{
+  "certificate": {
+    "id": "2022-006",
+    "url": "https://codecheck.org.uk/register/certs/2022-006/"
+  },
+  "paper": {
+    "title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
+    "authors": [
+      {
+        "name": "Ditsuhi Iskandaryan",
+        "orcid": "0000-0001-6668-2700"
+      },
+      {
+        "name": "Silvana Di Sabatino",
+        "orcid": "0000-0003-2716-9247"
+      },
+      {
+        "name": "Francisco Ramos",
+        "orcid": "0000-0003-2540-4741"
+      },
+      {
+        "name": "Sergio Trilles",
+        "orcid": "0000-0002-9304-0719"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-6-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Nitrogen dioxide is one of the most hazardous pollutants identified by the World Health Organisation. Predicting and reducing pollutants is becoming a very urgent task and many methods have been used to predict their concentration, such as physical or machine learning models. In addition to choosing the right model, it is also critical to choose the appropriate features. This work focuses on the spatiotemporal prediction of nitrogen dioxide concentration using Bidirectional Convolutional LSTM integrated with the exploration of nitrogen dioxide and associated features, as well as the implementation of feature selection methods. The Root Mean Square Error and the Mean Absolute Error were used to evaluate the proposed approach.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::W7VPH",
+    "report": "https://doi.org/10.17605/osf.io/W7VPH",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper evaluates the competence of selected features in the prediction of Nitrogen Dioxide with Machine Learning.\nFor this reproduciblity review, the Figures and Tables of \"Section 5 - Experiments and Results\" were considered, while the Figures of \"Section 3 - Exploratory Analysis\"\" were not.\nThe code of the corresponding analysis was provided as a GitHub repository and the data that is necessary to run the code were provided through a Zenodo repository.\nThe reproduced results were in accordance with the ones reported in the paper, so the reproduction of the paper is considered successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

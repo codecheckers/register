@@ -36,13 +36,74 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-019/",
+  "name": "CODECHECK Certificate 2024-019",
+  "url": "https://codecheck.org.uk/register/certs/2024-019/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Yasel Quintero",
+      "@id": "https://orcid.org/0009-0005-9240-7370"
+    },
+    {
+      "@type": "Person",
+      "name": "Tornike Skhirtladze"
+    },
+    {
+      "@type": "Person",
+      "name": "Joslyn Sun",
+      "@id": "https://orcid.org/0009-0002-2379-0060"
+    },
+    {
+      "@type": "Person",
+      "name": "Gabriella Low Chew Tung"
+    },
+    {
+      "@type": "Person",
+      "name": "Roel Janssen",
+      "@id": "https://orcid.org/0000-0003-4324-5350"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mohammadamin Sinichi",
+        "@id": "https://orcid.org/0009-0008-2491-1542"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Gevonden"
+      },
+      {
+        "@type": "Person",
+        "name": "Lydia Krabbendam"
+      }
+    ],
+    "abstract": "<p>Heart rate (HR) and heart rate variability (HRV) are two key measures with significant relevance in psychophysiological studies, and their measurement has become more convenient due to advances in wearable technology. However, photoplethysmography (PPG)-based wearables pose critical validity concerns. In this study, we validated four PPG wearables: three consumer-grade devices (Kyto2935, Schone Rhythm 24, and HeartMath Inner Balance Bluetooth) and one research-grade device (Empatica EmbracePlus, successor to the widely-used but discontinued Empatica E4). All devices were worn simultaneously by 40 healthy participants who underwent conditions commonly used in laboratory research (seated rest, arithmetic task, recovery, slow-paced breathing, a neuropsychological task, posture manipulation by standing up) and encountered in ambulatory-like settings (slow walking and stationary biking), compared against a criterion electrocardiography device, the Vrije Universiteit Ambulatory Monitoring System (VU-AMS). We determined the signal quality, the linear strength through regression analysis, the bias through Bland-Altman analysis, and the measurement error through mean arctangent absolute percentage error for each condition against the criterion device. We found that the research-grade device did not outperform the consumer-grade devices in laboratory conditions. It also showed low agreement with the ECG in ambulatory-like conditions. In general, devices captured HR more accurately compared to HRV. Finally, conditions that deviated from baseline settings and involved slight to high movement, negatively impacted the agreement between PPG devices and the criterion. We conclude that PPG devices, even those advertised and designed for research purposes, may pose validity concerns for HRV measurement in conditions other than those similar to resting states.<\/p>",
+    "url": "https://doi.org/10.31219/osf.io/wkzsn",
+    "sameAs": "https://doi.org/10.31219/osf.io/wkzsn"
+  },
+  "reviewBody": "The codecheckers were able to reproduce most of the figures in the manuscript and its supplementary documentation.\n",
+  "datePublished": "2024-12-04",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.14279041"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -331,6 +392,9 @@ The codecheckers were able to reproduce most of the figures in the manuscript an
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -376,13 +440,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -395,10 +459,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

@@ -1,0 +1,52 @@
+{
+  "certificate": {
+    "id": "2025-025",
+    "url": "https://codecheck.org.uk/register/certs/2025-025/"
+  },
+  "paper": {
+    "title": "AbSolution Report v.0.71\n",
+    "authors": [
+      {
+        "name": "Rodrigo García Valiente",
+        "orcid": "0000-0003-0444-5587"
+      }
+    ],
+    "reference": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Sam Langton",
+        "orcid": "0000-0002-1322-1553"
+      }
+    ],
+    "check_time": "2025-01-29 14:00:00",
+    "repository": "github::codecheckers/absolution_codecheck",
+    "report": "https://doi.org/10.5281/zenodo.16758977",
+    "type": "institution",
+    "venue": "AUMC",
+    "summary": "RMarkdown file with embedded R code created from the AbSolution Shiny app for the purposes of reproducibility. This code was straightforward to codecheck. An RMarkdown file could be executed with no errors. The resulting HTML output file matches the given file as expected.\n",
+    "manifest": [
+      {
+        "file": "screenshots/table1.png",
+        "comment": "Screenshot Table 1"
+      },
+      {
+        "file": "screenshots/figure1.png",
+        "comment": "Screenshot Figure 1"
+      },
+      {
+        "file": "screenshots/figure2.png",
+        "comment": "Screenshot Figure 2"
+      },
+      {
+        "file": "screenshots/figure3.png",
+        "comment": "Screenshot Figure 3"
+      },
+      {
+        "file": "screenshots/figure4.png",
+        "comment": "Screenshot Figure 4"
+      }
+    ]
+  }
+}

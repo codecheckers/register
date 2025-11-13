@@ -1,0 +1,54 @@
+{
+  "certificate": {
+    "id": "2023-007",
+    "url": "https://codecheck.org.uk/register/certs/2023-007/"
+  },
+  "paper": {
+    "title": "Extreme heat alerts and impacts across Mozambique 2016 - 2022: gathering evidence from media articles",
+    "authors": [
+      {
+        "name": "Carolina Pereira Marghidan",
+        "orcid": "0000-0003-4427-4065"
+      },
+      {
+        "name": "Maarten van Aalst",
+        "orcid": "0000-0003-0319-5627"
+      },
+      {
+        "name": "Justine Blanford",
+        "orcid": "0000-0003-0844-9390"
+      },
+      {
+        "name": "Genito Maure"
+      },
+      {
+        "name": "Tatiana Marrufo"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-4-11-2023",
+    "abstract": {
+      "text": "<jats:p>Abstract. Heatwaves are increasing around the world and cause a range of devastating societal impacts. Effective communication during a heatwave enables the general public to prepare and, if possible, take the necessary actions. In many African countries, the recognition of heatwaves and appropriate action to reduce heat risk remains absent. In this study, extreme heat and heat-related impacts across Mozambique were analyzed across space and time by using text from media sources. Alerts were obtained by performing a broad word search across four popular media outlets (Club of Mozambique, Rádio Moçambique, O País, and Televisão de Moçambique). Between 2016 and 2022, 79 heat alerts and 12 posts on impacts were found. When mapped, a disproportionate number of articles were found for Southern provinces compared to Northern provinces. Communication of heat alerts were consistent across media outlets and included the maximum temperature forecasted and geographic locations affected. A majority of the messages (91%) did not include information on how to respond and the type of actions to take to reduce risk. Our findings provide spatio-temporal insights into extreme heat and impacts, and highlight the urgent need for an improved heatwave early warning system across Mozambique.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "check_time": "2023-06-13 12:00:00",
+    "repository": "osf::eu8kw",
+    "report": "https://doi.org/10.17605/osf.io/eu8kw",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper elaborates on the data collection about extreme heat alerts in Mozambique from different media sources and subsequently overlays the collected datasets.\nAfter manual data collection, the data were gathered and analysed in spreadsheets and then shared via Github under CC BY 4.0.\nFor this reproducibility review, we attempted to reproduce Figures 1-4 and Table 2.\nSince the data processing steps were not detailed enough in the README files provided by the corresponding author, in most cases we managed to do a verification of the results, rather than a reproduction.\nFor this reason, the reproduction of this paper can be considered only partially successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2023 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/49"
+      }
+    ]
+  }
+}

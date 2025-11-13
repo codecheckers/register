@@ -1,0 +1,56 @@
+{
+  "certificate": {
+    "id": "2022-008",
+    "url": "https://codecheck.org.uk/register/certs/2022-008/"
+  },
+  "paper": {
+    "title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
+    "authors": [
+      {
+        "name": "Tom Niers",
+        "orcid": "0000-0002-5746-8590"
+      },
+      {
+        "name": "Jan Stenkamp",
+        "orcid": "0000-0003-1100-4907"
+      },
+      {
+        "name": "Nick Pascal Jakuschona",
+        "orcid": "0000-0001-6286-8022"
+      },
+      {
+        "name": "Thomas Bartoschek",
+        "orcid": "0000-0002-0882-1036"
+      },
+      {
+        "name": "Sven Schade",
+        "orcid": "0000-0001-5677-5209"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Recent developments in image recognition technology including artificial intelligence and machine learning led to an intensified research in computer vision models. This progress also allows advances for the collection of spatio-temporal data on Invasive Alien Species (IAS), in order to understand their geographical distribution and impact on the biodiversity loss. Citizen Science (CS) approaches already show successful solutions how the public can be involved in collecting spatio-temporal data on IAS, e.g. by using mobile applications for monitoring. Our work analyzes recently developed image-based species recognition models suitable for the monitoring of IAS in CS applications. We demonstrate how computer vision models can be benchmarked for such a use case and how their accuracy can be evaluated by testing them with IAS of European Union concern. We found out that available models have different strengths. Depending on which criteria (e.g. high species coverage, costs, maintenance, high accuracies) are considered as most important, it needs to be decided individually which model fits best. Using only one model alone may not necessarily be the best solution, thus combining multiple models or developing a new custom model can be desirable. Generally, cooperation with the model providers can be advantageous.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::K78EB",
+    "report": "https://doi.org/10.17605/OSF.IO/K78EB",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The article presents a comparison of seven image-based species recognition models, which were benchmarked against a set of species. Selected model executions were successfully reproduced. The outputs were manually compared on a sample basis and match the result data shared privately by the authors; no summary statistics were recalculated.\nThe authors provided the used data privately, but all code and good documentation is available online and properly deposited and cited using a data repository.\nOnly two of the four online classification APIs were tested due to the requirement of registering accounts, therefore this reproduction is only partially complete.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

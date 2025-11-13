@@ -1,0 +1,48 @@
+{
+  "certificate": {
+    "id": "2025-005",
+    "url": "https://codecheck.org.uk/register/certs/2025-005/"
+  },
+  "paper": {
+    "title": "Verification Report of Zhao et al. (2023) ‘Effect of Acceptance and Commitment Therapy for depressive disorders: a meta-analysis’ \n",
+    "authors": [
+      {
+        "name": "Ian Hussey",
+        "orcid": "0000-0001-8906-7559"
+      },
+      {
+        "name": "Malte Elson",
+        "orcid": "0000-0001-7806-9583"
+      }
+    ],
+    "reference": "https://doi.org/10.71240/lcyc.052239",
+    "abstract": {
+      "text": "<jats:p>\n        Zhao et al.’s (2023) recent meta-analysis of ACT vs. control interventions for depressive disorders reported an overall meta-analytic effect size of Hedges g = -1.05. However, errors appear to have been made in the extraction of effect sizes. Re-extraction of the effect sizes from the original articles suggests that 3 of 8 recalculated effect sizes were erroneous: Standard Errors (SE) were confused for Standard Deviations (SD) in two cases, and incorrect sample sizes were extracted in one case. When the first meta-analysis they report was re-run following Zhao et al.’s (2023) analytic strategy, the resulting meta-analytic effect size of Hedges’ g = 0.68 was 35% smaller than that reported in the original meta-analysis. The results of other subgroup meta-analyses reported by Zhao et al. (2023) are likely also to be affected. Other aspects of Zhao et al. (2023) may also require scrutiny for the presence of errors. Given the detected errors in the results, the conclusions of Zhao et al. (2023) are undermined and likely require correction. All data and code available at osf.io/jwcmu.\n        <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2025-05-15 12:00:00",
+    "repository": "zenodo::15323262",
+    "report": "https://doi.org/10.5281/zenodo.15323262",
+    "type": "journal",
+    "venue": "Lifecycle Journal",
+    "summary": "The article referenced data and code in a OSF project.  An included computational notebook in R Markdown format could be executed without errors and Figure 1, Figure 2, Figure 3, and Table 2 as well as numerical statics could be recreated with the code in the notebook. The data deposit contains further files matching other tables in the article, though these are likely, at least partially, manually created and out of scope. The check was successful.\n",
+    "manifest": [
+      {
+        "file": "data and code/communciations/plots/verification_zhao_2023_comparisons_plot.pdf",
+        "comment": "article Figure 2, generated with notebook"
+      },
+      {
+        "file": "data and code/code/analysis/verification_zhao_2023.html",
+        "comment": "computational notebook with code for Figure 1, Figure 2, and Table 3"
+      }
+    ]
+  }
+}

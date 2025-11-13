@@ -1,0 +1,60 @@
+{
+  "certificate": {
+    "id": "2024-002",
+    "url": "https://codecheck.org.uk/register/certs/2024-002/"
+  },
+  "paper": {
+    "title": "Modeling spatiotemporal domestic wastewater variability: Implications for measuring treatment efficiency",
+    "authors": [
+      {
+        "name": "Néstor DelaPaz-Ruíz",
+        "orcid": "0000-0002-8941-4677"
+      },
+      {
+        "name": "Ellen-Wien Augustijn",
+        "orcid": "0000-0002-3389-7585"
+      },
+      {
+        "name": "Mahdi Farnaghi",
+        "orcid": "0000-0002-3071-5563"
+      },
+      {
+        "name": "Raul Zurita-Milla",
+        "orcid": "0000-0002-1769-6310"
+      }
+    ],
+    "reference": "https://doi.org/10.1016/j.jenvman.2023.119680",
+    "abstract": {
+      "text": "Continuously measuring the efficiency of wastewater treatment plants is crucial to progress in sanitation management. Regulations for decentralized wastewater treatment plants (WWTP) can include rudimentary specifications for sporadic sampling, unencouraging continuous monitoring, and missing crucial domestic wastewater (DW) variability, especially in low- and middle-income countries. However, few studies have focused on modeling and understanding spatiotemporal DW variability. We developed and calibrated an agent-based model (ABM) to understand spatial and temporal DW variability, its role in estimated WWTP efficiency, and provide recommendations to improve sampling regulations. We simulated DW variability at various spatial and temporal resolutions in Santa Ana Atzcapotzaltongo, Mexico, focusing on chemical oxygen demand (COD) and total suspended solids (TSS). The model results show that DW variability increases at higher spatiotemporal resolutions. Without a proper understanding of DW variability, treatment efficiency can be overestimated or underestimated by as much as 25% from sporadic sampling. Sensor measurements at 6-min intervals over 3 hours are recommended to overcome uncertainty resulting from temporal variability during heavy drinking water demand in the morning. Reporting of sewage catchment areas, population sizes, and sampling times and intervals is recommended to compare WWTP efficiencies to overcome uncertainty resulting from spatiotemporal variability. The proposed model is a useful tool for understanding DW variability. It can be used to estimate the impact of spatiotemporal variability when measuring WWTP efficiencies, support improvements to sampling regulations for decentralized sanitation, and alternatively for designing and operating WWTPs.",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2020-05-21 10:00:00",
+    "repository": "github::codecheckers/domestic.wastewater.variability",
+    "report": "https://doi.org/10.5281/zenodo.FIXME",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "tbd\n",
+    "manifest": [
+      {
+        "file": "Figure5a.png",
+        "comment": "manuscript Figure 5.a"
+      },
+      {
+        "file": "Figure5b.png",
+        "comment": "manuscript Figure 5.b"
+      },
+      {
+        "file": "Figure6.png",
+        "comment": "manuscript Figure 6"
+      }
+    ]
+  }
+}

@@ -36,13 +36,68 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2023-006/",
+  "name": "CODECHECK Certificate 2023-006",
+  "url": "https://codecheck.org.uk/register/certs/2023-006/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Philipp A. Friese",
+      "@id": "https://orcid.org/0000-0002-3124-5364"
+    },
+    {
+      "@type": "Person",
+      "name": "Jakub Krukar",
+      "@id": "https://orcid.org/0000-0003-2615-8757"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Enkhbold Nyamsuren"
+      },
+      {
+        "@type": "Person",
+        "name": "Haiqi Xu"
+      },
+      {
+        "@type": "Person",
+        "name": "Eric J. Top"
+      },
+      {
+        "@type": "Person",
+        "name": "Simon Scheider"
+      },
+      {
+        "@type": "Person",
+        "name": "Niels Steenbergen"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. There is an increasing trend of applying AIbased automated methods to geoscience problems. An important example is a geographic question answering (geoQA) focused on answer generation via GIS workflows rather than retrieval of a factual answer. However, a representative question corpus is necessary for developing, testing, and validating such generative geoQA systems. We compare five manually constructed geographical question corpora, GeoAnQu, Giki, GeoCLEF, GeoQuestions201, and Geoquery, by applying a conceptual transformation parser. The parser infers geo-analytical concepts and their transformations from a geographical question, akin to an abstract GIS workflow. Transformations thus represent the complexity of geo-analytical operations necessary to answer a question. By estimating the variety of concepts and the number of transformations for each corpus, the five corpora can be compared on the level of geo-analytical complexity, which cannot be done with purely NLP-based methods. Results indicate that the questions in GeoAnQu, which were compiled from GIS literature, require a higher number as well as more diverse geo-analytical operations than questions from the four other corpora. Furthermore, constructing a corpus with a sufficient representation (including GIS) may require an approach targeting a uniquely qualified group of users as a source. In contrast, sampling questions from large-scale online repositories like Google, Microsoft, and Yahoo may not provide the quality necessary for testing generative geoQA systems. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-4-10-2023",
+    "sameAs": "https://doi.org/10.5194/agile-giss-4-10-2023"
+  },
+  "reviewBody": "The data and software of the paper under reproduction is published on GitHub under an MIT license.\nAll figures, tables, and embedded data points have been reproduced.\nThe authors showed dedication and concern to support reproducibility of their work.\nReproduction was successful.\n",
+  "datePublished": "2023-06-13",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/D2SHF"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +384,9 @@ The data and software of the paper under reproduction is published on GitHub und
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +432,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +451,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

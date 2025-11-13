@@ -1,15 +1,15 @@
 ---
 title: Codechecks by Stephen J. Eglen
 ---
-<p style="margin-bottom: 1.5em;">
-<a href="https://orcid.org/0000-0001-8607-8025" title="ORCID iD"><i class="ai ai-orcid" style="font-size: 1.2em; color: #A6CE39;"></i> https://orcid.org/0000-0001-8607-8025</a>
+<p class="codechecker-profile-links">
+<a href="https://orcid.org/0000-0001-8607-8025" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0001-8607-8025</a>
  | 
 <a href="https://github.com/sje30" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
 </p>
 
 
 |Certificate |Report                                  |Paper Title                                                                                                                                             |Venue        |Type      |Check date |
-|:-------|:---------------------------------------------|:------------------|:------------------|:---|:--------------------------|:------------------|
+|:-------|:-----------------------------------------------------------------------------------|:------------------|:------------------|:---|:--------------------------|
 |[2020-001](https://codecheck.org.uk/register/certs/2020-001/)|http://doi.org/10.5281/zenodo.3674056   |[ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.](https://doi.org/10.1093/gigascience/giaa026)     |[GigaScience](https://codecheck.org.uk/register/venues/journals/gigascience)|[Journal](https://codecheck.org.uk/register/venues/journals)|2019-02-14 |
 |[2020-002](https://codecheck.org.uk/register/certs/2020-002/)|http://doi.org/10.5281/zenodo.3750741   |[The principal components of natural images](https://doi.org/10.1088/0954-898X_3_1_008)                                                                 |[codecheck](https://codecheck.org.uk/register/venues/communities/codecheck)|[Community](https://codecheck.org.uk/register/venues/communities)|2020-04-13 |
 |[2020-008](https://codecheck.org.uk/register/certs/2020-008/)|http://doi.org/10.5281/zenodo.3746024   |[The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study](https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf)|[preprint](https://codecheck.org.uk/register/venues/communities/preprint)|[Community](https://codecheck.org.uk/register/venues/communities)|2020-04-09 |

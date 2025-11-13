@@ -36,13 +36,52 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-010/",
+  "name": "CODECHECK Certificate 2020-010",
+  "url": "https://codecheck.org.uk/register/certs/2020-010/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020.\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Neil Ferguson",
+        "@id": "https://orcid.org/0000-0002-1154-8093"
+      },
+      {
+        "@type": "Person",
+        "name": "COVID-19 Response Team"
+      }
+    ],
+    "abstract": "The global impact of COVID-19 has been profound, and the public health threat it represents is the most serious seen in a respiratory virus since the 1918 H1N1 influenza pandemic. Here we present the results of epidemiological modelling which has informed policymaking in the UK and other countries in recent weeks. In the absence of a COVID-19 vaccine, we assess the potential role of a number of public health measures – so-called non-pharmaceutical interventions (NPIs) – aimed at reducing contact rates in the population and thereby reducing transmission of the virus. In the results presented here, we apply a previously published microsimulation model to two countries: the UK (Great Britain specifically) and the US. We conclude that the effectiveness of any one intervention in isolation is likely to be limited, requiring multiple interventions to be combined to have a substantial impact on transmission. Two fundamental strategies are possible: (a) mitigation, which focuses on slowing but not necessarily stopping epidemic spread – reducing peak healthcare demand while protecting those most at risk of severe disease from infection, and (b) suppression, which aims to reverse epidemic growth, reducing case numbers to low levels and maintaining that situation indefinitely. Each policy has major challenges. We find that that optimal mitigation policies (combining home isolation of suspect cases, home quarantine of those living in the same household as suspect cases, and social distancing of the elderly and others at most risk of severe disease) might reduce peak healthcare demand by 2/3 and deaths by half. However, the resulting mitigated epidemic would still likely result in hundreds of thousands of deaths and health systems (most notably intensive care units) being overwhelmed many times over. For countries able to achieve it, this leaves suppression as the preferred policy option. We show that in the UK and US context, suppression will minimally require a combination of social distancing of the entire population, home isolation of cases and household quarantine of their family members. This may need to be supplemented by school and university closures, though it should be recognised that such closures may have negative impacts on health systems due to increased absenteeism. The major challenge of suppression is that this type of intensive intervention package – or something equivalently effective at reducing transmission – will need to be maintained until a vaccine becomes available (potentially 18 months or more) – given that we predict that transmission will quickly rebound if interventions are relaxed. We show that intermittent social distancing – triggered by trends in disease surveillance – may allow interventions to be relaxed temporarily in relative short time windows, but measures will need to be reintroduced if or when case numbers rebound. Last, while experience in China and now South Korea show that suppression is possible in the short term, it remains to be seen whether it is possible long-term, and whether the social and economic costs of the interventions adopted thus far can be reduced.",
+    "url": "https://doi.org/10.25561/77482",
+    "sameAs": "https://doi.org/10.25561/77482"
+  },
+  "reviewBody": "Replication of key findings from Report 9 using CovidSim reimplementation.\n",
+  "datePublished": "2020-05-29",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.3865491"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +368,9 @@ Replication of key findings from Report 9 using CovidSim reimplementation.
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +416,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +435,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

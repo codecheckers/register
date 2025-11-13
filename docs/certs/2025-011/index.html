@@ -36,13 +36,66 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-011/",
+  "name": "CODECHECK Certificate 2025-011",
+  "url": "https://codecheck.org.uk/register/certs/2025-011/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sophie Teichmann"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ziyi Liu",
+        "@id": "https://orcid.org/0000-0003-2198-7708"
+      },
+      {
+        "@type": "Person",
+        "name": "Claudio Affolter"
+      },
+      {
+        "@type": "Person",
+        "name": "Sidi Wu",
+        "@id": "https://orcid.org/0000-0003-1669-6690"
+      },
+      {
+        "@type": "Person",
+        "name": "Yizi Chen",
+        "@id": "https://orcid.org/0000-0003-1637-0092"
+      },
+      {
+        "@type": "Person",
+        "name": "Lorenz Hurni",
+        "@id": "https://orcid.org/0000-0002-0453-8743"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Historical maps provide valuable information and knowledge about the past. However, as they often feature non-standard projections, hand-drawn styles, and artistic elements, it is challenging for non-experts to identify and interpret them. While existing image captioning methods have achieved remarkable success on natural images, their performance on maps is suboptimal as maps are underrepresented in their pre-training process. Despite the recent advance of vision-enabled GPT models in text recognition and map captioning, they still have a limited understanding of maps, as their performance wanes when texts (e.g., titles and legends) in maps are missing or inaccurate. Besides, it is inefficient or even impractical to fine-tune these models with users’ own datasets. To address these problems, we propose a novel and lightweight map-captioning counterpart. Specifically, we fine-tune the state-of-the-art vision-language model CLIP to generate captions relevant to historical maps and enrich the captions with GPT models to tell a brief story regarding where, what, when and why of a given map. We propose a novel decision tree architecture to only generate captions relevant to the specified map type. Our system shows invariance to text alterations in maps. The system can be easily adapted and extended to other map types and scaled to a larger map captioning system. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-6-5-2025",
+    "sameAs": "https://doi.org/10.5194/agile-giss-6-5-2025"
+  },
+  "reviewBody": "The main challenge during this reproduction is the combination of a closed source model (Chat GPT) and available models (like CLIP).\nUsing the models provided by the authors, the results were reproducible (Recreated Table 2).\nUsing Ubuntu the results were partly not recreatable on Ubuntu.\nOn Windows the training was successful.\nThus, there is a system dependence of the reproducibility when retraining the models.\nAnother challenge was the volume of models and corresponding inference.\nThus I only chose a subset of models to retrain and perform inference on.\nA part of the inference in the paper was done manually in the paper, which I was not able to recreate.\nI was able to fully recreate Table1, Table 3, Table 5, Table 6 and Table 7 from the original paper.\nI would count the overall reproduction as a success.\n",
+  "datePublished": "2025-06-12",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/GT5BW"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +382,9 @@ The main challenge during this reproduction is the combination of a closed sourc
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +430,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +449,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

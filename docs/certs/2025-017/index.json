@@ -1,0 +1,44 @@
+{
+  "certificate": {
+    "id": "2025-017",
+    "url": "https://codecheck.org.uk/register/certs/2025-017/"
+  },
+  "paper": {
+    "title": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
+    "authors": [
+      {
+        "name": "Joseph Shingleton",
+        "orcid": "0000-0002-1628-3231"
+      },
+      {
+        "name": "Ana Basiri",
+        "orcid": "0000-0002-2399-1797"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-6-11-2025",
+    "abstract": {
+      "text": "<jats:p>Abstract. Proximity plays an important role in Geographic Information Sciences. It underpins our understanding of spatial dependence and spatial structure, and is a key component of many commonly used analytical techniques. Despite this, it remains a difficult concept to rigorously define. Describing one geospatial object as \"near\" another implies much more than a simple geometric relationship - with factors such as accessibility, utility and function also playing an important role. Previous work has shed light on these relationships through the application of sophisticated mathematical models which attempt to encapsulate both spatial and non-spatial aspects of proximity. In this paper, we present a novel method that uses Large Language Models (LLMs) to extract perceived proximity relationships from natural language. Using 20000 AirBnB listings in London, we identify locations which are described as \"near\" to each property and analyse their spatial distribution. Our results reveal complex patterns linking perceived proximity to accessibility, utilisation, and administrative prominence. We show that locations with a broader area of influence often correspond to higher transit connectivity or higher place-level categories. While the Airbnb dataset reflects a specific, tourism-focused demographic, the approach is generalisable to other sources of user-generated text. This work demonstrates how LLMs can support data-driven spatial analysis by surfacing nuanced, context-sensitive geospatial relationships embedded in everyday language. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2025-06-06 14:00:00",
+    "repository": "github::reproducible-agile/reviews-2025|reports/28",
+    "report": "https://doi.org/10.53962/wgtb-cagt",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The reproduction was partially successful. I could not re-run LLM-prompting and fine-tuning due to resource restrictions (time, specific hardware needed) but could run the visualisations and analysis based on the provided intermediate data files, which are all published in an OSF project and well documented.\nAll figures and statistics from the paper were successfully recreated using two provided Jupyter Notebooks using Jupyter Lab with a corresponding runtime environment specification for Python.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2025 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/147"
+      }
+    ]
+  }
+}

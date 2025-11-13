@@ -36,13 +36,66 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2023-007/",
+  "name": "CODECHECK Certificate 2023-007",
+  "url": "https://codecheck.org.uk/register/certs/2023-007/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Eftychia Koukouraki",
+      "@id": "https://orcid.org/0000-0003-0928-1139"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Extreme heat alerts and impacts across Mozambique 2016 - 2022: gathering evidence from media articles",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Carolina Pereira Marghidan",
+        "@id": "https://orcid.org/0000-0003-4427-4065"
+      },
+      {
+        "@type": "Person",
+        "name": "Maarten van Aalst",
+        "@id": "https://orcid.org/0000-0003-0319-5627"
+      },
+      {
+        "@type": "Person",
+        "name": "Justine Blanford",
+        "@id": "https://orcid.org/0000-0003-0844-9390"
+      },
+      {
+        "@type": "Person",
+        "name": "Genito Maure"
+      },
+      {
+        "@type": "Person",
+        "name": "Tatiana Marrufo"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Heatwaves are increasing around the world and cause a range of devastating societal impacts. Effective communication during a heatwave enables the general public to prepare and, if possible, take the necessary actions. In many African countries, the recognition of heatwaves and appropriate action to reduce heat risk remains absent. In this study, extreme heat and heat-related impacts across Mozambique were analyzed across space and time by using text from media sources. Alerts were obtained by performing a broad word search across four popular media outlets (Club of Mozambique, Rádio Moçambique, O País, and Televisão de Moçambique). Between 2016 and 2022, 79 heat alerts and 12 posts on impacts were found. When mapped, a disproportionate number of articles were found for Southern provinces compared to Northern provinces. Communication of heat alerts were consistent across media outlets and included the maximum temperature forecasted and geographic locations affected. A majority of the messages (91%) did not include information on how to respond and the type of actions to take to reduce risk. Our findings provide spatio-temporal insights into extreme heat and impacts, and highlight the urgent need for an improved heatwave early warning system across Mozambique.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-4-11-2023",
+    "sameAs": "https://doi.org/10.5194/agile-giss-4-11-2023"
+  },
+  "reviewBody": "The paper elaborates on the data collection about extreme heat alerts in Mozambique from different media sources and subsequently overlays the collected datasets.\nAfter manual data collection, the data were gathered and analysed in spreadsheets and then shared via Github under CC BY 4.0.\nFor this reproducibility review, we attempted to reproduce Figures 1-4 and Table 2.\nSince the data processing steps were not detailed enough in the README files provided by the corresponding author, in most cases we managed to do a verification of the results, rather than a reproduction.\nFor this reason, the reproduction of this paper can be considered only partially successful.\n",
+  "datePublished": "2023-06-13",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/eu8kw"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +382,9 @@ The paper elaborates on the data collection about extreme heat alerts in Mozambi
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +430,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +449,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

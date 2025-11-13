@@ -36,13 +36,52 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-002/",
+  "name": "CODECHECK Certificate 2022-002",
+  "url": "https://codecheck.org.uk/register/certs/2022-002/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rémy Decoupes",
+      "@id": "https://orcid.org/0000-0003-0863-9581"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Guoray Cai orcid 1 and",
+        "@id": "https://orcid.org/0000-0002-5189-8442"
+      },
+      {
+        "@type": "Person",
+        "name": "Yimu Pan"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Point clouds data provides new potentials for automated construction of more geometrically accurate and semantically rich 3D models for indoor environments. Recent advances in deep learning methods on point cloud semantic segmentation demonstrated impressive accuracy in labeling points of 3D surfaces with object classes. However, it remains challenging to reconstruct the shape of semantic objects from semantically-labeled 3D points, due to imperfection of such data and the under-determination of object construction algorithms. We have little empirical knowledge about how data imperfections affect the reconstruction of 3D indoor room objects. This paper contributes to understanding the nature of such imperfection of 3D point cloud data and semantic segmentation algorithms by analyzing the reconstructability of indoor room objects from semantically-labeled point cloud. 181 rooms from Stanford Large-Scale 3D Indoor Spaces Dataset (S3DIS) were used in our experiment. After generating semantic labels on point-clouds using PointNet++ segmentic segmentation algorithm, we use human coders to judge the reconstructability of indoor objects, following a qualitative coding scheme. Human exploration of object shape imperfection was assisted by a visual analytic tool in making their judgement. We found that high point-level accuracy achieved through semantic segmentation of point cloud data does not guarantee high object-level accuracy. The extent of this problem varies widely among different spatial settings and configurations. We discuss the significance of these findings on the choice of 3D reconstruction methods. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-2-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-2-2022"
+  },
+  "reviewBody": "The code and data provided by the authors allow to partially reproduce the computational work presented in the Section 4.4 of the paper. The model training (PointNet++) and the input data for Section 4.4 are not reproducible with the provided code but the authors added a note, in the GitHub repository of their project, explaining how the data was generated. Three figures in Section 4.4 are fully reproducible (5, 6, and 7), 2 partially (4 and 8) and 4 are not (3, 9, 10, and 11).\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/z7p8k"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +368,9 @@ The code and data provided by the authors allow to partially reproduce the compu
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +416,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +435,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

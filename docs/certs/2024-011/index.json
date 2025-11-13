@@ -1,0 +1,64 @@
+{
+  "certificate": {
+    "id": "2024-011",
+    "url": "https://codecheck.org.uk/register/certs/2024-011/"
+  },
+  "paper": {
+    "title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
+    "authors": [
+      {
+        "name": "Dagoberto José Herrera-Murillo",
+        "orcid": "0000-0002-8000-628X"
+      },
+      {
+        "name": "Héctor Ochoa-Ortiz",
+        "orcid": "0000-0002-6477-0683"
+      },
+      {
+        "name": "Umair Ahmed",
+        "orcid": "0000-0003-2260-2777"
+      },
+      {
+        "name": "Francisco Javier López-Pellicer",
+        "orcid": "0000-0001-6491-7430"
+      },
+      {
+        "name": "Barbara Re",
+        "orcid": "0000-0001-5374-2364"
+      },
+      {
+        "name": "Andrea Polini",
+        "orcid": "0000-0002-2840-7561"
+      },
+      {
+        "name": "Javier Nogueras-Iso",
+        "orcid": "0000-0002-1279-0367"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-5-5-2024",
+    "abstract": {
+      "text": "<jats:p>Abstract. Geographic information is vital for organising humanitarian campaigns and helping those in need. The leading Humanitarian OpenStreetMap Team (HOT) organises projects to create the necessary geographical information and connect to the organisations that need to make decisions on the ground. This work provides insights into project management dynamics and volunteers’ interaction with user interfaces in Volunteered Geographic Information (VGI) in a humanitarian context. We do so by conducting a process analysis of 746 completed, fully validated, and archived projects in the HOT Tasking Manager (HOT-TM) over the past two years. The analysis encompasses a process discovery stage from the perspectives of control flow, time, organisation, and outcome of the mapping tasks that comprise a project. The findings offer valuable implications for future project planning and execution in similar contexts. Our process mining exploration of the task states found a clear path that involves mapping and validation operations with minor deviations. However, we did find a major bottleneck from the mapping to the validation phase, which could reflect that validation capabilities are a scarce resource. Proactive notification for validators, artificial intelligence adoption for task planning, user interface redesign, and strategies for better harnessing the collective intelligence of volunteers could improve the process. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "check_time": "2024-05-27 10:29:00",
+    "repository": "osf::fmgb4",
+    "report": "https://doi.org/10.17605/osf.io/FMGB4",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The authors made their code available through a GitHub repository.\nThe Readme.md file provides clear instructions for executing the entire code. It is worth noting that the input data is available provided that accounts are created with HOTOSM and Bunting Labs.\nThe data retrieval process takes a long time.\nTherefore, the authors provided me with all the input data for my review.\nI did not encounter any difficulties in executing the Python notebooks.\nAs a result, I produced intermediate data (in 4 CSV files). Unfortunately, I encountered some blocking errors when executing the R Markdown (which is the notebook responsible for producing tables and figures of the manuscript).\nAssisted by the authors, we discovered that the errors were caused by the content of the intermediate files I had generated.\nStrictly speaking, since the authors shared all their input data with me, I should not have encountered these errors.\nTo continue my review, the authors sent me their version of the intermediate files.\nThanks to them, I was able to execute the entire R Markdown and generate all the tables and figures.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2024 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/69"
+      }
+    ]
+  }
+}

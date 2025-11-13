@@ -1,0 +1,56 @@
+{
+  "certificate": {
+    "id": "2022-011",
+    "url": "https://codecheck.org.uk/register/certs/2022-011/"
+  },
+  "paper": {
+    "title": "Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach",
+    "authors": [
+      {
+        "name": "Arun Sharma"
+      },
+      {
+        "name": "Majid Farhadloo"
+      },
+      {
+        "name": "Yan Li"
+      },
+      {
+        "name": "Jayant Gupta",
+        "orcid": "0000-0001-7028-9928"
+      },
+      {
+        "name": "Aditya Kulkarni",
+        "orcid": "0000-0001-8981-6417"
+      },
+      {
+        "name": "Shashi Shekhar"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-14-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Given aggregated mobile device data, the goal is to understand the impact of COVID-19 policy interventions on mobility. This problem is vital due to important societal use cases, such as safely reopening the economy. Challenges include understanding and interpreting questions of interest to policymakers, cross-jurisdictional variability in choice and time of interventions, the large data volume, and unknown sampling bias. The related work has explored the COVID-19 impact on travel distance, time spent at home, and the number of visitors at different points of interest. However, many policymakers are interested in long-duration visits to high-risk business categories and understanding the spatial selection bias to interpret summary reports. We provide an Entity Relationship diagram, system architecture, and implementation to support queries on long-duration visits in addition to fine resolution device count maps to understand spatial bias. We closely collaborated with policymakers to derive the system requirements and evaluate the system components, the summary reports, and visualizations.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::KF8SR",
+    "report": "https://doi.org/10.17605/osf.io/kf8sr",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The software of the paper under reproduction is publicly available on GitHub.\nThe majority of data sets are publicly available in a Google Drive folder.\nOne data set is not available due to privacy policy concerns.\nOut of the 17 Figures in the paper, 10 are eligible for reproduction.\nOut of the 10 eligible Figures, 8 Figures where successfully reproduced, one Figure was partially reproduced and one Figure was not reproducible.\nReproduction was partially successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

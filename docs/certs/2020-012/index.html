@@ -36,13 +36,60 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-012/",
+  "name": "CODECHECK Certificate 2020-012",
+  "url": "https://codecheck.org.uk/register/certs/2020-012/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "H Juliette T Unwin",
+        "@id": "https://orcid.org/0000-0002-9120-4003"
+      },
+      {
+        "@type": "Person",
+        "name": "Swapnil Mistra"
+      },
+      {
+        "@type": "Person",
+        "name": "Valerie C Bradley"
+      },
+      {
+        "@type": "Person",
+        "name": "et al."
+      }
+    ],
+    "abstract": "As of 1st June 2020, the US Centers for Disease Control and Prevention reported 104,232 confirmed or probable COVID-19-related deaths in the US. This was more than twice the number of deaths reported in the next most severely impacted country. We jointly model the US epidemic at the state-level, using publicly available deathdata within a Bayesian hierarchical semi-mechanistic framework. For each state, we estimate the number of individuals that have been infected, the number of individuals that are currently infectious and the time-varying reproduction number (the average number of secondary infections caused by an infected person). We use changes in mobility to capture the impact that non-pharmaceutical interventions and other behaviour changes have on therate of transmission of SARS-CoV-2. We estimate thatRtwas only below one in 23 states on 1st June. We also estimate that 3.7% [3.4%-4.0%] of the total population of the US had been infected, with wide variation between states, and approximately 0.01% of the population was infectious. We demonstrate good 3 week model forecasts of deaths with low error and good coverage of our credible intervals.",
+    "url": "https://doi.org/10.25561/79231",
+    "sameAs": "https://doi.org/10.25561/79231"
+  },
+  "reviewBody": "R code for this paper shared with an earlier codecheck certifice (2020-011) from the same codebase.\n",
+  "datePublished": "2020-06-14",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.3893617"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +376,9 @@ R code for this paper shared with an earlier codecheck certifice (2020-011) from
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +424,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +443,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

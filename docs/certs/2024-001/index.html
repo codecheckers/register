@@ -36,13 +36,53 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-001/",
+  "name": "CODECHECK Certificate 2024-001",
+  "url": "https://codecheck.org.uk/register/certs/2024-001/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Regulation of pupil size in natural vision across the human lifespan\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Rafael Lazar",
+        "@id": "https://orcid.org/0000-0001-7972-5634"
+      },
+      {
+        "@type": "Person",
+        "name": "Manuel Spitschan",
+        "@id": "https://orcid.org/0000-0002-8572-9268"
+      }
+    ],
+    "abstract": "<jats:p>\n            Vision is mediated by light passing through the pupil, which changes in diameter from approximately 2 to 8 mm between bright and dark illumination. With age, mean pupil size declines. In laboratory experiments, factors affecting pupil size can be experimentally controlled. How the pupil reflects the change in retinal input from the visual environment under natural viewing conditions is unclear. We address this question in a field experiment (\n            <jats:italic>N<\/jats:italic>\n            = 83, 43 female, 18–87 years) using a custom-made wearable video-based eye tracker with a spectroradiometer measuring near-corneal spectral irradiance. Participants moved in and between indoor and outdoor environments varying in spectrum and engaged in a range of everyday tasks. Our data confirm that light-adapted pupil size is determined by light level, with a better model fit of melanopic over photopic units, and that it decreased with increasing age, yielding steeper slopes at lower light levels. We found no indication that sex, iris colour or reported caffeine consumption affects pupil size. Our exploratory results point to a role of photoreceptor integration in controlling steady-state pupil size. The data provide evidence for considering age in personalized lighting solutions and against the use of photopic illuminance alone to assess the impact of real-world lighting conditions.\n          <\/jats:p>",
+    "url": "https://doi.org/10.1098/rsos.191613",
+    "sameAs": "https://doi.org/10.1098/rsos.191613"
+  },
+  "reviewBody": "R code to generate all of the key figures in the paper.\n",
+  "datePublished": "2024-03-15",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.10823246"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +369,9 @@ R code to generate all of the key figures in the paper.
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +417,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +436,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

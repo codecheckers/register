@@ -36,13 +36,72 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-015/",
+  "name": "CODECHECK Certificate 2025-015",
+  "url": "https://codecheck.org.uk/register/certs/2025-015/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Lorena Abad",
+      "@id": "https://orcid.org/0000-0003-0554-734X"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Accessibility for pedestrians under heat stress - the example of Heidelberg, Germany ",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Johannes Huber"
+      },
+      {
+        "@type": "Person",
+        "name": "Christina Ludwig",
+        "@id": "https://orcid.org/0000-0003-4669-3298"
+      },
+      {
+        "@type": "Person",
+        "name": "Kathrin Foshag",
+        "@id": "https://orcid.org/0000-0002-8610-2563"
+      },
+      {
+        "@type": "Person",
+        "name": "Nikolaos Kolaxidis",
+        "@id": "https://orcid.org/0009-0008-8406-2028"
+      },
+      {
+        "@type": "Person",
+        "name": "Alexander Zipf",
+        "@id": "https://orcid.org/0000-0003-4916-9838"
+      },
+      {
+        "@type": "Person",
+        "name": "Sven Lautenbach",
+        "@id": "https://orcid.org/0000-0003-1825-9996"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Anthropogenic climate change, combined with specific modifications of the urban climate, is expected to lead to an increase in the intensity, duration, and frequency of heat waves in urban areas. Prolonged heat stress - as expected due to these changes - has serious health consequences for vulnerable urban population groups. This study examines the effects of heat stress on the accessibility of essential services in Heidelberg, Germany. The concept of isochrones was extended to include heat stress factors and applied to the study area, the city of Heidelberg in Germany. The analysis was based on a heat-sensitive routing approach that uses OpenStreetMap data together with a digital surface model that was used to model solar exposure. Results showed that under moderate heat stress conditions, accessibility to essential services (transportation, healthcare, retail and social services) was largely maintained, while under high heat stress conditions, a significant portion of the population was excluded from these services. Differences in the affected population can be identified according to both administrative territorial units and building structures. The results provide relevant information for urban planning as they indicate where city inhabitants will face problems to access essential services under heat spells. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-6-4-2025",
+    "sameAs": "https://doi.org/10.5194/agile-giss-6-4-2025"
+  },
+  "reviewBody": "The authors included a DASA section on the paper with an anonymous GitHub link to the repository with the code for the reproduction.\nAfter initial contact with the authors, the unanonymized link to the GitHub repository was obtained and forked into the reproducible AGILE organization.\nThe repository prepared by the authors has clear instructions on reproducibility for the Jupyter notebooks and points to the included QGIS project to recreate Figures 2-4. Figure 5 is the result of one of the notebooks (lcz_analysis.pynb).\nInitially, the code limited the AOI to a subset for testing purposes. This was not initially clear from the documentation, but contacting the authors clarified the discrepancies.\nFor this report, the code was successfully run for the whole AOI.\nFigures 2 to 5 could also be successfully reproduced besides manual edits in Figure 5.\n",
+  "datePublished": "2025-05-06",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/CHX28"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +388,9 @@ The authors included a DASA section on the paper with an anonymous GitHub link t
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +436,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +455,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

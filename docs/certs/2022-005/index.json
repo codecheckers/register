@@ -1,0 +1,52 @@
+{
+  "certificate": {
+    "id": "2022-005",
+    "url": "https://codecheck.org.uk/register/certs/2022-005/"
+  },
+  "paper": {
+    "title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
+    "authors": [
+      {
+        "name": "Marina Georgati",
+        "orcid": "0000-0001-7794-8308"
+      },
+      {
+        "name": "João Monteiro",
+        "orcid": "0000-0003-4491-3744"
+      },
+      {
+        "name": "Bruno Martins",
+        "orcid": "0000-0002-3856-2936"
+      },
+      {
+        "name": "Carsten Keßler",
+        "orcid": "0000-0002-9724-820X"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Accurate and consistent estimations on the present and future population distribution, at fine spatial resolution, are fundamental to support a variety of activities. However, the sampling regime, sample size, and methods used to collect census data are heterogeneous across temporal periods and/or geographic regions. Moreover, the data is usually only made available in aggregated form, to ensure privacy. In an attempt to address these issues, several previous initiatives have addressed the use of spatial disaggregation methods to produce high-resolution gridded datasets describing the human population distribution, although these projects have usually not addressed specific population subgroups. This paper describes a spatial disaggregation method based on self-training regression models, innovating over previous studies in the simultaneous prediction of disaggregated counts for multiple inter-related variables, by leveraging multi-output models based on gradient tree boosting. We report on experiments for two case studies, using high-resolution data (i.e., counts for different subgroups available at a resolution of 100 meters) for the municipality of Amsterdam and the region of Greater Copenhagen. Results show that the proposed approach can capture spatial heterogeneity and the dependency on local factors, outperforming alternatives (e.g., seminal disaggregation algorithms, or approaches leveraging individual regression models for each variable) in terms of averaged error metrics, and also upon visual inspection of spatial variation in the resulting maps.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::CDFAH",
+    "report": "https://doi.org/10.17605/osf.io/cdfah",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The paper presents an extensive quantitative study that consists of numerous (pre-)processing steps involving multiple input data sets of different types (e.g., CSV, remotely sensed imagery, and geographic vector data).\nThe input data is not provided but sufficiently documented to be recreatable or retrievable from other sources. Unfortunately, despite great support from the corresponding author, the time constraints of this review, coupled with the need to organize the data and the complexity of the workflow, allowed only a partial reproduction of the processing pipeline: the initial dasymetric mapping to generate the first inputs of disaggregated population density, and one of the multiple analysis on that data for the city of Amsterdam.\nHowever, a careful evaluation of the available code led this reviewer to the conclusion that with more time, a successful reproduction of the entire workflow\nis highly likely. In any case, there is sufficient information to replicate the study for a different geographic area or with different methods or parameters.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

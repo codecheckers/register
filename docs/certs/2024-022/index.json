@@ -1,0 +1,76 @@
+{
+  "certificate": {
+    "id": "2024-022",
+    "url": "https://codecheck.org.uk/register/certs/2024-022/"
+  },
+  "paper": {
+    "title": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method \n",
+    "authors": [
+      {
+        "name": "Zeyu Xu",
+        "orcid": "0000-0002-4158-6218"
+      },
+      {
+        "name": "Adrian Herzog",
+        "orcid": "0000-0003-0827-8333"
+      },
+      {
+        "name": "Alexander Lodermeyer",
+        "orcid": "0000-0003-4308-7137"
+      },
+      {
+        "name": "Emanuel A.P. Habets",
+        "orcid": "0000-0002-2613-8046"
+      },
+      {
+        "name": "Albert G. Prinn",
+        "orcid": "0000-0003-3491-3644"
+      }
+    ],
+    "reference": "https://doi.org/10.1121/10.0023935",
+    "abstract": {
+      "text": "<jats:p>The image source method (ISM) is often used to simulate room acoustics due to its ease of use and computational efficiency. The standard ISM is limited to simulations of room impulse responses between point sources and omnidirectional receivers. In this work, the ISM is extended using spherical harmonic directivity coefficients to include acoustic diffraction effects. These effects occur in practice when transducers are mounted on audio devices of finite spatial extent, e.g., modern smart speakers with loudspeakers and microphones. The proposed method is verified using finite element simulations of various loudspeaker and microphone configurations in a shoebox-shaped room. It is shown that the accuracy of the proposed method is related to the sizes, shapes, number, and positions of the devices inside a room. A simplified version of the proposed method, which can significantly reduce computational effort, is also presented. The proposed method and its simplified version can simulate room transfer functions more accurately than currently available image source methods and can aid the development and evaluation of speech and acoustic signal processing algorithms, including speech enhancement, acoustic scene analysis, and acoustic parameter estimation.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Silvin Willemsen",
+        "orcid": "0000-0002-4062-5473"
+      },
+      {
+        "name": "Ilaria Fichera",
+        "orcid": "0000-0002-0097-1486"
+      },
+      {
+        "name": "Andrea Gerbotto",
+        "orcid": "0009-0000-6285-0316"
+      }
+    ],
+    "check_time": "2024-12-05 16:00:00",
+    "repository": "github::codecheckers/DEISM",
+    "report": "http://doi.org/10.5281/zenodo.14273316",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "Full reproduction. After running two Python scripts (deism_JASA_fig8.py and deism_JASA_fig9.py in the examples folder) in a public GitHub repository, figures 8 and 9 were successfully reproduced (they seem to be identical to the paper at first glance).  The repository did not provide code to reproduce other plots (Figs. 7, 10 and 11). Other figures (Figs 1-6) seem to only help illustrate the main body of the paper and are therefore not applicable for reproduction with the code.\n",
+    "manifest": [
+      {
+        "file": "JASA_figure8_SPL.png",
+        "comment": "Figure 8 (top) in JASA paper"
+      },
+      {
+        "file": "JASA_figure8_SPL.png",
+        "comment": "Figure 8 (bottom) in JASA paper"
+      },
+      {
+        "file": "JASA_figure9_SPL.png",
+        "comment": "Figure 9 (top) in JASA paper"
+      },
+      {
+        "file": "JASA_figure9_SPL.png",
+        "comment": "Figure 9 (bottom) in JASA paper"
+      }
+    ]
+  }
+}

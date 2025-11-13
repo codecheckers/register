@@ -1,0 +1,82 @@
+{
+  "certificate": {
+    "id": "2020-008",
+    "url": "https://codecheck.org.uk/register/certs/2020-008/"
+  },
+  "paper": {
+    "title": "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study",
+    "authors": [
+      {
+        "name": "Nicholas G. Davies"
+      },
+      {
+        "name": "Adam J. Kucharski"
+      },
+      {
+        "name": "Rosalind M. Eggo"
+      },
+      {
+        "name": "Amy Gimma"
+      },
+      {
+        "name": "CMMID COVID-19 working group"
+      },
+      {
+        "name": "W. John Edmunds"
+      }
+    ],
+    "reference": "https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2020-04-09 09:40:00",
+    "repository": "github::codecheckers/covid-uk",
+    "report": "http://doi.org/10.5281/zenodo.3746024",
+    "type": "community",
+    "venue": "preprint",
+    "summary": "Analysis steps took several days; otherwise mostly straightforward.",
+    "manifest": [
+      {
+        "file": "fig-12week.pdf",
+        "comment": "manuscript Figure 2 -- impact of interventions lasting 12 weeks."
+      },
+      {
+        "file": "table-12week.csv",
+        "comment": "manuscript Table 4 -- project impact of 12-week interventions."
+      },
+      {
+        "file": "fig-triggers.pdf",
+        "comment": "manuscript Figure 3 -- local vs national triggering."
+      },
+      {
+        "file": "fig-misc.pdf",
+        "comment": "manuscript Figure 4 -- reducing leisure events/impact of increased childcare."
+      },
+      {
+        "file": "fig-lockdown.pdf",
+        "comment": "manuscript Figure 5 -- intensive control measures."
+      },
+      {
+        "file": "table-lockdown.csv",
+        "comment": "manuscipt Table 5 --  intensive control measures."
+      },
+      {
+        "file": "table-triggers.csv",
+        "comment": "manuscript Table S3 --  impact of control measures with local vs national triggering."
+      },
+      {
+        "file": "table-sports.csv",
+        "comment": "manuscript Table S4 --  impact of leisure control measures."
+      },
+      {
+        "file": "table-grandparents.csv",
+        "comment": "manuscript Table S5 --  impact of school closures and care by elders."
+      }
+    ]
+  }
+}

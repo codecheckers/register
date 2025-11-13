@@ -1,0 +1,44 @@
+{
+  "certificate": {
+    "id": "2025-014",
+    "url": "https://codecheck.org.uk/register/certs/2025-014/"
+  },
+  "paper": {
+    "title": "Beyond Walking and Biking: Expanding the 15-Minute City Area through Public Transport",
+    "authors": [
+      {
+        "name": "Manuela Canestrini",
+        "orcid": "0009-0005-1501-8398"
+      },
+      {
+        "name": "Ioannis Giannopoulos",
+        "orcid": "0000-0002-2556-5230"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-6-2-2025",
+    "abstract": {
+      "text": "<jats:p>Abstract. The concept of the \"15-minute city\" has recently attracted notable attention and is being widely discussed in urban planning and policymaking. The original idea focuses solely on active modes, thus walking and biking, without considering the role of public transport, which is, in fact, essential for accessing amenities of daily needs in urban areas. Additionally, most studies exploring this concept model walking and biking with constant average speeds. While this simplification is considered reasonable in flat urban environments, it may result in inaccurate estimations for cities on more hilly terrain. This study aims to address these two drawbacks by integrating public transport into the 15-minute concept and incorporating speed as a function of street inclination. The results for the case study of Vienna indicate only small differences in average accessibility when modelling walking speed in a slope-dependent manner. In contrast, for biking the difference is notable. Secondly, incorporating public transport as a valid mode option decreases the average duration to access all daily needs from 23.25 minutes (walking only) to 16.80 minutes and the median duration from 15.20 minutes to 13.22 minutes. The main finding of this work is that adding public transport extends the 15-minute city area rather than optimizing travel times within the existing walkable area. Furthermore, the presented analyses provide the means to uncover categories that limit the area of the 15-minute city. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "check_time": "2025-04-03 12:00:00",
+    "repository": "osf::st98a",
+    "report": "https://doi.org/10.17605/OSF.IO/st98a",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The authors included a DASA section where they briefly but accurately describe key details of the datasets used, software version and scripts generated, and how to access these resources.\nWhile the link to the code and data repository was anonymized, the author provided the DOI to the data/code repository for reproduction which will be included in the final version of the paper: https://doi.org/10.48436/0cffc-hax39.\nTables 1-3 and Figures 1-5 were eligible for reproduction.\nAll of them were successfully reproduced.\nIn general, the paper is fully reproducible because I was able to verify the claims and results presented in the article by re-executing the scripts provided with the accompanying datasets.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2025 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/147"
+      }
+    ]
+  }
+}

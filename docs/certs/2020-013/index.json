@@ -1,0 +1,72 @@
+{
+  "certificate": {
+    "id": "2020-013",
+    "url": "https://codecheck.org.uk/register/certs/2020-013/"
+  },
+  "paper": {
+    "title": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision\n",
+    "authors": [
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      },
+      {
+        "name": "Corrado Garbazza",
+        "orcid": "0000-0002-8606-2944"
+      },
+      {
+        "name": "Susanne Kohl",
+        "orcid": "0000-0002-6438-6331"
+      },
+      {
+        "name": "Christian Cajochen",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "reference": "https://doi.org/10.1101/2020.06.02.129502",
+    "abstract": {
+      "text": "<jats:title>Abstract<\/jats:title><jats:sec><jats:title>Background<\/jats:title><jats:p>Light exposure entrains the circadian clock through the intrinsically photosensitive retinal ganglion cells, which sense light in addition to the cones and rods. In congenital achromatopsia (ACHM; prevalence 1:30-50,000), the cone system is non-functional, resulting in severe light avoidance and photophobia at daytime light levels. How this condition affects circadian and neuroendocrine responses to light is not known.<\/jats:p><\/jats:sec><jats:sec><jats:title>Methods<\/jats:title><jats:p>In genetically confirmed ACHM patients (n=7; age 30-72 years; 6 women, 1 male), we examined survey-assessed sleep/circadian phenotype (PSQI, ESS, MEQ, MCTQ), self-reported visual function (NEI-VFQ-25), sensitivity to light (VLSQ-8) and use of spectral filters that modify chronic light exposure. In all but one patient, we measured rest-activity cycles using actigraphy over 3 weeks and measured the melatonin phase angle of entrainment using the dim-light melatonin onset (DLMO).<\/jats:p><\/jats:sec><jats:sec><jats:title>Results<\/jats:title><jats:p>ACHM patients experience a severely attenuated light-dark cycle due to severe light sensitivity and habitual use of filters to reduce retinal illumination. In aggregate, both MEQ and MCTQ indicated a tendency to late chronotype. We found regular rest-activity patterns in all patients and normal phase angles of entrainment in participants with a measurable DLMO.<\/jats:p><\/jats:sec><jats:sec><jats:title>Conclusions<\/jats:title><jats:p>Our results reveal that a functional cone system and exposure to daytime light intensities are not necessary for regular behavioural and hormonal entrainment, even when survey-assessed sleep and circadian phenotype indicated a tendency for a late chronotype and sleep problems in our ACHM cohort. Our results can be explained by an adaptation mechanism in circadian photoreception which adjusts to the range of habitual light exposures.<\/jats:p><\/jats:sec>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "check_time": "2020-07-14 16:00:00",
+    "repository": "github::codecheckers/Spitschan2020_bioRxiv",
+    "report": "https://doi.org/10.5281/zenodo.3947959",
+    "type": "community",
+    "venue": "preprint",
+    "summary": "This reproduction successfully reproduced all figures output by the original code. All original MATLAB code was provided and the reproduction had a small compute time.\n",
+    "manifest": [
+      {
+        "file": "figures/raw/Fig1.pdf",
+        "comment": "manuscript Figure 1 (panel D only)"
+      },
+      {
+        "file": "figures/raw/Fig2.pdf",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "figures/raw/Fig3.pdf",
+        "comment": "manuscript Figure 3"
+      },
+      {
+        "file": "figures/raw/Fig6.pdf",
+        "comment": "manuscript Figure 5"
+      },
+      {
+        "file": "figures/raw/Fig5.pdf",
+        "comment": "manuscript Figure 6"
+      },
+      {
+        "file": "figures/raw/Fig7.pdf",
+        "comment": "manuscript Figure 7"
+      }
+    ]
+  }
+}

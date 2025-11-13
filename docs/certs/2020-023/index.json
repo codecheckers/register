@@ -1,0 +1,51 @@
+{
+  "certificate": {
+    "id": "2020-023",
+    "url": "https://codecheck.org.uk/register/certs/2020-023/"
+  },
+  "paper": {
+    "title": "Tracking Hurricane Dorian in GDELT and Twitter",
+    "authors": [
+      {
+        "name": "Innocensia Owuor"
+      },
+      {
+        "name": "Hartwig H. Hochmair",
+        "orcid": "0000-0002-7064-8238"
+      },
+      {
+        "name": "Sreten Cvetojevic",
+        "orcid": "0000-0001-6069-5324"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "abstract": {
+      "text": "<jats:p>Abstract. GDELT is a machine coded database of events that uses both foreign and domestic news feeds and contains over a quarter of a billion worldwide event records categorized into three hundred categories. This paper compares the spatial footprint of GDELT event mentions with those of event related geo-tagged tweets for Hurricane Dorian in the South-Eastern United States. Besides examining event related GDELT and Twitter data abundance, the study relates areas of elevated GDELT news and tweeting activities to the locations of the hurricane track over a six-day period, and statistically analyzes distances between daily GDELT event mentions and tweets, and the hurricane center on different days. It assesses the potential role of the geographic coverage of the cone in hurricane prediction maps on the level of event related news and tweeting activities. The study also discusses pros and cons of both data sources for event tracking with regards to data abundance, spatial and temporal resolution, and thematic accuracy.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-07-13 12:00:00",
+    "repository": "github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "report": "https://doi.org/10.17605/OSF.IO/XS5YR",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "After initial problems because of absence of documentation, the reproduction was successful for some of the paper's figures, but not the maps.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2020 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/25"
+      }
+    ]
+  }
+}

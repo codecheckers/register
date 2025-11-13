@@ -36,13 +36,56 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-015/",
+  "name": "CODECHECK Certificate 2022-015",
+  "url": "https://codecheck.org.uk/register/certs/2022-015/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Jakub Krukar",
+      "@id": "https://orcid.org/0000-0003-2615-8757"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Unlocking social network analysis methods for studying human mobility",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Nina Wiedemann",
+        "@id": "https://orcid.org/0000-0002-8160-7634"
+      },
+      {
+        "@type": "Person",
+        "name": "Henry Martin"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Raubal"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Planning and operations in urban spaces are strongly affected by human mobility behavior. A better understanding of individual mobility is key to improve transportation systems and to guide the allocation of public space. Previous studies have discovered statistical laws of travel distances, but the topology of movement between places has received little attention. We propose to employ network modelling methods to analyze the effect of spatial and context attributes on individual movement patterns. The perspective of mobility as a network allows to explicitly regard dyadic dependencies of sequential location visits. Here, we consider two methods developed for social networks and provide a formulation of mobility networks to justify their applicability. First, we use the Multiple Regression Quadratic Assignment Procedure to test hypotheses on the influence of location attributes on mobility behavior. Secondly, Stochastic Actor-Oriented Models are applied to model the evolution of mobility networks over time. As a proof-of-concept study, we transform data from one GNSS-based and one check-in based dataset into mobility networks and present results from both methods. We find relations that appear for a majority of samples and thus seem inherent to mobility networks. The differences between individuals and the available datasets are further quantified and discussed. We conclude that the transfer of network modeling methods is an interesting opportunity to study network-related phenomena in geographic information science.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-19-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-19-2022"
+  },
+  "reviewBody": "The paper provides a link to a GitHub repository that was initially difficult to use but was promptly improved by the authors after an email exchange.\nThe repository contains only one out of two datasets presented in the paper but most results based on this dataset have been successfully reproduced with minor disparities due to automated scaling of graphs.\nIn sum, the manuscript has been partially reproduced.\nThe repository is well-documented, it includes the documentation of required software versions, and the authors’ response to questions and bugs has been prompt and helpful.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/mvqcw"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +372,9 @@ The paper provides a link to a GitHub repository that was initially difficult to
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +420,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +439,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

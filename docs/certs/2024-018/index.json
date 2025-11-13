@@ -1,0 +1,76 @@
+{
+  "certificate": {
+    "id": "2024-018",
+    "url": "https://codecheck.org.uk/register/certs/2024-018/"
+  },
+  "paper": {
+    "title": "Power analysis for personal light exposure measurements and interventions\n",
+    "authors": [
+      {
+        "name": "Johannes Zauner",
+        "orcid": "0000-0003-2171-4566"
+      },
+      {
+        "name": "Ljiljana Udovicic",
+        "orcid": "0000-0002-6035-8309"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "reference": "https://doi.org/10.1371/journal.pone.0308768",
+    "abstract": {
+      "text": "<jats:sec id=\"sec001\">\n<jats:title>Background<\/jats:title>\n<jats:p>Light exposure regulates the human circadian system and more widely affects health, well-being, and performance. With the rise in field studies on light exposure’s effects, the amount of data collected through wearable loggers and dosimeters has also grown. These data are more complex than stationary laboratory measurements. Determining sample sizes in field studies is challenging, as the literature shows a wide range of sample sizes (between 2 and 1,887 from a recent review of the field and approaching 10<jats:sup>5<\/jats:sup> participants in first studies using large-scale ‘biobank’ databases). Current decisions on sample size for light exposure data collection lack a specific basis rooted in power analysis. Therefore, there is a need for clear guidance on selecting sample sizes.<\/jats:p>\n<\/jats:sec>\n<jats:sec id=\"sec002\">\n<jats:title>Methods<\/jats:title>\n<jats:p>Here, we introduce a novel procedure based on hierarchical bootstrapping for calculating statistical power and required sample size for wearable light and optical radiation logging data and derived summary metrics, taking into account the hierarchical data structure (mixed-effects model) through stepwise resampling. Alongside this method, we publish a dataset that serves as one possible basis to perform these calculations: one week of continuous data in winter and summer, respectively, for 13 early-day shift-work participants (collected in Dortmund, Germany; lat. 51.514° N, lon. 7.468° E).<\/jats:p>\n<\/jats:sec>\n<jats:sec id=\"sec003\">\n<jats:title>Results<\/jats:title>\n<jats:p>Applying our method on the dataset for twelve different summary metrics (luminous exposure, geometric mean, and standard deviation, timing/time above/below threshold, mean/midpoint of darkest/brightest hours, intradaily variability) with a target comparison across winter and summer, reveals required sample sizes ranging from as few as 3 to more than 50. About half of the metrics–those that focus on the bright time of day–showed sufficient power already with the smallest sample. In contrast, metrics centered around the dark time of the day and daily patterns required higher sample sizes: mean timing of light below mel EDI of 10 lux (5), intradaily variability (17), mean of darkest 5 hours (24), and mean timing of light above mel EDI of 250 lux (45). The geometric standard deviation and the midpoint of the darkest 5 hours lacked sufficient power within the tested sample size.<\/jats:p>\n<\/jats:sec>\n<jats:sec id=\"sec004\">\n<jats:title>Conclusions<\/jats:title>\n<jats:p>Our novel method provides an effective technique for estimating sample size in light exposure studies. It is specific to the used light exposure or dosimetry metric and the effect size inherent in the light exposure data at the basis of the bootstrap. Notably, the method goes beyond typical implementations of bootstrapping to appropriately address the structure of the data. It can be applied to other datasets, enabling comparisons across scenarios beyond seasonal differences and activity patterns. With an ever-growing pool of data from the emerging literature, the utility of this method will increase and provide a solid statistical basis for the selection of sample sizes.<\/jats:p>\n<\/jats:sec>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2024-11-28 11:00:00",
+    "repository": "github::codecheckers/ZaunerEtAl_PLoS_ONE_2024",
+    "report": "https://doi.org/10.5281/zenodo.14235113",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "R quarto document that was able to compile, but see certificate for details of issues arising.\n",
+    "manifest": [
+      {
+        "file": "Figures/Figure1.png",
+        "comment": "manuscript Figure 1"
+      },
+      {
+        "file": "Figures/Figure2.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "Figures/Figure3.png",
+        "comment": "manuscript Figure 3"
+      },
+      {
+        "file": "Figures/Figure4.png",
+        "comment": "manuscript Figure 4"
+      },
+      {
+        "file": "Figures/FigureS1.png",
+        "comment": "manuscript Figure S1"
+      },
+      {
+        "file": "Figures/FigureS2.png",
+        "comment": "manuscript Figure S2"
+      },
+      {
+        "file": "Figures/FigureS3.png",
+        "comment": "manuscript Figure S3"
+      },
+      {
+        "file": "Figures/FigureS4.png",
+        "comment": "manuscript Figure S4"
+      }
+    ]
+  }
+}

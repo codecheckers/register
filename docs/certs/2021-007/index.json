@@ -1,0 +1,40 @@
+{
+  "certificate": {
+    "id": "2021-007",
+    "url": "https://codecheck.org.uk/register/certs/2021-007/"
+  },
+  "paper": {
+    "title": "Automated Extraction of Labels from Large-Scale Historical Maps",
+    "authors": [
+      {
+        "name": "Inga Schlegel",
+        "orcid": "0000-0003-1468-4944"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-2-12-2021",
+    "abstract": {
+      "text": "<jats:p>Abstract. Historical maps are frequently neither readable, searchable nor analyzable by machines due to lacking databases or ancillary information about their content. Identifying and annotating map labels is seen as a first step towards an automated legibility of those. This article investigates a universal and transferable methodology for the work with large-scale historical maps and their comparability to others while reducing manual intervention to a minimum. We present an end-to-end approach which increases the number of true positive identified labels by combining available text detection, recognition, and similarity measuring tools with own enhancements. The comparison of recognized historical with current street names produces a satisfactory accordance which can be used to assign their point-like representatives within a final rough georeferencing. The demonstrated workflow facilitates a spatial orientation within large-scale historical maps by enabling the establishment of relating databases. Assigning the identified labels to the geometries of related map features may contribute to machine-readable and analyzable historical maps.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2021-06-10 12:00:00",
+    "repository": "osf::anv9r",
+    "report": "https://doi.org/10.17605/osf.io/anv9r",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The provided workflow could be partially reproduced, notably the text detection and string similarity\ncalculations could be executed and provide sufficiently similar results. Some manual steps were included which\ncould not be reproduced, as well as a final step due to long execution time. The software stack was challenging\nto install but overall well documented.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2021 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

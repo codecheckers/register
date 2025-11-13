@@ -1,0 +1,76 @@
+{
+  "certificate": {
+    "id": "2020-017",
+    "url": "https://codecheck.org.uk/register/certs/2020-017/"
+  },
+  "paper": {
+    "title": "Progress in the R ecosystem for representing and handling spatial data",
+    "authors": [
+      {
+        "name": "Roger S. Bivand",
+        "orcid": "0000-0003-2392-6140"
+      }
+    ],
+    "reference": "https://doi.org/10.1007/s10109-020-00336-0",
+    "abstract": {
+      "text": "<jats:title>Abstract<\/jats:title><jats:p>Twenty years have passed since Bivand and Gebhardt (J Geogr Syst 2(3):307–317, 2000.<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" xlink:href=\"https://doi.org/10.1007/PL00011460\">10.1007/PL00011460<\/jats:ext-link>) indicated that there was a good match between the then nascent open-source R programming language and environment and the needs of researchers analysing spatial data. Recalling the development of classes for spatial data presented in book form in Bivand et al. (Applied spatial data analysis with R. Springer, New York, 2008, Applied spatial data analysis with R, 2nd edn. Springer, New York, 2013), it is important to present the progress now occurring in representation of spatial data, and possible consequences for spatial data handling and the statistical analysis of spatial data. Beyond this, it is imperative to discuss the relationships between R-spatial software and the larger open-source geospatial software community on whose work R packages crucially depend.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-08-27",
+    "repository": "github::codecheckers/JGSY-D-19-00087",
+    "report": "https://doi.org/10.5281/zenodo.4003848",
+    "type": "journal",
+    "venue": "J Geogr Syst",
+    "summary": "Successful check of well-organised R script. All figures match the ones provided by the author.\n",
+    "manifest": [
+      {
+        "file": "figure1.pdf",
+        "comment": "Figure 1"
+      },
+      {
+        "file": "figure2.pdf",
+        "comment": "Figure 2"
+      },
+      {
+        "file": "figure3.pdf",
+        "comment": "Figure 3"
+      },
+      {
+        "file": "figure4a.pdf",
+        "comment": "Figure 4a"
+      },
+      {
+        "file": "figure4b.pdf",
+        "comment": "Figure 4b"
+      },
+      {
+        "file": "figure5.pdf",
+        "comment": "Figure 5"
+      },
+      {
+        "file": "figure6.pdf",
+        "comment": "Figure 6"
+      },
+      {
+        "file": "figure7.pdf",
+        "comment": "Figure 7"
+      },
+      {
+        "file": "webmap1.png",
+        "comment": "Figure 8"
+      },
+      {
+        "file": "output.Rout",
+        "comment": "Verbatim console output captured by sink, including messages"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "certificate": {
+    "id": "2021-003",
+    "url": "https://codecheck.org.uk/register/certs/2021-003/"
+  },
+  "paper": {
+    "title": "Investigating drivers’ geospatial abilities in unfamiliar environments",
+    "authors": [
+      {
+        "name": "Dafni Karkasina"
+      },
+      {
+        "name": "Margarita Kokla"
+      },
+      {
+        "name": "Eleni Tomai",
+        "orcid": "0000-0003-1162-7389"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-2-3-2021",
+    "abstract": {
+      "text": "<jats:p>Abstract. The prominence of landmarks in aiding pedestrian navigation has been highlighted in various studies; people rely strongly on visual landmarks, especially when navigating in unfamiliar environments. The paper describes the design and implementation of a study for assessing drivers’ spatial abilities, when navigating in an unfamiliar environment. Two types of route directions based on references to either landmarks or street names were given to two groups of participants. Three geospatial learning tasks are used to evaluate these abilities: map sketching, distance, and direction estimation. The findings showed that landmark-based route instructions help drivers develop a better cognitive map of the route. On the other hand, instructions either based on landmarks or on street information do not have an effect on distance or direction estimates. Nonetheless, qualitative analysis of directions and distances estimations gave interesting results. Findings associated with self-assessment of environmental spatial abilities using the Santa Barbara Sense of Direction Scale (SBSOD) seem to support prediction of at least one of the drivers’ abilities among those assessed in this study.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "check_time": "2021-06-10 12:00:00",
+    "repository": "osf::dx92a",
+    "report": "https://doi.org/10.17605/osf.io/dx92a",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The updated submission contains a DASA section and provides the analysis script, dataset and questionnaires.\nThe provided R script computes all statistical analyses presented in the paper and generates the key figure\nand data for both presented tables. The reproduction was successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2021 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

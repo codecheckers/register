@@ -1,0 +1,76 @@
+{
+  "certificate": {
+    "id": "2020-001",
+    "url": "https://codecheck.org.uk/register/certs/2020-001/"
+  },
+  "paper": {
+    "title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
+    "authors": [
+      {
+        "name": "Terry J Lee"
+      },
+      {
+        "name": "Erica Suh"
+      },
+      {
+        "name": "Kimball Hill"
+      },
+      {
+        "name": "Stephen R Piccolo"
+      }
+    ],
+    "reference": "https://doi.org/10.1093/gigascience/giaa026",
+    "abstract": {
+      "text": "<jats:title>Abstract<\/jats:title>\n               <jats:sec>\n                  <jats:title>Background<\/jats:title>\n                  <jats:p>Classification algorithms assign observations to groups based on patterns in data. The machine-learning community have developed myriad classification algorithms, which are used in diverse life science research domains. Algorithm choice can affect classification accuracy dramatically, so it is crucial that researchers optimize the choice of which algorithm(s) to apply in a given research domain on the basis of empirical evidence. In benchmark studies, multiple algorithms are applied to multiple datasets, and the researcher examines overall trends. In addition, the researcher may evaluate multiple hyperparameter combinations for each algorithm and use feature selection to reduce data dimensionality. Although software implementations of classification algorithms are widely available, robust benchmark comparisons are difficult to perform when researchers wish to compare algorithms that span multiple software packages. Programming interfaces, data formats, and evaluation procedures differ across software packages; and dependency conflicts may arise during installation.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Findings<\/jats:title>\n                  <jats:p>To address these challenges, we created ShinyLearner, an open-source project for integrating machine-learning packages into software containers. ShinyLearner provides a uniform interface for performing classification, irrespective of the library that implements each algorithm, thus facilitating benchmark comparisons. In addition, ShinyLearner enables researchers to optimize hyperparameters and select features via nested cross-validation; it tracks all nested operations and generates output files that make these steps transparent. ShinyLearner includes a Web interface to help users more easily construct the commands necessary to perform benchmark comparisons. ShinyLearner is freely available at https://github.com/srp33/ShinyLearner.<\/jats:p>\n               <\/jats:sec>\n               <jats:sec>\n                  <jats:title>Conclusions<\/jats:title>\n                  <jats:p>This software is a resource to researchers who wish to benchmark multiple classification or feature-selection algorithms on a given dataset. We hope it will serve as example of combining the benefits of software containerization with a user-friendly approach.<\/jats:p>\n               <\/jats:sec>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2019-02-14 10:00:00",
+    "repository": "github::codecheckers/Piccolo-2020",
+    "report": "http://doi.org/10.5281/zenodo.3674056",
+    "type": "journal",
+    "venue": "GigaScience",
+    "summary": "Only visualiation steps performed, rather than machine learning (which could take several hours/days).  The created figures match those in the article. The content of other output files was not checked.",
+    "manifest": [
+      {
+        "file": "Figures/Datasets_Basic_AUROC.pdf",
+        "comment": "Figure 2 of manuscript"
+      },
+      {
+        "file": "Figures/Predictions_Histograms.pdf",
+        "comment": "Figure 3 of manuscript"
+      },
+      {
+        "file": "Figures/Algorithms_ParamsImprovement_AUROC.pdf",
+        "comment": "Figure 4 of manuscript"
+      },
+      {
+        "file": "Figures/Algorithms_FSImprovement_AUROC.pdf",
+        "comment": "Figure 5 of manuscript"
+      },
+      {
+        "file": "Figures/FS_vs_CL.pdf",
+        "comment": "Figure 6 of manuscript"
+      },
+      {
+        "file": "Figures/FS_NumFeatures.pdf",
+        "comment": "Figure 7 of manuscript"
+      },
+      {
+        "file": "Tables/Basic_DiffFromMedian.tsv",
+        "comment": "Example output table 1 (not in manuscript)"
+      },
+      {
+        "file": "Tables/ParamOpt_Improvement.tsv",
+        "comment": "Example output table 2 (not in manuscript)"
+      }
+    ]
+  }
+}

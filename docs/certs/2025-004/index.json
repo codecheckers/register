@@ -1,0 +1,55 @@
+{
+  "certificate": {
+    "id": "2025-004",
+    "url": "https://codecheck.org.uk/register/certs/2025-004/"
+  },
+  "paper": {
+    "title": "Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach",
+    "authors": [
+      {
+        "name": "Tworit K. Dash",
+        "orcid": "0000-0003-3127-8841"
+      },
+      {
+        "name": "David Prinsloo",
+        "orcid": "0000-0001-6052-9692"
+      },
+      {
+        "name": "Alexander Yarovoy"
+      }
+    ],
+    "reference": "https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Joao Guimaraes",
+        "orcid": "0000-0002-6545-3102"
+      }
+    ],
+    "check_time": "2025-04-08 10:00:00",
+    "repository": "github::codecheckers/certificate-2025-004",
+    "report": "https://doi.org/10.5281/zenodo.15310765",
+    "type": "institution",
+    "venue": "TU Delft DCC",
+    "summary": "The first figure shown in the code repository's README, so as the instructions shared in the same README on how to execute REF.m. The output figures are not found in the main publication.\n",
+    "manifest": [
+      {
+        "file": "3DPlot_Antenna_Geometry_a1.jpg",
+        "comment": "Figure showing geometric structure retrieved by executing REF.m as instructed in the README."
+      },
+      {
+        "file": "3DPlot_Antenna_Geometry_a2.jpg",
+        "comment": "Figure showing geometric structure retrieved by executing REF.m following the same instructions in the README, except 200 frequency points were requested instead of the suggested 100."
+      },
+      {
+        "file": "3DPlot_Antenna_Geometry_a3.jpg",
+        "comment": "Figure showing geometric structure retrieved by executing REF.m following the same instructions in the README, except the instructions to define the radius and length of Elements 1 and 3 are switched between the two elements."
+      },
+      {
+        "file": "readme_1stGeomFigure.jpg",
+        "comment": "Figure showing geometric structure represented in the README’s first figure."
+      }
+    ]
+  }
+}

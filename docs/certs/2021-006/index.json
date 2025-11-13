@@ -1,0 +1,54 @@
+{
+  "certificate": {
+    "id": "2021-006",
+    "url": "https://codecheck.org.uk/register/certs/2021-006/"
+  },
+  "paper": {
+    "title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
+    "authors": [
+      {
+        "name": "Meilin Shi"
+      },
+      {
+        "name": "Krzysztof Janowicz"
+      },
+      {
+        "name": "Ling Cai",
+        "orcid": "0000-0001-7106-4907"
+      },
+      {
+        "name": "Gengchen Mai",
+        "orcid": "0000-0002-7818-7309"
+      },
+      {
+        "name": "Rui Zhu",
+        "orcid": "0000-0002-8910-9445"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-2-14-2021",
+    "abstract": {
+      "text": "<jats:p>Abstract. Identifying determinants of tourist destination choice is an important task in the study of nature-based tourism. Traditionally, the study of tourist behavior relies on survey data and travel logs, which are labor-intensive and time-consuming. Thanks to location-based social networks, more detailed data is available at a finer grained spatio-temporal scale. This allows for better insights into travel patterns and interactions between attractions, e.g., parks. Meanwhile, such data sources also bring along a novel social influence component that has not yet been widely studied in terms of travel decisions. For example, social influencers post about certain places, which tend to influence destination choices of tourists. Therefore, in this paper, we propose a socially aware Huff model to account for this social factor in the study of destination choice. Moreover, with fine-grained social media data, interactions between attractions (i.e., the neighboring effects) can be better quantified and thus integrated into models as another factor. In our experiment, we calibrate a model by using trip sequences extracted from geotagged Flickr photos within two national parks in the United States. Our results demonstrate that the socially aware Huff model better simulates tourist travel preferences. In addition, we explore the significance of each factor and summarize the spatial-temporal travel pattern for each attraction. The socially aware Huff model and the calibration method can be applied to other fields such as promotional marketing.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Jakub Krukar",
+        "orcid": "0000-0003-2615-8757"
+      }
+    ],
+    "check_time": "2021-06-10 12:00:00",
+    "repository": "osf::4cpm3",
+    "report": "https://doi.org/10.17605/OSF.IO/4CPM3",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The code, sample API query, and downloaded data were published in a public GitHub repository with a\nworking Binder link. All files containing the code could be executed and all tables presented in the paper\ncould be reproduced with only minor changes to the code. However, the code does not create figures\ncontained in the paper and an attempt to change the results of the model evaluation by changing its\nnumerical assumption was unsuccessful. The authors demonstrate concern for the reproducibility of their\nwork and actively improved the reproducibility workflow throughout the reproducibility review process.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2021 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

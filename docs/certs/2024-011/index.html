@@ -36,13 +36,78 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-011/",
+  "name": "CODECHECK Certificate 2024-011",
+  "url": "https://codecheck.org.uk/register/certs/2024-011/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rémy Decoupes",
+      "@id": "https://orcid.org/0000-0003-0863-9581"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Dagoberto José Herrera-Murillo",
+        "@id": "https://orcid.org/0000-0002-8000-628X"
+      },
+      {
+        "@type": "Person",
+        "name": "Héctor Ochoa-Ortiz",
+        "@id": "https://orcid.org/0000-0002-6477-0683"
+      },
+      {
+        "@type": "Person",
+        "name": "Umair Ahmed",
+        "@id": "https://orcid.org/0000-0003-2260-2777"
+      },
+      {
+        "@type": "Person",
+        "name": "Francisco Javier López-Pellicer",
+        "@id": "https://orcid.org/0000-0001-6491-7430"
+      },
+      {
+        "@type": "Person",
+        "name": "Barbara Re",
+        "@id": "https://orcid.org/0000-0001-5374-2364"
+      },
+      {
+        "@type": "Person",
+        "name": "Andrea Polini",
+        "@id": "https://orcid.org/0000-0002-2840-7561"
+      },
+      {
+        "@type": "Person",
+        "name": "Javier Nogueras-Iso",
+        "@id": "https://orcid.org/0000-0002-1279-0367"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Geographic information is vital for organising humanitarian campaigns and helping those in need. The leading Humanitarian OpenStreetMap Team (HOT) organises projects to create the necessary geographical information and connect to the organisations that need to make decisions on the ground. This work provides insights into project management dynamics and volunteers’ interaction with user interfaces in Volunteered Geographic Information (VGI) in a humanitarian context. We do so by conducting a process analysis of 746 completed, fully validated, and archived projects in the HOT Tasking Manager (HOT-TM) over the past two years. The analysis encompasses a process discovery stage from the perspectives of control flow, time, organisation, and outcome of the mapping tasks that comprise a project. The findings offer valuable implications for future project planning and execution in similar contexts. Our process mining exploration of the task states found a clear path that involves mapping and validation operations with minor deviations. However, we did find a major bottleneck from the mapping to the validation phase, which could reflect that validation capabilities are a scarce resource. Proactive notification for validators, artificial intelligence adoption for task planning, user interface redesign, and strategies for better harnessing the collective intelligence of volunteers could improve the process. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-5-5-2024",
+    "sameAs": "https://doi.org/10.5194/agile-giss-5-5-2024"
+  },
+  "reviewBody": "The authors made their code available through a GitHub repository.\nThe Readme.md file provides clear instructions for executing the entire code. It is worth noting that the input data is available provided that accounts are created with HOTOSM and Bunting Labs.\nThe data retrieval process takes a long time.\nTherefore, the authors provided me with all the input data for my review.\nI did not encounter any difficulties in executing the Python notebooks.\nAs a result, I produced intermediate data (in 4 CSV files). Unfortunately, I encountered some blocking errors when executing the R Markdown (which is the notebook responsible for producing tables and figures of the manuscript).\nAssisted by the authors, we discovered that the errors were caused by the content of the intermediate files I had generated.\nStrictly speaking, since the authors shared all their input data with me, I should not have encountered these errors.\nTo continue my review, the authors sent me their version of the intermediate files.\nThanks to them, I was able to execute the entire R Markdown and generate all the tables and figures.\n",
+  "datePublished": "2024-05-27",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/FMGB4"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +394,9 @@ The authors made their code available through a GitHub repository. The Readme.md
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +442,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +461,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

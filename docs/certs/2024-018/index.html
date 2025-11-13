@@ -36,13 +36,58 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-018/",
+  "name": "CODECHECK Certificate 2024-018",
+  "url": "https://codecheck.org.uk/register/certs/2024-018/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Power analysis for personal light exposure measurements and interventions\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Johannes Zauner",
+        "@id": "https://orcid.org/0000-0003-2171-4566"
+      },
+      {
+        "@type": "Person",
+        "name": "Ljiljana Udovicic",
+        "@id": "https://orcid.org/0000-0002-6035-8309"
+      },
+      {
+        "@type": "Person",
+        "name": "Manuel Spitschan",
+        "@id": "https://orcid.org/0000-0002-8572-9268"
+      }
+    ],
+    "abstract": "<jats:sec id=\"sec001\">\n<jats:title>Background<\/jats:title>\n<jats:p>Light exposure regulates the human circadian system and more widely affects health, well-being, and performance. With the rise in field studies on light exposure’s effects, the amount of data collected through wearable loggers and dosimeters has also grown. These data are more complex than stationary laboratory measurements. Determining sample sizes in field studies is challenging, as the literature shows a wide range of sample sizes (between 2 and 1,887 from a recent review of the field and approaching 10<jats:sup>5<\/jats:sup> participants in first studies using large-scale ‘biobank’ databases). Current decisions on sample size for light exposure data collection lack a specific basis rooted in power analysis. Therefore, there is a need for clear guidance on selecting sample sizes.<\/jats:p>\n<\/jats:sec>\n<jats:sec id=\"sec002\">\n<jats:title>Methods<\/jats:title>\n<jats:p>Here, we introduce a novel procedure based on hierarchical bootstrapping for calculating statistical power and required sample size for wearable light and optical radiation logging data and derived summary metrics, taking into account the hierarchical data structure (mixed-effects model) through stepwise resampling. Alongside this method, we publish a dataset that serves as one possible basis to perform these calculations: one week of continuous data in winter and summer, respectively, for 13 early-day shift-work participants (collected in Dortmund, Germany; lat. 51.514° N, lon. 7.468° E).<\/jats:p>\n<\/jats:sec>\n<jats:sec id=\"sec003\">\n<jats:title>Results<\/jats:title>\n<jats:p>Applying our method on the dataset for twelve different summary metrics (luminous exposure, geometric mean, and standard deviation, timing/time above/below threshold, mean/midpoint of darkest/brightest hours, intradaily variability) with a target comparison across winter and summer, reveals required sample sizes ranging from as few as 3 to more than 50. About half of the metrics–those that focus on the bright time of day–showed sufficient power already with the smallest sample. In contrast, metrics centered around the dark time of the day and daily patterns required higher sample sizes: mean timing of light below mel EDI of 10 lux (5), intradaily variability (17), mean of darkest 5 hours (24), and mean timing of light above mel EDI of 250 lux (45). The geometric standard deviation and the midpoint of the darkest 5 hours lacked sufficient power within the tested sample size.<\/jats:p>\n<\/jats:sec>\n<jats:sec id=\"sec004\">\n<jats:title>Conclusions<\/jats:title>\n<jats:p>Our novel method provides an effective technique for estimating sample size in light exposure studies. It is specific to the used light exposure or dosimetry metric and the effect size inherent in the light exposure data at the basis of the bootstrap. Notably, the method goes beyond typical implementations of bootstrapping to appropriately address the structure of the data. It can be applied to other datasets, enabling comparisons across scenarios beyond seasonal differences and activity patterns. With an ever-growing pool of data from the emerging literature, the utility of this method will increase and provide a solid statistical basis for the selection of sample sizes.<\/jats:p>\n<\/jats:sec>",
+    "url": "https://doi.org/10.1371/journal.pone.0308768",
+    "sameAs": "https://doi.org/10.1371/journal.pone.0308768"
+  },
+  "reviewBody": "R quarto document that was able to compile, but see certificate for details of issues arising.\n",
+  "datePublished": "2024-11-28",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.14235113"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +374,9 @@ R quarto document that was able to compile, but see certificate for details of i
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +422,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +441,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

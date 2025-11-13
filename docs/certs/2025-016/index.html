@@ -36,13 +36,68 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-016/",
+  "name": "CODECHECK Certificate 2025-016",
+  "url": "https://codecheck.org.uk/register/certs/2025-016/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Barbara Hofer",
+      "@id": "https://orcid.org/0000-0001-7078-3766"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Changes in Road Centrality and Hospital Access Redundancy: Impacts of the 2024 Flood in the Metropolitan Core of Porto Alegre, Brazil",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ricardo Ruiz Sánchez",
+        "@id": "https://orcid.org/0009-0000-6108-3389"
+      },
+      {
+        "@type": "Person",
+        "name": "Marcel Reinmuth",
+        "@id": "https://orcid.org/0000-0002-0204-5101"
+      },
+      {
+        "@type": "Person",
+        "name": "Cristian Albornoz",
+        "@id": "https://orcid.org/0000-0002-5476-2508"
+      },
+      {
+        "@type": "Person",
+        "name": "Sven Lautenbach",
+        "@id": "https://orcid.org/0000-0003-1825-9996"
+      },
+      {
+        "@type": "Person",
+        "name": "Alexander Zipf",
+        "@id": "https://orcid.org/0000-0003-4916-9838"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. In view of climate change driving extreme events such as floods, assessing urban infrastructure resilience is critical for disaster response and urban planning. We investigated how flooding in Rio Grande do Sul affected road network connectivity and urban resilience in terms of lack of redundancy to healthcare facilities. We performed centrality analysis using the edge betweenness indicator to identify urban arteries critical for connectivity at metropolitan and intracity scales and compared alternative routes to assess healthcare facilities resilience. Understanding how floods disrupt road connectivity and mobility is critical for identifying vulnerable areas and improving disaster response planning. The results revealed that just 71 km—or 2% of the total analysed network—accounted for 12% of core-metropolitan connectivity prior to the floods. These high-centrality urban arteries, including the BR-290 Freeway, were disproportionately affected: they lost approximately 92% of their total centrality after the flooding. Overall, the road network experienced a 59% reduction in betweenness centrality at the core metropolitan scale. At the municipal level, impacts varied. For example, Canoas experienced a 59% loss in intracity connectivity, while Nova Santa lost only 14%, despite a larger flooded area (113 km2 versus 65 km2). Regarding the analysis of urban resilience to access healthcare facilities, the results revealed higher deficits in peripheral hospitals, such as Hospital Restinga e Extremo Sul, indicating a lower resilience. These results indicate the importance of multi-scale analyses to reveal spatial disparities and inform disaster risk management. This study provides actionable insights to support decision-makers in improving emergency responses and strengthening infrastructure resilience to future climate-related disasters. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-6-10-2025",
+    "sameAs": "https://doi.org/10.5194/agile-giss-6-10-2025"
+  },
+  "reviewBody": "Partial reproduction with a focus on the analysis part presented in the paper.\nExcellent exchange with the authors that allowed a successful reproduction; meanwhile material to reproduce the preprocessing of data has been shared by the authors as well.\n",
+  "datePublished": "2025-06-06",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/28JT4"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +384,9 @@ Partial reproduction with a focus on the analysis part presented in the paper. E
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +432,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +451,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

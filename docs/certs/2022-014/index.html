@@ -36,13 +36,52 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-014/",
+  "name": "CODECHECK Certificate 2022-014",
+  "url": "https://codecheck.org.uk/register/certs/2022-014/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Philipp A. Friese",
+      "@id": "https://orcid.org/0000-0002-3124-5364"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "A method to produce metadata describing and assessing the quality of spatial landmark datasets in mountain area",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Marie-Dominique Van Damme",
+        "@id": "https://orcid.org/0000-0002-0007-5972"
+      },
+      {
+        "@type": "Person",
+        "name": "Ana-Maria Olteanu-Raimond"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. The increase of recreational activities in the mountains and a growing amount of websites proposing geographic data, offer new opportunities for societal needs such as mountain rescue, biodiversity monitoring, outdoor activities. However, the main issue with the websites data is the lack of metadata that minimizes its reuse outside the community that produced the data. The goal of this paper is to study and generate quality and descriptive metadata using ISO standards. To this end, we propose a method based on a common vocabulary such as an ontology and a data matching process. The first one allows to associate to each type of feature from an available geographic dataset an ontology class that will facilitate data matching, reproducibility of results and minimize semantic heterogeneity. The second one allows to define matching links between features representing the same entity in the real world and compute quality indicators based on the validated links. Finally, at the end of this process, we are able to generate descriptive and quality metadata. By following ISO standards and using the QualityML dictionary for measures, the metadata is serialized to XML and can finally be published as open source. Our approach was applied to five different landmark datasets in the French Alps region. New insights were acquired regarding positional accuracy and semantic granularity.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-17-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-17-2022"
+  },
+  "reviewBody": "The software of the paper under reproduction is publicly available on GitHub.\nThe data sets are publicly available in a zenodo project.\nOut of the four Figures and four Tables, two Figures and two Tables are eligible for reproduction.\nBoth eligible Figures have been successfully reproduced.\nBoth eligible Tables have been partially reproduced. The reproduction of Table 3 and 4 was partial as the provided software scripts comprise reproduction of one out of the four data columns. The remaining columns are expected to be reproducible after adjusting the scripts with references to the remaining data sets.\nThe authors showed concern and dedication to improve reproducibility of their work.\nReproduction was partially successful.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/6s2gp"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +368,9 @@ The software of the paper under reproduction is publicly available on GitHub. Th
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +416,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +435,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

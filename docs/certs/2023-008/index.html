@@ -36,13 +36,59 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2023-008/",
+  "name": "CODECHECK Certificate 2023-008",
+  "url": "https://codecheck.org.uk/register/certs/2023-008/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rémy Decoupes",
+      "@id": "https://orcid.org/0000-0003-0863-9581"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Vasileios Milias"
+      },
+      {
+        "@type": "Person",
+        "name": "Shahin Sharifi Noorian"
+      },
+      {
+        "@type": "Person",
+        "name": "Alessandro Bozzon"
+      },
+      {
+        "@type": "Person",
+        "name": "Achilleas Psyllidis"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. City streets that feel safe and attractive motivate active travel behaviour and promote people’s well-being. However, determining what makes a street safe and attractive is a challenging task because subjective qualities of the streetscape are difficult to quantify. Existing evidence typically focuses on how different street features influence perceived safety or attractiveness, but little is known about what influences both. To fill this knowledge gap, we developed a crowdsourcing tool and conducted a study with 403 participants, who were asked to virtually navigate city streets in Frankfurt, Germany, through a sequence of street-level images, rate locations based on perceived safety and attractiveness, and explain their ratings. Our results contribute new insights regarding the key similarities and differences between the factors influencing perceived safety and attractiveness. We show that the presence of human activity is strongly related to perceived safety, whereas attractiveness is influenced primarily by aesthetic qualities, as well as the number and type of amenities along a street. Moreover, we demonstrate that the presence of construction sites and underpasses has a disproportionately negative impact on perceived safety and attractiveness, outweighing the influence of any other features. We use the results to make evidence-informed recommendations for designing safer and more attractive streets that encourage active travel modes and promote well-being. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-4-8-2023",
+    "sameAs": "https://doi.org/10.5194/agile-giss-4-8-2023"
+  },
+  "reviewBody": "The code and data provided by the authors allow to fully reproduce their work as presented in the reviewed paper.\nThe authors shared two repositories through github. The first one, called subjectivity, aims to build and run a whole web application (with database and a front web application).\nThis web application allows to collect annotations from surveyed persons by proposing them different pictures of places through a track (see Fig. 1).\nThe screenshot from the manuscript Figure 1 could be partially reproduced by this web application since the data used by the authors are not publicy available.\nThe second repository, streetception, proposes two notebook in order to reproduce the analysis of the data collected by the authors through their web application.\nThe authors have made significant efforts to improve their code and data sharing through the AGILE reproducibility process!\n",
+  "datePublished": "2023-06-13",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/aqgxr"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +375,9 @@ The code and data provided by the authors allow to fully reproduce their work as
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +423,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +442,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

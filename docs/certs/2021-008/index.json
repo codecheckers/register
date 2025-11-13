@@ -1,0 +1,47 @@
+{
+  "certificate": {
+    "id": "2021-008",
+    "url": "https://codecheck.org.uk/register/certs/2021-008/"
+  },
+  "paper": {
+    "title": "Flood Impact Assessment on Road Network and Healthcare Access at the example of Jakarta, Indonesia",
+    "authors": [
+      {
+        "name": "Isabell G. Klipper"
+      },
+      {
+        "name": "Alexander Zipf",
+        "orcid": "0000-0003-4916-9838"
+      },
+      {
+        "name": "Sven Lautenbach",
+        "orcid": "0000-0003-1825-9996"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-2-4-2021",
+    "abstract": {
+      "text": "<jats:p>Abstract. Climate change leads to an increasing number of flood events that poses threats to a large share of the global population. In addition to direct effects, flooding leads to indirect effect due to damages of the road infrastructure that might limit accessibility of health sites. For disaster preparedness it is important to know how flood events impact accessibility in that respect. We analyzed this at the example of the capital of Indonesia, Jakarta based on the flood event of 2013. The analysis was based on information about the road network and health sites from OpenStreetMap. We assessed impacts of the flood event by comparing centrality indicators of the road network as well as by an accessibility analysis of health sites before and during the event. The flooded areas were home to 2.75 million inhabitants and hosted 79 clinics and hospitals. The flood split the road network into several subgraphs. The city center maintained its importance for time-efficient routing as well as for easily accessible healthcare but might be prone to traffic congestion after such an event. Indirect effects via interrupted road traffic through flooded areas affected around 1.5 million inhabitants and led to an increase of travel time to the nearest hospital by five minutes based on normal traffic conditions.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Anita Graser",
+        "orcid": "0000-0001-5361-2885"
+      }
+    ],
+    "check_time": "2021-06-10 12:00:00",
+    "repository": "osf::g4dcq",
+    "report": "https://doi.org/10.17605/osf.io/g4dcq",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The provided workflow was partially reproduced. The reproduction described in this report uses the Python code provided\nin the Github.com repo and data provided by the authors via email. The figures generated using this\nsource code are not identical to the figures in the paper. However, many of the results reported in the paper could be reproduced.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2021 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

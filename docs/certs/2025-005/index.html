@@ -36,13 +36,53 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-005/",
+  "name": "CODECHECK Certificate 2025-005",
+  "url": "https://codecheck.org.uk/register/certs/2025-005/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Verification Report of Zhao et al. (2023) ‘Effect of Acceptance and Commitment Therapy for depressive disorders: a meta-analysis’ \n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ian Hussey",
+        "@id": "https://orcid.org/0000-0001-8906-7559"
+      },
+      {
+        "@type": "Person",
+        "name": "Malte Elson",
+        "@id": "https://orcid.org/0000-0001-7806-9583"
+      }
+    ],
+    "abstract": "<jats:p>\n        Zhao et al.’s (2023) recent meta-analysis of ACT vs. control interventions for depressive disorders reported an overall meta-analytic effect size of Hedges g = -1.05. However, errors appear to have been made in the extraction of effect sizes. Re-extraction of the effect sizes from the original articles suggests that 3 of 8 recalculated effect sizes were erroneous: Standard Errors (SE) were confused for Standard Deviations (SD) in two cases, and incorrect sample sizes were extracted in one case. When the first meta-analysis they report was re-run following Zhao et al.’s (2023) analytic strategy, the resulting meta-analytic effect size of Hedges’ g = 0.68 was 35% smaller than that reported in the original meta-analysis. The results of other subgroup meta-analyses reported by Zhao et al. (2023) are likely also to be affected. Other aspects of Zhao et al. (2023) may also require scrutiny for the presence of errors. Given the detected errors in the results, the conclusions of Zhao et al. (2023) are undermined and likely require correction. All data and code available at osf.io/jwcmu.\n        <\/jats:p>",
+    "url": "https://doi.org/10.71240/lcyc.052239",
+    "sameAs": "https://doi.org/10.71240/lcyc.052239"
+  },
+  "reviewBody": "The article referenced data and code in a OSF project.  An included computational notebook in R Markdown format could be executed without errors and Figure 1, Figure 2, Figure 3, and Table 2 as well as numerical statics could be recreated with the code in the notebook. The data deposit contains further files matching other tables in the article, though these are likely, at least partially, manually created and out of scope. The check was successful.\n",
+  "datePublished": "2025-05-15",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.15323262"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +369,9 @@ The article referenced data and code in a OSF project. An included computational
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +417,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +436,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

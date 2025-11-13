@@ -1,0 +1,68 @@
+{
+  "certificate": {
+    "id": "2022-018",
+    "url": "https://codecheck.org.uk/register/certs/2022-018/"
+  },
+  "paper": {
+    "title": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
+    "authors": [
+      {
+        "name": "Ruining Dong",
+        "orcid": "0000-0003-1433-0484"
+      },
+      {
+        "name": "Daniel Cameron",
+        "orcid": "0000-0002-0951-7116"
+      },
+      {
+        "name": "Justin Bedo",
+        "orcid": "0000-0001-5704-0212"
+      },
+      {
+        "name": "Anthony T Papenfuss",
+        "orcid": "0000-0002-1102-8506"
+      }
+    ],
+    "reference": "https://doi.org/10.46471/gigabyte.70",
+    "abstract": {
+      "text": "<jats:p> \n            Nuclear integration of mitochondrial genomes and retrocopied transcript insertion are biologically important but often-overlooked aspects of structural variant (SV) annotation. While tools for their detection exist, these typically rely on reanalysis of primary data using specialised detectors rather than leveraging calls from general purpose structural variant callers. Such reanalysis potentially leads to additional computational expense and does not take advantage of advances in general purpose structural variant calling. Here, we present svaRetro and svaNUMT; R packages that provide functions for annotating novel genomic events, such as nonreference retrocopied transcripts and nuclear integration of mitochondrial DNA. The packages were developed to work within the Bioconductor framework. We evaluate the performance of these packages to detect events using simulations and public benchmarking datasets, and annotate processed transcripts in a public structural variant database. svaRetro and svaNUMT provide modular, SV-caller agnostic tools for downstream annotation of structural variant calls.\n          <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Raniere Silva",
+        "orcid": "0000-0002-8381-3749"
+      }
+    ],
+    "check_time": "2022-09-27 00:00:00",
+    "repository": "gitlab::cdchck/community-codechecks/2022-svaRetro-svaNUMT",
+    "report": "https://doi.org/10.5281/zenodo.7084333",
+    "type": "journal",
+    "venue": "GigaByte",
+    "summary": "Only visualisation steps performed. All created figures match those in the article.\n",
+    "manifest": [
+      {
+        "file": "figure-2b.pdf",
+        "comment": "Figure 2(b) of the article"
+      },
+      {
+        "file": "figure-3b.pdf",
+        "comment": "Figure 3(b) of the article"
+      },
+      {
+        "file": "figure-4.pdf",
+        "comment": "Figure 4 of the article"
+      },
+      {
+        "file": "figure-5.pdf",
+        "comment": "Figure 5 of the article"
+      },
+      {
+        "file": "figure-6.pdf",
+        "comment": "Figure 6 of the article"
+      }
+    ]
+  }
+}

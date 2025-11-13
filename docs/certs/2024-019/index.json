@@ -1,0 +1,236 @@
+{
+  "certificate": {
+    "id": "2024-019",
+    "url": "https://codecheck.org.uk/register/certs/2024-019/"
+  },
+  "paper": {
+    "title": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.\n",
+    "authors": [
+      {
+        "name": "Mohammadamin Sinichi",
+        "orcid": "0009-0008-2491-1542"
+      },
+      {
+        "name": "Martin Gevonden"
+      },
+      {
+        "name": "Lydia Krabbendam"
+      }
+    ],
+    "reference": "https://doi.org/10.31219/osf.io/wkzsn",
+    "abstract": {
+      "text": "<p>Heart rate (HR) and heart rate variability (HRV) are two key measures with significant relevance in psychophysiological studies, and their measurement has become more convenient due to advances in wearable technology. However, photoplethysmography (PPG)-based wearables pose critical validity concerns. In this study, we validated four PPG wearables: three consumer-grade devices (Kyto2935, Schone Rhythm 24, and HeartMath Inner Balance Bluetooth) and one research-grade device (Empatica EmbracePlus, successor to the widely-used but discontinued Empatica E4). All devices were worn simultaneously by 40 healthy participants who underwent conditions commonly used in laboratory research (seated rest, arithmetic task, recovery, slow-paced breathing, a neuropsychological task, posture manipulation by standing up) and encountered in ambulatory-like settings (slow walking and stationary biking), compared against a criterion electrocardiography device, the Vrije Universiteit Ambulatory Monitoring System (VU-AMS). We determined the signal quality, the linear strength through regression analysis, the bias through Bland-Altman analysis, and the measurement error through mean arctangent absolute percentage error for each condition against the criterion device. We found that the research-grade device did not outperform the consumer-grade devices in laboratory conditions. It also showed low agreement with the ECG in ambulatory-like conditions. In general, devices captured HR more accurately compared to HRV. Finally, conditions that deviated from baseline settings and involved slight to high movement, negatively impacted the agreement between PPG devices and the criterion. We conclude that PPG devices, even those advertised and designed for research purposes, may pose validity concerns for HRV measurement in conditions other than those similar to resting states.<\/p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      },
+      {
+        "name": "Tornike Skhirtladze"
+      },
+      {
+        "name": "Joslyn Sun",
+        "orcid": "0009-0002-2379-0060"
+      },
+      {
+        "name": "Gabriella Low Chew Tung"
+      },
+      {
+        "name": "Roel Janssen",
+        "orcid": "0000-0003-4324-5350"
+      }
+    ],
+    "check_time": "2024-12-04 14:00:00",
+    "repository": "github::codecheckers/wearable-hrv",
+    "report": "https://doi.org/10.5281/zenodo.14279041",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "The codecheckers were able to reproduce most of the figures in the manuscript and its supplementary documentation.\n",
+    "manifest": [
+      {
+        "file": "cco/fig2_empatica.png",
+        "comment": "manuscript Fig. 2 (empatica)"
+      },
+      {
+        "file": "cco/fig2_heartmath.png",
+        "comment": "manuscript Fig. 2 (heartmath)"
+      },
+      {
+        "file": "cco/fig2_kyto.png",
+        "comment": "manuscript Fig. 2 (kyto)"
+      },
+      {
+        "file": "cco/fig2_rhythm.png",
+        "comment": "manuscript Fig. 2 (rhythm)"
+      },
+      {
+        "file": "cco/fig4_meanhr.png",
+        "comment": "manuscript Fig. 4 (mean hr)"
+      },
+      {
+        "file": "cco/fig4_rmssd.png",
+        "comment": "manuscript Fig. 4 (rmssd)"
+      },
+      {
+        "file": "cco/fig5.png",
+        "comment": "manuscript Fig. 5"
+      },
+      {
+        "file": "cco/fig6_arithmetic_meanhr.png",
+        "comment": "manuscript Fig. 6 (arithmetic, meanhr)"
+      },
+      {
+        "file": "cco/fig6_arithmetic_rmssd.png",
+        "comment": "manuscript Fig. 6 (arithmetic, rmssd)"
+      },
+      {
+        "file": "cco/fig6_biking_meanhr.png",
+        "comment": "manuscript Fig. 6 (biking, mean hr)"
+      },
+      {
+        "file": "cco/fig6_biking_rmssd.png",
+        "comment": "manuscript Fig. 6 (biking, rmssd)"
+      },
+      {
+        "file": "cco/fig6_sitting_meanhr.png",
+        "comment": "manuscript Fig. 6 (sitting, mean hr)"
+      },
+      {
+        "file": "cco/fig6_sitting_rmssd.png",
+        "comment": "manuscript Fig. 6 (sitting, rmssd)"
+      },
+      {
+        "file": "cco/fig7_meanhr.png",
+        "comment": "manuscript Fig. 7 (mean hr)"
+      },
+      {
+        "file": "cco/fig7_rmssd.png",
+        "comment": "manuscript Fig. 7 (rmssd)"
+      },
+      {
+        "file": "cco/fig8_meanhr.png",
+        "comment": "manuscript Fig. 8 (mean hr)"
+      },
+      {
+        "file": "cco/fig8_rmssd.png",
+        "comment": "manuscript Fig. 8 (rmssd)"
+      },
+      {
+        "file": "cco/fig9_arithmetic_meanhr.png",
+        "comment": "manuscript Fig. 9 (arithmetic, meanhr)"
+      },
+      {
+        "file": "cco/fig9_arithmetic_rmssd.png",
+        "comment": "manuscript Fig. 9 (arithmetic, rmssd)"
+      },
+      {
+        "file": "cco/fig9_biking_meanhr.png",
+        "comment": "manuscript Fig. 9 (biking, mean hr)"
+      },
+      {
+        "file": "cco/fig9_biking_rmssd.png",
+        "comment": "manuscript Fig. 9 (biking, rmssd)"
+      },
+      {
+        "file": "cco/fig9_sitting_meanhr.png",
+        "comment": "manuscript Fig. 9 (sitting, mean hr)"
+      },
+      {
+        "file": "cco/fig9_sitting_rmssd.png",
+        "comment": "manuscript Fig. 9 (sitting, rmssd)"
+      },
+      {
+        "file": "cco/table1.png",
+        "comment": "manuscript Table 1"
+      },
+      {
+        "file": "cco/sfig4_empatica.png",
+        "comment": "supplement Fig. 4 (empatica)"
+      },
+      {
+        "file": "cco/sfig4_heartmath.png",
+        "comment": "supplement Fig. 4 (heartmath)"
+      },
+      {
+        "file": "cco/sfig4_kyto.png",
+        "comment": "supplement Fig. 4 (kyto)"
+      },
+      {
+        "file": "cco/sfig4_rhythm.png",
+        "comment": "supplement Fig. 4 (rhythm)"
+      },
+      {
+        "file": "cco/sfig5_empatica.png",
+        "comment": "supplement Fig. 5 (empatica)"
+      },
+      {
+        "file": "cco/sfig5_heartmath.png",
+        "comment": "supplement Fig. 5 (heartmath)"
+      },
+      {
+        "file": "cco/sfig5_kyto.png",
+        "comment": "supplement Fig. 5 (kyto)"
+      },
+      {
+        "file": "cco/sfig5_rhythm.png",
+        "comment": "supplement Fig. 5 (rhythm)"
+      },
+      {
+        "file": "cco/sfig6_empatica.png",
+        "comment": "supplement Fig. 6 (empatica)"
+      },
+      {
+        "file": "cco/sfig6_heartmath.png",
+        "comment": "supplement Fig. 6 (heartmath)"
+      },
+      {
+        "file": "cco/sfig6_kyto.png",
+        "comment": "supplement Fig. 6 (kyto)"
+      },
+      {
+        "file": "cco/sfig6_rhythm.png",
+        "comment": "supplement Fig. 6 (rhythm)"
+      },
+      {
+        "file": "cco/sfig7_kyto.png",
+        "comment": "supplement Fig. 7 (kyto)"
+      },
+      {
+        "file": "cco/sfig7_rhythm.png",
+        "comment": "supplement Fig. 7 (rhythm)"
+      },
+      {
+        "file": "cco/sfig8_empatica.png",
+        "comment": "supplement Fig. 8 (empatica)"
+      },
+      {
+        "file": "cco/sfig8_heartmath.png",
+        "comment": "supplement Fig. 8 (heartmath)"
+      },
+      {
+        "file": "cco/sfig9_kyto.png",
+        "comment": "supplement Fig. 9 (kyto)"
+      },
+      {
+        "file": "cco/sfig9_rhythm.png",
+        "comment": "supplement Fig. 9 (rhythm)"
+      },
+      {
+        "file": "cco/stable3.png",
+        "comment": "supplement Table 3"
+      },
+      {
+        "file": "cco/stable4.png",
+        "comment": "supplement Table 4"
+      },
+      {
+        "file": "cco/stable5.png",
+        "comment": "supplement Table 5"
+      }
+    ]
+  }
+}

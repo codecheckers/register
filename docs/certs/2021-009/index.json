@@ -1,0 +1,52 @@
+{
+  "certificate": {
+    "id": "2021-009",
+    "url": "https://codecheck.org.uk/register/certs/2021-009/"
+  },
+  "paper": {
+    "title": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
+    "authors": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      },
+      {
+        "name": "Rodrique Kafando",
+        "orcid": "0000-0002-7190-9225"
+      },
+      {
+        "name": "Mathieu Roche",
+        "orcid": "0000-0003-3272-8568"
+      },
+      {
+        "name": "Maguelonne Teisseire",
+        "orcid": "0000-0001-9313-6414"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-2-2-2021",
+    "abstract": {
+      "text": "<jats:p>Abstract. Data produced by social networks may contain weak signals of possible epidemic outbreaks. In this paper, we focus on Twitter data during the waiting period before the appearance of COVID-19 first cases outside China. Among the huge flow of tweets that reflects a global growing concern in all countries, we propose to analyze such data with an adaptation of the TF-IDF measure. It allows the users to extract the discriminant vocabularies used across time and space. The results are then discussed to show how the specific spatio-temporal anchoring of the extracted terms make it possible to follow the crisis dynamics on different scales of time and space.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2021-06-10 12:00:00",
+    "repository": "osf::rdnyu",
+    "report": "https://doi.org/10.17605/osf.io/rdnyu",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The authors provide a well documented workflow analysing a large number of Tweets over a considerable\ntime span. Because of the data size, the authors provided instructions for a data subset, for which the\ncode could be executed successfully and the created figures match the provided baseline, and also confirm\nthat data can be created and the code is available for the results reported in the paper.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2021 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

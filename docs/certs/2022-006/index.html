@@ -36,13 +36,63 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-006/",
+  "name": "CODECHECK Certificate 2022-006",
+  "url": "https://codecheck.org.uk/register/certs/2022-006/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Eftychia Koukouraki",
+      "@id": "https://orcid.org/0000-0003-0928-1139"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ditsuhi Iskandaryan",
+        "@id": "https://orcid.org/0000-0001-6668-2700"
+      },
+      {
+        "@type": "Person",
+        "name": "Silvana Di Sabatino",
+        "@id": "https://orcid.org/0000-0003-2716-9247"
+      },
+      {
+        "@type": "Person",
+        "name": "Francisco Ramos",
+        "@id": "https://orcid.org/0000-0003-2540-4741"
+      },
+      {
+        "@type": "Person",
+        "name": "Sergio Trilles",
+        "@id": "https://orcid.org/0000-0002-9304-0719"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Nitrogen dioxide is one of the most hazardous pollutants identified by the World Health Organisation. Predicting and reducing pollutants is becoming a very urgent task and many methods have been used to predict their concentration, such as physical or machine learning models. In addition to choosing the right model, it is also critical to choose the appropriate features. This work focuses on the spatiotemporal prediction of nitrogen dioxide concentration using Bidirectional Convolutional LSTM integrated with the exploration of nitrogen dioxide and associated features, as well as the implementation of feature selection methods. The Root Mean Square Error and the Mean Absolute Error were used to evaluate the proposed approach.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-6-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-6-2022"
+  },
+  "reviewBody": "The paper evaluates the competence of selected features in the prediction of Nitrogen Dioxide with Machine Learning.\nFor this reproduciblity review, the Figures and Tables of \"Section 5 - Experiments and Results\" were considered, while the Figures of \"Section 3 - Exploratory Analysis\"\" were not.\nThe code of the corresponding analysis was provided as a GitHub repository and the data that is necessary to run the code were provided through a Zenodo repository.\nThe reproduced results were in accordance with the ones reported in the paper, so the reproduction of the paper is considered successful.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/W7VPH"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +379,9 @@ The paper evaluates the competence of selected features in the prediction of Nit
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +427,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +446,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

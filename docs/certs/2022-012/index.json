@@ -1,0 +1,46 @@
+{
+  "certificate": {
+    "id": "2022-012",
+    "url": "https://codecheck.org.uk/register/certs/2022-012/"
+  },
+  "paper": {
+    "title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
+    "authors": [
+      {
+        "name": "Hyesop Shin"
+      },
+      {
+        "name": "Costanza Cagnina"
+      },
+      {
+        "name": "Anahid Basiri",
+        "orcid": "0000-0002-2399-1797"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-15-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Active travel provides significant public health benefits including improving physical and mental health and air quality. Given the geography of congested roads, availability of required infrastructure and cost of transportation in cities, promoting active travel, including cycling, can be a good solution for commuting within built environments. Having a better understanding of the key drivers that may influence bike ridership can help with designing cities that accommodate cyclists’ needs for healthier citizens. This paper examines the built environment features that may affect commuting cyclists. We respectively employ Ordinary Linear Square (OLS) regression and Geographically Weighted Regression (GWR) for 136 Intermediate Zones of the city of Glasgow, UK. The results of GWR show that the significant local variation in green areas suggests that even though the global regression showed a negative association between the greenness and commute cycling, over half of the IZ areas had a strong positive association with the green areas. Building height and Public Transport Availability Index show geographic patterns where the residuals are fairly stationary across the study area with some clusters of high residuals. Performance wise, the results from GWR provided an R2 of 0.73 which was higher than OLS at 0.3. Our results can provide insights into how to use crowdsourced cycling data when there are spatially and temporally limited resources available.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::R6PSQ",
+    "report": "https://doi.org/10.17605/osf.io/r6psq",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The authors provide all the data and code in their GitHub repository. From a fresh install of R, the software environment is easily set up. The authors provide one R script and one computational notebook, which could be executed successfully to create all the paper's figures.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

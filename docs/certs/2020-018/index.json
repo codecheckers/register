@@ -1,0 +1,43 @@
+{
+  "certificate": {
+    "id": "2020-018",
+    "url": "https://codecheck.org.uk/register/certs/2020-018/"
+  },
+  "paper": {
+    "title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
+    "authors": [
+      {
+        "name": "Majid Hojati",
+        "orcid": "0000-0001-7350-0055"
+      },
+      {
+        "name": "Colin Robertson"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-1-6-2020",
+    "abstract": {
+      "text": "<jats:p>Abstract. With new forms of digital spatial data driving new applications for monitoring and understanding environmental change, there are growing demands on traditional GIS tools for spatial data storage, management and processing. Discrete Global Grid System (DGGS) are methods to tessellate globe into multiresolution grids, which represent a global spatial fabric capable of storing heterogeneous spatial data, and improved performance in data access, retrieval, and analysis. While DGGS-based GIS may hold potential for next-generation big data GIS platforms, few of studies have tried to implement them as a framework for operational spatial analysis. Cellular Automata (CA) is a classic dynamic modeling framework which has been used with traditional raster data model for various environmental modeling such as wildfire modeling, urban expansion modeling and so on. The main objectives of this paper are to (i) investigate the possibility of using DGGS for running dynamic spatial analysis, (ii) evaluate CA as a generic data model for dynamic phenomena modeling within a DGGS data model and (iii) evaluate an in-database approach for CA modelling. To do so, a case study into wildfire spread modelling is developed. Results demonstrate that using a DGGS data model not only provides the ability to integrate different data sources, but also provides a framework to do spatial analysis without using geometry-based analysis. This results in a simplified architecture and common spatial fabric to support development of a wide array of spatial algorithms. While considerable work remains to be done, CA modelling within a DGGS-based GIS is a robust and flexible modelling framework for big-data GIS analysis in an environmental monitoring context.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-07-13 11:32:00",
+    "repository": "github::reproducible-agile/AGILECA",
+    "report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The check was straightforward as all material was provided and documented well, but computations took about 3 hours to run.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2020 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/25"
+      }
+    ]
+  }
+}

@@ -36,13 +36,55 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-009/",
+  "name": "CODECHECK Certificate 2024-009",
+  "url": "https://codecheck.org.uk/register/certs/2024-009/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Frank Ostermann",
+      "@id": "https://orcid.org/0000-0002-9317-8291"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Developing a city-specific walkability index through a participatory approach",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Matias Cardoso1"
+      },
+      {
+        "@type": "Person",
+        "name": "Vasileios Milias"
+      },
+      {
+        "@type": "Person",
+        "name": "Maurice Harteveld"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. The extent to which the built environment encourages people to walk in public spaces, hence the quality of being walkable or ‘walkability’ has long been associated with positive outcomes on people’s health. While various studies have developed indices to assess walkability, limited attention has been given to indices that reflect the influence of specific city characteristics on walkability. This study showcases the development of a city-specific walkability index through a participatory approach using Amsterdam as a case study. It explores the viewpoints of urban designers and policy-makers who work or reside in Amsterdam on what constitutes a walkable street and identifies the most significant walkability factors for Amsterdam. These factors are then quantified based on open-access datasets and integrated into a street-level weighted walkability index. The resulting walkability index underscores the importance of factors such as traffic and crime safety, quality of the pedestrian infrastructure, and proximity to public amenities in shaping residents’ decisions to walk in specific public spaces. Finally, this research underscores the importance of involving individuals through participatory methods, considering subjective perspectives, and acknowledging shared experiences within particular groups and spaces when assessing walkability. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-5-2-2024",
+    "sameAs": "https://doi.org/10.5194/agile-giss-5-2-2024"
+  },
+  "reviewBody": "The paper investigates to improve on walkability indices that consider city-specifics.\nIt employs a  mixed methods approach, starting with a literature review to identify relevant elements, followed by participatory sessions with urban planners and policymakers to determine factors for the case study of Amsterdam.\nIn a last step, the authors quantify these factors and calculate walkability scores for the study area.\nThe first two steps in the research design are out of scope of this reproducibility review, which focuses on the computational reproducibility of the quantitative analysis (phase C in Figure 1 of the paper).\n\nThe authors provide data sets in the repository to execute the steps of normalization, calculation, and visualization.\nA visual inspection using QGIS shows similar patterns of walkability scores. \n\nThis reproducibility review was thus only able to validate part of the workflow. However, given that the input data is in principle openly available, the manual analysis steps are standard operations with documented parameters, the computations are deterministic, and all tools and software are free and open source, this review can conclude that the quantitative analysis part of the paper is reproducible. \n",
+  "datePublished": "2024-05-23",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/CSB7R"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -331,6 +373,9 @@ This reproducibility review was thus only able to validate part of the workflow.
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -376,13 +421,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -395,10 +440,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

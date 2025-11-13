@@ -5,7 +5,7 @@ title: Codechecks by Eftychia Koukouraki
 
 
 |Certificate |Report                                |Paper Title                                                                                            |Venue    |Type       |Check date |
-|:-------|:---------------------------------------------|:------------------|:------------------|:---|:--------------------------|:------------------|
+|:-------|:-----------------------------------------------------------------------------------|:------------------|:------------------|:---|:--------------------------|
 |[2022-006](https://codecheck.org.uk/register/certs/2022-006/)|https://doi.org/10.17605/osf.io/W7VPH |[Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide](https://doi.org/10.5194/agile-giss-3-6-2022)|[AGILEGIS](https://codecheck.org.uk/register/venues/conferences/agilegis)|[Conference](https://codecheck.org.uk/register/venues/conferences)|2022-07-09 |
 |[2022-017](https://codecheck.org.uk/register/certs/2022-017/)|https://doi.org/10.17605/osf.io/wncsm |[Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach](https://doi.org/10.5194/agile-giss-3-22-2022)|[AGILEGIS](https://codecheck.org.uk/register/venues/conferences/agilegis)|[Conference](https://codecheck.org.uk/register/venues/conferences)|2022-07-09 |
 |[2023-007](https://codecheck.org.uk/register/certs/2023-007/)|https://doi.org/10.17605/osf.io/eu8kw |[Extreme heat alerts and impacts across Mozambique 2016 - 2022: gathering evidence from media articles](https://doi.org/10.5194/agile-giss-4-11-2023)|[AGILEGIS](https://codecheck.org.uk/register/venues/conferences/agilegis)|[Conference](https://codecheck.org.uk/register/venues/conferences)|2023-06-13 |

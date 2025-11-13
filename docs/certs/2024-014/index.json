@@ -1,0 +1,144 @@
+{
+  "certificate": {
+    "id": "2024-014",
+    "url": "https://codecheck.org.uk/register/certs/2024-014/"
+  },
+  "paper": {
+    "title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
+    "authors": [
+      {
+        "name": "D Paudel"
+      },
+      {
+        "name": "H Baja1"
+      },
+      {
+        "name": "R van Bree"
+      },
+      {
+        "name": "M Kallenberg"
+      },
+      {
+        "name": "S Ofori-Ampofo"
+      },
+      {
+        "name": "A Potze"
+      },
+      {
+        "name": "P Poudel"
+      },
+      {
+        "name": "A Saleh"
+      },
+      {
+        "name": "W Anderson"
+      },
+      {
+        "name": "M von Bloh"
+      },
+      {
+        "name": "A Castellano"
+      },
+      {
+        "name": "O Ennaji"
+      },
+      {
+        "name": "R Hamed"
+      },
+      {
+        "name": "R Laudien"
+      },
+      {
+        "name": "D Lee"
+      },
+      {
+        "name": "I Luna"
+      },
+      {
+        "name": "D Masiliunas"
+      },
+      {
+        "name": "M Meroni"
+      },
+      {
+        "name": "S Mkuhlani"
+      },
+      {
+        "name": "J Mutuku"
+      },
+      {
+        "name": "J Richetti"
+      },
+      {
+        "name": "A Ruane"
+      },
+      {
+        "name": "R Sahajpal"
+      },
+      {
+        "name": "G Shuai"
+      },
+      {
+        "name": "V Sitokonstantinou"
+      },
+      {
+        "name": "R de S. Nóia Jr"
+      },
+      {
+        "name": "A Srivastava"
+      },
+      {
+        "name": "R Strong"
+      },
+      {
+        "name": "L Sweet"
+      },
+      {
+        "name": "P Vojnovic"
+      },
+      {
+        "name": "A de Wit"
+      },
+      {
+        "name": "M Zachow"
+      },
+      {
+        "name": "N Athanasiadis"
+      }
+    ],
+    "reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Adhitya Bhawiyuga"
+      },
+      {
+        "name": "Nadia Shafaeipour"
+      },
+      {
+        "name": "Nestor de la Paz Ruiz"
+      },
+      {
+        "name": "Patrick Eneche",
+        "orcid": "0000-0002-0504-9677"
+      },
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "check_time": "2024-09-26",
+    "repository": "osf::spxt5",
+    "report": "https://doi.org/10.17605/OSF.IO/spxt5",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "The CODECHECK used a smaller sample dataset, since the  original data set is quite large and would require several days of computation on the available hardware.\nHowever, the  produced output matches that of the reported output with one exception.",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "Table with produced outputs from the benchmark matching those reported in https://github.com/BigDataWUR/AgML-CY-Bench/blob/main/results_baselines/tables/tables_aug2024.md"
+      }
+    ]
+  }
+}

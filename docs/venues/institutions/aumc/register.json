@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2024-004",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-004/",
+    "Repository": "github::codecheckers/scope",
     "Repository Link": "https://github.com/codecheckers/scope",
     "Report": "https://doi.org/10.5281/zenodo.13364677",
     "Title": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint",
@@ -11,6 +12,7 @@
   {
     "Certificate ID": "2024-024",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-024/",
+    "Repository": "github::codecheckers/iteval-sims",
     "Repository Link": "https://github.com/codecheckers/iteval-sims",
     "Report": "https://doi.org/10.5281/zenodo.14576035",
     "Title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
@@ -20,6 +22,7 @@
   {
     "Certificate ID": "2025-025",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-025/",
+    "Repository": "github::codecheckers/absolution_codecheck",
     "Repository Link": "https://github.com/codecheckers/absolution_codecheck",
     "Report": "https://doi.org/10.5281/zenodo.16758977",
     "Title": "AbSolution Report v.0.71",

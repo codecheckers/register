@@ -1,0 +1,51 @@
+{
+  "certificate": {
+    "id": "2021-004",
+    "url": "https://codecheck.org.uk/register/certs/2021-004/"
+  },
+  "paper": {
+    "title": "Extraction of linear structures from digital terrain models using deep learning",
+    "authors": [
+      {
+        "name": "Ramish Satari"
+      },
+      {
+        "name": "Bashir Kazimi",
+        "orcid": "0000-0003-1802-7511"
+      },
+      {
+        "name": "Monika Sester",
+        "orcid": "0000-0002-6656-8809"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-2-11-2021",
+    "abstract": {
+      "text": "<jats:p>Abstract. This paper explores the role deep convolutional neural networks play in automated extraction of linear structures using semantic segmentation techniques in Digital Terrain Models (DTMs). DTM is a regularly gridded raster created from laser scanning point clouds and represents elevations of the bare earth surface with respect to a reference. Recent advances in Deep Learning (DL) have made it possible to explore the use of semantic segmentation for detection of terrain structures in DTMs. This research examines two novel and practical deep convolutional neural network architectures i.e. an encoder-decoder network named as SegNet and the recent state-of-the-art high-resolution network (HRNet). This paper initially focuses on the pixel-wise binary classification in order to validate the applicability of the proposed approaches. The networks are trained to distinguish between points belonging to linear structures and those belonging to background. In the second step, multi-class segmentation is carried out on the same DTM dataset. The model is trained to not only detect a linear feature, but also to categorize it as one of the classes: hollow ways, roads, forest paths, historical paths, and streams. Results of the experiment in addition to the quantitative and qualitative analysis show the applicability of deep neural networks for detection of terrain structures in DTMs. From the deep learning models utilized, HRNet gives better results.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Anita Graser",
+        "orcid": "0000-0001-5361-2885"
+      }
+    ],
+    "check_time": "2021-06-10 12:00:00",
+    "repository": "osf::2sc7g",
+    "report": "https://doi.org/10.17605/osf.io/2sc7g",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The provided workflow was partially reproduced. Based on the provided test file and instructions, we\nwere able to recreate the computing environment and run the segmentation models. Relevant tables from\nthe paper could be recreated. The training and validation part of the workflow is irreproducible because\nof proprietary data, therefore no figures could be recreated.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2021 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

@@ -36,13 +36,77 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-007/",
+  "name": "CODECHECK Certificate 2022-007",
+  "url": "https://codecheck.org.uk/register/certs/2022-007/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    },
+    {
+      "@type": "Person",
+      "name": "Eleni Tomai",
+      "@id": "https://orcid.org/0000-0003-1162-7389"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Zilong Liu",
+        "@id": "https://orcid.org/0000-0002-7699-3366"
+      },
+      {
+        "@type": "Person",
+        "name": "Krzysztof Janowicz"
+      },
+      {
+        "@type": "Person",
+        "name": "Ling Cai",
+        "@id": "https://orcid.org/0000-0001-7106-4907"
+      },
+      {
+        "@type": "Person",
+        "name": "Rui Zhu",
+        "@id": "https://orcid.org/0000-0002-8910-9445"
+      },
+      {
+        "@type": "Person",
+        "name": "Gengchen Mai",
+        "@id": "https://orcid.org/0000-0002-7818-7309"
+      },
+      {
+        "@type": "Person",
+        "name": "Meilin Shi",
+        "@id": "https://orcid.org/0000-0001-6039-7810"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Geoparsing, the task of extracting toponyms from texts and associating them with geographic locations, has witnessed remarkable progress over the past years. However, despite its intrinsically geospatial nature, existing evaluations tend to focus on overall performance while paying little attention to its variation across geographic space. In this work, we attempt to answer the question whether geoparsing is solved or biased by conducting a spatially-explicit evaluation, namely an evaluation of the regional variability in geoparsing performance. Particularly, we will analyze the spatial autocorrelation underlying this regional variability. By performing hot and cold spot detection over results of several open-source geoparsers, we observe that none of them performs equally well across geographic space, and some are geographically biased towards some regions but against others. We also carry out a comparative experiment showing that stateof- the-art geoparsers developed with neural networks do not necessarily outperform the off-the-shelf tools across geographic space. To understand the implications behind this observed regional variability, we evaluate geographic biases involved in geoparsing research centered around data contribution and usage, algorithm design, and performance evaluations. Particularly, our spatially-explicit performance evaluation serves as an approach to evaluation bias mitigation in geoparsing.We conclude that previous performance evaluations published in the literature are overly optimistic, thus hiding the fact that geoparsing is far from solved, and geoparsers require debiasing in addition to further considerations when being applied to (geospatial) downstream tasks.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-9-2022"
+  },
+  "reviewBody": "The article presents an evaluation of geoparsing performance using a number of different datasets and methods from various sources.\nThough preprocessing steps and a core analysis step based on proprietary software could not be evaluated, one of two toponym resolution models could be executed successfully.\nThe provided notebooks for exploratory analysis, calculating statistical values, and geographic bias evaluation could be run and the outputs match the data and figures presented in the paper.\nTherefore, this reproducibility report can confirm a partially successful reproduction of a complex pipeline, for which authors provide reasonable but improvable documentation and share all details (code, data) of their computational workflow.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/3DSMV"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +393,9 @@ The article presents an evaluation of geoparsing performance using a number of d
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +441,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +460,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

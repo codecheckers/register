@@ -1,0 +1,47 @@
+{
+  "certificate": {
+    "id": "2021-002",
+    "url": "https://codecheck.org.uk/register/certs/2021-002/"
+  },
+  "paper": {
+    "title": "Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information",
+    "authors": [
+      {
+        "name": "Florian Politz"
+      },
+      {
+        "name": "Monika Sester",
+        "orcid": "0000-0002-6656-8809"
+      },
+      {
+        "name": "Claus Brenner",
+        "orcid": "0000-0002-6459-0682"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-2-10-2021",
+    "abstract": {
+      "text": "<jats:p>Abstract. Detecting changes is an important task to update databases and find irregularities in spatial data. Every couple of years, national mapping agencies (NMAs) acquire nation-wide point cloud data from Airborne Laser Scanning (ALS) as well as from Dense Image Matching (DIM) using aerial images. Besides deriving several other products such as Digital Elevation Models (DEMs) from them, those point clouds also offer the chance to detect changes between two points in time on a large scale. Buildings are an important object class in the context of change detection to update cadastre data. As detecting changes manually is very time consuming, the aim of this study is to provide reliable change detections for different building sizes in order to support NMAs in their task to update their databases. As datasets of different times may have varying point densities due to technological advancements or different sensors, we propose a raster-based approach, which is independent of the point density altogether. Within a raster cell, our approach considers the height distribution of all points for two points in time by exploiting the Jensen-Shannon distance to measure their similarity. Our proposed method outperforms simple threshold methods on detecting building changes with respect to the same or different point cloud types. In combination with our proposed class change detection approach, we achieve a change detection performance measured by the mean F1-Score of about 71% between two ALS and about 60% between ALS and DIM point clouds acquired at different times.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "check_time": "2021-06-10 12:00:00",
+    "repository": "osf::rsf4m",
+    "report": "https://doi.org/10.17605/osf.io/rsf4m",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The reproduction was partially successful.\nThe paper data and software are not publicly available due to licence issues with the cooperating parties.\nFor the scope of this reproduction however, the authors provided a synthetic data set, a script to \ngenerating a synthetic data set from a publicly available data source, and the analysis code.\nUsing the provided synthetic data set the executability of the provided analysis code was confirmed.\nThe methodology behind all figures has been reproduced.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2021 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

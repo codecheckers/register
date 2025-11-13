@@ -2,23 +2,25 @@
   {
     "Certificate ID": "2022-004",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-004/",
+    "Repository": "osf::XPG6Y",
     "Repository Link": "https://osf.io/XPG6Y",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/osf.io/XPG6Y",
     "Title": "What are intersections for pedestrian users?",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-4-2022",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
   },
   {
     "Certificate ID": "2022-007",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-007/",
+    "Repository": "osf::3DSMV",
     "Repository Link": "https://osf.io/3DSMV",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
     "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
     "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
   }
 ]

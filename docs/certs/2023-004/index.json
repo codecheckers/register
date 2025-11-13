@@ -1,0 +1,51 @@
+{
+  "certificate": {
+    "id": "2023-004",
+    "url": "https://codecheck.org.uk/register/certs/2023-004/"
+  },
+  "paper": {
+    "title": "Does spatial thinking ability relate to performance when using web-mapping services? A survey with digital natives",
+    "authors": [
+      {
+        "name": "Eleni Tomai",
+        "orcid": "0000-0003-1162-7389"
+      },
+      {
+        "name": "Margarita Kokla",
+        "orcid": "0000-0002-0369-7099"
+      },
+      {
+        "name": "Christos Charcharos"
+      },
+      {
+        "name": "Marinos Kavouras",
+        "orcid": "0000-0001-7563-0793"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-4-13-2023",
+    "abstract": {
+      "text": "<jats:p>Abstract. We present the design and implementation of an empirical synchronous remote study for exploring the relation between spatial ability and performance on web-mapping services involving undergraduate University students; digital natives. The study exploits Spatial Thinking Ability Test to assess participants’ spatial ability and to reveal if and to what extent it is related to their ability to perform tasks on popular web-mapping services. Participants’ performance was assessed on the basis (a) of successfully executing tasks and (b) of how much time participants needed to properly perform tasks. A usability scale was used to measure participants’ subjective perceptions of web-mapping services usability. Moreover, participants were self-assessed in digital skills using the Digital Natives Assessment Scale. Results reveal differences among services in task accuracy indicating that not only the web-mapping service but also the nature of tasks guide participants’ performance. Correlations between spatial ability, digital skills, system usability, familiarity, and performance using web mapping services tend to be low and not significant leading to the assumption that success when interacting with a web mapping service is underlined by other factors as well. \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Mehtab Alam Syed",
+        "orcid": "0000-0003-3696-0030"
+      }
+    ],
+    "check_time": "2023-06-13 12:00:00",
+    "repository": "osf::2em7v",
+    "report": "https://doi.org/10.17605/osf.io/2em7v",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The authors provided code and data were able to partially reproduce the results presented in the figures and tables of the reviewed paper, but some of the tables were not fully reproduced.\nThe paper includes the DASA section.\nThe author provide all the data and code through figshare.\nBoth R and RStudio are required for the reproductions of the authors work.\nFor the reproducibility of the work, the authors provided R script survey_2021.R along with having data in dataset.7z.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2023 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/49"
+      }
+    ]
+  }
+}

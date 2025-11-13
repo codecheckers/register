@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2025-018","github::codecheckers/certificate-2025-018","TU Delft DCC","institution"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"github::codecheckers/certificate-2025-018","https://github.com/codecheckers/certificate-2025-018","https://doi.org/10.5281/zenodo.15630442","Scalable control synthesis for stochastic systems via structural IMDP abstractions","https://doi.org/10.48550/arXiv.2411.11803","TU Delft DCC","institution"

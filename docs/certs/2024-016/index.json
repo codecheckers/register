@@ -1,0 +1,80 @@
+{
+  "certificate": {
+    "id": "2024-016",
+    "url": "https://codecheck.org.uk/register/certs/2024-016/"
+  },
+  "paper": {
+    "title": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
+    "authors": [
+      {
+        "name": "DelaPaz-Ruíz, Néstor",
+        "orcid": "0000-0002-8941-4677"
+      },
+      {
+        "name": "Augustijn, Ellen-Wien",
+        "orcid": "0000-0002-3389-7585"
+      },
+      {
+        "name": "Farnaghi, Mahdi",
+        "orcid": "0000-0002-3071-5563"
+      },
+      {
+        "name": "Abdulkareem, Shaheen A.",
+        "orcid": "0000-0002-9837-0207"
+      },
+      {
+        "name": "Zurita-Milla, Raul",
+        "orcid": "0000-0002-1769-6310"
+      }
+    ],
+    "reference": "https://doi.org/10.5281/zenodo.13734819"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Amira Al Balushi",
+        "orcid": "0009-0002-8188-6271"
+      },
+      {
+        "name": "Angelina Momin",
+        "orcid": "0000-0002-6875-1551"
+      },
+      {
+        "name": "Jasper van Doninck",
+        "orcid": "0000-0003-2177-7882"
+      }
+    ],
+    "check_time": "2024-09-26",
+    "repository": "osf::6ngyc",
+    "report": "https://doi.org/10.17605/OSF.IO/6NGYC",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "Codecheck performed on the .nlogo and .Rproj files to generate Figures 2-6 of the paper.\nThe resulting figures were not an exact match due to stochasticity.\nHowever, the overall patterns of the figures were similar to the patterns of the paper's figures.",
+    "manifest": [
+      {
+        "file": "Figures/figure2.png",
+        "comment": "Corresponding paper figure: Figure 2"
+      },
+      {
+        "file": "Figures/figure3d.png",
+        "comment": "Corresponding paper figure: Figure 3d"
+      },
+      {
+        "file": "Figures/figure4.png",
+        "comment": "Corresponding paper figure: Figure 4"
+      },
+      {
+        "file": "Figures/figure5.png",
+        "comment": "Corresponding paper figure: Figure 5"
+      },
+      {
+        "file": "Figures/figure6a.png",
+        "comment": "Corresponding paper figure: Figure 6a"
+      },
+      {
+        "file": "Figures/figure6b.png",
+        "comment": "Corresponding paper figure: Figure 6b"
+      }
+    ]
+  }
+}

@@ -36,13 +36,67 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-007/",
+  "name": "CODECHECK Certificate 2025-007",
+  "url": "https://codecheck.org.uk/register/certs/2025-007/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Josip Grguric",
+      "@id": "https://orcid.org/0009-0003-3725-9454"
+    },
+    {
+      "@type": "Person",
+      "name": "Yasel Quintero",
+      "@id": "https://orcid.org/0009-0005-9240-7370"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Jelle Agatho Wilhelm Poland",
+        "@id": "https://orcid.org/0000-0003-3164-5648"
+      },
+      {
+        "@type": "Person",
+        "name": "Johannes Marinus van Spronsen"
+      },
+      {
+        "@type": "Person",
+        "name": "Mac Gaunaa",
+        "@id": "https://orcid.org/0000-0002-9478-6758"
+      },
+      {
+        "@type": "Person",
+        "name": "Roland Schmehl",
+        "@id": "https://orcid.org/0000-0002-4112-841X"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Leading-edge inflatable (LEI) kites are morphing aerodynamic surfaces that are actuated by the bridle line system. Their design as tensile membrane structures has several implications for the aerodynamic performance. Because of the pronounced C-shape of the wings, a considerable part of the aerodynamic forces is redirected sideways and used for steering. The inflated tubular frame introduces flow recirculation zones on the pressure side of the wing. In this paper, we present wind tunnel measurements of a 1:6.5 rigid scale model of the 25 m2 TU Delft V3 LEI kite developed specifically for airborne wind energy (AWE) harvesting. Because the real kite deforms during flight, the scale model was manufactured to match the well-defined design geometry. Aerodynamic forces and moments were recorded in an open jet wind tunnel over large ranges of angles of attack and sideslip, for five different inflow speeds. The wind tunnel measurements were performed with and without zigzag tape along the model's leading edge to investigate the possible boundary layer tripping effect of the stitching seam connecting the canopy to the inflated tube. To quantify the quality of the acquired data, the autocorrelation-consistent confidence intervals, coefficient of variation, and measurement repeatability were reported, and the effects of sensor drift and flow-induced vibrations of the test setup at the highest Reynolds number were assessed. A representative subset of the measurements was compared to Reynolds-averaged Navier-Stokes (RANS) flow simulations from literature, as well as new simulations conducted with an existing Vortex-Step Method (VSM). In conclusion, the measured aerodynamic characteristics validate both RANS and VSM simulations under nominal kite operating conditions, with both models yielding similar trends and values within a 5 to 10 % range.\n                        <\/jats:p>",
+    "url": "https://doi.org/10.5194/wes-2025-77",
+    "sameAs": "https://doi.org/10.5194/wes-2025-77"
+  },
+  "reviewBody": "This codecheck resulted in a full reproduction of the figures presented in the publication. The authors provided a GitHub repository containing all the necessary code and instructions for reproducing the figures and provided the yet to be published data directly. Required adjustments: modifying the path to the data folder, providing LaTeX is a system dependency. \n",
+  "datePublished": "2025-05-26",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.15603144"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +383,9 @@ This codecheck resulted in a full reproduction of the figures presented in the p
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +431,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +450,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

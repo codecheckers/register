@@ -1,0 +1,103 @@
+{
+  "certificate": {
+    "id": "2020-007",
+    "url": "https://codecheck.org.uk/register/certs/2020-007/"
+  },
+  "paper": {
+    "title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains\n",
+    "authors": [
+      {
+        "name": "Pamela Hathway"
+      },
+      {
+        "name": "Dan F. M. Goodman",
+        "orcid": "0000-0003-1007-6474"
+      }
+    ],
+    "reference": "https://doi.org/10.5281/zenodo.1327348",
+    "abstract": {
+      "text": "A reference implementation of Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains, Masquelier T, Guyonneau R, Thorpe SJ, PLoS ONE 3(1): e1377, 2008. https://doi.org/10.1371/journal.pone.0001377",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2025-05-19 10:00:00",
+    "repository": "github::codecheckers/Hathway-Goodman-2018",
+    "report": "https://doi.org/10.53962/nsys-9a40",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "The code was straightforward to codecheck. All figures could be recreated with the original code and data as described in the README file. Only the computing environment could not be recreated exactly, as a lot of time has passed since the publication of the original code. Both a quick (saved data) execution and a longer (seemingly new data) execution were successful and yielded figures who by visual inspection matched the figures in the original article. Errors and warnings were mostly related to deprecation of libraries and missing libraries.\n",
+    "manifest": [
+      {
+        "file": "figure_1_created_250519.pdf",
+        "comment": "manuscript Figure 1 created in the first code run"
+      },
+      {
+        "file": "figure_2_created_250519.pdf",
+        "comment": "manuscript Figure 2 created in the first code run"
+      },
+      {
+        "file": "figure_3_seed1_created_250519.pdf",
+        "comment": "manuscript Figure 3 created in the first code run"
+      },
+      {
+        "file": "figure_4_seed1_created_250519.pdf",
+        "comment": "manuscript Figure 4 created in the first code run"
+      },
+      {
+        "file": "figure_5_from_saved_created_250519.pdf",
+        "comment": "manuscript Figure 5 created in the first code run based on saved data"
+      },
+      {
+        "file": "figure_6_from_saved_created_250519.pdf",
+        "comment": "manuscript Figure 6 created in the first code run based on saved data"
+      },
+      {
+        "file": "figure_7AB_seed1_created_250519.pdf",
+        "comment": "manuscript Figure 7AB created in the first code run"
+      },
+      {
+        "file": "figure_7CD_seed28_created_250519.pdf",
+        "comment": "manuscript Figure 7CD created in the first code run"
+      },
+      {
+        "file": "figure_8_created_250519.pdf",
+        "comment": "manuscript Figure 8 created in the first code run"
+      },
+      {
+        "file": "figure_9sup_seed1_created_250519.pdf",
+        "comment": "manuscript Figure 9 created in the first code run"
+      },
+      {
+        "file": "figure_10sup_seed1_created_250519.pdf",
+        "comment": "manuscript Figure 10 created in the first code run"
+      },
+      {
+        "file": "figure_5_created_250520.pdf",
+        "comment": "manuscript Figure 5 created in the second code run with new data"
+      },
+      {
+        "file": "figure_6_created_250520.pdf",
+        "comment": "manuscript Figure 6 created in the second code run with new data"
+      },
+      {
+        "file": "figure_7CD_seed28_created_250520.pdf",
+        "comment": "manuscript Figure 7CD created in the second code run"
+      },
+      {
+        "file": "figure_8_created_250520.pdf",
+        "comment": "manuscript Figure 8 created in the second code run"
+      }
+    ]
+  }
+}

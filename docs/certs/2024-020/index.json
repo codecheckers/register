@@ -1,0 +1,84 @@
+{
+  "certificate": {
+    "id": "2024-020",
+    "url": "https://codecheck.org.uk/register/certs/2024-020/"
+  },
+  "paper": {
+    "title": "Describing the scale and composition of calls for police service: a replication and extension using open data\n",
+    "authors": [
+      {
+        "name": "Samuel Langton",
+        "orcid": "0000-0002-1322-1553"
+      },
+      {
+        "name": "Stijn Ruiter",
+        "orcid": "0000-0003-2872-2710"
+      },
+      {
+        "name": "Tim Verlaan",
+        "orcid": "0000-0002-3048-5817"
+      }
+    ],
+    "reference": "https://doi.org/10.1080/15614263.2022.2102494",
+    "abstract": {
+      "text": "This paper describes the scale and composition of emergency demand for police services in Detroit, United States. The contribution is made in replication and extension of analyses reported elsewhere in the United States. Findings indicate that police spend a considerable proportion of time performing a social service function. Just 51% of the total deployed time responding to 911 calls is consumed by crime incidents. The remainder is spent on quality of life (16%), traffic (15%), health (7%), community (5%), and proactive (4%) duties. A small number of incidents consume a disproportionately large amount of police officer time. Emergency demand is concentrated in time and space, and can differ between types of demand. The findings further highlight the potential implications of radically reforming police forces in the United States. The data and code used here are openly available for reproduction, reuse, and scrutiny.",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Joey Tang",
+        "orcid": "0000-0002-0820-6674"
+      },
+      {
+        "name": "Max Reichert",
+        "orcid": "0009-0003-8352-7288"
+      },
+      {
+        "name": "Flora Zhou",
+        "orcid": "0009-0002-4934-1474"
+      },
+      {
+        "name": "Eduard Klapwijk",
+        "orcid": "0000-0002-8936-0365"
+      }
+    ],
+    "check_time": "2024-11-28 14:00:00",
+    "repository": "github::codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "report": "https://doi.org/10.5281/zenodo.14278912",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "Downloaded the data and ran the necessary R scripts to generate the figures. \n",
+    "manifest": [
+      {
+        "file": "results/table1_des_stats_tos.csv",
+        "comment": "table 1"
+      },
+      {
+        "file": "results/table2_des_stats_tos.csv",
+        "comment": "table 2"
+      },
+      {
+        "file": "visuals/fig2_lorenz_demands.png",
+        "comment": "figure 2"
+      },
+      {
+        "file": "visuals/fig3_time_heat_tos_revised.png",
+        "comment": "figure 3"
+      },
+      {
+        "file": "visuals/fig4_maps_tos.png",
+        "comment": "figure 4"
+      },
+      {
+        "file": "visuals/fig5_maps_counts.png",
+        "comment": "figure 5"
+      },
+      {
+        "file": "visuals/fig6_histogram_mins_tos.png",
+        "comment": "figure 6"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "certificate": {
+    "id": "2023-005",
+    "url": "https://codecheck.org.uk/register/certs/2023-005/"
+  },
+  "paper": {
+    "title": "Advancing Forest Monitoring and Assessment Through Immersive Virtual Reality",
+    "authors": [
+      {
+        "name": "Raphael Zürcher",
+        "orcid": "0000-0002-6206-956X"
+      },
+      {
+        "name": "Jiayan Zhao",
+        "orcid": "0000-0002-8533-6042"
+      },
+      {
+        "name": "Alvaro Lau Sarmiento",
+        "orcid": "0000-0002-0419-7002"
+      },
+      {
+        "name": "Benjamin Brede",
+        "orcid": "0000-0001-9253-4517"
+      },
+      {
+        "name": "Alexander Klippel",
+        "orcid": "0000-0002-7171-492X"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-4-15-2023",
+    "abstract": {
+      "text": "<jats:p>Abstract. The recent influx of remote and proximal sensing data provides new opportunities to understand environmental processes. A potential application of these datasets is to facilitate forestry operations. However, forest management decision-making through sensing techniques faces many challenges, partly due to the involvement of stakeholders with different knowledge levels and objectives. We present a virtual reality application developed for forest monitoring and assessment to address some of these challenges. First, a workflow for visualizing different sources of environmental sensing data is introduced to reconstruct digitally forest and terrain characteristics. Then, the VR experience is introduced in which users can observe, manipulate, and measure LiDAR-derived forest and tree models in immersive virtual environments. Finally, a heuristic expert evaluation to assess the overall user experience and the usability of individual application features is reported. We also gathered open-ended responses from domain experts to reflect on the potential and actual uses of the application in forest-related practices.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "check_time": "2023-06-13 12:00:00",
+    "repository": "osf::27wzp",
+    "report": "https://doi.org/10.17605/osf.io/27wzp",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The data of the paper under reproduction is partially published on Zenodo under a CC-BY-4.0 license.\nData on the selected plots displayed in Figure 1 is not available due to intellectual property concerns.\nThe developed VR application is not available due to size and time constraints, therefore neither Figure 1 or 2 could be reproduced.\nStatistical analyses presented in Section 2.2 and Section 3 have been successfully reproduced.\nThe authors showed dedication to support reproducibility of their work.\nReproduction was partially successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2023 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/49"
+      }
+    ]
+  }
+}

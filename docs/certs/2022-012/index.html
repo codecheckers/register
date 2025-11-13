@@ -36,13 +36,56 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-012/",
+  "name": "CODECHECK Certificate 2022-012",
+  "url": "https://codecheck.org.uk/register/certs/2022-012/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rémy Decoupes",
+      "@id": "https://orcid.org/0000-0003-0863-9581"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Hyesop Shin"
+      },
+      {
+        "@type": "Person",
+        "name": "Costanza Cagnina"
+      },
+      {
+        "@type": "Person",
+        "name": "Anahid Basiri",
+        "@id": "https://orcid.org/0000-0002-2399-1797"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Active travel provides significant public health benefits including improving physical and mental health and air quality. Given the geography of congested roads, availability of required infrastructure and cost of transportation in cities, promoting active travel, including cycling, can be a good solution for commuting within built environments. Having a better understanding of the key drivers that may influence bike ridership can help with designing cities that accommodate cyclists’ needs for healthier citizens. This paper examines the built environment features that may affect commuting cyclists. We respectively employ Ordinary Linear Square (OLS) regression and Geographically Weighted Regression (GWR) for 136 Intermediate Zones of the city of Glasgow, UK. The results of GWR show that the significant local variation in green areas suggests that even though the global regression showed a negative association between the greenness and commute cycling, over half of the IZ areas had a strong positive association with the green areas. Building height and Public Transport Availability Index show geographic patterns where the residuals are fairly stationary across the study area with some clusters of high residuals. Performance wise, the results from GWR provided an R2 of 0.73 which was higher than OLS at 0.3. Our results can provide insights into how to use crowdsourced cycling data when there are spatially and temporally limited resources available.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-15-2022",
+    "sameAs": "https://doi.org/10.5194/agile-giss-3-15-2022"
+  },
+  "reviewBody": "The authors provide all the data and code in their GitHub repository. From a fresh install of R, the software environment is easily set up. The authors provide one R script and one computational notebook, which could be executed successfully to create all the paper's figures.\n",
+  "datePublished": "2022-07-09",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/r6psq"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -329,6 +372,9 @@ The authors provide all the data and code in their GitHub repository. From a fre
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -374,13 +420,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -393,10 +439,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

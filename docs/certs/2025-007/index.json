@@ -1,0 +1,103 @@
+{
+  "certificate": {
+    "id": "2025-007",
+    "url": "https://codecheck.org.uk/register/certs/2025-007/"
+  },
+  "paper": {
+    "title": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
+    "authors": [
+      {
+        "name": "Jelle Agatho Wilhelm Poland",
+        "orcid": "0000-0003-3164-5648"
+      },
+      {
+        "name": "Johannes Marinus van Spronsen"
+      },
+      {
+        "name": "Mac Gaunaa",
+        "orcid": "0000-0002-9478-6758"
+      },
+      {
+        "name": "Roland Schmehl",
+        "orcid": "0000-0002-4112-841X"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/wes-2025-77",
+    "abstract": {
+      "text": "<jats:p>Abstract. Leading-edge inflatable (LEI) kites are morphing aerodynamic surfaces that are actuated by the bridle line system. Their design as tensile membrane structures has several implications for the aerodynamic performance. Because of the pronounced C-shape of the wings, a considerable part of the aerodynamic forces is redirected sideways and used for steering. The inflated tubular frame introduces flow recirculation zones on the pressure side of the wing. In this paper, we present wind tunnel measurements of a 1:6.5 rigid scale model of the 25 m2 TU Delft V3 LEI kite developed specifically for airborne wind energy (AWE) harvesting. Because the real kite deforms during flight, the scale model was manufactured to match the well-defined design geometry. Aerodynamic forces and moments were recorded in an open jet wind tunnel over large ranges of angles of attack and sideslip, for five different inflow speeds. The wind tunnel measurements were performed with and without zigzag tape along the model's leading edge to investigate the possible boundary layer tripping effect of the stitching seam connecting the canopy to the inflated tube. To quantify the quality of the acquired data, the autocorrelation-consistent confidence intervals, coefficient of variation, and measurement repeatability were reported, and the effects of sensor drift and flow-induced vibrations of the test setup at the highest Reynolds number were assessed. A representative subset of the measurements was compared to Reynolds-averaged Navier-Stokes (RANS) flow simulations from literature, as well as new simulations conducted with an existing Vortex-Step Method (VSM). In conclusion, the measured aerodynamic characteristics validate both RANS and VSM simulations under nominal kite operating conditions, with both models yielding similar trends and values within a 5 to 10 % range.\n                        <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Josip Grguric",
+        "orcid": "0009-0003-3725-9454"
+      },
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "check_time": "2025-05-26 14:00:00",
+    "repository": "github::codecheckers/certificate-2025-007",
+    "report": "https://doi.org/10.5281/zenodo.15603144",
+    "type": "institution",
+    "venue": "TU Delft DCC",
+    "summary": "This codecheck resulted in a full reproduction of the figures presented in the publication. The authors provided a GitHub repository containing all the necessary code and instructions for reproducing the figures and provided the yet to be published data directly. Required adjustments: modifying the path to the data folder, providing LaTeX is a system dependency. \n",
+    "manifest": [
+      {
+        "file": "Fig6_min_trip_height.pdf",
+        "comment": "manuscript Figure 6"
+      },
+      {
+        "file": "Fig7_zz_re_sweep.pdf",
+        "comment": "manuscript Figure 7"
+      },
+      {
+        "file": "Fig8_re_variation_alpha_sweep_at_fixed_beta.pdf",
+        "comment": "manuscript Figure 8"
+      },
+      {
+        "file": "Fig9_re_variation_beta_sweep_at_fixed_alpha.pdf",
+        "comment": "manuscript Figure 9"
+      },
+      {
+        "file": "Fig10_polars_alpha.pdf",
+        "comment": "manuscript Figure 10"
+      },
+      {
+        "file": "Fig11_polars_beta_double_alpha.pdf",
+        "comment": "manuscript Figure 11"
+      },
+      {
+        "file": "Fig12_moment_polar_alphas.pdf",
+        "comment": "manuscript Figure 12"
+      },
+      {
+        "file": "Fig13_moment_polars_beta_low_alpha.pdf",
+        "comment": "manuscript Figure 13"
+      },
+      {
+        "file": "FigB1_sensor_drift.pdf",
+        "comment": "manuscript Figure B1"
+      },
+      {
+        "file": "FigC1_total_support_structure.pdf",
+        "comment": "manuscript Figure C1"
+      },
+      {
+        "file": "FigD1_time_series_plot.pdf",
+        "comment": "manuscript Figure D1"
+      },
+      {
+        "file": "FigD2_PSD_100Hz.pdf",
+        "comment": "manuscript Figure D2"
+      },
+      {
+        "file": "FigD3_PSD_10Hz.pdf",
+        "comment": "manuscript Figure D3"
+      }
+    ]
+  }
+}

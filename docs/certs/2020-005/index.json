@@ -1,0 +1,76 @@
+{
+  "certificate": {
+    "id": "2020-005",
+    "url": "https://codecheck.org.uk/register/certs/2020-005/"
+  },
+  "paper": {
+    "title": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis\n",
+    "authors": [
+      {
+        "name": "Rene Larisch",
+        "orcid": "0000-0003-3544-0631"
+      }
+    ],
+    "reference": "https://doi.org/10.5281/zenodo.3538217"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "check_time": "2020-07-23 10:00:00",
+    "repository": "github::codecheckers/Larisch-reproduction",
+    "report": "https://doi.org/10.5281/zenodo.3959175",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "This code had some difficulties involving the Python package ANNarchy. All scripts were eventually able to be run, and most figures were reproduced as in the ReScience paper. However two figures were very different from the originals. Some figures also varied considerably when changing the seed. \n",
+    "manifest": [
+      {
+        "file": "codecheck/figures/Fig1_clamp.png",
+        "comment": "manuscript Figure 1 Left"
+      },
+      {
+        "file": "codecheck/figures/Fig1_window.png",
+        "comment": "manuscript Figure 1 Middle"
+      },
+      {
+        "file": "codecheck/figures/Fig1_pairing.png",
+        "comment": "manuscript Figure 1 Right"
+      },
+      {
+        "file": "codecheck/figures/Fig2_burst.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "codecheck/figures/Fig3_rateCode.png",
+        "comment": "manuscript Figure 3a"
+      },
+      {
+        "file": "codecheck/figures/Fig3_rateCode_standardSTDP.png",
+        "comment": "manuscript Figure 3b"
+      },
+      {
+        "file": "codecheck/figures/Fig3_temporalCode.png",
+        "comment": "manuscript Figure 3c"
+      },
+      {
+        "file": "codecheck/figures/Fig3_temporalCode_standardSTDP.png",
+        "comment": "manuscript Figure 3d"
+      },
+      {
+        "file": "codecheck/figures/Fig4_stable.png",
+        "comment": "manuscript Figure 4a"
+      },
+      {
+        "file": "codecheck/figures/Fig4_RF.png",
+        "comment": "manuscript Figure 4b"
+      },
+      {
+        "file": "codecheck/figures/Fig4_RF_1.png",
+        "comment": "manuscript Figure 4b with alternative seed"
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "certificate": {
+    "id": "2025-003",
+    "url": "https://codecheck.org.uk/register/certs/2025-003/"
+  },
+  "paper": {
+    "title": "Optimal Graph Stretching for Distributed Averaging",
+    "authors": [
+      {
+        "name": "Florine W. Dekker",
+        "orcid": "0000-0002-0506-7365"
+      },
+      {
+        "name": "Zekeriya Erkin",
+        "orcid": "0000-0001-8932-4703"
+      },
+      {
+        "name": "Mauro Conti",
+        "orcid": "0000-0002-3612-1934"
+      }
+    ],
+    "reference": "https://doi.org/10.48550/arXiv.2504.10289"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Aysun Urhan",
+        "orcid": "0000-0001-8584-4736"
+      },
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "check_time": "2025-03-25 14:00:00",
+    "repository": "github::codecheckers/certificate-2025-003",
+    "report": "https://doi.org/10.5281/zenodo.15333601",
+    "type": "institution",
+    "venue": "TU Delft DCC",
+    "summary": "All figures in the manuscript were successfully reproduced, with the process requiring both an HPC cluster and a valid MATLAB license.\n",
+    "manifest": [
+      {
+        "file": "fig1a_Proportion-of-Edges-Removed-During-Stretching.png",
+        "comment": "manuscript Figure 1(a)"
+      },
+      {
+        "file": "fig1b_Number-of-Leaves-After-Stretching.png",
+        "comment": "manuscript Figure 1(b)"
+      },
+      {
+        "file": "fig2_Metrics-After-Stretching.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "fig3_Convergence-Time-After-Stretching.png",
+        "comment": "manuscript Figure 3"
+      },
+      {
+        "file": "fig4_Number-of-Leaves-After-Minimisation.png",
+        "comment": "manuscript Figure 4"
+      },
+      {
+        "file": "fig5_Edges-Added-During-Leaf-Minimisation.png",
+        "comment": "manuscript Figure 5"
+      },
+      {
+        "file": "fig6_Convergence-Time-After-Leaf-Minimisation.png",
+        "comment": "manuscript Figure 6"
+      },
+      {
+        "file": "fig7_Edges-Changed-During-Optimisation.png",
+        "comment": "manuscript Figure 7"
+      },
+      {
+        "file": "fig8_Convergence-Time-After-Optimising.png",
+        "comment": "manuscript Figure 8"
+      }
+    ]
+  }
+}

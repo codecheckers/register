@@ -1,0 +1,46 @@
+{
+  "certificate": {
+    "id": "2020-020",
+    "url": "https://codecheck.org.uk/register/certs/2020-020/"
+  },
+  "paper": {
+    "title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
+    "authors": [
+      {
+        "name": "Tobias Werner"
+      },
+      {
+        "name": "Thomas Brinkhoff"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "abstract": {
+      "text": "<jats:p>Abstract. Unmanned aerial and submersible vehicles are used in an increasing number of applications especially for data collection in misanthropic environments. During a mission, such vehicles generate multiple spatio-temporal data streams suitable to be processed by data stream management systems (DSMS). The main approach of a DSMS is limiting the elements of a stream by using sliding and tilting windows with time intervals as temporal condition. However, due to varying vehicle speed and limited on-board resources, such temporal windows do not provide adequate support for spatio-temporal problems. For solving this problem, we propose a set of six new spatio-temporal window operators in this paper. This set comprises of sliding distance, tilting distance, tilting waypoint, session distance, jumping distance and an area window to limit stream elements based on spatial conditions. Each of the listed operators provides an individual behaviour to support sophisticated applications like spatial interpolation and forecasting. An evaluation based on an example trajectory shows the benefit of the presented operators for spatio-temporal applications.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "check_time": "2020-07-13 11:37:00",
+    "repository": "osf::7TWR2",
+    "report": "https://doi.org/10.17605/OSF.IO/7TWR2",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "Based on an updated data and code archive provided by the authors, we were able to deploy a database with the new functions, insert test data, and recreate all but one data-based figure with the provided scripts.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2020 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/25"
+      }
+    ]
+  }
+}

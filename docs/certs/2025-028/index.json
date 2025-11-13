@@ -1,0 +1,56 @@
+{
+  "certificate": {
+    "id": "2025-028",
+    "url": "https://codecheck.org.uk/register/certs/2025-028/"
+  },
+  "paper": {
+    "title": "Clinically Interpretable Survival Prediction in Primary Biliary Cholangitis with TreeSHAP and Gradient-Boosted Model",
+    "authors": [
+      {
+        "name": "Emmanuel Pio Pastore",
+        "orcid": "0009-0007-7851-4414"
+      }
+    ],
+    "reference": "https://doi.org/10.71240/lcyc.66O7260",
+    "abstract": {
+      "text": "<jats:p>Surv-TCAV is introduced as a concept-based interpretability framework for gradient-boosted accelerated failure time (AFT) survival models on clinical tabular data. Using the Primary Biliary Cholangitis dataset (historical pbc; PBC-276 complete cases over 17 covariates), an XGBoost model with AFT objective is trained and assessed for discrimination with Harrell’s concordance index (C-index) and for calibration with the integrated Brier score (IBS) using inverse-probability-of-censoring weights. Interpretability is delivered at two levels: feature attributions via TreeSHAP and directional concept sensitivity via Surv-TCAV, which quantifies how clinician-defined concepts perturb the predicted log-time location parameter μ. Across 25 independent 80/20 train/validation splits with fixed boosting rounds (no early stopping), the boosted AFT attains C-index = 0.835 ± 0.039 and IBS = 0.357 ± 0.018. A one-sample t-test of split-wise C-indices against 0.85 yields t = −1.863 (df = 24), two-sided p = 0.075, thus statistically indistinguishable from strong mid–0.8 discrimination at α = 0.05. Surv-TCAV reveals clinically coherent negative directional effects for low albumin, older age, and clinical complications, with more modest but still negative effects for cholestasis and coagulopathy. Feature-level attributions further suggest a small residual protective association for female sex after adjustment. The protocol delivers concept-based interpretability for boosted survival models on structured clinical data with full reproducibility.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2025-11-04 14:36:30",
+    "repository": "github::codecheckers/surv-tcav-pbc",
+    "report": "https://doi.org/10.5281/zenodo.17533508",
+    "type": "journal",
+    "venue": "Lifecycle Journal",
+    "summary": "This code was straightforward to check and the reproduction is partially successful. Figure 1, 2, and 3 could be recreated without errors in the code but in part with differences beyond the variations due to re-computation. Table 2 could be reproduced within computational variation, but Table 3 could not be linked to any of the output files.\n",
+    "manifest": [
+      {
+        "file": "results/split_metrics.csv",
+        "comment": "Unclear which table/figure this corresponds to, possibly Table 3"
+      },
+      {
+        "file": "results/summary_metrics.csv",
+        "comment": "Table 2, with small numerical differences."
+      },
+      {
+        "file": "figures/validation_metrics.png",
+        "comment": "Figure 1"
+      },
+      {
+        "file": "figures/tcav_bar.png",
+        "comment": "Figure 3"
+      },
+      {
+        "file": "figures/treeshap_summary.png",
+        "comment": "Figure 2, with some differences in feature names and values."
+      }
+    ]
+  }
+}

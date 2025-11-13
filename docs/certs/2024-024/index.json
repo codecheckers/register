@@ -1,0 +1,72 @@
+{
+  "certificate": {
+    "id": "2024-024",
+    "url": "https://codecheck.org.uk/register/certs/2024-024/"
+  },
+  "paper": {
+    "title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment\n",
+    "authors": [
+      {
+        "name": "Jeroen Hoogland",
+        "orcid": "0000-0002-2397-6052"
+      },
+      {
+        "name": "Orestis Efthimiou",
+        "orcid": "0000-0002-0955-7572"
+      },
+      {
+        "name": "Tri-Long Nguyen",
+        "orcid": "0000-0002-6376-7212"
+      },
+      {
+        "name": "Thomas P A Debray",
+        "orcid": "0000-0002-1790-2719"
+      }
+    ],
+    "reference": "https://doi.org/10.1002/sim.10186",
+    "abstract": {
+      "text": "<jats:p>In recent years, there has been a growing interest in the prediction of individualized treatment effects. While there is a rapidly growing literature on the development of such models, there is little literature on the evaluation of their performance. In this paper, we aim to facilitate the validation of prediction models for individualized treatment effects. The estimands of interest are defined based on the potential outcomes framework, which facilitates a comparison of existing and novel measures. In particular, we examine existing measures of discrimination for benefit (variations of the c‐for‐benefit), and propose model‐based extensions to the treatment effect setting for discrimination and calibration metrics that have a strong basis in outcome risk prediction. The main focus is on randomized trial data with binary endpoints and on models that provide individualized treatment effect predictions and potential outcome predictions. We use simulated data to provide insight into the characteristics of the examined discrimination and calibration statistics under consideration, and further illustrate all methods in a trial of acute ischemic stroke treatment. The results show that the proposed model‐based statistics had the best characteristics in terms of bias and accuracy. While resampling methods adjusted for the optimism of performance estimates in the development data, they had a high variance across replications that limited their accuracy. Therefore, individualized treatment effect models are best validated in independent data. To aid implementation, a software implementation of the proposed methods was made available in <jats:styled-content>R<\/jats:styled-content>.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Samuel Langton",
+        "orcid": "0000-0002-1322-1553"
+      }
+    ],
+    "check_time": "2024-12-16 10:00:00",
+    "repository": "github::codecheckers/iteval-sims",
+    "report": "https://doi.org/10.5281/zenodo.14576035",
+    "type": "institution",
+    "venue": "AUMC",
+    "summary": "R to generate and analyze simulated data in order to evaluate the prediction performance of individualized treatment effects.\n",
+    "manifest": [
+      {
+        "file": "codecheck_outputs/figure1.png",
+        "comment": "manuscript Figure 1"
+      },
+      {
+        "file": "codecheck_outputs/figure2.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "codecheck_outputs/F1.png",
+        "comment": "manuscript F 1"
+      },
+      {
+        "file": "codecheck_outputs/F2.png",
+        "comment": "manuscript F 2"
+      },
+      {
+        "file": "codecheck_outputs/table1.png",
+        "comment": "manuscript table 1"
+      },
+      {
+        "file": "codecheck_outputs/table2.png",
+        "comment": "manuscript table 2"
+      }
+    ]
+  }
+}

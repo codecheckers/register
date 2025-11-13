@@ -1,0 +1,62 @@
+{
+  "certificate": {
+    "id": "2024-015",
+    "url": "https://codecheck.org.uk/register/certs/2024-015/"
+  },
+  "paper": {
+    "title": "Landscape Character Assessment - Nigeria",
+    "authors": [
+      {
+        "name": "Patrick Samson Udama Eneche",
+        "orcid": "0000-0002-0504-9677"
+      },
+      {
+        "name": "Funda Atun"
+      },
+      {
+        "name": "Karin Pfeffer",
+        "orcid": "0000-0002-6080-1323"
+      },
+      {
+        "name": "Yijian Zeng"
+      }
+    ],
+    "reference": "https://doi.org/10.17605/OSF.IO/E2K73",
+    "abstract": {
+      "text": "This project is based on the landscape character assessment of Nigeria, using machine learning and open-access geospatial dataset.",
+      "source": "OpenAlex"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Betelham Gebretsadik"
+      },
+      {
+        "name": "Dilli Paudel"
+      },
+      {
+        "name": "Jay Gohil"
+      },
+      {
+        "name": "Pitchaporn Likitpanjamanon"
+      }
+    ],
+    "check_time": "2024-09-26",
+    "repository": "osf::mwbuq",
+    "report": "https://doi.org/10.17605/OSF.IO/mwbuq",
+    "type": "community",
+    "venue": "codecheck NL",
+    "summary": "The CODECHECK utilized the supplied dataset, but certain steps were omitted as they would take several hours to compute on the available hardware.\nDespite this, the generated output aligns with the reported results.\nHowever, it is not clear which output should be compared in the Python notebooks.",
+    "manifest": [
+      {
+        "file": "2nd_level_lc_admin_legend_v2.png",
+        "comment": "These are the outputs that the author puts on the pre-registration. Please refer to the output section."
+      },
+      {
+        "file": "1st_level_lc_without_legend.png",
+        "comment": "These are the outputs that the author puts on the pre-registration. Please refer to the output section."
+      }
+    ]
+  }
+}

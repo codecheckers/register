@@ -1,2 +1,2 @@
-"Certificate","Repository","Venue","Type"
-"2025-021","github::codecheckers/certificate-2025-021","TU Delft DCC","institution"
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"github::codecheckers/certificate-2025-021","https://github.com/codecheckers/certificate-2025-021","https://doi.org/10.5281/zenodo.16616998","Airspeed estimation for UAVs using only propeller feedback","https://doi.org/10.48550/arXiv.2507.03456","TU Delft DCC","institution"

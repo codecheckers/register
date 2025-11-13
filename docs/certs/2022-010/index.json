@@ -1,0 +1,45 @@
+{
+  "certificate": {
+    "id": "2022-010",
+    "url": "https://codecheck.org.uk/register/certs/2022-010/"
+  },
+  "paper": {
+    "title": "Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
+    "authors": [
+      {
+        "name": "Yousef Qamaz"
+      },
+      {
+        "name": "Angela Schwering"
+      },
+      {
+        "name": "Janina Bistron"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-3-13-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. Although Global Positioning System (GPS) is widely used in outdoor location-based services, it still lacks precision due to obstacles that reduce its performance, such as near tall buildings, with bad weather conditions, and under tree canopies. In some situations, inaccurate localization or delay in getting location locks can adversely affect some location-based services’ functionality. Furthermore, it might make these services less efficient or even completely useless, especially when the receiver device has no SIM card or when the service requires a precision higher than three meters. As a solution to this issue, this study designs, develops, and evaluates a prototype location-based system that uses Bluetooth Low Energy beacons for short-range positioning in outdoor environments as a GPS alternative. The proposed system is a game that includes navigational tasks, which can be accomplished by reaching the proximity of two meters from the beacon’s location. The study involved conducting an experiment outdoors with a focus on areas where GPS signals are degraded to assess our proposed system’s efficiency and feasibility compared to the usage of GPS. The results proved BLE beacons’ ability to provide better positioning results than GPS, not only in terms of accuracy but also in terms of stability of positioning results over time. Based on the findings, the study outlines a set of guidelines to be considered in choosing a suitable positioning technology.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2022-07-09 12:00:00",
+    "repository": "osf::8B7MR",
+    "report": "https://doi.org/10.17605/osf.io/8b7mr",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The article present an experimental evaluation of a positioning system.\nNaturally, the physical/practical experiments could not be reproduced as part of this check of the computational reproducibility.\nHowever, the one figure in the article that is based on the data from the experiment, as well as the software for running the experiment shown in screenshots in the paper could be reproduced by me.\nWith respect to the computational aspects and data visualisation, the given paper is reproducible.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2022 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/38"
+      }
+    ]
+  }
+}

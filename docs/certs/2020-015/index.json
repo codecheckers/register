@@ -1,0 +1,67 @@
+{
+  "certificate": {
+    "id": "2020-015",
+    "url": "https://codecheck.org.uk/register/certs/2020-015/"
+  },
+  "paper": {
+    "title": "A model for focal seizure onset, propagation, evolution, and progression\n",
+    "authors": [
+      {
+        "name": "Jyun-you Liou",
+        "orcid": "0000-0003-4851-3676"
+      },
+      {
+        "name": "Elliot H Smith",
+        "orcid": "0000-0003-4323-4643"
+      },
+      {
+        "name": "Lisa M Bateman"
+      }
+    ],
+    "reference": "https://doi.org/10.7554/eLife.50927",
+    "abstract": {
+      "text": "<jats:p>We developed a neural network model that can account for major elements common to human focal seizures. These include the tonic-clonic transition, slow advance of clinical semiology and corresponding seizure territory expansion, widespread EEG synchronization, and slowing of the ictal rhythm as the seizure approaches termination. These were reproduced by incorporating usage-dependent exhaustion of inhibition in an adaptive neural network that receives global feedback inhibition in addition to local recurrent projections. Our model proposes mechanisms that may underline common EEG seizure onset patterns and status epilepticus, and postulates a role for synaptic plasticity in the emergence of epileptic foci. Complex patterns of seizure activity and bi-stable seizure end-points arise when stochastic noise is included. With the rapid advancement of clinical and experimental tools, we believe that this model can provide a roadmap and potentially an in silico testbed for future explorations of seizure mechanisms and clinical therapies.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "check_time": "2020-08-04 10:00:00",
+    "repository": "github::codecheckers/Liou-and-Bateman",
+    "report": "https://doi.org/10.5281/zenodo.3978402",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "All code to run the neural network models discussed in the paper was  successfully executed. Some results could be read off these models in  action. The code to reproduce the figures given in the paper had more  difficulties, with only some figures successfully recreated.\n",
+    "manifest": [
+      {
+        "file": "codecheck/figures/Fig1_Model.png",
+        "comment": "Snapshot of model for manuscript Figure 1"
+      },
+      {
+        "file": "codecheck/figures/Fig5_Model.png",
+        "comment": "Snapshot of model for manuscript Figure 5"
+      },
+      {
+        "file": "codecheck/figures/Figure1.png",
+        "comment": "Manuscript Figure 1C"
+      },
+      {
+        "file": "codecheck/figures/Figure2.png",
+        "comment": "Manuscript Figure 2A, 2B and 2C"
+      },
+      {
+        "file": "codecheck/figures/Figure6.png",
+        "comment": "Manuscript Figure 6A"
+      },
+      {
+        "file": "codecheck/figures/Figure7.png",
+        "comment": "Manuscript Figure 7A and 7B"
+      }
+    ]
+  }
+}

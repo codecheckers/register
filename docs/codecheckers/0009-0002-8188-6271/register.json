@@ -2,12 +2,13 @@
   {
     "Certificate ID": "2024-016",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-016/",
+    "Repository": "osf::6ngyc",
     "Repository Link": "https://osf.io/6ngyc",
-    "Type": "community",
-    "Venue": "codecheck NL",
     "Report": "https://doi.org/10.17605/OSF.IO/6NGYC",
     "Title": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
     "Paper reference": "https://doi.org/10.5281/zenodo.13734819",
+    "Type": "community",
+    "Venue": "codecheck NL",
     "Check date": "2024-09-26"
   }
 ]

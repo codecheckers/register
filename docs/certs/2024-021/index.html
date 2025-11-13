@@ -36,13 +36,76 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit c5ae1a2">
+<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
 <meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
 
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-021/",
+  "name": "CODECHECK Certificate 2024-021",
+  "url": "https://codecheck.org.uk/register/certs/2024-021/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Tina Rozsos",
+      "@id": "https://orcid.org/0009-0008-5383-5497"
+    },
+    {
+      "@type": "Person",
+      "name": "Stijn Peeters",
+      "@id": "https://orcid.org/0009-0004-3684-3584"
+    },
+    {
+      "@type": "Person",
+      "name": "Hanne Oberman",
+      "@id": "https://orcid.org/0000-0003-3276-2141"
+    },
+    {
+      "@type": "Person",
+      "name": "Veerle van Harten",
+      "@id": "https://orcid.org/0000-0003-0451-4052"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Daniela Gawehns",
+        "@id": "https://orcid.org/0000-0002-9678-9012"
+      },
+      {
+        "@type": "Person",
+        "name": "Suzanne Portegijs"
+      },
+      {
+        "@type": "Person",
+        "name": "Adriana Petronella Anna van Beek"
+      },
+      {
+        "@type": "Person",
+        "name": "Matthijs van Leeuwen",
+        "@id": "https://orcid.org/0000-0002-0510-3549"
+      }
+    ],
+    "abstract": "<p>Physical activity of nursing home residents can be assessed with tools such as questionnaires and standardized fitness tests. For residents with dementia, however, those tools can be cognitively challenging and difficult to administer. Consumer wearables could potentially aid as an affordable tool for ubiquitous assessment. In this pilot study with 16 participants, we explore how measurements with an off-the-shelf wearable relate to structured observations of physical activity. We collected both processed and raw tri-axial accelerometer data from Samsung, wrist-worn fitness trackers. To anchor those data in the free living environment, we compare the measurements with the physical activity scale of the Medlo behavioral observation scheme. We show that consumer wearables are a valid tool for long term data collection in this vulnerable patient population. Regarding the movement intensity, the data collected by fitness trackers is overall in accordance with the data collected with the observational tool. Regarding the type of movement, we conclude that the automatic activity classification on the wearables is not yet ripe for use in a mostly sedentary patient population.<\/p>",
+    "url": "https://doi.org/10.31234/osf.io/mqg86",
+    "sameAs": "https://doi.org/10.31234/osf.io/mqg86"
+  },
+  "reviewBody": "This report checks the code of the article 'Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia'. The CODECHECK was successful. Two of the three figures created were visually identical to those in the paper. The third figure visually matched the figure in the code repository. This figure was equivalent in content but different in design compared to the one presented in the paper. \n",
+  "datePublished": "2024-11-28",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.14261193"
+  }
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
@@ -331,6 +394,9 @@ This report checks the code of the article ‘Using Consumer Wearables to Measur
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<a href="index.json">View certificate data as JSON</a>
+</p>
 </div>
 <script>
 // Dynamically insert the images array
@@ -376,13 +442,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 </script>
 
-<p style="margin-bottom: 2em;">
+<p class="footer-links">
 </p>
 
-<hr style="border: 2px solid #008033; margin-top: 2em;" />
+<hr class="footer-separator" />
 
 <!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
-<div style="color: #6c757d !important;">
+<div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
             href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
@@ -395,10 +461,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
 
-    <p style="font-style: italic;">CODECHECK is a process for independent execution of
+    <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2025-11-13 10:19:31 CET | codecheck v0.23.0 | register c5ae1a2</p>
+    <p class="build-info"></p>
 </div>
 
 

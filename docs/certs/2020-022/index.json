@@ -1,0 +1,62 @@
+{
+  "certificate": {
+    "id": "2020-022",
+    "url": "https://codecheck.org.uk/register/certs/2020-022/"
+  },
+  "paper": {
+    "title": "Extracting interrogative intents and concepts from geo-analytic questions.",
+    "authors": [
+      {
+        "name": "Haiqi Xu"
+      },
+      {
+        "name": "Ehsan Hamzei",
+        "orcid": "0000-0002-4712-230X"
+      },
+      {
+        "name": "Enkhbold Nyamsuren"
+      },
+      {
+        "name": "Han Kruiger",
+        "orcid": "0000-0002-0901-202X"
+      },
+      {
+        "name": "Stephan Winter",
+        "orcid": "0000-0002-3403-6939"
+      },
+      {
+        "name": "Martin Tomko",
+        "orcid": "0000-0002-5736-4679"
+      },
+      {
+        "name": "Simon Scheider",
+        "orcid": "0000-0002-2267-4810"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-1-23-2020",
+    "abstract": {
+      "text": "<jats:p>Abstract. Understanding syntactic and semantic structure of geographic questions is a necessary step towards true geographic question-answering (GeoQA) machines. The empirical basis for the understanding of the capabilities expected from GeoQA systems are geographic question corpora. Available corpora in English have been mostly drawn from generic Web search logs or limited user studies, supporting the focus of GeoQA systems on retrieving factoids: factual knowledge about particular places and everyday processes. Yet, the majority of questions enquired about in the spatial sciences go beyond simple place facts, with more complex analytical intents informing the questions. In this paper, we introduce a new corpus of geo-analytic questions drawn from English textbooks and scientific articles. We analyse and compare this corpus with two general-purpose GeoQA corpora in terms of grammatical complexity and semantic concepts, using a new parsing method that allows us to differentiate and quantify patterns of a question’s intent.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "check_time": "2020-07-13 11:54:00",
+    "repository": "osf::7XRQG",
+    "report": "https://doi.org/10.17605/OSF.IO/7XRQG",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The workflow could be executed using the provided instructions and the provided scripts created a subset of the included figures. Although some key figures were not created by the provided data and code, the reproduction was partially successful.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2020 Reproducibility Review did not include manifest documentation, see https://github.com/codecheckers/register/issues/25"
+      }
+    ]
+  }
+}
