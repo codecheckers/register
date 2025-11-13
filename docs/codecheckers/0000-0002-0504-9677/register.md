@@ -1,8 +1,13 @@
 ---
-title: Codechecks by Patrick Eneche (0000-0002-0504-9677)
+title: Codechecks by Patrick Eneche
 ---
+<p style="margin-bottom: 1.5em;">
+<a href="https://orcid.org/0000-0002-0504-9677" title="ORCID iD"><i class="ai ai-orcid" style="font-size: 1.2em; color: #A6CE39;"></i> https://orcid.org/0000-0002-0504-9677</a>
+ | 
+<a href="https://github.com/PatrickEneche" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
+</p>
 
 
-|Certificate |Paper Title                                                                          |Type      |Venue        |Issue |Report                                |Check date |
+|Certificate |Report                                |Paper Title                                                                          |Venue        |Type      |Check date |
 |:-------|:---------------------------------------------|:------------------|:------------------|:---|:--------------------------|:------------------|
-|[2024-014](https://codecheck.org.uk/register/certs/2024-014/)|[CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting](https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f)|[Community](https://codecheck.org.uk/register/venues/communities)|[codecheck NL](https://codecheck.org.uk/register/venues/communities/codecheck_nl)|[124](https://github.com/codecheckers/register/issues/124)|https://doi.org/10.17605/OSF.IO/spxt5 |2024-09-26 |
+|[2024-014](https://codecheck.org.uk/register/certs/2024-014/)|https://doi.org/10.17605/OSF.IO/spxt5 |[CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting](https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f)|[codecheck NL](https://codecheck.org.uk/register/venues/communities/codecheck_nl)|[Community](https://codecheck.org.uk/register/venues/communities)|2024-09-26 |

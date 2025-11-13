@@ -1,7 +1,7 @@
-"Certificate","Repository","Type","Venue","Issue"
-"2020-019","osf::5SVMT","conference","AGILEGIS",25
-"2022-003","osf::JDTN3","conference","AGILEGIS",41
-"2022-016","osf::DJFC2","conference","AGILEGIS",41
-"2024-006","osf::ymc3t","conference","AGILEGIS",69
-"2024-007","osf::gvpd9","conference","AGILEGIS",69
-"2025-014","osf::st98a","conference","AGILEGIS",147
+"Certificate","Repository","Venue","Type"
+"2020-019","osf::5SVMT","AGILEGIS","conference"
+"2022-003","osf::JDTN3","AGILEGIS","conference"
+"2022-016","osf::DJFC2","AGILEGIS","conference"
+"2024-006","osf::ymc3t","AGILEGIS","conference"
+"2024-007","osf::gvpd9","AGILEGIS","conference"
+"2025-014","osf::st98a","AGILEGIS","conference"

@@ -1,10 +1,10 @@
-"Certificate","Repository","Type","Venue","Issue"
-"2020-020","osf::7TWR2","conference","AGILEGIS",25
-"2020-021","github::reproducible-agile/Spatial-nominal-entity-recognition","conference","AGILEGIS",25
-"2020-023","github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter","conference","AGILEGIS",25
-"2021-005","osf::7fqtm","conference","AGILEGIS",38
-"2022-005","osf::CDFAH","conference","AGILEGIS",41
-"2022-009","osf::94VNX","conference","AGILEGIS",41
-"2024-008","osf::3nbjw","conference","AGILEGIS",69
-"2024-009","osf::csb7r","conference","AGILEGIS",69
-"2024-014","osf::spxt5","community","codecheck NL",124
+"Certificate","Repository","Venue","Type"
+"2020-020","osf::7TWR2","AGILEGIS","conference"
+"2020-021","github::reproducible-agile/Spatial-nominal-entity-recognition","AGILEGIS","conference"
+"2020-023","github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter","AGILEGIS","conference"
+"2021-005","osf::7fqtm","AGILEGIS","conference"
+"2022-005","osf::CDFAH","AGILEGIS","conference"
+"2022-009","osf::94VNX","AGILEGIS","conference"
+"2024-008","osf::3nbjw","AGILEGIS","conference"
+"2024-009","osf::csb7r","AGILEGIS","conference"
+"2024-014","osf::spxt5","codecheck NL","community"

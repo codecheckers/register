@@ -1,10 +1,12 @@
 [
   {
     "Institution name": "Amsterdam UMC",
+    "Issue label": "institution",
     "No. of codechecks": 3
   },
   {
     "Institution name": "TU Delft Digital Competence Centre",
+    "Issue label": "institution",
     "No. of codechecks": 8
   }
 ]

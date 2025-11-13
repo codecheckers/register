@@ -1,26 +1,26 @@
-"Certificate","Repository","Type","Venue","Issue"
-"2020-002","github::codecheckers/Reproduction-Hancock","community","codecheck",2
-"2020-003","github::codecheckers/Hopfield-1982","community","codecheck",1
-"2020-004","github::codecheckers/Barto-Sutton-Anderson-1983","community","codecheck",4
-"2020-016","github::codecheckers/OpeningPractice","journal","J Geogr Syst",15
-"2020-017","github::codecheckers/JGSY-D-19-00087","journal","J Geogr Syst",24
-"2020-018","github::reproducible-agile/AGILECA","conference","AGILEGIS",25
-"2020-019","osf::5SVMT","conference","AGILEGIS",25
-"2020-020","osf::7TWR2","conference","AGILEGIS",25
-"2020-021","github::reproducible-agile/Spatial-nominal-entity-recognition","conference","AGILEGIS",25
-"2020-022","osf::7XRQG","conference","AGILEGIS",25
-"2020-023","github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter","conference","AGILEGIS",25
-"2020-025","github::codecheckers/LICD_article","journal","J Archaeol Sci",29
-"2021-004","osf::2sc7g","conference","AGILEGIS",38
-"2021-005","osf::7fqtm","conference","AGILEGIS",38
-"2021-007","osf::anv9r","conference","AGILEGIS",38
-"2021-009","osf::rdnyu","conference","AGILEGIS",38
-"2021-010","osf::bdu28","conference","AGILEGIS",38
-"2022-007","osf::3DSMV","conference","AGILEGIS",41
-"2022-008","osf::K78EB","conference","AGILEGIS",41
-"2022-010","osf::8B7MR","conference","AGILEGIS",41
-"2020-007","github::codecheckers/Hathway-Goodman-2018","community","codecheck",7
-"2025-005","zenodo::15323262","journal","Lifecycle Journal",158
-"2025-008","github::reproducible-agile/reviews-2025|reports/08","conference","AGILEGIS",147
-"2025-017","github::reproducible-agile/reviews-2025|reports/28","conference","AGILEGIS",147
-"2025-028","github::codecheckers/surv-tcav-pbc","journal","Lifecycle Journal",178
+"Certificate","Repository","Venue","Type"
+"2020-002","github::codecheckers/Reproduction-Hancock","codecheck","community"
+"2020-003","github::codecheckers/Hopfield-1982","codecheck","community"
+"2020-004","github::codecheckers/Barto-Sutton-Anderson-1983","codecheck","community"
+"2020-016","github::codecheckers/OpeningPractice","J Geogr Syst","journal"
+"2020-017","github::codecheckers/JGSY-D-19-00087","J Geogr Syst","journal"
+"2020-018","github::reproducible-agile/AGILECA","AGILEGIS","conference"
+"2020-019","osf::5SVMT","AGILEGIS","conference"
+"2020-020","osf::7TWR2","AGILEGIS","conference"
+"2020-021","github::reproducible-agile/Spatial-nominal-entity-recognition","AGILEGIS","conference"
+"2020-022","osf::7XRQG","AGILEGIS","conference"
+"2020-023","github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter","AGILEGIS","conference"
+"2020-025","github::codecheckers/LICD_article","J Archaeol Sci","journal"
+"2021-004","osf::2sc7g","AGILEGIS","conference"
+"2021-005","osf::7fqtm","AGILEGIS","conference"
+"2021-007","osf::anv9r","AGILEGIS","conference"
+"2021-009","osf::rdnyu","AGILEGIS","conference"
+"2021-010","osf::bdu28","AGILEGIS","conference"
+"2022-007","osf::3DSMV","AGILEGIS","conference"
+"2022-008","osf::K78EB","AGILEGIS","conference"
+"2022-010","osf::8B7MR","AGILEGIS","conference"
+"2020-007","github::codecheckers/Hathway-Goodman-2018","codecheck","community"
+"2025-005","zenodo::15323262","Lifecycle Journal","journal"
+"2025-008","github::reproducible-agile/reviews-2025|reports/08","AGILEGIS","conference"
+"2025-017","github::reproducible-agile/reviews-2025|reports/28","AGILEGIS","conference"
+"2025-028","github::codecheckers/surv-tcav-pbc","Lifecycle Journal","journal"

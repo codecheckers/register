@@ -1,12 +1,12 @@
-"Certificate","Repository","Issue"
-"2020-002","github::codecheckers/Reproduction-Hancock",2
-"2020-003","github::codecheckers/Hopfield-1982",1
-"2020-004","github::codecheckers/Barto-Sutton-Anderson-1983",4
-"2020-005","github::codecheckers/Larisch-reproduction",5
-"2020-006","github::codecheckers/Detorakis-reproduction",6
-"2020-014","github::codecheckers/Sadeh-and-Clopath",21
-"2020-015","github::codecheckers/Liou-and-Bateman",22
-"2022-001","github::codecheckers/GWR-in-educational-planning",40
-"2024-005","github::codecheckers/sample-size-codecheck",100
-"2020-007","github::codecheckers/Hathway-Goodman-2018",7
-"2025-020","github::codecheckers/Exploring-Categorical-Colors",170
+"Certificate ID","Certificate Link","Repository","Repository Link","Report","Title","Paper reference","Check date"
+"2020-002","https://codecheck.org.uk/register/certs/2020-002/","github::codecheckers/Reproduction-Hancock","https://github.com/codecheckers/Reproduction-Hancock","http://doi.org/10.5281/zenodo.3750741","The principal components of natural images","https://doi.org/10.1088/0954-898X_3_1_008","2020-04-13"
+"2020-003","https://codecheck.org.uk/register/certs/2020-003/","github::codecheckers/Hopfield-1982","https://github.com/codecheckers/Hopfield-1982","https://doi.org/10.5281/zenodo.3741797","Neural networks and physical systems with emergent collective computational abilities","https://doi.org/10.1073/pnas.79.8.2554","2020-04-06"
+"2020-004","https://codecheck.org.uk/register/certs/2020-004/","github::codecheckers/Barto-Sutton-Anderson-1983","https://github.com/codecheckers/Barto-Sutton-Anderson-1983","https://doi.org/10.5281/zenodo.3827371","Neuronlike adaptive elements that can solve difficult learning control problems","https://doi.org/10.1109/TSMC.1983.6313077","2020-05-14"
+"2020-005","https://codecheck.org.uk/register/certs/2020-005/","github::codecheckers/Larisch-reproduction","https://github.com/codecheckers/Larisch-reproduction","https://doi.org/10.5281/zenodo.3959175","[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis","https://doi.org/10.5281/zenodo.3538217","2020-07-23"
+"2020-006","https://codecheck.org.uk/register/certs/2020-006/","github::codecheckers/Detorakis-reproduction","https://github.com/codecheckers/Detorakis-reproduction","https://doi.org/10.5281/zenodo.3948353","[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours","https://doi.org/10.5281/zenodo.1003214","2020-07-16"
+"2020-014","https://codecheck.org.uk/register/certs/2020-014/","github::codecheckers/Sadeh-and-Clopath","https://github.com/codecheckers/Sadeh-and-Clopath","https://doi.org/10.5281/zenodo.3967326","Patterned perturbation of inhibition can reveal the dynamical structure of neural processing","https://doi.org/10.7554/eLife.52757","2020-07-28"
+"2020-015","https://codecheck.org.uk/register/certs/2020-015/","github::codecheckers/Liou-and-Bateman","https://github.com/codecheckers/Liou-and-Bateman","https://doi.org/10.5281/zenodo.3978402","A model for focal seizure onset, propagation, evolution, and progression","https://doi.org/10.7554/eLife.50927","2020-08-04"
+"2022-001","https://codecheck.org.uk/register/certs/2022-001/","github::codecheckers/GWR-in-educational-planning","https://github.com/codecheckers/GWR-in-educational-planning","https://doi.org/10.5281/zenodo.6040066","Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions","http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and","2022-01-19"
+"2024-005","https://codecheck.org.uk/register/certs/2024-005/","github::codecheckers/sample-size-codecheck","https://github.com/codecheckers/sample-size-codecheck","https://doi.org/10.5281/zenodo.13945051","Sample size estimation for task-related functional MRI studies using Bayesian updating.","https://doi.org/10.31234/osf.io/cz32t","2024-10-15"
+"2020-007","https://codecheck.org.uk/register/certs/2020-007/","github::codecheckers/Hathway-Goodman-2018","https://github.com/codecheckers/Hathway-Goodman-2018","https://doi.org/10.53962/nsys-9a40","[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains","https://doi.org/10.5281/zenodo.1327348","2025-05-19"
+"2025-020","https://codecheck.org.uk/register/certs/2025-020/","github::codecheckers/Exploring-Categorical-Colors","https://github.com/codecheckers/Exploring-Categorical-Colors","https://doi.org/10.5281/zenodo.15762107","Exploring Categorical Colors","https://doi.org/10.31234/osf.io/gj76p","2025-06-28"

@@ -1,8 +1,13 @@
 ---
-title: Codechecks by Hanne Oberman (0000-0003-3276-2141)
+title: Codechecks by Hanne Oberman
 ---
+<p style="margin-bottom: 1.5em;">
+<a href="https://orcid.org/0000-0003-3276-2141" title="ORCID iD"><i class="ai ai-orcid" style="font-size: 1.2em; color: #A6CE39;"></i> https://orcid.org/0000-0003-3276-2141</a>
+ | 
+<a href="https://github.com/hanneoberman" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
+</p>
 
 
-|Certificate |Paper Title                                                                                    |Type      |Venue        |Issue |Report                                  |Check date |
+|Certificate |Report                                  |Paper Title                                                                                    |Venue        |Type      |Check date |
 |:-------|:---------------------------------------------|:------------------|:------------------|:---|:--------------------------|:------------------|
-|[2024-021](https://codecheck.org.uk/register/certs/2024-021/)|[Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia ](https://doi.org/10.31234/osf.io/mqg86)|[Community](https://codecheck.org.uk/register/venues/communities)|[codecheck NL](https://codecheck.org.uk/register/venues/communities/codecheck_nl)|[136](https://github.com/codecheckers/register/issues/136)|https://doi.org/10.5281/zenodo.14261193 |2024-11-28 |
+|[2024-021](https://codecheck.org.uk/register/certs/2024-021/)|https://doi.org/10.5281/zenodo.14261193 |[Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia ](https://doi.org/10.31234/osf.io/mqg86)|[codecheck NL](https://codecheck.org.uk/register/venues/communities/codecheck_nl)|[Community](https://codecheck.org.uk/register/venues/communities)|2024-11-28 |
