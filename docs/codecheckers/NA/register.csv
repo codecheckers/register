@@ -1,3 +1,3 @@
-"Certificate","Repository","Type","Venue","Issue"
-"2025-011","osf::GT5BW","conference","AGILEGIS",147
-"2025-012","osf::956a8","conference","AGILEGIS",147
+"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
+"osf::GT5BW","https://osf.io/GT5BW","https://doi.org/10.17605/OSF.IO/GT5BW","An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps","https://doi.org/10.5194/agile-giss-6-5-2025","AGILEGIS","conference"
+"osf::956a8","https://osf.io/956a8","https://doi.org/10.17605/OSF.IO/956a8","Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback","https://doi.org/10.5194/agile-giss-6-12-2025","AGILEGIS","conference"

@@ -1,5 +1,77 @@
 [
   {
+    "Certificate ID": "2024-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-014/",
+    "Repository": "osf::spxt5",
+    "Repository Link": "https://osf.io/spxt5",
+    "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
+    "Title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
+    "Paper reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-09-26"
+  },
+  {
+    "Certificate ID": "2024-008",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-008/",
+    "Repository": "osf::3nbjw",
+    "Repository Link": "https://osf.io/3nbjw",
+    "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
+    "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-23"
+  },
+  {
+    "Certificate ID": "2024-009",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-009/",
+    "Repository": "osf::csb7r",
+    "Repository Link": "https://osf.io/csb7r",
+    "Report": "https://doi.org/10.17605/osf.io/CSB7R",
+    "Title": "Developing a city-specific walkability index through a participatory approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-23"
+  },
+  {
+    "Certificate ID": "2022-005",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-005/",
+    "Repository": "osf::CDFAH",
+    "Repository Link": "https://osf.io/CDFAH",
+    "Report": "https://doi.org/10.17605/osf.io/cdfah",
+    "Title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate ID": "2022-009",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-009/",
+    "Repository": "osf::94VNX",
+    "Repository Link": "https://osf.io/94VNX",
+    "Report": "https://doi.org/10.17605/osf.io/94vnx",
+    "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate ID": "2021-005",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-005/",
+    "Repository": "osf::7fqtm",
+    "Repository Link": "https://osf.io/7fqtm",
+    "Report": "https://doi.org/10.17605/osf.io/7fqtm",
+    "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10"
+  },
+  {
     "Certificate ID": "2020-020",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-020/",
     "Repository": "osf::7TWR2",
@@ -34,77 +106,5 @@
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2020-07-13"
-  },
-  {
-    "Certificate ID": "2021-005",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-005/",
-    "Repository": "osf::7fqtm",
-    "Repository Link": "https://osf.io/7fqtm",
-    "Report": "https://doi.org/10.17605/osf.io/7fqtm",
-    "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2021-06-10"
-  },
-  {
-    "Certificate ID": "2022-005",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-005/",
-    "Repository": "osf::CDFAH",
-    "Repository Link": "https://osf.io/CDFAH",
-    "Report": "https://doi.org/10.17605/osf.io/cdfah",
-    "Title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2022-07-09"
-  },
-  {
-    "Certificate ID": "2022-009",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-009/",
-    "Repository": "osf::94VNX",
-    "Repository Link": "https://osf.io/94VNX",
-    "Report": "https://doi.org/10.17605/osf.io/94vnx",
-    "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2022-07-09"
-  },
-  {
-    "Certificate ID": "2024-008",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-008/",
-    "Repository": "osf::3nbjw",
-    "Repository Link": "https://osf.io/3nbjw",
-    "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
-    "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2024-05-23"
-  },
-  {
-    "Certificate ID": "2024-009",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-009/",
-    "Repository": "osf::csb7r",
-    "Repository Link": "https://osf.io/csb7r",
-    "Report": "https://doi.org/10.17605/osf.io/CSB7R",
-    "Title": "Developing a city-specific walkability index through a participatory approach",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2024-05-23"
-  },
-  {
-    "Certificate ID": "2024-014",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-014/",
-    "Repository": "osf::spxt5",
-    "Repository Link": "https://osf.io/spxt5",
-    "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
-    "Title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
-    "Paper reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
-    "Type": "community",
-    "Venue": "codecheck NL",
-    "Check date": "2024-09-26"
   }
 ]

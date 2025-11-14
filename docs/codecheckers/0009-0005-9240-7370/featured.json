@@ -1,39 +1,15 @@
 [
   {
-    "Certificate ID": "2024-019",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-019/",
-    "Repository": "github::codecheckers/wearable-hrv",
-    "Repository Link": "https://github.com/codecheckers/wearable-hrv",
-    "Report": "https://doi.org/10.5281/zenodo.14279041",
-    "Title": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.",
-    "Paper reference": "https://doi.org/10.31219/osf.io/wkzsn",
-    "Type": "community",
-    "Venue": "codecheck NL",
-    "Check date": "2024-12-04"
-  },
-  {
-    "Certificate ID": "2025-003",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-003/",
-    "Repository": "github::codecheckers/certificate-2025-003",
-    "Repository Link": "https://github.com/codecheckers/certificate-2025-003",
-    "Report": "https://doi.org/10.5281/zenodo.15333601",
-    "Title": "Optimal Graph Stretching for Distributed Averaging",
-    "Paper reference": "https://doi.org/10.48550/arXiv.2504.10289",
+    "Certificate ID": "2025-022",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-022/",
+    "Repository": "github::codecheckers/certificate-2025-022",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-022",
+    "Report": "https://doi.org/10.5281/zenodo.16814874",
+    "Title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
+    "Paper reference": "https://doi.org/10.1109/TITS.2025.3549227",
     "Type": "institution",
     "Venue": "TU Delft DCC",
-    "Check date": "2025-03-25"
-  },
-  {
-    "Certificate ID": "2025-006",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-006/",
-    "Repository": "github::codecheckers/sarscov2-variants",
-    "Repository Link": "https://github.com/codecheckers/sarscov2-variants",
-    "Report": "https://doi.org/10.5281/zenodo.15520471",
-    "Title": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
-    "Paper reference": "https://doi.org/10.1038/s41598-021-85363-7",
-    "Type": "institution",
-    "Venue": "TU Delft DCC",
-    "Check date": "2025-05-01"
+    "Check date": "2025-08-04"
   },
   {
     "Certificate ID": "2025-007",
@@ -48,15 +24,39 @@
     "Check date": "2025-05-26"
   },
   {
-    "Certificate ID": "2025-022",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-022/",
-    "Repository": "github::codecheckers/certificate-2025-022",
-    "Repository Link": "https://github.com/codecheckers/certificate-2025-022",
-    "Report": "https://doi.org/10.5281/zenodo.16814874",
-    "Title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
-    "Paper reference": "https://doi.org/10.1109/TITS.2025.3549227",
+    "Certificate ID": "2025-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-006/",
+    "Repository": "github::codecheckers/sarscov2-variants",
+    "Repository Link": "https://github.com/codecheckers/sarscov2-variants",
+    "Report": "https://doi.org/10.5281/zenodo.15520471",
+    "Title": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
+    "Paper reference": "https://doi.org/10.1038/s41598-021-85363-7",
     "Type": "institution",
     "Venue": "TU Delft DCC",
-    "Check date": "2025-08-04"
+    "Check date": "2025-05-01"
+  },
+  {
+    "Certificate ID": "2025-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-003/",
+    "Repository": "github::codecheckers/certificate-2025-003",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-003",
+    "Report": "https://doi.org/10.5281/zenodo.15333601",
+    "Title": "Optimal Graph Stretching for Distributed Averaging",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2504.10289",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-03-25"
+  },
+  {
+    "Certificate ID": "2024-019",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-019/",
+    "Repository": "github::codecheckers/wearable-hrv",
+    "Repository Link": "https://github.com/codecheckers/wearable-hrv",
+    "Report": "https://doi.org/10.5281/zenodo.14279041",
+    "Title": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.",
+    "Paper reference": "https://doi.org/10.31219/osf.io/wkzsn",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-12-04"
   }
 ]

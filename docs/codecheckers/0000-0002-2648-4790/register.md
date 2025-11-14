@@ -8,6 +8,6 @@ title: Codechecks by Marcel Stimberg
 </p>
 
 
-|Certificate |Report                                 |Paper Title                                                                           |Venue    |Type      |Check date |
-|:-------|:-----------------------------------------------------------------------------------|:------------------|:------------------|:---|:--------------------------|
-|[2021-001](https://codecheck.org.uk/register/certs/2021-001/)|https://doi.org/10.5281/zenodo.4720843 |[Causality indices for bivariate time series data: a comparative review of performance](https://arxiv.org/abs/2104.00718)|[preprint](https://codecheck.org.uk/register/venues/communities/preprint)|[Community](https://codecheck.org.uk/register/venues/communities)|2021-04-27 |
+|Certificate |Report                         |Paper Title                                                                           |Venue    |Type      |Check date |
+|:-------|:--------------------------------------------------|:----------------------------------|:---------------|:---|:--------------------------|
+|[2021-001](../../certs/2021-001/)|[doi.org/10.5281/zenodo.4720843](https://doi.org/10.5281/zenodo.4720843)|[Causality indices for bivariate time series data: a comparative review of performance](https://arxiv.org/abs/2104.00718)|[preprint](../../venues/communities/preprint)|[Community](../../venues/communities)|2021-04-27 |

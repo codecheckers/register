@@ -1,23 +1,63 @@
 [
   {
-    "Certificate ID": "2020-003",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-003/",
-    "Repository": "github::codecheckers/Hopfield-1982",
-    "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
-    "Report": "https://doi.org/10.5281/zenodo.3741797",
-    "Title": "Neural networks and physical systems with emergent collective computational abilities",
-    "Paper reference": "https://doi.org/10.1073/pnas.79.8.2554",
-    "Check date": "2020-04-06"
+    "Certificate ID": "2025-020",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-020/",
+    "Repository": "github::codecheckers/Exploring-Categorical-Colors",
+    "Repository Link": "https://github.com/codecheckers/Exploring-Categorical-Colors",
+    "Report": "https://doi.org/10.5281/zenodo.15762107",
+    "Title": "Exploring Categorical Colors",
+    "Paper reference": "https://doi.org/10.31234/osf.io/gj76p",
+    "Check date": "2025-06-28"
   },
   {
-    "Certificate ID": "2020-004",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-004/",
-    "Repository": "github::codecheckers/Barto-Sutton-Anderson-1983",
-    "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
-    "Report": "https://doi.org/10.5281/zenodo.3827371",
-    "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
-    "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
-    "Check date": "2020-05-14"
+    "Certificate ID": "2020-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
+    "Repository": "github::codecheckers/Hathway-Goodman-2018",
+    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
+    "Report": "https://doi.org/10.53962/nsys-9a40",
+    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "Check date": "2025-05-19"
+  },
+  {
+    "Certificate ID": "2024-005",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-005/",
+    "Repository": "github::codecheckers/sample-size-codecheck",
+    "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
+    "Report": "https://doi.org/10.5281/zenodo.13945051",
+    "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
+    "Paper reference": "https://doi.org/10.31234/osf.io/cz32t",
+    "Check date": "2024-10-15"
+  },
+  {
+    "Certificate ID": "2022-001",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-001/",
+    "Repository": "github::codecheckers/GWR-in-educational-planning",
+    "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
+    "Report": "https://doi.org/10.5281/zenodo.6040066",
+    "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
+    "Paper reference": "http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
+    "Check date": "2022-01-19"
+  },
+  {
+    "Certificate ID": "2020-015",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-015/",
+    "Repository": "github::codecheckers/Liou-and-Bateman",
+    "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
+    "Report": "https://doi.org/10.5281/zenodo.3978402",
+    "Title": "A model for focal seizure onset, propagation, evolution, and progression",
+    "Paper reference": "https://doi.org/10.7554/eLife.50927",
+    "Check date": "2020-08-04"
+  },
+  {
+    "Certificate ID": "2020-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
+    "Repository": "github::codecheckers/Sadeh-and-Clopath",
+    "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
+    "Report": "https://doi.org/10.5281/zenodo.3967326",
+    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
+    "Paper reference": "https://doi.org/10.7554/eLife.52757",
+    "Check date": "2020-07-28"
   },
   {
     "Certificate ID": "2020-005",
@@ -40,63 +80,23 @@
     "Check date": "2020-07-16"
   },
   {
-    "Certificate ID": "2020-014",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
-    "Repository": "github::codecheckers/Sadeh-and-Clopath",
-    "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
-    "Report": "https://doi.org/10.5281/zenodo.3967326",
-    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
-    "Paper reference": "https://doi.org/10.7554/eLife.52757",
-    "Check date": "2020-07-28"
+    "Certificate ID": "2020-004",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-004/",
+    "Repository": "github::codecheckers/Barto-Sutton-Anderson-1983",
+    "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
+    "Report": "https://doi.org/10.5281/zenodo.3827371",
+    "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
+    "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
+    "Check date": "2020-05-14"
   },
   {
-    "Certificate ID": "2020-015",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-015/",
-    "Repository": "github::codecheckers/Liou-and-Bateman",
-    "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
-    "Report": "https://doi.org/10.5281/zenodo.3978402",
-    "Title": "A model for focal seizure onset, propagation, evolution, and progression",
-    "Paper reference": "https://doi.org/10.7554/eLife.50927",
-    "Check date": "2020-08-04"
-  },
-  {
-    "Certificate ID": "2022-001",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-001/",
-    "Repository": "github::codecheckers/GWR-in-educational-planning",
-    "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
-    "Report": "https://doi.org/10.5281/zenodo.6040066",
-    "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
-    "Paper reference": "http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
-    "Check date": "2022-01-19"
-  },
-  {
-    "Certificate ID": "2024-005",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-005/",
-    "Repository": "github::codecheckers/sample-size-codecheck",
-    "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
-    "Report": "https://doi.org/10.5281/zenodo.13945051",
-    "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
-    "Paper reference": "https://doi.org/10.31234/osf.io/cz32t",
-    "Check date": "2024-10-15"
-  },
-  {
-    "Certificate ID": "2020-007",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
-    "Repository": "github::codecheckers/Hathway-Goodman-2018",
-    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
-    "Report": "https://doi.org/10.53962/nsys-9a40",
-    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
-    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
-    "Check date": "2025-05-19"
-  },
-  {
-    "Certificate ID": "2025-020",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-020/",
-    "Repository": "github::codecheckers/Exploring-Categorical-Colors",
-    "Repository Link": "https://github.com/codecheckers/Exploring-Categorical-Colors",
-    "Report": "https://doi.org/10.5281/zenodo.15762107",
-    "Title": "Exploring Categorical Colors",
-    "Paper reference": "https://doi.org/10.31234/osf.io/gj76p",
-    "Check date": "2025-06-28"
+    "Certificate ID": "2020-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-002/",
+    "Repository": "github::codecheckers/Reproduction-Hancock",
+    "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
+    "Report": "http://doi.org/10.5281/zenodo.3750741",
+    "Title": "The principal components of natural images",
+    "Paper reference": "https://doi.org/10.1088/0954-898X_3_1_008",
+    "Check date": "2020-04-13"
   }
 ]

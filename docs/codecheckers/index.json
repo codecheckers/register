@@ -80,6 +80,11 @@
     "No. of codechecks": 1
   },
   {
+    "Codechecker name": "Codecheckers without ORCID",
+    "ORCID": "NA",
+    "No. of codechecks": 15
+  },
+  {
     "Codechecker name": "Sam Langton",
     "ORCID": "0000-0002-1322-1553",
     "No. of codechecks": 3

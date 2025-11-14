@@ -36,7 +36,7 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
+<meta name="generator" content="codecheck">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
@@ -208,8 +208,8 @@ pre code {
 
   </div>
 </div>
-<div style="max-width: 1200px; margin: 1rem auto; padding: 0 1rem;">
-<nav aria-label="breadcrumb" style="margin-bottom: 1.5rem;">
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
     <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
@@ -230,65 +230,19 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"></p>
-<style>
-  body {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  }
-
-  h1 {
-    margin-top: 2rem;
-  }
-
-  /* Add minimum height to cards when screen less than md */
-  @media (max-width: 768px) {
-    .card {
-      min-height: 270px;
-    }
-  }
-
-  .img-background {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-  }
-  .wrapper {
-    height: 80vh;
-    padding: 0px;
-  }
-  .row {
-    margin: 5px;
-  }
-
-  .scrollable-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .scrollable-text-box {
-    flex: 1 1 auto;
-    height: 0; /*Adding a height of 0 so that the text box fills remainder of card*/
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #fff;
-  }
-
-</style>
-<div class="container">
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
 <div class="card mb-3">
 <div class="card-body">
 <!-- Buttons to change cert page -->
 <div class="d-flex justify-content-center">
-<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2">
+<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2" id="prev-btn" title="View previous page">
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
@@ -302,7 +256,7 @@ Next
 <div class="col-md-6 d-flex flex-column">
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 Paper details
 </h2>
 </div>
@@ -314,11 +268,11 @@ Paper details
 <strong>Authors</strong>: <a href="https://orcid.org/0000-0003-4254-1780">Chris Brunsdon</a>, <a href="https://orcid.org/0000-0002-3652-7846">Alexis Comber</a>
 </p>
 <!-- Abstract section -->
-<div id="abstract-section" class="scrollable-container">
+<div id="abstract-section" class="text-container">
 <p>
 <strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
 </p>
-<div id="abstract-content" class="scrollable-text-box">
+<div id="abstract-content" class="text-box">
 <p>
 <jats:title>Abstract</jats:title><jats:p>This paper reflects on a number of trends towards a more open and reproducible approach to geographic and spatial data science over recent years. In particular, it considers trends towards Big Data, and the impacts this is having on<jats:italic>spatial</jats:italic>data analysis and modelling. It identifies a turn in academia towards coding as a core analytic tool, and away from proprietary software tools offering ‘black boxes’ where the internal workings of the analysis are not revealed. It is argued that this closed form software is problematic and considers a number of ways in which issues identified in spatial data analysis (such as the MAUP) could be overlooked when working with closed tools, leading to problems of interpretation and possibly inappropriate actions and policies based on these. In addition, this paper considers the role that reproducible and open spatial science may play in such an approach, taking into account the issues raised. It highlights the dangers of failing to account for the geographical properties of data, now that all data are spatial (they are collected some<jats:italic>where</jats:italic>), the problems of a desire for<jats:inline-formula><jats:alternatives><jats:tex-math><br /><span class="math display"><em>n</em></span><br /></jats:tex-math><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mi>n</mml:mi></mml:math></jats:alternatives></jats:inline-formula> = <jats:italic>all</jats:italic>observations in data science and it identifies the need for a critical approach. This is one in which openness, transparency, sharing and reproducibility provide a mantra for defensible and robust spatial data science.</jats:p>
 </p>
@@ -328,7 +282,7 @@ Paper details
 </div>
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 CODECHECK details
 </h2>
 </div>
@@ -337,7 +291,7 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2020-016
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://codecheck.org.uk/register/codecheckers/0000-0002-0024-5046/">Daniel Nüst</a>
+<strong>Codechecker name</strong>: <a href="../../codecheckers/0000-0002-0024-5046/">Daniel Nüst</a>
 </p>
 <p>
 <strong>Time of check</strong>: 2020-06-02
@@ -349,27 +303,46 @@ CODECHECK details
 <strong>Full certificate</strong>: <a href="https://doi.org/10.5281/zenodo.3981253" class="uri">https://doi.org/10.5281/zenodo.3981253</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="https://codecheck.org.uk/register/venues/journals/">journal</a>
+<strong>Type</strong>: <a href="../../venues/journals/">journal</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="https://codecheck.org.uk/register/venues/journals/j_geogr_syst/">J Geogr Syst</a>
+<strong>Venue</strong>: <a href="../../venues/journals/j_geogr_syst/">J Geogr Syst</a>
 </p>
 <!-- Summary -->
-<div id="summary-section" class="scrollable-container">
+<div id="summary-section" class="text-container">
 <p>
 <strong>Summary</strong>:
 </p>
-<div id="summary-content" class="scrollable-text-box">
+<div id="summary-content" class="text-box">
 <p>
 A small R script to render a map and two tables. Minor code adjustments were made, but reproduction of results (one figure, two tables) was successful.
 </p>
+</div>
+</div>
+<!-- Citation Generator -->
+<div id="citation-section" class="mt-3">
+<p>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+</p>
+<div class="mb-2">
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+</div>
+<div class="citation-preview-wrapper mb-2">
+<div id="citation-preview" class="border rounded p-2 citation-preview">
+<span class="text-muted">Loading citation…</span>
+</div>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
-<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<script src="../../libs/codecheck/citation.min.js"></script>
+<script src="../../libs/codecheck/citation-wrapper.js"></script>
+<script src="../../libs/codecheck/cert-utils.js"></script>
+<script src="../../libs/codecheck/cert-citation.js"></script>
+<p class="text-muted cert-footer-link">
 <a href="index.json">View certificate data as JSON</a>
 </p>
 </div>
@@ -378,41 +351,25 @@ A small R script to render a map and two tables. Minor code adjustments were mad
 var images = ["cert_1.png", "cert_2.png", "cert_3.png", "cert_4.png"];
 var currentIndex = 0;
 
-function changeImage(direction) {
-  currentIndex += direction;
-  if (currentIndex < 0) {
-    currentIndex = images.length - 1;
-  } else if (currentIndex >= images.length) {
-    currentIndex = 0;
-  }
-  // Change the src image on click
-  document.getElementById('image-slider').src= images[currentIndex];
-}
-
-// Setting the cert page 1 as the display image
-changeImage(0);
-
-// Toggling display of the summary and abstract section on and off depending on if text is available
-function adjustContentDisplay(contentElement, sectionElement) {
-  // Check if the content is empty, in which case we hide the section
-  if (!contentElement.textContent.trim()) {
-    sectionElement.style.display = 'none';  
-    return; 
-  }
-}
-
+// Initialize page on DOM load
 document.addEventListener("DOMContentLoaded", function() {
-  // Adjust for the summary section
-  var summarySection = document.getElementById("summary-section"); 
-  var summaryContent = document.getElementById("summary-content");
+  // Setting the cert page 1 as the display image
+  changeImage(0);
 
-  adjustContentDisplay(summaryContent, summarySection);
+  initializeCertificateSections();
 
-  // Adjust for the abstract section
-  var abstractSection = document.getElementById("abstract-section"); 
-  var abstractContent = document.getElementById("abstract-content");
+  // Initialize auto-pagination
+  if (typeof initializeAutoPagination === 'function') {
+    initializeAutoPagination();
+  }
 
-  adjustContentDisplay(abstractContent, abstractSection);
+  // Initialize citation generator
+  // The citation-wrapper.js ensures Cite is available globally
+  if (typeof initializeCitationGenerator === 'function') {
+    initializeCitationGenerator();
+  } else {
+    console.error('Citation generator function not available');
+  }
 });
 
 </script>

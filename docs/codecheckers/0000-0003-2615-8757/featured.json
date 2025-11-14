@@ -1,15 +1,15 @@
 [
   {
-    "Certificate ID": "2021-006",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-006/",
-    "Repository": "osf::4cpm3",
-    "Repository Link": "https://osf.io/4cpm3",
-    "Report": "https://doi.org/10.17605/OSF.IO/4CPM3",
-    "Title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-2-14-2021",
+    "Certificate ID": "2023-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-006/",
+    "Repository": "osf::d2shf",
+    "Repository Link": "https://osf.io/d2shf",
+    "Report": "https://doi.org/10.17605/OSF.IO/D2SHF",
+    "Title": "Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-10-2023",
     "Type": "conference",
     "Venue": "AGILEGIS",
-    "Check date": "2021-06-10"
+    "Check date": "2023-06-13"
   },
   {
     "Certificate ID": "2022-013",
@@ -36,15 +36,15 @@
     "Check date": "2022-07-09"
   },
   {
-    "Certificate ID": "2023-006",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-006/",
-    "Repository": "osf::d2shf",
-    "Repository Link": "https://osf.io/d2shf",
-    "Report": "https://doi.org/10.17605/OSF.IO/D2SHF",
-    "Title": "Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-4-10-2023",
+    "Certificate ID": "2021-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-006/",
+    "Repository": "osf::4cpm3",
+    "Repository Link": "https://osf.io/4cpm3",
+    "Report": "https://doi.org/10.17605/OSF.IO/4CPM3",
+    "Title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-14-2021",
     "Type": "conference",
     "Venue": "AGILEGIS",
-    "Check date": "2023-06-13"
+    "Check date": "2021-06-10"
   }
 ]

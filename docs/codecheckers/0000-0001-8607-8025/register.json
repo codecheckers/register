@@ -24,6 +24,18 @@
     "Check date": "2020-04-13"
   },
   {
+    "Certificate ID": "2020-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
+    "Repository": "github::codecheckers/Hathway-Goodman-2018",
+    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
+    "Report": "https://doi.org/10.53962/nsys-9a40",
+    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2025-05-19"
+  },
+  {
     "Certificate ID": "2020-008",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-008/",
     "Repository": "github::codecheckers/covid-uk",
@@ -190,17 +202,5 @@
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-11-28"
-  },
-  {
-    "Certificate ID": "2020-007",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
-    "Repository": "github::codecheckers/Hathway-Goodman-2018",
-    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
-    "Report": "https://doi.org/10.53962/nsys-9a40",
-    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
-    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
-    "Type": "community",
-    "Venue": "codecheck",
-    "Check date": "2025-05-19"
   }
 ]

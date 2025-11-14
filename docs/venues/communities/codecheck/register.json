@@ -50,6 +50,16 @@
     "Check date": "2020-07-16"
   },
   {
+    "Certificate ID": "2020-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
+    "Repository": "github::codecheckers/Hathway-Goodman-2018",
+    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
+    "Report": "https://doi.org/10.53962/nsys-9a40",
+    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "Check date": "2025-05-19"
+  },
+  {
     "Certificate ID": "2020-014",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
     "Repository": "github::codecheckers/Sadeh-and-Clopath",
@@ -88,16 +98,6 @@
     "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
     "Paper reference": "https://doi.org/10.31234/osf.io/cz32t",
     "Check date": "2024-10-15"
-  },
-  {
-    "Certificate ID": "2020-007",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
-    "Repository": "github::codecheckers/Hathway-Goodman-2018",
-    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
-    "Report": "https://doi.org/10.53962/nsys-9a40",
-    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
-    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
-    "Check date": "2025-05-19"
   },
   {
     "Certificate ID": "2025-020",

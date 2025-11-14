@@ -1,5 +1,17 @@
 [
   {
+    "Certificate ID": "2025-009",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-009/",
+    "Repository": "osf::gv2z4",
+    "Repository Link": "https://osf.io/gv2z4",
+    "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
+    "Title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-9-2025",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-13"
+  },
+  {
     "Certificate ID": "2023-003",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-003/",
     "Repository": "osf::m5bhk",
@@ -22,17 +34,5 @@
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2023-06-13"
-  },
-  {
-    "Certificate ID": "2025-009",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-009/",
-    "Repository": "osf::gv2z4",
-    "Repository Link": "https://osf.io/gv2z4",
-    "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
-    "Title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-6-9-2025",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2025-06-13"
   }
 ]

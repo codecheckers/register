@@ -1,5 +1,29 @@
 [
   {
+    "Certificate ID": "2020-015",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-015/",
+    "Repository": "github::codecheckers/Liou-and-Bateman",
+    "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
+    "Report": "https://doi.org/10.5281/zenodo.3978402",
+    "Title": "A model for focal seizure onset, propagation, evolution, and progression",
+    "Paper reference": "https://doi.org/10.7554/eLife.50927",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-08-04"
+  },
+  {
+    "Certificate ID": "2020-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
+    "Repository": "github::codecheckers/Sadeh-and-Clopath",
+    "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
+    "Report": "https://doi.org/10.5281/zenodo.3967326",
+    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
+    "Paper reference": "https://doi.org/10.7554/eLife.52757",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-07-28"
+  },
+  {
     "Certificate ID": "2020-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-005/",
     "Repository": "github::codecheckers/Larisch-reproduction",
@@ -34,29 +58,5 @@
     "Type": "community",
     "Venue": "preprint",
     "Check date": "2020-07-14"
-  },
-  {
-    "Certificate ID": "2020-014",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
-    "Repository": "github::codecheckers/Sadeh-and-Clopath",
-    "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
-    "Report": "https://doi.org/10.5281/zenodo.3967326",
-    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
-    "Paper reference": "https://doi.org/10.7554/eLife.52757",
-    "Type": "community",
-    "Venue": "codecheck",
-    "Check date": "2020-07-28"
-  },
-  {
-    "Certificate ID": "2020-015",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-015/",
-    "Repository": "github::codecheckers/Liou-and-Bateman",
-    "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
-    "Report": "https://doi.org/10.5281/zenodo.3978402",
-    "Title": "A model for focal seizure onset, propagation, evolution, and progression",
-    "Paper reference": "https://doi.org/10.7554/eLife.50927",
-    "Type": "community",
-    "Venue": "codecheck",
-    "Check date": "2020-08-04"
   }
 ]

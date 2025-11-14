@@ -36,7 +36,7 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
+<meta name="generator" content="codecheck">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
@@ -233,8 +233,8 @@ pre code {
 
   </div>
 </div>
-<div style="max-width: 1200px; margin: 1rem auto; padding: 0 1rem;">
-<nav aria-label="breadcrumb" style="margin-bottom: 1.5rem;">
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
     <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
@@ -255,65 +255,19 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"></p>
-<style>
-  body {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  }
-
-  h1 {
-    margin-top: 2rem;
-  }
-
-  /* Add minimum height to cards when screen less than md */
-  @media (max-width: 768px) {
-    .card {
-      min-height: 270px;
-    }
-  }
-
-  .img-background {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-  }
-  .wrapper {
-    height: 80vh;
-    padding: 0px;
-  }
-  .row {
-    margin: 5px;
-  }
-
-  .scrollable-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .scrollable-text-box {
-    flex: 1 1 auto;
-    height: 0; /*Adding a height of 0 so that the text box fills remainder of card*/
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #fff;
-  }
-
-</style>
-<div class="container">
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
 <div class="card mb-3">
 <div class="card-body">
 <!-- Buttons to change cert page -->
 <div class="d-flex justify-content-center">
-<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2">
+<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2" id="prev-btn" title="View previous page">
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
@@ -327,7 +281,7 @@ Next
 <div class="col-md-6 d-flex flex-column">
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 Paper details
 </h2>
 </div>
@@ -339,11 +293,11 @@ Paper details
 <strong>Authors</strong>: <a href="https://orcid.org/0000-0002-8000-628X">Dagoberto José Herrera-Murillo</a>, <a href="https://orcid.org/0000-0002-6477-0683">Héctor Ochoa-Ortiz</a>, <a href="https://orcid.org/0000-0003-2260-2777">Umair Ahmed</a>, <a href="https://orcid.org/0000-0001-6491-7430">Francisco Javier López-Pellicer</a>, <a href="https://orcid.org/0000-0001-5374-2364">Barbara Re</a>, <a href="https://orcid.org/0000-0002-2840-7561">Andrea Polini</a>, <a href="https://orcid.org/0000-0002-1279-0367">Javier Nogueras-Iso</a>
 </p>
 <!-- Abstract section -->
-<div id="abstract-section" class="scrollable-container">
+<div id="abstract-section" class="text-container">
 <p>
 <strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
 </p>
-<div id="abstract-content" class="scrollable-text-box">
+<div id="abstract-content" class="text-box">
 <p>
 <jats:p>Abstract. Geographic information is vital for organising humanitarian campaigns and helping those in need. The leading Humanitarian OpenStreetMap Team (HOT) organises projects to create the necessary geographical information and connect to the organisations that need to make decisions on the ground. This work provides insights into project management dynamics and volunteers’ interaction with user interfaces in Volunteered Geographic Information (VGI) in a humanitarian context. We do so by conducting a process analysis of 746 completed, fully validated, and archived projects in the HOT Tasking Manager (HOT-TM) over the past two years. The analysis encompasses a process discovery stage from the perspectives of control flow, time, organisation, and outcome of the mapping tasks that comprise a project. The findings offer valuable implications for future project planning and execution in similar contexts. Our process mining exploration of the task states found a clear path that involves mapping and validation operations with minor deviations. However, we did find a major bottleneck from the mapping to the validation phase, which could reflect that validation capabilities are a scarce resource. Proactive notification for validators, artificial intelligence adoption for task planning, user interface redesign, and strategies for better harnessing the collective intelligence of volunteers could improve the process. </jats:p>
 </p>
@@ -353,7 +307,7 @@ Paper details
 </div>
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 CODECHECK details
 </h2>
 </div>
@@ -362,7 +316,7 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2024-011
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://codecheck.org.uk/register/codecheckers/0000-0003-0863-9581/">Rémy Decoupes</a>
+<strong>Codechecker name</strong>: <a href="../../codecheckers/0000-0003-0863-9581/">Rémy Decoupes</a>
 </p>
 <p>
 <strong>Time of check</strong>: 2024-05-27 10:29:00
@@ -374,27 +328,46 @@ CODECHECK details
 <strong>Full certificate</strong>: <a href="https://doi.org/10.17605/osf.io/FMGB4" class="uri">https://doi.org/10.17605/osf.io/FMGB4</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="https://codecheck.org.uk/register/venues/conferences/">conference</a>
+<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="https://codecheck.org.uk/register/venues/conferences/agilegis/">AGILEGIS</a>
+<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
 </p>
 <!-- Summary -->
-<div id="summary-section" class="scrollable-container">
+<div id="summary-section" class="text-container">
 <p>
 <strong>Summary</strong>:
 </p>
-<div id="summary-content" class="scrollable-text-box">
+<div id="summary-content" class="text-box">
 <p>
 The authors made their code available through a GitHub repository. The Readme.md file provides clear instructions for executing the entire code. It is worth noting that the input data is available provided that accounts are created with HOTOSM and Bunting Labs. The data retrieval process takes a long time. Therefore, the authors provided me with all the input data for my review. I did not encounter any difficulties in executing the Python notebooks. As a result, I produced intermediate data (in 4 CSV files). Unfortunately, I encountered some blocking errors when executing the R Markdown (which is the notebook responsible for producing tables and figures of the manuscript). Assisted by the authors, we discovered that the errors were caused by the content of the intermediate files I had generated. Strictly speaking, since the authors shared all their input data with me, I should not have encountered these errors. To continue my review, the authors sent me their version of the intermediate files. Thanks to them, I was able to execute the entire R Markdown and generate all the tables and figures.
 </p>
+</div>
+</div>
+<!-- Citation Generator -->
+<div id="citation-section" class="mt-3">
+<p>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+</p>
+<div class="mb-2">
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+</div>
+<div class="citation-preview-wrapper mb-2">
+<div id="citation-preview" class="border rounded p-2 citation-preview">
+<span class="text-muted">Loading citation…</span>
+</div>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
-<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<script src="../../libs/codecheck/citation.min.js"></script>
+<script src="../../libs/codecheck/citation-wrapper.js"></script>
+<script src="../../libs/codecheck/cert-utils.js"></script>
+<script src="../../libs/codecheck/cert-citation.js"></script>
+<p class="text-muted cert-footer-link">
 <a href="index.json">View certificate data as JSON</a>
 </p>
 </div>
@@ -403,41 +376,25 @@ The authors made their code available through a GitHub repository. The Readme.md
 var images = ["cert_1.png", "cert_2.png", "cert_3.png", "cert_4.png", "cert_5.png", "cert_6.png", "cert_7.png"];
 var currentIndex = 0;
 
-function changeImage(direction) {
-  currentIndex += direction;
-  if (currentIndex < 0) {
-    currentIndex = images.length - 1;
-  } else if (currentIndex >= images.length) {
-    currentIndex = 0;
-  }
-  // Change the src image on click
-  document.getElementById('image-slider').src= images[currentIndex];
-}
-
-// Setting the cert page 1 as the display image
-changeImage(0);
-
-// Toggling display of the summary and abstract section on and off depending on if text is available
-function adjustContentDisplay(contentElement, sectionElement) {
-  // Check if the content is empty, in which case we hide the section
-  if (!contentElement.textContent.trim()) {
-    sectionElement.style.display = 'none';  
-    return; 
-  }
-}
-
+// Initialize page on DOM load
 document.addEventListener("DOMContentLoaded", function() {
-  // Adjust for the summary section
-  var summarySection = document.getElementById("summary-section"); 
-  var summaryContent = document.getElementById("summary-content");
+  // Setting the cert page 1 as the display image
+  changeImage(0);
 
-  adjustContentDisplay(summaryContent, summarySection);
+  initializeCertificateSections();
 
-  // Adjust for the abstract section
-  var abstractSection = document.getElementById("abstract-section"); 
-  var abstractContent = document.getElementById("abstract-content");
+  // Initialize auto-pagination
+  if (typeof initializeAutoPagination === 'function') {
+    initializeAutoPagination();
+  }
 
-  adjustContentDisplay(abstractContent, abstractSection);
+  // Initialize citation generator
+  // The citation-wrapper.js ensures Cite is available globally
+  if (typeof initializeCitationGenerator === 'function') {
+    initializeCitationGenerator();
+  } else {
+    console.error('Citation generator function not available');
+  }
 });
 
 </script>

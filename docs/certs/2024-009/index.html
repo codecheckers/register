@@ -36,7 +36,7 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
+<meta name="generator" content="codecheck">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
@@ -210,8 +210,8 @@ pre code {
 
   </div>
 </div>
-<div style="max-width: 1200px; margin: 1rem auto; padding: 0 1rem;">
-<nav aria-label="breadcrumb" style="margin-bottom: 1.5rem;">
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
     <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
@@ -232,65 +232,19 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"></p>
-<style>
-  body {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  }
-
-  h1 {
-    margin-top: 2rem;
-  }
-
-  /* Add minimum height to cards when screen less than md */
-  @media (max-width: 768px) {
-    .card {
-      min-height: 270px;
-    }
-  }
-
-  .img-background {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-  }
-  .wrapper {
-    height: 80vh;
-    padding: 0px;
-  }
-  .row {
-    margin: 5px;
-  }
-
-  .scrollable-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .scrollable-text-box {
-    flex: 1 1 auto;
-    height: 0; /*Adding a height of 0 so that the text box fills remainder of card*/
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #fff;
-  }
-
-</style>
-<div class="container">
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
 <div class="card mb-3">
 <div class="card-body">
 <!-- Buttons to change cert page -->
 <div class="d-flex justify-content-center">
-<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2">
+<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2" id="prev-btn" title="View previous page">
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
@@ -304,7 +258,7 @@ Next
 <div class="col-md-6 d-flex flex-column">
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 Paper details
 </h2>
 </div>
@@ -316,11 +270,11 @@ Paper details
 <strong>Authors</strong>: Matias Cardoso1, Vasileios Milias, Maurice Harteveld
 </p>
 <!-- Abstract section -->
-<div id="abstract-section" class="scrollable-container">
+<div id="abstract-section" class="text-container">
 <p>
 <strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
 </p>
-<div id="abstract-content" class="scrollable-text-box">
+<div id="abstract-content" class="text-box">
 <p>
 <jats:p>Abstract. The extent to which the built environment encourages people to walk in public spaces, hence the quality of being walkable or ‘walkability’ has long been associated with positive outcomes on people’s health. While various studies have developed indices to assess walkability, limited attention has been given to indices that reflect the influence of specific city characteristics on walkability. This study showcases the development of a city-specific walkability index through a participatory approach using Amsterdam as a case study. It explores the viewpoints of urban designers and policy-makers who work or reside in Amsterdam on what constitutes a walkable street and identifies the most significant walkability factors for Amsterdam. These factors are then quantified based on open-access datasets and integrated into a street-level weighted walkability index. The resulting walkability index underscores the importance of factors such as traffic and crime safety, quality of the pedestrian infrastructure, and proximity to public amenities in shaping residents’ decisions to walk in specific public spaces. Finally, this research underscores the importance of involving individuals through participatory methods, considering subjective perspectives, and acknowledging shared experiences within particular groups and spaces when assessing walkability. </jats:p>
 </p>
@@ -330,7 +284,7 @@ Paper details
 </div>
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 CODECHECK details
 </h2>
 </div>
@@ -339,7 +293,7 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2024-009
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://codecheck.org.uk/register/codecheckers/0000-0002-9317-8291/">Frank Ostermann</a>
+<strong>Codechecker name</strong>: <a href="../../codecheckers/0000-0002-9317-8291/">Frank Ostermann</a>
 </p>
 <p>
 <strong>Time of check</strong>: 2024-05-23 15:47
@@ -351,17 +305,17 @@ CODECHECK details
 <strong>Full certificate</strong>: <a href="https://doi.org/10.17605/osf.io/CSB7R" class="uri">https://doi.org/10.17605/osf.io/CSB7R</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="https://codecheck.org.uk/register/venues/conferences/">conference</a>
+<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="https://codecheck.org.uk/register/venues/conferences/agilegis/">AGILEGIS</a>
+<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
 </p>
 <!-- Summary -->
-<div id="summary-section" class="scrollable-container">
+<div id="summary-section" class="text-container">
 <p>
 <strong>Summary</strong>:
 </p>
-<div id="summary-content" class="scrollable-text-box">
+<div id="summary-content" class="text-box">
 <p>
 <p>The paper investigates to improve on walkability indices that consider city-specifics. It employs a mixed methods approach, starting with a literature review to identify relevant elements, followed by participatory sessions with urban planners and policymakers to determine factors for the case study of Amsterdam. In a last step, the authors quantify these factors and calculate walkability scores for the study area. The first two steps in the research design are out of scope of this reproducibility review, which focuses on the computational reproducibility of the quantitative analysis (phase C in Figure 1 of the paper).</p>
 <p>The authors provide data sets in the repository to execute the steps of normalization, calculation, and visualization. A visual inspection using QGIS shows similar patterns of walkability scores.</p>
@@ -369,11 +323,30 @@ This reproducibility review was thus only able to validate part of the workflow.
 </p>
 </div>
 </div>
+<!-- Citation Generator -->
+<div id="citation-section" class="mt-3">
+<p>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+</p>
+<div class="mb-2">
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+</div>
+<div class="citation-preview-wrapper mb-2">
+<div id="citation-preview" class="border rounded p-2 citation-preview">
+<span class="text-muted">Loading citation…</span>
+</div>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
+</div>
+</div>
 </div>
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
-<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<script src="../../libs/codecheck/citation.min.js"></script>
+<script src="../../libs/codecheck/citation-wrapper.js"></script>
+<script src="../../libs/codecheck/cert-utils.js"></script>
+<script src="../../libs/codecheck/cert-citation.js"></script>
+<p class="text-muted cert-footer-link">
 <a href="index.json">View certificate data as JSON</a>
 </p>
 </div>
@@ -382,41 +355,25 @@ This reproducibility review was thus only able to validate part of the workflow.
 var images = ["cert_1.png", "cert_2.png"];
 var currentIndex = 0;
 
-function changeImage(direction) {
-  currentIndex += direction;
-  if (currentIndex < 0) {
-    currentIndex = images.length - 1;
-  } else if (currentIndex >= images.length) {
-    currentIndex = 0;
-  }
-  // Change the src image on click
-  document.getElementById('image-slider').src= images[currentIndex];
-}
-
-// Setting the cert page 1 as the display image
-changeImage(0);
-
-// Toggling display of the summary and abstract section on and off depending on if text is available
-function adjustContentDisplay(contentElement, sectionElement) {
-  // Check if the content is empty, in which case we hide the section
-  if (!contentElement.textContent.trim()) {
-    sectionElement.style.display = 'none';  
-    return; 
-  }
-}
-
+// Initialize page on DOM load
 document.addEventListener("DOMContentLoaded", function() {
-  // Adjust for the summary section
-  var summarySection = document.getElementById("summary-section"); 
-  var summaryContent = document.getElementById("summary-content");
+  // Setting the cert page 1 as the display image
+  changeImage(0);
 
-  adjustContentDisplay(summaryContent, summarySection);
+  initializeCertificateSections();
 
-  // Adjust for the abstract section
-  var abstractSection = document.getElementById("abstract-section"); 
-  var abstractContent = document.getElementById("abstract-content");
+  // Initialize auto-pagination
+  if (typeof initializeAutoPagination === 'function') {
+    initializeAutoPagination();
+  }
 
-  adjustContentDisplay(abstractContent, abstractSection);
+  // Initialize citation generator
+  // The citation-wrapper.js ensures Cite is available globally
+  if (typeof initializeCitationGenerator === 'function') {
+    initializeCitationGenerator();
+  } else {
+    console.error('Citation generator function not available');
+  }
 });
 
 </script>

@@ -72,6 +72,18 @@
     "Check date": "2020-07-16"
   },
   {
+    "Certificate ID": "2020-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
+    "Repository": "github::codecheckers/Hathway-Goodman-2018",
+    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
+    "Report": "https://doi.org/10.53962/nsys-9a40",
+    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2025-05-19"
+  },
+  {
     "Certificate ID": "2020-008",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-008/",
     "Repository": "github::codecheckers/covid-uk",
@@ -816,6 +828,18 @@
     "Check date": "2024-08-01"
   },
   {
+    "Certificate ID": "2024-005",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-005/",
+    "Repository": "github::codecheckers/sample-size-codecheck",
+    "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
+    "Report": "https://doi.org/10.5281/zenodo.13945051",
+    "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
+    "Paper reference": "https://doi.org/10.31234/osf.io/cz32t",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2024-10-15"
+  },
+  {
     "Certificate ID": "2024-006",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-006/",
     "Repository": "osf::ymc3t",
@@ -910,18 +934,6 @@
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-31"
-  },
-  {
-    "Certificate ID": "2024-005",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-005/",
-    "Repository": "github::codecheckers/sample-size-codecheck",
-    "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
-    "Report": "https://doi.org/10.5281/zenodo.13945051",
-    "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
-    "Paper reference": "https://doi.org/10.31234/osf.io/cz32t",
-    "Type": "community",
-    "Venue": "codecheck",
-    "Check date": "2024-10-15"
   },
   {
     "Certificate ID": "2024-014",
@@ -1032,18 +1044,6 @@
     "Check date": "2024-12-05"
   },
   {
-    "Certificate ID": "2024-024",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-024/",
-    "Repository": "github::codecheckers/iteval-sims",
-    "Repository Link": "https://github.com/codecheckers/iteval-sims",
-    "Report": "https://doi.org/10.5281/zenodo.14576035",
-    "Title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
-    "Paper reference": "https://doi.org/10.1002/sim.10186",
-    "Type": "institution",
-    "Venue": "AUMC",
-    "Check date": "2024-12-16"
-  },
-  {
     "Certificate ID": "2024-023",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-023/",
     "Repository": "zenodo::14900193",
@@ -1054,6 +1054,18 @@
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-11-08"
+  },
+  {
+    "Certificate ID": "2024-024",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-024/",
+    "Repository": "github::codecheckers/iteval-sims",
+    "Repository Link": "https://github.com/codecheckers/iteval-sims",
+    "Report": "https://doi.org/10.5281/zenodo.14576035",
+    "Title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
+    "Paper reference": "https://doi.org/10.1002/sim.10186",
+    "Type": "institution",
+    "Venue": "AUMC",
+    "Check date": "2024-12-16"
   },
   {
     "Certificate ID": "2024-025",
@@ -1068,18 +1080,6 @@
     "Check date": "2024-11-08"
   },
   {
-    "Certificate ID": "2025-003",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-003/",
-    "Repository": "github::codecheckers/certificate-2025-003",
-    "Repository Link": "https://github.com/codecheckers/certificate-2025-003",
-    "Report": "https://doi.org/10.5281/zenodo.15333601",
-    "Title": "Optimal Graph Stretching for Distributed Averaging",
-    "Paper reference": "https://doi.org/10.48550/arXiv.2504.10289",
-    "Type": "institution",
-    "Venue": "TU Delft DCC",
-    "Check date": "2025-03-25"
-  },
-  {
     "Certificate ID": "2025-001",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-001/",
     "Repository": "github::codecheckers/mb11CalculusPilot",
@@ -1092,16 +1092,28 @@
     "Check date": "2025-02-14"
   },
   {
-    "Certificate ID": "2020-007",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
-    "Repository": "github::codecheckers/Hathway-Goodman-2018",
-    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
-    "Report": "https://doi.org/10.53962/nsys-9a40",
-    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
-    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "Certificate ID": "2025-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-002/",
+    "Repository": "github::codecheckers/EvalSubtitle",
+    "Repository Link": "https://github.com/codecheckers/EvalSubtitle",
+    "Report": "https://doi.org/10.5281/zenodo.15173758",
+    "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
+    "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
     "Type": "community",
-    "Venue": "codecheck",
-    "Check date": "2025-05-19"
+    "Venue": "codecheck NL",
+    "Check date": "2025-02-14"
+  },
+  {
+    "Certificate ID": "2025-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-003/",
+    "Repository": "github::codecheckers/certificate-2025-003",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-003",
+    "Report": "https://doi.org/10.5281/zenodo.15333601",
+    "Title": "Optimal Graph Stretching for Distributed Averaging",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2504.10289",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-03-25"
   },
   {
     "Certificate ID": "2025-004",
@@ -1306,18 +1318,6 @@
     "Type": "community",
     "Venue": "codecheck",
     "Check date": "2025-06-28"
-  },
-  {
-    "Certificate ID": "2025-002",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-002/",
-    "Repository": "github::codecheckers/EvalSubtitle",
-    "Repository Link": "https://github.com/codecheckers/EvalSubtitle",
-    "Report": "https://doi.org/10.5281/zenodo.15173758",
-    "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
-    "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
-    "Type": "community",
-    "Venue": "codecheck NL",
-    "Check date": "2025-02-14"
   },
   {
     "Certificate ID": "2025-021",

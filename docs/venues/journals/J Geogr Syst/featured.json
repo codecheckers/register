@@ -1,15 +1,5 @@
 [
   {
-    "Certificate ID": "2020-016",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-016/",
-    "Repository": "github::codecheckers/OpeningPractice",
-    "Repository Link": "https://github.com/codecheckers/OpeningPractice",
-    "Report": "https://doi.org/10.5281/zenodo.3981253",
-    "Title": "Opening practice: supporting reproducibility and critical spatial data science",
-    "Paper reference": "https://doi.org/10.1007/s10109-020-00334-2",
-    "Check date": "2020-06-02"
-  },
-  {
     "Certificate ID": "2020-017",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-017/",
     "Repository": "github::codecheckers/JGSY-D-19-00087",
@@ -18,5 +8,15 @@
     "Title": "Progress in the R ecosystem for representing and handling spatial data",
     "Paper reference": "https://doi.org/10.1007/s10109-020-00336-0",
     "Check date": "2020-08-27"
+  },
+  {
+    "Certificate ID": "2020-016",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-016/",
+    "Repository": "github::codecheckers/OpeningPractice",
+    "Repository Link": "https://github.com/codecheckers/OpeningPractice",
+    "Report": "https://doi.org/10.5281/zenodo.3981253",
+    "Title": "Opening practice: supporting reproducibility and critical spatial data science",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00334-2",
+    "Check date": "2020-06-02"
   }
 ]

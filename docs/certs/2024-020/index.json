@@ -19,11 +19,7 @@
         "orcid": "0000-0002-3048-5817"
       }
     ],
-    "reference": "https://doi.org/10.1080/15614263.2022.2102494",
-    "abstract": {
-      "text": "This paper describes the scale and composition of emergency demand for police services in Detroit, United States. The contribution is made in replication and extension of analyses reported elsewhere in the United States. Findings indicate that police spend a considerable proportion of time performing a social service function. Just 51% of the total deployed time responding to 911 calls is consumed by crime incidents. The remainder is spent on quality of life (16%), traffic (15%), health (7%), community (5%), and proactive (4%) duties. A small number of incidents consume a disproportionately large amount of police officer time. Emergency demand is concentrated in time and space, and can differ between types of demand. The findings further highlight the potential implications of radically reforming police forces in the United States. The data and code used here are openly available for reproduction, reuse, and scrutiny.",
-      "source": "OpenAlex"
-    }
+    "reference": "https://doi.org/10.1080/15614263.2022.2102494"
   },
   "codecheck": {
     "codecheckers": [

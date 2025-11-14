@@ -11,21 +11,21 @@ remove dependency on external CDNs.
 - **Description**: Front-end framework for web development
 - **License**: MIT
 - **License URL**: https://github.com/twbs/bootstrap/blob/v5.3.3/LICENSE
-- **Configured**: 2025-11-13
+- **Configured**: 2025-11-14
 
 ### Font Awesome 4.7.0
 
 - **Description**: Icon toolkit
 - **License**: OFL-1.1 (fonts), MIT (CSS)
 - **License URL**: https://fontawesome.com/license/free
-- **Configured**: 2025-11-13
+- **Configured**: 2025-11-14
 
 ### Academicons 1.9.4
 
 - **Description**: Academic icons for LaTeX, XeLaTeX, web, and more
 - **License**: OFL-1.1 (fonts), MIT (CSS)
 - **License URL**: https://github.com/jpswalsh/academicons/blob/master/LICENSE
-- **Configured**: 2025-11-13
+- **Configured**: 2025-11-14
 
 ## Updating Libraries
 

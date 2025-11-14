@@ -36,7 +36,7 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
+<meta name="generator" content="codecheck">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
@@ -76,7 +76,6 @@
         "@id": "https://orcid.org/0000-0003-1190-6097"
       }
     ],
-    "abstract": "This paper introduces a novel abstraction-based framework for controller synthesis of nonlinear discrete-time stochastic systems. The focus is on probabilistic reach-avoid specifications. The framework is based on abstracting a stochastic system into a new class of robust Markov models, called orthogonally decoupled Interval Markov Decision Processes (odIMDPs). Specifically, an odIMDPs is a class of robust Markov processes, where the transition probabilities between each pair of states are uncertain and have the product form. We show that such a specific form in the transition probabilities allows one to build compositional abstractions of stochastic systems that, for each state, are only required to store the marginal probability bounds of the original system. This leads to improved memory complexity for our approach compared to commonly employed abstraction-based approaches. Furthermore, we show that an optimal control strategy for a odIMDPs can be computed by solving a set of linear problems. When the resulting strategy is mapped back to the original system, it is guaranteed to lead to reduced conservatism compared to existing approaches. To test our theoretical framework, we perform an extensive empirical comparison of our methods against Interval Markov Decision Process- and Markov Decision Process-based approaches on various benchmarks including 7D systems. Our empirical analysis shows that our approach substantially outperforms state-of-the-art approaches in terms of both memory requirements and the conservatism of the results.",
     "url": "https://doi.org/10.48550/arXiv.2411.11803",
     "sameAs": "https://doi.org/10.48550/arXiv.2411.11803"
   },
@@ -213,8 +212,8 @@ pre code {
 
   </div>
 </div>
-<div style="max-width: 1200px; margin: 1rem auto; padding: 0 1rem;">
-<nav aria-label="breadcrumb" style="margin-bottom: 1.5rem;">
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
     <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
@@ -235,65 +234,19 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"></p>
-<style>
-  body {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  }
-
-  h1 {
-    margin-top: 2rem;
-  }
-
-  /* Add minimum height to cards when screen less than md */
-  @media (max-width: 768px) {
-    .card {
-      min-height: 270px;
-    }
-  }
-
-  .img-background {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-  }
-  .wrapper {
-    height: 80vh;
-    padding: 0px;
-  }
-  .row {
-    margin: 5px;
-  }
-
-  .scrollable-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .scrollable-text-box {
-    flex: 1 1 auto;
-    height: 0; /*Adding a height of 0 so that the text box fills remainder of card*/
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #fff;
-  }
-
-</style>
-<div class="container">
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
 <div class="card mb-3">
 <div class="card-body">
 <!-- Buttons to change cert page -->
 <div class="d-flex justify-content-center">
-<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2">
+<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2" id="prev-btn" title="View previous page">
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
@@ -307,7 +260,7 @@ Next
 <div class="col-md-6 d-flex flex-column">
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 Paper details
 </h2>
 </div>
@@ -319,11 +272,11 @@ Paper details
 <strong>Authors</strong>: <a href="https://orcid.org/0000-0002-2243-0445">Frederik B. Mathiesen</a>, <a href="https://orcid.org/0000-0003-4749-4688">Sofie Haesaert</a>, <a href="https://orcid.org/0000-0003-1190-6097">Luca Laurenti</a>
 </p>
 <!-- Abstract section -->
-<div id="abstract-section" class="scrollable-container">
+<div id="abstract-section" class="text-container">
 <p>
 <strong>Abstract</strong>: <i>Obtained from <a href="https://openalex.org">OpenAlex</a></i>
 </p>
-<div id="abstract-content" class="scrollable-text-box">
+<div id="abstract-content" class="text-box">
 <p>
 This paper introduces a novel abstraction-based framework for controller synthesis of nonlinear discrete-time stochastic systems. The focus is on probabilistic reach-avoid specifications. The framework is based on abstracting a stochastic system into a new class of robust Markov models, called orthogonally decoupled Interval Markov Decision Processes (odIMDPs). Specifically, an odIMDPs is a class of robust Markov processes, where the transition probabilities between each pair of states are uncertain and have the product form. We show that such a specific form in the transition probabilities allows one to build compositional abstractions of stochastic systems that, for each state, are only required to store the marginal probability bounds of the original system. This leads to improved memory complexity for our approach compared to commonly employed abstraction-based approaches. Furthermore, we show that an optimal control strategy for a odIMDPs can be computed by solving a set of linear problems. When the resulting strategy is mapped back to the original system, it is guaranteed to lead to reduced conservatism compared to existing approaches. To test our theoretical framework, we perform an extensive empirical comparison of our methods against Interval Markov Decision Process- and Markov Decision Process-based approaches on various benchmarks including 7D systems. Our empirical analysis shows that our approach substantially outperforms state-of-the-art approaches in terms of both memory requirements and the conservatism of the results.
 </p>
@@ -333,7 +286,7 @@ This paper introduces a novel abstraction-based framework for controller synthes
 </div>
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 CODECHECK details
 </h2>
 </div>
@@ -342,7 +295,7 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2025-018
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://codecheck.org.uk/register/codecheckers/0000-0002-3208-3440/">Niket Agrawal</a>
+<strong>Codechecker name</strong>: <a href="../../codecheckers/0000-0002-3208-3440/">Niket Agrawal</a>
 </p>
 <p>
 <strong>Time of check</strong>: 2025-05-28 10:00:00
@@ -354,27 +307,46 @@ CODECHECK details
 <strong>Full certificate</strong>: <a href="https://doi.org/10.5281/zenodo.15630442" class="uri">https://doi.org/10.5281/zenodo.15630442</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="https://codecheck.org.uk/register/venues/institutions/">institution</a>
+<strong>Type</strong>: <a href="../../venues/institutions/">institution</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/">TU Delft DCC</a>
+<strong>Venue</strong>: <a href="../../venues/institutions/tu_delft_dcc/">TU Delft DCC</a>
 </p>
 <!-- Summary -->
-<div id="summary-section" class="scrollable-container">
+<div id="summary-section" class="text-container">
 <p>
 <strong>Summary</strong>:
 </p>
-<div id="summary-content" class="scrollable-text-box">
+<div id="summary-content" class="text-box">
 <p>
 Tables 2, 3, and 4, as well as Figures 4 and 5 from the manuscript, were successfully reproduced by following the instructions provided in the README file. Instructions were only available for reproducing these specific tables and figures. To avoid the lengthy execution time required to run the full experiments, the pre-computed results provided in the repository were used to generate the tables and figures, as recommended in the README.
 </p>
+</div>
+</div>
+<!-- Citation Generator -->
+<div id="citation-section" class="mt-3">
+<p>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+</p>
+<div class="mb-2">
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+</div>
+<div class="citation-preview-wrapper mb-2">
+<div id="citation-preview" class="border rounded p-2 citation-preview">
+<span class="text-muted">Loading citation…</span>
+</div>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
-<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<script src="../../libs/codecheck/citation.min.js"></script>
+<script src="../../libs/codecheck/citation-wrapper.js"></script>
+<script src="../../libs/codecheck/cert-utils.js"></script>
+<script src="../../libs/codecheck/cert-citation.js"></script>
+<p class="text-muted cert-footer-link">
 <a href="index.json">View certificate data as JSON</a>
 </p>
 </div>
@@ -383,41 +355,25 @@ Tables 2, 3, and 4, as well as Figures 4 and 5 from the manuscript, were success
 var images = ["cert_1.png", "cert_2.png", "cert_3.png", "cert_4.png", "cert_5.png", "cert_6.png", "cert_7.png", "cert_8.png"];
 var currentIndex = 0;
 
-function changeImage(direction) {
-  currentIndex += direction;
-  if (currentIndex < 0) {
-    currentIndex = images.length - 1;
-  } else if (currentIndex >= images.length) {
-    currentIndex = 0;
-  }
-  // Change the src image on click
-  document.getElementById('image-slider').src= images[currentIndex];
-}
-
-// Setting the cert page 1 as the display image
-changeImage(0);
-
-// Toggling display of the summary and abstract section on and off depending on if text is available
-function adjustContentDisplay(contentElement, sectionElement) {
-  // Check if the content is empty, in which case we hide the section
-  if (!contentElement.textContent.trim()) {
-    sectionElement.style.display = 'none';  
-    return; 
-  }
-}
-
+// Initialize page on DOM load
 document.addEventListener("DOMContentLoaded", function() {
-  // Adjust for the summary section
-  var summarySection = document.getElementById("summary-section"); 
-  var summaryContent = document.getElementById("summary-content");
+  // Setting the cert page 1 as the display image
+  changeImage(0);
 
-  adjustContentDisplay(summaryContent, summarySection);
+  initializeCertificateSections();
 
-  // Adjust for the abstract section
-  var abstractSection = document.getElementById("abstract-section"); 
-  var abstractContent = document.getElementById("abstract-content");
+  // Initialize auto-pagination
+  if (typeof initializeAutoPagination === 'function') {
+    initializeAutoPagination();
+  }
 
-  adjustContentDisplay(abstractContent, abstractSection);
+  // Initialize citation generator
+  // The citation-wrapper.js ensures Cite is available globally
+  if (typeof initializeCitationGenerator === 'function') {
+    initializeCitationGenerator();
+  } else {
+    console.error('Citation generator function not available');
+  }
 });
 
 </script>

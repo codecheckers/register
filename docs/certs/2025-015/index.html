@@ -36,7 +36,7 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.23.0, register commit de8ef46">
+<meta name="generator" content="codecheck">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
@@ -227,8 +227,8 @@ pre code {
 
   </div>
 </div>
-<div style="max-width: 1200px; margin: 1rem auto; padding: 0 1rem;">
-<nav aria-label="breadcrumb" style="margin-bottom: 1.5rem;">
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
     <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
@@ -249,65 +249,19 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"></p>
-<style>
-  body {
-    font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  }
-
-  h1 {
-    margin-top: 2rem;
-  }
-
-  /* Add minimum height to cards when screen less than md */
-  @media (max-width: 768px) {
-    .card {
-      min-height: 270px;
-    }
-  }
-
-  .img-background {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-  }
-  .wrapper {
-    height: 80vh;
-    padding: 0px;
-  }
-  .row {
-    margin: 5px;
-  }
-
-  .scrollable-container {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-
-  .scrollable-text-box {
-    flex: 1 1 auto;
-    height: 0; /*Adding a height of 0 so that the text box fills remainder of card*/
-    overflow-y: auto;
-    border: 1px solid #ddd;
-    padding: 10px;
-    background-color: #fff;
-  }
-
-</style>
-<div class="container">
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
 <div class="card mb-3">
 <div class="card-body">
 <!-- Buttons to change cert page -->
 <div class="d-flex justify-content-center">
-<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2">
+<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2" id="prev-btn" title="View previous page">
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2">
+</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
@@ -321,7 +275,7 @@ Next
 <div class="col-md-6 d-flex flex-column">
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 Paper details
 </h2>
 </div>
@@ -333,11 +287,11 @@ Paper details
 <strong>Authors</strong>: Johannes Huber, <a href="https://orcid.org/0000-0003-4669-3298">Christina Ludwig</a>, <a href="https://orcid.org/0000-0002-8610-2563">Kathrin Foshag</a>, <a href="https://orcid.org/0009-0008-8406-2028">Nikolaos Kolaxidis</a>, <a href="https://orcid.org/0000-0003-4916-9838">Alexander Zipf</a>, <a href="https://orcid.org/0000-0003-1825-9996">Sven Lautenbach</a>
 </p>
 <!-- Abstract section -->
-<div id="abstract-section" class="scrollable-container">
+<div id="abstract-section" class="text-container">
 <p>
 <strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
 </p>
-<div id="abstract-content" class="scrollable-text-box">
+<div id="abstract-content" class="text-box">
 <p>
 <jats:p>Abstract. Anthropogenic climate change, combined with specific modifications of the urban climate, is expected to lead to an increase in the intensity, duration, and frequency of heat waves in urban areas. Prolonged heat stress - as expected due to these changes - has serious health consequences for vulnerable urban population groups. This study examines the effects of heat stress on the accessibility of essential services in Heidelberg, Germany. The concept of isochrones was extended to include heat stress factors and applied to the study area, the city of Heidelberg in Germany. The analysis was based on a heat-sensitive routing approach that uses OpenStreetMap data together with a digital surface model that was used to model solar exposure. Results showed that under moderate heat stress conditions, accessibility to essential services (transportation, healthcare, retail and social services) was largely maintained, while under high heat stress conditions, a significant portion of the population was excluded from these services. Differences in the affected population can be identified according to both administrative territorial units and building structures. The results provide relevant information for urban planning as they indicate where city inhabitants will face problems to access essential services under heat spells. </jats:p>
 </p>
@@ -347,7 +301,7 @@ Paper details
 </div>
 <div class="card mb-3 flex-grow-1">
 <div class="card-header pt-4">
-<h2 class="card-title" style="color: darkgreen; margin-top: 0;">
+<h2 class="card-title cert-card-title">
 CODECHECK details
 </h2>
 </div>
@@ -356,7 +310,7 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2025-015
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="https://codecheck.org.uk/register/codecheckers/0000-0003-0554-734X/">Lorena Abad</a>
+<strong>Codechecker name</strong>: <a href="../../codecheckers/0000-0003-0554-734X/">Lorena Abad</a>
 </p>
 <p>
 <strong>Time of check</strong>: 2025-05-06 12:00:00
@@ -368,27 +322,46 @@ CODECHECK details
 <strong>Full certificate</strong>: <a href="https://doi.org/10.17605/OSF.IO/CHX28" class="uri">https://doi.org/10.17605/OSF.IO/CHX28</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="https://codecheck.org.uk/register/venues/conferences/">conference</a>
+<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="https://codecheck.org.uk/register/venues/conferences/agilegis/">AGILEGIS</a>
+<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
 </p>
 <!-- Summary -->
-<div id="summary-section" class="scrollable-container">
+<div id="summary-section" class="text-container">
 <p>
 <strong>Summary</strong>:
 </p>
-<div id="summary-content" class="scrollable-text-box">
+<div id="summary-content" class="text-box">
 <p>
 The authors included a DASA section on the paper with an anonymous GitHub link to the repository with the code for the reproduction. After initial contact with the authors, the unanonymized link to the GitHub repository was obtained and forked into the reproducible AGILE organization. The repository prepared by the authors has clear instructions on reproducibility for the Jupyter notebooks and points to the included QGIS project to recreate Figures 2-4. Figure 5 is the result of one of the notebooks (lcz_analysis.pynb). Initially, the code limited the AOI to a subset for testing purposes. This was not initially clear from the documentation, but contacting the authors clarified the discrepancies. For this report, the code was successfully run for the whole AOI. Figures 2 to 5 could also be successfully reproduced besides manual edits in Figure 5.
 </p>
+</div>
+</div>
+<!-- Citation Generator -->
+<div id="citation-section" class="mt-3">
+<p>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+</p>
+<div class="mb-2">
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+</div>
+<div class="citation-preview-wrapper mb-2">
+<div id="citation-preview" class="border rounded p-2 citation-preview">
+<span class="text-muted">Loading citation…</span>
+</div>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
 </div>
 </div>
 <script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
-<p class="text-muted" style="margin-top: 2rem; font-size: 0.9em;">
+<script src="../../libs/codecheck/citation.min.js"></script>
+<script src="../../libs/codecheck/citation-wrapper.js"></script>
+<script src="../../libs/codecheck/cert-utils.js"></script>
+<script src="../../libs/codecheck/cert-citation.js"></script>
+<p class="text-muted cert-footer-link">
 <a href="index.json">View certificate data as JSON</a>
 </p>
 </div>
@@ -397,41 +370,25 @@ The authors included a DASA section on the paper with an anonymous GitHub link t
 var images = ["cert_1.png", "cert_2.png", "cert_3.png", "cert_4.png", "cert_5.png", "cert_6.png", "cert_7.png", "cert_8.png", "cert_9.png"];
 var currentIndex = 0;
 
-function changeImage(direction) {
-  currentIndex += direction;
-  if (currentIndex < 0) {
-    currentIndex = images.length - 1;
-  } else if (currentIndex >= images.length) {
-    currentIndex = 0;
-  }
-  // Change the src image on click
-  document.getElementById('image-slider').src= images[currentIndex];
-}
-
-// Setting the cert page 1 as the display image
-changeImage(0);
-
-// Toggling display of the summary and abstract section on and off depending on if text is available
-function adjustContentDisplay(contentElement, sectionElement) {
-  // Check if the content is empty, in which case we hide the section
-  if (!contentElement.textContent.trim()) {
-    sectionElement.style.display = 'none';  
-    return; 
-  }
-}
-
+// Initialize page on DOM load
 document.addEventListener("DOMContentLoaded", function() {
-  // Adjust for the summary section
-  var summarySection = document.getElementById("summary-section"); 
-  var summaryContent = document.getElementById("summary-content");
+  // Setting the cert page 1 as the display image
+  changeImage(0);
 
-  adjustContentDisplay(summaryContent, summarySection);
+  initializeCertificateSections();
 
-  // Adjust for the abstract section
-  var abstractSection = document.getElementById("abstract-section"); 
-  var abstractContent = document.getElementById("abstract-content");
+  // Initialize auto-pagination
+  if (typeof initializeAutoPagination === 'function') {
+    initializeAutoPagination();
+  }
 
-  adjustContentDisplay(abstractContent, abstractSection);
+  // Initialize citation generator
+  // The citation-wrapper.js ensures Cite is available globally
+  if (typeof initializeCitationGenerator === 'function') {
+    initializeCitationGenerator();
+  } else {
+    console.error('Citation generator function not available');
+  }
 });
 
 </script>

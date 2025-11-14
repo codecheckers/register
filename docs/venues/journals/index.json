@@ -1,27 +1,22 @@
 [
   {
     "Journal name": "GigaScience",
-    "Issue label": "journal",
     "No. of codechecks": 2
   },
   {
     "Journal name": "Journal of Geographical Systems",
-    "Issue label": "journal",
     "No. of codechecks": 2
   },
   {
     "Journal name": "Journal of Archaeological Science",
-    "Issue label": "journal",
     "No. of codechecks": 1
   },
   {
     "Journal name": "GigaByte",
-    "Issue label": "journal",
     "No. of codechecks": 1
   },
   {
     "Journal name": "Lifecycle Journal",
-    "Issue label": "lifecycle journal",
     "No. of codechecks": 2
   }
 ]

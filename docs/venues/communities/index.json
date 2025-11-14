@@ -1,22 +1,18 @@
 [
   {
     "Community name": "CODECHECK",
-    "Issue label": "community",
     "No. of codechecks": 11
   },
   {
     "Community name": "Preprint",
-    "Issue label": "preprint",
     "No. of codechecks": 9
   },
   {
     "Community name": "In press",
-    "Issue label": "journal",
     "No. of codechecks": 1
   },
   {
     "Community name": "CODECHECK NL",
-    "Issue label": "check-nl",
     "No. of codechecks": 15
   }
 ]

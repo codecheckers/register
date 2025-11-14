@@ -82,6 +82,24 @@ and clear the cache (in case you made a recent change to an online repo) with `R
 To fix problems with hitting the GitHub API rate limit on local register management, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
 Alternatively, you may log into your GitHub account locally using the [GitHub CLI (`gh`)](https://cli.github.com/).
 
+## Local preview with nginx
+
+After rendering the register, you can preview the generated website locally using an nginx Docker container:
+
+```bash
+make serve
+```
+
+This will start an nginx server on port 80 serving the contents of the `docs/` directory. You can then view the register at [http://localhost](http://localhost).
+
+To stop the server:
+
+```bash
+make serve-stop
+```
+
+**Note**: The nginx container runs in detached mode (background). If port 80 is already in use on your system, you'll need to either stop the service using that port or modify the port mapping in the Makefile.
+
 To render the register manually in a local **Docker container**, you must mount a local `.Renviron` file with the `GITHUB_PAT` variable to not hit the GitHub API rate limit.
 Example (see also `Makefile`):
 

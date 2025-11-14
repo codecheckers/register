@@ -19,11 +19,7 @@
         "orcid": "0000-0003-1190-6097"
       }
     ],
-    "reference": "https://doi.org/10.48550/arXiv.2411.11803",
-    "abstract": {
-      "text": "This paper introduces a novel abstraction-based framework for controller synthesis of nonlinear discrete-time stochastic systems. The focus is on probabilistic reach-avoid specifications. The framework is based on abstracting a stochastic system into a new class of robust Markov models, called orthogonally decoupled Interval Markov Decision Processes (odIMDPs). Specifically, an odIMDPs is a class of robust Markov processes, where the transition probabilities between each pair of states are uncertain and have the product form. We show that such a specific form in the transition probabilities allows one to build compositional abstractions of stochastic systems that, for each state, are only required to store the marginal probability bounds of the original system. This leads to improved memory complexity for our approach compared to commonly employed abstraction-based approaches. Furthermore, we show that an optimal control strategy for a odIMDPs can be computed by solving a set of linear problems. When the resulting strategy is mapped back to the original system, it is guaranteed to lead to reduced conservatism compared to existing approaches. To test our theoretical framework, we perform an extensive empirical comparison of our methods against Interval Markov Decision Process- and Markov Decision Process-based approaches on various benchmarks including 7D systems. Our empirical analysis shows that our approach substantially outperforms state-of-the-art approaches in terms of both memory requirements and the conservatism of the results.",
-      "source": "OpenAlex"
-    }
+    "reference": "https://doi.org/10.48550/arXiv.2411.11803"
   },
   "codecheck": {
     "codecheckers": [
