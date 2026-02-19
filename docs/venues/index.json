@@ -70,5 +70,11 @@
     "Venue name": "Lifecycle Journal",
     "No. of codechecks": 2,
     "Issue label": "lifecycle journal"
+  },
+  {
+    "Venue type": "journal",
+    "Venue name": "Journal of Spatial Information Science",
+    "No. of codechecks": 1,
+    "Issue label": "journal"
   }
 ]

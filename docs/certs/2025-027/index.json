@@ -1,0 +1,72 @@
+{
+  "certificate": {
+    "id": "2025-027",
+    "url": "https://codecheck.org.uk/register/certs/2025-027/"
+  },
+  "paper": {
+    "title": "ClockBoard: A zoning system for urban analysis",
+    "authors": [
+      {
+        "name": "Robin Lovelace",
+        "orcid": "0000-0001-5679-6536"
+      },
+      {
+        "name": "Martijn Tennekes",
+        "orcid": "0000-0002-6506-9522"
+      },
+      {
+        "name": "Dustin Carlino",
+        "orcid": "0000-0002-5565-0989"
+      }
+    ],
+    "reference": "https://doi.org/10.5311/JOSIS.2022.24.172",
+    "abstract": {
+      "text": "<jats:p>\nZones are the building blocks of urban analysis. Fields ranging from demographics to transport planning routinely use zones - spatially contiguous areal units that break-up continuous space into discrete chunks - as the foundation for diverse analysis techniques. Key methods such as origin-destination analysis and choropleth mapping rely on zones with appropriate sizes, shapes and coverage. However, existing zoning systems are sub-optimal in many urban analysis contexts, for three main reasons: 1) administrative zoning systems are often based on somewhat arbitrary factors; 2) zoning systems that are evidence-based (e.g., based on equal population size) are often highly variable in size and shape, reducing their utility for inter-city comparison; and 3) official zoning systems in many places simply do not exist or are unavailable. We set out to develop a flexible, open and scalable solution to these problems. The result is the zonebuilder project (with R, Rust and Python implementations), which was used to create the ClockBoard zoning system. ClockBoard consists of 12 segments emanating from a central place and divided by concentric rings with radii that increase in line with the triangular number sequence (1, 3, 6 km etc). 'ClockBoards' thus create a consistent visual frame of reference for monocentric cities that is reminiscent of clocks and a dartboard. This paper outlines the design and potential uses of the ClockBoard zoning system in the historical context, and discusses future avenues for research into the design and assessment of zoning systems.\n<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Subhan Ali",
+        "orcid": "0009-0003-7546-1717"
+      }
+    ],
+    "check_time": "2025-09-04 12:00:00",
+    "repository": "github::codecheckers/zonebuilder",
+    "report": "https://doi.org/10.5281/zenodo.17059066",
+    "type": "journal",
+    "venue": "JOSIS",
+    "summary": "Successfully reproduced all main figures from the ClockBoard paper using the  zonebuilder R package. All core functions (zb\\_zone, zb\\_doughnut, zb\\_segment,  zb\\_quadrat) work as described. Package installs correctly from CRAN and GitHub.  Interactive mapping requires coordinate transformation but works properly.  Parameter flexibility confirmed through additional tests.\n",
+    "manifest": [
+      {
+        "file": "codecheck/outputs/figure2_clockboard_basic.png",
+        "comment": "Reproduction of Figure 2: Basic ClockBoard zoning system for London"
+      },
+      {
+        "file": "codecheck/outputs/figure3a_doughnuts.png",
+        "comment": "Reproduction of Figure 3a: Doughnut zones (concentric rings)"
+      },
+      {
+        "file": "codecheck/outputs/figure3b_segments.png",
+        "comment": "Reproduction of Figure 3b: Segment zones (clock divisions)"
+      },
+      {
+        "file": "codecheck/outputs/figure4_rectangular_grid.png",
+        "comment": "Reproduction of Figure 4: Rectangular grid comparison"
+      },
+      {
+        "file": "codecheck/outputs/test_3_rings.png",
+        "comment": "Parameter test: 3 rings instead of default configuration"
+      },
+      {
+        "file": "codecheck/outputs/test_8_segments.png",
+        "comment": "Parameter test: 8 segments instead of default 12"
+      },
+      {
+        "file": "codecheck/outputs/test_interactive_leaflet.png",
+        "comment": "Screenshot of interactive leaflet map showing zoning system with geographic context"
+      }
+    ]
+  }
+}
