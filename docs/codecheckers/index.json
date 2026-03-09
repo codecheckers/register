@@ -122,7 +122,7 @@
   {
     "Codechecker name": "Yasel Quintero",
     "ORCID": "0009-0005-9240-7370",
-    "No. of codechecks": 5
+    "No. of codechecks": 6
   },
   {
     "Codechecker name": "Joslyn Sun",
@@ -292,6 +292,11 @@
   {
     "Codechecker name": "Subhan Ali",
     "ORCID": "0009-0003-7546-1717",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Josip Grguric",
+    "ORCID": "009-0003-3725-9454",
     "No. of codechecks": 1
   }
 ]

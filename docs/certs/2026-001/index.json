@@ -1,0 +1,64 @@
+{
+  "certificate": {
+    "id": "2026-001",
+    "url": "https://codecheck.org.uk/register/certs/2026-001/"
+  },
+  "paper": {
+    "title": "Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry",
+    "authors": [
+      {
+        "name": "Jelle Poland",
+        "orcid": "0000-0003-3164-5648"
+      },
+      {
+        "name": "Erik Fritz",
+        "orcid": "0000-0003-1486-3643"
+      },
+      {
+        "name": "Roland Schmehl",
+        "orcid": "0000-0002-4112-841X"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/wes-2025-217",
+    "abstract": {
+      "text": "<jats:p>Abstract. Leading-edge inflatable (LEI) kites are characterized by a pronounced downward curvature of the wing and flow recirculation zones on the pressure side. This study presents novel stereoscopic particle image velocimetry (PIV) measurements of a 1:6.5 rigid scale model of the TU Delft V3 LEI kite. The flow-field measurements were conducted in the Open Jet Facility of Delft University of Technology for two angles of attack and seven chordwise measurement planes positioned between mid-span and tip, and were compared with results from Reynolds-averaged Navier–Stokes (RANS) simulations. The double-curved anhedral wing geometry presented several challenges, such as surface reflections that required careful data processing and the use of a lateral velocity filter. The circulation distribution was analyzed, using both elliptical and rectangular boundary curves, showing good agreement in trends between the vortex-step method (VSM), RANS, and PIV data. The lift and drag coefficients of each chordwise measurement plane were estimated using the Kutta–Joukowski theorem, surface pressure integration of RANS CFD data, and Noca's method – an inherently three-dimensional reformulation of the momentum conservation equations expressed solely as surface integrals over the control-volume boundary – applied here in two dimensions. While the mid-span to tip variation of lift coefficients was in accordance with the anhedral shape and tip-vortex effects, the drag measurements and predictions deviated from the expected behavior by exhibiting negative values. Especially near the tip region, significant discrepancies were observed, attributed to increased measurement uncertainty. The surface pressure integration revealed discrepancies at the strut junction, likely due to local three-dimensional strut-induced flow effects and increased airfoil thickness. This study provides comprehensive validation data for CFD simulations of LEI kites while highlighting the challenges in PIV measurements of double-curved anhedral wings and characterizing local aerodynamic phenomena.<\/jats:p>",
+      "source": "CrossRef"
+    }
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Josip Grguric",
+        "orcid": "009-0003-3725-9454"
+      },
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "check_time": "2026-03-03 14:00:00",
+    "repository": "github::codecheckers/kite_piv_analysis",
+    "report": "https://doi.org/10.5281/zenodo.18890103",
+    "type": "institution",
+    "venue": "TU Delft DCC",
+    "summary": "Partial reproduction of figures in the publication \n",
+    "manifest": [
+      {
+        "file": "fig04_plane_location.pdf",
+        "comment": "manuscript Figure 4"
+      },
+      {
+        "file": "fig06_qualitative_comparison_CFD_PIV.pdf",
+        "comment": "manuscript Figure 6"
+      },
+      {
+        "file": "fig07_bounds_CFD_PIV_single_row.pdf",
+        "comment": "manuscript Figure 7"
+      },
+      {
+        "file": "fig08_gamma_distribution_std.pdf",
+        "comment": "manuscript Figure 8"
+      }
+    ]
+  }
+}
