@@ -19,7 +19,11 @@
         "orcid": "0000-0002-4051-4896"
       }
     ],
-    "reference": "https://doi.org/10.1109/TITS.2025.3549227"
+    "reference": "https://doi.org/10.1109/TITS.2025.3549227",
+    "abstract": {
+      "text": "In the backdrop of an increasingly pressing need for effective urban and highway transportation systems, this work explores the synergy between model-based and learning-based strategies to enhance traffic flow management by use of an innovative approach to the problem of ramp metering control that embeds Reinforcement Learning (RL) techniques within the Model Predictive Control (MPC) framework. The control problem is formulated as an RL task by crafting a suitable stage cost function that is representative of the traffic conditions, variability in the control action, and violations of the constraint on the maximum number of vehicles in queue. An MPC-based RL approach, which leverages the MPC optimal problem as a function approximation for the RL algorithm, is proposed to learn to efficiently control an on-ramp and satisfy its constraints despite uncertainties in the system model and variable demands. Simulations are performed on a benchmark small-scale highway network to compare the proposed methodology against other state-of-the-art control approaches. Results show that, starting from an MPC controller that has an imprecise model and is poorly tuned, the proposed methodology is able to effectively learn to improve the control policy such that congestion in the network is reduced and constraints are satisfied, yielding an improved performance that is superior to the other controllers.",
+      "source": "OpenAlex"
+    }
   },
   "codecheck": {
     "codecheckers": [
