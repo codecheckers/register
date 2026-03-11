@@ -3,7 +3,11 @@
     "allow": [
       "Bash(git -C /home/daniel/git/codecheck/register log --oneline -20)",
       "Bash(gh issue:*)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/daniel/git/codecheck/register/docs/certs/2026-001/index.json'\\)\\); print\\(json.dumps\\(d, indent=2\\)\\)\")",
+      "Bash(git add:*)",
+      "Bash(grep -r \"venues.csv\\\\|load.*venue\" /home/daniel/git/codecheck/codecheck/R/*.R)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('/home/daniel/git/codecheck/register/docs/venues/index.json'\\)\\); print\\(json.dumps\\(d[:3], indent=2\\)\\)\")"
     ]
   }
 }

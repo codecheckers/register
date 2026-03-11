@@ -10,7 +10,7 @@ install_local:
 	R -q -e "devtools::install('../codecheck', upgrade = 'never');"
 
 render: version
-	R -q -e "codecheck::register_render(parallel = TRUE); warnings();"
+	R -q -e "codecheck::register_render(parallel = TRUE);"
 
 render_latest: clean
 	R -q -e "register = read.csv('register.csv', as.is = TRUE, comment.char = '#'); codecheck::register_check(from = nrow(register), to = nrow(register) - 2);"
