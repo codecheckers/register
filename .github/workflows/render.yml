@@ -7,7 +7,7 @@ on:
 
 jobs:
   changes:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     outputs:
       register: ${{ steps.filter.outputs.register }}
     steps:
@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Check
         # https://github.com/dorny/paths-filter
-        uses: dorny/paths-filter@v2
+        uses: dorny/paths-filter@v3
         id: filter
         with:
           filters: |
@@ -24,34 +24,31 @@ jobs:
   render:
     needs: changes
     if: ${{ needs.changes.outputs.register == 'true' }}
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     container:
       image: codecheckers/register:latest
-      volumes:
-          - "/home/runner/work/codecheckers/register:/register"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - run: git config --system --add safe.directory /__w/register/register
       - name: Rate before
         run: |
-          curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit
+          curl -s -H "Authorization: token $GITHUB_PAT" -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit | head -20
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Render
         run: |
-          # R -e "sessionInfo(); cat('\n'); list.files(); cat('\n'); getwd()"
           R -e 'options("R.cache.rootPath" = "/tmp"); codecheck::register_render(); warnings()'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Rate after
         if: always()
         run: |
-          curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit
+          curl -s -H "Authorization: token $GITHUB_PAT" -H "Accept: application/vnd.github.v3+json" https://api.github.com/rate_limit | head -20
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Update register
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_author: CODECHECK bot <daniel.nuest@tu-dresden.de>
           commit_message: Update register renderings

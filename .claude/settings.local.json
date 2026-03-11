@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /home/daniel/git/codecheck/register log --oneline -20)",
+      "Bash(gh issue:*)",
+      "WebFetch(domain:github.com)"
+    ]
+  }
+}

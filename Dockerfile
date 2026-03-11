@@ -22,4 +22,4 @@ LABEL maintainer="Daniel Nüst <daniel.nuest@tu-dresden.de>"
 
 # Usage, from local copy of the register repository
 # docker build --tag codecheckers-register .
-# docker run --rm -it --user rstudio -v $(pwd):/register codecheckers-register
+# docker run --rm -it --user rstudio -v $(pwd):/register -e GITHUB_PAT=$GITHUB_PAT codecheckers-register
