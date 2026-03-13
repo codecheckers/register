@@ -1,10 +1,12 @@
 [
   {
     "Institution name": "Amsterdam UMC",
-    "No. of codechecks": 3
+    "No. of codechecks": 3,
+    "codechecks": "https://codecheck.org.uk/register/venues/institutions/aumc/register.json"
   },
   {
     "Institution name": "TU Delft Digital Competence Centre",
-    "No. of codechecks": 9
+    "No. of codechecks": 9,
+    "codechecks": "https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/register.json"
   }
 ]

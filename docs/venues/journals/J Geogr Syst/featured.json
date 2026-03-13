@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2020-017",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-017/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/JGSY-D-19-00087",
     "Repository Link": "https://github.com/codecheckers/JGSY-D-19-00087",
     "Report": "https://doi.org/10.5281/zenodo.4003848",
@@ -12,6 +13,7 @@
   {
     "Certificate ID": "2020-016",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-016/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/OpeningPractice",
     "Repository Link": "https://github.com/codecheckers/OpeningPractice",
     "Report": "https://doi.org/10.5281/zenodo.3981253",

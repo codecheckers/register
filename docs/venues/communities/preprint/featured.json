@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2024-001",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-001/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/LazarEtAl_RSocOpenSci_2024",
     "Repository Link": "https://github.com/codecheckers/LazarEtAl_RSocOpenSci_2024",
     "Report": "https://doi.org/10.5281/zenodo.10823246",
@@ -12,6 +13,7 @@
   {
     "Certificate ID": "2023-012",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-012/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/leba-manuscript",
     "Repository Link": "https://github.com/codecheckers/leba-manuscript",
     "Report": "https://doi.org/10.5281/zenodo.10213244",
@@ -22,6 +24,7 @@
   {
     "Certificate ID": "2023-011",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-011/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/rmr-solver",
     "Repository Link": "https://github.com/codecheckers/rmr-solver",
     "Report": "https://doi.org/10.5281/zenodo.8359199",
@@ -32,6 +35,7 @@
   {
     "Certificate ID": "2021-001",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2021-001/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/causality-review",
     "Repository Link": "https://github.com/codecheckers/causality-review",
     "Report": "https://doi.org/10.5281/zenodo.4720843",
@@ -42,6 +46,7 @@
   {
     "Certificate ID": "2020-013",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-013/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/Spitschan2020_bioRxiv",
     "Repository Link": "https://github.com/codecheckers/Spitschan2020_bioRxiv",
     "Report": "https://doi.org/10.5281/zenodo.3947959",
@@ -52,6 +57,7 @@
   {
     "Certificate ID": "2020-012",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-012/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/covid19model-report23",
     "Repository Link": "https://github.com/codecheckers/covid19model-report23",
     "Report": "https://doi.org/10.5281/zenodo.3893617",
@@ -62,6 +68,7 @@
   {
     "Certificate ID": "2020-010",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-010/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/covid-report9",
     "Repository Link": "https://github.com/codecheckers/covid-report9",
     "Report": "https://doi.org/10.5281/zenodo.3865491",
@@ -72,6 +79,7 @@
   {
     "Certificate ID": "2020-009",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-009/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/2020-cov-tracing",
     "Repository Link": "https://github.com/codecheckers/2020-cov-tracing",
     "Report": "http://doi.org/10.5281/zenodo.3767060",
@@ -82,6 +90,7 @@
   {
     "Certificate ID": "2020-008",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-008/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/covid-uk",
     "Repository Link": "https://github.com/codecheckers/covid-uk",
     "Report": "http://doi.org/10.5281/zenodo.3746024",

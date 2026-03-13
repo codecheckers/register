@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2025-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-005/",
+    "Certificate PDF": null,
     "Repository": "zenodo::15323262",
     "Repository Link": "https://zenodo.org/records/15323262",
     "Report": "https://doi.org/10.5281/zenodo.15323262",
@@ -12,6 +13,7 @@
   {
     "Certificate ID": "2025-028",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-028/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/surv-tcav-pbc",
     "Repository Link": "https://github.com/codecheckers/surv-tcav-pbc",
     "Report": "https://doi.org/10.5281/zenodo.17533508",

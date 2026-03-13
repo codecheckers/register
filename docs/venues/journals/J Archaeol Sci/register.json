@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2020-025",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-025/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/LICD_article",
     "Repository Link": "https://github.com/codecheckers/LICD_article",
     "Report": "https://doi.org/10.5281/zenodo.4279275",

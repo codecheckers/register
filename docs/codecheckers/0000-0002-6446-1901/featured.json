@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2024-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-005/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/sample-size-codecheck",
     "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
     "Report": "https://doi.org/10.5281/zenodo.13945051",

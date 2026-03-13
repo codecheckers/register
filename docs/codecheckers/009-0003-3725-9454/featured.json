@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2026-001",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2026-001/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/kite_piv_analysis",
     "Repository Link": "https://github.com/codecheckers/kite_piv_analysis",
     "Report": "https://doi.org/10.5281/zenodo.18890103",

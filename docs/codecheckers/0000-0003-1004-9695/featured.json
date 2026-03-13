@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2025-014",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-014/",
+    "Certificate PDF": null,
     "Repository": "osf::st98a",
     "Repository Link": "https://osf.io/st98a",
     "Report": "https://doi.org/10.17605/OSF.IO/st98a",
@@ -14,6 +15,7 @@
   {
     "Certificate ID": "2024-006",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-006/",
+    "Certificate PDF": null,
     "Repository": "osf::ymc3t",
     "Repository Link": "https://osf.io/ymc3t",
     "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
@@ -26,6 +28,7 @@
   {
     "Certificate ID": "2024-007",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-007/",
+    "Certificate PDF": null,
     "Repository": "osf::gvpd9",
     "Repository Link": "https://osf.io/gvpd9",
     "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
@@ -38,6 +41,7 @@
   {
     "Certificate ID": "2022-003",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-003/",
+    "Certificate PDF": null,
     "Repository": "osf::JDTN3",
     "Repository Link": "https://osf.io/JDTN3",
     "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
@@ -50,6 +54,7 @@
   {
     "Certificate ID": "2022-016",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-016/",
+    "Certificate PDF": null,
     "Repository": "osf::DJFC2",
     "Repository Link": "https://osf.io/DJFC2",
     "Report": "https://doi.org/10.17605/OSF.IO/DJFC2",
@@ -62,6 +67,7 @@
   {
     "Certificate ID": "2020-019",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-019/",
+    "Certificate PDF": null,
     "Repository": "osf::5SVMT",
     "Repository Link": "https://osf.io/5SVMT",
     "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",

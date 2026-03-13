@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2025-002",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-002/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/EvalSubtitle",
     "Repository Link": "https://github.com/codecheckers/EvalSubtitle",
     "Report": "https://doi.org/10.5281/zenodo.15173758",

@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2024-019",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-019/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/wearable-hrv",
     "Repository Link": "https://github.com/codecheckers/wearable-hrv",
     "Report": "https://doi.org/10.5281/zenodo.14279041",

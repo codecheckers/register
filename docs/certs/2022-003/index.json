@@ -19,7 +19,11 @@
         "name": "Martin Raubal"
       }
     ],
-    "reference": "https://doi.org/10.5194/agile-giss-3-3-2022"
+    "reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "abstract": {
+      "text": "<jats:p>Abstract. The number of electric vehicles (EVs) has been rapidly increasing over the last decade, motivated by the effort to decrease greenhouse gas emissions and the fast development of battery technology. This trend challenges distribution grids since EVs will bring significant stress if the charging of many EVs is not coordinated. Among the many strategies to cope with this challenge, next-day EV energy demand forecasting plays a key role. Existing studies have focused on predicting the next-day energy demand of EVs on the aggregated and individual levels. However, these studies have not yet extensively considered individual user mobility behaviors, which exhibit a high level of predictability. In this study, we consider several mobility features of individual users when forecasting the next-day energy demand of individual EVs. Three types of quantile regression models are used to generate probabilistic forecasts of energy demand, particularly the next-day energy consumption and parking duration. Based on the prediction results, two time-shifting smart charging strategies are designed: unidirectional and bidirectional smart charging. These two strategies are compared with an uncontrolled charging baseline to evaluate their financial benefits and peak-shaving effects. Our results show that human mobility features can partially improve the prediction of next-day individual EV energy demand. Additionally, users and distribution grids can benefit from smart charging strategies both financially and technically.\n                    <\/jats:p>",
+      "source": "CrossRef"
+    }
   },
   "codecheck": {
     "codecheckers": [

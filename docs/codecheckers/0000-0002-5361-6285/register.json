@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2020-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-005/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/Larisch-reproduction",
     "Repository Link": "https://github.com/codecheckers/Larisch-reproduction",
     "Report": "https://doi.org/10.5281/zenodo.3959175",
@@ -14,6 +15,7 @@
   {
     "Certificate ID": "2020-006",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-006/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/Detorakis-reproduction",
     "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
     "Report": "https://doi.org/10.5281/zenodo.3948353",
@@ -26,6 +28,7 @@
   {
     "Certificate ID": "2020-013",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-013/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/Spitschan2020_bioRxiv",
     "Repository Link": "https://github.com/codecheckers/Spitschan2020_bioRxiv",
     "Report": "https://doi.org/10.5281/zenodo.3947959",
@@ -38,6 +41,7 @@
   {
     "Certificate ID": "2020-014",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/Sadeh-and-Clopath",
     "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
     "Report": "https://doi.org/10.5281/zenodo.3967326",
@@ -50,6 +54,7 @@
   {
     "Certificate ID": "2020-015",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-015/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/Liou-and-Bateman",
     "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
     "Report": "https://doi.org/10.5281/zenodo.3978402",

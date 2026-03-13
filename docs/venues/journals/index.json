@@ -1,26 +1,32 @@
 [
   {
     "Journal name": "GigaScience",
-    "No. of codechecks": 2
+    "No. of codechecks": 2,
+    "codechecks": "https://codecheck.org.uk/register/venues/journals/gigascience/register.json"
   },
   {
     "Journal name": "Journal of Geographical Systems",
-    "No. of codechecks": 2
+    "No. of codechecks": 2,
+    "codechecks": "https://codecheck.org.uk/register/venues/journals/j_geogr_syst/register.json"
   },
   {
     "Journal name": "Journal of Archaeological Science",
-    "No. of codechecks": 1
+    "No. of codechecks": 1,
+    "codechecks": "https://codecheck.org.uk/register/venues/journals/j_archaeol_sci/register.json"
   },
   {
     "Journal name": "GigaByte",
-    "No. of codechecks": 1
+    "No. of codechecks": 1,
+    "codechecks": "https://codecheck.org.uk/register/venues/journals/gigabyte/register.json"
   },
   {
     "Journal name": "Lifecycle Journal",
-    "No. of codechecks": 2
+    "No. of codechecks": 2,
+    "codechecks": "https://codecheck.org.uk/register/venues/journals/lifecycle_journal/register.json"
   },
   {
     "Journal name": "Journal of Spatial Information Science",
-    "No. of codechecks": 1
+    "No. of codechecks": 1,
+    "codechecks": "https://codecheck.org.uk/register/venues/journals/josis/register.json"
   }
 ]

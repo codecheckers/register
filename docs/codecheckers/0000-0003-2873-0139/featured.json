@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2025-006",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-006/",
+    "Certificate PDF": null,
     "Repository": "github::codecheckers/sarscov2-variants",
     "Repository Link": "https://github.com/codecheckers/sarscov2-variants",
     "Report": "https://doi.org/10.5281/zenodo.15520471",

@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2024-014",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-014/",
+    "Certificate PDF": null,
     "Repository": "osf::spxt5",
     "Repository Link": "https://osf.io/spxt5",
     "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
@@ -14,6 +15,7 @@
   {
     "Certificate ID": "2024-008",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-008/",
+    "Certificate PDF": null,
     "Repository": "osf::3nbjw",
     "Repository Link": "https://osf.io/3nbjw",
     "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
@@ -26,6 +28,7 @@
   {
     "Certificate ID": "2024-009",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-009/",
+    "Certificate PDF": null,
     "Repository": "osf::csb7r",
     "Repository Link": "https://osf.io/csb7r",
     "Report": "https://doi.org/10.17605/osf.io/CSB7R",
@@ -38,6 +41,7 @@
   {
     "Certificate ID": "2022-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-005/",
+    "Certificate PDF": null,
     "Repository": "osf::CDFAH",
     "Repository Link": "https://osf.io/CDFAH",
     "Report": "https://doi.org/10.17605/osf.io/cdfah",
@@ -50,6 +54,7 @@
   {
     "Certificate ID": "2022-009",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-009/",
+    "Certificate PDF": null,
     "Repository": "osf::94VNX",
     "Repository Link": "https://osf.io/94VNX",
     "Report": "https://doi.org/10.17605/osf.io/94vnx",
@@ -62,6 +67,7 @@
   {
     "Certificate ID": "2021-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2021-005/",
+    "Certificate PDF": null,
     "Repository": "osf::7fqtm",
     "Repository Link": "https://osf.io/7fqtm",
     "Report": "https://doi.org/10.17605/osf.io/7fqtm",
@@ -74,6 +80,7 @@
   {
     "Certificate ID": "2020-020",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-020/",
+    "Certificate PDF": null,
     "Repository": "osf::7TWR2",
     "Repository Link": "https://osf.io/7TWR2",
     "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
@@ -86,6 +93,7 @@
   {
     "Certificate ID": "2020-021",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-021/",
+    "Certificate PDF": null,
     "Repository": "github::reproducible-agile/Spatial-nominal-entity-recognition",
     "Repository Link": "https://github.com/reproducible-agile/Spatial-nominal-entity-recognition",
     "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
@@ -98,6 +106,7 @@
   {
     "Certificate ID": "2020-023",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-023/",
+    "Certificate PDF": null,
     "Repository": "github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
     "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
     "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",

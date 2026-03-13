@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2022-004",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-004/",
+    "Certificate PDF": null,
     "Repository": "osf::XPG6Y",
     "Repository Link": "https://osf.io/XPG6Y",
     "Report": "https://doi.org/10.17605/osf.io/XPG6Y",
@@ -14,6 +15,7 @@
   {
     "Certificate ID": "2022-007",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-007/",
+    "Certificate PDF": null,
     "Repository": "osf::3DSMV",
     "Repository Link": "https://osf.io/3DSMV",
     "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",

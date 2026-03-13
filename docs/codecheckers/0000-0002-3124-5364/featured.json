@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2023-001",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-001/",
+    "Certificate PDF": null,
     "Repository": "osf::c7vx3",
     "Repository Link": "https://osf.io/c7vx3",
     "Report": "https://doi.org/10.17605/osf.io/c7vx3",
@@ -14,6 +15,7 @@
   {
     "Certificate ID": "2023-005",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-005/",
+    "Certificate PDF": null,
     "Repository": "osf::27wzp",
     "Repository Link": "https://osf.io/27wzp",
     "Report": "https://doi.org/10.17605/osf.io/27wzp",
@@ -26,6 +28,7 @@
   {
     "Certificate ID": "2023-006",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-006/",
+    "Certificate PDF": null,
     "Repository": "osf::d2shf",
     "Repository Link": "https://osf.io/d2shf",
     "Report": "https://doi.org/10.17605/OSF.IO/D2SHF",
@@ -38,6 +41,7 @@
   {
     "Certificate ID": "2022-011",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-011/",
+    "Certificate PDF": null,
     "Repository": "osf::KF8SR",
     "Repository Link": "https://osf.io/KF8SR",
     "Report": "https://doi.org/10.17605/osf.io/kf8sr",
@@ -50,6 +54,7 @@
   {
     "Certificate ID": "2022-014",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-014/",
+    "Certificate PDF": null,
     "Repository": "osf::6S2GP",
     "Repository Link": "https://osf.io/6S2GP",
     "Report": "https://doi.org/10.17605/osf.io/6s2gp",
@@ -62,6 +67,7 @@
   {
     "Certificate ID": "2021-002",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2021-002/",
+    "Certificate PDF": null,
     "Repository": "osf::rsf4m",
     "Repository Link": "https://osf.io/rsf4m",
     "Report": "https://doi.org/10.17605/osf.io/rsf4m",
@@ -74,6 +80,7 @@
   {
     "Certificate ID": "2021-003",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2021-003/",
+    "Certificate PDF": null,
     "Repository": "osf::dx92a",
     "Repository Link": "https://osf.io/dx92a",
     "Report": "https://doi.org/10.17605/osf.io/dx92a",

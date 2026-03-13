@@ -2,6 +2,7 @@
   {
     "Certificate ID": "2023-003",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-003/",
+    "Certificate PDF": null,
     "Repository": "osf::m5bhk",
     "Repository Link": "https://osf.io/m5bhk",
     "Report": "https://doi.org/10.17605/osf.io/m5bhk",
@@ -14,6 +15,7 @@
   {
     "Certificate ID": "2023-010",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-010/",
+    "Certificate PDF": null,
     "Repository": "osf::8t3bh",
     "Repository Link": "https://osf.io/8t3bh",
     "Report": "https://doi.org/10.17605/osf.io/8t3bh",
@@ -26,6 +28,7 @@
   {
     "Certificate ID": "2025-009",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-009/",
+    "Certificate PDF": null,
     "Repository": "osf::gv2z4",
     "Repository Link": "https://osf.io/gv2z4",
     "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",

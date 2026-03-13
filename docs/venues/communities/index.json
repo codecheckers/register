@@ -1,18 +1,22 @@
 [
   {
     "Community name": "CODECHECK",
-    "No. of codechecks": 11
+    "No. of codechecks": 11,
+    "codechecks": "https://codecheck.org.uk/register/venues/communities/codecheck/register.json"
   },
   {
     "Community name": "Preprint",
-    "No. of codechecks": 9
+    "No. of codechecks": 9,
+    "codechecks": "https://codecheck.org.uk/register/venues/communities/preprint/register.json"
   },
   {
     "Community name": "In press",
-    "No. of codechecks": 1
+    "No. of codechecks": 1,
+    "codechecks": "https://codecheck.org.uk/register/venues/communities/in_press/register.json"
   },
   {
     "Community name": "CODECHECK NL",
-    "No. of codechecks": 15
+    "No. of codechecks": 15,
+    "codechecks": "https://codecheck.org.uk/register/venues/communities/codecheck_nl/register.json"
   }
 ]
