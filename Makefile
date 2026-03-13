@@ -12,11 +12,15 @@ install_local:
 render: version
 	R -q -e "codecheck::register_render(parallel = TRUE);"
 
+stats: version
+	R -q -e "codecheck::register_update_stats();"
+
 render_latest: clean
 	R -q -e "register = read.csv('register.csv', as.is = TRUE, comment.char = '#'); codecheck::register_check(from = nrow(register), to = nrow(register) - 2);"
 
 clean: version
 	rm -r -f .cache/R
+	find docs/certs -type d -name "libs" -exec rm -rf {} + 2>/dev/null || true
 	R -q -e "codecheck::register_clear_cache();"
 
 check: clean

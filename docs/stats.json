@@ -1,4 +1,147 @@
 {
   "source": "https://codecheck.org.uk/register/register.json",
-  "cert_count": 116
+  "cert_count": 116,
+  "venue_count": 13,
+  "venues_per_type": {
+    "community": 4,
+    "conference": 1,
+    "institution": 2,
+    "journal": 6
+  },
+  "checks_per_year": {
+    "2019": 1,
+    "2020": 24,
+    "2021": 10,
+    "2022": 18,
+    "2023": 12,
+    "2024": 24,
+    "2025": 26,
+    "2026": 1
+  },
+  "checks_cumulative": {
+    "2019": 1,
+    "2020": 25,
+    "2021": 35,
+    "2022": 53,
+    "2023": 65,
+    "2024": 89,
+    "2025": 115,
+    "2026": 116
+  },
+  "venues_per_year": {
+    "2019": 1,
+    "2020": 8,
+    "2021": 2,
+    "2022": 3,
+    "2023": 2,
+    "2024": 5,
+    "2025": 7,
+    "2026": 1
+  },
+  "venues_cumulative": {
+    "2019": 1,
+    "2020": 8,
+    "2021": 8,
+    "2022": 9,
+    "2023": 9,
+    "2024": 10,
+    "2025": 13,
+    "2026": 13
+  },
+  "codechecker_count": 60,
+  "codecheckers_per_year": {
+    "2019": 1,
+    "2020": 5,
+    "2021": 7,
+    "2022": 10,
+    "2023": 8,
+    "2024": 31,
+    "2025": 24,
+    "2026": 2
+  },
+  "codecheckers_cumulative": {
+    "2019": 1,
+    "2020": 5,
+    "2021": 10,
+    "2022": 14,
+    "2023": 16,
+    "2024": 42,
+    "2025": 59,
+    "2026": 60
+  },
+  "platform_per_year": {
+    "2019": {
+      "zenodo": 1
+    },
+    "2020": {
+      "osf": 6,
+      "zenodo": 18
+    },
+    "2021": {
+      "osf": 9,
+      "zenodo": 1
+    },
+    "2022": {
+      "osf": 16,
+      "zenodo": 2
+    },
+    "2023": {
+      "osf": 10,
+      "zenodo": 2
+    },
+    "2024": {
+      "osf": 11,
+      "zenodo": 13
+    },
+    "2025": {
+      "osf": 8,
+      "researchequals": 3,
+      "zenodo": 15
+    },
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2019": {
+      "osf": 0,
+      "researchequals": 0,
+      "zenodo": 1
+    },
+    "2020": {
+      "osf": 6,
+      "researchequals": 0,
+      "zenodo": 19
+    },
+    "2021": {
+      "osf": 15,
+      "researchequals": 0,
+      "zenodo": 20
+    },
+    "2022": {
+      "osf": 31,
+      "researchequals": 0,
+      "zenodo": 22
+    },
+    "2023": {
+      "osf": 41,
+      "researchequals": 0,
+      "zenodo": 24
+    },
+    "2024": {
+      "osf": 52,
+      "researchequals": 0,
+      "zenodo": 37
+    },
+    "2025": {
+      "osf": 60,
+      "researchequals": 3,
+      "zenodo": 52
+    },
+    "2026": {
+      "osf": 60,
+      "researchequals": 3,
+      "zenodo": 53
+    }
+  }
 }
