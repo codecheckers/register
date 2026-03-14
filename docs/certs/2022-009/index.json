@@ -20,9 +20,10 @@
     ],
     "reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
     "abstract": {
-      "text": "<jats:p>Abstract. Most navigation systems for pedestrians output the shortest route. However, there are findings that travellers do not use the shortest route when free to choose. One alternative to minimising spatial distance is the incorporation of landmark information in a shortest route algorithm. Yet, we do not know whether pedestrians prefer such a landmark route over the shortest route. Therefore, we perform a survey and show participants videos of a shortest and a landmark route. We let participants answer questions concerning navigation satisfaction, route communication, and route comparison. Our findings show that the landmark route is more favourable.\n                    <\/jats:p>",
-      "source": "CrossRef"
-    }
+      "text": "Abstract. Most navigation systems for pedestrians output the shortest route. However, there are findings that travellers do not use the shortest route when free to choose. One alternative to minimising spatial distance is the incorporation of landmark information in a shortest route algorithm. Yet, we do not know whether pedestrians prefer such a landmark route over the shortest route. Therefore, we perform a survey and show participants videos of a shortest and a landmark route. We let participants answer questions concerning navigation satisfaction, route communication, and route comparison. Our findings show that the landmark route is more favourable.",
+      "source": "OpenAlex"
+    },
+    "openalex": "https://openalex.org/W4281784263"
   },
   "codecheck": {
     "codecheckers": [

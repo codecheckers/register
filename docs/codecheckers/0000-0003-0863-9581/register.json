@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.17605/osf.io/z7p8k",
     "Title": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-2-2022",
+    "OpenAlex": "https://openalex.org/W4282976318",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -21,6 +22,7 @@
     "Report": "https://doi.org/10.17605/osf.io/r6psq",
     "Title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-15-2022",
+    "OpenAlex": "https://openalex.org/W4282006514",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -34,6 +36,7 @@
     "Report": "https://doi.org/10.17605/osf.io/rbgvk",
     "Title": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-12-2023",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2023-06-13"
@@ -47,6 +50,7 @@
     "Report": "https://doi.org/10.17605/osf.io/aqgxr",
     "Title": "Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-8-2023",
+    "OpenAlex": "https://openalex.org/W4379802106",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2023-06-13"
@@ -60,6 +64,7 @@
     "Report": "https://doi.org/10.17605/osf.io/NBK57",
     "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-12-2024",
+    "OpenAlex": "https://openalex.org/W4399157460",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-27"
@@ -73,6 +78,7 @@
     "Report": "https://doi.org/10.17605/osf.io/FMGB4",
     "Title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-5-2024",
+    "OpenAlex": "https://openalex.org/W4399177945",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-27"

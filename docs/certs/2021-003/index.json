@@ -21,7 +21,8 @@
     "abstract": {
       "text": "Abstract. The prominence of landmarks in aiding pedestrian navigation has been highlighted in various studies; people rely strongly on visual landmarks, especially when navigating in unfamiliar environments. The paper describes the design and implementation of a study for assessing drivers’ spatial abilities, when navigating in an unfamiliar environment. Two types of route directions based on references to either landmarks or street names were given to two groups of participants. Three geospatial learning tasks are used to evaluate these abilities: map sketching, distance, and direction estimation. The findings showed that landmark-based route instructions help drivers develop a better cognitive map of the route. On the other hand, instructions either based on landmarks or on street information do not have an effect on distance or direction estimates. Nonetheless, qualitative analysis of directions and distances estimations gave interesting results. Findings associated with self-assessment of environmental spatial abilities using the Santa Barbara Sense of Direction Scale (SBSOD) seem to support prediction of at least one of the drivers’ abilities among those assessed in this study.",
       "source": "OpenAlex"
-    }
+    },
+    "openalex": "https://openalex.org/W3172635671"
   },
   "codecheck": {
     "codecheckers": [

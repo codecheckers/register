@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.5281/zenodo.17533508",
     "Title": "Clinically Interpretable Survival Prediction in Primary Biliary Cholangitis with TreeSHAP and Gradient-Boosted Model",
     "Paper reference": "https://doi.org/10.71240/lcyc.66O7260",
+    "OpenAlex": "https://openalex.org/W4414316644",
     "Type": "journal",
     "Venue": "Lifecycle Journal",
     "Check date": "2025-11-04"
@@ -21,6 +22,7 @@
     "Report": "https://doi.org/10.53962/wxh7-8yjd",
     "Title": "Measuring Landmark Salience in Rural Areas: A Comparative Study of Two Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-7-2025",
+    "OpenAlex": "https://openalex.org/W4411153143",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-06-06"
@@ -34,6 +36,7 @@
     "Report": "https://doi.org/10.53962/wgtb-cagt",
     "Title": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-11-2025",
+    "OpenAlex": "https://openalex.org/W4411153243",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-06-06"
@@ -47,6 +50,7 @@
     "Report": "https://doi.org/10.53962/nsys-9a40",
     "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
     "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "OpenAlex": "https://openalex.org/W3033755496",
     "Type": "community",
     "Venue": "codecheck",
     "Check date": "2025-05-19"
@@ -60,6 +64,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15323262",
     "Title": "Verification Report of Zhao et al. (2023) ‘Effect of Acceptance and Commitment Therapy for depressive disorders: a meta-analysis’",
     "Paper reference": "https://doi.org/10.71240/lcyc.052239",
+    "OpenAlex": "https://openalex.org/W4409718072",
     "Type": "journal",
     "Venue": "Lifecycle Journal",
     "Check date": "2025-05-15"
@@ -73,6 +78,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
     "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "OpenAlex": "https://openalex.org/W4281689570",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -86,6 +92,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
     "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
+    "OpenAlex": "https://openalex.org/W4281746077",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -99,6 +106,7 @@
     "Report": "https://doi.org/10.17605/osf.io/8b7mr",
     "Title": "Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-13-2022",
+    "OpenAlex": "https://openalex.org/W4281732658",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -112,6 +120,7 @@
     "Report": "https://doi.org/10.17605/osf.io/2sc7g",
     "Title": "Extraction of linear structures from digital terrain models using deep learning",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-11-2021",
+    "OpenAlex": "https://openalex.org/W3171527029",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2021-06-10"
@@ -125,6 +134,7 @@
     "Report": "https://doi.org/10.17605/osf.io/7fqtm",
     "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "OpenAlex": "https://openalex.org/W3172863573",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2021-06-10"

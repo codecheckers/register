@@ -27,7 +27,8 @@
     "abstract": {
       "text": "<jats:p>Abstract. Spatial information has gained more attention in natural language processing tasks in different interdisciplinary domains. Moreover, the spatial information is available in two forms: Absolute Spatial Information (ASI) e.g., Paris, London, and Germany and Relative Spatial Information (RSI) e.g., south of Paris, north Madrid and 80 km from Rome. Therefore, it is challenging to extract RSI from textual data and compute its geotagging. This paper presents two strategies and the associated prototypes to address the following tasks: 1) extraction of relative spatial information from textual data and 2) geotagging of this relative spatial information. Experiments show promising results for RSI extraction and tagging.\n                    <\/jats:p>",
       "source": "CrossRef"
-    }
+    },
+    "openalex": "https://openalex.org/W4281885045"
   },
   "codecheck": {
     "codecheckers": [

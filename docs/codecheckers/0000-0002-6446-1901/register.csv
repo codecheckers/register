@@ -1,2 +1,2 @@
-"Repository","Repository Link","Report","Title","Paper reference","Venue","Type"
-"github::codecheckers/sample-size-codecheck","https://github.com/codecheckers/sample-size-codecheck","https://doi.org/10.5281/zenodo.13945051","Sample size estimation for task-related functional MRI studies using Bayesian updating.","https://doi.org/10.31234/osf.io/cz32t","codecheck","community"
+"Repository","Repository Link","Report","Title","Paper reference","OpenAlex","Venue","Type"
+"github::codecheckers/sample-size-codecheck","https://github.com/codecheckers/sample-size-codecheck","https://doi.org/10.5281/zenodo.13945051","Sample size estimation for task-related functional MRI studies using Bayesian updating.","https://doi.org/10.31234/osf.io/cz32t","https://openalex.org/W4400463622","codecheck","community"

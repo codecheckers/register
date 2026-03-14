@@ -25,7 +25,8 @@
     "abstract": {
       "text": "This project is based on the landscape character assessment of Nigeria, using machine learning and open-access geospatial dataset.",
       "source": "OpenAlex"
-    }
+    },
+    "openalex": "https://openalex.org/W6943834942"
   },
   "codecheck": {
     "codecheckers": [

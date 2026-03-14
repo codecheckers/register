@@ -25,7 +25,8 @@
     "abstract": {
       "text": "<p>Physical activity of nursing home residents can be assessed with tools such as questionnaires and standardized fitness tests. For residents with dementia, however, those tools can be cognitively challenging and difficult to administer. Consumer wearables could potentially aid as an affordable tool for ubiquitous assessment. In this pilot study with 16 participants, we explore how measurements with an off-the-shelf wearable relate to structured observations of physical activity. We collected both processed and raw tri-axial accelerometer data from Samsung, wrist-worn fitness trackers. To anchor those data in the free living environment, we compare the measurements with the physical activity scale of the Medlo behavioral observation scheme. We show that consumer wearables are a valid tool for long term data collection in this vulnerable patient population. Regarding the movement intensity, the data collected by fitness trackers is overall in accordance with the data collected with the observational tool. Regarding the type of movement, we conclude that the automatic activity classification on the wearables is not yet ripe for use in a mostly sedentary patient population.<\/p>",
       "source": "CrossRef"
-    }
+    },
+    "openalex": "https://openalex.org/W4391281345"
   },
   "codecheck": {
     "codecheckers": [

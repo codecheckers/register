@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15310765",
     "Title": "Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach",
     "Paper reference": "https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b",
+    "OpenAlex": null,
     "Type": "institution",
     "Venue": "TU Delft DCC",
     "Check date": "2025-04-08"
@@ -21,6 +22,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15771677",
     "Title": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
     "Paper reference": "https://doi.org/10.48550/arXiv.2503.21065",
+    "OpenAlex": "https://openalex.org/W4415061882",
     "Type": "institution",
     "Venue": "TU Delft DCC",
     "Check date": "2025-06-11"

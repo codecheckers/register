@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.5281/zenodo.18890103",
     "Title": "Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry",
     "Paper reference": "https://doi.org/10.5194/wes-2025-217",
+    "OpenAlex": "https://openalex.org/W4415698124",
     "Check date": "2026-03-03"
   },
   {
@@ -19,6 +20,7 @@
     "Report": "https://doi.org/10.5281/zenodo.16814874",
     "Title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
     "Paper reference": "https://doi.org/10.1109/TITS.2025.3549227",
+    "OpenAlex": "https://openalex.org/W4408519626",
     "Check date": "2025-08-04"
   },
   {
@@ -30,6 +32,7 @@
     "Report": "https://doi.org/10.5281/zenodo.16616998",
     "Title": "Airspeed estimation for UAVs using only propeller feedback",
     "Paper reference": "https://doi.org/10.48550/arXiv.2507.03456",
+    "OpenAlex": null,
     "Check date": "2025-07-30"
   },
   {
@@ -41,6 +44,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15771677",
     "Title": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
     "Paper reference": "https://doi.org/10.48550/arXiv.2503.21065",
+    "OpenAlex": "https://openalex.org/W4415061882",
     "Check date": "2025-06-11"
   },
   {
@@ -52,6 +56,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15630442",
     "Title": "Scalable control synthesis for stochastic systems via structural IMDP abstractions",
     "Paper reference": "https://doi.org/10.48550/arXiv.2411.11803",
+    "OpenAlex": "https://openalex.org/W4404571336",
     "Check date": "2025-05-28"
   },
   {
@@ -63,6 +68,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15603144",
     "Title": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
     "Paper reference": "https://doi.org/10.5194/wes-2025-77",
+    "OpenAlex": "https://openalex.org/W4410366051",
     "Check date": "2025-05-26"
   },
   {
@@ -74,6 +80,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15520471",
     "Title": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
     "Paper reference": "https://doi.org/10.1038/s41598-021-85363-7",
+    "OpenAlex": "https://openalex.org/W3138189425",
     "Check date": "2025-05-01"
   },
   {
@@ -85,6 +92,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15310765",
     "Title": "Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach",
     "Paper reference": "https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b",
+    "OpenAlex": null,
     "Check date": "2025-04-08"
   },
   {
@@ -96,6 +104,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15333601",
     "Title": "Optimal Graph Stretching for Distributed Averaging",
     "Paper reference": "https://doi.org/10.48550/arXiv.2504.10289",
+    "OpenAlex": "https://openalex.org/W4415160374",
     "Check date": "2025-03-25"
   }
 ]

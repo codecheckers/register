@@ -8,8 +8,23 @@
     "Report": "https://doi.org/10.5281/zenodo.15603144",
     "Title": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
     "Paper reference": "https://doi.org/10.5194/wes-2025-77",
+    "OpenAlex": "https://openalex.org/W4410366051",
     "Type": "institution",
     "Venue": "TU Delft DCC",
     "Check date": "2025-05-26"
+  },
+  {
+    "Certificate ID": "2026-001",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-001/",
+    "Certificate PDF": null,
+    "Repository": "github::codecheckers/kite_piv_analysis",
+    "Repository Link": "https://github.com/codecheckers/kite_piv_analysis",
+    "Report": "https://doi.org/10.5281/zenodo.18890103",
+    "Title": "Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry",
+    "Paper reference": "https://doi.org/10.5194/wes-2025-217",
+    "OpenAlex": "https://openalex.org/W4415698124",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2026-03-03"
   }
 ]

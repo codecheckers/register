@@ -8,6 +8,7 @@
     "Report": "http://doi.org/10.5281/zenodo.3674056",
     "Title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
     "Paper reference": "https://doi.org/10.1093/gigascience/giaa026",
+    "OpenAlex": "https://openalex.org/W3014157798",
     "Check date": "2019-02-14"
   },
   {
@@ -19,6 +20,7 @@
     "Report": "https://doi.org/10.5281/zenodo.4964880",
     "Title": "Driftage: a multi-agent system framework for concept drift detection",
     "Paper reference": "https://doi.org/10.1093/gigascience/giab030",
+    "OpenAlex": "https://openalex.org/W3165405739",
     "Check date": "2020-12-07"
   }
 ]

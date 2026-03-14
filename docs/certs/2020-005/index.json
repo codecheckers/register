@@ -15,7 +15,8 @@
     "abstract": {
       "text": "Since the first description of spike-timing-dependent plasticity (STDP), different models of STDP has been published to reproduce different experimental findings. Clopath et al. (2010) introduced an STDP model which is able to reproduce the experimental findings of triplet studies. They implemented a homeostatic mechanism to control the level of generated LTD, based on the relationship between the average postsynaptic membrane potential and a reference value. With this voltage-based STDP rule, they reproduce a wide range of physiological experiments. We here present a reimplementation of the Clopath et al. (2010) learning rule in Python with the help of the neuro-simulator ANNarchy.",
       "source": "OpenAlex"
-    }
+    },
+    "openalex": "https://openalex.org/W3206275069"
   },
   "codecheck": {
     "codecheckers": [

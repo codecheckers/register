@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
     "Title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-6-2020",
+    "OpenAlex": "https://openalex.org/W3042993452",
     "Check date": "2020-07-13"
   },
   {
@@ -19,6 +20,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
     "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
+    "OpenAlex": "https://openalex.org/W3042838677",
     "Check date": "2020-07-13"
   },
   {
@@ -30,6 +32,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
     "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "OpenAlex": "https://openalex.org/W3043446483",
     "Check date": "2020-07-13"
   },
   {
@@ -41,6 +44,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
     "Title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
+    "OpenAlex": "https://openalex.org/W3043728279",
     "Check date": "2020-07-13"
   },
   {
@@ -52,6 +56,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/7XRQG",
     "Title": "Extracting interrogative intents and concepts from geo-analytic questions.",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-23-2020",
+    "OpenAlex": "https://openalex.org/W3042325721",
     "Check date": "2020-07-13"
   },
   {
@@ -63,6 +68,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
     "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "OpenAlex": "https://openalex.org/W3043006037",
     "Check date": "2020-07-13"
   },
   {
@@ -74,6 +80,7 @@
     "Report": "https://doi.org/10.17605/osf.io/rsf4m",
     "Title": "Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-10-2021",
+    "OpenAlex": "https://openalex.org/W3168809494",
     "Check date": "2021-06-10"
   },
   {
@@ -85,6 +92,7 @@
     "Report": "https://doi.org/10.17605/osf.io/dx92a",
     "Title": "Investigating drivers’ geospatial abilities in unfamiliar environments",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-3-2021",
+    "OpenAlex": "https://openalex.org/W3172635671",
     "Check date": "2021-06-10"
   },
   {
@@ -96,6 +104,7 @@
     "Report": "https://doi.org/10.17605/osf.io/2sc7g",
     "Title": "Extraction of linear structures from digital terrain models using deep learning",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-11-2021",
+    "OpenAlex": "https://openalex.org/W3171527029",
     "Check date": "2021-06-10"
   },
   {
@@ -107,6 +116,7 @@
     "Report": "https://doi.org/10.17605/osf.io/7fqtm",
     "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "OpenAlex": "https://openalex.org/W3172863573",
     "Check date": "2021-06-10"
   },
   {
@@ -118,6 +128,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/4CPM3",
     "Title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-14-2021",
+    "OpenAlex": "https://openalex.org/W3168422666",
     "Check date": "2021-06-10"
   },
   {
@@ -129,6 +140,7 @@
     "Report": "https://doi.org/10.17605/osf.io/anv9r",
     "Title": "Automated Extraction of Labels from Large-Scale Historical Maps",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-12-2021",
+    "OpenAlex": "https://openalex.org/W3171081052",
     "Check date": "2021-06-10"
   },
   {
@@ -140,6 +152,7 @@
     "Report": "https://doi.org/10.17605/osf.io/g4dcq",
     "Title": "Flood Impact Assessment on Road Network and Healthcare Access at the example of Jakarta, Indonesia",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-4-2021",
+    "OpenAlex": "https://openalex.org/W3166039225",
     "Check date": "2021-06-10"
   },
   {
@@ -151,6 +164,7 @@
     "Report": "https://doi.org/10.17605/osf.io/rdnyu",
     "Title": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-2-2021",
+    "OpenAlex": "https://openalex.org/W3171073192",
     "Check date": "2021-06-10"
   },
   {
@@ -162,6 +176,7 @@
     "Report": "https://doi.org/10.17605/osf.io/bdu28",
     "Title": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
+    "OpenAlex": "https://openalex.org/W3165945407",
     "Check date": "2021-06-10"
   },
   {
@@ -173,6 +188,7 @@
     "Report": "https://doi.org/10.17605/osf.io/z7p8k",
     "Title": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-2-2022",
+    "OpenAlex": "https://openalex.org/W4282976318",
     "Check date": "2022-07-09"
   },
   {
@@ -184,6 +200,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
     "Title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "OpenAlex": null,
     "Check date": "2022-07-09"
   },
   {
@@ -195,6 +212,7 @@
     "Report": "https://doi.org/10.17605/osf.io/XPG6Y",
     "Title": "What are intersections for pedestrian users?",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-4-2022",
+    "OpenAlex": "https://openalex.org/W4281678515",
     "Check date": "2022-07-09"
   },
   {
@@ -206,6 +224,7 @@
     "Report": "https://doi.org/10.17605/osf.io/cdfah",
     "Title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
+    "OpenAlex": "https://openalex.org/W4282970832",
     "Check date": "2022-07-09"
   },
   {
@@ -217,6 +236,7 @@
     "Report": "https://doi.org/10.17605/osf.io/W7VPH",
     "Title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-6-2022",
+    "OpenAlex": "https://openalex.org/W4281897965",
     "Check date": "2022-07-09"
   },
   {
@@ -228,6 +248,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
     "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "OpenAlex": "https://openalex.org/W4281689570",
     "Check date": "2022-07-09"
   },
   {
@@ -239,6 +260,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
     "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
+    "OpenAlex": "https://openalex.org/W4281746077",
     "Check date": "2022-07-09"
   },
   {
@@ -250,6 +272,7 @@
     "Report": "https://doi.org/10.17605/osf.io/94vnx",
     "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
+    "OpenAlex": "https://openalex.org/W4281784263",
     "Check date": "2022-07-09"
   },
   {
@@ -261,6 +284,7 @@
     "Report": "https://doi.org/10.17605/osf.io/8b7mr",
     "Title": "Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-13-2022",
+    "OpenAlex": "https://openalex.org/W4281732658",
     "Check date": "2022-07-09"
   },
   {
@@ -272,6 +296,7 @@
     "Report": "https://doi.org/10.17605/osf.io/kf8sr",
     "Title": "Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-14-2022",
+    "OpenAlex": "https://openalex.org/W4281763766",
     "Check date": "2022-07-09"
   },
   {
@@ -283,6 +308,7 @@
     "Report": "https://doi.org/10.17605/osf.io/r6psq",
     "Title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-15-2022",
+    "OpenAlex": "https://openalex.org/W4282006514",
     "Check date": "2022-07-09"
   },
   {
@@ -294,6 +320,7 @@
     "Report": "https://doi.org/10.17605/osf.io/3g9s8",
     "Title": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-16-2022",
+    "OpenAlex": "https://openalex.org/W4281885045",
     "Check date": "2022-07-09"
   },
   {
@@ -305,6 +332,7 @@
     "Report": "https://doi.org/10.17605/osf.io/6s2gp",
     "Title": "A method to produce metadata describing and assessing the quality of spatial landmark datasets in mountain area",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-17-2022",
+    "OpenAlex": "https://openalex.org/W4281833313",
     "Check date": "2022-07-09"
   },
   {
@@ -316,6 +344,7 @@
     "Report": "https://doi.org/10.17605/osf.io/mvqcw",
     "Title": "Unlocking social network analysis methods for studying human mobility",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-19-2022",
+    "OpenAlex": null,
     "Check date": "2022-07-09"
   },
   {
@@ -327,6 +356,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/DJFC2",
     "Title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
+    "OpenAlex": "https://openalex.org/W4281951657",
     "Check date": "2022-07-09"
   },
   {
@@ -338,6 +368,7 @@
     "Report": "https://doi.org/10.17605/osf.io/wncsm",
     "Title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
+    "OpenAlex": "https://openalex.org/W4281642483",
     "Check date": "2022-07-09"
   },
   {
@@ -349,6 +380,7 @@
     "Report": "https://doi.org/10.17605/osf.io/c7vx3",
     "Title": "Urban Sound Mapping for Wayfinding - A theoretical Approach and an empirical Study",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-9-2023",
+    "OpenAlex": "https://openalex.org/W4379795573",
     "Check date": "2023-06-13"
   },
   {
@@ -360,6 +392,7 @@
     "Report": "https://doi.org/10.17605/osf.io/rbgvk",
     "Title": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-12-2023",
+    "OpenAlex": null,
     "Check date": "2023-06-13"
   },
   {
@@ -371,6 +404,7 @@
     "Report": "https://doi.org/10.17605/osf.io/m5bhk",
     "Title": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquake",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-5-2023",
+    "OpenAlex": "https://openalex.org/W4379796913",
     "Check date": "2023-06-13"
   },
   {
@@ -382,6 +416,7 @@
     "Report": "https://doi.org/10.17605/osf.io/2em7v",
     "Title": "Does spatial thinking ability relate to performance when using web-mapping services? A survey with digital natives",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-13-2023",
+    "OpenAlex": "https://openalex.org/W4379797511",
     "Check date": "2023-06-13"
   },
   {
@@ -393,6 +428,7 @@
     "Report": "https://doi.org/10.17605/osf.io/27wzp",
     "Title": "Advancing Forest Monitoring and Assessment Through Immersive Virtual Reality",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-15-2023",
+    "OpenAlex": "https://openalex.org/W4379647154",
     "Check date": "2023-06-13"
   },
   {
@@ -404,6 +440,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/D2SHF",
     "Title": "Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-10-2023",
+    "OpenAlex": "https://openalex.org/W4379794592",
     "Check date": "2023-06-13"
   },
   {
@@ -415,6 +452,7 @@
     "Report": "https://doi.org/10.17605/osf.io/eu8kw",
     "Title": "Extreme heat alerts and impacts across Mozambique 2016 - 2022: gathering evidence from media articles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-11-2023",
+    "OpenAlex": "https://openalex.org/W4379798521",
     "Check date": "2023-06-13"
   },
   {
@@ -426,6 +464,7 @@
     "Report": "https://doi.org/10.17605/osf.io/aqgxr",
     "Title": "Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-8-2023",
+    "OpenAlex": "https://openalex.org/W4379802106",
     "Check date": "2023-06-13"
   },
   {
@@ -437,6 +476,7 @@
     "Report": "https://doi.org/10.17605/osf.io/9kp7u",
     "Title": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-3-2023",
+    "OpenAlex": null,
     "Check date": "2023-06-13"
   },
   {
@@ -448,6 +488,7 @@
     "Report": "https://doi.org/10.17605/osf.io/8t3bh",
     "Title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-4-2023",
+    "OpenAlex": "https://openalex.org/W4379802617",
     "Check date": "2023-06-13"
   },
   {
@@ -459,6 +500,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
     "Title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-15-2024",
+    "OpenAlex": "https://openalex.org/W4399177594",
     "Check date": "2024-05-23"
   },
   {
@@ -470,6 +512,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
     "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-7-2024",
+    "OpenAlex": "https://openalex.org/W4399157471",
     "Check date": "2024-05-23"
   },
   {
@@ -481,6 +524,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
     "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
+    "OpenAlex": "https://openalex.org/W4399178759",
     "Check date": "2024-05-23"
   },
   {
@@ -492,6 +536,7 @@
     "Report": "https://doi.org/10.17605/osf.io/CSB7R",
     "Title": "Developing a city-specific walkability index through a participatory approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
+    "OpenAlex": "https://openalex.org/W4399157568",
     "Check date": "2024-05-23"
   },
   {
@@ -503,6 +548,7 @@
     "Report": "https://doi.org/10.17605/osf.io/NBK57",
     "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-12-2024",
+    "OpenAlex": "https://openalex.org/W4399157460",
     "Check date": "2024-05-27"
   },
   {
@@ -514,6 +560,7 @@
     "Report": "https://doi.org/10.17605/osf.io/FMGB4",
     "Title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-5-2024",
+    "OpenAlex": "https://openalex.org/W4399177945",
     "Check date": "2024-05-27"
   },
   {
@@ -525,6 +572,7 @@
     "Report": "https://doi.org/10.17605/osf.io/W42AD",
     "Title": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-4-2024",
+    "OpenAlex": "https://openalex.org/W4399157664",
     "Check date": "2024-05-30"
   },
   {
@@ -536,6 +584,7 @@
     "Report": "https://doi.org/10.17605/osf.io/TXGZV",
     "Title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-6-2024",
+    "OpenAlex": "https://openalex.org/W4399175227",
     "Check date": "2024-05-31"
   },
   {
@@ -547,6 +596,7 @@
     "Report": "https://doi.org/10.53962/wxh7-8yjd",
     "Title": "Measuring Landmark Salience in Rural Areas: A Comparative Study of Two Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-7-2025",
+    "OpenAlex": "https://openalex.org/W4411153143",
     "Check date": "2025-06-06"
   },
   {
@@ -558,6 +608,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
     "Title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-9-2025",
+    "OpenAlex": "https://openalex.org/W4411154871",
     "Check date": "2025-06-13"
   },
   {
@@ -569,6 +620,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
     "Title": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-3-2025",
+    "OpenAlex": "https://openalex.org/W4411153561",
     "Check date": "2025-03-23"
   },
   {
@@ -580,6 +632,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/GT5BW",
     "Title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-5-2025",
+    "OpenAlex": "https://openalex.org/W4411153502",
     "Check date": "2025-06-12"
   },
   {
@@ -591,6 +644,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/956a8",
     "Title": "Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-12-2025",
+    "OpenAlex": "https://openalex.org/W4411152705",
     "Check date": "2025-06-12"
   },
   {
@@ -602,6 +656,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/BGY83",
     "Title": "Exploring Urban Place Function through User-Generated Textual Content",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-6-2025",
+    "OpenAlex": "https://openalex.org/W4411153777",
     "Check date": "2025-06-12"
   },
   {
@@ -613,6 +668,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/st98a",
     "Title": "Beyond Walking and Biking: Expanding the 15-Minute City Area through Public Transport",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-2-2025",
+    "OpenAlex": "https://openalex.org/W4411153453",
     "Check date": "2025-04-03"
   },
   {
@@ -624,6 +680,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/CHX28",
     "Title": "Accessibility for pedestrians under heat stress - the example of Heidelberg, Germany",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-4-2025",
+    "OpenAlex": "https://openalex.org/W4411154948",
     "Check date": "2025-05-06"
   },
   {
@@ -635,6 +692,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/28JT4",
     "Title": "Changes in Road Centrality and Hospital Access Redundancy: Impacts of the 2024 Flood in the Metropolitan Core of Porto Alegre, Brazil",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-10-2025",
+    "OpenAlex": "https://openalex.org/W4411154888",
     "Check date": "2025-06-06"
   },
   {
@@ -646,6 +704,7 @@
     "Report": "https://doi.org/10.53962/wgtb-cagt",
     "Title": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-11-2025",
+    "OpenAlex": "https://openalex.org/W4411153243",
     "Check date": "2025-06-06"
   }
 ]

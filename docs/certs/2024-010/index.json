@@ -19,7 +19,8 @@
     "abstract": {
       "text": "<jats:p>Abstract. Geoparsing, the process of linking locations within text to sets of geographic coordinates, plays an important role in the extraction and analysis of information from unstructured textual data. With the rapid growth in availability of user-generated data from online sources, there is increasing demand for reliable geoparsing methods. Central to many of these methods is the accurate identification of toponyms within text. For some applications, however, simple identification of toponyms is insufficient. Problems which require the association of a piece of text containing multiple toponyms to a singular location require a more nuanced approach. In this paper, we show that a transformer based deep learning model, is able to identify the subject toponym within a given text, and classify other toponyms in terms of their spatial relationship with the subject. We curate a dataset of text taken from Wikipedia pages representing 5252 locations, and use OpenStreetMap data to classify toponyms within the text in terms of their spatial relationship with the subject of each article. This dataset is then used to train a transformer based deep-learning model. On a human labelled test set, our model achieves an F1 score of 0.916 when identifying the subject toponym, and 0.884 and 0.793 when identifying toponyms representing parent and child locations of the subject, respectively. We also consider the more complex adjacent and crossing relationships - with the model achieving F1 scores of 0.548 and 0.704 in these categories, respectively. \n                    <\/jats:p>",
       "source": "CrossRef"
-    }
+    },
+    "openalex": "https://openalex.org/W4399157460"
   },
   "codecheck": {
     "codecheckers": [

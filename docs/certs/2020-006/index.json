@@ -15,7 +15,8 @@
     "abstract": {
       "text": "A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviors, ReScience 3(7), 2017",
       "source": "OpenAlex"
-    }
+    },
+    "openalex": "https://openalex.org/W3210493981"
   },
   "codecheck": {
     "codecheckers": [

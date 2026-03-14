@@ -25,9 +25,10 @@
     ],
     "reference": "https://doi.org/10.5194/agile-giss-2-2-2021",
     "abstract": {
-      "text": "Abstract. Data produced by social networks may contain weak signals of possible epidemic outbreaks. In this paper, we focus on Twitter data during the waiting period before the appearance of COVID-19 first cases outside China. Among the huge flow of tweets that reflects a global growing concern in all countries, we propose to analyze such data with an adaptation of the TF-IDF measure. It allows the users to extract the discriminant vocabularies used across time and space. The results are then discussed to show how the specific spatio-temporal anchoring of the extracted terms make it possible to follow the crisis dynamics on different scales of time and space.",
-      "source": "OpenAlex"
-    }
+      "text": "<jats:p>Abstract. Data produced by social networks may contain weak signals of possible epidemic outbreaks. In this paper, we focus on Twitter data during the waiting period before the appearance of COVID-19 first cases outside China. Among the huge flow of tweets that reflects a global growing concern in all countries, we propose to analyze such data with an adaptation of the TF-IDF measure. It allows the users to extract the discriminant vocabularies used across time and space. The results are then discussed to show how the specific spatio-temporal anchoring of the extracted terms make it possible to follow the crisis dynamics on different scales of time and space.  \n                    <\/jats:p>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W3171073192"
   },
   "codecheck": {
     "codecheckers": [

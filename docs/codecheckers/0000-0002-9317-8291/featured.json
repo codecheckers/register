@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
     "Title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
     "Paper reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
+    "OpenAlex": null,
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-09-26"
@@ -21,6 +22,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
     "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
+    "OpenAlex": "https://openalex.org/W4399178759",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-23"
@@ -34,6 +36,7 @@
     "Report": "https://doi.org/10.17605/osf.io/CSB7R",
     "Title": "Developing a city-specific walkability index through a participatory approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
+    "OpenAlex": "https://openalex.org/W4399157568",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-23"
@@ -47,6 +50,7 @@
     "Report": "https://doi.org/10.17605/osf.io/cdfah",
     "Title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
+    "OpenAlex": "https://openalex.org/W4282970832",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -60,6 +64,7 @@
     "Report": "https://doi.org/10.17605/osf.io/94vnx",
     "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
+    "OpenAlex": "https://openalex.org/W4281784263",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -73,6 +78,7 @@
     "Report": "https://doi.org/10.17605/osf.io/7fqtm",
     "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
     "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "OpenAlex": "https://openalex.org/W3172863573",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2021-06-10"
@@ -86,6 +92,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
     "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "OpenAlex": "https://openalex.org/W3043446483",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2020-07-13"
@@ -99,6 +106,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
     "Title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
+    "OpenAlex": "https://openalex.org/W3043728279",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2020-07-13"
@@ -112,6 +120,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
     "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "OpenAlex": "https://openalex.org/W3043006037",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2020-07-13"

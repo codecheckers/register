@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.5281/zenodo.16758977",
     "Title": "AbSolution Report v.0.71",
     "Paper reference": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html",
+    "OpenAlex": null,
     "Type": "institution",
     "Venue": "AUMC",
     "Check date": "2025-01-29"
@@ -21,6 +22,7 @@
     "Report": "https://doi.org/10.5281/zenodo.14576035",
     "Title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
     "Paper reference": "https://doi.org/10.1002/sim.10186",
+    "OpenAlex": "https://openalex.org/W4401278294",
     "Type": "institution",
     "Venue": "AUMC",
     "Check date": "2024-12-16"
@@ -34,6 +36,7 @@
     "Report": "https://doi.org/10.5281/zenodo.13364677",
     "Title": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint",
     "Paper reference": "https://doi.org/10.31222/osf.io/a8rmu",
+    "OpenAlex": "https://openalex.org/W4399757027",
     "Type": "institution",
     "Venue": "AUMC",
     "Check date": "2024-08-01"

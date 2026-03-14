@@ -242,7 +242,7 @@
   {
     "Codechecker name": "Josip Grguric",
     "ORCID": "0009-0003-3725-9454",
-    "No. of codechecks": 1
+    "No. of codechecks": 2
   },
   {
     "Codechecker name": "Luke McQuade",
@@ -292,11 +292,6 @@
   {
     "Codechecker name": "Subhan Ali",
     "ORCID": "0009-0003-7546-1717",
-    "No. of codechecks": 1
-  },
-  {
-    "Codechecker name": "Josip Grguric",
-    "ORCID": "009-0003-3725-9454",
     "No. of codechecks": 1
   }
 ]

@@ -34,7 +34,8 @@
     "abstract": {
       "text": "Abstract. A number of measures have been developed to formally define the landmark salience of a geographic feature in order to identify landmarks for inclusion in pedestrian navigation systems. However, most of the available research has focused on urban environments. Rural areas differ from urban environments in several ways, such as their level of structure and regularity, and the type and density of landmarks. In this paper, we focus on measures for calculating the landmark salience of geographic features in rural areas. We present results from two models: one explicitly designed to identify landmarks in rural areas, and one originally focused on urban areas. We compare the identified landmarks with those from a survey. The results show that the differences between the models and the survey results are not statistically significant. The results of the two models are marginally statistically significantly different. The first model identifies highly semantically salient geographic features as landmarks, while the second model does not consider semantic salience and prefers natural geographic features. Investigating these facts further may be part of future research.",
       "source": "OpenAlex"
-    }
+    },
+    "openalex": "https://openalex.org/W4411153143"
   },
   "codecheck": {
     "codecheckers": [

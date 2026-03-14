@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
     "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
+    "OpenAlex": "https://openalex.org/W3042838677",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2020-07-13"
@@ -21,6 +22,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
     "Title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -34,6 +36,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/DJFC2",
     "Title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
+    "OpenAlex": "https://openalex.org/W4281951657",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -47,6 +50,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
     "Title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-15-2024",
+    "OpenAlex": "https://openalex.org/W4399177594",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-23"
@@ -60,6 +64,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
     "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-7-2024",
+    "OpenAlex": "https://openalex.org/W4399157471",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-23"
@@ -73,6 +78,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/st98a",
     "Title": "Beyond Walking and Biking: Expanding the 15-Minute City Area through Public Transport",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-2-2025",
+    "OpenAlex": "https://openalex.org/W4411153453",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-04-03"

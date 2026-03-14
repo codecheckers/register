@@ -8,6 +8,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/GT5BW",
     "Title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-5-2025",
+    "OpenAlex": "https://openalex.org/W4411153502",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-06-12"
@@ -21,6 +22,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/956a8",
     "Title": "Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-12-2025",
+    "OpenAlex": "https://openalex.org/W4411152705",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-06-12"
@@ -34,6 +36,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15173758",
     "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
     "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
+    "OpenAlex": null,
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2025-02-14"
@@ -47,6 +50,7 @@
     "Report": "https://doi.org/10.5281/zenodo.14279041",
     "Title": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.",
     "Paper reference": "https://doi.org/10.31219/osf.io/wkzsn",
+    "OpenAlex": "https://openalex.org/W4400220542",
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-12-04"
@@ -60,6 +64,7 @@
     "Report": "https://doi.org/10.5281/zenodo.14211707",
     "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
     "Paper reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
+    "OpenAlex": null,
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-11-22"
@@ -73,6 +78,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
     "Title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
     "Paper reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
+    "OpenAlex": null,
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-09-26"
@@ -86,6 +92,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/mwbuq",
     "Title": "Landscape Character Assessment - Nigeria",
     "Paper reference": "https://doi.org/10.17605/OSF.IO/E2K73",
+    "OpenAlex": "https://openalex.org/W6943834942",
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-09-26"
@@ -99,6 +106,7 @@
     "Report": "https://doi.org/10.5281/zenodo.11403956",
     "Title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
     "Paper reference": "https://arxiv.org/pdf/2310.19997",
+    "OpenAlex": null,
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-05-30"

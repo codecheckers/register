@@ -27,7 +27,8 @@
         "orcid": "0000-0002-1769-6310"
       }
     ],
-    "reference": "https://doi.org/10.5281/zenodo.13734819"
+    "reference": "https://doi.org/10.5281/zenodo.13734819",
+    "openalex": "https://openalex.org/W6893062762"
   },
   "codecheck": {
     "codecheckers": [
