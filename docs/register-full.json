@@ -1,0 +1,4275 @@
+[
+  {
+    "Certificate ID": "2020-001",
+    "Repository": "github::codecheckers/Piccolo-2020",
+    "Repository Link": "https://github.com/codecheckers/Piccolo-2020",
+    "Type": "journal",
+    "Venue": "GigaScience",
+    "Check date": "2019-02-14",
+    "OpenAlex": "https://openalex.org/W3014157798",
+    "Report": "http://doi.org/10.5281/zenodo.3674056",
+    "Title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
+    "Paper reference": "https://doi.org/10.1093/gigascience/giaa026",
+    "Paper authors": [
+      {
+        "name": "Terry J Lee"
+      },
+      {
+        "name": "Erica Suh"
+      },
+      {
+        "name": "Kimball Hill"
+      },
+      {
+        "name": "Stephen R Piccolo"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "Only visualiation steps performed, rather than machine learning (which could take several hours/days).  The created figures match those in the article. The content of other output files was not checked.",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-002",
+    "Repository": "github::codecheckers/Reproduction-Hancock",
+    "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-04-13",
+    "OpenAlex": "https://openalex.org/W2169326908",
+    "Report": "http://doi.org/10.5281/zenodo.3750741",
+    "Title": "The principal components of natural images",
+    "Paper reference": "https://doi.org/10.1088/0954-898X_3_1_008",
+    "Paper authors": [
+      {
+        "name": "Peter J. B. Hancock"
+      },
+      {
+        "name": "Roland J. Baddeley"
+      },
+      {
+        "name": "Leslie S. Smith"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "Matlab code written by Iain Davies to reproduce original paper; natural images provided by Peter Hancock.",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-003",
+    "Repository": "github::codecheckers/Hopfield-1982",
+    "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-04-06",
+    "OpenAlex": "https://openalex.org/W2128084896",
+    "Report": "https://doi.org/10.5281/zenodo.3741797",
+    "Title": "Neural networks and physical systems with emergent collective computational abilities",
+    "Paper reference": "https://doi.org/10.1073/pnas.79.8.2554",
+    "Paper authors": [
+      {
+        "name": "J J Hopfield"
+      },
+      {
+        "name": "Wulfram Gerstner",
+        "orcid": "0000-0002-4344-2189"
+      },
+      {
+        "name": "Werner M. Kistler"
+      },
+      {
+        "name": "Richard Naud",
+        "orcid": "0000-0001-7383-3095"
+      },
+      {
+        "name": "Liam Paninski"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": null,
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-004",
+    "Repository": "github::codecheckers/Barto-Sutton-Anderson-1983",
+    "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-05-14",
+    "OpenAlex": "https://openalex.org/W1583833196",
+    "Report": "https://doi.org/10.5281/zenodo.3827371",
+    "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
+    "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
+    "Paper authors": [
+      {
+        "name": "Andrew G. Barto"
+      },
+      {
+        "name": "Richard S. Sutton"
+      },
+      {
+        "name": "C. W. Anderson"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The check was relatively easy to do because the Python code was simple, but the documentation was not good.\nComputations took about 6 minutes to run.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-005",
+    "Repository": "github::codecheckers/Larisch-reproduction",
+    "Repository Link": "https://github.com/codecheckers/Larisch-reproduction",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-07-23",
+    "OpenAlex": "https://openalex.org/W3206275069",
+    "Report": "https://doi.org/10.5281/zenodo.3959175",
+    "Title": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis",
+    "Paper reference": "https://doi.org/10.5281/zenodo.3538217",
+    "Paper authors": [
+      {
+        "name": "Rene Larisch",
+        "orcid": "0000-0003-3544-0631"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "Summary": "This code had some difficulties involving the Python package ANNarchy. All scripts were eventually able to be run, and most figures were reproduced as in the ReScience paper. However two figures were very different from the originals. Some figures also varied considerably when changing the seed. \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-006",
+    "Repository": "github::codecheckers/Detorakis-reproduction",
+    "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-07-16",
+    "OpenAlex": "https://openalex.org/W3210493981",
+    "Report": "https://doi.org/10.5281/zenodo.3948353",
+    "Title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1003214",
+    "Paper authors": [
+      {
+        "name": "Tiziano Zito",
+        "orcid": "0000-0001-5891-1702"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "Summary": "The three figures from the ReScience article \"[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours\" were reproduced using the code provided by the article authors. The code was straightforward to run and took minimal computation time. \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-007",
+    "Repository": "github::codecheckers/Hathway-Goodman-2018",
+    "Repository Link": "https://github.com/codecheckers/Hathway-Goodman-2018",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2025-05-19",
+    "OpenAlex": "https://openalex.org/W3033755496",
+    "Report": "https://doi.org/10.53962/nsys-9a40",
+    "Title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1327348",
+    "Paper authors": [
+      {
+        "name": "Pamela Hathway"
+      },
+      {
+        "name": "Dan F. M. Goodman",
+        "orcid": "0000-0003-1007-6474"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "The code was straightforward to codecheck. All figures could be recreated with the original code and data as described in the README file. Only the computing environment could not be recreated exactly, as a lot of time has passed since the publication of the original code. Both a quick (saved data) execution and a longer (seemingly new data) execution were successful and yielded figures who by visual inspection matched the figures in the original article. Errors and warnings were mostly related to deprecation of libraries and missing libraries.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-008",
+    "Repository": "github::codecheckers/covid-uk",
+    "Repository Link": "https://github.com/codecheckers/covid-uk",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2020-04-09",
+    "OpenAlex": null,
+    "Report": "http://doi.org/10.5281/zenodo.3746024",
+    "Title": "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study",
+    "Paper reference": "https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf",
+    "Paper authors": [
+      {
+        "name": "Nicholas G. Davies"
+      },
+      {
+        "name": "Adam J. Kucharski"
+      },
+      {
+        "name": "Rosalind M. Eggo"
+      },
+      {
+        "name": "Amy Gimma"
+      },
+      {
+        "name": "CMMID COVID-19 working group"
+      },
+      {
+        "name": "W. John Edmunds"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "Analysis steps took several days; otherwise mostly straightforward.",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-009",
+    "Repository": "github::codecheckers/2020-cov-tracing",
+    "Repository Link": "https://github.com/codecheckers/2020-cov-tracing",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2020-04-26",
+    "OpenAlex": null,
+    "Report": "http://doi.org/10.5281/zenodo.3767060",
+    "Title": "Model of isolation, contact tracing, and physical distancing (Preprint)",
+    "Paper reference": "https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf",
+    "Paper authors": [
+      {
+        "name": "Adam Kucharski"
+      },
+      {
+        "name": "COVID modelling group"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "R code and packages worked well; simple edits needed to working directory.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-010",
+    "Repository": "github::codecheckers/covid-report9",
+    "Repository Link": "https://github.com/codecheckers/covid-report9",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2020-05-29",
+    "OpenAlex": "https://openalex.org/W3023441241",
+    "Report": "https://doi.org/10.5281/zenodo.3865491",
+    "Title": "Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020.",
+    "Paper reference": "https://doi.org/10.25561/77482",
+    "Paper authors": [
+      {
+        "name": "Neil Ferguson",
+        "orcid": "0000-0002-1154-8093"
+      },
+      {
+        "name": "COVID-19 Response Team"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "Replication of key findings from Report 9 using CovidSim reimplementation.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-011",
+    "Repository": "github::codecheckers/covid19model-nature",
+    "Repository Link": "https://github.com/codecheckers/covid19model-nature",
+    "Type": "community",
+    "Venue": "in press",
+    "Check date": "2020-06-13",
+    "OpenAlex": "https://openalex.org/W3032971139",
+    "Report": "https://doi.org/10.5281/zenodo.3893138",
+    "Title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
+    "Paper reference": "http://doi.org/10.1038/s41586-020-2405-7",
+    "Paper authors": [
+      {
+        "name": "Seth Flaxman"
+      },
+      {
+        "name": "Imperial College COVID-19 Response Team"
+      },
+      {
+        "name": "Samir Bhatt",
+        "orcid": "0000-0002-0891-4611"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "This reproduction required several hours of compute time, but the reproduction itself was straightforward.  All the R code was provided, along with a working Dockerfile.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-012",
+    "Repository": "github::codecheckers/covid19model-report23",
+    "Repository Link": "https://github.com/codecheckers/covid19model-report23",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2020-06-14",
+    "OpenAlex": "https://openalex.org/W3034840651",
+    "Report": "https://doi.org/10.5281/zenodo.3893617",
+    "Title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)",
+    "Paper reference": "https://doi.org/10.25561/79231",
+    "Paper authors": [
+      {
+        "name": "H Juliette T Unwin",
+        "orcid": "0000-0002-9120-4003"
+      },
+      {
+        "name": "Swapnil Mistra"
+      },
+      {
+        "name": "Valerie C Bradley"
+      },
+      {
+        "name": "et al."
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "R code for this paper shared with an earlier codecheck certifice (2020-011) from the same codebase.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-013",
+    "Repository": "github::codecheckers/Spitschan2020_bioRxiv",
+    "Repository Link": "https://github.com/codecheckers/Spitschan2020_bioRxiv",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2020-07-14",
+    "OpenAlex": "https://openalex.org/W3123970356",
+    "Report": "https://doi.org/10.5281/zenodo.3947959",
+    "Title": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision",
+    "Paper reference": "https://doi.org/10.1101/2020.06.02.129502",
+    "Paper authors": [
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      },
+      {
+        "name": "Corrado Garbazza",
+        "orcid": "0000-0002-8606-2944"
+      },
+      {
+        "name": "Susanne Kohl",
+        "orcid": "0000-0002-6438-6331"
+      },
+      {
+        "name": "Christian Cajochen",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "Summary": "This reproduction successfully reproduced all figures output by the original code. All original MATLAB code was provided and the reproduction had a small compute time.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-014",
+    "Repository": "github::codecheckers/Sadeh-and-Clopath",
+    "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-07-28",
+    "OpenAlex": "https://openalex.org/W3008505973",
+    "Report": "https://doi.org/10.5281/zenodo.3967326",
+    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
+    "Paper reference": "https://doi.org/10.7554/eLife.52757",
+    "Paper authors": [
+      {
+        "name": "Sadra Sadeh",
+        "orcid": "0000-0001-8159-5461"
+      },
+      {
+        "name": "Claudia Clopath",
+        "orcid": "0000-0003-4507-8648"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "Summary": "Some of the original MATLAB code was provided on ModelDB. This code was successfully  rerun and reproduced some of the figures in the original paper. However this was a small subset of all the figures in the paper.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-015",
+    "Repository": "github::codecheckers/Liou-and-Bateman",
+    "Repository Link": "https://github.com/codecheckers/Liou-and-Bateman",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-08-04",
+    "OpenAlex": "https://openalex.org/W3012706327",
+    "Report": "https://doi.org/10.5281/zenodo.3978402",
+    "Title": "A model for focal seizure onset, propagation, evolution, and progression",
+    "Paper reference": "https://doi.org/10.7554/eLife.50927",
+    "Paper authors": [
+      {
+        "name": "Jyun-you Liou",
+        "orcid": "0000-0003-4851-3676"
+      },
+      {
+        "name": "Elliot H Smith",
+        "orcid": "0000-0003-4323-4643"
+      },
+      {
+        "name": "Lisa M Bateman"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Iain Davies",
+        "orcid": "0000-0002-5361-6285"
+      }
+    ],
+    "Summary": "All code to run the neural network models discussed in the paper was  successfully executed. Some results could be read off these models in  action. The code to reproduce the figures given in the paper had more  difficulties, with only some figures successfully recreated.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-016",
+    "Repository": "github::codecheckers/OpeningPractice",
+    "Repository Link": "https://github.com/codecheckers/OpeningPractice",
+    "Type": "journal",
+    "Venue": "J Geogr Syst",
+    "Check date": "2020-06-02",
+    "OpenAlex": "https://openalex.org/W3047775749",
+    "Report": "https://doi.org/10.5281/zenodo.3981253",
+    "Title": "Opening practice: supporting reproducibility and critical spatial data science",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00334-2",
+    "Paper authors": [
+      {
+        "name": "Chris Brunsdon",
+        "orcid": "0000-0003-4254-1780"
+      },
+      {
+        "name": "Alexis Comber",
+        "orcid": "0000-0002-3652-7846"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "A small R script to render a map and two tables. Minor code adjustments were made, but reproduction of results (one figure, two tables) was successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-017",
+    "Repository": "github::codecheckers/JGSY-D-19-00087",
+    "Repository Link": "https://github.com/codecheckers/JGSY-D-19-00087",
+    "Type": "journal",
+    "Venue": "J Geogr Syst",
+    "Check date": "2020-08-27",
+    "OpenAlex": "https://openalex.org/W3092996383",
+    "Report": "https://doi.org/10.5281/zenodo.4003848",
+    "Title": "Progress in the R ecosystem for representing and handling spatial data",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00336-0",
+    "Paper authors": [
+      {
+        "name": "Roger S. Bivand",
+        "orcid": "0000-0003-2392-6140"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "Successful check of well-organised R script. All figures match the ones provided by the author.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-018",
+    "Repository": "github::reproducible-agile/AGILECA",
+    "Repository Link": "https://github.com/reproducible-agile/AGILECA",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13",
+    "OpenAlex": "https://openalex.org/W3042993452",
+    "Report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
+    "Title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-6-2020",
+    "Paper authors": [
+      {
+        "name": "Majid Hojati",
+        "orcid": "0000-0001-7350-0055"
+      },
+      {
+        "name": "Colin Robertson"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The check was straightforward as all material was provided and documented well, but computations took about 3 hours to run.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-019",
+    "Repository": "osf::5SVMT",
+    "Repository Link": "https://osf.io/5SVMT",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13",
+    "OpenAlex": "https://openalex.org/W3042838677",
+    "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
+    "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
+    "Paper authors": [
+      {
+        "name": "Steffen Illium"
+      },
+      {
+        "name": "Philipp Andreas Friese",
+        "orcid": "0000-0002-3124-5364"
+      },
+      {
+        "name": "Robert Müller"
+      },
+      {
+        "name": "Sebastian Feld"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "Summary": "After initial problems because of absence of documentation, the reproduction was successful for some of the paper's figures, but not the maps.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-020",
+    "Repository": "osf::7TWR2",
+    "Repository Link": "https://osf.io/7TWR2",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13",
+    "OpenAlex": "https://openalex.org/W3043446483",
+    "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
+    "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "Paper authors": [
+      {
+        "name": "Tobias Werner"
+      },
+      {
+        "name": "Thomas Brinkhoff"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "Based on an updated data and code archive provided by the authors, we were able to deploy a database with the new functions, insert test data, and recreate all but one data-based figure with the provided scripts.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-021",
+    "Repository": "github::reproducible-agile/Spatial-nominal-entity-recognition",
+    "Repository Link": "https://github.com/reproducible-agile/Spatial-nominal-entity-recognition",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13",
+    "OpenAlex": "https://openalex.org/W3043728279",
+    "Report": "https://doi.org/10.17605/OSF.IO/SUWPJ",
+    "Title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-15-2020",
+    "Paper authors": [
+      {
+        "name": "Amine Medad",
+        "orcid": "0000-0002-6473-9969"
+      },
+      {
+        "name": "Mauro Gaio"
+      },
+      {
+        "name": "Ludovic Moncla",
+        "orcid": "0000-0002-1590-9546"
+      },
+      {
+        "name": "Sébastien Mustière"
+      },
+      {
+        "name": "Yannick Le Nir"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "After some adjustments of the computational environment, the commendable material compiled by the authors lead to a mostly successful reproduction.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-022",
+    "Repository": "osf::7XRQG",
+    "Repository Link": "https://osf.io/7XRQG",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13",
+    "OpenAlex": "https://openalex.org/W3042325721",
+    "Report": "https://doi.org/10.17605/OSF.IO/7XRQG",
+    "Title": "Extracting interrogative intents and concepts from geo-analytic questions.",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-23-2020",
+    "Paper authors": [
+      {
+        "name": "Haiqi Xu"
+      },
+      {
+        "name": "Ehsan Hamzei",
+        "orcid": "0000-0002-4712-230X"
+      },
+      {
+        "name": "Enkhbold Nyamsuren"
+      },
+      {
+        "name": "Han Kruiger",
+        "orcid": "0000-0002-0901-202X"
+      },
+      {
+        "name": "Stephan Winter",
+        "orcid": "0000-0002-3403-6939"
+      },
+      {
+        "name": "Martin Tomko",
+        "orcid": "0000-0002-5736-4679"
+      },
+      {
+        "name": "Simon Scheider",
+        "orcid": "0000-0002-2267-4810"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The workflow could be executed using the provided instructions and the provided scripts created a subset of the included figures. Although some key figures were not created by the provided data and code, the reproduction was partially successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-023",
+    "Repository": "github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13",
+    "OpenAlex": "https://openalex.org/W3043006037",
+    "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
+    "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "Paper authors": [
+      {
+        "name": "Innocensia Owuor"
+      },
+      {
+        "name": "Hartwig H. Hochmair",
+        "orcid": "0000-0002-7064-8238"
+      },
+      {
+        "name": "Sreten Cvetojevic",
+        "orcid": "0000-0001-6069-5324"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "After initial problems because of absence of documentation, the reproduction was successful for some of the paper's figures, but not the maps.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-024",
+    "Repository": "github::codecheckers/driftage",
+    "Repository Link": "https://github.com/codecheckers/driftage",
+    "Type": "journal",
+    "Venue": "GigaScience",
+    "Check date": "2020-12-07",
+    "OpenAlex": "https://openalex.org/W3165405739",
+    "Report": "https://doi.org/10.5281/zenodo.4964880",
+    "Title": "Driftage: a multi-agent system framework for concept drift detection",
+    "Paper reference": "https://doi.org/10.1093/gigascience/giab030",
+    "Paper authors": [
+      {
+        "name": "Diogo Munaro Vieira"
+      },
+      {
+        "name": "Chrystinne Fernandes"
+      },
+      {
+        "name": "Carlos Lucena"
+      },
+      {
+        "name": "Sérgio Lifschitz",
+        "orcid": "0000-0003-3073-3734"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "Reproduction from mybinder\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2020-025",
+    "Repository": "github::codecheckers/LICD_article",
+    "Repository Link": "https://github.com/codecheckers/LICD_article",
+    "Type": "journal",
+    "Venue": "J Archaeol Sci",
+    "Check date": "2020-11-19",
+    "OpenAlex": "https://openalex.org/W3112754451",
+    "Report": "https://doi.org/10.5281/zenodo.4279275",
+    "Title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+    "Paper reference": "https://doi.org/10.1016/j.jas.2020.105306",
+    "Paper authors": [
+      {
+        "name": "Francesco Carrer",
+        "orcid": "0000-0003-4397-4502"
+      },
+      {
+        "name": "Tomasz M. Kossowski",
+        "orcid": "0000-0002-9976-4398"
+      },
+      {
+        "name": "Justyna Wilk",
+        "orcid": "0000-0003-1495-2910"
+      },
+      {
+        "name": "Michał B. Pietrzak",
+        "orcid": "0000-0002-9263-4478"
+      },
+      {
+        "name": "Roger S. Bivand",
+        "orcid": "0000-0003-2392-6140"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "This workflow was very straightforward to check following the authors' README. All figures stored in the repository could be recreated and match the ones given in the manuscript.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-001",
+    "Repository": "github::codecheckers/causality-review",
+    "Repository Link": "https://github.com/codecheckers/causality-review",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2021-04-27",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.4720843",
+    "Title": "Causality indices for bivariate time series data: a comparative review of performance",
+    "Paper reference": "https://arxiv.org/abs/2104.00718",
+    "Paper authors": [
+      {
+        "name": "Tom Edinburgh",
+        "orcid": "0000-0002-3599-7133"
+      },
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      },
+      {
+        "name": "Ari Ercole",
+        "orcid": "0000-0001-8350-8093"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Marcel Stimberg",
+        "orcid": "0000-0002-2648-4790"
+      }
+    ],
+    "Summary": "The authors provided all material and documented the process well, the check was therefore straightforward. Due to long computation times, only a subset of the results could be checked. Reproducing the results in the repository was successful, with non-significant numerical discrepancies. However, a small number of minor differences with the results in the arXiv preprint merit clarification.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-002",
+    "Repository": "osf::rsf4m",
+    "Repository Link": "https://osf.io/rsf4m",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3168809494",
+    "Report": "https://doi.org/10.17605/osf.io/rsf4m",
+    "Title": "Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-10-2021",
+    "Paper authors": [
+      {
+        "name": "Florian Politz"
+      },
+      {
+        "name": "Monika Sester",
+        "orcid": "0000-0002-6656-8809"
+      },
+      {
+        "name": "Claus Brenner",
+        "orcid": "0000-0002-6459-0682"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "Summary": "The reproduction was partially successful.\nThe paper data and software are not publicly available due to licence issues with the cooperating parties.\nFor the scope of this reproduction however, the authors provided a synthetic data set, a script to \ngenerating a synthetic data set from a publicly available data source, and the analysis code.\nUsing the provided synthetic data set the executability of the provided analysis code was confirmed.\nThe methodology behind all figures has been reproduced.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-003",
+    "Repository": "osf::dx92a",
+    "Repository Link": "https://osf.io/dx92a",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3172635671",
+    "Report": "https://doi.org/10.17605/osf.io/dx92a",
+    "Title": "Investigating drivers’ geospatial abilities in unfamiliar environments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-3-2021",
+    "Paper authors": [
+      {
+        "name": "Dafni Karkasina"
+      },
+      {
+        "name": "Margarita Kokla"
+      },
+      {
+        "name": "Eleni Tomai",
+        "orcid": "0000-0003-1162-7389"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "Summary": "The updated submission contains a DASA section and provides the analysis script, dataset and questionnaires.\nThe provided R script computes all statistical analyses presented in the paper and generates the key figure\nand data for both presented tables. The reproduction was successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-004",
+    "Repository": "osf::2sc7g",
+    "Repository Link": "https://osf.io/2sc7g",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3171527029",
+    "Report": "https://doi.org/10.17605/osf.io/2sc7g",
+    "Title": "Extraction of linear structures from digital terrain models using deep learning",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-11-2021",
+    "Paper authors": [
+      {
+        "name": "Ramish Satari"
+      },
+      {
+        "name": "Bashir Kazimi",
+        "orcid": "0000-0003-1802-7511"
+      },
+      {
+        "name": "Monika Sester",
+        "orcid": "0000-0002-6656-8809"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Anita Graser",
+        "orcid": "0000-0001-5361-2885"
+      }
+    ],
+    "Summary": "The provided workflow was partially reproduced. Based on the provided test file and instructions, we\nwere able to recreate the computing environment and run the segmentation models. Relevant tables from\nthe paper could be recreated. The training and validation part of the workflow is irreproducible because\nof proprietary data, therefore no figures could be recreated.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-005",
+    "Repository": "osf::7fqtm",
+    "Repository Link": "https://osf.io/7fqtm",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3172863573",
+    "Report": "https://doi.org/10.17605/osf.io/7fqtm",
+    "Title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-7-2021",
+    "Paper authors": [
+      {
+        "name": "Pei-Chun Lai"
+      },
+      {
+        "name": "Auriol Degbelo",
+        "orcid": "0000-0001-5087-8776"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The paper presents the results of a user experiment to improve GI-metadata using speech. A complete\nreproduction is practically impossible to achieve. This reproducibility report therefore investigated two\ncomponents: First, whether sufficient information is provided to replicate the experiment elsewhere with\na different group of participants. Second, whether sufficient information is provided to reproduce the\nanalysis of the experimental results. The conclusion is positive for both. The original \nprototype is accessible online at the time of this writing. To reproduce the results, the provided\ninput data, R code, and Excel spreadsheet lead to the same results as given in the paper and the \nprototype for the user experiment could be run locally.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-006",
+    "Repository": "osf::4cpm3",
+    "Repository Link": "https://osf.io/4cpm3",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3168422666",
+    "Report": "https://doi.org/10.17605/OSF.IO/4CPM3",
+    "Title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-14-2021",
+    "Paper authors": [
+      {
+        "name": "Meilin Shi"
+      },
+      {
+        "name": "Krzysztof Janowicz"
+      },
+      {
+        "name": "Ling Cai",
+        "orcid": "0000-0001-7106-4907"
+      },
+      {
+        "name": "Gengchen Mai",
+        "orcid": "0000-0002-7818-7309"
+      },
+      {
+        "name": "Rui Zhu",
+        "orcid": "0000-0002-8910-9445"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Jakub Krukar",
+        "orcid": "0000-0003-2615-8757"
+      }
+    ],
+    "Summary": "The code, sample API query, and downloaded data were published in a public GitHub repository with a\nworking Binder link. All files containing the code could be executed and all tables presented in the paper\ncould be reproduced with only minor changes to the code. However, the code does not create figures\ncontained in the paper and an attempt to change the results of the model evaluation by changing its\nnumerical assumption was unsuccessful. The authors demonstrate concern for the reproducibility of their\nwork and actively improved the reproducibility workflow throughout the reproducibility review process.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-007",
+    "Repository": "osf::anv9r",
+    "Repository Link": "https://osf.io/anv9r",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3171081052",
+    "Report": "https://doi.org/10.17605/osf.io/anv9r",
+    "Title": "Automated Extraction of Labels from Large-Scale Historical Maps",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-12-2021",
+    "Paper authors": [
+      {
+        "name": "Inga Schlegel",
+        "orcid": "0000-0003-1468-4944"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The provided workflow could be partially reproduced, notably the text detection and string similarity\ncalculations could be executed and provide sufficiently similar results. Some manual steps were included which\ncould not be reproduced, as well as a final step due to long execution time. The software stack was challenging\nto install but overall well documented.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-008",
+    "Repository": "osf::g4dcq",
+    "Repository Link": "https://osf.io/g4dcq",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3166039225",
+    "Report": "https://doi.org/10.17605/osf.io/g4dcq",
+    "Title": "Flood Impact Assessment on Road Network and Healthcare Access at the example of Jakarta, Indonesia",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-4-2021",
+    "Paper authors": [
+      {
+        "name": "Isabell G. Klipper"
+      },
+      {
+        "name": "Alexander Zipf",
+        "orcid": "0000-0003-4916-9838"
+      },
+      {
+        "name": "Sven Lautenbach",
+        "orcid": "0000-0003-1825-9996"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Anita Graser",
+        "orcid": "0000-0001-5361-2885"
+      }
+    ],
+    "Summary": "The provided workflow was partially reproduced. The reproduction described in this report uses the Python code provided\nin the Github.com repo and data provided by the authors via email. The figures generated using this\nsource code are not identical to the figures in the paper. However, many of the results reported in the paper could be reproduced.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-009",
+    "Repository": "osf::rdnyu",
+    "Repository Link": "https://osf.io/rdnyu",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3171073192",
+    "Report": "https://doi.org/10.17605/osf.io/rdnyu",
+    "Title": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-2-2021",
+    "Paper authors": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      },
+      {
+        "name": "Rodrique Kafando",
+        "orcid": "0000-0002-7190-9225"
+      },
+      {
+        "name": "Mathieu Roche",
+        "orcid": "0000-0003-3272-8568"
+      },
+      {
+        "name": "Maguelonne Teisseire",
+        "orcid": "0000-0001-9313-6414"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The authors provide a well documented workflow analysing a large number of Tweets over a considerable\ntime span. Because of the data size, the authors provided instructions for a data subset, for which the\ncode could be executed successfully and the created figures match the provided baseline, and also confirm\nthat data can be created and the code is available for the results reported in the paper.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2021-010",
+    "Repository": "osf::bdu28",
+    "Repository Link": "https://osf.io/bdu28",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "OpenAlex": "https://openalex.org/W3165945407",
+    "Report": "https://doi.org/10.17605/osf.io/bdu28",
+    "Title": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-13-2021",
+    "Paper authors": [
+      {
+        "name": "Martin Schmidl"
+      },
+      {
+        "name": "Gerhard Navratil",
+        "orcid": "0000-0002-2978-5724"
+      },
+      {
+        "name": "Ioannis Giannopoulos",
+        "orcid": "0000-0002-2556-5230"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Alexander Kmoch",
+        "orcid": "0000-0003-4386-4450"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The reproduction was successful. All provided scripts could be execute after clarification with the authors\nusing the provided data. Some manual steps could not be reproduced, but all code and data are shared.\nThe script outputs match what is presented in the paper considering the randomness in the workflow.\nRelevant figures and tables could be recreated successfully.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-001",
+    "Repository": "github::codecheckers/GWR-in-educational-planning",
+    "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2022-01-19",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.6040066",
+    "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
+    "Paper reference": "http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
+    "Paper authors": [
+      {
+        "name": "Germán Vargas Mesa"
+      },
+      {
+        "name": "Amélie A. Gagnon",
+        "orcid": "0000-0003-4907-0774"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "R code for this project was reproducible.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-002",
+    "Repository": "osf::Z7P8K",
+    "Repository Link": "https://osf.io/Z7P8K",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4282976318",
+    "Report": "https://doi.org/10.17605/osf.io/z7p8k",
+    "Title": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-2-2022",
+    "Paper authors": [
+      {
+        "name": "Guoray Cai orcid 1 and",
+        "orcid": "0000-0002-5189-8442"
+      },
+      {
+        "name": "Yimu Pan"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "Summary": "The code and data provided by the authors allow to partially reproduce the computational work presented in the Section 4.4 of the paper. The model training (PointNet++) and the input data for Section 4.4 are not reproducible with the provided code but the authors added a note, in the GitHub repository of their project, explaining how the data was generated. Three figures in Section 4.4 are fully reproducible (5, 6, and 7), 2 partially (4 and 8) and 4 are not (3, 9, 10, and 11).\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-003",
+    "Repository": "osf::JDTN3",
+    "Repository Link": "https://osf.io/JDTN3",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
+    "Title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "Paper authors": [
+      {
+        "name": "Haojun Cai"
+      },
+      {
+        "name": "Yanan Xin"
+      },
+      {
+        "name": "Henry Martin"
+      },
+      {
+        "name": "Martin Raubal"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "Summary": "The authors included a link to an anonymous GitHb repository containing detailed instructions and an entry point (`main` script) to run the entire analysis.\nThe authors claimed that input data cannot be disclosed. They provided me a few synthetic input samples (CSV format) to run the probabilistic models and charging strategies for simulation and evaluation, so there are differences between the results of the reproduction and the ones in the original paper.\nThe reproduction described in this report uses the Python code provided.\nEven though the reproduction exercise with synthetic data failed during the last step of the script, I consider the paper was partially reproducible based on the synthetic data.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-004",
+    "Repository": "osf::XPG6Y",
+    "Repository Link": "https://osf.io/XPG6Y",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281678515",
+    "Report": "https://doi.org/10.17605/osf.io/XPG6Y",
+    "Title": "What are intersections for pedestrian users?",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-4-2022",
+    "Paper authors": [
+      {
+        "name": "Jean-Marie Favreau"
+      },
+      {
+        "name": "Jérémy Kalsron"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Eleni Tomai",
+        "orcid": "0000-0003-1162-7389"
+      }
+    ],
+    "Summary": "The updated submission contains a DASA section and links to two repositories on GitHub, which have been updated by the author during the reproducibility review process.\nThe first repository contains all necessary files and code for implementing the segmentation process, while the second, comprises all files necessary for using the evaluation tool.\nThe reproduction was successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-005",
+    "Repository": "osf::CDFAH",
+    "Repository Link": "https://osf.io/CDFAH",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4282970832",
+    "Report": "https://doi.org/10.17605/osf.io/cdfah",
+    "Title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-5-2022",
+    "Paper authors": [
+      {
+        "name": "Marina Georgati",
+        "orcid": "0000-0001-7794-8308"
+      },
+      {
+        "name": "João Monteiro",
+        "orcid": "0000-0003-4491-3744"
+      },
+      {
+        "name": "Bruno Martins",
+        "orcid": "0000-0002-3856-2936"
+      },
+      {
+        "name": "Carsten Keßler",
+        "orcid": "0000-0002-9724-820X"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "The paper presents an extensive quantitative study that consists of numerous (pre-)processing steps involving multiple input data sets of different types (e.g., CSV, remotely sensed imagery, and geographic vector data).\nThe input data is not provided but sufficiently documented to be recreatable or retrievable from other sources. Unfortunately, despite great support from the corresponding author, the time constraints of this review, coupled with the need to organize the data and the complexity of the workflow, allowed only a partial reproduction of the processing pipeline: the initial dasymetric mapping to generate the first inputs of disaggregated population density, and one of the multiple analysis on that data for the city of Amsterdam.\nHowever, a careful evaluation of the available code led this reviewer to the conclusion that with more time, a successful reproduction of the entire workflow\nis highly likely. In any case, there is sufficient information to replicate the study for a different geographic area or with different methods or parameters.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-006",
+    "Repository": "osf::W7VPH",
+    "Repository Link": "https://osf.io/W7VPH",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281897965",
+    "Report": "https://doi.org/10.17605/osf.io/W7VPH",
+    "Title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-6-2022",
+    "Paper authors": [
+      {
+        "name": "Ditsuhi Iskandaryan",
+        "orcid": "0000-0001-6668-2700"
+      },
+      {
+        "name": "Silvana Di Sabatino",
+        "orcid": "0000-0003-2716-9247"
+      },
+      {
+        "name": "Francisco Ramos",
+        "orcid": "0000-0003-2540-4741"
+      },
+      {
+        "name": "Sergio Trilles",
+        "orcid": "0000-0002-9304-0719"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "Summary": "The paper evaluates the competence of selected features in the prediction of Nitrogen Dioxide with Machine Learning.\nFor this reproduciblity review, the Figures and Tables of \"Section 5 - Experiments and Results\" were considered, while the Figures of \"Section 3 - Exploratory Analysis\"\" were not.\nThe code of the corresponding analysis was provided as a GitHub repository and the data that is necessary to run the code were provided through a Zenodo repository.\nThe reproduced results were in accordance with the ones reported in the paper, so the reproduction of the paper is considered successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-007",
+    "Repository": "osf::3DSMV",
+    "Repository Link": "https://osf.io/3DSMV",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281689570",
+    "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
+    "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "Paper authors": [
+      {
+        "name": "Zilong Liu",
+        "orcid": "0000-0002-7699-3366"
+      },
+      {
+        "name": "Krzysztof Janowicz"
+      },
+      {
+        "name": "Ling Cai",
+        "orcid": "0000-0001-7106-4907"
+      },
+      {
+        "name": "Rui Zhu",
+        "orcid": "0000-0002-8910-9445"
+      },
+      {
+        "name": "Gengchen Mai",
+        "orcid": "0000-0002-7818-7309"
+      },
+      {
+        "name": "Meilin Shi",
+        "orcid": "0000-0001-6039-7810"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Eleni Tomai",
+        "orcid": "0000-0003-1162-7389"
+      }
+    ],
+    "Summary": "The article presents an evaluation of geoparsing performance using a number of different datasets and methods from various sources.\nThough preprocessing steps and a core analysis step based on proprietary software could not be evaluated, one of two toponym resolution models could be executed successfully.\nThe provided notebooks for exploratory analysis, calculating statistical values, and geographic bias evaluation could be run and the outputs match the data and figures presented in the paper.\nTherefore, this reproducibility report can confirm a partially successful reproduction of a complex pipeline, for which authors provide reasonable but improvable documentation and share all details (code, data) of their computational workflow.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-008",
+    "Repository": "osf::K78EB",
+    "Repository Link": "https://osf.io/K78EB",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281746077",
+    "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
+    "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
+    "Paper authors": [
+      {
+        "name": "Tom Niers",
+        "orcid": "0000-0002-5746-8590"
+      },
+      {
+        "name": "Jan Stenkamp",
+        "orcid": "0000-0003-1100-4907"
+      },
+      {
+        "name": "Nick Pascal Jakuschona",
+        "orcid": "0000-0001-6286-8022"
+      },
+      {
+        "name": "Thomas Bartoschek",
+        "orcid": "0000-0002-0882-1036"
+      },
+      {
+        "name": "Sven Schade",
+        "orcid": "0000-0001-5677-5209"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The article presents a comparison of seven image-based species recognition models, which were benchmarked against a set of species. Selected model executions were successfully reproduced. The outputs were manually compared on a sample basis and match the result data shared privately by the authors; no summary statistics were recalculated.\nThe authors provided the used data privately, but all code and good documentation is available online and properly deposited and cited using a data repository.\nOnly two of the four online classification APIs were tested due to the requirement of registering accounts, therefore this reproduction is only partially complete.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-009",
+    "Repository": "osf::94VNX",
+    "Repository Link": "https://osf.io/94VNX",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281784263",
+    "Report": "https://doi.org/10.17605/osf.io/94vnx",
+    "Title": "\"Landmark Route\": A Comparison to the Shortest Route",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-12-2022",
+    "Paper authors": [
+      {
+        "name": "Eva Nuhn",
+        "orcid": "0000-0003-2443-8122"
+      },
+      {
+        "name": "Franziska König"
+      },
+      {
+        "name": "Sabine Timpf",
+        "orcid": "0000-0002-7964-4110"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "The paper presents a type of study that is highly valuable as a scientific contribution yet almost impossible to reproduce: a survey and user study involving participants from a convenience sample of a university course, implemented in several phases and using a particular geographic locale. The  study aims to learn more about user preferences on route choice, i.e., whether users prefer the  shortest route or a slightly longer route including landmarks. However, the difficult pandemic conditions under which the study had to be carried out had at least one positive aspect on replicability: The entire communication and survey had to be carried out online, facilitating a similar setup elsewhere. This review there fore attempts not a full reproduction of the study, but evaluates two distinct things:  First, whether there is sufficient information available to replicate the study elsewhere and compare results. Second, whether the statistical analysis of the survey and experimental data is indeed reproducible. The evaluation for both is positive.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-010",
+    "Repository": "osf::8B7MR",
+    "Repository Link": "https://osf.io/8B7MR",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281732658",
+    "Report": "https://doi.org/10.17605/osf.io/8b7mr",
+    "Title": "Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-13-2022",
+    "Paper authors": [
+      {
+        "name": "Yousef Qamaz"
+      },
+      {
+        "name": "Angela Schwering"
+      },
+      {
+        "name": "Janina Bistron"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The article present an experimental evaluation of a positioning system.\nNaturally, the physical/practical experiments could not be reproduced as part of this check of the computational reproducibility.\nHowever, the one figure in the article that is based on the data from the experiment, as well as the software for running the experiment shown in screenshots in the paper could be reproduced by me.\nWith respect to the computational aspects and data visualisation, the given paper is reproducible.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-011",
+    "Repository": "osf::KF8SR",
+    "Repository Link": "https://osf.io/KF8SR",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281763766",
+    "Report": "https://doi.org/10.17605/osf.io/kf8sr",
+    "Title": "Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-14-2022",
+    "Paper authors": [
+      {
+        "name": "Arun Sharma"
+      },
+      {
+        "name": "Majid Farhadloo"
+      },
+      {
+        "name": "Yan Li"
+      },
+      {
+        "name": "Jayant Gupta",
+        "orcid": "0000-0001-7028-9928"
+      },
+      {
+        "name": "Aditya Kulkarni",
+        "orcid": "0000-0001-8981-6417"
+      },
+      {
+        "name": "Shashi Shekhar"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "Summary": "The software of the paper under reproduction is publicly available on GitHub.\nThe majority of data sets are publicly available in a Google Drive folder.\nOne data set is not available due to privacy policy concerns.\nOut of the 17 Figures in the paper, 10 are eligible for reproduction.\nOut of the 10 eligible Figures, 8 Figures where successfully reproduced, one Figure was partially reproduced and one Figure was not reproducible.\nReproduction was partially successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-012",
+    "Repository": "osf::R6PSQ",
+    "Repository Link": "https://osf.io/R6PSQ",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4282006514",
+    "Report": "https://doi.org/10.17605/osf.io/r6psq",
+    "Title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-15-2022",
+    "Paper authors": [
+      {
+        "name": "Hyesop Shin"
+      },
+      {
+        "name": "Costanza Cagnina"
+      },
+      {
+        "name": "Anahid Basiri",
+        "orcid": "0000-0002-2399-1797"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "Summary": "The authors provide all the data and code in their GitHub repository. From a fresh install of R, the software environment is easily set up. The authors provide one R script and one computational notebook, which could be executed successfully to create all the paper's figures.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-013",
+    "Repository": "osf::3G9S8",
+    "Repository Link": "https://osf.io/3G9S8",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281885045",
+    "Report": "https://doi.org/10.17605/osf.io/3g9s8",
+    "Title": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-16-2022",
+    "Paper authors": [
+      {
+        "name": "Mehtab Alam Syed",
+        "orcid": "0000-0003-3696-0030"
+      },
+      {
+        "name": "Elena Arsevska",
+        "orcid": "0000-0002-6693-2316"
+      },
+      {
+        "name": "Mathieu Roche",
+        "orcid": "0000-0003-3272-8568"
+      },
+      {
+        "name": "Maguelonne Teisseire",
+        "orcid": "0000-0001-9313-6414"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Jakub Krukar",
+        "orcid": "0000-0003-2615-8757"
+      }
+    ],
+    "Summary": "The main contribution of the paper are two web applications on the streamlit.io platform.\nThe paper includes the DASA section and links to live online instances of the applications, as well as to GitHub repositories with the code and data.  The repositories are well documented.\nI was able to clone the repositories and run the code, reproducing examples demonstrated on figures in the paper.\nOne of the reproduced figures differed from the one presented in the paper. \nThe tables demonstrating results of the evaluation of the app were partially reproducible but returned slightly different values.\nThe paper has been partially reproduced.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-014",
+    "Repository": "osf::6S2GP",
+    "Repository Link": "https://osf.io/6S2GP",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281833313",
+    "Report": "https://doi.org/10.17605/osf.io/6s2gp",
+    "Title": "A method to produce metadata describing and assessing the quality of spatial landmark datasets in mountain area",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-17-2022",
+    "Paper authors": [
+      {
+        "name": "Marie-Dominique Van Damme",
+        "orcid": "0000-0002-0007-5972"
+      },
+      {
+        "name": "Ana-Maria Olteanu-Raimond"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "Summary": "The software of the paper under reproduction is publicly available on GitHub.\nThe data sets are publicly available in a zenodo project.\nOut of the four Figures and four Tables, two Figures and two Tables are eligible for reproduction.\nBoth eligible Figures have been successfully reproduced.\nBoth eligible Tables have been partially reproduced. The reproduction of Table 3 and 4 was partial as the provided software scripts comprise reproduction of one out of the four data columns. The remaining columns are expected to be reproducible after adjusting the scripts with references to the remaining data sets.\nThe authors showed concern and dedication to improve reproducibility of their work.\nReproduction was partially successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-015",
+    "Repository": "osf::MVQCW",
+    "Repository Link": "https://osf.io/MVQCW",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.17605/osf.io/mvqcw",
+    "Title": "Unlocking social network analysis methods for studying human mobility",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-19-2022",
+    "Paper authors": [
+      {
+        "name": "Nina Wiedemann",
+        "orcid": "0000-0002-8160-7634"
+      },
+      {
+        "name": "Henry Martin"
+      },
+      {
+        "name": "Martin Raubal"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Jakub Krukar",
+        "orcid": "0000-0003-2615-8757"
+      }
+    ],
+    "Summary": "The paper provides a link to a GitHub repository that was initially difficult to use but was promptly improved by the authors after an email exchange.\nThe repository contains only one out of two datasets presented in the paper but most results based on this dataset have been successfully reproduced with minor disparities due to automated scaling of graphs.\nIn sum, the manuscript has been partially reproduced.\nThe repository is well-documented, it includes the documentation of required software versions, and the authors’ response to questions and bugs has been prompt and helpful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-016",
+    "Repository": "osf::DJFC2",
+    "Repository Link": "https://osf.io/DJFC2",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281951657",
+    "Report": "https://doi.org/10.17605/OSF.IO/DJFC2",
+    "Title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
+    "Paper authors": [
+      {
+        "name": "Pengxiang Zhao"
+      },
+      {
+        "name": "Aoyong Li"
+      },
+      {
+        "name": "Petter Pilesjö"
+      },
+      {
+        "name": "Ali Mansourian"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "Summary": "The provided workflow was partially reproduced.\nAccess to a processed data set of the e-scooter sharing vehicle data Service in Stockholm, Sweden, is provided along with Python scripts to run three machine learning methods based on the Python library Scikit-learn.\nThe results reported here refer to Figure 5, which is a bar chart comparing the performance evaluation metrics (accuracy, F1, precision and recall) of the three ML methods.\nNevertheless, no code is provided to visually recreate the figure, but the scripts produce the required data to create that figure. \nFor the rest of figures and tables, no code is provided.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-017",
+    "Repository": "osf::WNCSM",
+    "Repository Link": "https://osf.io/WNCSM",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "OpenAlex": "https://openalex.org/W4281642483",
+    "Report": "https://doi.org/10.17605/osf.io/wncsm",
+    "Title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
+    "Paper authors": [
+      {
+        "name": "Stefania Zourlidou",
+        "orcid": "0000-0003-1759-7379"
+      },
+      {
+        "name": "Jens Golze",
+        "orcid": "0000-0001-7355-351X"
+      },
+      {
+        "name": "Monika Sester",
+        "orcid": "0000-0002-6656-8809"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "Summary": "The paper compares several models for traffic control recognition at junctions, which are built upon Random Forest and Gradient Boosting classifiers.\nThe analysis makes use of 2 datasets, which correspond to the cities of Chicago and Hannover.\nThe authors agreed to share confidentially all their materials (data and code) with the Reproducibility Committee for the needs of the review.\nFor the needs of this review, we reproduced all the Tables and Figures of 'Section 5 - Results' and of the Appendix.\nThe reproduced results were in accordance with the final uploaded version of the manuscript.\nTherefore, the reproduction of the paper is considered successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2022-018",
+    "Repository": "gitlab::cdchck/community-codechecks/2022-svaRetro-svaNUMT",
+    "Repository Link": "https://gitlab.com/cdchck/community-codechecks/2022-svaRetro-svaNUMT",
+    "Type": "journal",
+    "Venue": "GigaByte",
+    "Check date": "2022-09-27",
+    "OpenAlex": "https://openalex.org/W4301603101",
+    "Report": "https://doi.org/10.5281/zenodo.7084333",
+    "Title": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
+    "Paper reference": "https://doi.org/10.46471/gigabyte.70",
+    "Paper authors": [
+      {
+        "name": "Ruining Dong",
+        "orcid": "0000-0003-1433-0484"
+      },
+      {
+        "name": "Daniel Cameron",
+        "orcid": "0000-0002-0951-7116"
+      },
+      {
+        "name": "Justin Bedo",
+        "orcid": "0000-0001-5704-0212"
+      },
+      {
+        "name": "Anthony T Papenfuss",
+        "orcid": "0000-0002-1102-8506"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Raniere Silva",
+        "orcid": "0000-0002-8381-3749"
+      }
+    ],
+    "Summary": "Only visualisation steps performed. All created figures match those in the article.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-001",
+    "Repository": "osf::c7vx3",
+    "Repository Link": "https://osf.io/c7vx3",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": "https://openalex.org/W4379795573",
+    "Report": "https://doi.org/10.17605/osf.io/c7vx3",
+    "Title": "Urban Sound Mapping for Wayfinding - A theoretical Approach and an empirical Study",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-9-2023",
+    "Paper authors": [
+      {
+        "name": "Eva Nuhn",
+        "orcid": "0000-0003-2443-8122"
+      },
+      {
+        "name": "Kai Hamburger"
+      },
+      {
+        "name": "Sabine Timpf",
+        "orcid": "0000-0002-7964-4110"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "Summary": "The data of the paper under reproduction is published on figshare under a CC-BY-4.0 license.\nIn total, three tables, three figures, and two data points embedded into the text are eligible for reproduction.\nAll have been successfully reproduced. The authors showed concern and dedication to support reproducibility of their work.\nReproduction was successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-002",
+    "Repository": "osf::rbgvk",
+    "Repository Link": "https://osf.io/rbgvk",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.17605/osf.io/rbgvk",
+    "Title": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-12-2023",
+    "Paper authors": [
+      {
+        "name": "Adrian Sarbach"
+      },
+      {
+        "name": "Thierry Weber"
+      },
+      {
+        "name": "Katharina Henggeler",
+        "orcid": "0000-0002-8381-0863"
+      },
+      {
+        "name": "Luis Lutnyk",
+        "orcid": "0000-0002-9458-8575"
+      },
+      {
+        "name": "Martin Raubal",
+        "orcid": "0000-0001-5951-6835"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "Summary": "The purpose of the reviewed article is to evaluate and compare airspace structure visualization and perception on digital aeronautical charts.\nTo do so, the authors propose two ways.\nThe first one aims to define an evaluation grid on which they rely, as experts, to establish a cartographic analysis (they authors provide an access to their analysis).\nThe second is a survey of 27 airplane pilots to collect their perceptions about different maps.\nTherefore, the reproducibility review process focused on reproducing the result visualizations of both analyses (the experts and the survey).\nTo do so, the authors shared manually constructed data files as well as code files to reproduce the figures.\nThe provided code and data allow to fully and easily reproduce the three figures of the reviewed article.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-003",
+    "Repository": "osf::m5bhk",
+    "Repository Link": "https://osf.io/m5bhk",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": "https://openalex.org/W4379796913",
+    "Report": "https://doi.org/10.17605/osf.io/m5bhk",
+    "Title": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquake",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-5-2023",
+    "Paper authors": [
+      {
+        "name": "Simon Groß"
+      },
+      {
+        "name": "Benjamin Herfort",
+        "orcid": "0000-0001-9738-4060"
+      },
+      {
+        "name": "Sabrina Marx"
+      },
+      {
+        "name": "Alexander Zipf"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Nina Wiedemann",
+        "orcid": "0000-0002-8160-7634"
+      }
+    ],
+    "Summary": "The paper comes with a GitHub repository that mainly includes a jupyter notebook for reproducing the results.\nThe notebook could be executed right away and is very well-documented.\nThe outputs of the notebook include examplary data as well as all main plots from the paper.\nOn request, the authors further added the raw QGIS files for reproducing map-based visualizations, and deposited the code with a DOI (https://zenodo.org/badge/latestdoi/581154837).\nOverall, the paper is fully reproducible.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-004",
+    "Repository": "osf::2em7v",
+    "Repository Link": "https://osf.io/2em7v",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": "https://openalex.org/W4379797511",
+    "Report": "https://doi.org/10.17605/osf.io/2em7v",
+    "Title": "Does spatial thinking ability relate to performance when using web-mapping services? A survey with digital natives",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-13-2023",
+    "Paper authors": [
+      {
+        "name": "Eleni Tomai",
+        "orcid": "0000-0003-1162-7389"
+      },
+      {
+        "name": "Margarita Kokla",
+        "orcid": "0000-0002-0369-7099"
+      },
+      {
+        "name": "Christos Charcharos"
+      },
+      {
+        "name": "Marinos Kavouras",
+        "orcid": "0000-0001-7563-0793"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Mehtab Alam Syed",
+        "orcid": "0000-0003-3696-0030"
+      }
+    ],
+    "Summary": "The authors provided code and data were able to partially reproduce the results presented in the figures and tables of the reviewed paper, but some of the tables were not fully reproduced.\nThe paper includes the DASA section.\nThe author provide all the data and code through figshare.\nBoth R and RStudio are required for the reproductions of the authors work.\nFor the reproducibility of the work, the authors provided R script survey_2021.R along with having data in dataset.7z.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-005",
+    "Repository": "osf::27wzp",
+    "Repository Link": "https://osf.io/27wzp",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": "https://openalex.org/W4379647154",
+    "Report": "https://doi.org/10.17605/osf.io/27wzp",
+    "Title": "Advancing Forest Monitoring and Assessment Through Immersive Virtual Reality",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-15-2023",
+    "Paper authors": [
+      {
+        "name": "Raphael Zürcher",
+        "orcid": "0000-0002-6206-956X"
+      },
+      {
+        "name": "Jiayan Zhao",
+        "orcid": "0000-0002-8533-6042"
+      },
+      {
+        "name": "Alvaro Lau Sarmiento",
+        "orcid": "0000-0002-0419-7002"
+      },
+      {
+        "name": "Benjamin Brede",
+        "orcid": "0000-0001-9253-4517"
+      },
+      {
+        "name": "Alexander Klippel",
+        "orcid": "0000-0002-7171-492X"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      }
+    ],
+    "Summary": "The data of the paper under reproduction is partially published on Zenodo under a CC-BY-4.0 license.\nData on the selected plots displayed in Figure 1 is not available due to intellectual property concerns.\nThe developed VR application is not available due to size and time constraints, therefore neither Figure 1 or 2 could be reproduced.\nStatistical analyses presented in Section 2.2 and Section 3 have been successfully reproduced.\nThe authors showed dedication to support reproducibility of their work.\nReproduction was partially successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-006",
+    "Repository": "osf::d2shf",
+    "Repository Link": "https://osf.io/d2shf",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": "https://openalex.org/W4379794592",
+    "Report": "https://doi.org/10.17605/OSF.IO/D2SHF",
+    "Title": "Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-10-2023",
+    "Paper authors": [
+      {
+        "name": "Enkhbold Nyamsuren"
+      },
+      {
+        "name": "Haiqi Xu"
+      },
+      {
+        "name": "Eric J. Top"
+      },
+      {
+        "name": "Simon Scheider"
+      },
+      {
+        "name": "Niels Steenbergen"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Philipp A. Friese",
+        "orcid": "0000-0002-3124-5364"
+      },
+      {
+        "name": "Jakub Krukar",
+        "orcid": "0000-0003-2615-8757"
+      }
+    ],
+    "Summary": "The data and software of the paper under reproduction is published on GitHub under an MIT license.\nAll figures, tables, and embedded data points have been reproduced.\nThe authors showed dedication and concern to support reproducibility of their work.\nReproduction was successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-007",
+    "Repository": "osf::eu8kw",
+    "Repository Link": "https://osf.io/eu8kw",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": "https://openalex.org/W4379798521",
+    "Report": "https://doi.org/10.17605/osf.io/eu8kw",
+    "Title": "Extreme heat alerts and impacts across Mozambique 2016 - 2022: gathering evidence from media articles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-11-2023",
+    "Paper authors": [
+      {
+        "name": "Carolina Pereira Marghidan",
+        "orcid": "0000-0003-4427-4065"
+      },
+      {
+        "name": "Maarten van Aalst",
+        "orcid": "0000-0003-0319-5627"
+      },
+      {
+        "name": "Justine Blanford",
+        "orcid": "0000-0003-0844-9390"
+      },
+      {
+        "name": "Genito Maure"
+      },
+      {
+        "name": "Tatiana Marrufo"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "Summary": "The paper elaborates on the data collection about extreme heat alerts in Mozambique from different media sources and subsequently overlays the collected datasets.\nAfter manual data collection, the data were gathered and analysed in spreadsheets and then shared via Github under CC BY 4.0.\nFor this reproducibility review, we attempted to reproduce Figures 1-4 and Table 2.\nSince the data processing steps were not detailed enough in the README files provided by the corresponding author, in most cases we managed to do a verification of the results, rather than a reproduction.\nFor this reason, the reproduction of this paper can be considered only partially successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-008",
+    "Repository": "osf::aqgxr",
+    "Repository Link": "https://osf.io/aqgxr",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": "https://openalex.org/W4379802106",
+    "Report": "https://doi.org/10.17605/osf.io/aqgxr",
+    "Title": "Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-8-2023",
+    "Paper authors": [
+      {
+        "name": "Vasileios Milias"
+      },
+      {
+        "name": "Shahin Sharifi Noorian"
+      },
+      {
+        "name": "Alessandro Bozzon"
+      },
+      {
+        "name": "Achilleas Psyllidis"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "Summary": "The code and data provided by the authors allow to fully reproduce their work as presented in the reviewed paper.\nThe authors shared two repositories through github. The first one, called subjectivity, aims to build and run a whole web application (with database and a front web application).\nThis web application allows to collect annotations from surveyed persons by proposing them different pictures of places through a track (see Fig. 1).\nThe screenshot from the manuscript Figure 1 could be partially reproduced by this web application since the data used by the authors are not publicy available.\nThe second repository, streetception, proposes two notebook in order to reproduce the analysis of the data collected by the authors through their web application.\nThe authors have made significant efforts to improve their code and data sharing through the AGILE reproducibility process!\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-009",
+    "Repository": "osf::9kp7u",
+    "Repository Link": "https://osf.io/9kp7u",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.17605/osf.io/9kp7u",
+    "Title": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-3-2023",
+    "Paper authors": [
+      {
+        "name": "Raphaël Bres",
+        "orcid": "0000-0001-5597-8602"
+      },
+      {
+        "name": "Veronika Peralta",
+        "orcid": "0000-0002-9236-9088"
+      },
+      {
+        "name": "Arnaud Le-Guilcher",
+        "orcid": "0000-0001-6673-6158"
+      },
+      {
+        "name": "Thomas Devogele",
+        "orcid": "0000-0001-9187-8385"
+      },
+      {
+        "name": "Ana-Maria Olteanu Raimond",
+        "orcid": "0000-0002-1101-1333"
+      },
+      {
+        "name": "Cyril de Runz",
+        "orcid": "0000-0002-5951-6859"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Alexander Kmoch",
+        "orcid": "0000-0003-4386-4450"
+      }
+    ],
+    "Summary": "The authors execute their study fully within a framework of open source geospatial software.\nThe study is reproducible and the authors provide provide 2 scripts that query and subsequently visualise aspects of the data.\nFurthermore, they provide a How-to / Readme file that made it easy to reproduce.\nThe main challenges in reproduction were related to acquiring the correct data and the handling of the OSRM software.\nThis was overcome jointly through authors communication and fortunate experience with the Docker ecosystem of the reviewer.\nThe data analysis and visualisation was straightforward and the results were consistent with the original paper.\nFigures 4a and 4b are reproduced.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-010",
+    "Repository": "osf::8t3bh",
+    "Repository Link": "https://osf.io/8t3bh",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "OpenAlex": "https://openalex.org/W4379802617",
+    "Report": "https://doi.org/10.17605/osf.io/8t3bh",
+    "Title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-4-2023",
+    "Paper authors": [
+      {
+        "name": "Ioannis Dardavesis"
+      },
+      {
+        "name": "Edward Verbree"
+      },
+      {
+        "name": "Azarakhsh Rafiee"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Nina Wiedemann",
+        "orcid": "0000-0002-8160-7634"
+      }
+    ],
+    "Summary": "The paper is accompanied by a GitHub repository with front end and back end code of their indoor localization app.\nThe code was not executable first, but installation instructions were added and file paths were fixed upon exchange with the authors.\nThe results reported in the paper are partially reproducible with the provided code.\nThe code mainly yields examples that are similar but not the same as in the paper, due to randomness in the algorithms.\nOne script allows to reproduce a figure exactly, while other quantitative results (tables in the paper) can not be created with the code.\nHowever,  given the instructions in the README and the example data, the repository can be very useful for researchers who want to apply the pipeline on their own data.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-011",
+    "Repository": "github::codecheckers/rmr-solver",
+    "Repository Link": "https://github.com/codecheckers/rmr-solver",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2023-09-18",
+    "OpenAlex": "https://openalex.org/W4384205770",
+    "Report": "https://doi.org/10.5281/zenodo.8359199",
+    "Title": "Does enforcing glenohumeral joint stability matter? A new rapid muscle redundancy solver highlights the importance of non-superficial shoulder muscles",
+    "Paper reference": "https://doi.org/10.1101/2023.07.11.548542",
+    "Paper authors": [
+      {
+        "name": "Italo Belli",
+        "orcid": "0000-0002-8064-2251"
+      },
+      {
+        "name": "Ajay Seth",
+        "orcid": "0000-0003-4217-1580"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "Codecheck performed interactively as part of the Delft 2023 workshop. The codecheck was undertaken with the first author observing and able to help fix issues. This meant that the codecheck was fairly quick and any issues were resolved fairly quickly. With some fixes, the code was confirmed to work and Figure 3 could be reproduced with some visual differences due to post-processing of the figures before publication, as was confirmed by the author.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2023-012",
+    "Repository": "github::codecheckers/leba-manuscript",
+    "Repository Link": "https://github.com/codecheckers/leba-manuscript",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2023-11-26",
+    "OpenAlex": "https://openalex.org/W4389674756",
+    "Report": "https://doi.org/10.5281/zenodo.10213244",
+    "Title": "An inventory of human light exposure related behaviour",
+    "Paper reference": "https://doi.org/10.1038/s41598-023-48241-y",
+    "Paper authors": [
+      {
+        "name": "Mushfiqul Anwar Siraji",
+        "orcid": "0000-0003-0127-9982"
+      },
+      {
+        "name": "Rafael Lazar",
+        "orcid": "0000-0001-7972-5634"
+      },
+      {
+        "name": "Juliëtte van Duijnhoven"
+      },
+      {
+        "name": "Luc Schlangen"
+      },
+      {
+        "name": "Shamsul Haque"
+      },
+      {
+        "name": "Vineetha Kalavally"
+      },
+      {
+        "name": "Celine Vetter"
+      },
+      {
+        "name": "Gena Glickman"
+      },
+      {
+        "name": "Karin Smolders"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "Comprehensive reproduction of RMarkdown document; biggest concerns found with Linux versions of R package \"gt\".\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-001",
+    "Repository": "github::codecheckers/LazarEtAl_RSocOpenSci_2024",
+    "Repository Link": "https://github.com/codecheckers/LazarEtAl_RSocOpenSci_2024",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2024-03-15",
+    "OpenAlex": "https://openalex.org/W4399759705",
+    "Report": "https://doi.org/10.5281/zenodo.10823246",
+    "Title": "Regulation of pupil size in natural vision across the human lifespan",
+    "Paper reference": "https://doi.org/10.1098/rsos.191613",
+    "Paper authors": [
+      {
+        "name": "Rafael Lazar",
+        "orcid": "0000-0001-7972-5634"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "R code to generate all of the key figures in the paper.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-002",
+    "Repository": "github::codecheckers/domestic.wastewater.variability",
+    "Repository Link": "https://github.com/codecheckers/domestic.wastewater.variability",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2020-05-21",
+    "OpenAlex": "https://openalex.org/W4389355529",
+    "Report": "https://doi.org/10.5281/zenodo.FIXME",
+    "Title": "Modeling spatiotemporal domestic wastewater variability: Implications for measuring treatment efficiency",
+    "Paper reference": "https://doi.org/10.1016/j.jenvman.2023.119680",
+    "Paper authors": [
+      {
+        "name": "Néstor DelaPaz-Ruíz",
+        "orcid": "0000-0002-8941-4677"
+      },
+      {
+        "name": "Ellen-Wien Augustijn",
+        "orcid": "0000-0002-3389-7585"
+      },
+      {
+        "name": "Mahdi Farnaghi",
+        "orcid": "0000-0002-3071-5563"
+      },
+      {
+        "name": "Raul Zurita-Milla",
+        "orcid": "0000-0002-1769-6310"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "tbd\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-003",
+    "Repository": "github::codecheckers/sddtmpc",
+    "Repository Link": "https://github.com/codecheckers/sddtmpc",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-05-30",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.11403956",
+    "Title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
+    "Paper reference": "https://arxiv.org/pdf/2310.19997",
+    "Paper authors": [
+      {
+        "name": "Filip Surma",
+        "orcid": "0000-0002-6756-9598"
+      },
+      {
+        "name": "Anahita Jamshidnejad",
+        "orcid": "0000-0001-9151-2607"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      },
+      {
+        "name": "Delft 2024-05 participants"
+      }
+    ],
+    "Summary": "Matlab code, requiring 3 additional toolboxes.  Case study 2 only. Full reproduction possible, takes about 2 hours to run\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-004",
+    "Repository": "github::codecheckers/scope",
+    "Repository Link": "https://github.com/codecheckers/scope",
+    "Type": "institution",
+    "Venue": "AUMC",
+    "Check date": "2024-08-01",
+    "OpenAlex": "https://openalex.org/W4399757027",
+    "Report": "https://doi.org/10.5281/zenodo.13364677",
+    "Title": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint",
+    "Paper reference": "https://doi.org/10.31222/osf.io/a8rmu",
+    "Paper authors": [
+      {
+        "name": "Leonie Dudda"
+      },
+      {
+        "name": "Eva Kormann"
+      },
+      {
+        "name": "Magdalena Kozula"
+      },
+      {
+        "name": "Nicholas J. DeVito"
+      },
+      {
+        "name": "Thomas Klebe"
+      },
+      {
+        "name": "Ayu P.M. Dewi"
+      },
+      {
+        "name": "René Spijker"
+      },
+      {
+        "name": "Inge Stegeman"
+      },
+      {
+        "name": "Veerle Van den Eynden"
+      },
+      {
+        "name": "Tony Ross-Hellauer"
+      },
+      {
+        "name": "Mariska M.G. Leeflang"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Sam Langton",
+        "orcid": "0000-0002-1322-1553"
+      }
+    ],
+    "Summary": "Codecheck performed on two .qmd files containing R code from a public GitHub repository for a scoping review pre-print.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-005",
+    "Repository": "github::codecheckers/sample-size-codecheck",
+    "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2024-10-15",
+    "OpenAlex": "https://openalex.org/W4400463622",
+    "Report": "https://doi.org/10.5281/zenodo.13945051",
+    "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
+    "Paper reference": "https://doi.org/10.31234/osf.io/cz32t",
+    "Paper authors": [
+      {
+        "name": "Eduard Klapwijk",
+        "orcid": "0000-0002-8936-0365"
+      },
+      {
+        "name": "Joran Jongerling",
+        "orcid": "0000-0001-5697-1381"
+      },
+      {
+        "name": "Herbert Hoijtink",
+        "orcid": "0000-0001-8509-1973"
+      },
+      {
+        "name": "Eveline Crone",
+        "orcid": "0000-0002-7508-6078"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Lukas Röseler",
+        "orcid": "0000-0002-6446-1901"
+      }
+    ],
+    "Summary": "This report checks the code of the article Sample size estimation for task-related functional MRI studies using Bayesian updating. (https://doi.org/10.31234/osf.io/cz32t (currently under review at Developmental Cognitive Neuroscience)). See section Notes for details about running the code. The CODECHECK was successful. The created figures figures_cohens_d.html and figures-correlations.html are visually very close to the one in the repository. The reproduction of the figures from the repository was easy due to the workflow and integration with Quarto and RStudio.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-006",
+    "Repository": "osf::ymc3t",
+    "Repository Link": "https://osf.io/ymc3t",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-23",
+    "OpenAlex": "https://openalex.org/W4399177594",
+    "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
+    "Title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-15-2024",
+    "Paper authors": [
+      {
+        "name": "Balthasar Teuscher",
+        "orcid": "0000-0002-2811-1920"
+      },
+      {
+        "name": "Martin Werner"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "Summary": "The workflow provided was partially reproduced in the sense that I was able to reproduce the system reported in the paper qualitatively.\nThat is, I did not reproduce the experiment or other results (figures, etc.) included in the article, but I was able to set up and run the system described in the paper and test it with some query samples.\nTherefore, by doing this, this report ensures that the system works as described in the manuscript.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-007",
+    "Repository": "osf::gvpd9",
+    "Repository Link": "https://osf.io/gvpd9",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-23",
+    "OpenAlex": "https://openalex.org/W4399157471",
+    "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
+    "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-7-2024",
+    "Paper authors": [
+      {
+        "name": "Jonas Hurst",
+        "orcid": "0009-0000-0004-0051"
+      },
+      {
+        "name": "Auriol Degbelo",
+        "orcid": "0000-0001-5087-8776"
+      },
+      {
+        "name": "Christian Kray",
+        "orcid": "0000-0002-4199-8976"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "Summary": "The workflow provided was partially reproduced in the sense that I was able to reproduce the data analysis of the user assessment.\nThe manuscript also described a prototype system that required specific hardware, therefore, I skipped this part.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-008",
+    "Repository": "osf::3nbjw",
+    "Repository Link": "https://osf.io/3nbjw",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-23",
+    "OpenAlex": "https://openalex.org/W4399178759",
+    "Report": "https://doi.org/10.17605/OSF.IO/3NBJW",
+    "Title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-8-2024",
+    "Paper authors": [
+      {
+        "name": "Irada Ismayilova",
+        "orcid": "0000-0003-4414-4084"
+      },
+      {
+        "name": "Sabine Timpf",
+        "orcid": "0000-0002-7964-4110"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "The paper addresses the issue that allotment gardens are not recognized as separate land use / land  cover category, although they are unique among urban green spaces and provide highly significant benefits.\nThe research uses a three-step procedure: First, a random forest classifier identifies green spaces from digital orthophotos; second, garden huts are extracted; and third, a density-based clustering identifies areas of allotment gardens.\nThe computational environment relies on a mix of free and open source software (R software for the random forest classification) and proprietary GIS software (ESRI ArcGIS for the height thresholds, refinement of the classification, and density-based clustering).\n\nUpon request, the authors provided the digital orthophoto, training data and code for step one, as  well as a sample data set (smaller area) and executable workflow for the ArcGIS Modelbuilder as an  ArcGIS project package.\nThe reproducibility review can confirm that that the analysis runs as intended, but not check the validity of the outputs shown in the paper. \nAll the provided code was run and executes without errors, generating valid output.\nThe clustering  algorithm does not find any clusters, but that may be due to the small size of the sample area. \nThis reproducibility review was thus able to validate the entire analysis workflow. With the provided  documentation, code, and sample data (see references), other researchers should be able to succeed in replicating the results. The functionality used in the proprietary software is available in free and  open software packages and can thus be implemented without access to ArcGIS.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-009",
+    "Repository": "osf::csb7r",
+    "Repository Link": "https://osf.io/csb7r",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-23",
+    "OpenAlex": "https://openalex.org/W4399157568",
+    "Report": "https://doi.org/10.17605/osf.io/CSB7R",
+    "Title": "Developing a city-specific walkability index through a participatory approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
+    "Paper authors": [
+      {
+        "name": "Matias Cardoso1"
+      },
+      {
+        "name": "Vasileios Milias"
+      },
+      {
+        "name": "Maurice Harteveld"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "The paper investigates to improve on walkability indices that consider city-specifics.\nIt employs a  mixed methods approach, starting with a literature review to identify relevant elements, followed by participatory sessions with urban planners and policymakers to determine factors for the case study of Amsterdam.\nIn a last step, the authors quantify these factors and calculate walkability scores for the study area.\nThe first two steps in the research design are out of scope of this reproducibility review, which focuses on the computational reproducibility of the quantitative analysis (phase C in Figure 1 of the paper).\n\nThe authors provide data sets in the repository to execute the steps of normalization, calculation, and visualization.\nA visual inspection using QGIS shows similar patterns of walkability scores. \n\nThis reproducibility review was thus only able to validate part of the workflow. However, given that the input data is in principle openly available, the manual analysis steps are standard operations with documented parameters, the computations are deterministic, and all tools and software are free and open source, this review can conclude that the quantitative analysis part of the paper is reproducible. \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-010",
+    "Repository": "osf::nbk57",
+    "Repository Link": "https://osf.io/nbk57",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-27",
+    "OpenAlex": "https://openalex.org/W4399157460",
+    "Report": "https://doi.org/10.17605/osf.io/NBK57",
+    "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-12-2024",
+    "Paper authors": [
+      {
+        "name": "Joseph Shingleton",
+        "orcid": "0000-0002-1628-3231"
+      },
+      {
+        "name": "Ana Basiri",
+        "orcid": "0000-0002-2399-1797"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "Summary": "As indicated in the Data and Software Availability section, the authors shared their code, data, and trained models through an OSF (Open Science Framework) repository.\nThrough 4 notebooks, we were able to train two baseline models and then create a new training dataset to train the proposed model by the authors.\nThese models were then compared with human evaluation (through shared data).\nEvaluating the reproducibility of this article was not an easy task.\nIn fact, this processing chain requires a lot of computational resources and time for its execution.\nAnother difficulty was that the notebooks and Python library developed by the authors and shared via OSF contained some errors.\nHowever, the authors accompanied me throughout this process, providing new versions of the code files to correct the errors I encountered.\nMy feeling is that the reproducibility review process was beneficial.\nThe scientific article was almost entirely reproduced\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-011",
+    "Repository": "osf::fmgb4",
+    "Repository Link": "https://osf.io/fmgb4",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-27",
+    "OpenAlex": "https://openalex.org/W4399177945",
+    "Report": "https://doi.org/10.17605/osf.io/FMGB4",
+    "Title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-5-2024",
+    "Paper authors": [
+      {
+        "name": "Dagoberto José Herrera-Murillo",
+        "orcid": "0000-0002-8000-628X"
+      },
+      {
+        "name": "Héctor Ochoa-Ortiz",
+        "orcid": "0000-0002-6477-0683"
+      },
+      {
+        "name": "Umair Ahmed",
+        "orcid": "0000-0003-2260-2777"
+      },
+      {
+        "name": "Francisco Javier López-Pellicer",
+        "orcid": "0000-0001-6491-7430"
+      },
+      {
+        "name": "Barbara Re",
+        "orcid": "0000-0001-5374-2364"
+      },
+      {
+        "name": "Andrea Polini",
+        "orcid": "0000-0002-2840-7561"
+      },
+      {
+        "name": "Javier Nogueras-Iso",
+        "orcid": "0000-0002-1279-0367"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      }
+    ],
+    "Summary": "The authors made their code available through a GitHub repository.\nThe Readme.md file provides clear instructions for executing the entire code. It is worth noting that the input data is available provided that accounts are created with HOTOSM and Bunting Labs.\nThe data retrieval process takes a long time.\nTherefore, the authors provided me with all the input data for my review.\nI did not encounter any difficulties in executing the Python notebooks.\nAs a result, I produced intermediate data (in 4 CSV files). Unfortunately, I encountered some blocking errors when executing the R Markdown (which is the notebook responsible for producing tables and figures of the manuscript).\nAssisted by the authors, we discovered that the errors were caused by the content of the intermediate files I had generated.\nStrictly speaking, since the authors shared all their input data with me, I should not have encountered these errors.\nTo continue my review, the authors sent me their version of the intermediate files.\nThanks to them, I was able to execute the entire R Markdown and generate all the tables and figures.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-012",
+    "Repository": "osf::w42ad",
+    "Repository Link": "https://osf.io/w42ad",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-30",
+    "OpenAlex": "https://openalex.org/W4399157664",
+    "Report": "https://doi.org/10.17605/osf.io/W42AD",
+    "Title": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-4-2024",
+    "Paper authors": [
+      {
+        "name": "Ioanna Gogousou"
+      },
+      {
+        "name": "Manuela Canestrini"
+      },
+      {
+        "name": "Negar Alinaghi"
+      },
+      {
+        "name": "Dimitrios Michail"
+      },
+      {
+        "name": "Ioannis Giannopoulos"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "Summary": "The paper investigates the impact of different traffic light waiting times on individuals’ choice of transportation mode (e.g., bicycle, bus, car, etc.).\nThe calculations of this study are based on Open Street Map (OSM) data analysed with Dijkstra’s algorithm.\nThe data, code, and intermediate results have been made publicly available by the authors under permissive licenses (CC BY 4.0 and MIT).\nFor the purposes of this reproducibility review, we verified the functionality of all scripts and the reported results in Figures 1-5 and in Table 2.\nThe reproduced results were in accordance with the reported results and therefore the reproduction of the paper is considered successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-013",
+    "Repository": "osf::txgzv",
+    "Repository Link": "https://osf.io/txgzv",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-31",
+    "OpenAlex": "https://openalex.org/W4399175227",
+    "Report": "https://doi.org/10.17605/osf.io/TXGZV",
+    "Title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-6-2024",
+    "Paper authors": [
+      {
+        "name": "Samuel Hollendonner",
+        "orcid": "0009-0000-7923-3357"
+      },
+      {
+        "name": "Negar Alinaghi",
+        "orcid": "0000-0001-6594-4481"
+      },
+      {
+        "name": "Ioannis Giannopoulos",
+        "orcid": "0000-0002-2556-5230"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "Summary": "The paper uses semantic segmentation to extract the road network from RGB and multi-spectral high resolution satellite imagery and applies post-processing to improve the segmentation results.\nThe initial dataset is called SpaceNet (challenge 3) and is openly available, but the authors provided a small pre-processed subset of it in order to verify the functionality of the code.\nAs we were able to confirm that the used data and code are available and reusable, but unable to verify the reported results (due to the lack of available computational resources on the side of the reviewer), the reproduction of the paper is considered partially successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-014",
+    "Repository": "osf::spxt5",
+    "Repository Link": "https://osf.io/spxt5",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-09-26",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
+    "Title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
+    "Paper reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
+    "Paper authors": [
+      {
+        "name": "D Paudel"
+      },
+      {
+        "name": "H Baja1"
+      },
+      {
+        "name": "R van Bree"
+      },
+      {
+        "name": "M Kallenberg"
+      },
+      {
+        "name": "S Ofori-Ampofo"
+      },
+      {
+        "name": "A Potze"
+      },
+      {
+        "name": "P Poudel"
+      },
+      {
+        "name": "A Saleh"
+      },
+      {
+        "name": "W Anderson"
+      },
+      {
+        "name": "M von Bloh"
+      },
+      {
+        "name": "A Castellano"
+      },
+      {
+        "name": "O Ennaji"
+      },
+      {
+        "name": "R Hamed"
+      },
+      {
+        "name": "R Laudien"
+      },
+      {
+        "name": "D Lee"
+      },
+      {
+        "name": "I Luna"
+      },
+      {
+        "name": "D Masiliunas"
+      },
+      {
+        "name": "M Meroni"
+      },
+      {
+        "name": "S Mkuhlani"
+      },
+      {
+        "name": "J Mutuku"
+      },
+      {
+        "name": "J Richetti"
+      },
+      {
+        "name": "A Ruane"
+      },
+      {
+        "name": "R Sahajpal"
+      },
+      {
+        "name": "G Shuai"
+      },
+      {
+        "name": "V Sitokonstantinou"
+      },
+      {
+        "name": "R de S. Nóia Jr"
+      },
+      {
+        "name": "A Srivastava"
+      },
+      {
+        "name": "R Strong"
+      },
+      {
+        "name": "L Sweet"
+      },
+      {
+        "name": "P Vojnovic"
+      },
+      {
+        "name": "A de Wit"
+      },
+      {
+        "name": "M Zachow"
+      },
+      {
+        "name": "N Athanasiadis"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Adhitya Bhawiyuga"
+      },
+      {
+        "name": "Nadia Shafaeipour"
+      },
+      {
+        "name": "Nestor de la Paz Ruiz"
+      },
+      {
+        "name": "Patrick Eneche",
+        "orcid": "0000-0002-0504-9677"
+      },
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "The CODECHECK used a smaller sample dataset, since the  original data set is quite large and would require several days of computation on the available hardware.\nHowever, the  produced output matches that of the reported output with one exception.",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-015",
+    "Repository": "osf::mwbuq",
+    "Repository Link": "https://osf.io/mwbuq",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-09-26",
+    "OpenAlex": "https://openalex.org/W6943834942",
+    "Report": "https://doi.org/10.17605/OSF.IO/mwbuq",
+    "Title": "Landscape Character Assessment - Nigeria",
+    "Paper reference": "https://doi.org/10.17605/OSF.IO/E2K73",
+    "Paper authors": [
+      {
+        "name": "Patrick Samson Udama Eneche",
+        "orcid": "0000-0002-0504-9677"
+      },
+      {
+        "name": "Funda Atun"
+      },
+      {
+        "name": "Karin Pfeffer",
+        "orcid": "0000-0002-6080-1323"
+      },
+      {
+        "name": "Yijian Zeng"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Betelham Gebretsadik"
+      },
+      {
+        "name": "Dilli Paudel"
+      },
+      {
+        "name": "Jay Gohil"
+      },
+      {
+        "name": "Pitchaporn Likitpanjamanon"
+      }
+    ],
+    "Summary": "The CODECHECK utilized the supplied dataset, but certain steps were omitted as they would take several hours to compute on the available hardware.\nDespite this, the generated output aligns with the reported results.\nHowever, it is not clear which output should be compared in the Python notebooks.",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-016",
+    "Repository": "osf::6ngyc",
+    "Repository Link": "https://osf.io/6ngyc",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-09-26",
+    "OpenAlex": "https://openalex.org/W6893062762",
+    "Report": "https://doi.org/10.17605/OSF.IO/6NGYC",
+    "Title": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
+    "Paper reference": "https://doi.org/10.5281/zenodo.13734819",
+    "Paper authors": [
+      {
+        "name": "DelaPaz-Ruíz, Néstor",
+        "orcid": "0000-0002-8941-4677"
+      },
+      {
+        "name": "Augustijn, Ellen-Wien",
+        "orcid": "0000-0002-3389-7585"
+      },
+      {
+        "name": "Farnaghi, Mahdi",
+        "orcid": "0000-0002-3071-5563"
+      },
+      {
+        "name": "Abdulkareem, Shaheen A.",
+        "orcid": "0000-0002-9837-0207"
+      },
+      {
+        "name": "Zurita-Milla, Raul",
+        "orcid": "0000-0002-1769-6310"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Amira Al Balushi",
+        "orcid": "0009-0002-8188-6271"
+      },
+      {
+        "name": "Angelina Momin",
+        "orcid": "0000-0002-6875-1551"
+      },
+      {
+        "name": "Jasper van Doninck",
+        "orcid": "0000-0003-2177-7882"
+      }
+    ],
+    "Summary": "Codecheck performed on the .nlogo and .Rproj files to generate Figures 2-6 of the paper.\nThe resulting figures were not an exact match due to stochasticity.\nHowever, the overall patterns of the figures were similar to the patterns of the paper's figures.",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-017",
+    "Repository": "github::codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation",
+    "Repository Link": "https://github.com/codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-22",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.14211707",
+    "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
+    "Paper reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
+    "Paper authors": [
+      {
+        "name": "Ilaria Fichera",
+        "orcid": "0000-0002-0097-1486"
+      },
+      {
+        "name": "Cédric Van hoorickx",
+        "orcid": "0000-0002-9671-5558"
+      },
+      {
+        "name": "Maarten Hornikx",
+        "orcid": "0000-0002-8343-6613"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      },
+      {
+        "name": "Dingding Xie"
+      },
+      {
+        "name": "Huiqing Wang"
+      },
+      {
+        "name": "Mareike Wendelmuth",
+        "orcid": "0009-0008-5638-1670"
+      }
+    ],
+    "Summary": "This project was a collection of python scripts for computation, together with some Matlab for computation.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-018",
+    "Repository": "github::codecheckers/ZaunerEtAl_PLoS_ONE_2024",
+    "Repository Link": "https://github.com/codecheckers/ZaunerEtAl_PLoS_ONE_2024",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28",
+    "OpenAlex": "https://openalex.org/W4405281316",
+    "Report": "https://doi.org/10.5281/zenodo.14235113",
+    "Title": "Power analysis for personal light exposure measurements and interventions",
+    "Paper reference": "https://doi.org/10.1371/journal.pone.0308768",
+    "Paper authors": [
+      {
+        "name": "Johannes Zauner",
+        "orcid": "0000-0003-2171-4566"
+      },
+      {
+        "name": "Ljiljana Udovicic",
+        "orcid": "0000-0002-6035-8309"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "Summary": "R quarto document that was able to compile, but see certificate for details of issues arising.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-019",
+    "Repository": "github::codecheckers/wearable-hrv",
+    "Repository Link": "https://github.com/codecheckers/wearable-hrv",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-12-04",
+    "OpenAlex": "https://openalex.org/W4400220542",
+    "Report": "https://doi.org/10.5281/zenodo.14279041",
+    "Title": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.",
+    "Paper reference": "https://doi.org/10.31219/osf.io/wkzsn",
+    "Paper authors": [
+      {
+        "name": "Mohammadamin Sinichi",
+        "orcid": "0009-0008-2491-1542"
+      },
+      {
+        "name": "Martin Gevonden"
+      },
+      {
+        "name": "Lydia Krabbendam"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      },
+      {
+        "name": "Tornike Skhirtladze"
+      },
+      {
+        "name": "Joslyn Sun",
+        "orcid": "0009-0002-2379-0060"
+      },
+      {
+        "name": "Gabriella Low Chew Tung"
+      },
+      {
+        "name": "Roel Janssen",
+        "orcid": "0000-0003-4324-5350"
+      }
+    ],
+    "Summary": "The codecheckers were able to reproduce most of the figures in the manuscript and its supplementary documentation.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-020",
+    "Repository": "github::codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "Repository Link": "https://github.com/codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28",
+    "OpenAlex": "https://openalex.org/W4286489421",
+    "Report": "https://doi.org/10.5281/zenodo.14278912",
+    "Title": "Describing the scale and composition of calls for police service: a replication and extension using open data",
+    "Paper reference": "https://doi.org/10.1080/15614263.2022.2102494",
+    "Paper authors": [
+      {
+        "name": "Samuel Langton",
+        "orcid": "0000-0002-1322-1553"
+      },
+      {
+        "name": "Stijn Ruiter",
+        "orcid": "0000-0003-2872-2710"
+      },
+      {
+        "name": "Tim Verlaan",
+        "orcid": "0000-0002-3048-5817"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Joey Tang",
+        "orcid": "0000-0002-0820-6674"
+      },
+      {
+        "name": "Max Reichert",
+        "orcid": "0009-0003-8352-7288"
+      },
+      {
+        "name": "Flora Zhou",
+        "orcid": "0009-0002-4934-1474"
+      },
+      {
+        "name": "Eduard Klapwijk",
+        "orcid": "0000-0002-8936-0365"
+      }
+    ],
+    "Summary": "Downloaded the data and ran the necessary R scripts to generate the figures. \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-021",
+    "Repository": "github::codecheckers/DementiaPhysicalActivity",
+    "Repository Link": "https://github.com/codecheckers/DementiaPhysicalActivity",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28",
+    "OpenAlex": "https://openalex.org/W4391281345",
+    "Report": "https://doi.org/10.5281/zenodo.14261193",
+    "Title": "Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia",
+    "Paper reference": "https://doi.org/10.31234/osf.io/mqg86",
+    "Paper authors": [
+      {
+        "name": "Daniela Gawehns",
+        "orcid": "0000-0002-9678-9012"
+      },
+      {
+        "name": "Suzanne Portegijs"
+      },
+      {
+        "name": "Adriana Petronella Anna van Beek"
+      },
+      {
+        "name": "Matthijs van Leeuwen",
+        "orcid": "0000-0002-0510-3549"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Tina Rozsos",
+        "orcid": "0009-0008-5383-5497"
+      },
+      {
+        "name": "Stijn Peeters",
+        "orcid": "0009-0004-3684-3584"
+      },
+      {
+        "name": "Hanne Oberman",
+        "orcid": "0000-0003-3276-2141"
+      },
+      {
+        "name": "Veerle van Harten",
+        "orcid": "0000-0003-0451-4052"
+      }
+    ],
+    "Summary": "This report checks the code of the article 'Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia'. The CODECHECK was successful. Two of the three figures created were visually identical to those in the paper. The third figure visually matched the figure in the code repository. This figure was equivalent in content but different in design compared to the one presented in the paper. \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-022",
+    "Repository": "github::codecheckers/DEISM",
+    "Repository Link": "https://github.com/codecheckers/DEISM",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-12-05",
+    "OpenAlex": "https://openalex.org/W4390971714",
+    "Report": "http://doi.org/10.5281/zenodo.14273316",
+    "Title": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method",
+    "Paper reference": "https://doi.org/10.1121/10.0023935",
+    "Paper authors": [
+      {
+        "name": "Zeyu Xu",
+        "orcid": "0000-0002-4158-6218"
+      },
+      {
+        "name": "Adrian Herzog",
+        "orcid": "0000-0003-0827-8333"
+      },
+      {
+        "name": "Alexander Lodermeyer",
+        "orcid": "0000-0003-4308-7137"
+      },
+      {
+        "name": "Emanuel A.P. Habets",
+        "orcid": "0000-0002-2613-8046"
+      },
+      {
+        "name": "Albert G. Prinn",
+        "orcid": "0000-0003-3491-3644"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Silvin Willemsen",
+        "orcid": "0000-0002-4062-5473"
+      },
+      {
+        "name": "Ilaria Fichera",
+        "orcid": "0000-0002-0097-1486"
+      },
+      {
+        "name": "Andrea Gerbotto",
+        "orcid": "0009-0000-6285-0316"
+      }
+    ],
+    "Summary": "Full reproduction. After running two Python scripts (deism_JASA_fig8.py and deism_JASA_fig9.py in the examples folder) in a public GitHub repository, figures 8 and 9 were successfully reproduced (they seem to be identical to the paper at first glance).  The repository did not provide code to reproduce other plots (Figs. 7, 10 and 11). Other figures (Figs 1-6) seem to only help illustrate the main body of the paper and are therefore not applicable for reproduction with the code.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-023",
+    "Repository": "zenodo::14900193",
+    "Repository Link": "https://zenodo.org/records/14900193",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-08",
+    "OpenAlex": "https://openalex.org/W4403117583",
+    "Report": "https://doi.org/10.5281/zenodo.14900193",
+    "Title": "Influence of the cochlear partition’s flexibility on the macro mechanisms in the inner ear",
+    "Paper reference": "https://doi.org/10.1016/j.heares.2024.109127",
+    "Paper authors": [
+      {
+        "name": "Simon Kersten",
+        "orcid": "0000-0003-3303-9297"
+      },
+      {
+        "name": "Henning Taschke"
+      },
+      {
+        "name": "Michael Vorländer",
+        "orcid": "0000-0002-7010-8370"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Jelle Langedijk",
+        "orcid": "0009-0009-6684-1930"
+      },
+      {
+        "name": "Tim Schellekens",
+        "orcid": "0009-0009-0918-9982"
+      }
+    ],
+    "Summary": "The codecheck was successfully executed.\nThe code provided was supposed to produce figures 2-7 from the paper, and did so successfully, but excluding referenced data.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-024",
+    "Repository": "github::codecheckers/iteval-sims",
+    "Repository Link": "https://github.com/codecheckers/iteval-sims",
+    "Type": "institution",
+    "Venue": "AUMC",
+    "Check date": "2024-12-16",
+    "OpenAlex": "https://openalex.org/W4401278294",
+    "Report": "https://doi.org/10.5281/zenodo.14576035",
+    "Title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
+    "Paper reference": "https://doi.org/10.1002/sim.10186",
+    "Paper authors": [
+      {
+        "name": "Jeroen Hoogland",
+        "orcid": "0000-0002-2397-6052"
+      },
+      {
+        "name": "Orestis Efthimiou",
+        "orcid": "0000-0002-0955-7572"
+      },
+      {
+        "name": "Tri-Long Nguyen",
+        "orcid": "0000-0002-6376-7212"
+      },
+      {
+        "name": "Thomas P A Debray",
+        "orcid": "0000-0002-1790-2719"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Samuel Langton",
+        "orcid": "0000-0002-1322-1553"
+      }
+    ],
+    "Summary": "R to generate and analyze simulated data in order to evaluate the prediction performance of individualized treatment effects.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2024-025",
+    "Repository": "zenodo::15025861",
+    "Repository Link": "https://zenodo.org/records/15025861",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-08",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.15023714",
+    "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
+    "Paper reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
+    "Paper authors": [
+      {
+        "name": "Ilaria Fichera",
+        "orcid": "0000-0002-0097-1486"
+      },
+      {
+        "name": "Cédric Van Hoorickx",
+        "orcid": "0000-0002-8343-6613"
+      },
+      {
+        "name": "Maarten Hornikx",
+        "orcid": "0000-0002-9671-5558"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "João Fatela",
+        "orcid": "0009-0009-4474-171X"
+      },
+      {
+        "name": "Simon Kersten",
+        "orcid": "0000-0003-3303-9297"
+      }
+    ],
+    "Summary": "A step-by-step execution of the guidelines present in the repository (README.md) led to accurate reproduction of the plots shown in the associated paper publication.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-001",
+    "Repository": "github::codecheckers/mb11CalculusPilot",
+    "Repository Link": "https://github.com/codecheckers/mb11CalculusPilot",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2025-02-14",
+    "OpenAlex": "https://openalex.org/W4395049487",
+    "Report": "https://doi.org/10.5281/zenodo.15389126",
+    "Title": "Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population",
+    "Paper reference": "https://doi.org/10.24072/pcjournal.414",
+    "Paper authors": [
+      {
+        "name": "Bjørn Peare Bartholdy",
+        "orcid": "0000-0003-1689-0557"
+      },
+      {
+        "name": "Jørgen Hasselstrøm",
+        "orcid": "0000-0002-5928-9238"
+      },
+      {
+        "name": "Lambert Sørensen"
+      },
+      {
+        "name": "Maia Casna",
+        "orcid": "0000-0002-4209-7889"
+      },
+      {
+        "name": "Menno Hoogland"
+      },
+      {
+        "name": "Historisch Genootschap Beemster"
+      },
+      {
+        "name": "Amanda Henry",
+        "orcid": "0000-0002-2923-4199"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Aleksandra Wilczynska",
+        "orcid": "0000-0001-9323-0267"
+      },
+      {
+        "name": "Daniela Gawehns",
+        "orcid": "0000-0002-9678-9012"
+      }
+    ],
+    "Summary": "The Codecheck resulted in full reproduction.\nOnce we had the prerequisites installed, we followed the instructions to restore the needed dependencies (i.e. packages).\nFinally, we managed to reproduce the entire paper with a single Quarto command.\nThe results were rendered to a PDF.\nThe figures and statistics generated by compiling the document match the ones from the submission.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-002",
+    "Repository": "github::codecheckers/EvalSubtitle",
+    "Repository Link": "https://github.com/codecheckers/EvalSubtitle",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2025-02-14",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.15173758",
+    "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
+    "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
+    "Paper authors": [
+      {
+        "name": "Alina Karakanta"
+      },
+      {
+        "name": "François Buet"
+      },
+      {
+        "name": "Mauro Cettolo"
+      },
+      {
+        "name": "François Yvon"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Alex Brandsen",
+        "orcid": "0000-0003-1623-1340"
+      },
+      {
+        "name": "Matthew Sung"
+      },
+      {
+        "name": "Matthijs Westera",
+        "orcid": "0000-0001-7777-1864"
+      }
+    ],
+    "Summary": "Full reproduction of code which evaluates subtitle segmentation\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-003",
+    "Repository": "github::codecheckers/certificate-2025-003",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-003",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-03-25",
+    "OpenAlex": "https://openalex.org/W4415160374",
+    "Report": "https://doi.org/10.5281/zenodo.15333601",
+    "Title": "Optimal Graph Stretching for Distributed Averaging",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2504.10289",
+    "Paper authors": [
+      {
+        "name": "Florine W. Dekker",
+        "orcid": "0000-0002-0506-7365"
+      },
+      {
+        "name": "Zekeriya Erkin",
+        "orcid": "0000-0001-8932-4703"
+      },
+      {
+        "name": "Mauro Conti",
+        "orcid": "0000-0002-3612-1934"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Aysun Urhan",
+        "orcid": "0000-0001-8584-4736"
+      },
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "Summary": "All figures in the manuscript were successfully reproduced, with the process requiring both an HPC cluster and a valid MATLAB license.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-004",
+    "Repository": "github::codecheckers/certificate-2025-004",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-004",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-04-08",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.15310765",
+    "Title": "Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach",
+    "Paper reference": "https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b",
+    "Paper authors": [
+      {
+        "name": "Tworit K. Dash",
+        "orcid": "0000-0003-3127-8841"
+      },
+      {
+        "name": "David Prinsloo",
+        "orcid": "0000-0001-6052-9692"
+      },
+      {
+        "name": "Alexander Yarovoy"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Joao Guimaraes",
+        "orcid": "0000-0002-6545-3102"
+      }
+    ],
+    "Summary": "The first figure shown in the code repository's README, so as the instructions shared in the same README on how to execute REF.m. The output figures are not found in the main publication.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-005",
+    "Repository": "zenodo::15323262",
+    "Repository Link": "https://zenodo.org/records/15323262",
+    "Type": "journal",
+    "Venue": "Lifecycle Journal",
+    "Check date": "2025-05-15",
+    "OpenAlex": "https://openalex.org/W4409718072",
+    "Report": "https://doi.org/10.5281/zenodo.15323262",
+    "Title": "Verification Report of Zhao et al. (2023) ‘Effect of Acceptance and Commitment Therapy for depressive disorders: a meta-analysis’",
+    "Paper reference": "https://doi.org/10.71240/lcyc.052239",
+    "Paper authors": [
+      {
+        "name": "Ian Hussey",
+        "orcid": "0000-0001-8906-7559"
+      },
+      {
+        "name": "Malte Elson",
+        "orcid": "0000-0001-7806-9583"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The article referenced data and code in a OSF project.  An included computational notebook in R Markdown format could be executed without errors and Figure 1, Figure 2, Figure 3, and Table 2 as well as numerical statics could be recreated with the code in the notebook. The data deposit contains further files matching other tables in the article, though these are likely, at least partially, manually created and out of scope. The check was successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-006",
+    "Repository": "github::codecheckers/sarscov2-variants",
+    "Repository Link": "https://github.com/codecheckers/sarscov2-variants",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-05-01",
+    "OpenAlex": "https://openalex.org/W3138189425",
+    "Report": "https://doi.org/10.5281/zenodo.15520471",
+    "Title": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
+    "Paper reference": "https://doi.org/10.1038/s41598-021-85363-7",
+    "Paper authors": [
+      {
+        "name": "Aysun Urhan",
+        "orcid": "0000-0001-8584-4736"
+      },
+      {
+        "name": "Thomas Abeel",
+        "orcid": "0000-0002-7205-7431"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Elviss Dvinskis",
+        "orcid": "0000-0003-2873-0139"
+      },
+      {
+        "name": "Leila Iñigo de la Cruz",
+        "orcid": "0000-0003-0852-9219"
+      },
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "Summary": "This project provides clear instructions on generating figures 1 – 9, described in the README.md document located in the GitHub repository linked to the publication. However, to run figures 8 and 9, the author recommends the use of an HPC cluster, which is beyond the scope of this CODECHECK. Figures 1 – 7 could be reproduced on certain systems and configurations.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-007",
+    "Repository": "github::codecheckers/certificate-2025-007",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-007",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-05-26",
+    "OpenAlex": "https://openalex.org/W4410366051",
+    "Report": "https://doi.org/10.5281/zenodo.15603144",
+    "Title": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
+    "Paper reference": "https://doi.org/10.5194/wes-2025-77",
+    "Paper authors": [
+      {
+        "name": "Jelle Agatho Wilhelm Poland",
+        "orcid": "0000-0003-3164-5648"
+      },
+      {
+        "name": "Johannes Marinus van Spronsen"
+      },
+      {
+        "name": "Mac Gaunaa",
+        "orcid": "0000-0002-9478-6758"
+      },
+      {
+        "name": "Roland Schmehl",
+        "orcid": "0000-0002-4112-841X"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Josip Grguric",
+        "orcid": "0009-0003-3725-9454"
+      },
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "Summary": "This codecheck resulted in a full reproduction of the figures presented in the publication. The authors provided a GitHub repository containing all the necessary code and instructions for reproducing the figures and provided the yet to be published data directly. Required adjustments: modifying the path to the data folder, providing LaTeX is a system dependency. \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-008",
+    "Repository": "github::reproducible-agile/reviews-2025|reports/08",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2025|reports/08",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-06",
+    "OpenAlex": "https://openalex.org/W4411153143",
+    "Report": "https://doi.org/10.53962/wxh7-8yjd",
+    "Title": "Measuring Landmark Salience in Rural Areas: A Comparative Study of Two Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-7-2025",
+    "Paper authors": [
+      {
+        "name": "Eva Nuhn",
+        "orcid": "0000-0003-2443-8122"
+      },
+      {
+        "name": "Michaela Ehrig"
+      },
+      {
+        "name": "Leonie Engemann"
+      },
+      {
+        "name": "Fabian Heißerer"
+      },
+      {
+        "name": "Julia Maltan"
+      },
+      {
+        "name": "Jenny Ruf"
+      },
+      {
+        "name": "Sabine Timpf",
+        "orcid": "0000-0002-7964-4110"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The reproduction of the visualisations and statistics presented in the manuscript was successful.\nThe authors provided a link to an online repo with several data files which seem to have been the basis for the illustrative map in the paper, as well as a spreadsheet which includes the model calculations, plots, and statistical tests presented in the paper.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-009",
+    "Repository": "osf::gv2z4",
+    "Repository Link": "https://osf.io/gv2z4",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-13",
+    "OpenAlex": "https://openalex.org/W4411154871",
+    "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
+    "Title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-9-2025",
+    "Paper authors": [
+      {
+        "name": "Dan Qiang",
+        "orcid": "0000-0002-7483-2681"
+      },
+      {
+        "name": "Grant McKenzie",
+        "orcid": "0000-0003-3247-7777"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Nina Wiedemann",
+        "orcid": "0000-0002-8160-7634"
+      }
+    ],
+    "Summary": "The paper comes with a GitHub repository that includes all code to reproduce the figures in the paper from the raw data.\nHowever, part of the data can not be shared.\nWhile they are available via an API, the time to collect the data is not feasible within the reproducibility review.\nUsing only the available data, the corresponding figures could be successfully reproduced after minor code fixes done upon request.\nOverall, the paper is partly reproducible.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-010",
+    "Repository": "osf::FXKWS",
+    "Repository Link": "https://osf.io/FXKWS",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-03-23",
+    "OpenAlex": "https://openalex.org/W4411153561",
+    "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
+    "Title": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-3-2025",
+    "Paper authors": [
+      {
+        "name": "Ayda Grišiūtė",
+        "orcid": "0000-0001-7328-847X"
+      },
+      {
+        "name": "Martin Raubal",
+        "orcid": "0000-0001-5951-6835"
+      },
+      {
+        "name": "Pieter Herthogs",
+        "orcid": "0000-0003-2262-8374"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Luke McQuade",
+        "orcid": "0009-0004-5292-6793"
+      }
+    ],
+    "Summary": "A partial reproduction, using intermediate results provided by the authors, was successfully achieved.\nTable and figure content were generated and materially match with those in the paper.\nSome minor code changes to match my environment were needed.\nI initially attempted a full reproduction, but had to abandon this due to time constraints.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-011",
+    "Repository": "osf::GT5BW",
+    "Repository Link": "https://osf.io/GT5BW",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-12",
+    "OpenAlex": "https://openalex.org/W4411153502",
+    "Report": "https://doi.org/10.17605/OSF.IO/GT5BW",
+    "Title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-5-2025",
+    "Paper authors": [
+      {
+        "name": "Ziyi Liu",
+        "orcid": "0000-0003-2198-7708"
+      },
+      {
+        "name": "Claudio Affolter"
+      },
+      {
+        "name": "Sidi Wu",
+        "orcid": "0000-0003-1669-6690"
+      },
+      {
+        "name": "Yizi Chen",
+        "orcid": "0000-0003-1637-0092"
+      },
+      {
+        "name": "Lorenz Hurni",
+        "orcid": "0000-0002-0453-8743"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Sophie Teichmann"
+      }
+    ],
+    "Summary": "The main challenge during this reproduction is the combination of a closed source model (Chat GPT) and available models (like CLIP).\nUsing the models provided by the authors, the results were reproducible (Recreated Table 2).\nUsing Ubuntu the results were partly not recreatable on Ubuntu.\nOn Windows the training was successful.\nThus, there is a system dependence of the reproducibility when retraining the models.\nAnother challenge was the volume of models and corresponding inference.\nThus I only chose a subset of models to retrain and perform inference on.\nA part of the inference in the paper was done manually in the paper, which I was not able to recreate.\nI was able to fully recreate Table1, Table 3, Table 5, Table 6 and Table 7 from the original paper.\nI would count the overall reproduction as a success.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-012",
+    "Repository": "osf::956a8",
+    "Repository Link": "https://osf.io/956a8",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-12",
+    "OpenAlex": "https://openalex.org/W4411152705",
+    "Report": "https://doi.org/10.17605/OSF.IO/956a8",
+    "Title": "Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-12-2025",
+    "Paper authors": [
+      {
+        "name": "Martin Werner",
+        "orcid": "0000-0002-6951-8022"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Sophie Teichmann"
+      }
+    ],
+    "Summary": "The author provided clear steps for the partial reproduction.\nHowever, due to computational and privacy constraints, only two basic examples could be reproduced.\nSince those two minimal examples demonstrate both new methods introduced in the paper, I would consider the partial reproduction to be successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-013",
+    "Repository": "osf::BGY83",
+    "Repository Link": "https://osf.io/BGY83",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-12",
+    "OpenAlex": "https://openalex.org/W4411153777",
+    "Report": "https://doi.org/10.17605/OSF.IO/BGY83",
+    "Title": "Exploring Urban Place Function through User-Generated Textual Content",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-6-2025",
+    "Paper authors": [
+      {
+        "name": "Shahreen Muntaha Nawfee",
+        "orcid": "0000-0001-6154-8537"
+      },
+      {
+        "name": "Stefano De Sabbata",
+        "orcid": "0000-0002-2750-7579"
+      },
+      {
+        "name": "Nicholas Tate",
+        "orcid": "0009-0004-7648-5785"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Ilya Ilyankou",
+        "orcid": "0009-0008-7082-7122"
+      }
+    ],
+    "Summary": "The manuscript was partially reproducible, with three of seven figures recreated with some deviations, likely due to unset random states in the computational process. The remaining figures and tables could not be reproduced in this process due to code issues; the GitHub repository contained 16 code files but lacked sufficient documentation for navigating the complex workflow. While the code can be run on standard hardware with common Python and R libraries, there are no instructions on setup or library versioning. Communication with the authors (17 emails over ~10 days) was necessary to obtain intermediate data files and clarify the process.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-014",
+    "Repository": "osf::st98a",
+    "Repository Link": "https://osf.io/st98a",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-04-03",
+    "OpenAlex": "https://openalex.org/W4411153453",
+    "Report": "https://doi.org/10.17605/OSF.IO/st98a",
+    "Title": "Beyond Walking and Biking: Expanding the 15-Minute City Area through Public Transport",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-2-2025",
+    "Paper authors": [
+      {
+        "name": "Manuela Canestrini",
+        "orcid": "0009-0005-1501-8398"
+      },
+      {
+        "name": "Ioannis Giannopoulos",
+        "orcid": "0000-0002-2556-5230"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "Summary": "The authors included a DASA section where they briefly but accurately describe key details of the datasets used, software version and scripts generated, and how to access these resources.\nWhile the link to the code and data repository was anonymized, the author provided the DOI to the data/code repository for reproduction which will be included in the final version of the paper: https://doi.org/10.48436/0cffc-hax39.\nTables 1-3 and Figures 1-5 were eligible for reproduction.\nAll of them were successfully reproduced.\nIn general, the paper is fully reproducible because I was able to verify the claims and results presented in the article by re-executing the scripts provided with the accompanying datasets.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-015",
+    "Repository": "osf::chx28",
+    "Repository Link": "https://osf.io/chx28",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-05-06",
+    "OpenAlex": "https://openalex.org/W4411154948",
+    "Report": "https://doi.org/10.17605/OSF.IO/CHX28",
+    "Title": "Accessibility for pedestrians under heat stress - the example of Heidelberg, Germany",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-4-2025",
+    "Paper authors": [
+      {
+        "name": "Johannes Huber"
+      },
+      {
+        "name": "Christina Ludwig",
+        "orcid": "0000-0003-4669-3298"
+      },
+      {
+        "name": "Kathrin Foshag",
+        "orcid": "0000-0002-8610-2563"
+      },
+      {
+        "name": "Nikolaos Kolaxidis",
+        "orcid": "0009-0008-8406-2028"
+      },
+      {
+        "name": "Alexander Zipf",
+        "orcid": "0000-0003-4916-9838"
+      },
+      {
+        "name": "Sven Lautenbach",
+        "orcid": "0000-0003-1825-9996"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Lorena Abad",
+        "orcid": "0000-0003-0554-734X"
+      }
+    ],
+    "Summary": "The authors included a DASA section on the paper with an anonymous GitHub link to the repository with the code for the reproduction.\nAfter initial contact with the authors, the unanonymized link to the GitHub repository was obtained and forked into the reproducible AGILE organization.\nThe repository prepared by the authors has clear instructions on reproducibility for the Jupyter notebooks and points to the included QGIS project to recreate Figures 2-4. Figure 5 is the result of one of the notebooks (lcz_analysis.pynb).\nInitially, the code limited the AOI to a subset for testing purposes. This was not initially clear from the documentation, but contacting the authors clarified the discrepancies.\nFor this report, the code was successfully run for the whole AOI.\nFigures 2 to 5 could also be successfully reproduced besides manual edits in Figure 5.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-016",
+    "Repository": "osf::28jt4",
+    "Repository Link": "https://osf.io/28jt4",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-06",
+    "OpenAlex": "https://openalex.org/W4411154888",
+    "Report": "https://doi.org/10.17605/OSF.IO/28JT4",
+    "Title": "Changes in Road Centrality and Hospital Access Redundancy: Impacts of the 2024 Flood in the Metropolitan Core of Porto Alegre, Brazil",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-10-2025",
+    "Paper authors": [
+      {
+        "name": "Ricardo Ruiz Sánchez",
+        "orcid": "0009-0000-6108-3389"
+      },
+      {
+        "name": "Marcel Reinmuth",
+        "orcid": "0000-0002-0204-5101"
+      },
+      {
+        "name": "Cristian Albornoz",
+        "orcid": "0000-0002-5476-2508"
+      },
+      {
+        "name": "Sven Lautenbach",
+        "orcid": "0000-0003-1825-9996"
+      },
+      {
+        "name": "Alexander Zipf",
+        "orcid": "0000-0003-4916-9838"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Barbara Hofer",
+        "orcid": "0000-0001-7078-3766"
+      }
+    ],
+    "Summary": "Partial reproduction with a focus on the analysis part presented in the paper.\nExcellent exchange with the authors that allowed a successful reproduction; meanwhile material to reproduce the preprocessing of data has been shared by the authors as well.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-017",
+    "Repository": "github::reproducible-agile/reviews-2025|reports/28",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2025|reports/28",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-06",
+    "OpenAlex": "https://openalex.org/W4411153243",
+    "Report": "https://doi.org/10.53962/wgtb-cagt",
+    "Title": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-11-2025",
+    "Paper authors": [
+      {
+        "name": "Joseph Shingleton",
+        "orcid": "0000-0002-1628-3231"
+      },
+      {
+        "name": "Ana Basiri",
+        "orcid": "0000-0002-2399-1797"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The reproduction was partially successful. I could not re-run LLM-prompting and fine-tuning due to resource restrictions (time, specific hardware needed) but could run the visualisations and analysis based on the provided intermediate data files, which are all published in an OSF project and well documented.\nAll figures and statistics from the paper were successfully recreated using two provided Jupyter Notebooks using Jupyter Lab with a corresponding runtime environment specification for Python.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-018",
+    "Repository": "github::codecheckers/certificate-2025-018",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-018",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-05-28",
+    "OpenAlex": "https://openalex.org/W4404571336",
+    "Report": "https://doi.org/10.5281/zenodo.15630442",
+    "Title": "Scalable control synthesis for stochastic systems via structural IMDP abstractions",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2411.11803",
+    "Paper authors": [
+      {
+        "name": "Frederik B. Mathiesen",
+        "orcid": "0000-0002-2243-0445"
+      },
+      {
+        "name": "Sofie Haesaert",
+        "orcid": "0000-0003-4749-4688"
+      },
+      {
+        "name": "Luca Laurenti",
+        "orcid": "0000-0003-1190-6097"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Niket Agrawal",
+        "orcid": "0000-0002-3208-3440"
+      }
+    ],
+    "Summary": "Tables 2, 3, and 4, as well as Figures 4 and 5 from the manuscript, were successfully reproduced by following the instructions provided in the README file. Instructions were only available for reproducing these specific tables and figures. To avoid the lengthy execution time required to run the full experiments, the pre-computed results provided in the repository were used to generate the tables and figures, as recommended in the README.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-019",
+    "Repository": "github::codecheckers/certificate-2025-019",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-019",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-06-11",
+    "OpenAlex": "https://openalex.org/W4415061882",
+    "Report": "https://doi.org/10.5281/zenodo.15771677",
+    "Title": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2503.21065",
+    "Paper authors": [
+      {
+        "name": "Filip Surma",
+        "orcid": "0000-0002-6756-9598"
+      },
+      {
+        "name": "Anahita Jamshidnejad",
+        "orcid": "0000-0001-9151-2607"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Joao Guimaraes",
+        "orcid": "0000-0002-6545-3102"
+      }
+    ],
+    "Summary": "Figures 3-8 from the manuscript were successfully reproduced. Figures 1-2 and Tables 1-3 were not covered by this CODECHECK. To avoid the lengthy execution time required to run the full experiments, the pre-computed results used to generate the figures were provided in a separate repository.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-020",
+    "Repository": "github::codecheckers/Exploring-Categorical-Colors",
+    "Repository Link": "https://github.com/codecheckers/Exploring-Categorical-Colors",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2025-06-28",
+    "OpenAlex": "https://openalex.org/W4399738503",
+    "Report": "https://doi.org/10.5281/zenodo.15762107",
+    "Title": "Exploring Categorical Colors",
+    "Paper reference": "https://doi.org/10.31234/osf.io/gj76p",
+    "Paper authors": [
+      {
+        "name": "Lukas Röseler",
+        "orcid": "0000-0002-6446-1901"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Prince Oppong Boakye",
+        "orcid": "0009-0003-5447-8034"
+      }
+    ],
+    "Summary": "The workflow outlined in the authors’ README was easily comprehensible. All figures stored in the repository could be recreated in R, and they accurately matched those presented in the manuscript.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-021",
+    "Repository": "github::codecheckers/certificate-2025-021",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-021",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-07-30",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.16616998",
+    "Title": "Airspeed estimation for UAVs using only propeller feedback",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2507.03456",
+    "Paper authors": [
+      {
+        "name": "Evangelos Ntouros",
+        "orcid": "0009-0006-3918-4240"
+      },
+      {
+        "name": "Pavel Kelley"
+      },
+      {
+        "name": "Ewoud Smeur",
+        "orcid": "0000-0002-0060-6526"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Heather Andrews",
+        "orcid": "0000-0002-6637-2830"
+      }
+    ],
+    "Summary": "Full reproduction of the figures shown in the manuscript. Figures 1 and 3 of the manuscript are pictures which are also  provided in the `./photos/` directory of the code repository. All other figures are plots that are fully reproduced by the  scripts found in the `./src/` directory of the code repository. The figures are displayed in MATLAB itself and are provided  as pdf’s in the `./pdf/` directory of the code repository. \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-022",
+    "Repository": "github::codecheckers/certificate-2025-022",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-022",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-08-04",
+    "OpenAlex": "https://openalex.org/W4408519626",
+    "Report": "https://doi.org/10.5281/zenodo.16814874",
+    "Title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
+    "Paper reference": "https://doi.org/10.1109/TITS.2025.3549227",
+    "Paper authors": [
+      {
+        "name": "Filippo Airaldi",
+        "orcid": "0000-0001-6595-2932"
+      },
+      {
+        "name": "Bart De Schutter",
+        "orcid": "0000-0001-9867-6196"
+      },
+      {
+        "name": "Azita Dabiri",
+        "orcid": "0000-0002-4051-4896"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "Summary": "Full reproduction of figures in the article using precomputed results \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-025",
+    "Repository": "github::codecheckers/absolution_codecheck",
+    "Repository Link": "https://github.com/codecheckers/absolution_codecheck",
+    "Type": "institution",
+    "Venue": "AUMC",
+    "Check date": "2025-01-29",
+    "OpenAlex": null,
+    "Report": "https://doi.org/10.5281/zenodo.16758977",
+    "Title": "AbSolution Report v.0.71",
+    "Paper reference": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html",
+    "Paper authors": [
+      {
+        "name": "Rodrigo García Valiente",
+        "orcid": "0000-0003-0444-5587"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Sam Langton",
+        "orcid": "0000-0002-1322-1553"
+      }
+    ],
+    "Summary": "RMarkdown file with embedded R code created from the AbSolution Shiny app for the purposes of reproducibility. This code was straightforward to codecheck. An RMarkdown file could be executed with no errors. The resulting HTML output file matches the given file as expected.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-027",
+    "Repository": "github::codecheckers/zonebuilder",
+    "Repository Link": "https://github.com/codecheckers/zonebuilder",
+    "Type": "journal",
+    "Venue": "JOSIS",
+    "Check date": "2025-09-04",
+    "OpenAlex": "https://openalex.org/W4288754796",
+    "Report": "https://doi.org/10.5281/zenodo.17059066",
+    "Title": "ClockBoard: A zoning system for urban analysis",
+    "Paper reference": "https://doi.org/10.5311/JOSIS.2022.24.172",
+    "Paper authors": [
+      {
+        "name": "Robin Lovelace",
+        "orcid": "0000-0001-5679-6536"
+      },
+      {
+        "name": "Martijn Tennekes",
+        "orcid": "0000-0002-6506-9522"
+      },
+      {
+        "name": "Dustin Carlino",
+        "orcid": "0000-0002-5565-0989"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Subhan Ali",
+        "orcid": "0009-0003-7546-1717"
+      }
+    ],
+    "Summary": "Successfully reproduced all main figures from the ClockBoard paper using the  zonebuilder R package. All core functions (zb\\_zone, zb\\_doughnut, zb\\_segment,  zb\\_quadrat) work as described. Package installs correctly from CRAN and GitHub.  Interactive mapping requires coordinate transformation but works properly.  Parameter flexibility confirmed through additional tests.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2025-028",
+    "Repository": "github::codecheckers/surv-tcav-pbc",
+    "Repository Link": "https://github.com/codecheckers/surv-tcav-pbc",
+    "Type": "journal",
+    "Venue": "Lifecycle Journal",
+    "Check date": "2025-11-04",
+    "OpenAlex": "https://openalex.org/W4414316644",
+    "Report": "https://doi.org/10.5281/zenodo.17533508",
+    "Title": "Clinically Interpretable Survival Prediction in Primary Biliary Cholangitis with TreeSHAP and Gradient-Boosted Model",
+    "Paper reference": "https://doi.org/10.71240/lcyc.66O7260",
+    "Paper authors": [
+      {
+        "name": "Emmanuel Pio Pastore",
+        "orcid": "0009-0007-7851-4414"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "This code was straightforward to check and the reproduction is partially successful. Figure 1, 2, and 3 could be recreated without errors in the code but in part with differences beyond the variations due to re-computation. Table 2 could be reproduced within computational variation, but Table 3 could not be linked to any of the output files.\n",
+    "Source": "The Mayo Clinic Primary Biliary Cholangitis cohort is openly distributed via the R survival package and no restrictions apply, see https://vincentarelbundock.github.io/Rdatasets/csv/survival/pbc.csv; the full code repository is openly released under the MIT License, see https://github.com/emmanuel6474/surv-tcav-pbc."
+  },
+  {
+    "Certificate ID": "2026-001",
+    "Repository": "github::codecheckers/kite_piv_analysis",
+    "Repository Link": "https://github.com/codecheckers/kite_piv_analysis",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2026-03-03",
+    "OpenAlex": "https://openalex.org/W4415698124",
+    "Report": "https://doi.org/10.5281/zenodo.18890103",
+    "Title": "Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry",
+    "Paper reference": "https://doi.org/10.5194/wes-2025-217",
+    "Paper authors": [
+      {
+        "name": "Jelle Poland",
+        "orcid": "0000-0003-3164-5648"
+      },
+      {
+        "name": "Erik Fritz",
+        "orcid": "0000-0003-1486-3643"
+      },
+      {
+        "name": "Roland Schmehl",
+        "orcid": "0000-0002-4112-841X"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Josip Grguric",
+        "orcid": "0009-0003-3725-9454"
+      },
+      {
+        "name": "Yasel Quintero",
+        "orcid": "0009-0005-9240-7370"
+      }
+    ],
+    "Summary": "Partial reproduction of figures in the publication \n",
+    "Source": null
+  }
+]
