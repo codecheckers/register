@@ -7,7 +7,7 @@ install:
 	R -q -e "remotes::install_github('codecheckers/codecheck');"
 
 install_local:
-	R -q -e "devtools::install('../codecheck', upgrade = 'never');"
+	R -q -e "devtools::install('../codecheck', upgrade = FALSE);"
 
 render: version
 	R -q -e "codecheck::register_render(parallel = TRUE);"
