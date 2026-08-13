@@ -27,7 +27,8 @@
         "orcid": "0000-0003-2392-6140"
       }
     ],
-    "reference": "https://doi.org/10.1016/j.jas.2020.105306"
+    "reference": "https://doi.org/10.1016/j.jas.2020.105306",
+    "openalex": "https://openalex.org/W3112754451"
   },
   "codecheck": {
     "codecheckers": [

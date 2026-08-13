@@ -8,7 +8,7 @@
     "Report": "https://doi.org/10.5281/zenodo.21807544",
     "Title": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures",
     "Paper reference": "https://doi.org/10.5311/JOSIS.2026.32.591",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W7166859420",
     "Type": "journal",
     "Venue": "JOSIS",
     "Check date": "2026-07-17"
@@ -22,7 +22,7 @@
     "Report": "https://doi.org/10.5281/zenodo.21238767",
     "Title": "Photoreceptor-specific scene statistics reveal melanopic structure in natural environments",
     "Paper reference": "https://doi.org/10.1016/j.isci.2026.116661",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4416186252",
     "Type": "community",
     "Venue": "codecheck",
     "Check date": "2026-07-07"
@@ -50,7 +50,7 @@
     "Report": "https://doi.org/10.5281/zenodo.17533508",
     "Title": "Clinically Interpretable Survival Prediction in Primary Biliary Cholangitis with TreeSHAP and Gradient-Boosted Model",
     "Paper reference": "https://doi.org/10.71240/lcyc.66O7260",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4414316644",
     "Type": "journal",
     "Venue": "Lifecycle Journal",
     "Check date": "2025-11-04"
@@ -64,7 +64,7 @@
     "Report": "https://doi.org/10.5281/zenodo.17059066",
     "Title": "ClockBoard: A zoning system for urban analysis",
     "Paper reference": "https://doi.org/10.5311/JOSIS.2022.24.172",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4288754796",
     "Type": "journal",
     "Venue": "JOSIS",
     "Check date": "2025-09-04"
@@ -78,7 +78,7 @@
     "Report": "https://doi.org/10.5281/zenodo.16814874",
     "Title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
     "Paper reference": "https://doi.org/10.1109/TITS.2025.3549227",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4408519626",
     "Type": "institution",
     "Venue": "TU Delft DCC",
     "Check date": "2025-08-04"
@@ -106,7 +106,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15762107",
     "Title": "Exploring Categorical Colors",
     "Paper reference": "https://doi.org/10.31234/osf.io/gj76p",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4399738503",
     "Type": "community",
     "Venue": "codecheck",
     "Check date": "2025-06-28"
@@ -120,7 +120,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/gv2z4",
     "Title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-9-2025",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4411154871",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-06-13"
@@ -134,7 +134,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/GT5BW",
     "Title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-5-2025",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4411153502",
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-06-12"

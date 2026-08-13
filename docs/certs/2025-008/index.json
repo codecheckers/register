@@ -30,8 +30,7 @@
         "orcid": "0000-0002-7964-4110"
       }
     ],
-    "reference": "https://doi.org/10.5194/agile-giss-6-7-2025",
-    "openalex": "https://openalex.org/W4411153143"
+    "reference": "https://doi.org/10.5194/agile-giss-6-7-2025"
   },
   "codecheck": {
     "codecheckers": [

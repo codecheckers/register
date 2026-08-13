@@ -8,7 +8,7 @@
     "Report": "https://doi.org/10.5281/zenodo.17059066",
     "Title": "ClockBoard: A zoning system for urban analysis",
     "Paper reference": "https://doi.org/10.5311/JOSIS.2022.24.172",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4288754796",
     "Check date": "2025-09-04"
   },
   {
@@ -20,7 +20,7 @@
     "Report": "https://doi.org/10.5281/zenodo.21807544",
     "Title": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures",
     "Paper reference": "https://doi.org/10.5311/JOSIS.2026.32.591",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W7166859420",
     "Check date": "2026-07-17"
   }
 ]

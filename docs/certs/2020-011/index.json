@@ -17,7 +17,8 @@
         "orcid": "0000-0002-0891-4611"
       }
     ],
-    "reference": "http://doi.org/10.1038/s41586-020-2405-7"
+    "reference": "http://doi.org/10.1038/s41586-020-2405-7",
+    "openalex": "https://openalex.org/W3032971139"
   },
   "codecheck": {
     "codecheckers": [
