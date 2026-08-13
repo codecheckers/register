@@ -1,7 +1,20 @@
 default: render
 
+# Local API keys, see .env.example. Optional, the file is git-ignored and every
+# variable can also be passed per invocation, e.g. make render OPENALEX_API_KEY=abc
+-include .env
+
+ifdef OPENALEX_API_KEY
+export OPENALEX_API_KEY
+endif
+
 version:
 	R -q -e "library('codecheck'); sessionInfo();"
+
+# show which API keys the render targets will use, without printing them
+env:
+	@echo "OPENALEX_API_KEY: $(if $(OPENALEX_API_KEY),set ($(shell echo -n '$(OPENALEX_API_KEY)' | wc -c) characters),not set, using the anonymous OpenAlex quota)"
+	@echo "GITHUB_PAT:       $(if $(shell grep -s GITHUB_PAT ~/.Renviron),set in ~/.Renviron,not found in ~/.Renviron)"
 
 install:
 	R -q -e "remotes::install_github('codecheckers/codecheck');"
@@ -9,7 +22,7 @@ install:
 install_local:
 	R -q -e "devtools::install('../codecheck', upgrade = FALSE);"
 
-render: version
+render: version env
 	R -q -e "codecheck::register_render(parallel = TRUE);"
 
 stats: version

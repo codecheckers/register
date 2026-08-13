@@ -79,8 +79,50 @@ R -q -e "codecheck::register_check(); warnings()"
 
 and clear the cache (in case you made a recent change to an online repo) with `R -q -e "codecheck::register_clear_cache()"`.
 
-To fix problems with hitting the GitHub API rate limit on local register management, go to [your PAT page](https://github.com/settings/tokens) and save a PAT in the environment variable `GITHUB_PAT` to the file `.Renviron` next to this README file.
+To fix problems with hitting the GitHub API rate limit on local register management, save a Personal Access Token in the environment variable `GITHUB_PAT`, see [API keys](#api-keys) below.
 Alternatively, you may log into your GitHub account locally using the [GitHub CLI (`gh`)](https://cli.github.com/).
+
+## API keys
+
+Rendering the register queries a number of external APIs.
+None of them is required to render, but without them you will hit rate limits, and entries can end up missing metadata.
+
+| Variable | Used for | How to get it |
+| --- | --- | --- |
+| `GITHUB_PAT` | Reading `codecheck.yml` files and issues from GitHub. Most register entries are GitHub repositories, so without a token you hit the rate limit quickly. | [Your PAT page](https://github.com/settings/tokens), no scopes needed for public repositories |
+| `OPENALEX_API_KEY` | Looking up the OpenAlex ID and the abstract of each checked paper. Without a key all requests share a small anonymous daily quota that a full render exhausts, after which certificates render without their OpenAlex ID. A free key raises the quota tenfold. | [OpenAlex](https://openalex.org/), see the [API documentation](https://help.openalex.org/api) |
+| `ORCID_TOKEN` | Validating codechecker and author ORCIDs in `codecheck::register_check()`, not needed for rendering. | `rorcid::orcid_auth()`, see the [rorcid documentation](https://docs.ropensci.org/rorcid/) |
+
+Zenodo, OSF, CrossRef and ResearchEquals are queried anonymously and need no configuration.
+
+There are two places to put these variables.
+
+**In `~/.Renviron`**, one `NAME=value` per line, which applies to every R session on your machine:
+
+```
+GITHUB_PAT=ghp_...
+OPENALEX_API_KEY=...
+```
+
+**Important**: R reads only the *first* `.Renviron` it finds, checking this directory before your home directory.
+So if you create a `.Renviron` next to this README, it hides `~/.Renviron` completely and every variable you need must be in the local file.
+Keeping all of them in one file avoids this trap.
+
+**In a `.env` file** next to this README, which the `Makefile` passes on to the R processes it starts.
+This file is git-ignored, and unlike a local `.Renviron` it does not hide `~/.Renviron`, so it combines with the variables set there.
+Copy [`.env.example`](.env.example) to `.env` and fill in the values.
+
+Single values can also be passed per invocation:
+
+```bash
+make render OPENALEX_API_KEY=...
+```
+
+To see which keys the render targets will pick up, without printing their values:
+
+```bash
+make env
+```
 
 ## Local preview with nginx
 
@@ -100,7 +142,7 @@ make serve-stop
 
 **Note**: The nginx container runs in detached mode (background). If port 80 is already in use on your system, you'll need to either stop the service using that port or modify the port mapping in the Makefile.
 
-To render the register manually in a local **Docker container**, you must mount a local `.Renviron` file with the `GITHUB_PAT` variable to not hit the GitHub API rate limit.
+To render the register manually in a local **Docker container**, you must mount a local `.Renviron` file with the `GITHUB_PAT` variable to not hit the GitHub API rate limit, and any other [API keys](#api-keys) you want to use.
 Example (see also `Makefile`):
 
 ```bash
