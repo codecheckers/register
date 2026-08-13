@@ -1,0 +1,109 @@
+{
+  "certificate": {
+    "id": "2026-018",
+    "url": "https://codecheck.org.uk/register/certs/2026-018/"
+  },
+  "paper": {
+    "title": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures\n",
+    "authors": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      },
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      },
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      },
+      {
+        "name": "Peter Kedron",
+        "orcid": "0000-0002-1093-3416"
+      },
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      },
+      {
+        "name": "Miguel Matey-Sanz",
+        "orcid": "0000-0002-1189-5079"
+      },
+      {
+        "name": "Rémy Decoupes",
+        "orcid": "0000-0003-0863-9581"
+      },
+      {
+        "name": "Sergio Trilles",
+        "orcid": "0000-0002-9304-0719"
+      },
+      {
+        "name": "Anita Graser",
+        "orcid": "0000-0001-5361-2885"
+      },
+      {
+        "name": "Tom Niers",
+        "orcid": "0000-0002-5746-8590"
+      }
+    ],
+    "reference": "https://doi.org/10.5311/JOSIS.2026.32.591",
+    "abstract": {
+      "text": "<jats:p>Recent research in the field of geographic information science shows that reproducibility and replicability of publications have substantial room for improvement and proposes various actions to improve the situation. However, the impact of these actions remains unclear. This study investigates the combined effect of novel author guidelines and workflow review process, which award badges for successful reproductions, on the potential reproducibility of articles published in the AGILE conference series proceedings over the past decade. While replicating the approach of previous studies, this work expands the scope of prior reproducibility assessments and systematically compares the findings for the AGILE conference with those of the GIScience conference series proceedings, which has not undergone similar changes to guidelines or procedures. Results indicate that the reproducibility guidelines and the review process measurably improved the potential reproducibility of AGILE publications. The comparison with GIScience papers further suggests that clear and enforced guidance is a key driver for change. Our findings demonstrate the value of institutional policies and community norms in fostering reproducible research in the GIScience field and identify pathways for its ongoing improvement.<\/jats:p>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W7166859420"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Alexander Trinidad",
+        "orcid": "0000-0002-0762-5367"
+      }
+    ],
+    "check_time": "2026-07-17 11:50:00",
+    "repository": "github::codecheckers/reproducible-research-giscience-longitudinal-study",
+    "report": "https://doi.org/10.5281/zenodo.21807544",
+    "type": "journal",
+    "venue": "JOSIS",
+    "summary": "The computational workflow with all Quarto and Jupyter notebooks was reproduced successfully in a local environment without major issues. The reproduced analyses generated all substantive results, figures, and tables reported in the published paper, with minor differences in numbering between the manuscript and the rendered notebooks while the underlying values and conclusions remained consistent.\n",
+    "manifest": [
+      {
+        "file": "outputs/AGILE_pre_post.png",
+        "comment": "manuscript Figure 1"
+      },
+      {
+        "file": "outputs/AGILE_sankey_year.png",
+        "comment": "manuscript Figure 2"
+      },
+      {
+        "file": "outputs/figure2_table.png",
+        "comment": "manuscript table under Figure 2"
+      },
+      {
+        "file": "outputs/GIScience_pre_post.png",
+        "comment": "manuscript Figure 3"
+      },
+      {
+        "file": "outputs/table1.png",
+        "comment": "manuscript Table 1"
+      },
+      {
+        "file": "outputs/table5.png",
+        "comment": "manuscript Table 5."
+      },
+      {
+        "file": "outputs/table6.png",
+        "comment": "manuscript Table 6."
+      },
+      {
+        "file": "outputs/table7_1.png",
+        "comment": "manuscript Table 7 (first part)"
+      },
+      {
+        "file": "outputs/table7_2.png",
+        "comment": "manuscript Table 7 (second part)"
+      }
+    ]
+  }
+}

@@ -2,11 +2,13 @@
   {
     "Certificate ID": "2022-006",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-006/",
+    "Certificate PDF": "https://osf.io/download/7vy8u/",
     "Repository": "osf::W7VPH",
     "Repository Link": "https://osf.io/W7VPH",
     "Report": "https://doi.org/10.17605/osf.io/W7VPH",
     "Title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-6-2022",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -14,11 +16,13 @@
   {
     "Certificate ID": "2022-017",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-017/",
+    "Certificate PDF": "https://osf.io/download/68yqw/",
     "Repository": "osf::WNCSM",
     "Repository Link": "https://osf.io/WNCSM",
     "Report": "https://doi.org/10.17605/osf.io/wncsm",
     "Title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -26,11 +30,13 @@
   {
     "Certificate ID": "2023-007",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2023-007/",
+    "Certificate PDF": "https://osf.io/download/z6bx3/",
     "Repository": "osf::eu8kw",
     "Repository Link": "https://osf.io/eu8kw",
     "Report": "https://doi.org/10.17605/osf.io/eu8kw",
     "Title": "Extreme heat alerts and impacts across Mozambique 2016 - 2022: gathering evidence from media articles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-4-11-2023",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2023-06-13"
@@ -38,11 +44,13 @@
   {
     "Certificate ID": "2024-012",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-012/",
+    "Certificate PDF": "https://osf.io/download/5y3w7/",
     "Repository": "osf::w42ad",
     "Repository Link": "https://osf.io/w42ad",
     "Report": "https://doi.org/10.17605/osf.io/W42AD",
     "Title": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-4-2024",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-30"
@@ -50,11 +58,13 @@
   {
     "Certificate ID": "2024-013",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-013/",
+    "Certificate PDF": "https://osf.io/download/7qs5n/",
     "Repository": "osf::txgzv",
     "Repository Link": "https://osf.io/txgzv",
     "Report": "https://doi.org/10.17605/osf.io/TXGZV",
     "Title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-6-2024",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-31"

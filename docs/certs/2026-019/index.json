@@ -1,0 +1,176 @@
+{
+  "certificate": {
+    "id": "2026-019",
+    "url": "https://codecheck.org.uk/register/certs/2026-019/"
+  },
+  "paper": {
+    "title": "Photoreceptor-specific scene statistics reveal melanopic structure in natural environments",
+    "authors": [
+      {
+        "name": "Niloufar Tabandeh",
+        "orcid": "0000-0002-7971-8589"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "reference": "https://doi.org/10.1016/j.isci.2026.116661"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Jan Haacker",
+        "orcid": "0000-0002-5464-2442"
+      }
+    ],
+    "check_time": "2026-07-07T14:00:00",
+    "repository": "github::codecheckers/certificate-2026-019",
+    "report": "https://doi.org/10.5281/zenodo.21238767",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "The checked repository includes code to reproduce all figures shown in\nthe associated manuscript titled \"Photoreceptor-specific scene\nstatistics reveal melanopic structure in natural environments\"\nincluding one supplementary figure. The workflow is instructed by a\ndetailed recipe in the file `README.md` and structured into three main\nparts and small alignment steps. The main parts are downloading the\ninput data and running two notebooks consecutively. Following the\ninstructions successfully produces the manuscript and supplement\nfigures; however, in Figures 1 to 4 structural changes can occur,\nprobably due to a non-deterministic order when processing input files.\nThe code is entirely written in Python allowing to understand the\nmechanics by reading and uses a transparent repository structure.\n",
+    "manifest": [
+      {
+        "file": "results/tables/merged_wp_jeti_metadata_df.csv",
+        "comment": "Merged WP, JETI, and metadata"
+      },
+      {
+        "file": "results/tables/average_pixels_correlation_df.csv",
+        "comment": "Pixel-level alpha-opic correlations"
+      },
+      {
+        "file": "results/tables/amplitude_spectra_regression_view_df.csv",
+        "comment": "Amplitude spectra regressions by view"
+      },
+      {
+        "file": "results/tables/jeti_statistics_overall.csv",
+        "comment": "Overall JETI central statistics"
+      },
+      {
+        "file": "results/tables/jeti_statistics_per_view.csv",
+        "comment": "JETI central statistics by view"
+      },
+      {
+        "file": "results/tables/wp_statistics_overall.csv",
+        "comment": "Overall WP central statistics"
+      },
+      {
+        "file": "results/tables/wp_statistics_per_view.csv",
+        "comment": "WP central statistics by view"
+      },
+      {
+        "file": "results/tables/overexposed_percentage_per_view.csv",
+        "comment": "Overexposed pixels by view"
+      },
+      {
+        "file": "results/figures/broken_bar_plot_mEDI_logscale_location.png",
+        "comment": "Figure 1 component, mEDI by location"
+      },
+      {
+        "file": "results/figures/Overexposed_pixels_per_view.png",
+        "comment": "Figure 1 component, overexposed pixels"
+      },
+      {
+        "file": "results/figures/Figure1.png",
+        "comment": "Figure 1"
+      },
+      {
+        "file": "results/figures/Figure1.pdf",
+        "comment": "Figure 1"
+      },
+      {
+        "file": "results/figures/MelEDI_vr_illuminance_logscale_KDE_jeti.png",
+        "comment": "Figure 2 component, melanopic EDI vs illuminance"
+      },
+      {
+        "file": "results/figures/Wp_vr_jeti_KDE_logscale.png",
+        "comment": "Figure 2 component, WP vs JETI"
+      },
+      {
+        "file": "results/figures/Correlation_matrix_α-opics_radiance_per_view.png",
+        "comment": "Figure 2 component, JETI alpha-opic correlations"
+      },
+      {
+        "file": "results/figures/Figure2.png",
+        "comment": "Figure 2"
+      },
+      {
+        "file": "results/figures/Figure2.pdf",
+        "comment": "Figure 2"
+      },
+      {
+        "file": "results/figures/Correlation_matrix_α-opics_average_radiances_per_view.png",
+        "comment": "Figure 3 component, average radiance correlations"
+      },
+      {
+        "file": "results/figures/Correlation_matrix_α-opics_pixel_by_pixel_per_view.png",
+        "comment": "Figure 3 component, pixel-level correlations"
+      },
+      {
+        "file": "results/figures/Figure3.png",
+        "comment": "Figure 3"
+      },
+      {
+        "file": "results/figures/Figure3.pdf",
+        "comment": "Figure 3"
+      },
+      {
+        "file": "results/figures/Violin_plot_rms_contrast_per_view_flip.png",
+        "comment": "Figure 4 component, RMS contrast by view"
+      },
+      {
+        "file": "results/figures/RMS_vr_luminance_KDE_logscale_WP.png",
+        "comment": "Figure 4 component, RMS contrast vs luminance"
+      },
+      {
+        "file": "results/figures/Figure4.png",
+        "comment": "Figure 4"
+      },
+      {
+        "file": "results/figures/Figure4.pdf",
+        "comment": "Figure 4"
+      },
+      {
+        "file": "results/figures/Figure5.png",
+        "comment": "Figure 5"
+      },
+      {
+        "file": "results/figures/Figure5.pdf",
+        "comment": "Figure 5"
+      },
+      {
+        "file": "results/figures/Min_slope.png",
+        "comment": "Figure 6 component, low-slope example"
+      },
+      {
+        "file": "results/figures/Max_slope.png",
+        "comment": "Figure 6 component, high-slope example"
+      },
+      {
+        "file": "results/figures/Figure6.png",
+        "comment": "Figure 6"
+      },
+      {
+        "file": "results/figures/Figure6.pdf",
+        "comment": "Figure 6"
+      },
+      {
+        "file": "results/figures/Figure7.png",
+        "comment": "Figure 7"
+      },
+      {
+        "file": "results/figures/Figure7.pdf",
+        "comment": "Figure 7"
+      },
+      {
+        "file": "results/figures/Figure_Sup.png",
+        "comment": "Supplementary figure"
+      },
+      {
+        "file": "results/figures/Figure_sup.pdf",
+        "comment": "Supplementary figure"
+      }
+    ]
+  }
+}

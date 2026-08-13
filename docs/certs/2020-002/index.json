@@ -16,11 +16,7 @@
         "name": "Leslie S. Smith"
       }
     ],
-    "reference": "https://doi.org/10.1088/0954-898X_3_1_008",
-    "abstract": {
-      "text": "A neural net was used to analyse samples of natural images and text. For the natural images, components resemble derivatives of Gaussian operators, similar to those found in visual cortex and inferred from psychophysics. While the results from natural images do not depend on scale, those from text images are highly scale dependent. Convolution of one of the text components with an original image shows that it is sensitive to inter-word gaps.",
-      "source": "OpenAlex"
-    }
+    "reference": "https://doi.org/10.1088/0954-898X_3_1_008"
   },
   "codecheck": {
     "codecheckers": [

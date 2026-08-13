@@ -9,7 +9,7 @@
   {
     "Venue type": "community",
     "Venue name": "CODECHECK",
-    "No. of codechecks": 11,
+    "No. of codechecks": 12,
     "Issue label": "community",
     "codechecks": "https://codecheck.org.uk/register/venues/communities/codecheck/register.json"
   },
@@ -58,7 +58,7 @@
   {
     "Venue type": "community",
     "Venue name": "CODECHECK NL",
-    "No. of codechecks": 15,
+    "No. of codechecks": 14,
     "Issue label": "check-nl",
     "codechecks": "https://codecheck.org.uk/register/venues/communities/codecheck_nl/register.json"
   },
@@ -86,7 +86,7 @@
   {
     "Venue type": "journal",
     "Venue name": "Journal of Spatial Information Science",
-    "No. of codechecks": 1,
+    "No. of codechecks": 2,
     "Issue label": "journal",
     "codechecks": "https://codecheck.org.uk/register/venues/journals/josis/register.json"
   }

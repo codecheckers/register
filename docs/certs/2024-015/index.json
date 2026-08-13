@@ -21,11 +21,7 @@
         "name": "Yijian Zeng"
       }
     ],
-    "reference": "https://doi.org/10.17605/OSF.IO/E2K73",
-    "abstract": {
-      "text": "This project is based on the landscape character assessment of Nigeria, using machine learning and open-access geospatial dataset.",
-      "source": "OpenAlex"
-    }
+    "reference": "https://doi.org/10.17605/OSF.IO/E2K73"
   },
   "codecheck": {
     "codecheckers": [

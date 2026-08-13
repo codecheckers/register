@@ -23,7 +23,8 @@
         "orcid": "0000-0002-1769-6310"
       }
     ],
-    "reference": "https://doi.org/10.1016/j.jenvman.2023.119680"
+    "reference": "https://doi.org/10.1016/j.jenvman.2023.119680",
+    "openalex": "https://openalex.org/W4389355529"
   },
   "codecheck": {
     "codecheckers": [

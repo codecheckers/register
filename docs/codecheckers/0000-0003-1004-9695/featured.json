@@ -2,11 +2,13 @@
   {
     "Certificate ID": "2025-014",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-014/",
+    "Certificate PDF": "https://osf.io/download/nzj8r/",
     "Repository": "osf::st98a",
     "Repository Link": "https://osf.io/st98a",
     "Report": "https://doi.org/10.17605/OSF.IO/st98a",
     "Title": "Beyond Walking and Biking: Expanding the 15-Minute City Area through Public Transport",
     "Paper reference": "https://doi.org/10.5194/agile-giss-6-2-2025",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-04-03"
@@ -14,11 +16,13 @@
   {
     "Certificate ID": "2024-006",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-006/",
+    "Certificate PDF": "https://osf.io/download/z736w/",
     "Repository": "osf::ymc3t",
     "Repository Link": "https://osf.io/ymc3t",
     "Report": "https://doi.org/10.17605/OSF.IO/YMC3T",
     "Title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-15-2024",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-23"
@@ -26,11 +30,13 @@
   {
     "Certificate ID": "2024-007",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2024-007/",
+    "Certificate PDF": "https://osf.io/download/3r9qu/",
     "Repository": "osf::gvpd9",
     "Repository Link": "https://osf.io/gvpd9",
     "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
     "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-7-2024",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-23"
@@ -38,11 +44,13 @@
   {
     "Certificate ID": "2022-003",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-003/",
+    "Certificate PDF": "https://osf.io/download/3snpw/",
     "Repository": "osf::JDTN3",
     "Repository Link": "https://osf.io/JDTN3",
     "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
     "Title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -50,11 +58,13 @@
   {
     "Certificate ID": "2022-016",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2022-016/",
+    "Certificate PDF": "https://osf.io/download/wdgj7/",
     "Repository": "osf::DJFC2",
     "Repository Link": "https://osf.io/DJFC2",
     "Report": "https://doi.org/10.17605/OSF.IO/DJFC2",
     "Title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
     "Paper reference": "https://doi.org/10.5194/agile-giss-3-20-2022",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2022-07-09"
@@ -62,11 +72,13 @@
   {
     "Certificate ID": "2020-019",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-019/",
+    "Certificate PDF": "https://osf.io/download/qsp72/",
     "Repository": "osf::5SVMT",
     "Repository Link": "https://osf.io/5SVMT",
     "Report": "https://doi.org/10.17605/OSF.IO/5SVMT",
     "Title": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
     "Paper reference": "https://doi.org/10.5194/agile-giss-1-7-2020",
+    "OpenAlex": null,
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2020-07-13"

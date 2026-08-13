@@ -1,7 +1,6 @@
 {
-  "timestamp": "2026-03-14 14:23:37 UTC",
+  "timestamp": "2026-08-13 12:27:43 CEST",
   "package_version": "0.25.0.9000",
-  "register_commit": "dfe461cefef9f51972c01c245cc200805491829f",
-  "register_commit_short": "dfe461c",
-  "register_commit_url": "https://github.com/nuest/register/commit/dfe461cefef9f51972c01c245cc200805491829f"
+  "register_commit": "f77d6a31fff09c32c4fb3fb61cc445a295e64193",
+  "register_commit_short": "f77d6a3"
 }

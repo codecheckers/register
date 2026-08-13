@@ -20,7 +20,8 @@
   "codecheck": {
     "codecheckers": [
       {
-        "name": "Sophie Teichmann"
+        "name": "Sophie Teichmann",
+        "orcid": "0000-0002-4314-8107"
       }
     ],
     "check_time": "2025-06-12 12:00:00",

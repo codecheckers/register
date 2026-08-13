@@ -1,7 +1,7 @@
 [
   {
     "Community name": "CODECHECK",
-    "No. of codechecks": 11,
+    "No. of codechecks": 12,
     "codechecks": "https://codecheck.org.uk/register/venues/communities/codecheck/register.json"
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "Community name": "CODECHECK NL",
-    "No. of codechecks": 15,
+    "No. of codechecks": 14,
     "codechecks": "https://codecheck.org.uk/register/venues/communities/codecheck_nl/register.json"
   }
 ]

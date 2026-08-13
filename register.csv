@@ -64,7 +64,7 @@ Certificate,Repository,Type,Venue,Issue
 2023-011,github::codecheckers/rmr-solver,community,preprint,56
 2023-012,github::codecheckers/leba-manuscript,community,preprint,59
 2024-001,github::codecheckers/LazarEtAl_RSocOpenSci_2024,community,preprint,60
-2024-002,github::codecheckers/domestic.wastewater.variability,community,codecheck NL,61
+#2024-002,github::codecheckers/domestic.wastewater.variability,community,codecheck NL,61
 2024-003,github::codecheckers/sddtmpc,community,codecheck NL,66
 2024-004,github::codecheckers/scope,institution,AUMC,96
 2024-006,osf::ymc3t,conference,AGILEGIS,69
@@ -115,4 +115,5 @@ Certificate,Repository,Type,Venue,Issue
 2025-028,github::codecheckers/surv-tcav-pbc,journal,Lifecycle Journal,178
 2025-027,github::codecheckers/zonebuilder,journal,JOSIS,176
 2026-001,github::codecheckers/kite_piv_analysis,institution,TU Delft DCC,187
-
+2026-019,github::codecheckers/certificate-2026-019,community,codecheck,196
+2026-018,github::codecheckers/reproducible-research-giscience-longitudinal-study,journal,JOSIS,195
