@@ -8,6 +8,10 @@ ifdef OPENALEX_API_KEY
 export OPENALEX_API_KEY
 endif
 
+ifdef ZENODO_TOKEN
+export ZENODO_TOKEN
+endif
+
 version:
 	R -q -e "library('codecheck'); sessionInfo();"
 
@@ -15,6 +19,7 @@ version:
 env:
 	@echo "OPENALEX_API_KEY: $(if $(OPENALEX_API_KEY),set ($(shell echo -n '$(OPENALEX_API_KEY)' | wc -c) characters),not set, using the anonymous OpenAlex quota)"
 	@echo "GITHUB_PAT:       $(if $(shell grep -s GITHUB_PAT ~/.Renviron),set in ~/.Renviron,not found in ~/.Renviron)"
+	@echo "ZENODO_TOKEN:     $(if $(ZENODO_TOKEN),set ($(shell echo -n '$(ZENODO_TOKEN)' | wc -c) characters),not set, needed only for the zenodo_* targets)"
 
 install:
 	R -q -e "remotes::install_github('codecheckers/codecheck');"
@@ -47,6 +52,25 @@ check: clean
 
 check_latest: clean
 	R -q -e "register = read.csv('register.csv', as.is = TRUE, comment.char = '#'); codecheck::register_check(from = nrow(register), to = nrow(register) - 5);"
+
+# audit a published certificate record against the CODECHECK Zenodo community
+# curation policy, https://zenodo.org/communities/codecheck/curation-policy
+# Read-only, no token needed.
+zenodo_check:
+ifndef CERT_ID
+	$(error Usage: make zenodo_check CERT_ID=2026-023)
+endif
+	R -q -e "codecheck::check_zenodo_record('$(CERT_ID)');"
+
+# propose the metadata corrections for a published certificate record. Dry run
+# by default, pass APPLY=1 to write the changes to Zenodo, which needs a
+# ZENODO_TOKEN with write access (see .env.example).
+zenodo_curate:
+ifndef CERT_ID
+	$(error Usage: make zenodo_curate CERT_ID=2026-023 [APPLY=1])
+endif
+	R -q -e "codecheck::curate_zenodo_record('$(CERT_ID)', dry_run = $(if $(APPLY),FALSE,TRUE));"
+.phony: zenodo_check, zenodo_curate
 
 # automated build is active via GitHub Action
 image_build:
