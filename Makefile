@@ -27,8 +27,10 @@ install:
 install_local:
 	R -q -e "devtools::install('../codecheck', upgrade = FALSE);"
 
+# CHECK_ZENODO=0 skips the Zenodo curation policy audit, which costs one
+# (cached) API request per certificate on a cold render
 render: version env
-	R -q -e "codecheck::register_render(parallel = TRUE);"
+	R -q -e "codecheck::register_render(parallel = TRUE, check_zenodo_policy = $(if $(filter 0,$(CHECK_ZENODO)),FALSE,TRUE));"
 
 stats: version
 	R -q -e "codecheck::register_update_stats();"
