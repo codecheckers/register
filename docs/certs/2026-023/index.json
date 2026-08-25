@@ -1,0 +1,73 @@
+{
+  "certificate": {
+    "id": "2026-023",
+    "url": "https://codecheck.org.uk/register/certs/2026-023/"
+  },
+  "paper": {
+    "title": "Circadian timing does not modulate human temporal contrast sensitivity\n",
+    "authors": [
+      {
+        "name": "Hannah Sophie Heinrichs",
+        "orcid": "0000-0001-5047-5205"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "reference": "https://doi.org/10.1101/2025.11.10.687546",
+    "abstract": {
+      "text": "<jats:sec>\n                  <jats:title>Introduction<\/jats:title>\n                  <jats:p>Previous studies have reported diurnal variations in colour perception and luminance contrast sensitivity, suggesting modulation of visual processing by the circadian pacemaker. To clarify potential time-of-day effects, we examined whether cone-mediated temporal contrast sensitivity is modulated by circadian timing.<\/jats:p>\n                <\/jats:sec>\n                <jats:sec>\n                  <jats:title>Methods<\/jats:title>\n                  <jats:p>We disentangled circadian and homeostatic influences on human visual performance using a 40-hour forced desynchrony protocol. Twelve participants (5 women, 24.4 ± 2.9 years, range 19–30) followed a repeating 3.75 h cycle comprising 2 h 30 min of wakefulness and 1 h 15 min of sleep under constant environmental conditions. Circadian phase was determined from 46 salivary melatonin samples collected per participant. During wake periods, participants repeatedly completed temporal contrast sensitivity tasks at 2 Hz and 8 Hz, probing luminance (L+M+S) and chromatic (L–M, S-cone-directed) modulations. We tested for circadian modulation of visual performance by comparing multilevel cosinor and uninformative Bayesian models.<\/jats:p>\n                <\/jats:sec>\n                <jats:sec>\n                  <jats:title>Results<\/jats:title>\n                  <jats:p>\n                    All participants showed robust melatonin rhythms (mean\n                    <jats:italic>τ<\/jats:italic>\n                    = 24.18 ± 0.39 h). Bayesian inference provided decisive evidence against circadian variation in luminance or chromatic contrast sensitivity.\n                  <\/jats:p>\n                <\/jats:sec>\n                <jats:sec>\n                  <jats:title>Discussion<\/jats:title>\n                  <jats:p>Within this controlled protocol, we found no detectable near-24-hour modulation of cone-mediated temporal contrast sensitivity. Previously reported time-of-day effects may instead reflect homeostatic influences, pupil-linked changes in retinal illuminance, or mechanisms outside the cone-mediated pathways probed here.<\/jats:p>\n                <\/jats:sec>\n                <jats:sec>\n                  <jats:title>Significance<\/jats:title>\n                  <jats:p>By separating circadian phase from sleep–wake-related influences, this study clarifies when circadian modulation of visual performance can, and cannot, be inferred.<\/jats:p>\n                <\/jats:sec>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W4416182239"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Stephen J. Eglen",
+        "orcid": "0000-0001-8607-8025"
+      }
+    ],
+    "check_time": "2026-08-21 10:00:00",
+    "repository": "github::codecheckers/HeinrichsEtAl_JVis_2026",
+    "report": "https://doi.org/10.5281/zenodo.22094773",
+    "type": "community",
+    "venue": "preprint",
+    "summary": "The bulk of this project is a set of Rscripts. There is also a python package that comes in the authors’ repository, and some Juypyter notebooks. There was some work involved to reproduce the environment on my machine (a mac laptop). However, following feeback with the authors, these issues were resolved and the reproduction was successful.\n",
+    "manifest": [
+      {
+        "file": "results/figures/hormones/descriptives/img_melatonin_overview_figure.pdf",
+        "comment": "Figure 2 of mansucript (made using plot\\_hormone\\_overview.py)"
+      },
+      {
+        "file": "results/tables/log_tcs/codecheck_tbl_hormone_stats.pdf",
+        "comment": "Table 5 of manuscript"
+      },
+      {
+        "file": "results/tables/log_tcs/codecheck_tbl_descriptives_ntcstests.pdf",
+        "comment": "Table 6 of manuscript"
+      },
+      {
+        "file": "results/figures/hormones/tau_harmonics/fig_melatonin_scatter-func.pdf",
+        "comment": "Figure A1 of manuscript"
+      },
+      {
+        "file": "results/figures/hormones/tau_harmonics/fig_melatonin_tau_gof.pdf",
+        "comment": "Figure A2 of manuscript"
+      },
+      {
+        "file": "results/tables/log_tcs/codecheck_tbl_descriptives_tcs.pdf",
+        "comment": "Table 7 of manuscript"
+      },
+      {
+        "file": "results/figures/tcs/fig_psychophysics_test_timeseries_212-2.pdf",
+        "comment": "Figure 3 of manuscript (from descriptives.ipynb)"
+      },
+      {
+        "file": "reports/fig/tcs/img_metropsis_blocks_group.pdf",
+        "comment": "Figure 4A of manuscript (from descriptives.ipynb)"
+      }
+    ]
+  }
+}

@@ -1,5 +1,19 @@
 [
   {
+    "Certificate ID": "2026-023",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-023/",
+    "Certificate PDF": "https://zenodo.org/api/records/22094773/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/HeinrichsEtAl_JVis_2026",
+    "Repository Link": "https://github.com/codecheckers/HeinrichsEtAl_JVis_2026",
+    "Report": "https://doi.org/10.5281/zenodo.22094773",
+    "Title": "Circadian timing does not modulate human temporal contrast sensitivity",
+    "Paper reference": "https://doi.org/10.1101/2025.11.10.687546",
+    "OpenAlex": "https://openalex.org/W4416182239",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2026-08-21"
+  },
+  {
     "Certificate ID": "2020-007",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-007/",
     "Certificate PDF": "https://www.researchequals.com/api/modules/main/8d0a10a6-c84b-4505-903a-f55224441a40",
@@ -124,19 +138,5 @@
     "Type": "journal",
     "Venue": "GigaScience",
     "Check date": "2020-12-07"
-  },
-  {
-    "Certificate ID": "2020-012",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-012/",
-    "Certificate PDF": "https://zenodo.org/api/records/3893617/files/codecheck.pdf/content",
-    "Repository": "github::codecheckers/covid19model-report23",
-    "Repository Link": "https://github.com/codecheckers/covid19model-report23",
-    "Report": "https://doi.org/10.5281/zenodo.3893617",
-    "Title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)",
-    "Paper reference": "https://doi.org/10.25561/79231",
-    "OpenAlex": "https://openalex.org/W3034840651",
-    "Type": "community",
-    "Venue": "preprint",
-    "Check date": "2020-06-14"
   }
 ]

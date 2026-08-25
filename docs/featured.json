@@ -1,5 +1,19 @@
 [
   {
+    "Certificate ID": "2026-023",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-023/",
+    "Certificate PDF": "https://zenodo.org/api/records/22094773/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/HeinrichsEtAl_JVis_2026",
+    "Repository Link": "https://github.com/codecheckers/HeinrichsEtAl_JVis_2026",
+    "Report": "https://doi.org/10.5281/zenodo.22094773",
+    "Title": "Circadian timing does not modulate human temporal contrast sensitivity",
+    "Paper reference": "https://doi.org/10.1101/2025.11.10.687546",
+    "OpenAlex": "https://openalex.org/W4416182239",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2026-08-21"
+  },
+  {
     "Certificate ID": "2026-018",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2026-018/",
     "Certificate PDF": "https://zenodo.org/api/records/21807544/files/codecheck.pdf/content",
@@ -124,19 +138,5 @@
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2025-06-13"
-  },
-  {
-    "Certificate ID": "2025-011",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-011/",
-    "Certificate PDF": "https://osf.io/download/zjbvs/",
-    "Repository": "osf::GT5BW",
-    "Repository Link": "https://osf.io/GT5BW",
-    "Report": "https://doi.org/10.17605/OSF.IO/GT5BW",
-    "Title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-6-5-2025",
-    "OpenAlex": "https://openalex.org/W4411153502",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2025-06-12"
   }
 ]

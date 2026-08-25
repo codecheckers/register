@@ -445,3 +445,5 @@ probably due to a non-deterministic order when processing input files.
 The code is entirely written in Python allowing to understand the
 mechanics by reading and uses a transparent repository structure.
 ",
+"2026-023","github::codecheckers/HeinrichsEtAl_JVis_2026","https://github.com/codecheckers/HeinrichsEtAl_JVis_2026","community","preprint","2026-08-21","https://doi.org/10.5281/zenodo.22094773","Circadian timing does not modulate human temporal contrast sensitivity","https://doi.org/10.1101/2025.11.10.687546","https://openalex.org/W4416182239","Hannah Sophie Heinrichs; Manuel Spitschan","0000-0001-5047-5205; 0000-0002-8572-9268","Stephen J. Eglen","0000-0001-8607-8025","The bulk of this project is a set of Rscripts. There is also a python package that comes in the authors’ repository, and some Juypyter notebooks. There was some work involved to reproduce the environment on my machine (a mac laptop). However, following feeback with the authors, these issues were resolved and the reproduction was successful.
+",

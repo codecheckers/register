@@ -106,5 +106,17 @@
     "Paper reference": "https://doi.org/10.1098/rsos.191613",
     "OpenAlex": "https://openalex.org/W4399759705",
     "Check date": "2024-03-15"
+  },
+  {
+    "Certificate ID": "2026-023",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-023/",
+    "Certificate PDF": "https://zenodo.org/api/records/22094773/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/HeinrichsEtAl_JVis_2026",
+    "Repository Link": "https://github.com/codecheckers/HeinrichsEtAl_JVis_2026",
+    "Report": "https://doi.org/10.5281/zenodo.22094773",
+    "Title": "Circadian timing does not modulate human temporal contrast sensitivity",
+    "Paper reference": "https://doi.org/10.1101/2025.11.10.687546",
+    "OpenAlex": "https://openalex.org/W4416182239",
+    "Check date": "2026-08-21"
   }
 ]
