@@ -55,8 +55,8 @@
     "Repository Link": "https://github.com/codecheckers/causality-review",
     "Report": "https://doi.org/10.5281/zenodo.4720843",
     "Title": "Causality indices for bivariate time series data: a comparative review of performance",
-    "Paper reference": "https://arxiv.org/abs/2104.00718",
-    "OpenAlex": null,
+    "Paper reference": "https://doi.org/10.48550/arXiv.2104.00718",
+    "OpenAlex": "https://openalex.org/W6948154681",
     "Check date": "2021-04-27"
   },
   {
@@ -98,10 +98,10 @@
   {
     "Certificate ID": "2020-009",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2020-009/",
-    "Certificate PDF": "https://zenodo.org/api/records/3767060/files/codecheck.pdf/content",
+    "Certificate PDF": "https://zenodo.org/api/records/22109593/files/codecheck.pdf/content",
     "Repository": "github::codecheckers/2020-cov-tracing",
     "Repository Link": "https://github.com/codecheckers/2020-cov-tracing",
-    "Report": "http://doi.org/10.5281/zenodo.3767060",
+    "Report": "https://doi.org/10.5281/zenodo.22109593",
     "Title": "Model of isolation, contact tracing, and physical distancing (Preprint)",
     "Paper reference": "https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf",
     "OpenAlex": null,

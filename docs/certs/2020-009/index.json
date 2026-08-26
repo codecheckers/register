@@ -24,7 +24,7 @@
     ],
     "check_time": "2020-04-26 20:00:00",
     "repository": "github::codecheckers/2020-cov-tracing",
-    "report": "http://doi.org/10.5281/zenodo.3767060",
+    "report": "https://doi.org/10.5281/zenodo.22109593",
     "type": "community",
     "venue": "preprint",
     "summary": "R code and packages worked well; simple edits needed to working directory.\n",

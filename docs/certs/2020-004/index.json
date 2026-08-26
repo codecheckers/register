@@ -32,7 +32,7 @@
     ],
     "check_time": "2020-05-14 16:00:00",
     "repository": "github::codecheckers/Barto-Sutton-Anderson-1983",
-    "report": "https://doi.org/10.5281/zenodo.3827371",
+    "report": "https://doi.org/10.5281/zenodo.22109800",
     "type": "community",
     "venue": "codecheck",
     "summary": "The check was relatively easy to do because the Python code was simple, but the documentation was not good.\nComputations took about 6 minutes to run.\n",

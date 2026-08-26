@@ -25,7 +25,7 @@
     ],
     "check_time": "2022-01-19 10:00:00",
     "repository": "github::codecheckers/GWR-in-educational-planning",
-    "report": "https://doi.org/10.5281/zenodo.6040066",
+    "report": "https://doi.org/10.5281/zenodo.6043785",
     "type": "community",
     "venue": "codecheck",
     "summary": "R code for this project was reproducible.\n",

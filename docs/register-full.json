@@ -115,7 +115,7 @@
     "Venue": "codecheck",
     "Check date": "2020-05-14",
     "OpenAlex": "https://openalex.org/W1583833196",
-    "Report": "https://doi.org/10.5281/zenodo.3827371",
+    "Report": "https://doi.org/10.5281/zenodo.22109800",
     "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
     "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
     "Paper authors": [
@@ -271,7 +271,7 @@
     "Venue": "preprint",
     "Check date": "2020-04-26",
     "OpenAlex": null,
-    "Report": "http://doi.org/10.5281/zenodo.3767060",
+    "Report": "https://doi.org/10.5281/zenodo.22109593",
     "Title": "Model of isolation, contact tracing, and physical distancing (Preprint)",
     "Paper reference": "https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf",
     "Paper authors": [
@@ -856,10 +856,10 @@
     "Type": "community",
     "Venue": "preprint",
     "Check date": "2021-04-27",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W6948154681",
     "Report": "https://doi.org/10.5281/zenodo.4720843",
     "Title": "Causality indices for bivariate time series data: a comparative review of performance",
-    "Paper reference": "https://arxiv.org/abs/2104.00718",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2104.00718",
     "Paper authors": [
       {
         "name": "Tom Edinburgh",
@@ -1200,7 +1200,7 @@
     "Venue": "codecheck",
     "Check date": "2022-01-19",
     "OpenAlex": null,
-    "Report": "https://doi.org/10.5281/zenodo.6040066",
+    "Report": "https://doi.org/10.5281/zenodo.6043785",
     "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
     "Paper reference": "http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
     "Paper authors": [
@@ -2323,10 +2323,10 @@
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-05-30",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4388184325",
     "Report": "https://doi.org/10.5281/zenodo.11403956",
     "Title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
-    "Paper reference": "https://arxiv.org/pdf/2310.19997",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2310.19997",
     "Paper authors": [
       {
         "name": "Filip Surma",
@@ -2952,10 +2952,10 @@
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-11-22",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4403440488",
     "Report": "https://doi.org/10.5281/zenodo.14211707",
     "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
-    "Paper reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
+    "Paper reference": "https://doi.org/10.3397/IN_2024_3491",
     "Paper authors": [
       {
         "name": "Ilaria Fichera",
