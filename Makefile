@@ -72,7 +72,21 @@ ifndef CERT_ID
 	$(error Usage: make zenodo_curate CERT_ID=2026-023 [APPLY=1])
 endif
 	R -q -e "codecheck::curate_zenodo_record('$(CERT_ID)', dry_run = $(if $(APPLY),FALSE,TRUE));"
-.phony: zenodo_check, zenodo_curate
+# curate Zenodo records of the register: only the mechanical corrections,
+# whose target value follows from the certificate ID or codecheck.yml. Dry run
+# by default, pass APPLY=1 to write. Excludes creator names, which need review.
+# CERTS=2020-001,2024-023 restricts the run to those certificates.
+zenodo_curate_all:
+	R -q -e "\
+	  reg <- read.csv('register.csv', as.is = TRUE, comment.char = '#'); \
+	  full <- jsonlite::fromJSON('docs/register.json'); \
+	  tbl <- merge(data.frame(Certificate = full[['Certificate ID']], Report = full[['Report']], stringsAsFactors = FALSE), \
+	               data.frame(Certificate = reg[['Certificate']], Repository = reg[['Repository']], stringsAsFactors = FALSE), by = 'Certificate'); \
+	  certs <- trimws(strsplit('$(CERTS)', ',')[[1]]); \
+	  if (any(nchar(certs) > 0)) tbl <- tbl[tbl[['Certificate']] %in% certs, ]; \
+	  res <- codecheck::curate_register_zenodo_records(tbl, dry_run = $(if $(APPLY),FALSE,TRUE)); \
+	  write.csv(res, 'zenodo_curation_result.csv', row.names = FALSE);"
+.phony: zenodo_check, zenodo_curate, zenodo_curate_all
 
 # automated build is active via GitHub Action
 image_build:

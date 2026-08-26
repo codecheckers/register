@@ -10,3 +10,4 @@ html_document.yml
 **/temp.md
 
 *.log
+zenodo_curation_result.csv
