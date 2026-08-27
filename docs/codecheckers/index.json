@@ -7,7 +7,7 @@
   {
     "Codechecker name": "Daniel Nüst",
     "ORCID": "0000-0002-0024-5046",
-    "No. of codechecks": 25
+    "No. of codechecks": 26
   },
   {
     "Codechecker name": "Iain Davies",
@@ -17,12 +17,12 @@
   {
     "Codechecker name": "Carlos Granell",
     "ORCID": "0000-0003-1004-9695",
-    "No. of codechecks": 6
+    "No. of codechecks": 7
   },
   {
     "Codechecker name": "Frank Ostermann",
     "ORCID": "0000-0002-9317-8291",
-    "No. of codechecks": 9
+    "No. of codechecks": 11
   },
   {
     "Codechecker name": "Marcel Stimberg",
@@ -62,7 +62,7 @@
   {
     "Codechecker name": "Eftychia Koukouraki",
     "ORCID": "0000-0003-0928-1139",
-    "No. of codechecks": 5
+    "No. of codechecks": 6
   },
   {
     "Codechecker name": "Raniere Silva",
@@ -252,7 +252,7 @@
   {
     "Codechecker name": "Sophie Teichmann",
     "ORCID": "0000-0002-4314-8107",
-    "No. of codechecks": 2
+    "No. of codechecks": 4
   },
   {
     "Codechecker name": "Ilya Ilyankou",
@@ -308,5 +308,25 @@
     "Codechecker name": "Alexander Trinidad",
     "ORCID": "0000-0002-0762-5367",
     "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Egor Kotov",
+    "ORCID": "0000-0001-6690-5345",
+    "No. of codechecks": 2
+  },
+  {
+    "Codechecker name": "Franz Welscher",
+    "ORCID": "0000-0003-2432-1880",
+    "No. of codechecks": 2
+  },
+  {
+    "Codechecker name": "Joseph Shingleton",
+    "ORCID": "0000-0002-1628-3231",
+    "No. of codechecks": 1
+  },
+  {
+    "Codechecker name": "Jeonghwan Choi",
+    "ORCID": "0009-0002-5027-1151",
+    "No. of codechecks": 2
   }
 ]

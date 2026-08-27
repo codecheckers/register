@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CODECHECK Certificate 2026-004</title>
+
+<script src="../../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../../libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="../../libs/navigation-1.1/tabsets.js"></script>
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+
+<link rel="stylesheet" href="../../assets/codecheck-register.css">
+
+<meta property="og:title" content="CODECHECK Register">
+<meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
+<meta name="generator" content="codecheck">
+
+<meta property="og:url" content="https://codecheck.org.uk/register/">
+<meta property="og:site_name" content="CODECHECK Register">
+<meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
+
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-004/",
+  "name": "CODECHECK Certificate 2026-004",
+  "url": "https://codecheck.org.uk/register/certs/2026-004/",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Egor Kotov",
+      "@id": "https://orcid.org/0000-0001-6690-5345"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ioanna Gogousou",
+        "@id": "https://orcid.org/0009-0001-3200-7202"
+      },
+      {
+        "@type": "Person",
+        "name": "Manuela Canestrini",
+        "@id": "https://orcid.org/0009-0005-1501-8398"
+      },
+      {
+        "@type": "Person",
+        "name": "Negar Alinaghi",
+        "@id": "https://orcid.org/0000-0001-6594-4481"
+      },
+      {
+        "@type": "Person",
+        "name": "Ioannis Giannopoulos",
+        "@id": "https://orcid.org/0000-0002-2556-5230"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Conventional routing algorithms in urban settings typically optimize travel time, assuming that travelers will accept any combination of public and active transport modes to have the fastest route. Empirical evidence, however, shows that people value more than just time: they usually avoid routes with excessive walking or transfers, even if they are technically the fastest. Most existing studies assume an average, healthy population and do not account for travelers who cannot or do not wish to meet typical mobility requirements. This work examines how routing outcomes change when mobility preference thresholds, defined as maximum acceptable walking distance, cycling distance, and number of transfers within a trip, are reduced. Using a synthetic mobility data generation pipeline, we generate thousands of Origin–Destination (OD) pairs and systematically reduce these thresholds by 25%, 50%, and 75% relative to baseline average values. Results from the city of Vienna, show that feasible routes, namely the routes that satisfy average mobility thresholds, exist for the majority of OD pairs (18,639/20,000), while average travel times for these routes remain relatively stable. However, stricter thresholds lead to major feasibility losses: only 1,506 of 20,000 OD pairs remain feasible, with average travel times increasing by min 5 to max 46% compared to the baseline.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/r2674<\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-7-3-2026",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-7-3-2026", "https://openalex.org/W7164176972"]
+  },
+  "reviewBody": "Reproduction of the multimodal routing analysis for the city of Vienna, investigating how routing outcomes change under behavioral constraints. The full pipeline (baseline routing, inclusive baseline routing, 12 parameter-variation scenarios, data grouping and visualization) was completed in a single, fully automated run on HPC resources. The reproduction was fully successful.\n",
+  "datePublished": "2026-03-15",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/R2674"
+  }
+}</script>
+
+<!-- Icon fonts -->
+<link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="codecheck-navbar">
+  <div class="navbar-container">
+    <a href="../../index.html" class="navbar-brand">
+      <img src="../../codecheck_logo.svg" alt="CODECHECK" class="navbar-logo">
+    </a>
+
+  </div>
+</div>
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/conferences/index.html">Conferences</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/conferences/agilegis/index.html">AGILE Conference on Geographic Information Science</a></li>
+    <li class="breadcrumb-item active" aria-current="page">2026-004</li>
+  </ol>
+</nav>
+</div>
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">CODECHECK Certificate 2026-004</h1>
+
+</div>
+
+
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<div class="cert-container container-fluid">
+<div class="row">
+<div class="col-md-6">
+<div class="card mb-3">
+<div class="card-body">
+<!-- Buttons to change cert page -->
+<div class="d-flex justify-content-center">
+<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2" id="prev-btn" title="View previous page">
+<h4>
+Previous
+</h4>
+</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+<h4>
+Next
+</h4>
+</button>
+</div>
+<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+</div>
+</div>
+</div>
+<!-- Right Side Content (Paper details + CODECHECK details) -->
+<div class="col-md-6 d-flex flex-column">
+<div class="card mb-3 flex-grow-1">
+<div class="card-header pt-4">
+<h2 class="card-title cert-card-title">
+Paper details
+</h2>
+</div>
+<div class="card-body d-flex flex-column">
+<p>
+<strong>Title</strong>: <a href="https://doi.org/10.5194/agile-giss-7-3-2026">Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility</a>
+</p>
+<p>
+<strong>Authors</strong>: <a href="https://orcid.org/0009-0001-3200-7202">Ioanna Gogousou</a> <a href="https://orcid.org/0009-0001-3200-7202" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="https://orcid.org/0009-0005-1501-8398">Manuela Canestrini</a> <a href="https://orcid.org/0009-0005-1501-8398" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="https://orcid.org/0000-0001-6594-4481">Negar Alinaghi</a> <a href="https://orcid.org/0000-0001-6594-4481" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="https://orcid.org/0000-0002-2556-5230">Ioannis Giannopoulos</a> <a href="https://orcid.org/0000-0002-2556-5230" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+</p>
+<!-- Abstract section -->
+<div id="abstract-section" class="text-container">
+<p>
+<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+</p>
+<div id="abstract-content" class="text-box">
+<p>
+<jats:p>Abstract. Conventional routing algorithms in urban settings typically optimize travel time, assuming that travelers will accept any combination of public and active transport modes to have the fastest route. Empirical evidence, however, shows that people value more than just time: they usually avoid routes with excessive walking or transfers, even if they are technically the fastest. Most existing studies assume an average, healthy population and do not account for travelers who cannot or do not wish to meet typical mobility requirements. This work examines how routing outcomes change when mobility preference thresholds, defined as maximum acceptable walking distance, cycling distance, and number of transfers within a trip, are reduced. Using a synthetic mobility data generation pipeline, we generate thousands of Origin–Destination (OD) pairs and systematically reduce these thresholds by 25%, 50%, and 75% relative to baseline average values. Results from the city of Vienna, show that feasible routes, namely the routes that satisfy average mobility thresholds, exist for the majority of OD pairs (18,639/20,000), while average travel times for these routes remain relatively stable. However, stricter thresholds lead to major feasibility losses: only 1,506 of 20,000 OD pairs remain feasible, with average travel times increasing by min 5 to max 46% compared to the baseline.  Reproducibility review available at: <a href="https://doi.org/10.17605/OSF.IO/r2674" class="uri">https://doi.org/10.17605/OSF.IO/r2674</a></jats:p>
+</p>
+</div>
+</div>
+<p>
+<strong>OpenAlex</strong>: <a href="https://openalex.org/W7164176972">https://openalex.org/W7164176972</a>
+</p>
+</div>
+</div>
+<div class="card mb-3 flex-grow-1">
+<div class="card-header pt-4">
+<h2 class="card-title cert-card-title">
+CODECHECK details
+</h2>
+</div>
+<div class="card-body d-flex flex-column">
+<p>
+<strong>Certificate identifier</strong>: 2026-004
+</p>
+<p>
+<strong>Codechecker name</strong>: <a href="../../codecheckers/0000-0001-6690-5345/">Egor Kotov</a> <a href="https://orcid.org/0000-0001-6690-5345" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+</p>
+<p>
+<strong>Time of check</strong>: 2026-03-15 12:00:00
+</p>
+<p>
+<strong>Repository</strong>: <a href="https://github.com/reproducible-agile/reviews-2026%7Creports/007" class="uri">https://github.com/reproducible-agile/reviews-2026|reports/007</a>
+</p>
+<p>
+<strong>Full certificate</strong>: <a href="https://doi.org/10.17605/OSF.IO/R2674" class="uri">https://doi.org/10.17605/OSF.IO/R2674</a>
+</p>
+<p>
+<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
+</p>
+<p>
+<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
+</p>
+<!-- Summary -->
+<div id="summary-section" class="text-container">
+<p>
+<strong>Summary</strong>:
+</p>
+<div id="summary-content" class="text-box">
+<p>
+Reproduction of the multimodal routing analysis for the city of Vienna, investigating how routing outcomes change under behavioral constraints. The full pipeline (baseline routing, inclusive baseline routing, 12 parameter-variation scenarios, data grouping and visualization) was completed in a single, fully automated run on HPC resources. The reproduction was fully successful.
+</p>
+</div>
+</div>
+<!-- Citation Generator -->
+<div id="citation-section" class="mt-3">
+<p>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+</p>
+<div class="mb-2">
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+</div>
+<div class="citation-preview-wrapper mb-2">
+<div id="citation-preview" class="border rounded p-2 citation-preview">
+<span class="text-muted">Loading citation…</span>
+</div>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../../libs/codecheck/citation.min.js"></script>
+<script src="../../libs/codecheck/citation-wrapper.js"></script>
+<script src="../../libs/codecheck/cert-utils.js"></script>
+<script src="../../libs/codecheck/cert-citation.js"></script>
+<p class="text-muted cert-footer-link">
+<a href="index.json">View certificate data as JSON</a>
+</p>
+</div>
+<script>
+// Dynamically insert the images array
+var images = ["cert_1.png", "cert_2.png", "cert_3.png", "cert_4.png", "cert_5.png", "cert_6.png", "cert_7.png", "cert_8.png", "cert_9.png"];
+var currentIndex = 0;
+
+// Initialize page on DOM load
+document.addEventListener("DOMContentLoaded", function() {
+  // Setting the cert page 1 as the display image
+  changeImage(0);
+
+  initializeCertificateSections();
+
+  // Initialize auto-pagination
+  if (typeof initializeAutoPagination === 'function') {
+    initializeAutoPagination();
+  }
+
+  // Initialize citation generator
+  // The citation-wrapper.js ensures Cite is available globally
+  if (typeof initializeCitationGenerator === 'function') {
+    initializeCitationGenerator();
+  } else {
+    console.error('Citation generator function not available');
+  }
+});
+
+</script>
+
+<p class="footer-links">
+</p>
+
+<hr class="footer-separator" />
+
+<!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
+<div class="footer-content">
+    <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
+            href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
+
+    <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p><a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"><img title="license logo CC BY-SA 4.0"
+                src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></a>
+    </p>
+
+    <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit">https://doi.org/10.5281/zenodo.4059767</a></p>
+
+    <p class="footer-description">CODECHECK is a process for independent execution of
+        computations underlying scholarly research articles.</p>
+
+    <p class="build-info"></p>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

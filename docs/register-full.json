@@ -3464,7 +3464,7 @@
     "Venue": "TU Delft DCC",
     "Check date": "2025-04-08",
     "OpenAlex": null,
-    "Report": "https://doi.org/10.5281/zenodo.15310765",
+    "Report": "https://doi.org/10.5281/zenodo.15527133",
     "Title": "Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach",
     "Paper reference": "https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b",
     "Paper authors": [
@@ -4234,6 +4234,533 @@
       }
     ],
     "Summary": "Partial reproduction of figures in the publication \n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-004",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/007",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/007",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-15",
+    "OpenAlex": "https://openalex.org/W7164176972",
+    "Report": "https://doi.org/10.17605/OSF.IO/R2674",
+    "Title": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-3-2026",
+    "Paper authors": [
+      {
+        "name": "Ioanna Gogousou",
+        "orcid": "0009-0001-3200-7202"
+      },
+      {
+        "name": "Manuela Canestrini",
+        "orcid": "0009-0005-1501-8398"
+      },
+      {
+        "name": "Negar Alinaghi",
+        "orcid": "0000-0001-6594-4481"
+      },
+      {
+        "name": "Ioannis Giannopoulos",
+        "orcid": "0000-0002-2556-5230"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Egor Kotov",
+        "orcid": "0000-0001-6690-5345"
+      }
+    ],
+    "Summary": "Reproduction of the multimodal routing analysis for the city of Vienna, investigating how routing outcomes change under behavioral constraints. The full pipeline (baseline routing, inclusive baseline routing, 12 parameter-variation scenarios, data grouping and visualization) was completed in a single, fully automated run on HPC resources. The reproduction was fully successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-005",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/008",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/008",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-24",
+    "OpenAlex": "https://openalex.org/W7164129368",
+    "Report": "https://doi.org/10.17605/OSF.IO/DZT8C",
+    "Title": "A Method for Spatializing Disturbance by Detecting Human-Wildlife Encounters from GNSS Trajectories",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-2-2026",
+    "Paper authors": [
+      {
+        "name": "John Dawson",
+        "orcid": "0009-0008-9333-7169"
+      },
+      {
+        "name": "Veronika Peralta",
+        "orcid": "0000-0002-9236-9088"
+      },
+      {
+        "name": "Ana-Maria Olteanu-Raimond",
+        "orcid": "0000-0002-1101-1333"
+      },
+      {
+        "name": "Thomas Devogele",
+        "orcid": "0000-0001-9187-8385"
+      },
+      {
+        "name": "Mathieu Garel",
+        "orcid": "0000-0002-5978-7122"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Franz Welscher",
+        "orcid": "0000-0003-2432-1880"
+      }
+    ],
+    "Summary": "The reproduction was mostly successful by following the repository README and adapting the workflow to the available environment (PostgreSQL 15 instead of 16). Several issues required manual fixes: an invalid geometry blocked the database import, a timestamp/date mismatch broke a table-creation function, the DEM file was not included and had to be requested from the authors, and the Figure 8 script contained an SQL error. After corrections, all figures and tables were reproduced, with minor discrepancies remaining in Tables 2, 3, 5 and 8.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-006",
+    "Repository": "osf::zpurt",
+    "Repository Link": "https://osf.io/zpurt",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-19",
+    "OpenAlex": "https://openalex.org/W7164155701",
+    "Report": "https://doi.org/10.17605/OSF.IO/ZPURT",
+    "Title": "Towards Fine-grained Relevance Scoring of Social Media Posts in Disaster Response: A Decay-based Regression Approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-4-2026",
+    "Paper authors": [
+      {
+        "name": "David Hanny",
+        "orcid": "0009-0004-8017-0786"
+      },
+      {
+        "name": "Andreas Kramer",
+        "orcid": "0009-0006-4763-749X"
+      },
+      {
+        "name": "Ehsaneddin Jalilian",
+        "orcid": "0000-0001-5925-5735"
+      },
+      {
+        "name": "Sebastian Schmidt",
+        "orcid": "0000-0003-1912-9771"
+      },
+      {
+        "name": "Bernd Resch",
+        "orcid": "0000-0002-2233-6926"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Sophie Teichmann",
+        "orcid": "0000-0002-4314-8107"
+      }
+    ],
+    "Summary": "Full reproduction. Using the materials provided by the authors, the reported results were successfully reproduced.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-007",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/012",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/012",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-06-09",
+    "OpenAlex": "https://openalex.org/W7164208595",
+    "Report": "https://doi.org/10.17605/OSF.IO/DZURB",
+    "Title": "Analysis of the spatial and temporal pattern of COVID-19 incidence rate across Germany",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-9-2026",
+    "Paper authors": [
+      {
+        "name": "Sven Lautenbach",
+        "orcid": "0000-0003-1825-9996"
+      },
+      {
+        "name": "Marcel Maurer",
+        "orcid": "0000-0002-0204-5101"
+      },
+      {
+        "name": "Alexander Zipf",
+        "orcid": "0000-0003-4916-9838"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Eftychia Koukouraki",
+        "orcid": "0000-0003-0928-1139"
+      }
+    ],
+    "Summary": "Partially successful reproduction. The authors shared scripts, intermediate results and documented instructions via an anonymous GitHub link. Figures 1-7 and Tables 2 and 3 were verified; the reproduced results were mostly in accordance with the reported results.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-008",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/013",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/013",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-31",
+    "OpenAlex": "https://openalex.org/W7164194149",
+    "Report": "https://doi.org/10.17605/OSF.IO/YH8F6",
+    "Title": "Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-13-2026",
+    "Paper authors": [
+      {
+        "name": "Ruslan Mammadov",
+        "orcid": "0009-0006-3516-9852"
+      },
+      {
+        "name": "Paul Walther",
+        "orcid": "0000-0002-5101-5793"
+      },
+      {
+        "name": "Julius Fricke",
+        "orcid": "0009-0005-7709-8178"
+      },
+      {
+        "name": "Martin Werner",
+        "orcid": "0000-0002-6951-8022"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Joseph Shingleton",
+        "orcid": "0000-0002-1628-3231"
+      }
+    ],
+    "Summary": "Partial reproduction of the foundation-model cocoa-mapping study. The provided code and data allowed the workflow to be run, though some files in the repository were differentiated only by path rather than filename, complicating the reproduction.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-009",
+    "Repository": "osf::kcpze",
+    "Repository Link": "https://osf.io/kcpze",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-19",
+    "OpenAlex": "https://openalex.org/W7164168945",
+    "Report": "https://doi.org/10.17605/OSF.IO/KCPZE",
+    "Title": "Enhancing the Potential of a Tangible-Digital Planning Interface through User Evaluation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-5-2026",
+    "Paper authors": [
+      {
+        "name": "Vincent Holtorf",
+        "orcid": "0009-0008-4486-531X"
+      },
+      {
+        "name": "Maria Moleiro Dale",
+        "orcid": "0000-0001-7655-1309"
+      },
+      {
+        "name": "Jörg Rainer Noennig",
+        "orcid": "0000-0002-1681-7635"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Jeonghwan Choi",
+        "orcid": "0009-0002-5027-1151"
+      }
+    ],
+    "Summary": "Full reproduction. The submission is based on a qualitative framework and spreadsheet-based analysis rather than custom programming. The reviewer reviewed the materials in the repository (data and analysis materials archived at https://doi.org/10.5281/zenodo.18195076) and reproduced the reported figures.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-010",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/016",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/016",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-06",
+    "OpenAlex": "https://openalex.org/W7164137138",
+    "Report": "https://doi.org/10.17605/OSF.IO/DA3Z4",
+    "Title": "Exploring urban polygonal representation learning for complex footprint groups",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-11-2026",
+    "Paper authors": [
+      {
+        "name": "Luisa Lo Presti",
+        "orcid": "0009-0006-1096-9108"
+      },
+      {
+        "name": "Peter Mooney",
+        "orcid": "0000-0002-2389-3783"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Carlos Granell",
+        "orcid": "0000-0003-1004-9695"
+      }
+    ],
+    "Summary": "Full reproduction. The reviewer was pointed to the authors' GitHub repository, cloned it into Google Colab, configured the environment and executed the code without deviations from the submitted manuscript. The study comes with a full code repository and the results were reproduced.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-011",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/017",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/017",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-31",
+    "OpenAlex": "https://openalex.org/W7164197613",
+    "Report": "https://doi.org/10.17605/OSF.IO/75PWN",
+    "Title": "Towards National-Scale Ecological Applications: Harmonised Framework for LiDAR Point Cloud Processing for Vegetation Metrics Calculation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-18-2026",
+    "Paper authors": [
+      {
+        "name": "Eveli Sisas",
+        "orcid": "0009-0002-5032-249X"
+      },
+      {
+        "name": "Holger Virro",
+        "orcid": "0000-0001-6110-5453"
+      },
+      {
+        "name": "Wai Tik Chan",
+        "orcid": "0009-0005-3779-139X"
+      },
+      {
+        "name": "Alexander Kmoch",
+        "orcid": "0000-0003-4386-4450"
+      },
+      {
+        "name": "Aveliina Helm",
+        "orcid": "0000-0003-2338-4564"
+      },
+      {
+        "name": "Evelyn Uuemaa",
+        "orcid": "0000-0002-0782-6740"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "Full reproduction of a sample data set. A complete reproduction was infeasible as part of the review due to the computational environment required for the national-scale workflow, but the successful reproduction of a sample data set demonstrates the overall reproducibility of the study.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-012",
+    "Repository": "osf::bv4mk",
+    "Repository Link": "https://osf.io/bv4mk",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-10",
+    "OpenAlex": "https://openalex.org/W7164184955",
+    "Report": "https://doi.org/10.17605/OSF.IO/BV4MK",
+    "Title": "Spatio-Temporal Knowledge Graph from Unstructured Texts: A Multi-Scale Approach for Food Security Monitoring",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-16-2026",
+    "Paper authors": [
+      {
+        "name": "Charles Abdoulaye Ngom",
+        "orcid": "0009-0007-4540-4112"
+      },
+      {
+        "name": "Landy Rajaonarivo",
+        "orcid": "0000-0003-1831-270X"
+      },
+      {
+        "name": "Maguelonne Teisseire",
+        "orcid": "0000-0001-9313-6414"
+      },
+      {
+        "name": "Sarah Valentin",
+        "orcid": "0000-0002-9028-681X"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Sophie Teichmann",
+        "orcid": "0000-0002-4314-8107"
+      }
+    ],
+    "Summary": "Partial reproduction. The authors provided a well-documented GitHub repository with detailed instructions; Table 2 was recreated with the provided script. A full reproduction requires substantial computational resources (in particular the fine-tuning in Step 2).\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-013",
+    "Repository": "osf::hetv8",
+    "Repository Link": "https://osf.io/hetv8",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-13",
+    "OpenAlex": "https://openalex.org/W7164179951",
+    "Report": "https://doi.org/10.17605/OSF.IO/HETV8",
+    "Title": "Maximizing Data Coverage: Fusing Street View and Oblique Imagery to Quantify Vertical Greenery Potential in Urban Areas",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-8-2026",
+    "Paper authors": [
+      {
+        "name": "Aruscha Kramm",
+        "orcid": "0009-0002-7801-9388"
+      },
+      {
+        "name": "André Ludwig"
+      },
+      {
+        "name": "Bogdan Franczyk"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Jeonghwan Choi",
+        "orcid": "0009-0002-5027-1151"
+      }
+    ],
+    "Summary": "Partially reproducible. The LoD2 preprocessing step (distribution of façade orientations) was reproduced successfully, confirming successful preprocessing; other manuscript outputs could be reproduced only partially.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-014",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/026",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/026",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-06-11",
+    "OpenAlex": "https://openalex.org/W7164210649",
+    "Report": "https://doi.org/10.53962/pdw8-n5v0",
+    "Title": "Food Insecurity Projections for Anticipatory Action: Comparative Spatiotemporal Analysis of FEWS NET and the IPC in Somalia",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-17-2026",
+    "Paper authors": [
+      {
+        "name": "Ferdinand Seyffer",
+        "orcid": "0009-0009-8274-1462"
+      },
+      {
+        "name": "Anne Schauss",
+        "orcid": "0009-0001-6773-0468"
+      },
+      {
+        "name": "Suella Tirai"
+      },
+      {
+        "name": "Marcel Maurer",
+        "orcid": "0000-0002-0204-5101"
+      },
+      {
+        "name": "Sven Lautenbach",
+        "orcid": "0000-0003-1825-9996"
+      },
+      {
+        "name": "Alexander Zipf",
+        "orcid": "0000-0003-4916-9838"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Daniel Nüst",
+        "orcid": "0000-0002-0024-5046"
+      }
+    ],
+    "Summary": "The article presents a comparative spatio-temporal analysis of food insecurity projections in Somalia. A workflow is provided as a collection of scripts with a Docker compose environment. The workflow as described could be executed and all figures and maps from the article were recreated with the code and data provided. The reproduction is fully successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-015",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/029",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/029",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-10",
+    "OpenAlex": "https://openalex.org/W7164183500",
+    "Report": "https://doi.org/10.17605/OSF.IO/VCGY2",
+    "Title": "Assessing the Geographic Diversity of AI's Platial Representations in Image Generation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-10-2026",
+    "Paper authors": [
+      {
+        "name": "Zilong Liu",
+        "orcid": "0000-0002-7699-3366"
+      },
+      {
+        "name": "Krzysztof Janowicz",
+        "orcid": "0009-0003-1968-887X"
+      },
+      {
+        "name": "Mina Karimi",
+        "orcid": "0000-0003-2521-8164"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank O. Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "Successful but partial reproduction. The third part of the analysis reproduced smoothly, with all figures identical to the ones produced for the paper.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-016",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/031",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/031",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-27",
+    "OpenAlex": "https://openalex.org/W7164140075",
+    "Report": "https://doi.org/10.17605/OSF.IO/WH6GD",
+    "Title": "Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-6-2026",
+    "Paper authors": [
+      {
+        "name": "Mina Karimi",
+        "orcid": "0000-0003-2521-8164"
+      },
+      {
+        "name": "Krzysztof Janowicz",
+        "orcid": "0009-0003-1968-887X"
+      },
+      {
+        "name": "Zilong Liu",
+        "orcid": "0000-0002-7699-3366"
+      },
+      {
+        "name": "Songlin Wang",
+        "orcid": "0009-0004-6506-2859"
+      },
+      {
+        "name": "Annika Süß"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Franz Welscher",
+        "orcid": "0000-0003-2432-1880"
+      }
+    ],
+    "Summary": "The study is partially reproducible due to external resource constraints. The provided code, data and documentation are clear and complete, but a full reproduction was not possible because data generation relied on paid APIs (OpenAI, DeepSeek, Google Gemini) that were not accessible for re-running, and indices/figures required ArcGIS/arcpy, which was unavailable on the reviewer's system.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-017",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/033",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/033",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-25",
+    "OpenAlex": "https://openalex.org/W7164128034",
+    "Report": "https://doi.org/10.17605/OSF.IO/8C3VF",
+    "Title": "OpenStreetMap Suitability Analysis for Wheelchair Routing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-12-2026",
+    "Paper authors": [
+      {
+        "name": "Ivan Majic",
+        "orcid": "0000-0002-0834-3791"
+      },
+      {
+        "name": "Thomas Gegenleithner"
+      },
+      {
+        "name": "Johannes Scholz",
+        "orcid": "0000-0002-3212-8864"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Egor Kotov",
+        "orcid": "0000-0001-6690-5345"
+      }
+    ],
+    "Summary": "Reproduction using the authors' updated data package (v2), covering the full pipeline including database setup and all analysis notebooks (01 to 04). While the v2 package significantly improved structure and documentation, several surgical fixes were still required to address environment-specific dependency conflicts, undocumented tool behaviors, and logic bugs in the provided scripts. All notebooks were ultimately executed successfully.\n",
     "Source": null
   },
   {

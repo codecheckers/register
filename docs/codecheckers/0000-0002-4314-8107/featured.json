@@ -1,5 +1,33 @@
 [
   {
+    "Certificate ID": "2026-012",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-012/",
+    "Certificate PDF": "https://osf.io/download/8wqxn/",
+    "Repository": "osf::bv4mk",
+    "Repository Link": "https://osf.io/bv4mk",
+    "Report": "https://doi.org/10.17605/OSF.IO/BV4MK",
+    "Title": "Spatio-Temporal Knowledge Graph from Unstructured Texts: A Multi-Scale Approach for Food Security Monitoring",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-16-2026",
+    "OpenAlex": "https://openalex.org/W7164184955",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-10"
+  },
+  {
+    "Certificate ID": "2026-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-006/",
+    "Certificate PDF": "https://osf.io/download/5rp36/",
+    "Repository": "osf::zpurt",
+    "Repository Link": "https://osf.io/zpurt",
+    "Report": "https://doi.org/10.17605/OSF.IO/ZPURT",
+    "Title": "Towards Fine-grained Relevance Scoring of Social Media Posts in Disaster Response: A Decay-based Regression Approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-4-2026",
+    "OpenAlex": "https://openalex.org/W7164155701",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-19"
+  },
+  {
     "Certificate ID": "2025-011",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-011/",
     "Certificate PDF": "https://osf.io/download/zjbvs/",

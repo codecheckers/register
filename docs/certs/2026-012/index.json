@@ -1,0 +1,53 @@
+{
+  "certificate": {
+    "id": "2026-012",
+    "url": "https://codecheck.org.uk/register/certs/2026-012/"
+  },
+  "paper": {
+    "title": "Spatio-Temporal Knowledge Graph from Unstructured Texts: A Multi-Scale Approach for Food Security Monitoring",
+    "authors": [
+      {
+        "name": "Charles Abdoulaye Ngom",
+        "orcid": "0009-0007-4540-4112"
+      },
+      {
+        "name": "Landy Rajaonarivo",
+        "orcid": "0000-0003-1831-270X"
+      },
+      {
+        "name": "Maguelonne Teisseire",
+        "orcid": "0000-0001-9313-6414"
+      },
+      {
+        "name": "Sarah Valentin",
+        "orcid": "0000-0002-9028-681X"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-7-16-2026",
+    "abstract": {
+      "text": "<jats:p>Abstract. Food security monitoring in West Africa requires timely, fine-grained, and interpretable information to support decision-making and crisis prevention. However, current approaches rely largely on structured survey data (e.g., FEWS NET), which, while valuable, do not capture the fine-grained, local-scale spatial and temporal dynamics that can be extracted from unstructured textual sources. To address these limitations, we propose an integrated framework combining natural language processing (NLP) and knowledge graph modeling to extract, structure, and analyze food security-related information from press articles. This representation enables multi-scale spatial queries and temporal pattern detection through the knowledge graph, allowing the identification of cascading or co-occurring risks. Applied to a West African country, the framework demonstrates how unstructured textual data can complement conventional food security assessments by providing both localized insights and broader spatio-temporal perspectives, highlighting the combined value of NLP-based extraction and knowledge graph reasoning for food security monitoring.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/BV4MK<\/jats:p>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W7164184955"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Sophie Teichmann",
+        "orcid": "0000-0002-4314-8107"
+      }
+    ],
+    "check_time": "2026-04-10 12:00:00",
+    "repository": "osf::bv4mk",
+    "report": "https://doi.org/10.17605/OSF.IO/BV4MK",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "Partial reproduction. The authors provided a well-documented GitHub repository with detailed instructions; Table 2 was recreated with the provided script. A full reproduction requires substantial computational resources (in particular the fine-tuning in Step 2).\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2026 Reproducibility Review report does not list discrete output files, see https://github.com/codecheckers/register/issues/186 for more information"
+      }
+    ]
+  }
+}

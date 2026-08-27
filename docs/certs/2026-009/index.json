@@ -1,0 +1,57 @@
+{
+  "certificate": {
+    "id": "2026-009",
+    "url": "https://codecheck.org.uk/register/certs/2026-009/"
+  },
+  "paper": {
+    "title": "Enhancing the Potential of a Tangible-Digital Planning Interface through User Evaluation",
+    "authors": [
+      {
+        "name": "Vincent Holtorf",
+        "orcid": "0009-0008-4486-531X"
+      },
+      {
+        "name": "Maria Moleiro Dale",
+        "orcid": "0000-0001-7655-1309"
+      },
+      {
+        "name": "Jörg Rainer Noennig",
+        "orcid": "0000-0002-1681-7635"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-7-5-2026",
+    "abstract": {
+      "text": "<jats:p>Abstract. Participatory urban planning increasingly relies on digital technologies to democratise geospatial information access, yet traditional GIS-based interfaces often exclude non-expert users. Tangible User Interfaces (TUIs) offer a promising alternative by combining intuitive physical interaction with computational analysis. Despite this advancement, the systematic evaluation of how diverse user groups experience such systems remains limited. This study addresses this gap through framework analysis of the feedback from 58 participants across 12 interdisciplinary groups within the academic context who interacted with COUP (Cockpit for Collaborative Urban Planning), a hybrid, tangible-digital interface integrating physical city models with real-time environmental simulations. Users consult and modify district designs while observing impacts on wind comfort, noise propagation, and pedestrian flows through projected visualisations. Mixed-methods analysis identified four consensus strengths: real-time interactivity (91.7%), collaboration support (83.3%), visualisation quality (83.3%), and multi-parameter integration (75.0%). Significant limitations also emerged regarding data accuracy concerns (75.0%), performance issues (66.7%), and technical instability (58.3%), revealing tensions between appreciated potential and practical adoption barriers. Findings provide empirical evidence on how tangible geospatial interfaces translate complex environmental data into actionable planning insights accessible to diverse user groups. The conducted analysis, with a small sample size, is considered a first approach to the enhancement of user evaluation of digital tools for urban planning. The collected recommendations shed light for advancing participatory tools that support evidence-based environmental decision-making, essential for building climate-responsive cities while genuinely empowering user engagement in collaborative urban planning processes.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/KCPZE<\/jats:p>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W7164168945"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Jeonghwan Choi",
+        "orcid": "0009-0002-5027-1151"
+      }
+    ],
+    "check_time": "2026-03-19 12:00:00",
+    "repository": "osf::kcpze",
+    "report": "https://doi.org/10.17605/OSF.IO/KCPZE",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "Full reproduction. The submission is based on a qualitative framework and spreadsheet-based analysis rather than custom programming. The reviewer reviewed the materials in the repository (data and analysis materials archived at https://doi.org/10.5281/zenodo.18195076) and reproduced the reported figures.\n",
+    "manifest": [
+      {
+        "file": "~result/Figure_1.png",
+        "comment": "Regenerated Figure 1 (system strengths identified by the participant groups)"
+      },
+      {
+        "file": "~result/Figure_2.png",
+        "comment": "Regenerated Figure 2 (system strengths identified by the participant groups)"
+      },
+      {
+        "file": "~result/regenerate_figures.xlsx",
+        "comment": "Spreadsheet regenerating the figures; Keywords_Pro&Con.pdf holds the aggregated thematic category counts"
+      }
+    ]
+  }
+}

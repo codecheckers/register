@@ -68,5 +68,19 @@
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2024-05-31"
+  },
+  {
+    "Certificate ID": "2026-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-007/",
+    "Certificate PDF": "https://osf.io/download/e5gmk/",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/012",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/012",
+    "Report": "https://doi.org/10.17605/OSF.IO/DZURB",
+    "Title": "Analysis of the spatial and temporal pattern of COVID-19 incidence rate across Germany",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-9-2026",
+    "OpenAlex": "https://openalex.org/W7164208595",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-06-09"
   }
 ]

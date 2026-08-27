@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/register.json",
-  "cert_count": 118,
+  "cert_count": 132,
   "venue_count": 13,
   "venues_per_type": {
     "community": 4,
@@ -16,7 +16,7 @@
     "2023": 12,
     "2024": 24,
     "2025": 26,
-    "2026": 4
+    "2026": 18
   },
   "checks_cumulative": {
     "2019": 1,
@@ -26,7 +26,7 @@
     "2023": 64,
     "2024": 88,
     "2025": 114,
-    "2026": 118
+    "2026": 132
   },
   "venues_per_year": {
     "2019": 1,
@@ -36,7 +36,7 @@
     "2023": 2,
     "2024": 5,
     "2025": 7,
-    "2026": 4
+    "2026": 5
   },
   "venues_cumulative": {
     "2019": 1,
@@ -48,7 +48,7 @@
     "2025": 13,
     "2026": 13
   },
-  "codechecker_count": 62,
+  "codechecker_count": 66,
   "codecheckers_per_year": {
     "2019": 1,
     "2020": 5,
@@ -57,7 +57,7 @@
     "2023": 8,
     "2024": 31,
     "2025": 25,
-    "2026": 5
+    "2026": 14
   },
   "codecheckers_cumulative": {
     "2019": 1,
@@ -67,7 +67,7 @@
     "2023": 16,
     "2024": 42,
     "2025": 60,
-    "2026": 62
+    "2026": 66
   },
   "platform_per_year": {
     "2019": {
@@ -99,6 +99,8 @@
       "zenodo": 15
     },
     "2026": {
+      "osf": 13,
+      "researchequals": 1,
       "zenodo": 4
     }
   },
@@ -139,8 +141,8 @@
       "zenodo": 51
     },
     "2026": {
-      "osf": 60,
-      "researchequals": 3,
+      "osf": 73,
+      "researchequals": 4,
       "zenodo": 55
     }
   }

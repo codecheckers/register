@@ -124,5 +124,33 @@
     "Type": "community",
     "Venue": "codecheck NL",
     "Check date": "2024-09-26"
+  },
+  {
+    "Certificate ID": "2026-011",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-011/",
+    "Certificate PDF": "https://osf.io/download/mcb5n/",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/017",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/017",
+    "Report": "https://doi.org/10.17605/OSF.IO/75PWN",
+    "Title": "Towards National-Scale Ecological Applications: Harmonised Framework for LiDAR Point Cloud Processing for Vegetation Metrics Calculation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-18-2026",
+    "OpenAlex": "https://openalex.org/W7164197613",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-31"
+  },
+  {
+    "Certificate ID": "2026-015",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-015/",
+    "Certificate PDF": "https://osf.io/download/54xdh/",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/029",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/029",
+    "Report": "https://doi.org/10.17605/OSF.IO/VCGY2",
+    "Title": "Assessing the Geographic Diversity of AI's Platial Representations in Image Generation",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-10-2026",
+    "OpenAlex": "https://openalex.org/W7164183500",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-10"
   }
 ]

@@ -29,7 +29,7 @@
     ],
     "check_time": "2025-04-08 10:00:00",
     "repository": "github::codecheckers/certificate-2025-004",
-    "report": "https://doi.org/10.5281/zenodo.15310765",
+    "report": "https://doi.org/10.5281/zenodo.15527133",
     "type": "institution",
     "venue": "TU Delft DCC",
     "summary": "The first figure shown in the code repository's README, so as the instructions shared in the same README on how to execute REF.m. The output figures are not found in the main publication.\n",

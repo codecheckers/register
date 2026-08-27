@@ -1,0 +1,69 @@
+{
+  "certificate": {
+    "id": "2026-006",
+    "url": "https://codecheck.org.uk/register/certs/2026-006/"
+  },
+  "paper": {
+    "title": "Towards Fine-grained Relevance Scoring of Social Media Posts in Disaster Response: A Decay-based Regression Approach",
+    "authors": [
+      {
+        "name": "David Hanny",
+        "orcid": "0009-0004-8017-0786"
+      },
+      {
+        "name": "Andreas Kramer",
+        "orcid": "0009-0006-4763-749X"
+      },
+      {
+        "name": "Ehsaneddin Jalilian",
+        "orcid": "0000-0001-5925-5735"
+      },
+      {
+        "name": "Sebastian Schmidt",
+        "orcid": "0000-0003-1912-9771"
+      },
+      {
+        "name": "Bernd Resch",
+        "orcid": "0000-0002-2233-6926"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-7-4-2026",
+    "abstract": {
+      "text": "<jats:p>Abstract. Geo-social media posts can provide valuable real-time information during natural disasters. However, assessing their relevance for emergency response remains difficult. Most existing approaches simplify relevance into discrete classes. To incorporate space and time, they typically rely on manually engineered distance features, overlooking the non-linear effects of spatial and temporal proximity. This study introduces a more fine-grained approach for multimodal relevance assessment that integrates spatio-temporal decay transformations with ordinal regression. Using a multilingual, geo-referenced X (formerly Twitter) dataset spanning floods, wildfires, and earthquakes, we evaluated four decay transformations and reformulated relevance assessment as a regression task. A stretched exponential decay function best captured the non-linear decline of relevance with increasing spatial and temporal distance. Incorporating decay-transformed features into a multimodal meta-learning framework improved both prediction performance and stability. Reformulating the task as a regression problem reduced RMSE and increased R2 compared to classification, with Support Vector Regression (SVR) achieving the strongest results (RMSE: 0.231, R2: 0.617). Granularity and entropy analyses revealed that regression provided much finer relevance estimates than classification. Overall, our research presents a first step towards making insights from social media more actionable and decision-ready for disaster response.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/ZPURT<\/jats:p>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W7164155701"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Sophie Teichmann",
+        "orcid": "0000-0002-4314-8107"
+      }
+    ],
+    "check_time": "2026-03-19 12:00:00",
+    "repository": "osf::zpurt",
+    "report": "https://doi.org/10.17605/OSF.IO/ZPURT",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "Full reproduction. Using the materials provided by the authors, the reported results were successfully reproduced.\n",
+    "manifest": [
+      {
+        "file": "data/figures/decay_curves.pdf",
+        "comment": "Reproduction of Figure 2"
+      },
+      {
+        "file": "data/output/decay_classif_eval.csv",
+        "comment": "Reproduction of Table 4 (classification evaluation)"
+      },
+      {
+        "file": "data/output/regression_eval.csv",
+        "comment": "Reproduction of Table 4 (regression evaluation)"
+      },
+      {
+        "file": "data/figures/prediction_histogram.pdf",
+        "comment": "Reproduction of Figure 4"
+      }
+    ]
+  }
+}

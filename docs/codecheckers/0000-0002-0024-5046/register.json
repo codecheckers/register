@@ -348,5 +348,19 @@
     "Type": "journal",
     "Venue": "Lifecycle Journal",
     "Check date": "2025-11-04"
+  },
+  {
+    "Certificate ID": "2026-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-014/",
+    "Certificate PDF": "https://researchequals.com/api/files/949c04ca-90f4-499e-882f-dc17ca9c19d2",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/026",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/026",
+    "Report": "https://doi.org/10.53962/pdw8-n5v0",
+    "Title": "Food Insecurity Projections for Anticipatory Action: Comparative Spatiotemporal Analysis of FEWS NET and the IPC in Somalia",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-17-2026",
+    "OpenAlex": "https://openalex.org/W7164210649",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-06-11"
   }
 ]

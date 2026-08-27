@@ -1,0 +1,56 @@
+{
+  "certificate": {
+    "id": "2026-016",
+    "url": "https://codecheck.org.uk/register/certs/2026-016/"
+  },
+  "paper": {
+    "title": "Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models",
+    "authors": [
+      {
+        "name": "Mina Karimi",
+        "orcid": "0000-0003-2521-8164"
+      },
+      {
+        "name": "Krzysztof Janowicz",
+        "orcid": "0009-0003-1968-887X"
+      },
+      {
+        "name": "Zilong Liu",
+        "orcid": "0000-0002-7699-3366"
+      },
+      {
+        "name": "Songlin Wang",
+        "orcid": "0009-0004-6506-2859"
+      },
+      {
+        "name": "Annika Süß"
+      }
+    ],
+    "reference": "https://doi.org/10.5194/agile-giss-7-6-2026",
+    "abstract": {
+      "text": "<jats:p>Abstract. Vague cognitive regions (VCRs) such as Levant or Bible Belt play a central role in how people reason about space and place, despite lacking clear boundaries or formal definitions. Prior studies in behavioral geography and GIScience have used human surveys or crowd-sourced social media data to delineate human perception and cognition of such regions. In this paper, we introduce a new AI-based approach, which uses foundation models, particularly large language models (LLMs), to represent VCRs. Then, we challenge the results by arguing that LLMs exhibit uneven cognitive geographies, representing some VCRs more coherently and stably than others. We introduce geo-alignment as an analytical lens to examine the discrepancies between different representations. Focusing on comparative cases such as the Alps, Northern-Southern California, the Sahara, and Kashmir, we show variations that systematically shape LLM-derived VCRs. Rather than treating misalignment as a modeling error, we conceptualize it as a signal of unequal global cognitive visibility embedded in training data. The paper contributes a methodological framework for analyzing VCRs through the lens of geo-alignment and advances a methodological GIScience perspective on the spatial knowledge encoded in LLMs.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/WH6GD<\/jats:p>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W7164140075"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Franz Welscher",
+        "orcid": "0000-0003-2432-1880"
+      }
+    ],
+    "check_time": "2026-04-27 12:00:00",
+    "repository": "github::reproducible-agile/reviews-2026|reports/031",
+    "report": "https://doi.org/10.17605/OSF.IO/WH6GD",
+    "type": "conference",
+    "venue": "AGILEGIS",
+    "summary": "The study is partially reproducible due to external resource constraints. The provided code, data and documentation are clear and complete, but a full reproduction was not possible because data generation relied on paid APIs (OpenAI, DeepSeek, Google Gemini) that were not accessible for re-running, and indices/figures required ArcGIS/arcpy, which was unavailable on the reviewer's system.\n",
+    "manifest": [
+      {
+        "file": "NA",
+        "comment": "The AGILE 2026 Reproducibility Review report does not list discrete output files, see https://github.com/codecheckers/register/issues/186 for more information"
+      }
+    ]
+  }
+}

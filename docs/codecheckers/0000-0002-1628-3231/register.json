@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2026-008",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-008/",
+    "Certificate PDF": "https://osf.io/download/g4q86/",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/013",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/013",
+    "Report": "https://doi.org/10.17605/OSF.IO/YH8F6",
+    "Title": "Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-13-2026",
+    "OpenAlex": "https://openalex.org/W7164194149",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-31"
+  }
+]
