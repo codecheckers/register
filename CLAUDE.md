@@ -12,6 +12,8 @@ This is the register of CODECHECK certificates, a dataset tracking reproducibili
 
 The `codecheck` R package is at `../codecheck/` (sibling directory). It provides the rendering pipeline (`codecheck::register_render()`, `codecheck::register_check()`, `codecheck::register_clear_cache()`) and all Zenodo logic (`../codecheck/R/zenodo.R`). Changes there need `tinytest::build_install_test(".")` (never `test_all`), a `NEWS.md` entry, and `devtools::document()`; then `make install_local` here to pick them up.
 
+While iterating, skip the full build: `R CMD INSTALL --no-docs --no-byte-compile --no-staged-install .` installs in about 5 seconds, and a single test file runs with `R -q -e 'library(codecheck); setwd("inst/tinytest"); tinytest::run_test_file("test_<name>.R")'`. Run the full `build_install_test(".")` once before proposing the change.
+
 ## Workflow
 
 1. Edit `register.csv` to add or update certificates
