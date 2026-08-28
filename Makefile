@@ -21,8 +21,10 @@ env:
 	@echo "GITHUB_PAT:       $(if $(shell grep -s GITHUB_PAT ~/.Renviron),set in ~/.Renviron,not found in ~/.Renviron)"
 	@echo "ZENODO_TOKEN:     $(if $(ZENODO_TOKEN),set ($(shell echo -n '$(ZENODO_TOKEN)' | wc -c) characters),not set, needed only for the zenodo_* targets)"
 
+# same installation path as the Dockerfile, so the local environment matches
+# the codecheckers/register image
 install:
-	R -q -e "remotes::install_github('codecheckers/codecheck');"
+	R -q -e "pak::pak('codecheckers/codecheck');"
 
 install_local:
 	R -q -e "devtools::install('../codecheck', upgrade = FALSE);"

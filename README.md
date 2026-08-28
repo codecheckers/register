@@ -66,7 +66,7 @@ The above files are human-readable and machine-readable representations based on
 The representations above can also be generated manually using the following command from the [`codecheck` R package](https://github.com/codecheckers/codecheck):
 
 ```bash
-# R -q -e "remotes::install_github('codecheckers/codecheck')"
+# R -q -e "pak::pak('codecheckers/codecheck')"
 
 R -q -e "codecheck::register_render(); warnings()"
 ```

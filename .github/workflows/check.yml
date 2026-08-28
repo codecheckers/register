@@ -1,10 +1,13 @@
 name: Check register
 
+# Disabled on push: the check is not stable enough (external links/DOIs/APIs
+# time out or rate-limit) and regularly needs manual fixes. Run it manually via
+# the Actions tab ("Run workflow") or locally with `make check`.
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
+  #push:
+  #  branches:
+  #    - master
 
 jobs:
   check:

@@ -7,9 +7,8 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
   # for pdftools
   libpoppler-cpp-dev
 
-ENV R_REMOTES_UPGRADE="never"
-
-RUN R -q -e 'remotes::install_github("codecheckers/codecheck")'
+# rocker images no longer ship 'remotes', but they do ship 'pak'
+RUN R -q -e 'pak::pak("codecheckers/codecheck")'
 
 WORKDIR /register
 

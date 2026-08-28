@@ -1,9 +1,14 @@
 name: Build and push Docker image
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
+    # only rebuild when the image definition changes, not on every rendering commit
+    paths:
+      - 'Dockerfile'
+      - '.github/workflows/image.yml'
 
 jobs:
   docker:
@@ -23,3 +28,5 @@ jobs:
         with:
           push: true
           tags: codecheckers/register:latest
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
