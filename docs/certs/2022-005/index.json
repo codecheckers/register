@@ -1,6 +1,7 @@
 {
   "certificate": {
     "id": "2022-005",
+    "title": "Reproducibility review of: Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
     "url": "https://codecheck.org.uk/register/certs/2022-005/"
   },
   "paper": {

@@ -1,6 +1,7 @@
 {
   "certificate": {
     "id": "2022-010",
+    "title": "Reproducibility review of: Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
     "url": "https://codecheck.org.uk/register/certs/2022-010/"
   },
   "paper": {
