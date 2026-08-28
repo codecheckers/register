@@ -2,9 +2,17 @@
 title: CODECHECK Register for J Geogr Syst (journal)
 ---
 
+<div class="venue-metadata">
+<div class="venue-metadata-logo">
+<img src="https://codecheck.org.uk/img/JGSY-logo.jpg" alt="Journal of Geographical Systems logo">
+</div>
+<div class="venue-metadata-text">
+<p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://www.springer.com/journal/10109" target="_blank" rel="noopener">https://www.springer.com/journal/10109</a></p>
+</div>
+</div>
 
 
-|Certificate |Report                                 |Paper Title                                                                     |Check date |
-|:-------|:--------------------------------|:---|:--------------------------|:----------|
-|[2020-016](https://codecheck.org.uk/register/certs/2020-016/)|https://doi.org/10.5281/zenodo.3981253 |[Opening practice: supporting reproducibility and critical spatial data science ](https://doi.org/10.1007/s10109-020-00334-2)|2020-06-02 |
-|[2020-017](https://codecheck.org.uk/register/certs/2020-017/)|https://doi.org/10.5281/zenodo.4003848 |[Progress in the R ecosystem for representing and handling spatial data](https://doi.org/10.1007/s10109-020-00336-0)|2020-08-27 |
+|Certificate |Report                         |Paper Title                                                                     |Check date |
+|:-------|:--------------------------------------------------|:------|:--------------------------|
+|[2020-016](../../../certs/2020-016/)|[doi.org/10.5281/zenodo.3981253](https://doi.org/10.5281/zenodo.3981253)|[Opening practice: supporting reproducibility and critical spatial data science ](https://doi.org/10.1007/s10109-020-00334-2)|2020-06-02 |
+|[2020-017](../../../certs/2020-017/)|[doi.org/10.5281/zenodo.4003848](https://doi.org/10.5281/zenodo.4003848)|[Progress in the R ecosystem for representing and handling spatial data](https://doi.org/10.1007/s10109-020-00336-0)|2020-08-27 |

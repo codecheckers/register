@@ -4,6 +4,7 @@ title: Codechecks by Sam Langton
 
 
 
+
 |Certificate |Report                          |Paper Title                                                                                                                     |Venue |Type        |Check date |
 |:-------|:--------------------------------------------------|:----------------------------------|:---------------|:---|:--------------------------|
 |[2024-004](../../certs/2024-004/)|[doi.org/10.5281/zenodo.13364677](https://doi.org/10.5281/zenodo.13364677)|[Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint ](https://doi.org/10.31222/osf.io/a8rmu)|[AUMC](../../venues/institutions/aumc)|[Institution](../../venues/institutions)|2024-08-01 |

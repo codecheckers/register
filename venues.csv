@@ -1,14 +1,14 @@
-name,longname,label,logo_url,website_url,policy_url,publisher
-GigaScience,GigaScience,journal,https://codecheck.org.uk/img/gigascience_logo.svg,https://academic.oup.com/gigascience,http://gigasciencejournal.com/blog/codecheck-certificate/,GigaScience Press
-J Geogr Syst,Journal of Geographical Systems,journal,https://codecheck.org.uk/img/JGSY-logo.jpg,https://www.springer.com/journal/10109,https://link.springer.com/article/10.1007/s10109-021-00364-4,Springer
-J Archaeol Sci,Journal of Archaeological Science,journal,https://ars.els-cdn.com/content/image/X03054403.jpg,https://www.sciencedirect.com/journal/journal-of-archaeological-science,,Elsevier
-GigaByte,GigaByte,journal,https://codecheck.org.uk/img/gigabyte_logo.svg,https://gigabytejournal.com/,http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/,GigaScience Press
-AGILEGIS,AGILE Conference on Geographic Information Science,conference,https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg,https://agile-gi.eu,https://reproducible-agile.github.io/,AGILE (Association of Geographic Information Laboratories in Europe)
-codecheck,CODECHECK,community,https://codecheck.org.uk/img/codecheck_logo.svg,https://codecheck.org.uk,,
-codecheck NL,CODECHECK NL,check-nl,,,,
-in press,In press,journal,,,,
-preprint,Preprint,preprint,,,,
-AUMC,Amsterdam UMC,institution,https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg,,,
-Lifecycle Journal,Lifecycle Journal,lifecycle journal,https://codecheck.org.uk/img/lifecyclejournal_logo.png,https://lifecyclejournal.org/,,
-TU Delft DCC,TU Delft Digital Competence Centre,institution,https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg,https://www.tudelft.nl/digital-competence-centre,,
-JOSIS,Journal of Spatial Information Science,journal,https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png,https://josis.org,,University of Maine
+name,longname,label,logo_url,website_url,policy_url,publisher,contact_name,contact_email,description,identifiers
+GigaScience,GigaScience,journal,https://codecheck.org.uk/img/gigascience_logo.svg,https://academic.oup.com/gigascience,http://gigasciencejournal.com/blog/codecheck-certificate/,GigaScience Press,,,,
+J Geogr Syst,Journal of Geographical Systems,journal,https://codecheck.org.uk/img/JGSY-logo.jpg,https://www.springer.com/journal/10109,https://link.springer.com/article/10.1007/s10109-021-00364-4,Springer,,,,
+J Archaeol Sci,Journal of Archaeological Science,journal,https://ars.els-cdn.com/content/image/X03054403.jpg,https://www.sciencedirect.com/journal/journal-of-archaeological-science,,Elsevier,,,,
+GigaByte,GigaByte,journal,https://codecheck.org.uk/img/gigabyte_logo.svg,https://gigabytejournal.com/,http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/,GigaScience Press,,,,
+AGILEGIS,AGILE Conference on Geographic Information Science,conference,https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg,https://agile-gi.eu,https://reproducible-agile.github.io/,AGILE (Association of Geographic Information Laboratories in Europe),,,,
+codecheck,CODECHECK,community,https://codecheck.org.uk/img/codecheck_logo.svg,https://codecheck.org.uk,,,,,,
+codecheck NL,CODECHECK NL,check-nl,,,,,,,,
+in press,In press,journal,,,,,,,,
+preprint,Preprint,preprint,,,,,,,,
+AUMC,Amsterdam UMC,institution,https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg,,,,,,"Computational reproducibility at Amsterdam UMC: <a href=""https://zenodo.org/records/15095022"" target=""_blank"" rel=""noopener"">https://zenodo.org/records/15095022</a>",
+Lifecycle Journal,Lifecycle Journal,lifecycle journal,https://codecheck.org.uk/img/lifecyclejournal_logo.png,https://lifecyclejournal.org/,,,,,,
+TU Delft DCC,TU Delft Digital Competence Centre,institution,https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg,https://www.tudelft.nl/digital-competence-centre,,,,,,
+JOSIS,Journal of Spatial Information Science,journal,https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png,https://josis.org,,University of Maine,,,,

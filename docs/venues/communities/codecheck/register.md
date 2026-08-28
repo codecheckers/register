@@ -2,6 +2,14 @@
 title: CODECHECK Register for codecheck (community)
 ---
 
+<div class="venue-metadata">
+<div class="venue-metadata-logo">
+<img src="https://codecheck.org.uk/img/codecheck_logo.svg" alt="CODECHECK logo">
+</div>
+<div class="venue-metadata-text">
+<p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://codecheck.org.uk" target="_blank" rel="noopener">https://codecheck.org.uk</a></p>
+</div>
+</div>
 
 
 |Certificate |Report                          |Paper Title                                                                                                                                        |Check date |

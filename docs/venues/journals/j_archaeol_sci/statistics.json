@@ -1,0 +1,65 @@
+{
+  "source": "https://codecheck.org.uk/register/venues/journals/j_archaeol_sci/register.json",
+  "cert_count": 1,
+  "venue_count": 1,
+  "venues_per_type": {
+    "journal": 1
+  },
+  "checks_per_type_per_year": {
+    "2020": {
+      "journal": 1
+    }
+  },
+  "checks_per_year": {
+    "2020": 1
+  },
+  "checks_cumulative": {
+    "2020": 1
+  },
+  "venues_per_year": {
+    "2020": 1
+  },
+  "venues_cumulative": {
+    "2020": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2020": 1
+  },
+  "codecheckers_cumulative": {
+    "2020": 1
+  },
+  "platform_per_year": {
+    "2020": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2020": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "J Archaeol Sci",
+      "longname": "Journal of Archaeological Science",
+      "year_range": "2020",
+      "label": "journal",
+      "cert_count": 1,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "J%20Archaeol%20Sci",
+      "logo_url": "https://ars.els-cdn.com/content/image/X03054403.jpg",
+      "website_url": "https://www.sciencedirect.com/journal/journal-of-archaeological-science",
+      "policy_url": null,
+      "publisher": "Elsevier"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "Elsevier",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

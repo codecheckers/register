@@ -8,6 +8,7 @@ title: Codechecks by Egor Kotov
 </p>
 
 
+
 |Certificate |Report                        |Paper Title                                                                  |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:----------------------------------|:---------------|:---|:--------------------------|
 |[2026-004](../../certs/2026-004/)|[doi.org/10.17605/OSF.IO/R2674](https://doi.org/10.17605/OSF.IO/R2674)|[Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility](https://doi.org/10.5194/agile-giss-7-3-2026)|[AGILEGIS](../../venues/conferences/agilegis)|[Conference](../../venues/conferences)|2026-03-15 |

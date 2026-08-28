@@ -4,6 +4,7 @@ title: Codechecks by Eftychia Koukouraki
 
 
 
+
 |Certificate |Report                        |Paper Title                                                                                            |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:----------------------------------|:---------------|:---|:--------------------------|
 |[2022-006](../../certs/2022-006/)|[doi.org/10.17605/osf.io/W7VPH](https://doi.org/10.17605/osf.io/W7VPH)|[Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide](https://doi.org/10.5194/agile-giss-3-6-2022)|[AGILEGIS](../../venues/conferences/agilegis)|[Conference](../../venues/conferences)|2022-07-09 |

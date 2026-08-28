@@ -4,6 +4,7 @@ title: Codechecks by Mareike Wendelmuth
 
 
 
+
 |Certificate |Report                          |Paper Title                                                                                                  |Venue        |Type      |Check date |
 |:-------|:--------------------------------------------------|:----------------------------------|:---------------|:---|:--------------------------|
 |[2024-017](../../certs/2024-017/)|[doi.org/10.5281/zenodo.14211707](https://doi.org/10.5281/zenodo.14211707)|[Determination of a diffusion coefficient function for long rooms using a least square optimization approach ](https://doi.org/10.3397/IN_2024_3491)|[codecheck NL](../../venues/communities/codecheck_nl)|[Community](../../venues/communities)|2024-11-22 |

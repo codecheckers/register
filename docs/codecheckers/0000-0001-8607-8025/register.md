@@ -8,6 +8,7 @@ title: Codechecks by Stephen J. Eglen
 </p>
 
 
+
 |Certificate |Report                          |Paper Title                                                                                                                                             |Venue        |Type      |Check date |
 |:-------|:--------------------------------------------------|:----------------------------------|:---------------|:---|:--------------------------|
 |[2020-001](../../certs/2020-001/)|[doi.org/10.5281/zenodo.3674056](http://doi.org/10.5281/zenodo.3674056)|[ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.](https://doi.org/10.1093/gigascience/giaa026)     |[GigaScience](../../venues/journals/gigascience)|[Journal](../../venues/journals)|2019-02-14 |
