@@ -15,7 +15,7 @@ WORKDIR /register
 ENTRYPOINT [ "R" ]
 
 # set R.cache path to avoid interactive prompt
-CMD [ "-e", "sessionInfo(); options(\"R.cache.rootPath\" = \"/tmp\"); cat(\"GitHub API usage:\", toString(names(gh::gh_rate_limit())), \" : \", toString(gh::gh_rate_limit()), \"\\n\"); codecheck::register_render(); warnings()'" ]
+CMD [ "-e", "sessionInfo(); options(\"R.cache.rootPath\" = \"/tmp\"); rl <- gh::gh_rate_limit(); cat(\"GitHub API usage: limit\", rl$limit, \", remaining\", rl$remaining, \", reset\", format(rl$reset, \"%Y-%m-%d %H:%M:%S %Z\"), \"\\n\"); codecheck::register_render(); warnings()'" ]
 
 LABEL maintainer="Daniel Nüst <daniel.nuest@tu-dresden.de>"
 
