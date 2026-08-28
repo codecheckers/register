@@ -3,11 +3,10 @@ title: CODECHECK Register for codecheck (community)
 ---
 
 <div class="venue-metadata">
-<div class="venue-metadata-logo">
-<img src="https://codecheck.org.uk/img/codecheck_logo.svg" alt="CODECHECK logo">
-</div>
+<img class="venue-metadata-logo" src="https://codecheck.org.uk/img/codecheck_logo.svg" alt="CODECHECK logo">
 <div class="venue-metadata-text">
 <p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://codecheck.org.uk" target="_blank" rel="noopener">https://codecheck.org.uk</a></p>
+<p class="venue-metadata-description">CODECHECK is an initiative supporting the independent execution and verification of the code underlying scholarly research articles. Trained codecheckers rerun a paper's computations and award a certificate of executable computation when they succeed. The initiative partners with journals, conferences and institutions worldwide, including institutional programmes such as CODECHECK NL.</p>
 </div>
 </div>
 

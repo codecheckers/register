@@ -413,43 +413,25 @@ h1 {
    ==================== */
 
 .venue-metadata {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-    justify-content: space-between;
     background-color: #f6f8f6;
-    border: 1px solid #dde3de;
-    border-radius: 10px;
     padding: 1.5rem 1.75rem;
     margin-bottom: 2rem;
+    overflow: hidden; /* contain the floated logo */
 }
 
 .venue-metadata-logo {
-    flex: 0 0 auto;
-    width: 150px;
-    height: 96px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff;
-    border: 1px solid #e9ede9;
-    border-radius: 8px;
-    padding: 0.75rem;
-}
-
-.venue-metadata-logo img {
-    max-width: 100%;
-    max-height: 100%;
+    float: right;
+    max-width: 200px;
+    max-height: 70px;
+    margin: 0 0 1rem 1.5rem;
 }
 
 .venue-metadata-text {
-    flex: 1 1 auto;
-    min-width: 0;
+    text-align: left;
 }
 
 .venue-metadata-row {
     margin: 0 0 0.45rem;
-    font-size: 0.95rem;
 }
 
 .venue-metadata-label {
@@ -457,10 +439,8 @@ h1 {
 }
 
 .venue-metadata-description {
-    font-style: italic;
     color: #6c757d;
     margin: 0.9rem 0 1rem;
-    font-size: 0.95rem;
     max-width: 58ch;
 }
 
@@ -475,7 +455,6 @@ h1 {
 
 .venue-metadata-identifiers li {
     font-family: monospace;
-    font-size: 0.78rem;
     background-color: #ffffff;
     border: 1px solid #dde3de;
     border-radius: 5px;
@@ -489,7 +468,9 @@ h1 {
 }
 
 @media (max-width: 600px) {
-    .venue-metadata {
-        flex-direction: column-reverse;
+    .venue-metadata-logo {
+        float: none;
+        display: block;
+        margin: 0 0 1rem;
     }
 }

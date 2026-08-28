@@ -3,11 +3,9 @@ title: CODECHECK Register for AUMC (institution)
 ---
 
 <div class="venue-metadata">
-<div class="venue-metadata-logo">
-<img src="https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg" alt="Amsterdam UMC logo">
-</div>
+<img class="venue-metadata-logo" src="https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg" alt="Amsterdam UMC logo">
 <div class="venue-metadata-text">
-<p class="venue-metadata-description">Computational reproducibility at Amsterdam UMC: <a href="https://zenodo.org/records/15095022" target="_blank" rel="noopener">https://zenodo.org/records/15095022</a></p>
+<p class="venue-metadata-description">Amsterdam UMC's computational reproducibility initiative documents work to understand and improve the reproducibility of computational research at the medical center. It centers on producing reproduction packages for published studies and on community engagement activities such as training and outreach. The report, led by researchers including Samuel Langton and Thomas Pronk, addresses version control, software management and replication practices, with the full report at <a href="https://zenodo.org/records/15095022" target="_blank" rel="noopener">https://zenodo.org/records/15095022</a>.</p>
 </div>
 </div>
 

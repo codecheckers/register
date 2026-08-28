@@ -3,11 +3,10 @@ title: CODECHECK Register for JOSIS (journal)
 ---
 
 <div class="venue-metadata">
-<div class="venue-metadata-logo">
-<img src="https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png" alt="Journal of Spatial Information Science logo">
-</div>
+<img class="venue-metadata-logo" src="https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png" alt="Journal of Spatial Information Science logo">
 <div class="venue-metadata-text">
 <p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://josis.org" target="_blank" rel="noopener">https://josis.org</a></p>
+<p class="venue-metadata-description">The Journal of Spatial Information Science (JOSIS) is an international, open-access, volunteer-run journal publishing original research in spatial and geographic information science. Its scope spans theoretical foundations through to computational methods and practical applications of geospatial technology. All published articles are freely accessible at no cost to authors or readers.</p>
 </div>
 </div>
 

@@ -3,11 +3,10 @@ title: CODECHECK Register for Lifecycle Journal (journal)
 ---
 
 <div class="venue-metadata">
-<div class="venue-metadata-logo">
-<img src="https://codecheck.org.uk/img/lifecyclejournal_logo.png" alt="Lifecycle Journal logo">
-</div>
+<img class="venue-metadata-logo" src="https://codecheck.org.uk/img/lifecyclejournal_logo.png" alt="Lifecycle Journal logo">
 <div class="venue-metadata-text">
 <p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://lifecyclejournal.org/" target="_blank" rel="noopener">https://lifecyclejournal.org/</a></p>
+<p class="venue-metadata-description">Lifecycle Journal is a research-publishing pilot from the Center for Open Science that lets researchers share and publish outputs at any stage of the research lifecycle, not just the final paper. It puts publishing and peer review under community control, aiming to increase trustworthiness and reduce bias in scholarly communication. The pilot has since closed to new submissions.</p>
 </div>
 </div>
 

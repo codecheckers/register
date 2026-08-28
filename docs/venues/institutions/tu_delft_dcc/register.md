@@ -3,11 +3,10 @@ title: CODECHECK Register for TU Delft DCC (institution)
 ---
 
 <div class="venue-metadata">
-<div class="venue-metadata-logo">
-<img src="https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg" alt="TU Delft Digital Competence Centre logo">
-</div>
+<img class="venue-metadata-logo" src="https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg" alt="TU Delft Digital Competence Centre logo">
 <div class="venue-metadata-text">
 <p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://www.tudelft.nl/digital-competence-centre" target="_blank" rel="noopener">https://www.tudelft.nl/digital-competence-centre</a></p>
+<p class="venue-metadata-description">The Digital Competence Centre (DCC) is TU Delft's institutional hub supporting researchers across all disciplines with data management, research software development and computational workflows. It offers hands-on project support, office hours, training workshops and reproducibility assessments. Its FAIR4RS mentoring programme helps researchers make their software outputs findable, accessible, interoperable and reusable.</p>
 </div>
 </div>
 
