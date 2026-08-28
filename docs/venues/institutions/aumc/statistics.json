@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/venues/institutions/aumc/register.json",
   "cert_count": 3,
+  "venue": {
+    "name": "AUMC",
+    "longname": "Amsterdam UMC",
+    "venue_type": "institution",
+    "logo_url": "https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg",
+    "website_url": null,
+    "contact_name": null,
+    "contact_email": null,
+    "description": "Amsterdam UMC's computational reproducibility initiative documents work to understand and improve the reproducibility of computational research at the medical center. It centers on producing reproduction packages for published studies and on community engagement activities such as training and outreach. The report, led by researchers including Samuel Langton and Thomas Pronk, addresses version control, software management and replication practices, with the full report at <a href=\"https://zenodo.org/records/15095022\" target=\"_blank\" rel=\"noopener\">https://zenodo.org/records/15095022<\/a>.",
+    "identifiers": [
+      {
+        "name": "ROR",
+        "icon": "fa-university",
+        "value": "05grdyy37",
+        "url": "https://ror.org/05grdyy37"
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "institution": 1

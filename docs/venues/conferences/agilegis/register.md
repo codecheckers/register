@@ -1,18 +1,25 @@
 ---
-title: CODECHECK Register for AGILEGIS (conference)
+title: CODECHECKs for AGILEGIS
+venue_type: conference
+website: https://agile-gi.eu
+logo_url: https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg
+description: AGILE is the Association of Geographic Information Laboratories in Europe,
+  a membership organisation connecting geographic information researchers and educators
+  across the continent. It runs an annual international conference on geographic information
+  science, alongside PhD schools, research initiatives and open science programmes.
+  AGILE places particular emphasis on reproducible research practice in GIScience.
+identifiers:
+- name: ConfIDent
+  value: AGILE-GI series
+  icon: fa-calendar
+  url: https://www.confident-conference.org/index.php/Event_Series:D4685b15-8c8f-4271-a527-6abca54205ec
 ---
 
-<div class="venue-metadata">
-<img class="venue-metadata-logo" src="https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg" alt="AGILE Conference on Geographic Information Science logo">
-<div class="venue-metadata-text">
-<p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://agile-gi.eu" target="_blank" rel="noopener">https://agile-gi.eu</a></p>
-<p class="venue-metadata-description">AGILE is the Association of Geographic Information Laboratories in Europe, a membership organisation connecting geographic information researchers and educators across the continent. It runs an annual international conference on geographic information science, alongside PhD schools, research initiatives and open science programmes. AGILE places particular emphasis on reproducible research practice in GIScience.</p>
-</div>
-</div>
+
 
 
 |Certificate |Report                        |Paper Title                                                                                                                                     |Check date |
-|:-------|:--------------------------------------------------|:------|:--------------------------|
+|:--------|:------------|:-------------------------------------------------------|:---------------|
 |[2020-018](../../../certs/2020-018/)|[doi.org/10.17605/OSF.IO/ZTC7M](https://doi.org/10.17605/OSF.IO/ZTC7M)|[Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling](https://doi.org/10.5194/agile-giss-1-6-2020)|2020-07-13 |
 |[2020-019](../../../certs/2020-019/)|[doi.org/10.17605/OSF.IO/5SVMT](https://doi.org/10.17605/OSF.IO/5SVMT)|[What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles](https://doi.org/10.5194/agile-giss-1-7-2020)           |2020-07-13 |
 |[2020-020](../../../certs/2020-020/)|[doi.org/10.17605/OSF.IO/7TWR2](https://doi.org/10.17605/OSF.IO/7TWR2)|[Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles](https://doi.org/10.5194/agile-giss-1-21-2020)               |2020-07-13 |

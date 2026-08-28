@@ -1,12 +1,13 @@
 ---
-title: CODECHECK Register for preprint (community)
+title: CODECHECKs for preprint
+venue_type: community
 ---
 
 
 
 
 |Certificate |Report                          |Paper Title                                                                                                                                             |Check date |
-|:-------|:--------------------------------------------------|:------|:--------------------------|
+|:--------|:------------|:-------------------------------------------------------|:---------------|
 |[2020-008](../../../certs/2020-008/)|[doi.org/10.5281/zenodo.3746024](http://doi.org/10.5281/zenodo.3746024)|[The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study](https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf)|2020-04-09 |
 |[2020-009](../../../certs/2020-009/)|[doi.org/10.5281/zenodo.22109593](https://doi.org/10.5281/zenodo.22109593)|[Model of isolation, contact tracing, and physical distancing (Preprint)](https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf)       |2020-04-26 |
 |[2020-010](../../../certs/2020-010/)|[doi.org/10.5281/zenodo.3865491](https://doi.org/10.5281/zenodo.3865491)|[Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020. ](https://doi.org/10.25561/77482)|2020-05-29 |

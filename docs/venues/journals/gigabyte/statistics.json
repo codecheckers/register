@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/venues/journals/gigabyte/register.json",
   "cert_count": 1,
+  "venue": {
+    "name": "GigaByte",
+    "longname": "GigaByte",
+    "venue_type": "journal",
+    "logo_url": "https://codecheck.org.uk/img/gigabyte_logo.svg",
+    "website_url": "https://gigabytejournal.com/",
+    "contact_name": null,
+    "contact_email": null,
+    "description": "GigaByte is an open-access journal from GigaScience Press covering complex, large-scale data research across the life sciences. Authors must make supporting data and source code publicly available, hosted alongside the article via the companion GigaDB database. The journal runs an open, transparent peer-review process built around the UNESCO Open Science Recommendation.",
+    "identifiers": [
+      {
+        "name": "ISSN",
+        "icon": "fa-book",
+        "value": "2709-4715",
+        "url": "https://portal.issn.org/resource/ISSN/2709-4715"
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "journal": 1

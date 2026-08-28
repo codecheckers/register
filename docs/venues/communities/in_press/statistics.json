@@ -1,6 +1,17 @@
 {
   "source": "https://codecheck.org.uk/register/venues/communities/in_press/register.json",
   "cert_count": 1,
+  "venue": {
+    "name": "in press",
+    "longname": "In press",
+    "venue_type": "community",
+    "logo_url": null,
+    "website_url": null,
+    "contact_name": null,
+    "contact_email": null,
+    "description": null,
+    "identifiers": []
+  },
   "venue_count": 1,
   "venues_per_type": {
     "community": 1

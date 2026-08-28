@@ -1,18 +1,26 @@
 ---
-title: CODECHECK Register for TU Delft DCC (institution)
+title: CODECHECKs for TU Delft DCC
+venue_type: institution
+website: https://www.tudelft.nl/digital-competence-centre
+logo_url: https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg
+description: The Digital Competence Centre (DCC) is TU Delft's institutional hub supporting
+  researchers across all disciplines with data management, research software development
+  and computational workflows. It offers hands-on project support, office hours, training
+  workshops and reproducibility assessments. Its FAIR4RS mentoring programme helps
+  researchers make their software outputs findable, accessible, interoperable and
+  reusable.
+identifiers:
+- name: ROR
+  value: 02e2c7k09
+  icon: fa-university
+  url: https://ror.org/02e2c7k09
 ---
 
-<div class="venue-metadata">
-<img class="venue-metadata-logo" src="https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg" alt="TU Delft Digital Competence Centre logo">
-<div class="venue-metadata-text">
-<p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://www.tudelft.nl/digital-competence-centre" target="_blank" rel="noopener">https://www.tudelft.nl/digital-competence-centre</a></p>
-<p class="venue-metadata-description">The Digital Competence Centre (DCC) is TU Delft's institutional hub supporting researchers across all disciplines with data management, research software development and computational workflows. It offers hands-on project support, office hours, training workshops and reproducibility assessments. Its FAIR4RS mentoring programme helps researchers make their software outputs findable, accessible, interoperable and reusable.</p>
-</div>
-</div>
+
 
 
 |Certificate |Report                          |Paper Title                                                                                                           |Check date |
-|:-------|:--------------------------------------------------|:------|:--------------------------|
+|:--------|:------------|:-------------------------------------------------------|:---------------|
 |[2025-003](../../../certs/2025-003/)|[doi.org/10.5281/zenodo.15333601](https://doi.org/10.5281/zenodo.15333601)|[Optimal Graph Stretching for Distributed Averaging](https://doi.org/10.48550/arXiv.2504.10289)                       |2025-03-25 |
 |[2025-004](../../../certs/2025-004/)|[doi.org/10.5281/zenodo.15527133](https://doi.org/10.5281/zenodo.15527133)|[Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach](https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b)|2025-04-08 |
 |[2025-006](../../../certs/2025-006/)|[doi.org/10.5281/zenodo.15520471](https://doi.org/10.5281/zenodo.15520471)|[Emergence of novel SARS-CoV-2 variants in the Netherlands](https://doi.org/10.1038/s41598-021-85363-7)               |2025-05-01 |

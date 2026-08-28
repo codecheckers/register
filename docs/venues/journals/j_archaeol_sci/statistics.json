@@ -1,6 +1,30 @@
 {
   "source": "https://codecheck.org.uk/register/venues/journals/j_archaeol_sci/register.json",
   "cert_count": 1,
+  "venue": {
+    "name": "J Archaeol Sci",
+    "longname": "Journal of Archaeological Science",
+    "venue_type": "journal",
+    "logo_url": "https://ars.els-cdn.com/content/image/X03054403.jpg",
+    "website_url": "https://www.sciencedirect.com/journal/journal-of-archaeological-science",
+    "contact_name": null,
+    "contact_email": null,
+    "description": "The Journal of Archaeological Science is a monthly peer-reviewed journal published by Elsevier, established in 1974, focused on the development and application of scientific techniques and methodologies across all areas of archaeology. It bridges scientific methods with archaeological inquiry, covering archaeometry, bioarchaeology, geoarchaeology and related computational approaches. It operates a hybrid open-access model and is indexed in Scopus and the Science Citation Index.",
+    "identifiers": [
+      {
+        "name": "ISSN (print)",
+        "icon": "fa-book",
+        "value": "0305-4403",
+        "url": "https://portal.issn.org/resource/ISSN/0305-4403"
+      },
+      {
+        "name": "ISSN (online)",
+        "icon": "fa-book",
+        "value": "1095-9238",
+        "url": "https://portal.issn.org/resource/ISSN/1095-9238"
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "journal": 1

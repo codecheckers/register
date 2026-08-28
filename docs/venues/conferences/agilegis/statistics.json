@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/venues/conferences/agilegis/register.json",
   "cert_count": 73,
+  "venue": {
+    "name": "AGILEGIS",
+    "longname": "AGILE Conference on Geographic Information Science",
+    "venue_type": "conference",
+    "logo_url": "https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg",
+    "website_url": "https://agile-gi.eu",
+    "contact_name": null,
+    "contact_email": null,
+    "description": "AGILE is the Association of Geographic Information Laboratories in Europe, a membership organisation connecting geographic information researchers and educators across the continent. It runs an annual international conference on geographic information science, alongside PhD schools, research initiatives and open science programmes. AGILE places particular emphasis on reproducible research practice in GIScience.",
+    "identifiers": [
+      {
+        "name": "ConfIDent",
+        "icon": "fa-calendar",
+        "value": "AGILE-GI series",
+        "url": "https://www.confident-conference.org/index.php/Event_Series:D4685b15-8c8f-4271-a527-6abca54205ec"
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "conference": 1

@@ -1,18 +1,20 @@
 ---
-title: CODECHECK Register for codecheck (community)
+title: CODECHECKs for codecheck
+venue_type: community
+website: https://codecheck.org.uk
+logo_url: https://codecheck.org.uk/img/codecheck_logo.svg
+description: CODECHECK is an initiative supporting the independent execution and verification
+  of the code underlying scholarly research articles. Trained codecheckers rerun a
+  paper's computations and award a certificate of executable computation when they
+  succeed. The initiative partners with journals, conferences and institutions worldwide,
+  including institutional programmes such as CODECHECK NL.
 ---
 
-<div class="venue-metadata">
-<img class="venue-metadata-logo" src="https://codecheck.org.uk/img/codecheck_logo.svg" alt="CODECHECK logo">
-<div class="venue-metadata-text">
-<p class="venue-metadata-row"><span class="venue-metadata-label">Website:</span> <a href="https://codecheck.org.uk" target="_blank" rel="noopener">https://codecheck.org.uk</a></p>
-<p class="venue-metadata-description">CODECHECK is an initiative supporting the independent execution and verification of the code underlying scholarly research articles. Trained codecheckers rerun a paper's computations and award a certificate of executable computation when they succeed. The initiative partners with journals, conferences and institutions worldwide, including institutional programmes such as CODECHECK NL.</p>
-</div>
-</div>
+
 
 
 |Certificate |Report                          |Paper Title                                                                                                                                        |Check date |
-|:-------|:--------------------------------------------------|:------|:--------------------------|
+|:--------|:------------|:-------------------------------------------------------|:---------------|
 |[2020-002](../../../certs/2020-002/)|[doi.org/10.5281/zenodo.3750741](http://doi.org/10.5281/zenodo.3750741)|[The principal components of natural images](https://doi.org/10.1088/0954-898X_3_1_008)                                                            |2020-04-13 |
 |[2020-003](../../../certs/2020-003/)|[doi.org/10.5281/zenodo.3741797](https://doi.org/10.5281/zenodo.3741797)|[Neural networks and physical systems with emergent collective computational abilities](https://doi.org/10.1073/pnas.79.8.2554)                    |2020-04-06 |
 |[2020-004](../../../certs/2020-004/)|[doi.org/10.5281/zenodo.22109800](https://doi.org/10.5281/zenodo.22109800)|[Neuronlike adaptive elements that can solve difficult learning control problems](https://doi.org/10.1109/TSMC.1983.6313077)                       |2020-05-14 |

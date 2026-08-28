@@ -421,8 +421,8 @@ h1 {
 
 .venue-metadata-logo {
     float: right;
-    max-width: 200px;
-    max-height: 70px;
+    max-width: 400px;
+    max-height: 140px;
     margin: 0 0 1rem 1.5rem;
 }
 
@@ -430,7 +430,13 @@ h1 {
     text-align: left;
 }
 
-.venue-metadata-row {
+.venue-metadata-list {
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+}
+
+.venue-metadata-list li {
     margin: 0 0 0.45rem;
 }
 
@@ -442,29 +448,6 @@ h1 {
     color: #6c757d;
     margin: 0.9rem 0 1rem;
     max-width: 58ch;
-}
-
-.venue-metadata-identifiers {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-}
-
-.venue-metadata-identifiers li {
-    font-family: monospace;
-    background-color: #ffffff;
-    border: 1px solid #dde3de;
-    border-radius: 5px;
-    padding: 0.25rem 0.55rem;
-}
-
-.venue-metadata-id-type {
-    color: #065a27;
-    font-weight: 500;
-    margin-right: 0.35rem;
 }
 
 @media (max-width: 600px) {

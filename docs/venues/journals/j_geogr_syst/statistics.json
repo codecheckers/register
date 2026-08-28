@@ -1,6 +1,30 @@
 {
   "source": "https://codecheck.org.uk/register/venues/journals/j_geogr_syst/register.json",
   "cert_count": 2,
+  "venue": {
+    "name": "J Geogr Syst",
+    "longname": "Journal of Geographical Systems",
+    "venue_type": "journal",
+    "logo_url": "https://codecheck.org.uk/img/JGSY-logo.jpg",
+    "website_url": "https://www.springer.com/journal/10109",
+    "contact_name": null,
+    "contact_email": null,
+    "description": "The Journal of Geographical Systems is a quarterly peer-reviewed journal published by Springer, founded in 1999 by Manfred M. Fischer and Arthur Getis. It covers geographical information, mathematical modelling, spatial analysis, regional science, geography, environmental science, planning and decision-making. It is indexed in Scopus, Web of Science and EconLit.",
+    "identifiers": [
+      {
+        "name": "ISSN (print)",
+        "icon": "fa-book",
+        "value": "1435-5930",
+        "url": "https://portal.issn.org/resource/ISSN/1435-5930"
+      },
+      {
+        "name": "ISSN (online)",
+        "icon": "fa-book",
+        "value": "1435-5949",
+        "url": "https://portal.issn.org/resource/ISSN/1435-5949"
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "journal": 1

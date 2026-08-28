@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/register.json",
   "cert_count": 9,
+  "venue": {
+    "name": "TU Delft DCC",
+    "longname": "TU Delft Digital Competence Centre",
+    "venue_type": "institution",
+    "logo_url": "https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg",
+    "website_url": "https://www.tudelft.nl/digital-competence-centre",
+    "contact_name": null,
+    "contact_email": null,
+    "description": "The Digital Competence Centre (DCC) is TU Delft's institutional hub supporting researchers across all disciplines with data management, research software development and computational workflows. It offers hands-on project support, office hours, training workshops and reproducibility assessments. Its FAIR4RS mentoring programme helps researchers make their software outputs findable, accessible, interoperable and reusable.",
+    "identifiers": [
+      {
+        "name": "ROR",
+        "icon": "fa-university",
+        "value": "02e2c7k09",
+        "url": "https://ror.org/02e2c7k09"
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "institution": 1

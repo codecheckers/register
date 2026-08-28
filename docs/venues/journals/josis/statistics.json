@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/venues/journals/josis/register.json",
   "cert_count": 2,
+  "venue": {
+    "name": "JOSIS",
+    "longname": "Journal of Spatial Information Science",
+    "venue_type": "journal",
+    "logo_url": "https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png",
+    "website_url": "https://josis.org",
+    "contact_name": null,
+    "contact_email": null,
+    "description": "The Journal of Spatial Information Science (JOSIS) is an international, open-access, volunteer-run journal publishing original research in spatial and geographic information science. Its scope spans theoretical foundations through to computational methods and practical applications of geospatial technology. All published articles are freely accessible at no cost to authors or readers.",
+    "identifiers": [
+      {
+        "name": "ISSN",
+        "icon": "fa-book",
+        "value": "1948-660X",
+        "url": "https://portal.issn.org/resource/ISSN/1948-660X"
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "journal": 1

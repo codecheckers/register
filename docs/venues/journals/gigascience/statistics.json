@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/venues/journals/gigascience/register.json",
   "cert_count": 2,
+  "venue": {
+    "name": "GigaScience",
+    "longname": "GigaScience",
+    "venue_type": "journal",
+    "logo_url": "https://codecheck.org.uk/img/gigascience_logo.svg",
+    "website_url": "https://academic.oup.com/gigascience",
+    "contact_name": null,
+    "contact_email": null,
+    "description": "GigaScience is an open-access, open-data journal published by Oxford University Press and GigaScience Press, focusing on \"big data\" research across computational biology, genomics, metagenomics and the life and biomedical sciences. Publication requires open and FAIR data, code and methods alongside the article, with reproducibility and usability as explicit review criteria. It runs an open peer-review process, supported by companion platforms such as the GigaDB dataset repository.",
+    "identifiers": [
+      {
+        "name": "ISSN",
+        "icon": "fa-book",
+        "value": "2047-217X",
+        "url": "https://portal.issn.org/resource/ISSN/2047-217X"
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "journal": 1
