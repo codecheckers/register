@@ -21,6 +21,14 @@ While iterating, skip the full build: `R CMD INSTALL --no-docs --no-byte-compile
 3. Stage both `register.csv` and the generated `docs/` output (see Committing)
 4. Preview locally with `make serve` (nginx on port 80), stop with `make serve-stop`
 
+A routine render never removes a certificate's OpenAlex ID or abstract just
+because this run's CrossRef/OpenAlex lookup came back empty: a lookup that
+merely failed (network error, rate limit) always keeps the previously
+rendered value, and even a conclusive "not available" keeps it by default,
+since that's more often a query problem than a real removal upstream. Only
+`make render PRUNE_STALE=1` actually removes a confirmed-unavailable value —
+use it deliberately, for a verified cleanup, not as part of a normal render.
+
 ## Adding a new certificate
 
 1. Read the Zenodo record: `curl -s https://zenodo.org/api/records/<RECORD ID> | python3 -m json.tool`. Add `-H "Accept: application/vnd.inveniordm.v1+json"` for the representation the curation policy is written against (creators as `person_or_org`, alternate identifiers under `metadata.identifiers`).

@@ -29,8 +29,12 @@ install_local:
 
 # CHECK_ZENODO=0 skips the Zenodo curation policy audit, which costs one
 # (cached) API request per certificate on a cold render
+# PRUNE_STALE=1 actually removes a certificate's OpenAlex ID/abstract when this
+# render's live lookup conclusively confirms it is no longer available -
+# routine renders never do this, a lookup that merely failed always keeps the
+# previous value regardless of this flag, see resolve_external_field()
 render: version env
-	R -q -e "codecheck::register_render(parallel = TRUE, check_zenodo_policy = $(if $(filter 0,$(CHECK_ZENODO)),FALSE,TRUE));"
+	R -q -e "codecheck::register_render(parallel = TRUE, check_zenodo_policy = $(if $(filter 0,$(CHECK_ZENODO)),FALSE,TRUE), prune_unavailable_metadata = $(if $(filter 1,$(PRUNE_STALE)),TRUE,FALSE));"
 
 stats: version
 	R -q -e "codecheck::register_update_stats();"
