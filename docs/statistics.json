@@ -1,0 +1,405 @@
+{
+  "source": "https://codecheck.org.uk/register/register.json",
+  "cert_count": 132,
+  "venue_count": 13,
+  "venues_per_type": {
+    "community": 4,
+    "conference": 1,
+    "institution": 2,
+    "journal": 6
+  },
+  "checks_per_type_per_year": {
+    "2019": {
+      "journal": 1
+    },
+    "2020": {
+      "community": 13,
+      "conference": 6,
+      "journal": 4
+    },
+    "2021": {
+      "community": 1,
+      "conference": 9
+    },
+    "2022": {
+      "community": 1,
+      "conference": 16,
+      "journal": 1
+    },
+    "2023": {
+      "community": 2,
+      "conference": 10
+    },
+    "2024": {
+      "community": 14,
+      "conference": 8,
+      "institution": 2
+    },
+    "2025": {
+      "community": 4,
+      "conference": 10,
+      "institution": 9,
+      "journal": 3
+    },
+    "2026": {
+      "community": 2,
+      "conference": 14,
+      "institution": 1,
+      "journal": 1
+    }
+  },
+  "checks_per_year": {
+    "2019": 1,
+    "2020": 23,
+    "2021": 10,
+    "2022": 18,
+    "2023": 12,
+    "2024": 24,
+    "2025": 26,
+    "2026": 18
+  },
+  "checks_cumulative": {
+    "2019": 1,
+    "2020": 24,
+    "2021": 34,
+    "2022": 52,
+    "2023": 64,
+    "2024": 88,
+    "2025": 114,
+    "2026": 132
+  },
+  "venues_per_year": {
+    "2019": 1,
+    "2020": 7,
+    "2021": 2,
+    "2022": 3,
+    "2023": 2,
+    "2024": 5,
+    "2025": 7,
+    "2026": 5
+  },
+  "venues_cumulative": {
+    "2019": 1,
+    "2020": 7,
+    "2021": 7,
+    "2022": 8,
+    "2023": 8,
+    "2024": 10,
+    "2025": 13,
+    "2026": 13
+  },
+  "codechecker_count": 66,
+  "codecheckers_per_year": {
+    "2019": 1,
+    "2020": 5,
+    "2021": 7,
+    "2022": 10,
+    "2023": 8,
+    "2024": 31,
+    "2025": 25,
+    "2026": 14
+  },
+  "codecheckers_cumulative": {
+    "2019": 1,
+    "2020": 5,
+    "2021": 10,
+    "2022": 14,
+    "2023": 16,
+    "2024": 42,
+    "2025": 60,
+    "2026": 66
+  },
+  "platform_per_year": {
+    "2019": {
+      "zenodo": 1
+    },
+    "2020": {
+      "osf": 6,
+      "zenodo": 17
+    },
+    "2021": {
+      "osf": 9,
+      "zenodo": 1
+    },
+    "2022": {
+      "osf": 16,
+      "zenodo": 2
+    },
+    "2023": {
+      "osf": 10,
+      "zenodo": 2
+    },
+    "2024": {
+      "osf": 11,
+      "zenodo": 13
+    },
+    "2025": {
+      "osf": 8,
+      "researchequals": 3,
+      "zenodo": 15
+    },
+    "2026": {
+      "osf": 13,
+      "researchequals": 1,
+      "zenodo": 4
+    }
+  },
+  "platform_cumulative": {
+    "2019": {
+      "osf": 0,
+      "researchequals": 0,
+      "zenodo": 1
+    },
+    "2020": {
+      "osf": 6,
+      "researchequals": 0,
+      "zenodo": 18
+    },
+    "2021": {
+      "osf": 15,
+      "researchequals": 0,
+      "zenodo": 19
+    },
+    "2022": {
+      "osf": 31,
+      "researchequals": 0,
+      "zenodo": 21
+    },
+    "2023": {
+      "osf": 41,
+      "researchequals": 0,
+      "zenodo": 23
+    },
+    "2024": {
+      "osf": 52,
+      "researchequals": 0,
+      "zenodo": 36
+    },
+    "2025": {
+      "osf": 60,
+      "researchequals": 3,
+      "zenodo": 51
+    },
+    "2026": {
+      "osf": 73,
+      "researchequals": 4,
+      "zenodo": 55
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "GigaScience",
+      "longname": "GigaScience",
+      "year_range": "2019-2020",
+      "label": "journal",
+      "cert_count": 2,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "GigaScience",
+      "logo_url": "https://codecheck.org.uk/img/gigascience_logo.svg",
+      "website_url": "https://academic.oup.com/gigascience",
+      "policy_url": "http://gigasciencejournal.com/blog/codecheck-certificate/",
+      "publisher": "GigaScience Press"
+    },
+    {
+      "name": "J Geogr Syst",
+      "longname": "Journal of Geographical Systems",
+      "year_range": "2020",
+      "label": "journal",
+      "cert_count": 2,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "J%20Geogr%20Syst",
+      "logo_url": "https://codecheck.org.uk/img/JGSY-logo.jpg",
+      "website_url": "https://www.springer.com/journal/10109",
+      "policy_url": "https://link.springer.com/article/10.1007/s10109-021-00364-4",
+      "publisher": "Springer"
+    },
+    {
+      "name": "J Archaeol Sci",
+      "longname": "Journal of Archaeological Science",
+      "year_range": "2020",
+      "label": "journal",
+      "cert_count": 1,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "J%20Archaeol%20Sci",
+      "logo_url": "https://ars.els-cdn.com/content/image/X03054403.jpg",
+      "website_url": "https://www.sciencedirect.com/journal/journal-of-archaeological-science",
+      "policy_url": null,
+      "publisher": "Elsevier"
+    },
+    {
+      "name": "GigaByte",
+      "longname": "GigaByte",
+      "year_range": "2022",
+      "label": "journal",
+      "cert_count": 1,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "GigaByte",
+      "logo_url": "https://codecheck.org.uk/img/gigabyte_logo.svg",
+      "website_url": "https://gigabytejournal.com/",
+      "policy_url": "http://gigasciencejournal.com/blog/frictionless-data-interactive-figures/",
+      "publisher": "GigaScience Press"
+    },
+    {
+      "name": "AGILEGIS",
+      "longname": "AGILE Conference on Geographic Information Science",
+      "year_range": "2020-2026",
+      "label": "conference",
+      "cert_count": 73,
+      "page_type": "conference",
+      "page_type_plural": "conferences",
+      "page_slug": "AGILEGIS",
+      "logo_url": "https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg",
+      "website_url": "https://agile-gi.eu",
+      "policy_url": "https://reproducible-agile.github.io/",
+      "publisher": "AGILE (Association of Geographic Information Laboratories in Europe)"
+    },
+    {
+      "name": "codecheck",
+      "longname": "CODECHECK",
+      "year_range": "2020-2026",
+      "label": "community",
+      "cert_count": 12,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck",
+      "logo_url": "https://codecheck.org.uk/img/codecheck_logo.svg",
+      "website_url": "https://codecheck.org.uk",
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "codecheck NL",
+      "longname": "CODECHECK NL",
+      "year_range": "2024-2025",
+      "label": "check-nl",
+      "cert_count": 14,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck%20NL",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "in press",
+      "longname": "In press",
+      "year_range": "2020",
+      "label": "journal",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "in%20press",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "preprint",
+      "longname": "Preprint",
+      "year_range": "2020-2026",
+      "label": "preprint",
+      "cert_count": 10,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "preprint",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "AUMC",
+      "longname": "Amsterdam UMC",
+      "year_range": "2024-2025",
+      "label": "institution",
+      "cert_count": 3,
+      "page_type": "institution",
+      "page_type_plural": "institutions",
+      "page_slug": "AUMC",
+      "logo_url": "https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg",
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "Lifecycle Journal",
+      "longname": "Lifecycle Journal",
+      "year_range": "2025",
+      "label": "lifecycle journal",
+      "cert_count": 2,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "Lifecycle%20Journal",
+      "logo_url": "https://codecheck.org.uk/img/lifecyclejournal_logo.png",
+      "website_url": "https://lifecyclejournal.org/",
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "TU Delft DCC",
+      "longname": "TU Delft Digital Competence Centre",
+      "year_range": "2025-2026",
+      "label": "institution",
+      "cert_count": 9,
+      "page_type": "institution",
+      "page_type_plural": "institutions",
+      "page_slug": "TU%20Delft%20DCC",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg",
+      "website_url": "https://www.tudelft.nl/digital-competence-centre",
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "JOSIS",
+      "longname": "Journal of Spatial Information Science",
+      "year_range": "2025-2026",
+      "label": "journal",
+      "cert_count": 2,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "JOSIS",
+      "logo_url": "https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png",
+      "website_url": "https://josis.org",
+      "policy_url": null,
+      "publisher": "University of Maine"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
+      "venue_count": 1,
+      "cert_count": 73
+    },
+    {
+      "name": "Elsevier",
+      "venue_count": 1,
+      "cert_count": 1
+    },
+    {
+      "name": "GigaScience Press",
+      "venue_count": 2,
+      "cert_count": 3
+    },
+    {
+      "name": "Springer",
+      "venue_count": 1,
+      "cert_count": 2
+    },
+    {
+      "name": "University of Maine",
+      "venue_count": 1,
+      "cert_count": 2
+    },
+    {
+      "name": "unknown",
+      "venue_count": 7,
+      "cert_count": 51
+    }
+  ]
+}

@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CODECHECK Statistics</title>
+
+<script src="../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="../libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="../libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="../libs/navigation-1.1/tabsets.js"></script>
+<link rel="shortcut icon" type="image/png" href="../favicon.png">
+
+<link rel="stylesheet" href="../assets/codecheck-register.css">
+
+<meta property="og:title" content="CODECHECK Register">
+<meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
+<meta name="generator" content="codecheck 0.26.0.9000, register commit 7f19ded">
+
+<meta property="og:url" content="https://codecheck.org.uk/register/">
+<meta property="og:site_name" content="CODECHECK Register">
+<meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
+
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json"></script>
+
+<!-- Icon fonts -->
+<link rel="stylesheet" href="../libs/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="../libs/font-awesome/css/font-awesome.min.css">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="codecheck-navbar">
+  <div class="navbar-container">
+    <a href="../index.html" class="navbar-brand">
+      <img src="../codecheck_logo.svg" alt="CODECHECK" class="navbar-logo">
+    </a>
+
+    <nav class="navbar-menu">
+      <a href="../venues/index.html" class="nav-link">All Venues</a>
+      <a href="../codecheckers/index.html" class="nav-link">All Codecheckers</a>
+      <a href="../statistics/index.html" class="nav-link active">Statistics</a>
+      <a href="https://codecheck.org.uk/" class="nav-link">About</a>
+    </nav>
+  </div>
+</div>
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../index.html">CODECHECK Register</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Statistics</li>
+  </ol>
+</nav>
+</div>
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">CODECHECK Statistics</h1>
+<h3 class="subtitle">An overview of checks, venues, codecheckers and publishers in the CODECHECK register</h3>
+
+</div>
+
+
+<style>
+.stats-summary-row { display: flex; gap: 1rem; margin-bottom: 2rem; }
+.stats-summary-card { text-align: center; padding: 1.5rem 1rem; border: 1px solid #ddd; border-radius: 6px; }
+.stats-summary-card .stats-value { font-size: 2.5rem; font-weight: bold; color: #2c7a4b; }
+.stats-charts-row { margin-bottom: 2rem; }
+.venues-grid { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; }
+.venue-card { border: 1px solid #ddd; border-radius: 6px; padding: 1rem; width: 220px; text-align: center; }
+.venue-card img { max-height: 40px; max-width: 100%; margin-bottom: 0.5rem; }
+.venue-card .venue-badge { display: flex; align-items: center; justify-content: center; min-height: 40px; margin-bottom: 0.5rem; padding: 0 0.25rem; font-weight: bold; font-size: 0.85rem; letter-spacing: 0.05em; line-height: 1.2; word-break: break-all; color: #999; }
+.venue-card .venue-count { color: #2c7a4b; font-size: 1.3rem; font-weight: bold; }
+.venue-card .venue-years { color: #888; font-size: 0.8rem; margin-top: 0.15rem; }
+.stats-summary-card-link { flex: 1; display: block; color: inherit; text-decoration: none; }
+.stats-summary-card-link:hover { text-decoration: none; }
+.stats-summary-card-link:hover .stats-summary-card { border-color: #2c7a4b; }
+.chart-reset-link { display: inline-block; margin-top: 0.5rem; font-size: 0.85rem; cursor: pointer; }
+</style>
+<div class="row stats-summary-row">
+<a class="stats-summary-card-link" href="../index.html">
+<div class="stats-summary-card">
+<div class="stats-value">
+132
+</div>
+<div class="stats-label">
+Certificates
+</div>
+</div>
+</a> <a class="stats-summary-card-link" href="../venues/index.html">
+<div class="stats-summary-card">
+<div class="stats-value">
+13
+</div>
+<div class="stats-label">
+Venues
+</div>
+</div>
+</a> <a class="stats-summary-card-link" href="../codecheckers/index.html">
+<div class="stats-summary-card">
+<div class="stats-value">
+66
+</div>
+<div class="stats-label">
+Codecheckers
+</div>
+</div>
+<p></a></p>
+</div>
+<div class="row stats-charts-row">
+<div class="col-md-6">
+<h3>
+Checks and codecheckers over time
+</h3>
+<canvas id="checksChart" height="220">
+</canvas>
+<a href="#" class="chart-reset-link" id="checksChartReset">Show all</a>
+</div>
+<div class="col-md-6">
+<h3>
+Checks by publication platform
+</h3>
+<canvas id="platformChart" height="220">
+</canvas>
+<a href="#" class="chart-reset-link" id="platformChartReset">Show all</a>
+</div>
+</div>
+<div class="row stats-charts-row">
+<div class="col-md-12">
+<h3>
+Venues by type
+</h3>
+<canvas id="venueTypeChart" height="140">
+</canvas>
+<a href="#" class="chart-reset-link" id="venueTypeChartReset">Show all</a>
+</div>
+</div>
+<h3>
+Journals (6)
+</h3>
+<div class="venues-grid">
+<div class="venue-card">
+<img src="https://codecheck.org.uk/img/gigascience_logo.svg" alt="GigaScience logo">
+<div class="venue-name">
+<a href="../venues/journals/GigaScience/">GigaScience</a>
+</div>
+<div class="venue-count">
+2 checks
+</div>
+<div class="venue-years">
+2019-2020
+</div>
+</div>
+<div class="venue-card">
+<img src="https://codecheck.org.uk/img/JGSY-logo.jpg" alt="Journal of Geographical Systems logo">
+<div class="venue-name">
+<a href="../venues/journals/J%20Geogr%20Syst/">Journal of Geographical Systems</a>
+</div>
+<div class="venue-count">
+2 checks
+</div>
+<div class="venue-years">
+2020
+</div>
+</div>
+<div class="venue-card">
+<img src="https://ars.els-cdn.com/content/image/X03054403.jpg" alt="Journal of Archaeological Science logo">
+<div class="venue-name">
+<a href="../venues/journals/J%20Archaeol%20Sci/">Journal of Archaeological Science</a>
+</div>
+<div class="venue-count">
+1 check
+</div>
+<div class="venue-years">
+2020
+</div>
+</div>
+<div class="venue-card">
+<img src="https://codecheck.org.uk/img/gigabyte_logo.svg" alt="GigaByte logo">
+<div class="venue-name">
+<a href="../venues/journals/GigaByte/">GigaByte</a>
+</div>
+<div class="venue-count">
+1 check
+</div>
+<div class="venue-years">
+2022
+</div>
+</div>
+<div class="venue-card">
+<img src="https://codecheck.org.uk/img/lifecyclejournal_logo.png" alt="Lifecycle Journal logo">
+<div class="venue-name">
+<a href="../venues/journals/Lifecycle%20Journal/">Lifecycle Journal</a>
+</div>
+<div class="venue-count">
+2 checks
+</div>
+<div class="venue-years">
+2025
+</div>
+</div>
+<div class="venue-card">
+<img src="https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png" alt="Journal of Spatial Information Science logo">
+<div class="venue-name">
+<a href="../venues/journals/JOSIS/">Journal of Spatial Information Science</a>
+</div>
+<div class="venue-count">
+2 checks
+</div>
+<div class="venue-years">
+2025-2026
+</div>
+</div>
+</div>
+<h3>
+Conference
+</h3>
+<div class="venues-grid">
+<div class="venue-card">
+<img src="https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg" alt="AGILE Conference on Geographic Information Science logo">
+<div class="venue-name">
+<a href="../venues/conferences/AGILEGIS/">AGILE Conference on Geographic Information Science</a>
+</div>
+<div class="venue-count">
+73 checks
+</div>
+<div class="venue-years">
+2020-2026
+</div>
+</div>
+</div>
+<h3>
+Communities (4)
+</h3>
+<div class="venues-grid">
+<div class="venue-card">
+<img src="https://codecheck.org.uk/img/codecheck_logo.svg" alt="CODECHECK logo">
+<div class="venue-name">
+<a href="../venues/communities/codecheck/">CODECHECK</a>
+</div>
+<div class="venue-count">
+12 checks
+</div>
+<div class="venue-years">
+2020-2026
+</div>
+</div>
+<div class="venue-card">
+<div class="venue-badge">
+CDCHCKNL
+</div>
+<div class="venue-name">
+<a href="../venues/communities/codecheck%20NL/">CODECHECK NL</a>
+</div>
+<div class="venue-count">
+14 checks
+</div>
+<div class="venue-years">
+2024-2025
+</div>
+</div>
+<div class="venue-card">
+<div class="venue-badge">
+NPRSS
+</div>
+<div class="venue-name">
+<a href="../venues/communities/in%20press/">In press</a>
+</div>
+<div class="venue-count">
+1 check
+</div>
+<div class="venue-years">
+2020
+</div>
+</div>
+<div class="venue-card">
+<div class="venue-badge">
+PRPRNT
+</div>
+<div class="venue-name">
+<a href="../venues/communities/preprint/">Preprint</a>
+</div>
+<div class="venue-count">
+10 checks
+</div>
+<div class="venue-years">
+2020-2026
+</div>
+</div>
+</div>
+<h3>
+Institutions (2)
+</h3>
+<div class="venues-grid">
+<div class="venue-card">
+<img src="https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg" alt="Amsterdam UMC logo">
+<div class="venue-name">
+<a href="../venues/institutions/AUMC/">Amsterdam UMC</a>
+</div>
+<div class="venue-count">
+3 checks
+</div>
+<div class="venue-years">
+2024-2025
+</div>
+</div>
+<div class="venue-card">
+<img src="https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg" alt="TU Delft Digital Competence Centre logo">
+<div class="venue-name">
+<a href="../venues/institutions/TU%20Delft%20DCC/">TU Delft Digital Competence Centre</a>
+</div>
+<div class="venue-count">
+9 checks
+</div>
+<div class="venue-years">
+2025-2026
+</div>
+</div>
+</div>
+<h3>
+Publishers
+</h3>
+<table class="table">
+<thead>
+<tr>
+<th>
+Publisher
+</th>
+<th>
+Venues
+</th>
+<th>
+Certificates
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+AGILE (Association of Geographic Information Laboratories in Europe)
+</td>
+<td>
+1
+</td>
+<td>
+73
+</td>
+</tr>
+<tr>
+<td>
+Elsevier
+</td>
+<td>
+1
+</td>
+<td>
+1
+</td>
+</tr>
+<tr>
+<td>
+GigaScience Press
+</td>
+<td>
+2
+</td>
+<td>
+3
+</td>
+</tr>
+<tr>
+<td>
+Springer
+</td>
+<td>
+1
+</td>
+<td>
+2
+</td>
+</tr>
+<tr>
+<td>
+University of Maine
+</td>
+<td>
+1
+</td>
+<td>
+2
+</td>
+</tr>
+<tr>
+<td>
+unknown
+</td>
+<td>
+7
+</td>
+<td>
+51
+</td>
+</tr>
+</tbody>
+</table>
+<script src="../libs/chartjs/chart.umd.min.js"></script>
+<script id="codecheck-stats-data" type="application/json">{"checks_labels":["2019","2020","2021","2022","2023","2024","2025","2026"],"checks_values":[1,24,34,52,64,88,114,132],"codecheckers_values":[1,5,10,14,16,42,60,66],"platform_years":["2019","2020","2021","2022","2023","2024","2025","2026"],"platform_datasets":{"osf":[0,6,15,31,41,52,60,73],"researchequals":[0,0,0,0,0,0,3,4],"zenodo":[1,18,19,21,23,36,51,55]},"venue_type_years":["2019","2020","2021","2022","2023","2024","2025","2026"],"venue_type_datasets":{"journal":[1,4,0,1,0,0,3,1],"community":[0,13,1,1,2,14,4,2],"conference":[0,6,9,16,10,8,10,14],"institution":[0,0,0,0,0,2,9,1]}}</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var data = JSON.parse(document.getElementById("codecheck-stats-data").textContent);
+  var platformNames = { zenodo: "Zenodo", osf: "OSF", researchequals: "ResearchEquals" };
+  function platformLabel(key) {
+    return platformNames[key] || (key.charAt(0).toUpperCase() + key.slice(1));
+  }
+  // Legend items are canvas-drawn, not real DOM elements, so a native title
+  // attribute on the canvas is the only way to surface hover text for them.
+  // Toggling a legend item can leave an axis with no visible dataset on it
+  // (e.g. the right-hand "Codecheckers" axis once that line is hidden) - hide
+  // any axis nothing currently visible plots against, and bring it back once
+  // a dataset using it is shown again.
+  function updateAxesForVisibility(chart) {
+    var scales = chart.options.scales || {};
+    Object.keys(scales).forEach(function (axisId) {
+      if (axisId === "x") return;
+      var used = chart.data.datasets.some(function (ds, i) {
+        return (ds.yAxisID || "y") === axisId && chart.isDatasetVisible(i);
+      });
+      scales[axisId].display = used;
+    });
+    chart.update();
+  }
+  function resetChart(chart) {
+    chart.data.datasets.forEach(function (ds, i) { chart.show(i); });
+    updateAxesForVisibility(chart);
+  }
+  function addResetLink(id, chart) {
+    var el = document.getElementById(id);
+    if (el) el.addEventListener("click", function (e) { e.preventDefault(); resetChart(chart); });
+  }
+  function legendHoverPlugin(getTitle) {
+    return {
+      onHover: function (event, legendItem, legend) {
+        legend.chart.canvas.style.cursor = "pointer";
+        legend.chart.canvas.title = getTitle(legendItem);
+      },
+      onLeave: function (event, legendItem, legend) {
+        legend.chart.canvas.style.cursor = "default";
+        legend.chart.canvas.title = "";
+      },
+      onClick: function (event, legendItem, legend) {
+        Chart.defaults.plugins.legend.onClick.call(this, event, legendItem, legend);
+        updateAxesForVisibility(legend.chart);
+      }
+    };
+  }
+  var checksChart = new Chart(document.getElementById("checksChart"), {
+    type: "line",
+    data: { labels: data.checks_labels, datasets: [
+      { label: "Cumulative certificates", data: data.checks_values, borderColor: "#2c7a4b", backgroundColor: "rgba(44,122,75,0.15)", fill: true, tension: 0.2, yAxisID: "y" },
+      { label: "Cumulative codecheckers", data: data.codecheckers_values, borderColor: "#8a4fbf", backgroundColor: "rgba(138,79,191,0.15)", fill: false, tension: 0.2, yAxisID: "y1" }
+    ] },
+    options: { scales: {
+      y: { beginAtZero: true, position: "left", title: { display: true, text: "Certificates" } },
+      y1: { beginAtZero: true, position: "right", title: { display: true, text: "Codecheckers" }, grid: { drawOnChartArea: false } }
+    }, plugins: { legend: legendHoverPlugin(function (item) { return "Click to show/hide " + item.text; }) } }
+  });
+  addResetLink("checksChartReset", checksChart);
+  var platformColors = ["#2c7a4b", "#3f7fbf", "#c97a2c", "#8a4fbf", "#bf3f5f"];
+  var platformDatasets = Object.keys(data.platform_datasets).map(function (name, i) {
+    return { label: platformLabel(name), data: data.platform_datasets[name], borderColor: platformColors[i % platformColors.length], backgroundColor: platformColors[i % platformColors.length], fill: false, tension: 0.2 };
+  });
+  var platformChart = new Chart(document.getElementById("platformChart"), {
+    type: "line",
+    data: { labels: data.platform_years, datasets: platformDatasets },
+    options: { scales: { y: { beginAtZero: true, title: { display: true, text: "Certificates" } } }, plugins: { legend: legendHoverPlugin(function (item) { return "Click to show/hide " + item.text; }) } }
+  });
+  addResetLink("platformChartReset", platformChart);
+  var venueTypeNames = { journal: "Journal", conference: "Conference", community: "Community", institution: "Institution" };
+  function venueTypeLabel(key) {
+    return venueTypeNames[key] || (key.charAt(0).toUpperCase() + key.slice(1));
+  }
+  var venueTypeColors = ["#2c7a4b", "#3f7fbf", "#c97a2c", "#8a4fbf"];
+  var venueTypeDatasets = Object.keys(data.venue_type_datasets).map(function (name, i) {
+    return { label: venueTypeLabel(name), data: data.venue_type_datasets[name], backgroundColor: venueTypeColors[i % venueTypeColors.length] };
+  });
+  var venueTypeChart = new Chart(document.getElementById("venueTypeChart"), {
+    type: "bar",
+    data: { labels: data.venue_type_years, datasets: venueTypeDatasets },
+    options: { scales: { x: { stacked: true }, y: { stacked: true, beginAtZero: true, title: { display: true, text: "Checks" } } }, plugins: { legend: legendHoverPlugin(function (item) { return "Click to show/hide " + item.text; }) } }
+  });
+  addResetLink("venueTypeChartReset", venueTypeChart);
+});
+</script>
+
+<p class="footer-links">
+    <a
+        href="../statistics.json"
+        title="JSON export of list">JSON</a>
+</p>
+
+<hr class="footer-separator" />
+
+<!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
+<div class="footer-content">
+    <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
+            href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
+
+    <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p><a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"><img title="license logo CC BY-SA 4.0"
+                src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></a>
+    </p>
+
+    <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit">https://doi.org/10.5281/zenodo.4059767</a></p>
+
+    <p class="footer-description">CODECHECK is a process for independent execution of
+        computations underlying scholarly research articles.</p>
+
+    <p class="build-info">Built: 2026-08-28 12:46:48 CEST | codecheck v0.26.0.9000 | register 7f19ded</p>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

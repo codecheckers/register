@@ -27,6 +27,13 @@ remove dependency on external CDNs.
 - **License URL**: https://github.com/jpswalsh/academicons/blob/master/LICENSE
 - **Configured**: 2026-08-26
 
+### Chart.js 4.4.4
+
+- **Description**: Charting library used by the statistics dashboard
+- **License**: MIT
+- **License URL**: https://github.com/chartjs/Chart.js/blob/v4.4.4/LICENSE.md
+- **Configured**: 2026-08-27
+
 ## Updating Libraries
 
 To update these libraries, run:

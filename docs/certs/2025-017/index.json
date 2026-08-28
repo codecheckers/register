@@ -31,7 +31,7 @@
     ],
     "check_time": "2025-06-06 14:00:00",
     "repository": "github::reproducible-agile/reviews-2025|reports/28",
-    "report": "https://doi.org/10.53962/wgtb-cagt",
+    "report": "https://doi.org/10.53962/yckj-53e8",
     "type": "conference",
     "venue": "AGILEGIS",
     "summary": "The reproduction was partially successful. I could not re-run LLM-prompting and fine-tuning due to resource restrictions (time, specific hardware needed) but could run the visualisations and analysis based on the provided intermediate data files, which are all published in an OSF project and well documented.\nAll figures and statistics from the paper were successfully recreated using two provided Jupyter Notebooks using Jupyter Lab with a corresponding runtime environment specification for Python.\n",
