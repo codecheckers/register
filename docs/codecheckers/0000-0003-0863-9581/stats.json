@@ -1,6 +1,19 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0003-0863-9581/register.json",
   "cert_count": 6,
+  "codechecker": {
+    "name": null,
+    "orcid": null,
+    "github_username": null,
+    "venue_count": 1,
+    "venues": [
+      {
+        "name": "AGILEGIS",
+        "type": "conference",
+        "cert_count": 6
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "conference": 1

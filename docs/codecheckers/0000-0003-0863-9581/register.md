@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Rémy Decoupes
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 6
 ---
 
 

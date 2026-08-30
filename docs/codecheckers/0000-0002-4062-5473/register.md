@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Silvin Willemsen
+orcid: 0000-0002-4062-5473
+github_username: SilvinWillemsen
+venues:
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-4062-5473" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-4062-5473</a>
- | 
-<a href="https://github.com/SilvinWillemsen" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

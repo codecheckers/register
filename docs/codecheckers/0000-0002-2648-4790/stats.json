@@ -1,6 +1,19 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-2648-4790/register.json",
   "cert_count": 1,
+  "codechecker": {
+    "name": "Marcel Stimberg",
+    "orcid": "0000-0002-2648-4790",
+    "github_username": "mstimberg",
+    "venue_count": 1,
+    "venues": [
+      {
+        "name": "preprint",
+        "type": "community",
+        "cert_count": 1
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "community": 1

@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Egor Kotov
+orcid: 0000-0001-6690-5345
+github_username: e-kotov
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 2
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0001-6690-5345" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0001-6690-5345</a>
- | 
-<a href="https://github.com/e-kotov" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

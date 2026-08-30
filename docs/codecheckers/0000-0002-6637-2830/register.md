@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Heather Andrews
+orcid: 0000-0002-6637-2830
+github_username: HeatherAn
+venues:
+- name: TU Delft DCC
+  type: institution
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-6637-2830" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-6637-2830</a>
- | 
-<a href="https://github.com/HeatherAn" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

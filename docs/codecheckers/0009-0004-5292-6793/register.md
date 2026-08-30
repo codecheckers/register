@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Luke McQuade
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 1
 ---
 
 

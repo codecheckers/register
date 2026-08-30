@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Sam Langton
+venues:
+- name: AUMC
+  type: institution
+  cert_count: 3
 ---
 
 

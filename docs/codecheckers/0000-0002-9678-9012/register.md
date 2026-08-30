@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Daniela Gawehns
+orcid: 0000-0002-9678-9012
+github_username: DanielaGawehns
+venues:
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-9678-9012" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-9678-9012</a>
- | 
-<a href="https://github.com/DanielaGawehns" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

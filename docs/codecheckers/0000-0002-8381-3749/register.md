@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Raniere Silva
+orcid: 0000-0002-8381-3749
+github_username: rgaiacs
+venues:
+- name: GigaByte
+  type: journal
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-8381-3749" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-8381-3749</a>
- | 
-<a href="https://github.com/rgaiacs" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

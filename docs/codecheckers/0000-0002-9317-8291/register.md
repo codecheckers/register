@@ -1,11 +1,16 @@
 ---
 title: Codechecks by Frank Ostermann
+orcid: 0000-0002-9317-8291
+github_username: foost
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 10
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-9317-8291" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-9317-8291</a>
- | 
-<a href="https://github.com/foost" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

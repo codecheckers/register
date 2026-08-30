@@ -1,6 +1,19 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-8381-3749/register.json",
   "cert_count": 1,
+  "codechecker": {
+    "name": "Raniere Silva",
+    "orcid": "0000-0002-8381-3749",
+    "github_username": "rgaiacs",
+    "venue_count": 1,
+    "venues": [
+      {
+        "name": "GigaByte",
+        "type": "journal",
+        "cert_count": 1
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "journal": 1

@@ -1,6 +1,39 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0001-8607-8025/register.json",
   "cert_count": 17,
+  "codechecker": {
+    "name": "Stephen Eglen",
+    "orcid": "0000-0001-8607-8025",
+    "github_username": "sje30",
+    "venue_count": 5,
+    "venues": [
+      {
+        "name": "GigaScience",
+        "type": "journal",
+        "cert_count": 2
+      },
+      {
+        "name": "codecheck",
+        "type": "community",
+        "cert_count": 3
+      },
+      {
+        "name": "codecheck NL",
+        "type": "community",
+        "cert_count": 3
+      },
+      {
+        "name": "in press",
+        "type": "community",
+        "cert_count": 1
+      },
+      {
+        "name": "preprint",
+        "type": "community",
+        "cert_count": 8
+      }
+    ]
+  },
   "venue_count": 5,
   "venues_per_type": {
     "community": 4,

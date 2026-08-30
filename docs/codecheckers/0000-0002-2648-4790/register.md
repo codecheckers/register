@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Marcel Stimberg
+orcid: 0000-0002-2648-4790
+github_username: mstimberg
+venues:
+- name: preprint
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-2648-4790" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-2648-4790</a>
- | 
-<a href="https://github.com/mstimberg" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

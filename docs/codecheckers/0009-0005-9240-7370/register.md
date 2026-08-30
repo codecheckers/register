@@ -1,11 +1,16 @@
 ---
 title: Codechecks by Yasel Quintero
+orcid: 0009-0005-9240-7370
+github_username: yiquintero
+venues:
+- name: TU Delft DCC
+  type: institution
+  cert_count: 5
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0009-0005-9240-7370" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0009-0005-9240-7370</a>
- | 
-<a href="https://github.com/yiquintero" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Jakub Krukar
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 4
 ---
 
 

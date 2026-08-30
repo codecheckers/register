@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Tim Schellekens
+venues:
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
 
 

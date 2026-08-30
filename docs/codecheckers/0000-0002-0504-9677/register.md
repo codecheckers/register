@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Patrick Eneche
+orcid: 0000-0002-0504-9677
+github_username: Patrick-Samson-Udama-Eneche
+venues:
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-0504-9677" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-0504-9677</a>
- | 
-<a href="https://github.com/Patrick-Samson-Udama-Eneche" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

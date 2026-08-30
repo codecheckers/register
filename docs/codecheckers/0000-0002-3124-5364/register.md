@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Philipp A. Friese
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 7
 ---
 
 

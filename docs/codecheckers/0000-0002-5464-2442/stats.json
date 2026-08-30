@@ -1,6 +1,19 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-5464-2442/register.json",
   "cert_count": 1,
+  "codechecker": {
+    "name": "Jan Haacker",
+    "orcid": "0000-0002-5464-2442",
+    "github_username": "j-haacker",
+    "venue_count": 1,
+    "venues": [
+      {
+        "name": "codecheck",
+        "type": "community",
+        "cert_count": 1
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "community": 1

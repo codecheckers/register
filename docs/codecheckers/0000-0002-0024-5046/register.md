@@ -1,11 +1,25 @@
 ---
 title: Codechecks by Daniel Nüst
+orcid: 0000-0002-0024-5046
+github_username: nuest
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 17
+- name: J Archaeol Sci
+  type: journal
+  cert_count: 1
+- name: J Geogr Syst
+  type: journal
+  cert_count: 2
+- name: Lifecycle Journal
+  type: journal
+  cert_count: 2
+- name: codecheck
+  type: community
+  cert_count: 4
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-0024-5046" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-0024-5046</a>
- | 
-<a href="https://github.com/nuest" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

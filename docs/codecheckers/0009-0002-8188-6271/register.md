@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Amira Al Balushi
+venues:
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
 
 

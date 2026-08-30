@@ -1,6 +1,19 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0009-0003-7546-1717/register.json",
   "cert_count": 1,
+  "codechecker": {
+    "name": "Subhan Ali",
+    "orcid": "0009-0003-7546-1717",
+    "github_username": "subhanLabs",
+    "venue_count": 1,
+    "venues": [
+      {
+        "name": "JOSIS",
+        "type": "journal",
+        "cert_count": 1
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "journal": 1

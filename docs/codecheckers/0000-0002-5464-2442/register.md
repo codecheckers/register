@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Jan Haacker
+orcid: 0000-0002-5464-2442
+github_username: j-haacker
+venues:
+- name: codecheck
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-5464-2442" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-5464-2442</a>
- | 
-<a href="https://github.com/j-haacker" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-5361-6285/register.json",
   "cert_count": 5,
+  "codechecker": {
+    "name": "Iain Davies",
+    "orcid": "0000-0002-5361-6285",
+    "github_username": "IainDaviesMaths",
+    "venue_count": 2,
+    "venues": [
+      {
+        "name": "codecheck",
+        "type": "community",
+        "cert_count": 4
+      },
+      {
+        "name": "preprint",
+        "type": "community",
+        "cert_count": 1
+      }
+    ]
+  },
   "venue_count": 2,
   "venues_per_type": {
     "community": 2

@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Eleni Tomai
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 2
 ---
 
 

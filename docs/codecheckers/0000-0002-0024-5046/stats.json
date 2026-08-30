@@ -1,6 +1,39 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-0024-5046/register.json",
   "cert_count": 26,
+  "codechecker": {
+    "name": "Daniel Nüst",
+    "orcid": "0000-0002-0024-5046",
+    "github_username": "nuest",
+    "venue_count": 5,
+    "venues": [
+      {
+        "name": "AGILEGIS",
+        "type": "conference",
+        "cert_count": 17
+      },
+      {
+        "name": "J Archaeol Sci",
+        "type": "journal",
+        "cert_count": 1
+      },
+      {
+        "name": "J Geogr Syst",
+        "type": "journal",
+        "cert_count": 2
+      },
+      {
+        "name": "Lifecycle Journal",
+        "type": "journal",
+        "cert_count": 2
+      },
+      {
+        "name": "codecheck",
+        "type": "community",
+        "cert_count": 4
+      }
+    ]
+  },
   "venue_count": 5,
   "venues_per_type": {
     "community": 1,

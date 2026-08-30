@@ -1,11 +1,25 @@
 ---
 title: Codechecks by Stephen J. Eglen
+orcid: 0000-0001-8607-8025
+github_username: sje30
+venues:
+- name: GigaScience
+  type: journal
+  cert_count: 2
+- name: codecheck
+  type: community
+  cert_count: 3
+- name: codecheck NL
+  type: community
+  cert_count: 3
+- name: in press
+  type: community
+  cert_count: 1
+- name: preprint
+  type: community
+  cert_count: 8
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0001-8607-8025" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0001-8607-8025</a>
- | 
-<a href="https://github.com/sje30" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

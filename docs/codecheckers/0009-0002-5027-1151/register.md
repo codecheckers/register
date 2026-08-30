@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Jeonghwan Choi
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 2
 ---
 
 

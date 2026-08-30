@@ -1,6 +1,19 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-0820-6674/register.json",
   "cert_count": 1,
+  "codechecker": {
+    "name": null,
+    "orcid": null,
+    "github_username": null,
+    "venue_count": 1,
+    "venues": [
+      {
+        "name": "codecheck NL",
+        "type": "community",
+        "cert_count": 1
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "community": 1

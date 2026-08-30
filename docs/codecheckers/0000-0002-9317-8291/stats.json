@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-9317-8291/register.json",
   "cert_count": 11,
+  "codechecker": {
+    "name": "Frank Ostermann",
+    "orcid": "0000-0002-9317-8291",
+    "github_username": "foost",
+    "venue_count": 2,
+    "venues": [
+      {
+        "name": "AGILEGIS",
+        "type": "conference",
+        "cert_count": 10
+      },
+      {
+        "name": "codecheck NL",
+        "type": "community",
+        "cert_count": 1
+      }
+    ]
+  },
   "venue_count": 2,
   "venues_per_type": {
     "community": 1,

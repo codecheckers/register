@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Jasper van Doninck
+venues:
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
 
 

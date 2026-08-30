@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Subhan Ali
+orcid: 0009-0003-7546-1717
+github_username: subhanLabs
+venues:
+- name: JOSIS
+  type: journal
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0009-0003-7546-1717" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0009-0003-7546-1717</a>
- | 
-<a href="https://github.com/subhanLabs" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Prince Oppong Boakye
+orcid: 0009-0003-5447-8034
+github_username: iprincegh
+venues:
+- name: codecheck
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0009-0003-5447-8034" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0009-0003-5447-8034</a>
- | 
-<a href="https://github.com/iprincegh" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

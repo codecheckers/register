@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Tina Rozsos
+venues:
+- name: codecheck NL
+  type: community
+  cert_count: 1
 ---
 
 

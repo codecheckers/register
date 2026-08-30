@@ -1,11 +1,16 @@
 ---
 title: Codechecks by Iain Davies
+orcid: 0000-0002-5361-6285
+github_username: IainDaviesMaths
+venues:
+- name: codecheck
+  type: community
+  cert_count: 4
+- name: preprint
+  type: community
+  cert_count: 1
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0002-5361-6285" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0002-5361-6285</a>
- | 
-<a href="https://github.com/IainDaviesMaths" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

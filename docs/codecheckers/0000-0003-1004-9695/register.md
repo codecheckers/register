@@ -1,11 +1,13 @@
 ---
 title: Codechecks by Carlos Granell
+orcid: 0000-0003-1004-9695
+github_username: cgranell
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 7
 ---
-<p class="codechecker-profile-links">
-<a href="https://orcid.org/0000-0003-1004-9695" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i> https://orcid.org/0000-0003-1004-9695</a>
- | 
-<a href="https://github.com/cgranell" title="GitHub profile"><i class="fa fa-github"></i> GitHub</a>
-</p>
+
 
 
 

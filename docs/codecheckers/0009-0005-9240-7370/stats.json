@@ -1,6 +1,24 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0009-0005-9240-7370/register.json",
   "cert_count": 6,
+  "codechecker": {
+    "name": "Yasel Quintero",
+    "orcid": "0009-0005-9240-7370",
+    "github_username": "yiquintero",
+    "venue_count": 2,
+    "venues": [
+      {
+        "name": "TU Delft DCC",
+        "type": "institution",
+        "cert_count": 5
+      },
+      {
+        "name": "codecheck NL",
+        "type": "community",
+        "cert_count": 1
+      }
+    ]
+  },
   "venue_count": 2,
   "venues_per_type": {
     "community": 1,

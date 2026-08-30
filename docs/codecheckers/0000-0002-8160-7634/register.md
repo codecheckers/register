@@ -1,5 +1,9 @@
 ---
 title: Codechecks by Nina Wiedemann
+venues:
+- name: AGILEGIS
+  type: conference
+  cert_count: 3
 ---
 
 

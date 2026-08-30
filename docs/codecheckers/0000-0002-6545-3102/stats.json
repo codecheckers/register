@@ -1,6 +1,19 @@
 {
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-6545-3102/register.json",
   "cert_count": 2,
+  "codechecker": {
+    "name": null,
+    "orcid": null,
+    "github_username": null,
+    "venue_count": 1,
+    "venues": [
+      {
+        "name": "TU Delft DCC",
+        "type": "institution",
+        "cert_count": 2
+      }
+    ]
+  },
   "venue_count": 1,
   "venues_per_type": {
     "institution": 1
