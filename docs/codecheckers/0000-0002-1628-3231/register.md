@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Joseph Shingleton
+orcid: 0000-0002-1628-3231
+github_username: jshng-glasgow
 venues:
 - name: AGILEGIS
   type: conference

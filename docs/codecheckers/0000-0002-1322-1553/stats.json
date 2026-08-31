@@ -2,9 +2,9 @@
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-1322-1553/register.json",
   "cert_count": 3,
   "codechecker": {
-    "name": null,
-    "orcid": null,
-    "github_username": null,
+    "name": "Sam Langton",
+    "orcid": "0000-0002-1322-1553",
+    "github_username": "langtonhugh",
     "venue_count": 1,
     "venues": [
       {

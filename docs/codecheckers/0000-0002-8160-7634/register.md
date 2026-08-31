@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Nina Wiedemann
+orcid: 0000-0002-8160-7634
+github_username: NinaWie
 venues:
 - name: AGILEGIS
   type: conference

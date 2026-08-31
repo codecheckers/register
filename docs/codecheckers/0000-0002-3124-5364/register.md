@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Philipp A. Friese
+orcid: 0000-0002-3124-5364
+github_username: philippfriese
 venues:
 - name: AGILEGIS
   type: conference

@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Franz Welscher
+orcid: 0000-0003-2432-1880
+github_username: Holz1GST
 venues:
 - name: AGILEGIS
   type: conference

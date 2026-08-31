@@ -2,9 +2,9 @@
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0003-0928-1139/register.json",
   "cert_count": 6,
   "codechecker": {
-    "name": null,
-    "orcid": null,
-    "github_username": null,
+    "name": "Eftychia Koukouraki",
+    "orcid": "0000-0003-0928-1139",
+    "github_username": "EftyK",
     "venue_count": 1,
     "venues": [
       {

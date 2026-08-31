@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Leila Iñigo de la Cruz
+orcid: 0000-0003-0852-9219
+github_username: leilaicruz
 venues:
 - name: TU Delft DCC
   type: institution

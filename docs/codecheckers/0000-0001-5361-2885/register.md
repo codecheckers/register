@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Anita Graser
+orcid: 0000-0001-5361-2885
+github_username: anitagraser
 venues:
 - name: AGILEGIS
   type: conference

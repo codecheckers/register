@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Josip Grguric
+orcid: 0009-0003-3725-9454
+github_username: jgrguric96
 venues:
 - name: TU Delft DCC
   type: institution

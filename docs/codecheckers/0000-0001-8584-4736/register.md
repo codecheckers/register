@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Aysun Urhan
+orcid: 0000-0001-8584-4736
+github_username: aysunrhn
 venues:
 - name: TU Delft DCC
   type: institution

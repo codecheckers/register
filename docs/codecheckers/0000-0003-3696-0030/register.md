@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Mehtab Alam Syed
+orcid: 0000-0003-3696-0030
+github_username: mehtab-alam
 venues:
 - name: AGILEGIS
   type: conference

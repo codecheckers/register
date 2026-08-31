@@ -2,9 +2,9 @@
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-3124-5364/register.json",
   "cert_count": 7,
   "codechecker": {
-    "name": null,
-    "orcid": null,
-    "github_username": null,
+    "name": "Philipp A. Friese",
+    "orcid": "0000-0002-3124-5364",
+    "github_username": "philippfriese",
     "venue_count": 1,
     "venues": [
       {

@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Ilya Ilyankou
+orcid: 0009-0008-7082-7122
+github_username: ilyankou
 venues:
 - name: AGILEGIS
   type: conference

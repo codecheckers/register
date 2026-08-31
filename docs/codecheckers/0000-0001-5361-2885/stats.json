@@ -2,9 +2,9 @@
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0001-5361-2885/register.json",
   "cert_count": 2,
   "codechecker": {
-    "name": null,
-    "orcid": null,
-    "github_username": null,
+    "name": "Anita Graser",
+    "orcid": "0000-0001-5361-2885",
+    "github_username": "anitagraser",
     "venue_count": 1,
     "venues": [
       {

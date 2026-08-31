@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Rémy Decoupes
+orcid: 0000-0003-0863-9581
+github_username: remydecoupes
 venues:
 - name: AGILEGIS
   type: conference

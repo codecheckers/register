@@ -2,8 +2,8 @@
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0002-4314-8107/register.json",
   "cert_count": 4,
   "codechecker": {
-    "name": null,
-    "orcid": null,
+    "name": "Sophie Teichmann",
+    "orcid": "0000-0002-4314-8107",
     "github_username": null,
     "venue_count": 1,
     "venues": [

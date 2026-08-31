@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Jakub Krukar
+orcid: 0000-0003-2615-8757
+github_username: kubakrukar
 venues:
 - name: AGILEGIS
   type: conference

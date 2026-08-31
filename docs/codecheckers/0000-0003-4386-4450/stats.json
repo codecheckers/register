@@ -2,9 +2,9 @@
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0003-4386-4450/register.json",
   "cert_count": 2,
   "codechecker": {
-    "name": null,
-    "orcid": null,
-    "github_username": null,
+    "name": "Alexander Kmoch",
+    "orcid": "0000-0003-4386-4450",
+    "github_username": "allixender",
     "venue_count": 1,
     "venues": [
       {

@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Sam Langton
+orcid: 0000-0002-1322-1553
+github_username: langtonhugh
 venues:
 - name: AUMC
   type: institution

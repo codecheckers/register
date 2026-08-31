@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Luke McQuade
+orcid: 0009-0004-5292-6793
+github_username: lukesdm
 venues:
 - name: AGILEGIS
   type: conference

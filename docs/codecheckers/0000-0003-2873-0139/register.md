@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Elviss Dvinskis
+orcid: 0000-0003-2873-0139
+github_username: edvinskis
 venues:
 - name: TU Delft DCC
   type: institution

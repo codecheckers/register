@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Barbara Hofer
+orcid: 0000-0001-7078-3766
+github_username: hoferb
 venues:
 - name: AGILEGIS
   type: conference

@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Alexander Kmoch
+orcid: 0000-0003-4386-4450
+github_username: allixender
 venues:
 - name: AGILEGIS
   type: conference

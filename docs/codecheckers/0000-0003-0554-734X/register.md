@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Lorena Abad
+orcid: 0000-0003-0554-734X
+github_username: loreabad6
 venues:
 - name: AGILEGIS
   type: conference

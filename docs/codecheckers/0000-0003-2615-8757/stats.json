@@ -2,9 +2,9 @@
   "source": "https://codecheck.org.uk/register/codecheckers/0000-0003-2615-8757/register.json",
   "cert_count": 4,
   "codechecker": {
-    "name": null,
-    "orcid": null,
-    "github_username": null,
+    "name": "Jakub Krukar",
+    "orcid": "0000-0003-2615-8757",
+    "github_username": "kubakrukar",
     "venue_count": 1,
     "venues": [
       {

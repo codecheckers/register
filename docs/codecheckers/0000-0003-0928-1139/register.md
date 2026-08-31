@@ -1,5 +1,7 @@
 ---
 title: Codechecks by Eftychia Koukouraki
+orcid: 0000-0003-0928-1139
+github_username: EftyK
 venues:
 - name: AGILEGIS
   type: conference
