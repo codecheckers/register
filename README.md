@@ -95,6 +95,16 @@ None of them is required to render, but without them you will hit rate limits, a
 
 Zenodo, OSF, CrossRef and ResearchEquals are queried anonymously and need no configuration.
 
+Two further credentials are not used for rendering, but for the targets that *write* somewhere, and they live only in `.env`:
+
+| Variable | Used for | How to get it |
+| --- | --- | --- |
+| `ZENODO_TOKEN` | `make zenodo_curate CERT_ID=... APPLY=1`, correcting a published certificate record against the [CODECHECK community curation policy](https://zenodo.org/communities/codecheck/curation-policy). The audit (`make zenodo_check`) is read-only and needs no token. | [Zenodo applications](https://zenodo.org/account/settings/applications/), scopes `deposit:write` and `deposit:actions` |
+| `WIKIBASE_USER`, `WIKIBASE_TOKEN` | Pushing the register into <https://codecheck.wikibase.cloud>, the CODECHECK Wikibase instance ([register#50](https://github.com/codecheckers/register/issues/50)). Reading that instance and its SPARQL endpoint is anonymous. | A bot password from [`Special:BotPasswords`](https://codecheck.wikibase.cloud/wiki/Special:BotPasswords) on the instance |
+
+A bot password is shown as a login name of the form `<account>@<bot name>` plus a 32-character password; put those into `WIKIBASE_USER` and `WIKIBASE_TOKEN` respectively.
+`Special:BotPasswords` also offers a legacy form for clients that require the login name to equal the account name — username `<account>`, password `<bot name>@<the 32-character password>` — which is not what these two variables expect.
+
 There are two places to put these variables.
 
 **In `~/.Renviron`**, one `NAME=value` per line, which applies to every R session on your machine:

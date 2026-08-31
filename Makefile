@@ -12,6 +12,14 @@ ifdef ZENODO_TOKEN
 export ZENODO_TOKEN
 endif
 
+ifdef WIKIBASE_USER
+export WIKIBASE_USER
+endif
+
+ifdef WIKIBASE_TOKEN
+export WIKIBASE_TOKEN
+endif
+
 ifdef OSF_PAT
 export OSF_PAT
 endif
@@ -24,6 +32,8 @@ env:
 	@echo "OPENALEX_API_KEY: $(if $(OPENALEX_API_KEY),set ($(shell echo -n '$(OPENALEX_API_KEY)' | wc -c) characters),not set, using the anonymous OpenAlex quota)"
 	@echo "GITHUB_PAT:       $(if $(shell grep -s GITHUB_PAT ~/.Renviron),set in ~/.Renviron,not found in ~/.Renviron)"
 	@echo "ZENODO_TOKEN:     $(if $(ZENODO_TOKEN),set ($(shell echo -n '$(ZENODO_TOKEN)' | wc -c) characters),not set, needed only for the zenodo_* targets)"
+	@echo "WIKIBASE_USER:    $(if $(WIKIBASE_USER),set,not set, needed only for pushing to codecheck.wikibase.cloud)"
+	@echo "WIKIBASE_TOKEN:   $(if $(WIKIBASE_TOKEN),set ($(shell echo -n '$(WIKIBASE_TOKEN)' | wc -c) characters),not set, needed only for pushing to codecheck.wikibase.cloud)"
 	@echo "OSF_PAT:          $(if $(OSF_PAT),set ($(shell echo -n '$(OSF_PAT)' | wc -c) characters),not set, using the anonymous OSF quota)"
 
 # same installation path as the Dockerfile, so the local environment matches
