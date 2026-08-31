@@ -43,8 +43,70 @@
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 
-<!-- Generic Schema.org metadata for CODECHECK website -->
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Periodical",
+      "name": "Journal of Geographical Systems",
+      "@id": "https://portal.issn.org/resource/ISSN/1435-5930",
+      "url": "https://codecheck.org.uk/register/venues/journals/j_geogr_syst/",
+      "sameAs": "https://www.springer.com/journal/10109",
+      "description": "The Journal of Geographical Systems is a quarterly peer-reviewed journal published by Springer, founded in 1999 by Manfred M. Fischer and Arthur Getis. It covers geographical information, mathematical modelling, spatial analysis, regional science, geography, environmental science, planning and decision-making. It is indexed in Scopus, Web of Science and EconLit.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://codecheck.org.uk/img/JGSY-logo.jpg"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISSN (print)",
+          "value": "1435-5930",
+          "url": "https://portal.issn.org/resource/ISSN/1435-5930"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISSN (online)",
+          "value": "1435-5949",
+          "url": "https://portal.issn.org/resource/ISSN/1435-5949"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-016/",
+      "name": "CODECHECK Certificate 2020-016",
+      "url": "https://codecheck.org.uk/register/certs/2020-016/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://portal.issn.org/resource/ISSN/1435-5930"
+        },
+        "name": "Opening practice: supporting reproducibility and critical spatial data science ",
+        "url": "https://doi.org/10.1007/s10109-020-00334-2",
+        "sameAs": "https://doi.org/10.1007/s10109-020-00334-2"
+      },
+      "datePublished": "2020-06-02"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-017/",
+      "name": "CODECHECK Certificate 2020-017",
+      "url": "https://codecheck.org.uk/register/certs/2020-017/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://portal.issn.org/resource/ISSN/1435-5930"
+        },
+        "name": "Progress in the R ecosystem for representing and handling spatial data",
+        "url": "https://doi.org/10.1007/s10109-020-00336-0",
+        "sameAs": "https://doi.org/10.1007/s10109-020-00336-0"
+      },
+      "datePublished": "2020-08-27"
+    }
+  ]
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../../libs/academicons/css/academicons.min.css">

@@ -35,7 +35,7 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.26.0.9000">
+<meta name="generator" content="codecheck 0.26.0.9001">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
@@ -539,7 +539,7 @@ unknown
 </tbody>
 </table>
 <script src="../libs/chartjs/chart.umd.min.js"></script>
-<script id="codecheck-stats-data" type="application/json">{"checks_labels":["2019","2020","2021","2022","2023","2024","2025","2026"],"checks_values":[1,24,34,52,64,88,114,132],"codecheckers_values":[1,5,10,14,16,42,60,66],"platform_years":["2019","2020","2021","2022","2023","2024","2025","2026"],"platform_datasets":{"osf":[0,6,15,31,41,52,60,73],"researchequals":[0,0,0,0,0,0,3,4],"zenodo":[1,18,19,21,23,36,51,55]},"venue_type_years":["2019","2020","2021","2022","2023","2024","2025","2026"],"venue_type_datasets":{"journal":[1,4,0,1,0,0,3,1],"community":[0,13,1,1,2,14,4,2],"conference":[0,6,9,16,10,8,10,14],"institution":[0,0,0,0,0,2,9,1]}}</script>
+<script id="codecheck-stats-data" type="application/json">{"checks_labels":["2019","2020","2021","2022","2023","2024","2025","2026"],"checks_values":[1,24,34,52,64,88,114,132],"codecheckers_values":[1,5,10,14,16,42,60,66],"platform_years":["2019","2020","2021","2022","2023","2024","2025","2026"],"platform_datasets":{"osf":[0,6,15,31,41,52,60,73],"researchequals":[0,0,0,0,0,0,3,4],"zenodo":[1,18,19,21,23,36,51,55]},"venue_type_years":["2019","2020","2021","2022","2023","2024","2025","2026"],"venue_type_datasets":{"journal":[1,4,0,1,0,0,3,1],"community":[0,13,1,1,2,14,4,2],"conference":[0,6,9,16,10,8,10,14],"institution":[0,0,0,0,0,2,9,1]},"venue_type_colors":{"journal":"#2c7a4b","community":"#3f7fbf","conference":"#c97a2c","institution":"#8a4fbf"}}</script>
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   var data = JSON.parse(document.getElementById("codecheck-stats-data").textContent);
@@ -614,9 +614,10 @@ document.addEventListener("DOMContentLoaded", function () {
   function venueTypeLabel(key) {
     return venueTypeNames[key] || (key.charAt(0).toUpperCase() + key.slice(1));
   }
-  var venueTypeColors = ["#2c7a4b", "#3f7fbf", "#c97a2c", "#8a4fbf"];
-  var venueTypeDatasets = Object.keys(data.venue_type_datasets).map(function (name, i) {
-    return { label: venueTypeLabel(name), data: data.venue_type_datasets[name], backgroundColor: venueTypeColors[i % venueTypeColors.length] };
+  // Colours are resolved server-side from CONFIG$VENUE_TYPE_COLORS and keyed
+  // by type name, so they no longer shift when a new type enters the data.
+  var venueTypeDatasets = Object.keys(data.venue_type_datasets).map(function (name) {
+    return { label: venueTypeLabel(name), data: data.venue_type_datasets[name], backgroundColor: data.venue_type_colors[name] };
   });
   var venueTypeChart = new Chart(document.getElementById("venueTypeChart"), {
     type: "bar",
@@ -652,7 +653,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2026-08-30 21:47:13 CEST | codecheck v0.26.0.9000 | register 01653eb</p>
+    <p class="build-info">Built: 2026-08-31 13:35:56 CEST | codecheck v0.26.0.9001 | register 59a523b</p>
 </div>
 
 

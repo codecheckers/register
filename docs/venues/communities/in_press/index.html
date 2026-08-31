@@ -43,8 +43,34 @@
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 
-<!-- Generic Schema.org metadata for CODECHECK website -->
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "In press",
+      "@id": "https://codecheck.org.uk/register/venues/communities/in_press/",
+      "url": "https://codecheck.org.uk/register/venues/communities/in_press/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-011/",
+      "name": "CODECHECK Certificate 2020-011",
+      "url": "https://codecheck.org.uk/register/certs/2020-011/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/in_press/"
+        },
+        "name": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe\n",
+        "url": "http://doi.org/10.1038/s41586-020-2405-7",
+        "sameAs": "http://doi.org/10.1038/s41586-020-2405-7"
+      },
+      "datePublished": "2020-06-13"
+    }
+  ]
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../../libs/academicons/css/academicons.min.css">

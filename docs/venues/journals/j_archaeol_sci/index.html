@@ -43,8 +43,54 @@
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 
-<!-- Generic Schema.org metadata for CODECHECK website -->
-<script type="application/ld+json"> {"description":"CODECHECK is a process for independent execution of computations underlying scholarly research articles.","headline":"CODECHECK","@type":"WebSite","url":"https://codecheck.org.uk/","name":"CODECHECK","author":{"@type":"Person","name":"Stephen Eglen & Daniel Nüst"},"@context":"https://schema.org"}</script>
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Periodical",
+      "name": "Journal of Archaeological Science",
+      "@id": "https://portal.issn.org/resource/ISSN/0305-4403",
+      "url": "https://codecheck.org.uk/register/venues/journals/j_archaeol_sci/",
+      "sameAs": "https://www.sciencedirect.com/journal/journal-of-archaeological-science",
+      "description": "The Journal of Archaeological Science is a monthly peer-reviewed journal published by Elsevier, established in 1974, focused on the development and application of scientific techniques and methodologies across all areas of archaeology. It bridges scientific methods with archaeological inquiry, covering archaeometry, bioarchaeology, geoarchaeology and related computational approaches. It operates a hybrid open-access model and is indexed in Scopus and the Science Citation Index.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ars.els-cdn.com/content/image/X03054403.jpg"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISSN (print)",
+          "value": "0305-4403",
+          "url": "https://portal.issn.org/resource/ISSN/0305-4403"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISSN (online)",
+          "value": "1095-9238",
+          "url": "https://portal.issn.org/resource/ISSN/1095-9238"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-025/",
+      "name": "CODECHECK Certificate 2020-025",
+      "url": "https://codecheck.org.uk/register/certs/2020-025/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://portal.issn.org/resource/ISSN/0305-4403"
+        },
+        "name": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+        "url": "https://doi.org/10.1016/j.jas.2020.105306",
+        "sameAs": "https://doi.org/10.1016/j.jas.2020.105306"
+      },
+      "datePublished": "2020-11-19"
+    }
+  ]
+}</script>
 
 <!-- Icon fonts -->
 <link rel="stylesheet" href="../../../libs/academicons/css/academicons.min.css">

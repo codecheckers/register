@@ -2,10 +2,10 @@
   {
     "Certificate ID": "2021-001",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2021-001/",
-    "Certificate PDF": "https://zenodo.org/api/records/4720843/files/causality-review-CODECHECK.zip/content",
+    "Certificate PDF": "https://zenodo.org/api/records/22205872/files/codecheck.pdf/content",
     "Repository": "github::codecheckers/causality-review",
     "Repository Link": "https://github.com/codecheckers/causality-review",
-    "Report": "https://doi.org/10.5281/zenodo.4720843",
+    "Report": "https://doi.org/10.5281/zenodo.22205872",
     "Title": "Causality indices for bivariate time series data: a comparative review of performance",
     "Paper reference": "https://doi.org/10.48550/arXiv.2104.00718",
     "OpenAlex": "https://openalex.org/W6948154681",

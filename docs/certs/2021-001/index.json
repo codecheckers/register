@@ -1,7 +1,7 @@
 {
   "certificate": {
     "id": "2021-001",
-    "title": "CODECHECK certificate 2021-001",
+    "title": "CODECHECK Certificate 2021-001",
     "url": "https://codecheck.org.uk/register/certs/2021-001/"
   },
   "paper": {
@@ -36,7 +36,7 @@
     ],
     "check_time": "2021-04-27T18:00:00+02:00",
     "repository": "github::codecheckers/causality-review",
-    "report": "https://doi.org/10.5281/zenodo.4720843",
+    "report": "https://doi.org/10.5281/zenodo.22205872",
     "type": "community",
     "venue": "preprint",
     "summary": "The authors provided all material and documented the process well, the check was therefore straightforward. Due to long computation times, only a subset of the results could be checked. Reproducing the results in the repository was successful, with non-significant numerical discrepancies. However, a small number of minor differences with the results in the arXiv preprint merit clarification.\n",
