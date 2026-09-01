@@ -35,7 +35,7 @@
 
 <meta property="og:title" content="CODECHECK Register">
 <meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
-<meta name="generator" content="codecheck 0.26.0.9001">
+<meta name="generator" content="codecheck 0.27.1.9000">
 
 <meta property="og:url" content="https://codecheck.org.uk/register/">
 <meta property="og:site_name" content="CODECHECK Register">
@@ -164,15 +164,17 @@ pre code {
 
 <div class="codecheck-navbar">
   <div class="navbar-container">
-    <a href="../../index.html" class="navbar-brand">
-      <img src="../../codecheck_logo.svg" alt="CODECHECK" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand" title="Go to list of checks">
+      <img src="../../codecheck_logo.svg" alt="Go to list of checks" class="navbar-logo">
     </a>
 
     <nav class="navbar-menu">
-      <a href="../index.html" class="nav-link active">All Venues</a>
-      <a href="../../codecheckers/index.html" class="nav-link">All Codecheckers</a>
-      <a href="../../statistics/index.html" class="nav-link">Statistics</a>
-      <a href="https://codecheck.org.uk/" class="nav-link">About</a>
+      <a href="../../index.html" class="nav-link" title="Browse all CODECHECK certificates">Checks</a>
+      <a href="../index.html" class="nav-link active" title="Browse venues that have hosted a CODECHECK">Venues</a>
+      <a href="../../works/index.html" class="nav-link" title="Browse checked papers">Works</a>
+      <a href="../../persons/index.html" class="nav-link" title="Browse people who authored or checked a paper">People</a>
+      <a href="../../statistics/index.html" class="nav-link" title="View register statistics">Statistics</a>
+      <a href="https://codecheck.org.uk/" class="nav-link" title="About the CODECHECK project">About</a>
     </nav>
   </div>
 </div>
@@ -180,7 +182,8 @@ pre code {
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Venues</li>
+    <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Institutions</li>
   </ol>
 </nav>
 </div>
@@ -191,7 +194,7 @@ pre code {
 
 
 <h1 class="title toc-ignore">CODECHECK List of institutions</h1>
-<h3 class="subtitle">In total, 12 codechecks were completed for 2 institutions</h3>
+<h3 class="subtitle">In total, 12 codechecks were completed for 2 institutions.</h3>
 
 </div>
 
@@ -199,8 +202,8 @@ pre code {
 <table>
 <thead>
 <tr class="header">
-<th align="left">Institution name</th>
-<th align="left">No. of codechecks</th>
+<th align="left" data-sort="string">Institution name</th>
+<th align="left" data-sort="int">No. of codechecks</th>
 </tr>
 </thead>
 <tbody>
@@ -227,7 +230,8 @@ pre code {
 <div class="footer-content">
     <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
             href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
-            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a></p>
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a> | <a
+            href="https://doi.org/10.53962/qtrx-1a"><i class="fa fa-flask"></i> ResearchEquals Collection</a></p>
 
     <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
     <p><a
@@ -240,8 +244,11 @@ pre code {
     <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2026-08-31 22:01:01 CEST | codecheck v0.26.0.9001 | register ac457c5</p>
+    <p class="build-info">Built: 2026-09-01 22:45:00 CEST | codecheck v0.27.1.9000 | register 1982a1a</p>
 </div>
+
+<script src="../../libs/codecheck/stupidtable.min.js"></script>
+<script src="../../libs/codecheck/table-sort-init.js"></script>
 
 
 

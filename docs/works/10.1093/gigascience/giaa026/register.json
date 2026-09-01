@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2020-001",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-001/",
+    "Certificate PDF": "https://zenodo.org/api/records/3674056/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/Piccolo-2020",
+    "Repository Link": "https://github.com/codecheckers/Piccolo-2020",
+    "Report": "http://doi.org/10.5281/zenodo.3674056",
+    "Title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
+    "Paper reference": "https://doi.org/10.1093/gigascience/giaa026",
+    "OpenAlex": "https://openalex.org/W3014157798",
+    "Type": "journal",
+    "Venue": "GigaScience",
+    "Check date": "2019-02-14"
+  }
+]

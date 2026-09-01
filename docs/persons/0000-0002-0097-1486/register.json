@@ -1,0 +1,47 @@
+[
+  {
+    "Certificate ID": "2024-017",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-017/",
+    "Certificate PDF": "https://zenodo.org/api/records/14211707/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation",
+    "Repository Link": "https://github.com/codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation",
+    "Report": "https://doi.org/10.5281/zenodo.14211707",
+    "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
+    "Paper reference": "https://doi.org/10.3397/IN_2024_3491",
+    "OpenAlex": "https://openalex.org/W4403440488",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-22",
+    "Role": "author"
+  },
+  {
+    "Certificate ID": "2024-022",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-022/",
+    "Certificate PDF": "https://zenodo.org/api/records/14273316/files/CODECHECK_report_DEISM.pdf/content",
+    "Repository": "github::codecheckers/DEISM",
+    "Repository Link": "https://github.com/codecheckers/DEISM",
+    "Report": "http://doi.org/10.5281/zenodo.14273316",
+    "Title": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method",
+    "Paper reference": "https://doi.org/10.1121/10.0023935",
+    "OpenAlex": "https://openalex.org/W4390971714",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-12-05",
+    "Role": "codechecker"
+  },
+  {
+    "Certificate ID": "2024-025",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-025/",
+    "Certificate PDF": "https://zenodo.org/api/records/15023714/files/CODECHECK_2024-25.pdf/content",
+    "Repository": "zenodo::15025861",
+    "Repository Link": "https://zenodo.org/records/15025861",
+    "Report": "https://doi.org/10.5281/zenodo.15023714",
+    "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
+    "Paper reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
+    "OpenAlex": null,
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-08",
+    "Role": "author"
+  }
+]

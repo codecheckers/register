@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2026-019",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-019/",
+    "Certificate PDF": "https://zenodo.org/api/records/21238767/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/certificate-2026-019",
+    "Repository Link": "https://github.com/codecheckers/certificate-2026-019",
+    "Report": "https://doi.org/10.5281/zenodo.21238767",
+    "Title": "Photoreceptor-specific scene statistics reveal melanopic structure in natural environments",
+    "Paper reference": "https://doi.org/10.1016/j.isci.2026.116661",
+    "OpenAlex": "https://openalex.org/W4416186252",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2026-07-07",
+    "Role": "author"
+  }
+]

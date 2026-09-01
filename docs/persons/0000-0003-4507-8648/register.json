@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2020-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-014/",
+    "Certificate PDF": "https://zenodo.org/api/records/3967326/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/Sadeh-and-Clopath",
+    "Repository Link": "https://github.com/codecheckers/Sadeh-and-Clopath",
+    "Report": "https://doi.org/10.5281/zenodo.3967326",
+    "Title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
+    "Paper reference": "https://doi.org/10.7554/eLife.52757",
+    "OpenAlex": "https://openalex.org/W3008505973",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-07-28",
+    "Role": "author"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2022-012",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-012/",
+    "Certificate PDF": "https://osf.io/download/uwtnj/",
+    "Repository": "osf::R6PSQ",
+    "Repository Link": "https://osf.io/R6PSQ",
+    "Report": "https://doi.org/10.17605/osf.io/r6psq",
+    "Title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-15-2022",
+    "OpenAlex": "https://openalex.org/W4282006514",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09"
+  }
+]

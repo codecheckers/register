@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2022-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-003/",
+    "Certificate PDF": "https://osf.io/download/3snpw/",
+    "Repository": "osf::JDTN3",
+    "Repository Link": "https://osf.io/JDTN3",
+    "Report": "https://doi.org/10.17605/OSF.IO/JDTN3",
+    "Title": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-3-2022",
+    "OpenAlex": "https://openalex.org/W4282982273",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09"
+  }
+]

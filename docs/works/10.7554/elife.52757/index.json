@@ -1,0 +1,82 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.7554/elife.52757/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.7554/elife.52757",
+    "title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing",
+    "openalex": "https://openalex.org/W3008505973",
+    "venues": "codecheck",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Sadra Sadeh",
+        "orcid": "0000-0001-8159-5461"
+      },
+      {
+        "name": "Claudia Clopath",
+        "orcid": "0000-0003-4507-8648"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2020": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2020": 1
+  },
+  "checks_cumulative": {
+    "2020": 1
+  },
+  "venues_per_year": {
+    "2020": 1
+  },
+  "venues_cumulative": {
+    "2020": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2020": 1
+  },
+  "codecheckers_cumulative": {
+    "2020": 1
+  },
+  "platform_per_year": {
+    "2020": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2020": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "codecheck",
+      "longname": "CODECHECK",
+      "year_range": "2020",
+      "label": "community",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck",
+      "logo_url": "https://codecheck.org.uk/img/codecheck_logo.svg",
+      "website_url": "https://codecheck.org.uk",
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

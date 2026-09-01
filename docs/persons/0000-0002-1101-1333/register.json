@@ -1,0 +1,32 @@
+[
+  {
+    "Certificate ID": "2023-009",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-009/",
+    "Certificate PDF": "https://osf.io/download/fv572/",
+    "Repository": "osf::9kp7u",
+    "Repository Link": "https://osf.io/9kp7u",
+    "Report": "https://doi.org/10.17605/osf.io/9kp7u",
+    "Title": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-3-2023",
+    "OpenAlex": "https://openalex.org/W4379799841",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "Role": "author"
+  },
+  {
+    "Certificate ID": "2026-005",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-005/",
+    "Certificate PDF": "https://osf.io/download/d9xrb/",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/008",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/008",
+    "Report": "https://doi.org/10.17605/OSF.IO/DZT8C",
+    "Title": "A Method for Spatializing Disturbance by Detecting Human-Wildlife Encounters from GNSS Trajectories",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-2-2026",
+    "OpenAlex": "https://openalex.org/W7164129368",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-24",
+    "Role": "author"
+  }
+]

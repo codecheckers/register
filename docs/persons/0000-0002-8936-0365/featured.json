@@ -1,0 +1,32 @@
+[
+  {
+    "Certificate ID": "2024-020",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-020/",
+    "Certificate PDF": "https://zenodo.org/api/records/14278912/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "Repository Link": "https://github.com/codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "Report": "https://doi.org/10.5281/zenodo.14278912",
+    "Title": "Describing the scale and composition of calls for police service: a replication and extension using open data",
+    "Paper reference": "https://doi.org/10.1080/15614263.2022.2102494",
+    "OpenAlex": "https://openalex.org/W4286489421",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28",
+    "Role": "codechecker"
+  },
+  {
+    "Certificate ID": "2024-005",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-005/",
+    "Certificate PDF": "https://zenodo.org/api/records/13945051/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/sample-size-codecheck",
+    "Repository Link": "https://github.com/codecheckers/sample-size-codecheck",
+    "Report": "https://doi.org/10.5281/zenodo.13945051",
+    "Title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
+    "Paper reference": "https://doi.org/10.31234/osf.io/cz32t",
+    "OpenAlex": "https://openalex.org/W4400463622",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2024-10-15",
+    "Role": "author"
+  }
+]

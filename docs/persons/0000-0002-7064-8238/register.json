@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2020-023",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-023/",
+    "Certificate PDF": "https://osf.io/download/dz9cq/",
+    "Repository": "github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Repository Link": "https://github.com/reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter",
+    "Report": "https://doi.org/10.17605/OSF.IO/XS5YR",
+    "Title": "Tracking Hurricane Dorian in GDELT and Twitter",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-19-2020",
+    "OpenAlex": "https://openalex.org/W3043006037",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13",
+    "Role": "author"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2020-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-002/",
+    "Certificate PDF": "https://zenodo.org/api/records/3750741/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/Reproduction-Hancock",
+    "Repository Link": "https://github.com/codecheckers/Reproduction-Hancock",
+    "Report": "http://doi.org/10.5281/zenodo.3750741",
+    "Title": "The principal components of natural images",
+    "Paper reference": "https://doi.org/10.1088/0954-898X_3_1_008",
+    "OpenAlex": "https://openalex.org/W2169326908",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-04-13"
+  }
+]

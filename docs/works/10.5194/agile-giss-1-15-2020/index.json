@@ -1,0 +1,94 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.5194/agile-giss-1-15-2020/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.5194/agile-giss-1-15-2020",
+    "title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
+    "openalex": "https://openalex.org/W3043728279",
+    "venues": "AGILEGIS",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Amine Medad",
+        "orcid": "0000-0002-6473-9969"
+      },
+      {
+        "name": "Mauro Gaio",
+        "orcid": null
+      },
+      {
+        "name": "Ludovic Moncla",
+        "orcid": "0000-0002-1590-9546"
+      },
+      {
+        "name": "Sébastien Mustière",
+        "orcid": null
+      },
+      {
+        "name": "Yannick Le Nir",
+        "orcid": null
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "conference": 1
+  },
+  "checks_per_type_per_year": {
+    "2020": {
+      "conference": 1
+    }
+  },
+  "checks_per_year": {
+    "2020": 1
+  },
+  "checks_cumulative": {
+    "2020": 1
+  },
+  "venues_per_year": {
+    "2020": 1
+  },
+  "venues_cumulative": {
+    "2020": 1
+  },
+  "codechecker_count": 2,
+  "codecheckers_per_year": {
+    "2020": 2
+  },
+  "codecheckers_cumulative": {
+    "2020": 2
+  },
+  "platform_per_year": {
+    "2020": {
+      "osf": 1
+    }
+  },
+  "platform_cumulative": {
+    "2020": {
+      "osf": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "AGILEGIS",
+      "longname": "AGILE Conference on Geographic Information Science",
+      "year_range": "2020",
+      "label": "conference",
+      "cert_count": 1,
+      "page_type": "conference",
+      "page_type_plural": "conferences",
+      "page_slug": "AGILEGIS",
+      "logo_url": "https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg",
+      "website_url": "https://agile-gi.eu",
+      "policy_url": "https://reproducible-agile.github.io/",
+      "publisher": "AGILE (Association of Geographic Information Laboratories in Europe)"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

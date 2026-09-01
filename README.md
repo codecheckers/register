@@ -56,6 +56,8 @@ In the future, these steps may be automated, see [issue #34](https://github.com/
 - [`docs/register.md`](register.md): Markdown table of the register with additional metadata for checks
 - [`docs/register.json`](docs/register.json) and [`docs/featured.json`](docs/featured.json): JSON file with additional metadata for checks, whereas the "featured" file only contains the last ten codechecks; use for integration of CODECHECK metadata in third party services, APIs, etc.; public links: [https://codecheck.org.uk/register/register.json](https://codecheck.org.uk/register/register.json) and [https://codecheck.org.uk/register/featured.json](https://codecheck.org.uk/register/featured.json)
 - [`docs/index.html`](https://codecheck.org.uk/register): HTML rendering of the extended register
+- [`docs/works/<DOI>/`](https://codecheck.org.uk/register/works/): a checked paper's own landing page, keyed by its DOI, listing every certificate that checked it ([#150](https://github.com/codecheckers/register/issues/150))
+- [`docs/persons/<ORCID>/`](https://codecheck.org.uk/register/persons/): a person's own landing page, listing both the works they authored and the checks they conducted ([#123](https://github.com/codecheckers/register/issues/123)); replaces the former `docs/codecheckers/` pages, whose per-page `register.json`/`register.csv` files no longer exist - only the root `register.json`/`featured.json` above are a supported API surface
 
 The above files are human-readable and machine-readable representations based on the register and metadata from the `codecheck.yml` files.
 

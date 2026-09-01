@@ -1,5 +1,5 @@
 ---
-title: CODECHECKs for codecheck
+title: "CODECHECKs for codecheck"
 venue_type: community
 website: https://codecheck.org.uk
 logo_url: https://codecheck.org.uk/img/codecheck_logo.svg
@@ -13,7 +13,7 @@ description: CODECHECK is an initiative supporting the independent execution and
 
 
 
-|Certificate |Report                          |Paper Title                                                                                                                                        |Check date |
+|Certificate |Report                          |Work                                                                                                                                               |Check date |
 |:--------|:------------|:-------------------------------------------------------|:---------------|
 |[2020-002](../../../certs/2020-002/)|[doi.org/10.5281/zenodo.3750741](http://doi.org/10.5281/zenodo.3750741)|[The principal components of natural images](https://doi.org/10.1088/0954-898X_3_1_008)                                                            |2020-04-13 |
 |[2020-003](../../../certs/2020-003/)|[doi.org/10.5281/zenodo.3741797](https://doi.org/10.5281/zenodo.3741797)|[Neural networks and physical systems with emergent collective computational abilities](https://doi.org/10.1073/pnas.79.8.2554)                    |2020-04-06 |

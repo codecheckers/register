@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2020-020",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-020/",
+    "Certificate PDF": "https://osf.io/download/7hcxv/",
+    "Repository": "osf::7TWR2",
+    "Repository Link": "https://osf.io/7TWR2",
+    "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
+    "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
+    "OpenAlex": "https://openalex.org/W3043446483",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13"
+  }
+]

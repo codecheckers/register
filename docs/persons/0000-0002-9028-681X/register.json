@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2026-012",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-012/",
+    "Certificate PDF": "https://osf.io/download/8wqxn/",
+    "Repository": "osf::bv4mk",
+    "Repository Link": "https://osf.io/bv4mk",
+    "Report": "https://doi.org/10.17605/OSF.IO/BV4MK",
+    "Title": "Spatio-Temporal Knowledge Graph from Unstructured Texts: A Multi-Scale Approach for Food Security Monitoring",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-16-2026",
+    "OpenAlex": "https://openalex.org/W7164184955",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-10",
+    "Role": "author"
+  }
+]

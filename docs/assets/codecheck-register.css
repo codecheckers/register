@@ -31,22 +31,11 @@
    ==================== */
 
 /* Primary brand color - use throughout for consistency */
-.codecheck-green,
 .navbar-menu .nav-link,
 .redirect-title,
 .redirect-link,
 .redirect-footer-link {
     color: #008033;
-}
-
-.codecheck-green-bg {
-    background-color: #008033;
-}
-
-/* Border color for branding elements */
-.codecheck-navbar,
-.footer-separator {
-    border-color: #008033;
 }
 
 /* ====================
@@ -55,7 +44,15 @@
 
 .codecheck-navbar {
     background-color: #ffffff;
-    border-bottom: 2px solid;
+    /* Color must be in the shorthand itself, not a separate border-color
+       declaration - a later rule setting border-color would silently lose
+       to this shorthand resetting it to currentColor, which is exactly the
+       bug this replaced (border-color was set once here, in a combined
+       .codecheck-navbar, .footer-separator selector, and once via a plain
+       border-color declaration for .footer-separator - both were always
+       overridden by a border/border-bottom shorthand appearing later in
+       the cascade, so neither border ever actually rendered green). */
+    border-bottom: 2px solid #008033;
     padding: 0.75rem 0;
     margin-bottom: 0;
 }
@@ -87,10 +84,13 @@
 }
 
 .navbar-menu .nav-link {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 2rem;
-    padding: 0.5rem 1rem;
+    font-weight: 700;
+    font-size: 1.20rem;
+    padding: 1rem 1rem 0.8rem;
     border-radius: 0.25rem;
     transition: background-color 0.2s, color 0.2s;
 }
@@ -98,10 +98,6 @@
 .navbar-menu .nav-link:hover {
     background-color: #f0f0f0;
     color: #005522;
-}
-
-.navbar-menu .nav-link.active {
-    font-weight: 700;
 }
 
 /* Responsive navigation */
@@ -144,7 +140,12 @@ nav[aria-label="breadcrumb"] {
     padding-left: 0;
     margin-left: 0;
     border-radius: 0;
-    font-size: 1.08rem;
+    /* Size, weight and colour match .navbar-menu .nav-link, so the
+       breadcrumb trail reads as part of the same navigation system as the
+       menu above it - regular content links elsewhere on the page are
+       untouched (still Bootstrap blue, e.g. .breadcrumb-item a below
+       explicitly overrides that shared default, everything else doesn't). */
+    font-size: 1.20rem;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -154,12 +155,13 @@ nav[aria-label="breadcrumb"] {
 }
 
 .breadcrumb-item a {
-    color: #007bff;
+    color: #008033;
+    font-weight: 700;
     text-decoration: none;
 }
 
 .breadcrumb-item a:hover {
-    color: #0056b3;
+    color: #005522;
     text-decoration: underline;
 }
 
@@ -176,7 +178,7 @@ nav[aria-label="breadcrumb"] {
 }
 
 .footer-separator {
-    border: 2px solid;
+    border: 2px solid #008033;
     margin-top: 2em;
 }
 
@@ -275,19 +277,6 @@ h1 {
     .card {
         min-height: 270px;
     }
-}
-
-/* Certificate image display */
-.img-background {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100%;
-}
-
-.wrapper {
-    height: 80vh;
-    padding: 0;
 }
 
 .row {
@@ -390,7 +379,6 @@ h1 {
 
 .random-cert-fab:hover {
     background-color: #005522;
-    color: #ffffff;
     transform: scale(1.06);
 }
 
@@ -500,4 +488,45 @@ h1 {
         display: block;
         margin: 0 0 1rem;
     }
+}
+
+/* ====================
+   Sortable Tables
+   ==================== */
+
+/* th[data-sort] is stupidtable.js's own opt-in marker (added at render
+   time by add_sortable_th_attributes()); a th with no data-sort attribute
+   is left as a plain, non-interactive header (e.g. Report, Work). */
+table thead th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    padding-right: 1.2em;
+}
+
+table thead th[data-sort]:hover {
+    background-color: #f5f5f5;
+}
+
+table thead th[data-sort]:focus {
+    outline: 2px solid #008033;
+    outline-offset: -2px;
+}
+
+table thead th[data-sort]::after {
+    content: "\21C5";
+    position: absolute;
+    right: 0.3em;
+    opacity: 0.35;
+    font-size: 0.85em;
+}
+
+table thead th[data-sort].sorting-asc::after {
+    content: "\2191";
+    opacity: 1;
+}
+
+table thead th[data-sort].sorting-desc::after {
+    content: "\2193";
+    opacity: 1;
 }

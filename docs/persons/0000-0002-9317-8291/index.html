@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Frank O. Ostermann</title>
+
+<script src="../../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../../libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="../../libs/navigation-1.1/tabsets.js"></script>
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+
+<link rel="stylesheet" href="../../assets/codecheck-register.css">
+
+<meta property="og:title" content="CODECHECK Register">
+<meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
+<meta name="generator" content="codecheck">
+
+<meta property="og:url" content="https://codecheck.org.uk/register/">
+<meta property="og:site_name" content="CODECHECK Register">
+<meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9317-8291",
+      "name": "Frank O. Ostermann",
+      "sameAs": "https://github.com/foost"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-020/",
+      "name": "CODECHECK Certificate 2020-020",
+      "url": "https://codecheck.org.uk/register/certs/2020-020/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2020-07-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-021/",
+      "name": "CODECHECK Certificate 2020-021",
+      "url": "https://codecheck.org.uk/register/certs/2020-021/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2020-07-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-023/",
+      "name": "CODECHECK Certificate 2020-023",
+      "url": "https://codecheck.org.uk/register/certs/2020-023/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2020-07-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-005/",
+      "name": "CODECHECK Certificate 2021-005",
+      "url": "https://codecheck.org.uk/register/certs/2021-005/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2021-06-10"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-005/",
+      "name": "CODECHECK Certificate 2022-005",
+      "url": "https://codecheck.org.uk/register/certs/2022-005/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2022-07-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-009/",
+      "name": "CODECHECK Certificate 2022-009",
+      "url": "https://codecheck.org.uk/register/certs/2022-009/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2022-07-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-008/",
+      "name": "CODECHECK Certificate 2024-008",
+      "url": "https://codecheck.org.uk/register/certs/2024-008/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2024-05-23"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-009/",
+      "name": "CODECHECK Certificate 2024-009",
+      "url": "https://codecheck.org.uk/register/certs/2024-009/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2024-05-23"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-014/",
+      "name": "CODECHECK Certificate 2024-014",
+      "url": "https://codecheck.org.uk/register/certs/2024-014/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2024-09-26"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-011/",
+      "name": "CODECHECK Certificate 2026-011",
+      "url": "https://codecheck.org.uk/register/certs/2026-011/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2026-03-31"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-015/",
+      "name": "CODECHECK Certificate 2026-015",
+      "url": "https://codecheck.org.uk/register/certs/2026-015/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2026-04-10"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5311/josis.2026.32.591",
+      "url": "https://doi.org/10.5311/josis.2026.32.591",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "name": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures "
+    }
+  ]
+}</script>
+
+<!-- Icon fonts -->
+<link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="codecheck-navbar">
+  <div class="navbar-container">
+    <a href="../../index.html" class="navbar-brand" title="Go to list of checks">
+      <img src="../../codecheck_logo.svg" alt="Go to list of checks" class="navbar-logo">
+    </a>
+
+    <nav class="navbar-menu">
+      <a href="../../index.html" class="nav-link" title="Browse all CODECHECK certificates">Checks</a>
+      <a href="../../venues/index.html" class="nav-link" title="Browse venues that have hosted a CODECHECK">Venues</a>
+      <a href="../../works/index.html" class="nav-link" title="Browse checked papers">Works</a>
+      <a href="../../persons/index.html" class="nav-link active" title="Browse people who authored or checked a paper">People</a>
+      <a href="../../statistics/index.html" class="nav-link" title="View register statistics">Statistics</a>
+      <a href="https://codecheck.org.uk/" class="nav-link" title="About the CODECHECK project">About</a>
+    </nav>
+  </div>
+</div>
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
+  </ol>
+</nav>
+</div>
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Frank O. Ostermann</h1>
+
+</div>
+
+
+<p class="role-summary">
+1 work authored · 11 checks conducted
+</p>
+<div class="venue-metadata codechecker-metadata">
+<img class="venue-metadata-logo codechecker-metadata-avatar" src="https://github.com/foost.png" alt="foost GitHub avatar"> <svg class="codechecker-type-chart" viewBox="0 0 96 96" role="img" aria-label="10 conference, 1 community"><path d="M48.00 2.00A46 46 0 1 1 23.13 9.30L34.48 26.97A25 25 0 1 0 48.00 23.00Z" fill="#c97a2c" stroke="#f6f8f6" stroke-width="1">
+<title>
+11 checks
+▸ conference: 10 (91%)
+  community: 1 (9%)
+</title>
+</path><path d="M23.13 9.30A46 46 0 0 1 48.00 2.00L48.00 23.00A25 25 0 0 0 34.48 26.97Z" fill="#3f7fbf" stroke="#f6f8f6" stroke-width="1">
+<title>
+11 checks
+  conference: 10 (91%)
+▸ community: 1 (9%)
+</title>
+</path></svg>
+<script id="codechecker-types" type="application/json">{"conference":10,"community":1}</script>
+<div class="venue-metadata-text">
+<ul class="venue-metadata-list">
+<li>
+<i class="ai ai-orcid"></i> <span class="venue-metadata-label">ORCID:</span> <a href="https://orcid.org/0000-0002-9317-8291" target="_blank" rel="noopener">0000-0002-9317-8291</a>
+</li>
+<li>
+<i class="fa fa-github"></i> <span class="venue-metadata-label">GitHub:</span> <a href="https://github.com/foost" target="_blank" rel="noopener">foost</a>
+</li>
+<li>
+<i class="fa fa-check-square-o"></i> <span class="venue-metadata-label">Contributed checks:</span> conference <a href="../../venues/conferences/agilegis">AGILEGIS</a> (10), community <a href="../../venues/communities/codecheck_nl">codecheck NL</a> (1)
+</li>
+</ul>
+</div>
+</div>
+<div id="works-authored-1" class="section level2">
+<h2>Works authored (1)</h2>
+<table>
+<colgroup>
+<col width="18%" />
+<col width="71%" />
+<col width="3%" />
+<col width="6%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Report</th>
+<th align="left">Work</th>
+<th align="left" data-sort="string">Venue</th>
+<th align="left" data-sort="string">Check date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.21807544">doi.org/10.5281/zenodo.21807544</a></td>
+<td align="left"><a href="https://doi.org/10.5311/JOSIS.2026.32.591">Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures</a></td>
+<td align="left"><a href="../../venues/journals/josis">JOSIS</a></td>
+<td align="left">2026-07-17</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="checks-conducted-11" class="section level2">
+<h2>Checks conducted (11)</h2>
+<table style="width:100%;">
+<colgroup>
+<col width="5%" />
+<col width="14%" />
+<col width="64%" />
+<col width="6%" />
+<col width="5%" />
+<col width="5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left" data-sort="string">Certificate</th>
+<th align="left">Report</th>
+<th align="left">Work</th>
+<th align="left" data-sort="string">Venue</th>
+<th align="left" data-sort="string">Type</th>
+<th align="left" data-sort="string">Check date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="../../certs/2020-020/">2020-020</a></td>
+<td align="left"><a href="https://doi.org/10.17605/OSF.IO/7TWR2">doi.org/10.17605/OSF.IO/7TWR2</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-1-21-2020">Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2020-07-13</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2020-021/">2020-021</a></td>
+<td align="left"><a href="https://doi.org/10.17605/OSF.IO/SUWPJ">doi.org/10.17605/OSF.IO/SUWPJ</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-1-15-2020">Comparing supervised learning algorithms for Spatial Nominal Entity recognition</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2020-07-13</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2020-023/">2020-023</a></td>
+<td align="left"><a href="https://doi.org/10.17605/OSF.IO/XS5YR">doi.org/10.17605/OSF.IO/XS5YR</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-1-19-2020">Tracking Hurricane Dorian in GDELT and Twitter</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2020-07-13</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2021-005/">2021-005</a></td>
+<td align="left"><a href="https://doi.org/10.17605/osf.io/7fqtm">doi.org/10.17605/osf.io/7fqtm</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-2-7-2021">A Comparative Study of Typing and Speech For Map Metadata Creation</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2021-06-10</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2022-005/">2022-005</a></td>
+<td align="left"><a href="https://doi.org/10.17605/osf.io/cdfah">doi.org/10.17605/osf.io/cdfah</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-3-5-2022">Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2022-07-09</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2022-009/">2022-009</a></td>
+<td align="left"><a href="https://doi.org/10.17605/osf.io/94vnx">doi.org/10.17605/osf.io/94vnx</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-3-12-2022">“Landmark Route”: A Comparison to the Shortest Route</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2022-07-09</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2024-008/">2024-008</a></td>
+<td align="left"><a href="https://doi.org/10.17605/OSF.IO/3NBJW">doi.org/10.17605/OSF.IO/3NBJW</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-5-8-2024">Knowledge-Based Identification of Urban Green Spaces: Allotments</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2024-05-23</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2024-009/">2024-009</a></td>
+<td align="left"><a href="https://doi.org/10.17605/osf.io/CSB7R">doi.org/10.17605/osf.io/CSB7R</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-5-2-2024">Developing a city-specific walkability index through a participatory approach</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2024-05-23</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2024-014/">2024-014</a></td>
+<td align="left"><a href="https://doi.org/10.17605/OSF.IO/spxt5">doi.org/10.17605/OSF.IO/spxt5</a></td>
+<td align="left"><a href="https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f">CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting</a></td>
+<td align="left"><a href="../../venues/communities/codecheck_nl">codecheck NL</a></td>
+<td align="left"><a href="../../venues/communities">Community</a></td>
+<td align="left">2024-09-26</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2026-011/">2026-011</a></td>
+<td align="left"><a href="https://doi.org/10.17605/OSF.IO/75PWN">doi.org/10.17605/OSF.IO/75PWN</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-7-18-2026">Towards National-Scale Ecological Applications: Harmonised Framework for LiDAR Point Cloud Processing for Vegetation Metrics Calculation</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2026-03-31</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2026-015/">2026-015</a></td>
+<td align="left"><a href="https://doi.org/10.17605/OSF.IO/VCGY2">doi.org/10.17605/OSF.IO/VCGY2</a></td>
+<td align="left"><a href="https://doi.org/10.5194/agile-giss-7-10-2026">Assessing the Geographic Diversity of AI’s Platial Representations in Image Generation</a></td>
+<td align="left"><a href="../../venues/conferences/agilegis">AGILEGIS</a></td>
+<td align="left"><a href="../../venues/conferences">Conference</a></td>
+<td align="left">2026-04-10</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<p class="footer-links"><a
+        href="register.json"
+        title="JSON export of register">JSON</a>
+</p>
+
+<hr class="footer-separator" />
+
+<!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
+<div class="footer-content">
+    <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
+            href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a> | <a
+            href="https://doi.org/10.53962/qtrx-1a"><i class="fa fa-flask"></i> ResearchEquals Collection</a></p>
+
+    <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p><a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"><img title="license logo CC BY-SA 4.0"
+                src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></a>
+    </p>
+
+    <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
+
+    <p class="footer-description">CODECHECK is a process for independent execution of
+        computations underlying scholarly research articles.</p>
+
+    <p class="build-info"></p>
+</div>
+
+<script src="../../libs/codecheck/stupidtable.min.js"></script>
+<script src="../../libs/codecheck/table-sort-init.js"></script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

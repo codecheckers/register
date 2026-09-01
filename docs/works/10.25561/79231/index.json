@@ -1,0 +1,90 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.25561/79231/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.25561/79231",
+    "title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)",
+    "openalex": "https://openalex.org/W3034840651",
+    "venues": "preprint",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "H Juliette T Unwin",
+        "orcid": "0000-0002-9120-4003"
+      },
+      {
+        "name": "Swapnil Mistra",
+        "orcid": null
+      },
+      {
+        "name": "Valerie C Bradley",
+        "orcid": null
+      },
+      {
+        "name": "et al.",
+        "orcid": null
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2020": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2020": 1
+  },
+  "checks_cumulative": {
+    "2020": 1
+  },
+  "venues_per_year": {
+    "2020": 1
+  },
+  "venues_cumulative": {
+    "2020": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2020": 1
+  },
+  "codecheckers_cumulative": {
+    "2020": 1
+  },
+  "platform_per_year": {
+    "2020": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2020": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "preprint",
+      "longname": "Preprint",
+      "year_range": "2020",
+      "label": "preprint",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "preprint",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

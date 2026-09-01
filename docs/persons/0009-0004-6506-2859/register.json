@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2026-016",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-016/",
+    "Certificate PDF": "https://osf.io/download/scu2k/",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/031",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/031",
+    "Report": "https://doi.org/10.17605/OSF.IO/WH6GD",
+    "Title": "Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-6-2026",
+    "OpenAlex": "https://openalex.org/W7164140075",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-04-27",
+    "Role": "author"
+  }
+]

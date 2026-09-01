@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2023-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-003/",
+    "Certificate PDF": "https://osf.io/download/w54a3/",
+    "Repository": "osf::m5bhk",
+    "Repository Link": "https://osf.io/m5bhk",
+    "Report": "https://doi.org/10.17605/osf.io/m5bhk",
+    "Title": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquake",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-5-2023",
+    "OpenAlex": "https://openalex.org/W4379796913",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2020-012",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-012/",
+    "Certificate PDF": "https://zenodo.org/api/records/3893617/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/covid19model-report23",
+    "Repository Link": "https://github.com/codecheckers/covid19model-report23",
+    "Report": "https://doi.org/10.5281/zenodo.3893617",
+    "Title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)",
+    "Paper reference": "https://doi.org/10.25561/79231",
+    "OpenAlex": "https://openalex.org/W3034840651",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2020-06-14",
+    "Role": "author"
+  }
+]

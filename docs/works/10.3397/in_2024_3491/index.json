@@ -1,0 +1,86 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.3397/in_2024_3491/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.3397/in_2024_3491",
+    "title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
+    "openalex": "https://openalex.org/W4403440488",
+    "venues": "codecheck NL",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Ilaria Fichera",
+        "orcid": "0000-0002-0097-1486"
+      },
+      {
+        "name": "Cédric Van hoorickx",
+        "orcid": "0000-0002-9671-5558"
+      },
+      {
+        "name": "Maarten Hornikx",
+        "orcid": "0000-0002-8343-6613"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2024": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2024": 1
+  },
+  "checks_cumulative": {
+    "2024": 1
+  },
+  "venues_per_year": {
+    "2024": 1
+  },
+  "venues_cumulative": {
+    "2024": 1
+  },
+  "codechecker_count": 3,
+  "codecheckers_per_year": {
+    "2024": 3
+  },
+  "codecheckers_cumulative": {
+    "2024": 3
+  },
+  "platform_per_year": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "codecheck NL",
+      "longname": "CODECHECK NL",
+      "year_range": "2024",
+      "label": "check-nl",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck%20NL",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

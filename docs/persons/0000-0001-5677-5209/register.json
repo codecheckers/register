@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2022-008",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-008/",
+    "Certificate PDF": "https://osf.io/download/w42nz/",
+    "Repository": "osf::K78EB",
+    "Repository Link": "https://osf.io/K78EB",
+    "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
+    "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
+    "OpenAlex": "https://openalex.org/W4281746077",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "Role": "author"
+  }
+]

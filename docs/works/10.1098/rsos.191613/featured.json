@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2024-001",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-001/",
+    "Certificate PDF": "https://zenodo.org/api/records/10823246/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/LazarEtAl_RSocOpenSci_2024",
+    "Repository Link": "https://github.com/codecheckers/LazarEtAl_RSocOpenSci_2024",
+    "Report": "https://doi.org/10.5281/zenodo.10823246",
+    "Title": "Regulation of pupil size in natural vision across the human lifespan",
+    "Paper reference": "https://doi.org/10.1098/rsos.191613",
+    "OpenAlex": "https://openalex.org/W4399759705",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2024-03-15"
+  }
+]

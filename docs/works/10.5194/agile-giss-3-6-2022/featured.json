@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2022-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-006/",
+    "Certificate PDF": "https://osf.io/download/7vy8u/",
+    "Repository": "osf::W7VPH",
+    "Repository Link": "https://osf.io/W7VPH",
+    "Report": "https://doi.org/10.17605/osf.io/W7VPH",
+    "Title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-6-2022",
+    "OpenAlex": "https://openalex.org/W4281897965",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09"
+  }
+]

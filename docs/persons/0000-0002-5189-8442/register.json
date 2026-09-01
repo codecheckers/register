@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2022-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-002/",
+    "Certificate PDF": "https://osf.io/download/wt594/",
+    "Repository": "osf::Z7P8K",
+    "Repository Link": "https://osf.io/Z7P8K",
+    "Report": "https://doi.org/10.17605/osf.io/z7p8k",
+    "Title": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-2-2022",
+    "OpenAlex": "https://openalex.org/W4282976318",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "Role": "author"
+  }
+]

@@ -1,11 +1,11 @@
 ---
-title: CODECHECK Register
+title: "CODECHECK Register"
 ---
 
 
 
 
-|Certificate |Report                          |Paper Title                                                                                                                                                 |Venue             |Type        |Check date |
+|Certificate |Report                          |Work                                                                                                                                                        |Venue             |Type        |Check date |
 |:-------|:--------------------------------------------------|:----------------------------------|:---------------|:---|:--------------------------|
 |[2020-001](./certs/2020-001/)|[doi.org/10.5281/zenodo.3674056](http://doi.org/10.5281/zenodo.3674056)|[ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.](https://doi.org/10.1093/gigascience/giaa026)         |[GigaScience](./venues/journals/gigascience)|[Journal](./venues/journals)|2019-02-14 |
 |[2020-002](./certs/2020-002/)|[doi.org/10.5281/zenodo.3750741](http://doi.org/10.5281/zenodo.3750741)|[The principal components of natural images](https://doi.org/10.1088/0954-898X_3_1_008)                                                                     |[codecheck](./venues/communities/codecheck)|[Community](./venues/communities)|2020-04-13 |

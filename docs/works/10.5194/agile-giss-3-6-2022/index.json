@@ -1,0 +1,90 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.5194/agile-giss-3-6-2022/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.5194/agile-giss-3-6-2022",
+    "title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
+    "openalex": "https://openalex.org/W4281897965",
+    "venues": "AGILEGIS",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Ditsuhi Iskandaryan",
+        "orcid": "0000-0001-6668-2700"
+      },
+      {
+        "name": "Silvana Di Sabatino",
+        "orcid": "0000-0003-2716-9247"
+      },
+      {
+        "name": "Francisco Ramos",
+        "orcid": "0000-0003-2540-4741"
+      },
+      {
+        "name": "Sergio Trilles",
+        "orcid": "0000-0002-9304-0719"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "conference": 1
+  },
+  "checks_per_type_per_year": {
+    "2022": {
+      "conference": 1
+    }
+  },
+  "checks_per_year": {
+    "2022": 1
+  },
+  "checks_cumulative": {
+    "2022": 1
+  },
+  "venues_per_year": {
+    "2022": 1
+  },
+  "venues_cumulative": {
+    "2022": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2022": 1
+  },
+  "codecheckers_cumulative": {
+    "2022": 1
+  },
+  "platform_per_year": {
+    "2022": {
+      "osf": 1
+    }
+  },
+  "platform_cumulative": {
+    "2022": {
+      "osf": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "AGILEGIS",
+      "longname": "AGILE Conference on Geographic Information Science",
+      "year_range": "2022",
+      "label": "conference",
+      "cert_count": 1,
+      "page_type": "conference",
+      "page_type_plural": "conferences",
+      "page_slug": "AGILEGIS",
+      "logo_url": "https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg",
+      "website_url": "https://agile-gi.eu",
+      "policy_url": "https://reproducible-agile.github.io/",
+      "publisher": "AGILE (Association of Geographic Information Laboratories in Europe)"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

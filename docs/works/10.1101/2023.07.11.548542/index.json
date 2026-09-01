@@ -1,0 +1,82 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.1101/2023.07.11.548542/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.1101/2023.07.11.548542",
+    "title": "Does enforcing glenohumeral joint stability matter? A new rapid muscle redundancy solver highlights the importance of non-superficial shoulder muscles",
+    "openalex": "https://openalex.org/W4384205770",
+    "venues": "preprint",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Italo Belli",
+        "orcid": "0000-0002-8064-2251"
+      },
+      {
+        "name": "Ajay Seth",
+        "orcid": "0000-0003-4217-1580"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2023": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2023": 1
+  },
+  "checks_cumulative": {
+    "2023": 1
+  },
+  "venues_per_year": {
+    "2023": 1
+  },
+  "venues_cumulative": {
+    "2023": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2023": 1
+  },
+  "codecheckers_cumulative": {
+    "2023": 1
+  },
+  "platform_per_year": {
+    "2023": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2023": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "preprint",
+      "longname": "Preprint",
+      "year_range": "2023",
+      "label": "preprint",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "preprint",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

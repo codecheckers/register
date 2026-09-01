@@ -1,0 +1,1772 @@
+[
+  {
+    "Name": "Stephen J. Eglen",
+    "ORCID": "0000-0001-8607-8025",
+    "Works authored": 1,
+    "Checks conducted": 17
+  },
+  {
+    "Name": "Daniel Nüst",
+    "ORCID": "0000-0002-0024-5046",
+    "Works authored": 1,
+    "Checks conducted": 26
+  },
+  {
+    "Name": "Wulfram Gerstner",
+    "ORCID": "0000-0002-4344-2189",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Richard Naud",
+    "ORCID": "0000-0001-7383-3095",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Iain Davies",
+    "ORCID": "0000-0002-5361-6285",
+    "Works authored": 0,
+    "Checks conducted": 5
+  },
+  {
+    "Name": "Rene Larisch",
+    "ORCID": "0000-0003-3544-0631",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Tiziano Zito",
+    "ORCID": "0000-0001-5891-1702",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Neil Ferguson",
+    "ORCID": "0000-0002-1154-8093",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Samir Bhatt",
+    "ORCID": "0000-0002-0891-4611",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "H Juliette T Unwin",
+    "ORCID": "0000-0002-9120-4003",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Manuel Spitschan",
+    "ORCID": "0000-0002-8572-9268",
+    "Works authored": 6,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Corrado Garbazza",
+    "ORCID": "0000-0002-8606-2944",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Susanne Kohl",
+    "ORCID": "0000-0002-6438-6331",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sadra Sadeh",
+    "ORCID": "0000-0001-8159-5461",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Claudia Clopath",
+    "ORCID": "0000-0003-4507-8648",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jyun-you Liou",
+    "ORCID": "0000-0003-4851-3676",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Elliot H Smith",
+    "ORCID": "0000-0003-4323-4643",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Chris Brunsdon",
+    "ORCID": "0000-0003-4254-1780",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Alexis Comber",
+    "ORCID": "0000-0002-3652-7846",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Roger S. Bivand",
+    "ORCID": "0000-0003-2392-6140",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Majid Hojati",
+    "ORCID": "0000-0001-7350-0055",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Carlos Granell",
+    "ORCID": "0000-0003-1004-9695",
+    "Works authored": 1,
+    "Checks conducted": 7
+  },
+  {
+    "Name": "Philipp A. Friese",
+    "ORCID": "0000-0002-3124-5364",
+    "Works authored": 1,
+    "Checks conducted": 7
+  },
+  {
+    "Name": "Frank O. Ostermann",
+    "ORCID": "0000-0002-9317-8291",
+    "Works authored": 1,
+    "Checks conducted": 11
+  },
+  {
+    "Name": "Amine Medad",
+    "ORCID": "0000-0002-6473-9969",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ludovic Moncla",
+    "ORCID": "0000-0002-1590-9546",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ehsan Hamzei",
+    "ORCID": "0000-0002-4712-230X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Han Kruiger",
+    "ORCID": "0000-0002-0901-202X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Stephan Winter",
+    "ORCID": "0000-0002-3403-6939",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Martin Tomko",
+    "ORCID": "0000-0002-5736-4679",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Simon Scheider",
+    "ORCID": "0000-0002-2267-4810",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Hartwig H. Hochmair",
+    "ORCID": "0000-0002-7064-8238",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sreten Cvetojevic",
+    "ORCID": "0000-0001-6069-5324",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sérgio Lifschitz",
+    "ORCID": "0000-0003-3073-3734",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Francesco Carrer",
+    "ORCID": "0000-0003-4397-4502",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Tomasz M. Kossowski",
+    "ORCID": "0000-0002-9976-4398",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Justyna Wilk",
+    "ORCID": "0000-0003-1495-2910",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Michał B. Pietrzak",
+    "ORCID": "0000-0002-9263-4478",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Marcel Stimberg",
+    "ORCID": "0000-0002-2648-4790",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Tom Edinburgh",
+    "ORCID": "0000-0002-3599-7133",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ari Ercole",
+    "ORCID": "0000-0001-8350-8093",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Monika Sester",
+    "ORCID": "0000-0002-6656-8809",
+    "Works authored": 3,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Claus Brenner",
+    "ORCID": "0000-0002-6459-0682",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Eleni Tomai",
+    "ORCID": "0000-0003-1162-7389",
+    "Works authored": 2,
+    "Checks conducted": 2
+  },
+  {
+    "Name": "Anita Graser",
+    "ORCID": "0000-0001-5361-2885",
+    "Works authored": 1,
+    "Checks conducted": 2
+  },
+  {
+    "Name": "Bashir Kazimi",
+    "ORCID": "0000-0003-1802-7511",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Auriol Degbelo",
+    "ORCID": "0000-0001-5087-8776",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jakub Krukar",
+    "ORCID": "0000-0003-2615-8757",
+    "Works authored": 0,
+    "Checks conducted": 4
+  },
+  {
+    "Name": "Ling Cai",
+    "ORCID": "0000-0001-7106-4907",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Gengchen Mai",
+    "ORCID": "0000-0002-7818-7309",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Rui Zhu",
+    "ORCID": "0000-0002-8910-9445",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Inga Schlegel",
+    "ORCID": "0000-0003-1468-4944",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Alexander Zipf",
+    "ORCID": "0000-0003-4916-9838",
+    "Works authored": 5,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sven Lautenbach",
+    "ORCID": "0000-0003-1825-9996",
+    "Works authored": 5,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Rémy Decoupes",
+    "ORCID": "0000-0003-0863-9581",
+    "Works authored": 2,
+    "Checks conducted": 6
+  },
+  {
+    "Name": "Rodrique Kafando",
+    "ORCID": "0000-0002-7190-9225",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Mathieu Roche",
+    "ORCID": "0000-0003-3272-8568",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Maguelonne Teisseire",
+    "ORCID": "0000-0001-9313-6414",
+    "Works authored": 3,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Alexander Kmoch",
+    "ORCID": "0000-0003-4386-4450",
+    "Works authored": 1,
+    "Checks conducted": 2
+  },
+  {
+    "Name": "Gerhard Navratil",
+    "ORCID": "0000-0002-2978-5724",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ioannis Giannopoulos",
+    "ORCID": "0000-0002-2556-5230",
+    "Works authored": 4,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Amélie A. Gagnon",
+    "ORCID": "0000-0003-4907-0774",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Guoray Cai orcid 1 and",
+    "ORCID": "0000-0002-5189-8442",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Marina Georgati",
+    "ORCID": "0000-0001-7794-8308",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "João Monteiro",
+    "ORCID": "0000-0003-4491-3744",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Bruno Martins",
+    "ORCID": "0000-0002-3856-2936",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Carsten Keßler",
+    "ORCID": "0000-0002-9724-820X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Eftychia Koukouraki",
+    "ORCID": "0000-0003-0928-1139",
+    "Works authored": 1,
+    "Checks conducted": 6
+  },
+  {
+    "Name": "Ditsuhi Iskandaryan",
+    "ORCID": "0000-0001-6668-2700",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Silvana Di Sabatino",
+    "ORCID": "0000-0003-2716-9247",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Francisco Ramos",
+    "ORCID": "0000-0003-2540-4741",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sergio Trilles",
+    "ORCID": "0000-0002-9304-0719",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Zilong Liu",
+    "ORCID": "0000-0002-7699-3366",
+    "Works authored": 3,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Meilin Shi",
+    "ORCID": "0000-0001-6039-7810",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Tom Niers",
+    "ORCID": "0000-0002-5746-8590",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jan Stenkamp",
+    "ORCID": "0000-0003-1100-4907",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Nick Pascal Jakuschona",
+    "ORCID": "0000-0001-6286-8022",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Thomas Bartoschek",
+    "ORCID": "0000-0002-0882-1036",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sven Schade",
+    "ORCID": "0000-0001-5677-5209",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Eva Nuhn",
+    "ORCID": "0000-0003-2443-8122",
+    "Works authored": 3,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sabine Timpf",
+    "ORCID": "0000-0002-7964-4110",
+    "Works authored": 4,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jayant Gupta",
+    "ORCID": "0000-0001-7028-9928",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Aditya Kulkarni",
+    "ORCID": "0000-0001-8981-6417",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Anahid Basiri",
+    "ORCID": "0000-0002-2399-1797",
+    "Works authored": 3,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Mehtab Alam Syed",
+    "ORCID": "0000-0003-3696-0030",
+    "Works authored": 1,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Elena Arsevska",
+    "ORCID": "0000-0002-6693-2316",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Marie-Dominique Van Damme",
+    "ORCID": "0000-0002-0007-5972",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Nina Wiedemann",
+    "ORCID": "0000-0002-8160-7634",
+    "Works authored": 1,
+    "Checks conducted": 3
+  },
+  {
+    "Name": "Stefania Zourlidou",
+    "ORCID": "0000-0003-1759-7379",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jens Golze",
+    "ORCID": "0000-0001-7355-351X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Raniere Silva",
+    "ORCID": "0000-0002-8381-3749",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Ruining Dong",
+    "ORCID": "0000-0003-1433-0484",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Daniel Cameron",
+    "ORCID": "0000-0002-0951-7116",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Justin Bedo",
+    "ORCID": "0000-0001-5704-0212",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Anthony T Papenfuss",
+    "ORCID": "0000-0002-1102-8506",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Katharina Henggeler",
+    "ORCID": "0000-0002-8381-0863",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Luis Lutnyk",
+    "ORCID": "0000-0002-9458-8575",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Martin Raubal",
+    "ORCID": "0000-0001-5951-6835",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Benjamin Herfort",
+    "ORCID": "0000-0001-9738-4060",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Margarita Kokla",
+    "ORCID": "0000-0002-0369-7099",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Marinos Kavouras",
+    "ORCID": "0000-0001-7563-0793",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Raphael Zürcher",
+    "ORCID": "0000-0002-6206-956X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jiayan Zhao",
+    "ORCID": "0000-0002-8533-6042",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Alvaro Lau Sarmiento",
+    "ORCID": "0000-0002-0419-7002",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Benjamin Brede",
+    "ORCID": "0000-0001-9253-4517",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Alexander Klippel",
+    "ORCID": "0000-0002-7171-492X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Carolina Pereira Marghidan",
+    "ORCID": "0000-0003-4427-4065",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Maarten van Aalst",
+    "ORCID": "0000-0003-0319-5627",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Justine Blanford",
+    "ORCID": "0000-0003-0844-9390",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Raphaël Bres",
+    "ORCID": "0000-0001-5597-8602",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Veronika Peralta",
+    "ORCID": "0000-0002-9236-9088",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Arnaud Le-Guilcher",
+    "ORCID": "0000-0001-6673-6158",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Thomas Devogele",
+    "ORCID": "0000-0001-9187-8385",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ana-Maria Olteanu Raimond",
+    "ORCID": "0000-0002-1101-1333",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Cyril de Runz",
+    "ORCID": "0000-0002-5951-6859",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Italo Belli",
+    "ORCID": "0000-0002-8064-2251",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ajay Seth",
+    "ORCID": "0000-0003-4217-1580",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Mushfiqul Anwar Siraji",
+    "ORCID": "0000-0003-0127-9982",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Rafael Lazar",
+    "ORCID": "0000-0001-7972-5634",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Filip Surma",
+    "ORCID": "0000-0002-6756-9598",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Anahita Jamshidnejad",
+    "ORCID": "0000-0001-9151-2607",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sam Langton",
+    "ORCID": "0000-0002-1322-1553",
+    "Works authored": 1,
+    "Checks conducted": 3
+  },
+  {
+    "Name": "Balthasar Teuscher",
+    "ORCID": "0000-0002-2811-1920",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jonas Hurst",
+    "ORCID": "0009-0000-0004-0051",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Christian Kray",
+    "ORCID": "0000-0002-4199-8976",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Irada Ismayilova",
+    "ORCID": "0000-0003-4414-4084",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Joseph Shingleton",
+    "ORCID": "0000-0002-1628-3231",
+    "Works authored": 2,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Dagoberto José Herrera-Murillo",
+    "ORCID": "0000-0002-8000-628X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Héctor Ochoa-Ortiz",
+    "ORCID": "0000-0002-6477-0683",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Umair Ahmed",
+    "ORCID": "0000-0003-2260-2777",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Francisco Javier López-Pellicer",
+    "ORCID": "0000-0001-6491-7430",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Barbara Re",
+    "ORCID": "0000-0001-5374-2364",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Andrea Polini",
+    "ORCID": "0000-0002-2840-7561",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Javier Nogueras-Iso",
+    "ORCID": "0000-0002-1279-0367",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Samuel Hollendonner",
+    "ORCID": "0009-0000-7923-3357",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Negar Alinaghi",
+    "ORCID": "0000-0001-6594-4481",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Lukas Röseler",
+    "ORCID": "0000-0002-6446-1901",
+    "Works authored": 1,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Eduard Klapwijk",
+    "ORCID": "0000-0002-8936-0365",
+    "Works authored": 1,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Joran Jongerling",
+    "ORCID": "0000-0001-5697-1381",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Herbert Hoijtink",
+    "ORCID": "0000-0001-8509-1973",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Eveline Crone",
+    "ORCID": "0000-0002-7508-6078",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Patrick Eneche",
+    "ORCID": "0000-0002-0504-9677",
+    "Works authored": 1,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Karin Pfeffer",
+    "ORCID": "0000-0002-6080-1323",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Amira Al Balushi",
+    "ORCID": "0009-0002-8188-6271",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Angelina Momin",
+    "ORCID": "0000-0002-6875-1551",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Jasper van Doninck",
+    "ORCID": "0000-0003-2177-7882",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "DelaPaz-Ruíz, Néstor",
+    "ORCID": "0000-0002-8941-4677",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Augustijn, Ellen-Wien",
+    "ORCID": "0000-0002-3389-7585",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Farnaghi, Mahdi",
+    "ORCID": "0000-0002-3071-5563",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Abdulkareem, Shaheen A.",
+    "ORCID": "0000-0002-9837-0207",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Zurita-Milla, Raul",
+    "ORCID": "0000-0002-1769-6310",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Mareike Wendelmuth",
+    "ORCID": "0009-0008-5638-1670",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Ilaria Fichera",
+    "ORCID": "0000-0002-0097-1486",
+    "Works authored": 2,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Cédric Van hoorickx",
+    "ORCID": "0000-0002-9671-5558",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Maarten Hornikx",
+    "ORCID": "0000-0002-8343-6613",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Johannes Zauner",
+    "ORCID": "0000-0003-2171-4566",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ljiljana Udovicic",
+    "ORCID": "0000-0002-6035-8309",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Yasel Quintero",
+    "ORCID": "0009-0005-9240-7370",
+    "Works authored": 0,
+    "Checks conducted": 6
+  },
+  {
+    "Name": "Joslyn Sun",
+    "ORCID": "0009-0002-2379-0060",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Roel Janssen",
+    "ORCID": "0000-0003-4324-5350",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Mohammadamin Sinichi",
+    "ORCID": "0009-0008-2491-1542",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Joey Tang",
+    "ORCID": "0000-0002-0820-6674",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Max Reichert",
+    "ORCID": "0009-0003-8352-7288",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Flora Zhou",
+    "ORCID": "0009-0002-4934-1474",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Stijn Ruiter",
+    "ORCID": "0000-0003-2872-2710",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Tim Verlaan",
+    "ORCID": "0000-0002-3048-5817",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Tina Rozsos",
+    "ORCID": "0009-0008-5383-5497",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Stijn Peeters",
+    "ORCID": "0009-0004-3684-3584",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Hanne Oberman",
+    "ORCID": "0000-0003-3276-2141",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Veerle van Harten",
+    "ORCID": "0000-0003-0451-4052",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Daniela Gawehns",
+    "ORCID": "0000-0002-9678-9012",
+    "Works authored": 1,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Matthijs van Leeuwen",
+    "ORCID": "0000-0002-0510-3549",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Silvin Willemsen",
+    "ORCID": "0000-0002-4062-5473",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Andrea Gerbotto",
+    "ORCID": "0009-0000-6285-0316",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Zeyu Xu",
+    "ORCID": "0000-0002-4158-6218",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Adrian Herzog",
+    "ORCID": "0000-0003-0827-8333",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Alexander Lodermeyer",
+    "ORCID": "0000-0003-4308-7137",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Emanuel A.P. Habets",
+    "ORCID": "0000-0002-2613-8046",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Albert G. Prinn",
+    "ORCID": "0000-0003-3491-3644",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jeroen Hoogland",
+    "ORCID": "0000-0002-2397-6052",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Orestis Efthimiou",
+    "ORCID": "0000-0002-0955-7572",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Tri-Long Nguyen",
+    "ORCID": "0000-0002-6376-7212",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Thomas P A Debray",
+    "ORCID": "0000-0002-1790-2719",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jelle Langedijk",
+    "ORCID": "0009-0009-6684-1930",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Tim Schellekens",
+    "ORCID": "0009-0009-0918-9982",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Simon Kersten",
+    "ORCID": "0000-0003-3303-9297",
+    "Works authored": 1,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Michael Vorländer",
+    "ORCID": "0000-0002-7010-8370",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "João Fatela",
+    "ORCID": "0009-0009-4474-171X",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Aysun Urhan",
+    "ORCID": "0000-0001-8584-4736",
+    "Works authored": 1,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Florine W. Dekker",
+    "ORCID": "0000-0002-0506-7365",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Zekeriya Erkin",
+    "ORCID": "0000-0001-8932-4703",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Mauro Conti",
+    "ORCID": "0000-0002-3612-1934",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Aleksandra Wilczynska",
+    "ORCID": "0000-0001-9323-0267",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Bjørn Peare Bartholdy",
+    "ORCID": "0000-0003-1689-0557",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jørgen Hasselstrøm",
+    "ORCID": "0000-0002-5928-9238",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Maia Casna",
+    "ORCID": "0000-0002-4209-7889",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Amanda Henry",
+    "ORCID": "0000-0002-2923-4199",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Dan F. M. Goodman",
+    "ORCID": "0000-0003-1007-6474",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Joao Guimaraes",
+    "ORCID": "0000-0002-6545-3102",
+    "Works authored": 0,
+    "Checks conducted": 2
+  },
+  {
+    "Name": "Tworit K. Dash",
+    "ORCID": "0000-0003-3127-8841",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "David Prinsloo",
+    "ORCID": "0000-0001-6052-9692",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ian Hussey",
+    "ORCID": "0000-0001-8906-7559",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Malte Elson",
+    "ORCID": "0000-0001-7806-9583",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Elviss Dvinskis",
+    "ORCID": "0000-0003-2873-0139",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Leila Iñigo de la Cruz",
+    "ORCID": "0000-0003-0852-9219",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Thomas Abeel",
+    "ORCID": "0000-0002-7205-7431",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Josip Grguric",
+    "ORCID": "0009-0003-3725-9454",
+    "Works authored": 0,
+    "Checks conducted": 2
+  },
+  {
+    "Name": "Jelle Agatho Wilhelm Poland",
+    "ORCID": "0000-0003-3164-5648",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Mac Gaunaa",
+    "ORCID": "0000-0002-9478-6758",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Roland Schmehl",
+    "ORCID": "0000-0002-4112-841X",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Dan Qiang",
+    "ORCID": "0000-0002-7483-2681",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Grant McKenzie",
+    "ORCID": "0000-0003-3247-7777",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Luke McQuade",
+    "ORCID": "0009-0004-5292-6793",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Ayda Grišiūtė",
+    "ORCID": "0000-0001-7328-847X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Pieter Herthogs",
+    "ORCID": "0000-0003-2262-8374",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sophie Teichmann",
+    "ORCID": "0000-0002-4314-8107",
+    "Works authored": 0,
+    "Checks conducted": 4
+  },
+  {
+    "Name": "Ziyi Liu",
+    "ORCID": "0000-0003-2198-7708",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sidi Wu",
+    "ORCID": "0000-0003-1669-6690",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Yizi Chen",
+    "ORCID": "0000-0003-1637-0092",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Lorenz Hurni",
+    "ORCID": "0000-0002-0453-8743",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Martin Werner",
+    "ORCID": "0000-0002-6951-8022",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ilya Ilyankou",
+    "ORCID": "0009-0008-7082-7122",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Shahreen Muntaha Nawfee",
+    "ORCID": "0000-0001-6154-8537",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Stefano De Sabbata",
+    "ORCID": "0000-0002-2750-7579",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Nicholas Tate",
+    "ORCID": "0009-0004-7648-5785",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Manuela Canestrini",
+    "ORCID": "0009-0005-1501-8398",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Lorena Abad",
+    "ORCID": "0000-0003-0554-734X",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Christina Ludwig",
+    "ORCID": "0000-0003-4669-3298",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Kathrin Foshag",
+    "ORCID": "0000-0002-8610-2563",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Nikolaos Kolaxidis",
+    "ORCID": "0009-0008-8406-2028",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Barbara Hofer",
+    "ORCID": "0000-0001-7078-3766",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Ricardo Ruiz Sánchez",
+    "ORCID": "0009-0000-6108-3389",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Marcel Reinmuth",
+    "ORCID": "0000-0002-0204-5101",
+    "Works authored": 3,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Cristian Albornoz",
+    "ORCID": "0000-0002-5476-2508",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Niket Agrawal",
+    "ORCID": "0000-0002-3208-3440",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Frederik B. Mathiesen",
+    "ORCID": "0000-0002-2243-0445",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sofie Haesaert",
+    "ORCID": "0000-0003-4749-4688",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Luca Laurenti",
+    "ORCID": "0000-0003-1190-6097",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Prince Oppong Boakye",
+    "ORCID": "0009-0003-5447-8034",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Alex Brandsen",
+    "ORCID": "0000-0003-1623-1340",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Matthijs Westera",
+    "ORCID": "0000-0001-7777-1864",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Heather Andrews",
+    "ORCID": "0000-0002-6637-2830",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Evangelos Ntouros",
+    "ORCID": "0009-0006-3918-4240",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ewoud Smeur",
+    "ORCID": "0000-0002-0060-6526",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Filippo Airaldi",
+    "ORCID": "0000-0001-6595-2932",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Bart De Schutter",
+    "ORCID": "0000-0001-9867-6196",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Azita Dabiri",
+    "ORCID": "0000-0002-4051-4896",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Rodrigo García Valiente",
+    "ORCID": "0000-0003-0444-5587",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Emmanuel Pio Pastore",
+    "ORCID": "0009-0007-7851-4414",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Subhan Ali",
+    "ORCID": "0009-0003-7546-1717",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Robin Lovelace",
+    "ORCID": "0000-0001-5679-6536",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Martijn Tennekes",
+    "ORCID": "0000-0002-6506-9522",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Dustin Carlino",
+    "ORCID": "0000-0002-5565-0989",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Erik Fritz",
+    "ORCID": "0000-0003-1486-3643",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jan Haacker",
+    "ORCID": "0000-0002-5464-2442",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Niloufar Tabandeh",
+    "ORCID": "0000-0002-7971-8589",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Alexander Trinidad",
+    "ORCID": "0000-0002-0762-5367",
+    "Works authored": 0,
+    "Checks conducted": 1
+  },
+  {
+    "Name": "Peter Kedron",
+    "ORCID": "0000-0002-1093-3416",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Miguel Matey-Sanz",
+    "ORCID": "0000-0002-1189-5079",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Hannah Sophie Heinrichs",
+    "ORCID": "0000-0001-5047-5205",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Egor Kotov",
+    "ORCID": "0000-0001-6690-5345",
+    "Works authored": 0,
+    "Checks conducted": 2
+  },
+  {
+    "Name": "Ioanna Gogousou",
+    "ORCID": "0009-0001-3200-7202",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Franz Welscher",
+    "ORCID": "0000-0003-2432-1880",
+    "Works authored": 0,
+    "Checks conducted": 2
+  },
+  {
+    "Name": "John Dawson",
+    "ORCID": "0009-0008-9333-7169",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Mathieu Garel",
+    "ORCID": "0000-0002-5978-7122",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "David Hanny",
+    "ORCID": "0009-0004-8017-0786",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Andreas Kramer",
+    "ORCID": "0009-0006-4763-749X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ehsaneddin Jalilian",
+    "ORCID": "0000-0001-5925-5735",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sebastian Schmidt",
+    "ORCID": "0000-0003-1912-9771",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Bernd Resch",
+    "ORCID": "0000-0002-2233-6926",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ruslan Mammadov",
+    "ORCID": "0009-0006-3516-9852",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Paul Walther",
+    "ORCID": "0000-0002-5101-5793",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Julius Fricke",
+    "ORCID": "0009-0005-7709-8178",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jeonghwan Choi",
+    "ORCID": "0009-0002-5027-1151",
+    "Works authored": 0,
+    "Checks conducted": 2
+  },
+  {
+    "Name": "Vincent Holtorf",
+    "ORCID": "0009-0008-4486-531X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Maria Moleiro Dale",
+    "ORCID": "0000-0001-7655-1309",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Jörg Rainer Noennig",
+    "ORCID": "0000-0002-1681-7635",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Luisa Lo Presti",
+    "ORCID": "0009-0006-1096-9108",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Peter Mooney",
+    "ORCID": "0000-0002-2389-3783",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Eveli Sisas",
+    "ORCID": "0009-0002-5032-249X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Holger Virro",
+    "ORCID": "0000-0001-6110-5453",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Wai Tik Chan",
+    "ORCID": "0009-0005-3779-139X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Aveliina Helm",
+    "ORCID": "0000-0003-2338-4564",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Evelyn Uuemaa",
+    "ORCID": "0000-0002-0782-6740",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Charles Abdoulaye Ngom",
+    "ORCID": "0009-0007-4540-4112",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Landy Rajaonarivo",
+    "ORCID": "0000-0003-1831-270X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Sarah Valentin",
+    "ORCID": "0000-0002-9028-681X",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Aruscha Kramm",
+    "ORCID": "0009-0002-7801-9388",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ferdinand Seyffer",
+    "ORCID": "0009-0009-8274-1462",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Anne Schauss",
+    "ORCID": "0009-0001-6773-0468",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Krzysztof Janowicz",
+    "ORCID": "0009-0003-1968-887X",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Mina Karimi",
+    "ORCID": "0000-0003-2521-8164",
+    "Works authored": 2,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Songlin Wang",
+    "ORCID": "0009-0004-6506-2859",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Ivan Majic",
+    "ORCID": "0000-0002-0834-3791",
+    "Works authored": 1,
+    "Checks conducted": 0
+  },
+  {
+    "Name": "Johannes Scholz",
+    "ORCID": "0000-0002-3212-8864",
+    "Works authored": 1,
+    "Checks conducted": 0
+  }
+]

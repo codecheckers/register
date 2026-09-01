@@ -1,0 +1,62 @@
+[
+  {
+    "Certificate ID": "2023-004",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-004/",
+    "Certificate PDF": "https://osf.io/download/3c2rx/",
+    "Repository": "osf::2em7v",
+    "Repository Link": "https://osf.io/2em7v",
+    "Report": "https://doi.org/10.17605/osf.io/2em7v",
+    "Title": "Does spatial thinking ability relate to performance when using web-mapping services? A survey with digital natives",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-13-2023",
+    "OpenAlex": "https://openalex.org/W4379797511",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "Role": "author"
+  },
+  {
+    "Certificate ID": "2022-004",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-004/",
+    "Certificate PDF": "https://osf.io/download/f8h5d/",
+    "Repository": "osf::XPG6Y",
+    "Repository Link": "https://osf.io/XPG6Y",
+    "Report": "https://doi.org/10.17605/osf.io/XPG6Y",
+    "Title": "What are intersections for pedestrian users?",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-4-2022",
+    "OpenAlex": "https://openalex.org/W4281678515",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "Role": "codechecker"
+  },
+  {
+    "Certificate ID": "2022-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-007/",
+    "Certificate PDF": "https://osf.io/download/ad76h/",
+    "Repository": "osf::3DSMV",
+    "Repository Link": "https://osf.io/3DSMV",
+    "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
+    "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "OpenAlex": "https://openalex.org/W4281689570",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "Role": "codechecker"
+  },
+  {
+    "Certificate ID": "2021-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-003/",
+    "Certificate PDF": "https://osf.io/download/6d5nz/",
+    "Repository": "osf::dx92a",
+    "Repository Link": "https://osf.io/dx92a",
+    "Report": "https://doi.org/10.17605/osf.io/dx92a",
+    "Title": "Investigating drivers’ geospatial abilities in unfamiliar environments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-3-2021",
+    "OpenAlex": "https://openalex.org/W3172635671",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10",
+    "Role": "author"
+  }
+]

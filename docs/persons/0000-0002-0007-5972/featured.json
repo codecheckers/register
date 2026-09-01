@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2022-014",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-014/",
+    "Certificate PDF": "https://osf.io/download/9wx6j/",
+    "Repository": "osf::6S2GP",
+    "Repository Link": "https://osf.io/6S2GP",
+    "Report": "https://doi.org/10.17605/osf.io/6s2gp",
+    "Title": "A method to produce metadata describing and assessing the quality of spatial landmark datasets in mountain area",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-17-2022",
+    "OpenAlex": "https://openalex.org/W4281833313",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "Role": "author"
+  }
+]

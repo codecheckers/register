@@ -1,0 +1,32 @@
+[
+  {
+    "Certificate ID": "2022-008",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-008/",
+    "Certificate PDF": "https://osf.io/download/w42nz/",
+    "Repository": "osf::K78EB",
+    "Repository Link": "https://osf.io/K78EB",
+    "Report": "https://doi.org/10.17605/OSF.IO/K78EB",
+    "Title": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-10-2022",
+    "OpenAlex": "https://openalex.org/W4281746077",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "Role": "author"
+  },
+  {
+    "Certificate ID": "2026-018",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-018/",
+    "Certificate PDF": "https://zenodo.org/api/records/21807544/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/reproducible-research-giscience-longitudinal-study",
+    "Repository Link": "https://github.com/codecheckers/reproducible-research-giscience-longitudinal-study",
+    "Report": "https://doi.org/10.5281/zenodo.21807544",
+    "Title": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures",
+    "Paper reference": "https://doi.org/10.5311/JOSIS.2026.32.591",
+    "OpenAlex": "https://openalex.org/W7166859420",
+    "Type": "journal",
+    "Venue": "JOSIS",
+    "Check date": "2026-07-17",
+    "Role": "author"
+  }
+]

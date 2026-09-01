@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2024-021",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-021/",
+    "Certificate PDF": "https://zenodo.org/api/records/14261193/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/DementiaPhysicalActivity",
+    "Repository Link": "https://github.com/codecheckers/DementiaPhysicalActivity",
+    "Report": "https://doi.org/10.5281/zenodo.14261193",
+    "Title": "Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia",
+    "Paper reference": "https://doi.org/10.31234/osf.io/mqg86",
+    "OpenAlex": "https://openalex.org/W4391281345",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28",
+    "Role": "codechecker"
+  }
+]

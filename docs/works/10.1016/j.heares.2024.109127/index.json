@@ -1,0 +1,86 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.1016/j.heares.2024.109127/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.1016/j.heares.2024.109127",
+    "title": "Influence of the cochlear partition’s flexibility on the macro mechanisms in the inner ear",
+    "openalex": "https://openalex.org/W4403117583",
+    "venues": "codecheck NL",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Simon Kersten",
+        "orcid": "0000-0003-3303-9297"
+      },
+      {
+        "name": "Henning Taschke",
+        "orcid": null
+      },
+      {
+        "name": "Michael Vorländer",
+        "orcid": "0000-0002-7010-8370"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2024": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2024": 1
+  },
+  "checks_cumulative": {
+    "2024": 1
+  },
+  "venues_per_year": {
+    "2024": 1
+  },
+  "venues_cumulative": {
+    "2024": 1
+  },
+  "codechecker_count": 2,
+  "codecheckers_per_year": {
+    "2024": 2
+  },
+  "codecheckers_cumulative": {
+    "2024": 2
+  },
+  "platform_per_year": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "codecheck NL",
+      "longname": "CODECHECK NL",
+      "year_range": "2024",
+      "label": "check-nl",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck%20NL",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

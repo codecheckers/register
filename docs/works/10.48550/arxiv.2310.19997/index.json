@@ -1,0 +1,82 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.48550/arxiv.2310.19997/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.48550/arxiv.2310.19997",
+    "title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
+    "openalex": "https://openalex.org/W4388184325",
+    "venues": "codecheck NL",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Filip Surma",
+        "orcid": "0000-0002-6756-9598"
+      },
+      {
+        "name": "Anahita Jamshidnejad",
+        "orcid": "0000-0001-9151-2607"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2024": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2024": 1
+  },
+  "checks_cumulative": {
+    "2024": 1
+  },
+  "venues_per_year": {
+    "2024": 1
+  },
+  "venues_cumulative": {
+    "2024": 1
+  },
+  "codechecker_count": 2,
+  "codecheckers_per_year": {
+    "2024": 2
+  },
+  "codecheckers_cumulative": {
+    "2024": 2
+  },
+  "platform_per_year": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "codecheck NL",
+      "longname": "CODECHECK NL",
+      "year_range": "2024",
+      "label": "check-nl",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck%20NL",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

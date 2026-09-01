@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2022-001",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-001/",
+    "Certificate PDF": "https://zenodo.org/api/records/6043785/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/GWR-in-educational-planning",
+    "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",
+    "Report": "https://doi.org/10.5281/zenodo.6043785",
+    "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
+    "Paper reference": "http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and",
+    "OpenAlex": null,
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2022-01-19",
+    "Role": "author"
+  }
+]

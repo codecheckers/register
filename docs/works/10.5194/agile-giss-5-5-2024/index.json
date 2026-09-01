@@ -1,0 +1,102 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.5194/agile-giss-5-5-2024/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.5194/agile-giss-5-5-2024",
+    "title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
+    "openalex": "https://openalex.org/W4399177945",
+    "venues": "AGILEGIS",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Dagoberto José Herrera-Murillo",
+        "orcid": "0000-0002-8000-628X"
+      },
+      {
+        "name": "Héctor Ochoa-Ortiz",
+        "orcid": "0000-0002-6477-0683"
+      },
+      {
+        "name": "Umair Ahmed",
+        "orcid": "0000-0003-2260-2777"
+      },
+      {
+        "name": "Francisco Javier López-Pellicer",
+        "orcid": "0000-0001-6491-7430"
+      },
+      {
+        "name": "Barbara Re",
+        "orcid": "0000-0001-5374-2364"
+      },
+      {
+        "name": "Andrea Polini",
+        "orcid": "0000-0002-2840-7561"
+      },
+      {
+        "name": "Javier Nogueras-Iso",
+        "orcid": "0000-0002-1279-0367"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "conference": 1
+  },
+  "checks_per_type_per_year": {
+    "2024": {
+      "conference": 1
+    }
+  },
+  "checks_per_year": {
+    "2024": 1
+  },
+  "checks_cumulative": {
+    "2024": 1
+  },
+  "venues_per_year": {
+    "2024": 1
+  },
+  "venues_cumulative": {
+    "2024": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2024": 1
+  },
+  "codecheckers_cumulative": {
+    "2024": 1
+  },
+  "platform_per_year": {
+    "2024": {
+      "osf": 1
+    }
+  },
+  "platform_cumulative": {
+    "2024": {
+      "osf": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "AGILEGIS",
+      "longname": "AGILE Conference on Geographic Information Science",
+      "year_range": "2024",
+      "label": "conference",
+      "cert_count": 1,
+      "page_type": "conference",
+      "page_type_plural": "conferences",
+      "page_slug": "AGILEGIS",
+      "logo_url": "https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg",
+      "website_url": "https://agile-gi.eu",
+      "policy_url": "https://reproducible-agile.github.io/",
+      "publisher": "AGILE (Association of Geographic Information Laboratories in Europe)"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

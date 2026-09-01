@@ -1,0 +1,90 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.1002/sim.10186/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.1002/sim.10186",
+    "title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
+    "openalex": "https://openalex.org/W4401278294",
+    "venues": "AUMC",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Jeroen Hoogland",
+        "orcid": "0000-0002-2397-6052"
+      },
+      {
+        "name": "Orestis Efthimiou",
+        "orcid": "0000-0002-0955-7572"
+      },
+      {
+        "name": "Tri-Long Nguyen",
+        "orcid": "0000-0002-6376-7212"
+      },
+      {
+        "name": "Thomas P A Debray",
+        "orcid": "0000-0002-1790-2719"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "institution": 1
+  },
+  "checks_per_type_per_year": {
+    "2024": {
+      "institution": 1
+    }
+  },
+  "checks_per_year": {
+    "2024": 1
+  },
+  "checks_cumulative": {
+    "2024": 1
+  },
+  "venues_per_year": {
+    "2024": 1
+  },
+  "venues_cumulative": {
+    "2024": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2024": 1
+  },
+  "codecheckers_cumulative": {
+    "2024": 1
+  },
+  "platform_per_year": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "AUMC",
+      "longname": "Amsterdam UMC",
+      "year_range": "2024",
+      "label": "institution",
+      "cert_count": 1,
+      "page_type": "institution",
+      "page_type_plural": "institutions",
+      "page_slug": "AUMC",
+      "logo_url": "https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg",
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

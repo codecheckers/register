@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2024-020",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-020/",
+    "Certificate PDF": "https://zenodo.org/api/records/14278912/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "Repository Link": "https://github.com/codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "Report": "https://doi.org/10.5281/zenodo.14278912",
+    "Title": "Describing the scale and composition of calls for police service: a replication and extension using open data",
+    "Paper reference": "https://doi.org/10.1080/15614263.2022.2102494",
+    "OpenAlex": "https://openalex.org/W4286489421",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28",
+    "Role": "author"
+  }
+]

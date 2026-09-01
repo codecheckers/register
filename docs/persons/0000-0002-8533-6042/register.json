@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2023-005",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-005/",
+    "Certificate PDF": "https://osf.io/download/bvtpw/",
+    "Repository": "osf::27wzp",
+    "Repository Link": "https://osf.io/27wzp",
+    "Report": "https://doi.org/10.17605/osf.io/27wzp",
+    "Title": "Advancing Forest Monitoring and Assessment Through Immersive Virtual Reality",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-15-2023",
+    "OpenAlex": "https://openalex.org/W4379647154",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "Role": "author"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2023-002",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-002/",
+    "Certificate PDF": "https://osf.io/download/2es9m/",
+    "Repository": "osf::rbgvk",
+    "Repository Link": "https://osf.io/rbgvk",
+    "Report": "https://doi.org/10.17605/osf.io/rbgvk",
+    "Title": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-12-2023",
+    "OpenAlex": "https://openalex.org/W4379794908",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13",
+    "Role": "author"
+  }
+]

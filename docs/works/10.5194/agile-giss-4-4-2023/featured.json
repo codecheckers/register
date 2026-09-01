@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2023-010",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-010/",
+    "Certificate PDF": "https://osf.io/download/68uwz/",
+    "Repository": "osf::8t3bh",
+    "Repository Link": "https://osf.io/8t3bh",
+    "Report": "https://doi.org/10.17605/osf.io/8t3bh",
+    "Title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-4-4-2023",
+    "OpenAlex": "https://openalex.org/W4379802617",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2023-06-13"
+  }
+]

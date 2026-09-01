@@ -1,5 +1,5 @@
 ---
-title: CODECHECKs for TU Delft DCC
+title: "CODECHECKs for TU Delft DCC"
 venue_type: institution
 website: https://www.tudelft.nl/digital-competence-centre
 logo_url: https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg
@@ -19,7 +19,7 @@ identifiers:
 
 
 
-|Certificate |Report                          |Paper Title                                                                                                           |Check date |
+|Certificate |Report                          |Work                                                                                                                  |Check date |
 |:--------|:------------|:-------------------------------------------------------|:---------------|
 |[2025-003](../../../certs/2025-003/)|[doi.org/10.5281/zenodo.15333601](https://doi.org/10.5281/zenodo.15333601)|[Optimal Graph Stretching for Distributed Averaging](https://doi.org/10.48550/arXiv.2504.10289)                       |2025-03-25 |
 |[2025-004](../../../certs/2025-004/)|[doi.org/10.5281/zenodo.15527133](https://doi.org/10.5281/zenodo.15527133)|[Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach](https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b)|2025-04-08 |

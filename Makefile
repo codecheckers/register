@@ -125,9 +125,15 @@ image_render: $(eval SHELL:=/bin/bash)
 	docker pull codecheckers/register:latest
 	source ~/.Renviron && docker run --rm -it --user rstudio -v $(shell pwd):/register:rw -e GITHUB_PAT=$$GITHUB_PAT codecheckers/register:latest
 
-# serve the docs/ directory locally using nginx on port 80
+# serve the docs/ directory locally using nginx on port 80. Mounts
+# nginx.conf so a missing path serves docs/404.html, same as GitHub Pages -
+# without it, the branded 404 page (generate_404_page()) could only ever be
+# checked after deploying.
 serve:
-	docker run --rm -d --name codecheck-register-nginx -p 80:80 -v $(shell pwd)/docs:/usr/share/nginx/html:ro nginx:alpine
+	docker run --rm -d --name codecheck-register-nginx -p 80:80 \
+		-v $(shell pwd)/docs:/usr/share/nginx/html:ro \
+		-v $(shell pwd)/nginx.conf:/etc/nginx/conf.d/default.conf:ro \
+		nginx:alpine
 	@echo "Serving docs/ at http://localhost"
 	@echo "Run 'make serve-stop' to stop the server"
 

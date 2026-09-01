@@ -1,0 +1,32 @@
+[
+  {
+    "Certificate ID": "2020-017",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-017/",
+    "Certificate PDF": "https://zenodo.org/api/records/4003848/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/JGSY-D-19-00087",
+    "Repository Link": "https://github.com/codecheckers/JGSY-D-19-00087",
+    "Report": "https://doi.org/10.5281/zenodo.4003848",
+    "Title": "Progress in the R ecosystem for representing and handling spatial data",
+    "Paper reference": "https://doi.org/10.1007/s10109-020-00336-0",
+    "OpenAlex": "https://openalex.org/W3092996383",
+    "Type": "journal",
+    "Venue": "J Geogr Syst",
+    "Check date": "2020-08-27",
+    "Role": "author"
+  },
+  {
+    "Certificate ID": "2020-025",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-025/",
+    "Certificate PDF": "https://zenodo.org/api/records/4279275/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/LICD_article",
+    "Repository Link": "https://github.com/codecheckers/LICD_article",
+    "Report": "https://doi.org/10.5281/zenodo.4279275",
+    "Title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+    "Paper reference": "https://doi.org/10.1016/j.jas.2020.105306",
+    "OpenAlex": "https://openalex.org/W3112754451",
+    "Type": "journal",
+    "Venue": "J Archaeol Sci",
+    "Check date": "2020-11-19",
+    "Role": "author"
+  }
+]

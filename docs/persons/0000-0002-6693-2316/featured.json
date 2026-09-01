@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2022-013",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-013/",
+    "Certificate PDF": "https://osf.io/download/c49ew/",
+    "Repository": "osf::3G9S8",
+    "Repository Link": "https://osf.io/3G9S8",
+    "Report": "https://doi.org/10.17605/osf.io/3g9s8",
+    "Title": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-16-2022",
+    "OpenAlex": "https://openalex.org/W4281885045",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09",
+    "Role": "author"
+  }
+]

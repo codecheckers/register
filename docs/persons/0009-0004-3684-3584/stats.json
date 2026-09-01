@@ -1,0 +1,79 @@
+{
+  "source": "https://codecheck.org.uk/register/persons/0009-0004-3684-3584/register.json",
+  "cert_count": 1,
+  "person": {
+    "name": "Stijn Peeters",
+    "orcid": "0009-0004-3684-3584",
+    "github_username": null,
+    "works_authored": 0,
+    "checks_conducted": 1,
+    "venues": [
+      {
+        "name": "codecheck NL",
+        "type": "community",
+        "cert_count": 1
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2024": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2024": 1
+  },
+  "checks_cumulative": {
+    "2024": 1
+  },
+  "venues_per_year": {
+    "2024": 1
+  },
+  "venues_cumulative": {
+    "2024": 1
+  },
+  "codechecker_count": 4,
+  "codecheckers_per_year": {
+    "2024": 4
+  },
+  "codecheckers_cumulative": {
+    "2024": 4
+  },
+  "platform_per_year": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2024": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "codecheck NL",
+      "longname": "CODECHECK NL",
+      "year_range": "2024",
+      "label": "check-nl",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck%20NL",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

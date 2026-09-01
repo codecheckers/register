@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2024-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-003/",
+    "Certificate PDF": "https://zenodo.org/api/records/11403956/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/sddtmpc",
+    "Repository Link": "https://github.com/codecheckers/sddtmpc",
+    "Report": "https://doi.org/10.5281/zenodo.11403956",
+    "Title": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2310.19997",
+    "OpenAlex": "https://openalex.org/W4388184325",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-05-30"
+  }
+]

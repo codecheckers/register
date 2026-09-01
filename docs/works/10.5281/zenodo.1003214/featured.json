@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2020-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-006/",
+    "Certificate PDF": "https://zenodo.org/api/records/3948353/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/Detorakis-reproduction",
+    "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
+    "Report": "https://doi.org/10.5281/zenodo.3948353",
+    "Title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
+    "Paper reference": "https://doi.org/10.5281/zenodo.1003214",
+    "OpenAlex": "https://openalex.org/W3210493981",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-07-16"
+  }
+]

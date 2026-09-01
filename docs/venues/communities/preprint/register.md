@@ -1,12 +1,12 @@
 ---
-title: CODECHECKs for preprint
+title: "CODECHECKs for preprint"
 venue_type: community
 ---
 
 
 
 
-|Certificate |Report                          |Paper Title                                                                                                                                             |Check date |
+|Certificate |Report                          |Work                                                                                                                                                    |Check date |
 |:--------|:------------|:-------------------------------------------------------|:---------------|
 |[2020-008](../../../certs/2020-008/)|[doi.org/10.5281/zenodo.3746024](http://doi.org/10.5281/zenodo.3746024)|[The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study](https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf)|2020-04-09 |
 |[2020-009](../../../certs/2020-009/)|[doi.org/10.5281/zenodo.22109593](https://doi.org/10.5281/zenodo.22109593)|[Model of isolation, contact tracing, and physical distancing (Preprint)](https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf)       |2020-04-26 |

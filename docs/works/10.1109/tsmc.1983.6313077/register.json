@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2020-004",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-004/",
+    "Certificate PDF": "https://zenodo.org/api/records/22109800/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/Barto-Sutton-Anderson-1983",
+    "Repository Link": "https://github.com/codecheckers/Barto-Sutton-Anderson-1983",
+    "Report": "https://doi.org/10.5281/zenodo.22109800",
+    "Title": "Neuronlike adaptive elements that can solve difficult learning control problems",
+    "Paper reference": "https://doi.org/10.1109/TSMC.1983.6313077",
+    "OpenAlex": "https://openalex.org/W1583833196",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-05-14"
+  }
+]

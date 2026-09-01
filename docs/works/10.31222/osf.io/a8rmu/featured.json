@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2024-004",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-004/",
+    "Certificate PDF": "https://zenodo.org/api/records/13364677/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/scope",
+    "Repository Link": "https://github.com/codecheckers/scope",
+    "Report": "https://doi.org/10.5281/zenodo.13364677",
+    "Title": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint",
+    "Paper reference": "https://doi.org/10.31222/osf.io/a8rmu",
+    "OpenAlex": "https://openalex.org/W4399757027",
+    "Type": "institution",
+    "Venue": "AUMC",
+    "Check date": "2024-08-01"
+  }
+]

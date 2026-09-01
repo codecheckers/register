@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2022-010",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-010/",
+    "Certificate PDF": "https://osf.io/download/vxyja/",
+    "Repository": "osf::8B7MR",
+    "Repository Link": "https://osf.io/8B7MR",
+    "Report": "https://doi.org/10.17605/osf.io/8b7mr",
+    "Title": "Experimental evaluation of using BLE beacon for outdoor positioning in GPS-denied environment",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-13-2022",
+    "OpenAlex": "https://openalex.org/W4281732658",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09"
+  }
+]

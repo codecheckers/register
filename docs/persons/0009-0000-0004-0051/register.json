@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2024-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-007/",
+    "Certificate PDF": "https://osf.io/download/3r9qu/",
+    "Repository": "osf::gvpd9",
+    "Repository Link": "https://osf.io/gvpd9",
+    "Report": "https://doi.org/10.17605/OSF.IO/GVPD9",
+    "Title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-7-2024",
+    "OpenAlex": "https://openalex.org/W4399157471",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-23",
+    "Role": "author"
+  }
+]

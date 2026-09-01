@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2023-012",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2023-012/",
+    "Certificate PDF": "https://zenodo.org/api/records/10213244/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/leba-manuscript",
+    "Repository Link": "https://github.com/codecheckers/leba-manuscript",
+    "Report": "https://doi.org/10.5281/zenodo.10213244",
+    "Title": "An inventory of human light exposure related behaviour",
+    "Paper reference": "https://doi.org/10.1038/s41598-023-48241-y",
+    "OpenAlex": "https://openalex.org/W4389674756",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2023-11-26"
+  }
+]

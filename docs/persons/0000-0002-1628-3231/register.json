@@ -1,0 +1,47 @@
+[
+  {
+    "Certificate ID": "2024-010",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-010/",
+    "Certificate PDF": "https://osf.io/download/mdtfz/",
+    "Repository": "osf::nbk57",
+    "Repository Link": "https://osf.io/nbk57",
+    "Report": "https://doi.org/10.17605/osf.io/NBK57",
+    "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-12-2024",
+    "OpenAlex": "https://openalex.org/W4399157460",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-27",
+    "Role": "author"
+  },
+  {
+    "Certificate ID": "2025-017",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-017/",
+    "Certificate PDF": "https://researchequals.com/api/files/199811b2-58eb-4cc5-9daf-17ec05e23bbe",
+    "Repository": "github::reproducible-agile/reviews-2025|reports/28",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2025|reports/28",
+    "Report": "https://doi.org/10.53962/yckj-53e8",
+    "Title": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-6-11-2025",
+    "OpenAlex": "https://openalex.org/W4411153243",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2025-06-06",
+    "Role": "author"
+  },
+  {
+    "Certificate ID": "2026-008",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-008/",
+    "Certificate PDF": "https://osf.io/download/g4q86/",
+    "Repository": "github::reproducible-agile/reviews-2026|reports/013",
+    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/013",
+    "Report": "https://doi.org/10.17605/OSF.IO/YH8F6",
+    "Title": "Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-13-2026",
+    "OpenAlex": "https://openalex.org/W7164194149",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2026-03-31",
+    "Role": "codechecker"
+  }
+]

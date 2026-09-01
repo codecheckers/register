@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2020-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-003/",
+    "Certificate PDF": "https://zenodo.org/api/records/3741797/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/Hopfield-1982",
+    "Repository Link": "https://github.com/codecheckers/Hopfield-1982",
+    "Report": "https://doi.org/10.5281/zenodo.3741797",
+    "Title": "Neural networks and physical systems with emergent collective computational abilities",
+    "Paper reference": "https://doi.org/10.1073/pnas.79.8.2554",
+    "OpenAlex": "https://openalex.org/W2128084896",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2020-04-06"
+  }
+]

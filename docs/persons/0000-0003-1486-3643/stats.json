@@ -1,0 +1,73 @@
+{
+  "source": "https://codecheck.org.uk/register/persons/0000-0003-1486-3643/register.json",
+  "cert_count": 1,
+  "person": {
+    "name": "Erik Fritz",
+    "orcid": "0000-0003-1486-3643",
+    "github_username": null,
+    "works_authored": 1,
+    "checks_conducted": 0,
+    "venues": []
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "institution": 1
+  },
+  "checks_per_type_per_year": {
+    "2026": {
+      "institution": 1
+    }
+  },
+  "checks_per_year": {
+    "2026": 1
+  },
+  "checks_cumulative": {
+    "2026": 1
+  },
+  "venues_per_year": {
+    "2026": 1
+  },
+  "venues_cumulative": {
+    "2026": 1
+  },
+  "codechecker_count": 2,
+  "codecheckers_per_year": {
+    "2026": 2
+  },
+  "codecheckers_cumulative": {
+    "2026": 2
+  },
+  "platform_per_year": {
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "TU Delft DCC",
+      "longname": "TU Delft Digital Competence Centre",
+      "year_range": "2026",
+      "label": "institution",
+      "cert_count": 1,
+      "page_type": "institution",
+      "page_type_plural": "institutions",
+      "page_slug": "TU%20Delft%20DCC",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg",
+      "website_url": "https://www.tudelft.nl/digital-competence-centre",
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

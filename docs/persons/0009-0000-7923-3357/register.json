@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2024-013",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-013/",
+    "Certificate PDF": "https://osf.io/download/7qs5n/",
+    "Repository": "osf::txgzv",
+    "Repository Link": "https://osf.io/txgzv",
+    "Report": "https://doi.org/10.17605/osf.io/TXGZV",
+    "Title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-6-2024",
+    "OpenAlex": "https://openalex.org/W4399175227",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-31",
+    "Role": "author"
+  }
+]

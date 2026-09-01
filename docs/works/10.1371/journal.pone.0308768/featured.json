@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2024-018",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-018/",
+    "Certificate PDF": "https://zenodo.org/api/records/14235113/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/ZaunerEtAl_PLoS_ONE_2024",
+    "Repository Link": "https://github.com/codecheckers/ZaunerEtAl_PLoS_ONE_2024",
+    "Report": "https://doi.org/10.5281/zenodo.14235113",
+    "Title": "Power analysis for personal light exposure measurements and interventions",
+    "Paper reference": "https://doi.org/10.1371/journal.pone.0308768",
+    "OpenAlex": "https://openalex.org/W4405281316",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28"
+  }
+]

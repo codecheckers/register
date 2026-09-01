@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2022-017",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-017/",
+    "Certificate PDF": "https://osf.io/download/68yqw/",
+    "Repository": "osf::WNCSM",
+    "Repository Link": "https://osf.io/WNCSM",
+    "Report": "https://doi.org/10.17605/osf.io/wncsm",
+    "Title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-22-2022",
+    "OpenAlex": "https://openalex.org/W4281642483",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09"
+  }
+]

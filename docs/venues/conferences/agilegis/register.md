@@ -1,5 +1,5 @@
 ---
-title: CODECHECKs for AGILEGIS
+title: "CODECHECKs for AGILEGIS"
 venue_type: conference
 website: https://agile-gi.eu
 logo_url: https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg
@@ -18,7 +18,7 @@ identifiers:
 
 
 
-|Certificate |Report                        |Paper Title                                                                                                                                     |Check date |
+|Certificate |Report                        |Work                                                                                                                                            |Check date |
 |:--------|:------------|:-------------------------------------------------------|:---------------|
 |[2020-018](../../../certs/2020-018/)|[doi.org/10.17605/OSF.IO/ZTC7M](https://doi.org/10.17605/OSF.IO/ZTC7M)|[Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling](https://doi.org/10.5194/agile-giss-1-6-2020)|2020-07-13 |
 |[2020-019](../../../certs/2020-019/)|[doi.org/10.17605/OSF.IO/5SVMT](https://doi.org/10.17605/OSF.IO/5SVMT)|[What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles](https://doi.org/10.5194/agile-giss-1-7-2020)           |2020-07-13 |

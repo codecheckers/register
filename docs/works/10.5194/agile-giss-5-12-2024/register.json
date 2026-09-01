@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2024-010",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-010/",
+    "Certificate PDF": "https://osf.io/download/mdtfz/",
+    "Repository": "osf::nbk57",
+    "Repository Link": "https://osf.io/nbk57",
+    "Report": "https://doi.org/10.17605/osf.io/NBK57",
+    "Title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-5-12-2024",
+    "OpenAlex": "https://openalex.org/W4399157460",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2024-05-27"
+  }
+]
