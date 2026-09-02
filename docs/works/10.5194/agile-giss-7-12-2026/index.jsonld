@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-12-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-12-2026",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-12-2026", "https://openalex.org/W7164128034"],
+      "name": "OpenStreetMap Suitability Analysis for Wheelchair Routing",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Ivan Majic",
+          "@id": "https://orcid.org/0000-0002-0834-3791"
+        },
+        {
+          "@type": "Person",
+          "name": "Thomas Gegenleithner"
+        },
+        {
+          "@type": "Person",
+          "name": "Johannes Scholz",
+          "@id": "https://orcid.org/0000-0002-3212-8864"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-017/",
+      "name": "CODECHECK Certificate 2026-017",
+      "url": "https://codecheck.org.uk/register/certs/2026-017/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-7-12-2026"
+      },
+      "datePublished": "2026-04-25"
+    }
+  ]
+}

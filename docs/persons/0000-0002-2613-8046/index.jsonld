@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2613-8046",
+      "name": "Emanuel A.P. Habets"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1121/10.0023935",
+      "url": "https://doi.org/10.1121/10.0023935",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-2613-8046"
+      },
+      "name": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method  "
+    }
+  ]
+}

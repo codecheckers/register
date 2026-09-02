@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-006/",
+  "name": "CODECHECK certificate 2020-006",
+  "url": "https://codecheck.org.uk/register/certs/2020-006/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Iain Davies",
+      "@id": "https://orcid.org/0000-0002-5361-6285"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Tiziano Zito",
+        "@id": "https://orcid.org/0000-0001-5891-1702"
+      }
+    ],
+    "abstract": "A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviors, ReScience 3(7), 2017",
+    "url": "https://doi.org/10.5281/zenodo.1003214",
+    "sameAs": ["https://doi.org/10.5281/zenodo.1003214", "https://openalex.org/W3210493981"]
+  },
+  "reviewBody": "The three figures from the ReScience article \"[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours\" were reproduced using the code provided by the article authors. The code was straightforward to run and took minimal computation time. \n",
+  "datePublished": "2020-07-16",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.3948353"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.3948353"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-006/cert.pdf"
+  }
+}

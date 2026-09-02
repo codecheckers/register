@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-002/",
+  "name": "CODECHECK certificate 2025-02 for Evaluating Subtitle Segmentation for End-to-end Generation systems",
+  "url": "https://codecheck.org.uk/register/certs/2025-002/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Alex Brandsen",
+      "@id": "https://orcid.org/0000-0003-1623-1340"
+    },
+    {
+      "@type": "Person",
+      "name": "Matthew Sung"
+    },
+    {
+      "@type": "Person",
+      "name": "Matthijs Westera",
+      "@id": "https://orcid.org/0000-0001-7777-1864"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Alina Karakanta"
+      },
+      {
+        "@type": "Person",
+        "name": "François Buet"
+      },
+      {
+        "@type": "Person",
+        "name": "Mauro Cettolo"
+      },
+      {
+        "@type": "Person",
+        "name": "François Yvon"
+      }
+    ],
+    "url": "https://aclanthology.org/2022.lrec-1.328/"
+  },
+  "reviewBody": "Full reproduction of code which evaluates subtitle segmentation\n",
+  "datePublished": "2025-02-14",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15173758"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.15173758"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2025-002/cert.pdf"
+  }
+}

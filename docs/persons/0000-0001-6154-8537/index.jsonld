@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6154-8537",
+      "name": "Shahreen Muntaha Nawfee"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-6-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-6-2025",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6154-8537"
+      },
+      "name": "Exploring Urban Place Function through User-Generated Textual Content"
+    }
+  ]
+}

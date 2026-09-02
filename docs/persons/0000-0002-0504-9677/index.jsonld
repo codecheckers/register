@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0504-9677",
+      "name": "Patrick Eneche",
+      "sameAs": "https://github.com/Patrick-Samson-Udama-Eneche"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-014/",
+      "name": "CODECHECK Certificate 2024-014",
+      "url": "https://codecheck.org.uk/register/certs/2024-014/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-0504-9677"
+      },
+      "datePublished": "2024-09-26"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.17605/osf.io/e2k73",
+      "url": "https://doi.org/10.17605/osf.io/e2k73",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-0504-9677"
+      },
+      "name": "Landscape Character Assessment - Nigeria"
+    }
+  ]
+}

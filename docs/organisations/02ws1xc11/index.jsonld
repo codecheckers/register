@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02ws1xc11",
+  "name": "Universitat Jaume I",
+  "identifier": "https://ror.org/02ws1xc11",
+  "url": "https://codecheck.org.uk/register/organisations/02ws1xc11/",
+  "sameAs": "https://www.uji.es",
+  "location": {
+    "@type": "Place",
+    "address": "Castellon, Spain"
+  }
+}

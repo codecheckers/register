@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/00f54p054",
+  "name": "Stanford University",
+  "identifier": "https://ror.org/00f54p054",
+  "url": "https://codecheck.org.uk/register/organisations/00f54p054/",
+  "sameAs": "https://www.stanford.edu",
+  "location": {
+    "@type": "Place",
+    "address": "Stanford, United States"
+  }
+}

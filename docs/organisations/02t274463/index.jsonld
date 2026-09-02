@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02t274463",
+  "name": "University of California, Santa Barbara",
+  "identifier": "https://ror.org/02t274463",
+  "url": "https://codecheck.org.uk/register/organisations/02t274463/",
+  "sameAs": "https://www.ucsb.edu",
+  "location": {
+    "@type": "Place",
+    "address": "Santa Barbara, United States"
+  }
+}

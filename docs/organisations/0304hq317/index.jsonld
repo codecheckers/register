@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/0304hq317",
+  "name": "Leibniz University Hannover",
+  "identifier": "https://ror.org/0304hq317",
+  "url": "https://codecheck.org.uk/register/organisations/0304hq317/",
+  "sameAs": "https://www.uni-hannover.de",
+  "location": {
+    "@type": "Place",
+    "address": "Hanover, Germany"
+  }
+}

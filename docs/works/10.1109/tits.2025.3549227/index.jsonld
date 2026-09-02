@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1109/tits.2025.3549227",
+      "url": "https://doi.org/10.1109/tits.2025.3549227",
+      "sameAs": ["https://doi.org/10.1109/tits.2025.3549227", "https://openalex.org/W4408519626"],
+      "name": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Filippo Airaldi",
+          "@id": "https://orcid.org/0000-0001-6595-2932"
+        },
+        {
+          "@type": "Person",
+          "name": "Bart De Schutter",
+          "@id": "https://orcid.org/0000-0001-9867-6196"
+        },
+        {
+          "@type": "Person",
+          "name": "Azita Dabiri",
+          "@id": "https://orcid.org/0000-0002-4051-4896"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-022/",
+      "name": "CODECHECK Certificate 2025-022",
+      "url": "https://codecheck.org.uk/register/certs/2025-022/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1109/tits.2025.3549227"
+      },
+      "datePublished": "2025-08-04"
+    }
+  ]
+}

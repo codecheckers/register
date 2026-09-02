@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1189-5079",
+      "name": "Miguel Matey-Sanz"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5311/josis.2026.32.591",
+      "url": "https://doi.org/10.5311/josis.2026.32.591",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1189-5079"
+      },
+      "name": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures "
+    }
+  ]
+}

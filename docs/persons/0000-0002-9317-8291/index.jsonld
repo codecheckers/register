@@ -1,0 +1,130 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9317-8291",
+      "name": "Frank O. Ostermann",
+      "sameAs": "https://github.com/foost"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-020/",
+      "name": "CODECHECK Certificate 2020-020",
+      "url": "https://codecheck.org.uk/register/certs/2020-020/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2020-07-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-021/",
+      "name": "CODECHECK Certificate 2020-021",
+      "url": "https://codecheck.org.uk/register/certs/2020-021/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2020-07-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-023/",
+      "name": "CODECHECK Certificate 2020-023",
+      "url": "https://codecheck.org.uk/register/certs/2020-023/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2020-07-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-005/",
+      "name": "CODECHECK Certificate 2021-005",
+      "url": "https://codecheck.org.uk/register/certs/2021-005/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2021-06-10"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-005/",
+      "name": "CODECHECK Certificate 2022-005",
+      "url": "https://codecheck.org.uk/register/certs/2022-005/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2022-07-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-009/",
+      "name": "CODECHECK Certificate 2022-009",
+      "url": "https://codecheck.org.uk/register/certs/2022-009/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2022-07-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-008/",
+      "name": "CODECHECK Certificate 2024-008",
+      "url": "https://codecheck.org.uk/register/certs/2024-008/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2024-05-23"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-009/",
+      "name": "CODECHECK Certificate 2024-009",
+      "url": "https://codecheck.org.uk/register/certs/2024-009/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2024-05-23"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-014/",
+      "name": "CODECHECK Certificate 2024-014",
+      "url": "https://codecheck.org.uk/register/certs/2024-014/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2024-09-26"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-011/",
+      "name": "CODECHECK Certificate 2026-011",
+      "url": "https://codecheck.org.uk/register/certs/2026-011/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2026-03-31"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-015/",
+      "name": "CODECHECK Certificate 2026-015",
+      "url": "https://codecheck.org.uk/register/certs/2026-015/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "datePublished": "2026-04-10"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5311/josis.2026.32.591",
+      "url": "https://doi.org/10.5311/josis.2026.32.591",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9317-8291"
+      },
+      "name": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures "
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-007/",
+  "name": "Reproducibility review of: 'FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments'",
+  "url": "https://codecheck.org.uk/register/certs/2024-007/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carlos Granell",
+      "@id": "https://orcid.org/0000-0003-1004-9695"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Jonas Hurst",
+        "@id": "https://orcid.org/0009-0000-0004-0051"
+      },
+      {
+        "@type": "Person",
+        "name": "Auriol Degbelo",
+        "@id": "https://orcid.org/0000-0001-5087-8776"
+      },
+      {
+        "@type": "Person",
+        "name": "Christian Kray",
+        "@id": "https://orcid.org/0000-0002-4199-8976"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Current research has investigated freehand gestures for Pan and Zoom operations on maps on large screens. Freehand gestures for Retrieve operations, however, have remained largely unexplored. To address this gap, this work introduced two mechanisms for Retrieve on large displays in a research-through-design study: Pointer-to-Feature (i.e. moving a pointer to a geographic feature and then performing a hand gesture to achieve Retrieve) and Feature-to-Pointer (i.e. moving a geographic feature to a stationary pointer at the screen’s centre through panning/ zooming of the map, before performing a hand gesture to achieve Retrieve). The evaluation of a prototype (FreeMapRetrieve) regarding usability and data exploration utility showed that both mechanisms work well. The two techniques are comparable for large polygons but Pointer-to-Feature is slightly more efficient for smaller polygons. Reflections on the design process yield lessons learned that are relevant to designers of gesture-based interaction for maps on large displays. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-5-7-2024",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-5-7-2024", "https://openalex.org/W4399157471"]
+  },
+  "reviewBody": "The workflow provided was partially reproduced in the sense that I was able to reproduce the data analysis of the user assessment.\nThe manuscript also described a prototype system that required specific hardware, therefore, I skipped this part.\n",
+  "datePublished": "2024-05-23",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/OSF.IO/GVPD9"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/GVPD9"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2024-007/cert.pdf"
+  }
+}

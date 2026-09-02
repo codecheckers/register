@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01pxwe438",
+  "name": "McGill University",
+  "identifier": "https://ror.org/01pxwe438",
+  "url": "https://codecheck.org.uk/register/organisations/01pxwe438/",
+  "sameAs": "https://www.mcgill.ca",
+  "location": {
+    "@type": "Place",
+    "address": "Montreal, Canada"
+  }
+}

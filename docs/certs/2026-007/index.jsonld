@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-007/",
+  "name": "Reproducibility Review Of: Analysis Of The Spatial And Temporal Pattern Of COVID-19 Incidence Rate Across Germany",
+  "url": "https://codecheck.org.uk/register/certs/2026-007/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Eftychia Koukouraki",
+      "@id": "https://orcid.org/0000-0003-0928-1139"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Analysis of the spatial and temporal pattern of COVID-19 incidence rate across Germany",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Sven Lautenbach",
+        "@id": "https://orcid.org/0000-0003-1825-9996"
+      },
+      {
+        "@type": "Person",
+        "name": "Marcel Maurer",
+        "@id": "https://orcid.org/0000-0002-0204-5101"
+      },
+      {
+        "@type": "Person",
+        "name": "Alexander Zipf",
+        "@id": "https://orcid.org/0000-0003-4916-9838"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. The COVID-19 pandemic has caused severe public health issues at a global scale. However, effects were not spatially homogeneous. We analyzed how five selects socio-economic factors (votes for right-winged populist party, share of foreigners, share of highly qualified employees, long-term unemployment rate, share of incoming commuters) shaped the incidence rate in Germany over the pandemic phase. The analysis was performed at the level of the 400 districts. In addition, we analyzed how spatial autocorrelation changed during the course of the pandemic. As regression residuals were positively spatially autocorrelated we applied a spatial eigenvector approach to derive unbiased estimates for our regression coefficients. We also tested for interactions of the regression coefficients with the selected spatial eigenvectors. With the exception of the votes for the rightwinged populist party all predictors showed significant interactions with the eigenvectors. The resulting spatially varying regression coefficients maps indicate that the relationship between incidence rate and the socioeconomic indicators might be less straight-forward than commonly assumed and seemed moderated by additional factors. The spatial clusters that emerged during the analysis provide a base for a more detailed analysis of the interplay of regional scale health politics and regional economic geography.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/DZURB<\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-7-9-2026",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-7-9-2026", "https://openalex.org/W7164208595"]
+  },
+  "reviewBody": "Partially successful reproduction. The authors shared scripts, intermediate results and documented instructions via an anonymous GitHub link. Figures 1-7 and Tables 2 and 3 were verified; the reproduced results were mostly in accordance with the reported results.\n",
+  "datePublished": "2026-06-09",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/OSF.IO/DZURB"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/DZURB"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-007/cert.pdf"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-005/",
+  "name": "CODECHECK certificate 2020-005",
+  "url": "https://codecheck.org.uk/register/certs/2020-005/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Iain Davies",
+      "@id": "https://orcid.org/0000-0002-5361-6285"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Rene Larisch",
+        "@id": "https://orcid.org/0000-0003-3544-0631"
+      }
+    ],
+    "abstract": "Since the first description of spike-timing-dependent plasticity (STDP), different models of STDP has been published to reproduce different experimental findings. Clopath et al. (2010) introduced an STDP model which is able to reproduce the experimental findings of triplet studies. They implemented a homeostatic mechanism to control the level of generated LTD, based on the relationship between the average postsynaptic membrane potential and a reference value. With this voltage-based STDP rule, they reproduce a wide range of physiological experiments. We here present a reimplementation of the Clopath et al. (2010) learning rule in Python with the help of the neuro-simulator ANNarchy.",
+    "url": "https://doi.org/10.5281/zenodo.3538217",
+    "sameAs": ["https://doi.org/10.5281/zenodo.3538217", "https://openalex.org/W3206275069"]
+  },
+  "reviewBody": "This code had some difficulties involving the Python package ANNarchy. All scripts were eventually able to be run, and most figures were reproduced as in the ReScience paper. However two figures were very different from the originals. Some figures also varied considerably when changing the seed. \n",
+  "datePublished": "2020-07-23",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.3959175"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.3959175"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-005/cert.pdf"
+  }
+}

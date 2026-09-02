@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02k7v4d05",
+  "name": "University of Bern",
+  "identifier": "https://ror.org/02k7v4d05",
+  "url": "https://codecheck.org.uk/register/organisations/02k7v4d05/",
+  "sameAs": "https://www.unibe.ch",
+  "location": {
+    "@type": "Place",
+    "address": "Bern, Switzerland"
+  }
+}

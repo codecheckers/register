@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-1-19-2020",
+      "url": "https://doi.org/10.5194/agile-giss-1-19-2020",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-1-19-2020", "https://openalex.org/W3043006037"],
+      "name": "Tracking Hurricane Dorian in GDELT and Twitter",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Innocensia Owuor"
+        },
+        {
+          "@type": "Person",
+          "name": "Hartwig H. Hochmair",
+          "@id": "https://orcid.org/0000-0002-7064-8238"
+        },
+        {
+          "@type": "Person",
+          "name": "Sreten Cvetojevic",
+          "@id": "https://orcid.org/0000-0001-6069-5324"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-023/",
+      "name": "CODECHECK Certificate 2020-023",
+      "url": "https://codecheck.org.uk/register/certs/2020-023/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-1-19-2020"
+      },
+      "datePublished": "2020-07-13"
+    }
+  ]
+}

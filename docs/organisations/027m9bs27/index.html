@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>University of Manchester</title>
+
+<script src="../../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../../libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="../../libs/navigation-1.1/tabsets.js"></script>
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+
+<link rel="stylesheet" href="../../assets/codecheck-register.css">
+
+<meta property="og:title" content="CODECHECK Register">
+<meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
+<meta name="generator" content="codecheck">
+
+<meta property="og:url" content="https://codecheck.org.uk/register/">
+<meta property="og:site_name" content="CODECHECK Register">
+<meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+<!-- FAIR Signposting Level 1, as HTML link elements: GitHub Pages cannot set
+     HTTP Link headers (register#55) -->
+<link rel="cite-as" href="https://ror.org/027m9bs27">
+<link rel="type" href="https://schema.org/AboutPage">
+<link rel="type" href="https://schema.org/Organization">
+<link rel="describedby" href="index.jsonld" type="application/ld+json">
+<link rel="alternate" href="register.json" type="application/json">
+<link rel="alternate" href="stats.json" type="application/json">
+<link rel="license" href="https://opendatacommons.org/licenses/by/1-0/">
+
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/027m9bs27",
+  "name": "University of Manchester",
+  "identifier": "https://ror.org/027m9bs27",
+  "url": "https://codecheck.org.uk/register/organisations/027m9bs27/",
+  "sameAs": "http://www.manchester.ac.uk/",
+  "location": {
+    "@type": "Place",
+    "address": "Manchester, United Kingdom"
+  }
+}</script>
+
+<!-- Icon fonts -->
+<link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="codecheck-navbar">
+  <div class="navbar-container">
+    <a href="../../index.html" class="navbar-brand" title="Go to list of checks">
+      <img src="../../codecheck_logo.svg" alt="Go to list of checks" class="navbar-logo">
+    </a>
+
+    <nav class="navbar-menu">
+      <a href="../../index.html" class="nav-link" title="Browse all CODECHECK certificates">Checks</a>
+      <a href="../../venues/index.html" class="nav-link" title="Browse venues that have hosted a CODECHECK">Venues</a>
+      <a href="../../works/index.html" class="nav-link" title="Browse checked papers">Works</a>
+      <a href="../../persons/index.html" class="nav-link" title="Browse people who authored or checked a paper">People</a>
+      <a href="../../organisations/index.html" class="nav-link active" title="Browse organisations whose people authored or checked a paper">Organisations</a>
+      <a href="../../statistics/index.html" class="nav-link" title="View register statistics">Statistics</a>
+      <a href="https://codecheck.org.uk/" class="nav-link" title="About the CODECHECK project">About</a>
+    </nav>
+  </div>
+</div>
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
+  </ol>
+</nav>
+</div>
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">University of Manchester</h1>
+
+</div>
+
+
+<div class="venue-metadata">
+<img class="venue-metadata-logo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Manchester%20University%20Logo%20%282%29.png?width=320" alt="University of Manchester logo">
+<div class="venue-metadata-text">
+<ul class="venue-metadata-list">
+<li>
+<i class="fa fa-university"></i> <span class="venue-metadata-label">Type:</span> education, funder
+</li>
+<li>
+<i class="fa fa-map-marker"></i> <span class="venue-metadata-label">Location:</span> Manchester, United Kingdom
+</li>
+<li>
+<i class="fa fa-calendar"></i> <span class="venue-metadata-label">Established:</span> 1824
+</li>
+<li>
+<i class="fa fa-globe"></i> <span class="venue-metadata-label">Website:</span> <a href="http://www.manchester.ac.uk/" target="_blank" rel="noopener">http://www.manchester.ac.uk/</a>
+</li>
+<li>
+<i class="fa fa-book"></i> <span class="venue-metadata-label">Wikipedia:</span> <a href="http://en.wikipedia.org/wiki/University_of_Manchester" target="_blank" rel="noopener">http://en.wikipedia.org/wiki/University_of_Manchester</a>
+</li>
+<li>
+<i class="fa fa-university"></i> <span class="venue-metadata-label">ROR:</span> <a href="https://ror.org/027m9bs27" target="_blank" rel="noopener">027m9bs27</a>
+</li>
+<li>
+<i class="fa fa-id-card"></i> <span class="venue-metadata-label">GRID:</span> grid.5379.8
+</li>
+<li>
+<i class="fa fa-id-card"></i> <span class="venue-metadata-label">ISNI:</span> 0000 0001 2166 2407
+</li>
+<li>
+<i class="fa fa-id-card"></i> <span class="venue-metadata-label">FUNDREF:</span> 501100000770
+</li>
+<li>
+<i class="fa fa-database"></i> <span class="venue-metadata-label">Wikidata:</span> <a href="https://www.wikidata.org/entity/Q230899" target="_blank" rel="noopener">Q230899</a>
+</li>
+<li>
+<i class="fa fa-users"></i> <span class="venue-metadata-label">People:</span> <a href="../../persons/0000-0001-5891-1702/">Tiziano Zito</a>
+</li>
+<li>
+<i class="fa fa-cog"></i> <span class="venue-metadata-label">API &amp; statistics:</span> <a href="index.json">index.json</a>
+</li>
+</ul>
+<p class="venue-metadata-description">
+Also known as: Manchester University, Prifysgol Manceinion, University of Manchester Institute of Science and Technology, Victoria University of Manchester
+</p>
+</div>
+</div>
+<div id="works-authored-1" class="section level2">
+<h2>Works authored (1)</h2>
+<table style="width:100%;">
+<colgroup>
+<col width="15%" />
+<col width="67%" />
+<col width="6%" />
+<col width="4%" />
+<col width="5%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Report</th>
+<th align="left">Work</th>
+<th align="left" data-sort="string">Person</th>
+<th align="left" data-sort="string">Venue</th>
+<th align="left" data-sort="string">Check date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.3948353">doi.org/10.5281/zenodo.3948353</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.1003214">[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours</a></td>
+<td align="left"><a href="../../persons/0000-0001-5891-1702/">Tiziano Zito</a></td>
+<td align="left"><a href="../../venues/communities/codecheck">codecheck</a></td>
+<td align="left">2020-07-16</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="checks-conducted-0" class="section level2">
+<h2>Checks conducted (0)</h2>
+<em>No checks conducted yet.</em>
+<p class="page-note">
+<strong>Best effort data.</strong> Affiliations come from public ORCID profiles, matched against the publication date of the paper or the date of the check. People without a ROR-identified affiliation on record are not listed here.
+</p>
+</div>
+
+<p class="footer-links"><a
+        href="register.json"
+        title="JSON export of register">JSON</a>
+</p>
+
+<hr class="footer-separator" />
+
+<!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
+<div class="footer-content">
+    <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
+            href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a> | <a
+            href="https://doi.org/10.53962/qtrx-1a"><i class="fa fa-flask"></i> ResearchEquals Collection</a></p>
+
+    <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p><a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"><img title="license logo CC BY-SA 4.0"
+                src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></a>
+    </p>
+
+    <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
+
+    <p class="footer-description">CODECHECK is a process for independent execution of
+        computations underlying scholarly research articles.</p>
+
+    <p class="build-info"></p>
+</div>
+
+<script src="../../libs/codecheck/stupidtable.min.js"></script>
+<script src="../../libs/codecheck/table-sort-init.js"></script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

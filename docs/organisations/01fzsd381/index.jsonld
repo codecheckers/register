@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01fzsd381",
+  "name": "HafenCity University Hamburg",
+  "identifier": "https://ror.org/01fzsd381",
+  "url": "https://codecheck.org.uk/register/organisations/01fzsd381/",
+  "sameAs": "https://www.hcu-hamburg.de/en/",
+  "location": {
+    "@type": "Place",
+    "address": "Hamburg, Germany"
+  }
+}

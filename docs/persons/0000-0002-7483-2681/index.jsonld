@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7483-2681",
+      "name": "Dan Qiang"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-9-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-9-2025",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7483-2681"
+      },
+      "name": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity"
+    }
+  ]
+}

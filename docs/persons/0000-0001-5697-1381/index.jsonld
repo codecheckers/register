@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5697-1381",
+      "name": "Joran Jongerling"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31234/osf.io/cz32t",
+      "url": "https://doi.org/10.31234/osf.io/cz32t",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-5697-1381"
+      },
+      "name": "Sample size estimation for task-related functional MRI studies using Bayesian updating."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0001-3200-7202",
+      "name": "Ioanna Gogousou"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-3-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-3-2026",
+      "author": {
+        "@id": "https://orcid.org/0009-0001-3200-7202"
+      },
+      "name": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/003vg9w96",
+  "name": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+  "identifier": "https://ror.org/003vg9w96",
+  "url": "https://codecheck.org.uk/register/organisations/003vg9w96/",
+  "sameAs": "https://www.inrae.fr/",
+  "location": {
+    "@type": "Place",
+    "address": "Paris, France"
+  }
+}

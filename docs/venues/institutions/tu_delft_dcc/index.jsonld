@@ -1,0 +1,168 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "TU Delft Digital Competence Centre",
+      "@id": "https://www.wikidata.org/wiki/Q141254549",
+      "url": "https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/",
+      "sameAs": "https://www.tudelft.nl/digital-competence-centre",
+      "description": "The Digital Competence Centre (DCC) is TU Delft's institutional hub supporting researchers across all disciplines with data management, research software development and computational workflows. It offers hands-on project support, office hours, training workshops and reproducibility assessments. Its FAIR4RS mentoring programme helps researchers make their software outputs findable, accessible, interoperable and reusable.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata",
+          "value": "Q141254549",
+          "url": "https://www.wikidata.org/wiki/Q141254549"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-003/",
+      "name": "CODECHECK Certificate 2025-003",
+      "url": "https://codecheck.org.uk/register/certs/2025-003/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Optimal Graph Stretching for Distributed Averaging",
+        "url": "https://doi.org/10.48550/arXiv.2504.10289",
+        "sameAs": "https://doi.org/10.48550/arXiv.2504.10289"
+      },
+      "datePublished": "2025-03-25"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-004/",
+      "name": "CODECHECK Certificate 2025-004",
+      "url": "https://codecheck.org.uk/register/certs/2025-004/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach",
+        "url": "https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b"
+      },
+      "datePublished": "2025-04-08"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-006/",
+      "name": "CODECHECK Certificate 2025-006",
+      "url": "https://codecheck.org.uk/register/certs/2025-006/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
+        "url": "https://doi.org/10.1038/s41598-021-85363-7",
+        "sameAs": "https://doi.org/10.1038/s41598-021-85363-7"
+      },
+      "datePublished": "2025-05-01"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-007/",
+      "name": "CODECHECK Certificate 2025-007",
+      "url": "https://codecheck.org.uk/register/certs/2025-007/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
+        "url": "https://doi.org/10.5194/wes-11-911-2026",
+        "sameAs": "https://doi.org/10.5194/wes-11-911-2026"
+      },
+      "datePublished": "2025-05-26"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-018/",
+      "name": "CODECHECK Certificate 2025-018",
+      "url": "https://codecheck.org.uk/register/certs/2025-018/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Scalable control synthesis for stochastic systems via structural IMDP abstractions",
+        "url": "https://doi.org/10.48550/arXiv.2411.11803",
+        "sameAs": "https://doi.org/10.48550/arXiv.2411.11803"
+      },
+      "datePublished": "2025-05-28"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-019/",
+      "name": "CODECHECK Certificate 2025-019",
+      "url": "https://codecheck.org.uk/register/certs/2025-019/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
+        "url": "https://doi.org/10.48550/arXiv.2503.21065",
+        "sameAs": "https://doi.org/10.48550/arXiv.2503.21065"
+      },
+      "datePublished": "2025-06-11"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-021/",
+      "name": "CODECHECK Certificate 2025-021",
+      "url": "https://codecheck.org.uk/register/certs/2025-021/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Airspeed estimation for UAVs using only propeller feedback",
+        "url": "https://doi.org/10.48550/arXiv.2507.03456",
+        "sameAs": "https://doi.org/10.48550/arXiv.2507.03456"
+      },
+      "datePublished": "2025-07-30"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-022/",
+      "name": "CODECHECK Certificate 2025-022",
+      "url": "https://codecheck.org.uk/register/certs/2025-022/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
+        "url": "https://doi.org/10.1109/TITS.2025.3549227",
+        "sameAs": "https://doi.org/10.1109/TITS.2025.3549227"
+      },
+      "datePublished": "2025-08-04"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-001/",
+      "name": "CODECHECK Certificate 2026-001",
+      "url": "https://codecheck.org.uk/register/certs/2026-001/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry",
+        "url": "https://doi.org/10.5194/wes-2025-217",
+        "sameAs": "https://doi.org/10.5194/wes-2025-217"
+      },
+      "datePublished": "2026-03-03"
+    }
+  ]
+}

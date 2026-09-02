@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/05gs8cd61",
+  "name": "University of Salzburg",
+  "identifier": "https://ror.org/05gs8cd61",
+  "url": "https://codecheck.org.uk/register/organisations/05gs8cd61/",
+  "sameAs": "https://www.plus.ac.at/",
+  "location": {
+    "@type": "Place",
+    "address": "Salzburg, Austria"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-010/",
+      "name": "CODECHECK Certificate 2025-010",
+      "url": "https://codecheck.org.uk/register/certs/2025-010/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-015/",
+      "name": "CODECHECK Certificate 2025-015",
+      "url": "https://codecheck.org.uk/register/certs/2025-015/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-005/",
+      "name": "CODECHECK Certificate 2026-005",
+      "url": "https://codecheck.org.uk/register/certs/2026-005/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-016/",
+      "name": "CODECHECK Certificate 2026-016",
+      "url": "https://codecheck.org.uk/register/certs/2026-016/"
+    }
+  ]
+}

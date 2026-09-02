@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1628-3231",
+      "name": "Joseph Shingleton",
+      "sameAs": "https://github.com/jshng-glasgow"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-008/",
+      "name": "CODECHECK Certificate 2026-008",
+      "url": "https://codecheck.org.uk/register/certs/2026-008/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1628-3231"
+      },
+      "datePublished": "2026-03-31"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-12-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-12-2024",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1628-3231"
+      },
+      "name": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-11-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-11-2025",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1628-3231"
+      },
+      "name": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models"
+    }
+  ]
+}

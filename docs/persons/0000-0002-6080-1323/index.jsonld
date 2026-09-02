@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6080-1323",
+      "name": "Karin Pfeffer"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.17605/osf.io/e2k73",
+      "url": "https://doi.org/10.17605/osf.io/e2k73",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6080-1323"
+      },
+      "name": "Landscape Character Assessment - Nigeria"
+    }
+  ]
+}

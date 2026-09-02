@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-12-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-12-2024",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-5-12-2024", "https://openalex.org/W4399157460"],
+      "name": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Joseph Shingleton",
+          "@id": "https://orcid.org/0000-0002-1628-3231"
+        },
+        {
+          "@type": "Person",
+          "name": "Ana Basiri",
+          "@id": "https://orcid.org/0000-0002-2399-1797"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-010/",
+      "name": "CODECHECK Certificate 2024-010",
+      "url": "https://codecheck.org.uk/register/certs/2024-010/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-5-12-2024"
+      },
+      "datePublished": "2024-05-27"
+    }
+  ]
+}

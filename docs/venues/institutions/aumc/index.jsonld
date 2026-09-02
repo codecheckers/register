@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Amsterdam UMC",
+      "@id": "https://ror.org/05grdyy37",
+      "url": "https://codecheck.org.uk/register/venues/institutions/aumc/",
+      "description": "Amsterdam UMC's computational reproducibility initiative documents work to understand and improve the reproducibility of computational research at the medical center. It centers on producing reproduction packages for published studies and on community engagement activities such as training and outreach. The report, led by researchers including Samuel Langton and Thomas Pronk, addresses version control, software management and replication practices, with the full report at <a href=\"https://zenodo.org/records/15095022\" target=\"_blank\" rel=\"noopener\">https://zenodo.org/records/15095022<\/a>.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.amsterdamumc.org/static/researchpresentation/images/logo-amsterdamumc.svg"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ROR",
+          "value": "05grdyy37",
+          "url": "https://ror.org/05grdyy37"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-004/",
+      "name": "CODECHECK Certificate 2024-004",
+      "url": "https://codecheck.org.uk/register/certs/2024-004/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://ror.org/05grdyy37"
+        },
+        "name": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint\n",
+        "url": "https://doi.org/10.31222/osf.io/a8rmu",
+        "sameAs": "https://doi.org/10.31222/osf.io/a8rmu"
+      },
+      "datePublished": "2024-08-01"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-024/",
+      "name": "CODECHECK Certificate 2024-024",
+      "url": "https://codecheck.org.uk/register/certs/2024-024/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://ror.org/05grdyy37"
+        },
+        "name": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment\n",
+        "url": "https://doi.org/10.1002/sim.10186",
+        "sameAs": "https://doi.org/10.1002/sim.10186"
+      },
+      "datePublished": "2024-12-16"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-025/",
+      "name": "CODECHECK Certificate 2025-025",
+      "url": "https://codecheck.org.uk/register/certs/2025-025/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://ror.org/05grdyy37"
+        },
+        "name": "AbSolution Report v.0.71\n",
+        "url": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html"
+      },
+      "datePublished": "2025-01-29"
+    }
+  ]
+}

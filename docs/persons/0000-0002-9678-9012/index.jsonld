@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9678-9012",
+      "name": "Daniela Gawehns",
+      "sameAs": "https://github.com/DanielaGawehns"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-001/",
+      "name": "CODECHECK Certificate 2025-001",
+      "url": "https://codecheck.org.uk/register/certs/2025-001/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9678-9012"
+      },
+      "datePublished": "2025-02-14"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31234/osf.io/mqg86",
+      "url": "https://doi.org/10.31234/osf.io/mqg86",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9678-9012"
+      },
+      "name": "Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia "
+    }
+  ]
+}

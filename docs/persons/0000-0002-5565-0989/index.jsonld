@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5565-0989",
+      "name": "Dustin Carlino"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5311/josis.2022.24.172",
+      "url": "https://doi.org/10.5311/josis.2022.24.172",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-5565-0989"
+      },
+      "name": "ClockBoard: A zoning system for urban analysis"
+    }
+  ]
+}

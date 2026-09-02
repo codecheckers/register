@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-001/",
+  "name": "CODECHECK Certificate 2022-001",
+  "url": "https://codecheck.org.uk/register/certs/2022-001/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Germán Vargas Mesa"
+      },
+      {
+        "@type": "Person",
+        "name": "Amélie A. Gagnon",
+        "@id": "https://orcid.org/0000-0003-4907-0774"
+      }
+    ],
+    "url": "http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and"
+  },
+  "reviewBody": "R code for this project was reproducible.\n",
+  "datePublished": "2022-01-19",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.6043785"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.6043785"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2022-001/cert.pdf"
+  }
+}

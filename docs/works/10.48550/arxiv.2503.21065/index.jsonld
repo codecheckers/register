@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2503.21065",
+      "url": "https://doi.org/10.48550/arxiv.2503.21065",
+      "sameAs": ["https://doi.org/10.48550/arxiv.2503.21065", "https://openalex.org/W4415061882"],
+      "name": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Filip Surma",
+          "@id": "https://orcid.org/0000-0002-6756-9598"
+        },
+        {
+          "@type": "Person",
+          "name": "Anahita Jamshidnejad",
+          "@id": "https://orcid.org/0000-0001-9151-2607"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-019/",
+      "name": "CODECHECK Certificate 2025-019",
+      "url": "https://codecheck.org.uk/register/certs/2025-019/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.48550/arxiv.2503.21065"
+      },
+      "datePublished": "2025-06-11"
+    }
+  ]
+}

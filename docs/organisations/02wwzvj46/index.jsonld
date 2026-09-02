@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02wwzvj46",
+  "name": "Université de Tours",
+  "identifier": "https://ror.org/02wwzvj46",
+  "url": "https://codecheck.org.uk/register/organisations/02wwzvj46/",
+  "sameAs": "https://www.univ-tours.fr",
+  "location": {
+    "@type": "Place",
+    "address": "Tours, France"
+  }
+}

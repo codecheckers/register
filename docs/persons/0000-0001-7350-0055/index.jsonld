@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7350-0055",
+      "name": "Majid Hojati"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-1-6-2020",
+      "url": "https://doi.org/10.5194/agile-giss-1-6-2020",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-7350-0055"
+      },
+      "name": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling"
+    }
+  ]
+}

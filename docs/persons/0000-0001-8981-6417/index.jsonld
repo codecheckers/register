@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8981-6417",
+      "name": "Aditya Kulkarni"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-14-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-14-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8981-6417"
+      },
+      "name": "Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach"
+    }
+  ]
+}

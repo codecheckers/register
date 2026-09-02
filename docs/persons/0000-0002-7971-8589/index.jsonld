@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7971-8589",
+      "name": "Niloufar Tabandeh"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1016/j.isci.2026.116661",
+      "url": "https://doi.org/10.1016/j.isci.2026.116661",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7971-8589"
+      },
+      "name": "Photoreceptor-specific scene statistics reveal melanopic structure in natural environments"
+    }
+  ]
+}

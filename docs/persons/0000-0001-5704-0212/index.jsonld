@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5704-0212",
+      "name": "Justin Bedo"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.46471/gigabyte.70",
+      "url": "https://doi.org/10.46471/gigabyte.70",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-5704-0212"
+      },
+      "name": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01ej9dk98",
+  "name": "The University of Melbourne",
+  "identifier": "https://ror.org/01ej9dk98",
+  "url": "https://codecheck.org.uk/register/organisations/01ej9dk98/",
+  "sameAs": "https://www.unimelb.edu.au",
+  "location": {
+    "@type": "Place",
+    "address": "Melbourne, Australia"
+  }
+}

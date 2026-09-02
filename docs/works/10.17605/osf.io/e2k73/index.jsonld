@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.17605/osf.io/e2k73",
+      "url": "https://doi.org/10.17605/osf.io/e2k73",
+      "sameAs": ["https://doi.org/10.17605/osf.io/e2k73", "https://openalex.org/W6943834942"],
+      "name": "Landscape Character Assessment - Nigeria",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Patrick Samson Udama Eneche",
+          "@id": "https://orcid.org/0000-0002-0504-9677"
+        },
+        {
+          "@type": "Person",
+          "name": "Funda Atun"
+        },
+        {
+          "@type": "Person",
+          "name": "Karin Pfeffer",
+          "@id": "https://orcid.org/0000-0002-6080-1323"
+        },
+        {
+          "@type": "Person",
+          "name": "Yijian Zeng"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-015/",
+      "name": "CODECHECK Certificate 2024-015",
+      "url": "https://codecheck.org.uk/register/certs/2024-015/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.17605/osf.io/e2k73"
+      },
+      "datePublished": "2024-09-26"
+    }
+  ]
+}

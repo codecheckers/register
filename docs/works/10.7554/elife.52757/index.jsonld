@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.7554/elife.52757",
+      "url": "https://doi.org/10.7554/elife.52757",
+      "sameAs": ["https://doi.org/10.7554/elife.52757", "https://openalex.org/W3008505973"],
+      "name": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Sadra Sadeh",
+          "@id": "https://orcid.org/0000-0001-8159-5461"
+        },
+        {
+          "@type": "Person",
+          "name": "Claudia Clopath",
+          "@id": "https://orcid.org/0000-0003-4507-8648"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-014/",
+      "name": "CODECHECK Certificate 2020-014",
+      "url": "https://codecheck.org.uk/register/certs/2020-014/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.7554/elife.52757"
+      },
+      "datePublished": "2020-07-28"
+    }
+  ]
+}

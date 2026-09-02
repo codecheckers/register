@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0008-2491-1542",
+      "name": "Mohammadamin Sinichi"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31219/osf.io/wkzsn",
+      "url": "https://doi.org/10.31219/osf.io/wkzsn",
+      "author": {
+        "@id": "https://orcid.org/0009-0008-2491-1542"
+      },
+      "name": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research. "
+    }
+  ]
+}

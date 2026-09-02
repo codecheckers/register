@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1154-8093",
+      "name": "Neil Ferguson"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.25561/77482",
+      "url": "https://doi.org/10.25561/77482",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1154-8093"
+      },
+      "name": "Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020. "
+    }
+  ]
+}

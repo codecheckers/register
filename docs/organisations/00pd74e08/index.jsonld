@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/00pd74e08",
+  "name": "University of Münster",
+  "identifier": "https://ror.org/00pd74e08",
+  "url": "https://codecheck.org.uk/register/organisations/00pd74e08/",
+  "sameAs": "https://www.uni-muenster.de",
+  "location": {
+    "@type": "Place",
+    "address": "Münster, Germany"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-006/",
+      "name": "CODECHECK Certificate 2022-006",
+      "url": "https://codecheck.org.uk/register/certs/2022-006/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-017/",
+      "name": "CODECHECK Certificate 2022-017",
+      "url": "https://codecheck.org.uk/register/certs/2022-017/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-007/",
+      "name": "CODECHECK Certificate 2023-007",
+      "url": "https://codecheck.org.uk/register/certs/2023-007/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-005/",
+      "name": "CODECHECK Certificate 2024-005",
+      "url": "https://codecheck.org.uk/register/certs/2024-005/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-012/",
+      "name": "CODECHECK Certificate 2024-012",
+      "url": "https://codecheck.org.uk/register/certs/2024-012/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-013/",
+      "name": "CODECHECK Certificate 2024-013",
+      "url": "https://codecheck.org.uk/register/certs/2024-013/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-020/",
+      "name": "CODECHECK Certificate 2025-020",
+      "url": "https://codecheck.org.uk/register/certs/2025-020/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-007/",
+      "name": "CODECHECK Certificate 2026-007",
+      "url": "https://codecheck.org.uk/register/certs/2026-007/"
+    }
+  ]
+}

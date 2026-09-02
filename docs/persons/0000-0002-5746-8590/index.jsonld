@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5746-8590",
+      "name": "Tom Niers"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-10-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-10-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-5746-8590"
+      },
+      "name": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5311/josis.2026.32.591",
+      "url": "https://doi.org/10.5311/josis.2026.32.591",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-5746-8590"
+      },
+      "name": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures "
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1101/2025.11.10.687546",
+      "url": "https://doi.org/10.1101/2025.11.10.687546",
+      "sameAs": ["https://doi.org/10.1101/2025.11.10.687546", "https://openalex.org/W4416182239"],
+      "name": "Circadian timing does not modulate human temporal contrast sensitivity ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Hannah Sophie Heinrichs",
+          "@id": "https://orcid.org/0000-0001-5047-5205"
+        },
+        {
+          "@type": "Person",
+          "name": "Manuel Spitschan",
+          "@id": "https://orcid.org/0000-0002-8572-9268"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-023/",
+      "name": "CODECHECK Certificate 2026-023",
+      "url": "https://codecheck.org.uk/register/certs/2026-023/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1101/2025.11.10.687546"
+      },
+      "datePublished": "2026-08-21"
+    }
+  ]
+}

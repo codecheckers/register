@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-021/",
+  "name": "CODECHECK Certificate 2025-021",
+  "url": "https://codecheck.org.uk/register/certs/2025-021/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Heather Andrews",
+      "@id": "https://orcid.org/0000-0002-6637-2830"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Airspeed estimation for UAVs using only propeller feedback",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Evangelos Ntouros",
+        "@id": "https://orcid.org/0009-0006-3918-4240"
+      },
+      {
+        "@type": "Person",
+        "name": "Pavel Kelley"
+      },
+      {
+        "@type": "Person",
+        "name": "Ewoud Smeur",
+        "@id": "https://orcid.org/0000-0002-0060-6526"
+      }
+    ],
+    "url": "https://doi.org/10.48550/arXiv.2507.03456",
+    "sameAs": "https://doi.org/10.48550/arXiv.2507.03456"
+  },
+  "reviewBody": "Full reproduction of the figures shown in the manuscript. Figures 1 and 3 of the manuscript are pictures which are also  provided in the `./photos/` directory of the code repository. All other figures are plots that are fully reproduced by the  scripts found in the `./src/` directory of the code repository. The figures are displayed in MATLAB itself and are provided  as pdf’s in the `./pdf/` directory of the code repository. \n",
+  "datePublished": "2025-07-30",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.16616998"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.16616998"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2025-021/cert.pdf"
+  }
+}

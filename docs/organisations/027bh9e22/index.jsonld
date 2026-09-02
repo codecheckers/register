@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/027bh9e22",
+  "name": "Leiden University",
+  "identifier": "https://ror.org/027bh9e22",
+  "url": "https://codecheck.org.uk/register/organisations/027bh9e22/",
+  "sameAs": "http://www.leiden.edu/",
+  "location": {
+    "@type": "Place",
+    "address": "Leiden, The Netherlands"
+  }
+}

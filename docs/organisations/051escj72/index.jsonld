@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/051escj72",
+  "name": "Université de Montpellier",
+  "identifier": "https://ror.org/051escj72",
+  "url": "https://codecheck.org.uk/register/organisations/051escj72/",
+  "sameAs": "https://umontpellier.fr",
+  "location": {
+    "@type": "Place",
+    "address": "Montpellier, France"
+  }
+}

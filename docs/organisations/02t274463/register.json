@@ -1,0 +1,44 @@
+[
+  {
+    "Certificate ID": "2021-006",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-006/",
+    "Certificate PDF": "https://osf.io/download/zqy3x/",
+    "Repository": "osf::4cpm3",
+    "Repository Link": "https://osf.io/4cpm3",
+    "Report": "https://doi.org/10.17605/OSF.IO/4CPM3",
+    "Title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-2-14-2021",
+    "OpenAlex": "https://openalex.org/W3168422666",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2021-06-10"
+  },
+  {
+    "Certificate ID": "2022-007",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2022-007/",
+    "Certificate PDF": "https://osf.io/download/ad76h/",
+    "Repository": "osf::3DSMV",
+    "Repository Link": "https://osf.io/3DSMV",
+    "Report": "https://doi.org/10.17605/OSF.IO/3DSMV",
+    "Title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-3-9-2022",
+    "OpenAlex": "https://openalex.org/W4281689570",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2022-07-09"
+  },
+  {
+    "Certificate ID": "2026-018",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-018/",
+    "Certificate PDF": "https://zenodo.org/api/records/21807544/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/reproducible-research-giscience-longitudinal-study",
+    "Repository Link": "https://github.com/codecheckers/reproducible-research-giscience-longitudinal-study",
+    "Report": "https://doi.org/10.5281/zenodo.21807544",
+    "Title": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures",
+    "Paper reference": "https://doi.org/10.5311/JOSIS.2026.32.591",
+    "OpenAlex": "https://openalex.org/W7166859420",
+    "Type": "journal",
+    "Venue": "JOSIS",
+    "Check date": "2026-07-17"
+  }
+]

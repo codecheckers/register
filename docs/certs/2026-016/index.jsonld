@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-016/",
+  "name": "Reproducibility Review of: Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models",
+  "url": "https://codecheck.org.uk/register/certs/2026-016/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Franz Welscher",
+      "@id": "https://orcid.org/0000-0003-2432-1880"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mina Karimi",
+        "@id": "https://orcid.org/0000-0003-2521-8164"
+      },
+      {
+        "@type": "Person",
+        "name": "Krzysztof Janowicz",
+        "@id": "https://orcid.org/0009-0003-1968-887X"
+      },
+      {
+        "@type": "Person",
+        "name": "Zilong Liu",
+        "@id": "https://orcid.org/0000-0002-7699-3366"
+      },
+      {
+        "@type": "Person",
+        "name": "Songlin Wang",
+        "@id": "https://orcid.org/0009-0004-6506-2859"
+      },
+      {
+        "@type": "Person",
+        "name": "Annika Süß"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Vague cognitive regions (VCRs) such as Levant or Bible Belt play a central role in how people reason about space and place, despite lacking clear boundaries or formal definitions. Prior studies in behavioral geography and GIScience have used human surveys or crowd-sourced social media data to delineate human perception and cognition of such regions. In this paper, we introduce a new AI-based approach, which uses foundation models, particularly large language models (LLMs), to represent VCRs. Then, we challenge the results by arguing that LLMs exhibit uneven cognitive geographies, representing some VCRs more coherently and stably than others. We introduce geo-alignment as an analytical lens to examine the discrepancies between different representations. Focusing on comparative cases such as the Alps, Northern-Southern California, the Sahara, and Kashmir, we show variations that systematically shape LLM-derived VCRs. Rather than treating misalignment as a modeling error, we conceptualize it as a signal of unequal global cognitive visibility embedded in training data. The paper contributes a methodological framework for analyzing VCRs through the lens of geo-alignment and advances a methodological GIScience perspective on the spatial knowledge encoded in LLMs.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/WH6GD<\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-7-6-2026",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-7-6-2026", "https://openalex.org/W7164140075"]
+  },
+  "reviewBody": "The study is partially reproducible due to external resource constraints. The provided code, data and documentation are clear and complete, but a full reproduction was not possible because data generation relied on paid APIs (OpenAI, DeepSeek, Google Gemini) that were not accessible for re-running, and indices/figures required ArcGIS/arcpy, which was unavailable on the reviewer's system.\n",
+  "datePublished": "2026-04-27",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/OSF.IO/WH6GD"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/WH6GD"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-016/cert.pdf"
+  }
+}

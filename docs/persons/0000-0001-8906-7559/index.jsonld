@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8906-7559",
+      "name": "Ian Hussey",
+      "sameAs": "https://github.com/ianhussey"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.71240/lcyc.052239",
+      "url": "https://doi.org/10.71240/lcyc.052239",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8906-7559"
+      },
+      "name": "Verification Report of Zhao et al. (2023) ‘Effect of Acceptance and Commitment Therapy for depressive disorders: a meta-analysis’  "
+    }
+  ]
+}

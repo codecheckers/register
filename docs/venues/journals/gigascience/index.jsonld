@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Periodical",
+      "name": "GigaScience",
+      "@id": "https://portal.issn.org/resource/ISSN/2047-217X",
+      "url": "https://codecheck.org.uk/register/venues/journals/gigascience/",
+      "sameAs": "https://academic.oup.com/gigascience",
+      "description": "GigaScience is an open-access, open-data journal published by Oxford University Press and GigaScience Press, focusing on \"big data\" research across computational biology, genomics, metagenomics and the life and biomedical sciences. Publication requires open and FAIR data, code and methods alongside the article, with reproducibility and usability as explicit review criteria. It runs an open peer-review process, supported by companion platforms such as the GigaDB dataset repository.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://codecheck.org.uk/img/gigascience_logo.svg"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISSN",
+          "value": "2047-217X",
+          "url": "https://portal.issn.org/resource/ISSN/2047-217X"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-001/",
+      "name": "CODECHECK Certificate 2020-001",
+      "url": "https://codecheck.org.uk/register/certs/2020-001/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://portal.issn.org/resource/ISSN/2047-217X"
+        },
+        "name": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
+        "url": "https://doi.org/10.1093/gigascience/giaa026",
+        "sameAs": "https://doi.org/10.1093/gigascience/giaa026"
+      },
+      "datePublished": "2019-02-14"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-024/",
+      "name": "CODECHECK Certificate 2020-024",
+      "url": "https://codecheck.org.uk/register/certs/2020-024/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://portal.issn.org/resource/ISSN/2047-217X"
+        },
+        "name": "Driftage: a multi-agent system framework for concept drift detection\n",
+        "url": "https://doi.org/10.1093/gigascience/giab030",
+        "sameAs": "https://doi.org/10.1093/gigascience/giab030"
+      },
+      "datePublished": "2020-12-07"
+    }
+  ]
+}

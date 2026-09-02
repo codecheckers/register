@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6035-8309",
+      "name": "Ljiljana Udovicic"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1371/journal.pone.0308768",
+      "url": "https://doi.org/10.1371/journal.pone.0308768",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6035-8309"
+      },
+      "name": "Power analysis for personal light exposure measurements and interventions "
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1093/gigascience/giaa026",
+      "url": "https://doi.org/10.1093/gigascience/giaa026",
+      "sameAs": ["https://doi.org/10.1093/gigascience/giaa026", "https://openalex.org/W3014157798"],
+      "name": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Terry J Lee"
+        },
+        {
+          "@type": "Person",
+          "name": "Erica Suh"
+        },
+        {
+          "@type": "Person",
+          "name": "Kimball Hill"
+        },
+        {
+          "@type": "Person",
+          "name": "Stephen R Piccolo"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-001/",
+      "name": "CODECHECK Certificate 2020-001",
+      "url": "https://codecheck.org.uk/register/certs/2020-001/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1093/gigascience/giaa026"
+      },
+      "datePublished": "2019-02-14"
+    }
+  ]
+}

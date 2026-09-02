@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03z77qz90",
+  "name": "University of Tartu",
+  "identifier": "https://ror.org/03z77qz90",
+  "url": "https://codecheck.org.uk/register/organisations/03z77qz90/",
+  "sameAs": "https://ut.ee",
+  "location": {
+    "@type": "Place",
+    "address": "Tartu, Estonia"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-009/",
+      "name": "CODECHECK Certificate 2026-009",
+      "url": "https://codecheck.org.uk/register/certs/2026-009/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-013/",
+      "name": "CODECHECK Certificate 2026-013",
+      "url": "https://codecheck.org.uk/register/certs/2026-013/"
+    }
+  ]
+}

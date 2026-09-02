@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04m5j1k67",
+  "name": "Aalborg University",
+  "identifier": "https://ror.org/04m5j1k67",
+  "url": "https://codecheck.org.uk/register/organisations/04m5j1k67/",
+  "sameAs": "https://www.aau.dk",
+  "location": {
+    "@type": "Place",
+    "address": "Aalborg, Denmark"
+  }
+}

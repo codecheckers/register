@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9151-2607",
+      "name": "Anahita Jamshidnejad"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2310.19997",
+      "url": "https://doi.org/10.48550/arxiv.2310.19997",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9151-2607"
+      },
+      "name": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances "
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2503.21065",
+      "url": "https://doi.org/10.48550/arxiv.2503.21065",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9151-2607"
+      },
+      "name": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making"
+    }
+  ]
+}

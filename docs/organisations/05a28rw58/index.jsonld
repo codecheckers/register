@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/05a28rw58",
+  "name": "ETH Zurich",
+  "identifier": "https://ror.org/05a28rw58",
+  "url": "https://codecheck.org.uk/register/organisations/05a28rw58/",
+  "sameAs": "https://ethz.ch",
+  "location": {
+    "@type": "Place",
+    "address": "Zurich, Switzerland"
+  }
+}

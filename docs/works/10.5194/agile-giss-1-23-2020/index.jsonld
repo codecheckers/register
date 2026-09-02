@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-1-23-2020",
+      "url": "https://doi.org/10.5194/agile-giss-1-23-2020",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-1-23-2020", "https://openalex.org/W3042325721"],
+      "name": "Extracting interrogative intents and concepts from geo-analytic questions.",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Haiqi Xu"
+        },
+        {
+          "@type": "Person",
+          "name": "Ehsan Hamzei",
+          "@id": "https://orcid.org/0000-0002-4712-230X"
+        },
+        {
+          "@type": "Person",
+          "name": "Enkhbold Nyamsuren"
+        },
+        {
+          "@type": "Person",
+          "name": "Han Kruiger",
+          "@id": "https://orcid.org/0000-0002-0901-202X"
+        },
+        {
+          "@type": "Person",
+          "name": "Stephan Winter",
+          "@id": "https://orcid.org/0000-0002-3403-6939"
+        },
+        {
+          "@type": "Person",
+          "name": "Martin Tomko",
+          "@id": "https://orcid.org/0000-0002-5736-4679"
+        },
+        {
+          "@type": "Person",
+          "name": "Simon Scheider",
+          "@id": "https://orcid.org/0000-0002-2267-4810"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-022/",
+      "name": "CODECHECK Certificate 2020-022",
+      "url": "https://codecheck.org.uk/register/certs/2020-022/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-1-23-2020"
+      },
+      "datePublished": "2020-07-13"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "source": "https://codecheck.org.uk/register/organisations/02t274463/register.json",
+  "cert_count": 3,
+  "venue_count": 2,
+  "venues_per_type": {
+    "conference": 1,
+    "journal": 1
+  },
+  "checks_per_type_per_year": {
+    "2021": {
+      "conference": 1
+    },
+    "2022": {
+      "conference": 1
+    },
+    "2026": {
+      "journal": 1
+    }
+  },
+  "checks_per_year": {
+    "2021": 1,
+    "2022": 1,
+    "2026": 1
+  },
+  "checks_cumulative": {
+    "2021": 1,
+    "2022": 2,
+    "2026": 3
+  },
+  "venues_per_year": {
+    "2021": 1,
+    "2022": 1,
+    "2026": 1
+  },
+  "venues_cumulative": {
+    "2021": 1,
+    "2022": 1,
+    "2026": 2
+  },
+  "codechecker_count": 4,
+  "codecheckers_per_year": {
+    "2021": 1,
+    "2022": 2,
+    "2026": 1
+  },
+  "codecheckers_cumulative": {
+    "2021": 1,
+    "2022": 3,
+    "2026": 4
+  },
+  "platform_per_year": {
+    "2021": {
+      "osf": 1
+    },
+    "2022": {
+      "osf": 1
+    },
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2021": {
+      "osf": 1,
+      "zenodo": 0
+    },
+    "2022": {
+      "osf": 2,
+      "zenodo": 0
+    },
+    "2026": {
+      "osf": 2,
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "AGILEGIS",
+      "longname": "AGILE Conference on Geographic Information Science",
+      "year_range": "2021-2022",
+      "label": "conference",
+      "cert_count": 2,
+      "page_type": "conference",
+      "page_type_plural": "conferences",
+      "page_slug": "AGILEGIS",
+      "logo_url": "https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg",
+      "website_url": "https://agile-gi.eu",
+      "policy_url": "https://reproducible-agile.github.io/",
+      "publisher": "AGILE (Association of Geographic Information Laboratories in Europe)"
+    },
+    {
+      "name": "JOSIS",
+      "longname": "Journal of Spatial Information Science",
+      "year_range": "2026",
+      "label": "journal",
+      "cert_count": 1,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "JOSIS",
+      "logo_url": "https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png",
+      "website_url": "https://josis.org",
+      "policy_url": null,
+      "publisher": "University of Maine"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
+      "venue_count": 1,
+      "cert_count": 2
+    },
+    {
+      "name": "University of Maine",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

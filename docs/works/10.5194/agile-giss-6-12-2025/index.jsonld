@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-12-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-12-2025",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-6-12-2025", "https://openalex.org/W4411152705"],
+      "name": "Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Martin Werner",
+          "@id": "https://orcid.org/0000-0002-6951-8022"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-012/",
+      "name": "CODECHECK Certificate 2025-012",
+      "url": "https://codecheck.org.uk/register/certs/2025-012/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-6-12-2025"
+      },
+      "datePublished": "2025-06-12"
+    }
+  ]
+}

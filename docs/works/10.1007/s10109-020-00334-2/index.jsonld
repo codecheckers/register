@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1007/s10109-020-00334-2",
+      "url": "https://doi.org/10.1007/s10109-020-00334-2",
+      "sameAs": ["https://doi.org/10.1007/s10109-020-00334-2", "https://openalex.org/W3047775749"],
+      "name": "Opening practice: supporting reproducibility and critical spatial data science ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Chris Brunsdon",
+          "@id": "https://orcid.org/0000-0003-4254-1780"
+        },
+        {
+          "@type": "Person",
+          "name": "Alexis Comber",
+          "@id": "https://orcid.org/0000-0002-3652-7846"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-016/",
+      "name": "CODECHECK Certificate 2020-016",
+      "url": "https://codecheck.org.uk/register/certs/2020-016/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1007/s10109-020-00334-2"
+      },
+      "datePublished": "2020-06-02"
+    }
+  ]
+}

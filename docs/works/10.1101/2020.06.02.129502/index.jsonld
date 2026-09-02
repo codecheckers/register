@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1101/2020.06.02.129502",
+      "url": "https://doi.org/10.1101/2020.06.02.129502",
+      "sameAs": ["https://doi.org/10.1101/2020.06.02.129502", "https://openalex.org/W3123970356"],
+      "name": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Manuel Spitschan",
+          "@id": "https://orcid.org/0000-0002-8572-9268"
+        },
+        {
+          "@type": "Person",
+          "name": "Corrado Garbazza",
+          "@id": "https://orcid.org/0000-0002-8606-2944"
+        },
+        {
+          "@type": "Person",
+          "name": "Susanne Kohl",
+          "@id": "https://orcid.org/0000-0002-6438-6331"
+        },
+        {
+          "@type": "Person",
+          "name": "Christian Cajochen",
+          "@id": "https://orcid.org/0000-0002-8572-9268"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-013/",
+      "name": "CODECHECK Certificate 2020-013",
+      "url": "https://codecheck.org.uk/register/certs/2020-013/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1101/2020.06.02.129502"
+      },
+      "datePublished": "2020-07-14"
+    }
+  ]
+}

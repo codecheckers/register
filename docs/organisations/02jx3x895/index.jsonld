@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02jx3x895",
+  "name": "University College London",
+  "identifier": "https://ror.org/02jx3x895",
+  "url": "https://codecheck.org.uk/register/organisations/02jx3x895/",
+  "sameAs": "http://www.ucl.ac.uk/",
+  "location": {
+    "@type": "Place",
+    "address": "London, United Kingdom"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-013/",
+      "name": "CODECHECK Certificate 2025-013",
+      "url": "https://codecheck.org.uk/register/certs/2025-013/"
+    }
+  ]
+}

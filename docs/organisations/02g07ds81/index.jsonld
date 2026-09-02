@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02g07ds81",
+  "name": "University of Duhok",
+  "identifier": "https://ror.org/02g07ds81",
+  "url": "https://codecheck.org.uk/register/organisations/02g07ds81/",
+  "sameAs": "https://uod.ac",
+  "location": {
+    "@type": "Place",
+    "address": "Dihok, Iraq"
+  }
+}

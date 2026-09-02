@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-10-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-10-2022",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-10-2022", "https://openalex.org/W4281746077"],
+      "name": "Benchmarking Invasive Alien Species Image Recognition Models for a Citizen Science Based Spatial Distribution Monitoring",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Tom Niers",
+          "@id": "https://orcid.org/0000-0002-5746-8590"
+        },
+        {
+          "@type": "Person",
+          "name": "Jan Stenkamp",
+          "@id": "https://orcid.org/0000-0003-1100-4907"
+        },
+        {
+          "@type": "Person",
+          "name": "Nick Pascal Jakuschona",
+          "@id": "https://orcid.org/0000-0001-6286-8022"
+        },
+        {
+          "@type": "Person",
+          "name": "Thomas Bartoschek",
+          "@id": "https://orcid.org/0000-0002-0882-1036"
+        },
+        {
+          "@type": "Person",
+          "name": "Sven Schade",
+          "@id": "https://orcid.org/0000-0001-5677-5209"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-008/",
+      "name": "CODECHECK Certificate 2022-008",
+      "url": "https://codecheck.org.uk/register/certs/2022-008/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-3-10-2022"
+      },
+      "datePublished": "2022-07-09"
+    }
+  ]
+}

@@ -10,3 +10,4 @@ venues: AGILEGIS
 |Certificate |Report                     |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
 |[2025-017](../../../certs/2025-017/)|[doi.org/10.53962/yckj-53e8](https://doi.org/10.53962/yckj-53e8)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2025-06-06 |
+

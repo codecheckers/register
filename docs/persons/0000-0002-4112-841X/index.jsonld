@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4112-841X",
+      "name": "Roland Schmehl"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/wes-11-911-2026",
+      "url": "https://doi.org/10.5194/wes-11-911-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-4112-841X"
+      },
+      "name": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/wes-2025-217",
+      "url": "https://doi.org/10.5194/wes-2025-217",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-4112-841X"
+      },
+      "name": "Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry"
+    }
+  ]
+}

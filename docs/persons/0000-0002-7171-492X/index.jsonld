@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7171-492X",
+      "name": "Alexander Klippel"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-15-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-15-2023",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7171-492X"
+      },
+      "name": "Advancing Forest Monitoring and Assessment Through Immersive Virtual Reality"
+    }
+  ]
+}

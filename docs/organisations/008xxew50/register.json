@@ -1,0 +1,44 @@
+[
+  {
+    "Certificate ID": "2024-019",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-019/",
+    "Certificate PDF": "https://zenodo.org/api/records/14279041/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/wearable-hrv",
+    "Repository Link": "https://github.com/codecheckers/wearable-hrv",
+    "Report": "https://doi.org/10.5281/zenodo.14279041",
+    "Title": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.",
+    "Paper reference": "https://doi.org/10.31219/osf.io/wkzsn",
+    "OpenAlex": "https://openalex.org/W4400220542",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-12-04"
+  },
+  {
+    "Certificate ID": "2024-020",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-020/",
+    "Certificate PDF": "https://zenodo.org/api/records/14278912/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "Repository Link": "https://github.com/codecheckers/codecheck_LangtonRuiterVerlaan2022",
+    "Report": "https://doi.org/10.5281/zenodo.14278912",
+    "Title": "Describing the scale and composition of calls for police service: a replication and extension using open data",
+    "Paper reference": "https://doi.org/10.1080/15614263.2022.2102494",
+    "OpenAlex": "https://openalex.org/W4286489421",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28"
+  },
+  {
+    "Certificate ID": "2024-021",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2024-021/",
+    "Certificate PDF": "https://zenodo.org/api/records/14261193/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/DementiaPhysicalActivity",
+    "Repository Link": "https://github.com/codecheckers/DementiaPhysicalActivity",
+    "Report": "https://doi.org/10.5281/zenodo.14261193",
+    "Title": "Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia",
+    "Paper reference": "https://doi.org/10.31234/osf.io/mqg86",
+    "OpenAlex": "https://openalex.org/W4391281345",
+    "Type": "community",
+    "Venue": "codecheck NL",
+    "Check date": "2024-11-28"
+  }
+]

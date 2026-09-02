@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9478-6758",
+      "name": "Mac Gaunaa"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/wes-11-911-2026",
+      "url": "https://doi.org/10.5194/wes-11-911-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9478-6758"
+      },
+      "name": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model"
+    }
+  ]
+}

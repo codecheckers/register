@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1073/pnas.79.8.2554",
+      "url": "https://doi.org/10.1073/pnas.79.8.2554",
+      "sameAs": ["https://doi.org/10.1073/pnas.79.8.2554", "https://openalex.org/W2128084896"],
+      "name": "Neural networks and physical systems with emergent collective computational abilities",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "J J Hopfield"
+        },
+        {
+          "@type": "Person",
+          "name": "Wulfram Gerstner",
+          "@id": "https://orcid.org/0000-0002-4344-2189"
+        },
+        {
+          "@type": "Person",
+          "name": "Werner M. Kistler"
+        },
+        {
+          "@type": "Person",
+          "name": "Richard Naud",
+          "@id": "https://orcid.org/0000-0001-7383-3095"
+        },
+        {
+          "@type": "Person",
+          "name": "Liam Paninski"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-003/",
+      "name": "CODECHECK Certificate 2020-003",
+      "url": "https://codecheck.org.uk/register/certs/2020-003/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1073/pnas.79.8.2554"
+      },
+      "datePublished": "2020-04-06"
+    }
+  ]
+}

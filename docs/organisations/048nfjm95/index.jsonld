@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/048nfjm95",
+  "name": "National University of Ireland, Maynooth",
+  "identifier": "https://ror.org/048nfjm95",
+  "url": "https://codecheck.org.uk/register/organisations/048nfjm95/",
+  "sameAs": "https://www.maynoothuniversity.ie/",
+  "location": {
+    "@type": "Place",
+    "address": "Maynooth, Ireland"
+  }
+}

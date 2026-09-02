@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31219/osf.io/wkzsn",
+      "url": "https://doi.org/10.31219/osf.io/wkzsn",
+      "sameAs": ["https://doi.org/10.31219/osf.io/wkzsn", "https://openalex.org/W4400220542"],
+      "name": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research. ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Mohammadamin Sinichi",
+          "@id": "https://orcid.org/0009-0008-2491-1542"
+        },
+        {
+          "@type": "Person",
+          "name": "Martin Gevonden"
+        },
+        {
+          "@type": "Person",
+          "name": "Lydia Krabbendam"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-019/",
+      "name": "CODECHECK Certificate 2024-019",
+      "url": "https://codecheck.org.uk/register/certs/2024-019/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.31219/osf.io/wkzsn"
+      },
+      "datePublished": "2024-12-04"
+    }
+  ]
+}

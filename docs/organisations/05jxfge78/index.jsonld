@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/05jxfge78",
+  "name": "Institut national de l’information géographique et forestière",
+  "identifier": "https://ror.org/05jxfge78",
+  "url": "https://codecheck.org.uk/register/organisations/05jxfge78/",
+  "sameAs": "https://www.ign.fr",
+  "location": {
+    "@type": "Place",
+    "address": "Saint-Mandé, France"
+  }
+}

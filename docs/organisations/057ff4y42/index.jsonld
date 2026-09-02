@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/057ff4y42",
+  "name": "BOKU University",
+  "identifier": "https://ror.org/057ff4y42",
+  "url": "https://codecheck.org.uk/register/organisations/057ff4y42/",
+  "sameAs": "https://boku.ac.at",
+  "location": {
+    "@type": "Place",
+    "address": "Vienna, Austria"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-019/",
+      "name": "CODECHECK Certificate 2026-019",
+      "url": "https://codecheck.org.uk/register/certs/2026-019/"
+    }
+  ]
+}

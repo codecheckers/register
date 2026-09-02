@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03qjp1d79",
+  "name": "Helmholtz-Zentrum Hereon",
+  "identifier": "https://ror.org/03qjp1d79",
+  "url": "https://codecheck.org.uk/register/organisations/03qjp1d79/",
+  "sameAs": "https://www.hereon.de/",
+  "location": {
+    "@type": "Place",
+    "address": "Geesthacht, Germany"
+  }
+}

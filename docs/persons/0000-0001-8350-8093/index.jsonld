@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8350-8093",
+      "name": "Ari Ercole"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2104.00718",
+      "url": "https://doi.org/10.48550/arxiv.2104.00718",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8350-8093"
+      },
+      "name": "Causality indices for bivariate time series data: a comparative review of performance"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-003/",
+  "name": "CODECHECK Certificate 2020-003",
+  "url": "https://codecheck.org.uk/register/certs/2020-003/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Neural networks and physical systems with emergent collective computational abilities",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "J J Hopfield"
+      },
+      {
+        "@type": "Person",
+        "name": "Wulfram Gerstner",
+        "@id": "https://orcid.org/0000-0002-4344-2189"
+      },
+      {
+        "@type": "Person",
+        "name": "Werner M. Kistler"
+      },
+      {
+        "@type": "Person",
+        "name": "Richard Naud",
+        "@id": "https://orcid.org/0000-0001-7383-3095"
+      },
+      {
+        "@type": "Person",
+        "name": "Liam Paninski"
+      }
+    ],
+    "abstract": "<jats:p>Computational properties of use of biological organisms or to the construction of computers can emerge as collective properties of systems having a large number of simple equivalent components (or neurons). The physical meaning of content-addressable memory is described by an appropriate phase space flow of the state of a system. A model of such a system is given, based on aspects of neurobiology but readily adapted to integrated circuits. The collective properties of this model produce a content-addressable memory which correctly yields an entire memory from any subpart of sufficient size. The algorithm for the time evolution of the state of the system is based on asynchronous parallel processing. Additional emergent collective properties include some capacity for generalization, familiarity recognition, categorization, error correction, and time sequence retention. The collective properties are only weakly sensitive to details of the modeling or the failure of individual devices.<\/jats:p>",
+    "url": "https://doi.org/10.1073/pnas.79.8.2554",
+    "sameAs": ["https://doi.org/10.1073/pnas.79.8.2554", "https://openalex.org/W2128084896"]
+  },
+  "datePublished": "2020-04-06",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.3741797"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.3741797"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-003/cert.pdf"
+  }
+}

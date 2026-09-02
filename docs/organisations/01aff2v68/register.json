@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2020-018",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-018/",
+    "Certificate PDF": "https://osf.io/download/bmhwe/",
+    "Repository": "github::reproducible-agile/AGILECA",
+    "Repository Link": "https://github.com/reproducible-agile/AGILECA",
+    "Report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
+    "Title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-1-6-2020",
+    "OpenAlex": "https://openalex.org/W3042993452",
+    "Type": "conference",
+    "Venue": "AGILEGIS",
+    "Check date": "2020-07-13"
+  }
+]

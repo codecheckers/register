@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04b8v1s79",
+  "name": "Tilburg University",
+  "identifier": "https://ror.org/04b8v1s79",
+  "url": "https://codecheck.org.uk/register/organisations/04b8v1s79/",
+  "sameAs": "https://www.tilburguniversity.edu/",
+  "location": {
+    "@type": "Place",
+    "address": "Tilburg, The Netherlands"
+  }
+}

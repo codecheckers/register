@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6951-8022",
+      "name": "Martin Werner"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-12-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-12-2025",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6951-8022"
+      },
+      "name": "Mining Meaningful Facets in Spatial Information Retrieval with Spatial Relevance Feedback"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-13-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-13-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6951-8022"
+      },
+      "name": "Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels"
+    }
+  ]
+}

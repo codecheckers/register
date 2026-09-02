@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6594-4481",
+      "name": "Negar Alinaghi"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-6-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-6-2024",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6594-4481"
+      },
+      "name": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-3-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-3-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6594-4481"
+      },
+      "name": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility"
+    }
+  ]
+}

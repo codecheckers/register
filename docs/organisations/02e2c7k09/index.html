@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Delft University of Technology</title>
+
+<script src="../../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../../libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="../../libs/navigation-1.1/tabsets.js"></script>
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+
+<link rel="stylesheet" href="../../assets/codecheck-register.css">
+
+<meta property="og:title" content="CODECHECK Register">
+<meta name="author" content="Stephen Eglen &amp; Daniel Nüst">
+<meta name="generator" content="codecheck">
+
+<meta property="og:url" content="https://codecheck.org.uk/register/">
+<meta property="og:site_name" content="CODECHECK Register">
+<meta property="og:description" content="CODECHECK is a process for independent execution of computations underlying scholarly research articles.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+<!-- FAIR Signposting Level 1, as HTML link elements: GitHub Pages cannot set
+     HTTP Link headers (register#55) -->
+<link rel="cite-as" href="https://ror.org/02e2c7k09">
+<link rel="type" href="https://schema.org/AboutPage">
+<link rel="type" href="https://schema.org/Organization">
+<link rel="describedby" href="index.jsonld" type="application/ld+json">
+<link rel="alternate" href="register.json" type="application/json">
+<link rel="alternate" href="stats.json" type="application/json">
+<link rel="license" href="https://opendatacommons.org/licenses/by/1-0/">
+
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02e2c7k09",
+  "name": "Delft University of Technology",
+  "identifier": "https://ror.org/02e2c7k09",
+  "url": "https://codecheck.org.uk/register/organisations/02e2c7k09/",
+  "sameAs": "https://www.tudelft.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Delft, The Netherlands"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-017/",
+      "name": "CODECHECK Certificate 2024-017",
+      "url": "https://codecheck.org.uk/register/certs/2024-017/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-019/",
+      "name": "CODECHECK Certificate 2024-019",
+      "url": "https://codecheck.org.uk/register/certs/2024-019/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-021/",
+      "name": "CODECHECK Certificate 2024-021",
+      "url": "https://codecheck.org.uk/register/certs/2024-021/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-003/",
+      "name": "CODECHECK Certificate 2025-003",
+      "url": "https://codecheck.org.uk/register/certs/2025-003/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-004/",
+      "name": "CODECHECK Certificate 2025-004",
+      "url": "https://codecheck.org.uk/register/certs/2025-004/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-006/",
+      "name": "CODECHECK Certificate 2025-006",
+      "url": "https://codecheck.org.uk/register/certs/2025-006/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-007/",
+      "name": "CODECHECK Certificate 2025-007",
+      "url": "https://codecheck.org.uk/register/certs/2025-007/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-019/",
+      "name": "CODECHECK Certificate 2025-019",
+      "url": "https://codecheck.org.uk/register/certs/2025-019/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-022/",
+      "name": "CODECHECK Certificate 2025-022",
+      "url": "https://codecheck.org.uk/register/certs/2025-022/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-001/",
+      "name": "CODECHECK Certificate 2026-001",
+      "url": "https://codecheck.org.uk/register/certs/2026-001/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-019/",
+      "name": "CODECHECK Certificate 2026-019",
+      "url": "https://codecheck.org.uk/register/certs/2026-019/"
+    }
+  ]
+}</script>
+
+<!-- Icon fonts -->
+<link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="codecheck-navbar">
+  <div class="navbar-container">
+    <a href="../../index.html" class="navbar-brand" title="Go to list of checks">
+      <img src="../../codecheck_logo.svg" alt="Go to list of checks" class="navbar-logo">
+    </a>
+
+    <nav class="navbar-menu">
+      <a href="../../index.html" class="nav-link" title="Browse all CODECHECK certificates">Checks</a>
+      <a href="../../venues/index.html" class="nav-link" title="Browse venues that have hosted a CODECHECK">Venues</a>
+      <a href="../../works/index.html" class="nav-link" title="Browse checked papers">Works</a>
+      <a href="../../persons/index.html" class="nav-link" title="Browse people who authored or checked a paper">People</a>
+      <a href="../../organisations/index.html" class="nav-link active" title="Browse organisations whose people authored or checked a paper">Organisations</a>
+      <a href="../../statistics/index.html" class="nav-link" title="View register statistics">Statistics</a>
+      <a href="https://codecheck.org.uk/" class="nav-link" title="About the CODECHECK project">About</a>
+    </nav>
+  </div>
+</div>
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
+  </ol>
+</nav>
+</div>
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Delft University of Technology</h1>
+
+</div>
+
+
+<div class="venue-metadata">
+<img class="venue-metadata-logo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Zegel%20Technische%20Universiteit%20Delft.svg?width=320" alt="Delft University of Technology logo">
+<div class="venue-metadata-text">
+<ul class="venue-metadata-list">
+<li>
+<i class="fa fa-university"></i> <span class="venue-metadata-label">Type:</span> education, funder
+</li>
+<li>
+<i class="fa fa-map-marker"></i> <span class="venue-metadata-label">Location:</span> Delft, The Netherlands
+</li>
+<li>
+<i class="fa fa-calendar"></i> <span class="venue-metadata-label">Established:</span> 1842
+</li>
+<li>
+<i class="fa fa-globe"></i> <span class="venue-metadata-label">Website:</span> <a href="https://www.tudelft.nl" target="_blank" rel="noopener">https://www.tudelft.nl</a>
+</li>
+<li>
+<i class="fa fa-book"></i> <span class="venue-metadata-label">Wikipedia:</span> <a href="http://en.wikipedia.org/wiki/Delft_University_of_Technology" target="_blank" rel="noopener">http://en.wikipedia.org/wiki/Delft_University_of_Technology</a>
+</li>
+<li>
+<i class="fa fa-university"></i> <span class="venue-metadata-label">ROR:</span> <a href="https://ror.org/02e2c7k09" target="_blank" rel="noopener">02e2c7k09</a>
+</li>
+<li>
+<i class="fa fa-id-card"></i> <span class="venue-metadata-label">GRID:</span> grid.5292.c
+</li>
+<li>
+<i class="fa fa-id-card"></i> <span class="venue-metadata-label">ISNI:</span> 0000 0001 2097 4740
+</li>
+<li>
+<i class="fa fa-id-card"></i> <span class="venue-metadata-label">FUNDREF:</span> 501100001831
+</li>
+<li>
+<i class="fa fa-database"></i> <span class="venue-metadata-label">Wikidata:</span> <a href="https://www.wikidata.org/entity/Q752663" target="_blank" rel="noopener">Q752663</a>
+</li>
+<li>
+<i class="fa fa-users"></i> <span class="venue-metadata-label">People:</span> <a href="../../persons/0000-0003-4217-1580/">Ajay Seth</a>, <a href="../../persons/0009-0008-5638-1670/">Mareike Wendelmuth</a>, <a href="../../persons/0009-0005-9240-7370/">Yasel Quintero</a>, <a href="../../persons/0009-0002-2379-0060/">Joslyn Sun</a>, <a href="../../persons/0000-0003-4324-5350/">Roel Janssen</a>, <a href="../../persons/0000-0003-0451-4052/">Veerle van Harten</a>, <a href="../../persons/0000-0001-8584-4736/">Aysun Urhan</a>, <a href="../../persons/0000-0002-0506-7365/">Florine W. Dekker</a>, <a href="../../persons/0000-0001-8932-4703/">Zekeriya Erkin</a>, <a href="../../persons/0000-0002-3612-1934/">Mauro Conti</a>, <a href="../../persons/0000-0002-6545-3102/">Joao Guimaraes</a>, <a href="../../persons/0000-0003-3127-8841/">Tworit K. Dash</a>, <a href="../../persons/0009-0003-3725-9454/">Josip Grguric</a>, <a href="../../persons/0000-0003-3164-5648/">Jelle Agatho Wilhelm Poland</a>, <a href="../../persons/0000-0002-4112-841X/">Roland Schmehl</a>, <a href="../../persons/0000-0002-2243-0445/">Frederik B. Mathiesen</a>, <a href="../../persons/0000-0003-1190-6097/">Luca Laurenti</a>, <a href="../../persons/0009-0006-3918-4240/">Evangelos Ntouros</a>, <a href="../../persons/0000-0002-0060-6526/">Ewoud Smeur</a>, <a href="../../persons/0000-0001-6595-2932/">Filippo Airaldi</a>, <a href="../../persons/0000-0001-9867-6196/">Bart De Schutter</a>, <a href="../../persons/0000-0002-4051-4896/">Azita Dabiri</a>, <a href="../../persons/0000-0002-5464-2442/">Jan Haacker</a>
+</li>
+<li>
+<i class="fa fa-cog"></i> <span class="venue-metadata-label">API &amp; statistics:</span> <a href="index.json">index.json</a>
+</li>
+</ul>
+<p class="venue-metadata-description">
+Also known as: TU Delft, Technische Universiteit Delft
+</p>
+</div>
+</div>
+<div id="works-authored-16" class="section level2">
+<h2>Works authored (16)</h2>
+<table style="width:100%;">
+<colgroup>
+<col width="13%" />
+<col width="64%" />
+<col width="11%" />
+<col width="5%" />
+<col width="4%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Report</th>
+<th align="left">Work</th>
+<th align="left" data-sort="string">Person</th>
+<th align="left" data-sort="string">Venue</th>
+<th align="left" data-sort="string">Check date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.8359199">doi.org/10.5281/zenodo.8359199</a></td>
+<td align="left"><a href="https://doi.org/10.1101/2023.07.11.548542">Does enforcing glenohumeral joint stability matter? A new rapid muscle redundancy solver highlights the importance of non-superficial shoulder muscles</a></td>
+<td align="left"><a href="../../persons/0000-0003-4217-1580/">Ajay Seth</a></td>
+<td align="left"><a href="../../venues/communities/preprint">preprint</a></td>
+<td align="left">2023-09-18</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15333601">doi.org/10.5281/zenodo.15333601</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2504.10289">Optimal Graph Stretching for Distributed Averaging</a></td>
+<td align="left"><a href="../../persons/0000-0002-0506-7365/">Florine W. Dekker</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-03-25</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15333601">doi.org/10.5281/zenodo.15333601</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2504.10289">Optimal Graph Stretching for Distributed Averaging</a></td>
+<td align="left"><a href="../../persons/0000-0001-8932-4703/">Zekeriya Erkin</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-03-25</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15333601">doi.org/10.5281/zenodo.15333601</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2504.10289">Optimal Graph Stretching for Distributed Averaging</a></td>
+<td align="left"><a href="../../persons/0000-0002-3612-1934/">Mauro Conti</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-03-25</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15527133">doi.org/10.5281/zenodo.15527133</a></td>
+<td align="left"><a href="https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b">Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach</a></td>
+<td align="left"><a href="../../persons/0000-0003-3127-8841/">Tworit K. Dash</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-04-08</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15603144">doi.org/10.5281/zenodo.15603144</a></td>
+<td align="left"><a href="https://doi.org/10.5194/wes-11-911-2026">Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model</a></td>
+<td align="left"><a href="../../persons/0000-0003-3164-5648/">Jelle Agatho Wilhelm Poland</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-05-26</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15603144">doi.org/10.5281/zenodo.15603144</a></td>
+<td align="left"><a href="https://doi.org/10.5194/wes-11-911-2026">Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model</a></td>
+<td align="left"><a href="../../persons/0000-0002-4112-841X/">Roland Schmehl</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-05-26</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15630442">doi.org/10.5281/zenodo.15630442</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2411.11803">Scalable control synthesis for stochastic systems via structural IMDP abstractions</a></td>
+<td align="left"><a href="../../persons/0000-0002-2243-0445/">Frederik B. Mathiesen</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-05-28</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15630442">doi.org/10.5281/zenodo.15630442</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2411.11803">Scalable control synthesis for stochastic systems via structural IMDP abstractions</a></td>
+<td align="left"><a href="../../persons/0000-0003-1190-6097/">Luca Laurenti</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-05-28</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.16616998">doi.org/10.5281/zenodo.16616998</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2507.03456">Airspeed estimation for UAVs using only propeller feedback</a></td>
+<td align="left"><a href="../../persons/0009-0006-3918-4240/">Evangelos Ntouros</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-07-30</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.16616998">doi.org/10.5281/zenodo.16616998</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2507.03456">Airspeed estimation for UAVs using only propeller feedback</a></td>
+<td align="left"><a href="../../persons/0000-0002-0060-6526/">Ewoud Smeur</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-07-30</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.16814874">doi.org/10.5281/zenodo.16814874</a></td>
+<td align="left"><a href="https://doi.org/10.1109/TITS.2025.3549227">Reinforcement Learning With Model Predictive Control for Highway Ramp Metering</a></td>
+<td align="left"><a href="../../persons/0000-0001-6595-2932/">Filippo Airaldi</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-08-04</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.16814874">doi.org/10.5281/zenodo.16814874</a></td>
+<td align="left"><a href="https://doi.org/10.1109/TITS.2025.3549227">Reinforcement Learning With Model Predictive Control for Highway Ramp Metering</a></td>
+<td align="left"><a href="../../persons/0000-0001-9867-6196/">Bart De Schutter</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-08-04</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.16814874">doi.org/10.5281/zenodo.16814874</a></td>
+<td align="left"><a href="https://doi.org/10.1109/TITS.2025.3549227">Reinforcement Learning With Model Predictive Control for Highway Ramp Metering</a></td>
+<td align="left"><a href="../../persons/0000-0002-4051-4896/">Azita Dabiri</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2025-08-04</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.18890103">doi.org/10.5281/zenodo.18890103</a></td>
+<td align="left"><a href="https://doi.org/10.5194/wes-2025-217">Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry</a></td>
+<td align="left"><a href="../../persons/0000-0003-3164-5648/">Jelle Agatho Wilhelm Poland</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2026-03-03</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://doi.org/10.5281/zenodo.18890103">doi.org/10.5281/zenodo.18890103</a></td>
+<td align="left"><a href="https://doi.org/10.5194/wes-2025-217">Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry</a></td>
+<td align="left"><a href="../../persons/0000-0002-4112-841X/">Roland Schmehl</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left">2026-03-03</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="checks-conducted-16" class="section level2">
+<h2>Checks conducted (16)</h2>
+<table>
+<colgroup>
+<col width="5%" />
+<col width="14%" />
+<col width="56%" />
+<col width="8%" />
+<col width="5%" />
+<col width="5%" />
+<col width="4%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left" data-sort="string">Certificate</th>
+<th align="left">Report</th>
+<th align="left">Work</th>
+<th align="left" data-sort="string">Person</th>
+<th align="left" data-sort="string">Venue</th>
+<th align="left" data-sort="string">Type</th>
+<th align="left" data-sort="string">Check date</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="../../certs/2024-017/">2024-017</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.14211707">doi.org/10.5281/zenodo.14211707</a></td>
+<td align="left"><a href="https://doi.org/10.3397/IN_2024_3491">Determination of a diffusion coefficient function for long rooms using a least square optimization approach</a></td>
+<td align="left"><a href="../../persons/0009-0008-5638-1670/">Mareike Wendelmuth</a></td>
+<td align="left"><a href="../../venues/communities/codecheck_nl">codecheck NL</a></td>
+<td align="left"><a href="../../venues/communities">Community</a></td>
+<td align="left">2024-11-22</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2024-019/">2024-019</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.14279041">doi.org/10.5281/zenodo.14279041</a></td>
+<td align="left"><a href="https://doi.org/10.31219/osf.io/wkzsn">Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.</a></td>
+<td align="left"><a href="../../persons/0009-0005-9240-7370/">Yasel Quintero</a></td>
+<td align="left"><a href="../../venues/communities/codecheck_nl">codecheck NL</a></td>
+<td align="left"><a href="../../venues/communities">Community</a></td>
+<td align="left">2024-12-04</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2024-019/">2024-019</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.14279041">doi.org/10.5281/zenodo.14279041</a></td>
+<td align="left"><a href="https://doi.org/10.31219/osf.io/wkzsn">Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.</a></td>
+<td align="left"><a href="../../persons/0009-0002-2379-0060/">Joslyn Sun</a></td>
+<td align="left"><a href="../../venues/communities/codecheck_nl">codecheck NL</a></td>
+<td align="left"><a href="../../venues/communities">Community</a></td>
+<td align="left">2024-12-04</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2024-019/">2024-019</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.14279041">doi.org/10.5281/zenodo.14279041</a></td>
+<td align="left"><a href="https://doi.org/10.31219/osf.io/wkzsn">Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.</a></td>
+<td align="left"><a href="../../persons/0000-0003-4324-5350/">Roel Janssen</a></td>
+<td align="left"><a href="../../venues/communities/codecheck_nl">codecheck NL</a></td>
+<td align="left"><a href="../../venues/communities">Community</a></td>
+<td align="left">2024-12-04</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2024-021/">2024-021</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.14261193">doi.org/10.5281/zenodo.14261193</a></td>
+<td align="left"><a href="https://doi.org/10.31234/osf.io/mqg86">Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia</a></td>
+<td align="left"><a href="../../persons/0000-0003-0451-4052/">Veerle van Harten</a></td>
+<td align="left"><a href="../../venues/communities/codecheck_nl">codecheck NL</a></td>
+<td align="left"><a href="../../venues/communities">Community</a></td>
+<td align="left">2024-11-28</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2025-003/">2025-003</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15333601">doi.org/10.5281/zenodo.15333601</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2504.10289">Optimal Graph Stretching for Distributed Averaging</a></td>
+<td align="left"><a href="../../persons/0000-0001-8584-4736/">Aysun Urhan</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2025-03-25</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2025-003/">2025-003</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15333601">doi.org/10.5281/zenodo.15333601</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2504.10289">Optimal Graph Stretching for Distributed Averaging</a></td>
+<td align="left"><a href="../../persons/0009-0005-9240-7370/">Yasel Quintero</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2025-03-25</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2025-004/">2025-004</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15527133">doi.org/10.5281/zenodo.15527133</a></td>
+<td align="left"><a href="https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b">Computationally Efficient Conical Horn Antenna Design: A Theoretical Design Approach</a></td>
+<td align="left"><a href="../../persons/0000-0002-6545-3102/">Joao Guimaraes</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2025-04-08</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2025-006/">2025-006</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15520471">doi.org/10.5281/zenodo.15520471</a></td>
+<td align="left"><a href="https://doi.org/10.1038/s41598-021-85363-7">Emergence of novel SARS-CoV-2 variants in the Netherlands</a></td>
+<td align="left"><a href="../../persons/0009-0005-9240-7370/">Yasel Quintero</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2025-05-01</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2025-007/">2025-007</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15603144">doi.org/10.5281/zenodo.15603144</a></td>
+<td align="left"><a href="https://doi.org/10.5194/wes-11-911-2026">Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model</a></td>
+<td align="left"><a href="../../persons/0009-0003-3725-9454/">Josip Grguric</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2025-05-26</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2025-007/">2025-007</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15603144">doi.org/10.5281/zenodo.15603144</a></td>
+<td align="left"><a href="https://doi.org/10.5194/wes-11-911-2026">Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model</a></td>
+<td align="left"><a href="../../persons/0009-0005-9240-7370/">Yasel Quintero</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2025-05-26</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2025-019/">2025-019</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.15771677">doi.org/10.5281/zenodo.15771677</a></td>
+<td align="left"><a href="https://doi.org/10.48550/arXiv.2503.21065">Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making</a></td>
+<td align="left"><a href="../../persons/0000-0002-6545-3102/">Joao Guimaraes</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2025-06-11</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2025-022/">2025-022</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.16814874">doi.org/10.5281/zenodo.16814874</a></td>
+<td align="left"><a href="https://doi.org/10.1109/TITS.2025.3549227">Reinforcement Learning With Model Predictive Control for Highway Ramp Metering</a></td>
+<td align="left"><a href="../../persons/0009-0005-9240-7370/">Yasel Quintero</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2025-08-04</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2026-001/">2026-001</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.18890103">doi.org/10.5281/zenodo.18890103</a></td>
+<td align="left"><a href="https://doi.org/10.5194/wes-2025-217">Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry</a></td>
+<td align="left"><a href="../../persons/0009-0003-3725-9454/">Josip Grguric</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2026-03-03</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="../../certs/2026-001/">2026-001</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.18890103">doi.org/10.5281/zenodo.18890103</a></td>
+<td align="left"><a href="https://doi.org/10.5194/wes-2025-217">Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry</a></td>
+<td align="left"><a href="../../persons/0009-0005-9240-7370/">Yasel Quintero</a></td>
+<td align="left"><a href="../../venues/institutions/tu_delft_dcc">TU Delft DCC</a></td>
+<td align="left"><a href="../../venues/institutions">Institution</a></td>
+<td align="left">2026-03-03</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="../../certs/2026-019/">2026-019</a></td>
+<td align="left"><a href="https://doi.org/10.5281/zenodo.21238767">doi.org/10.5281/zenodo.21238767</a></td>
+<td align="left"><a href="https://doi.org/10.1016/j.isci.2026.116661">Photoreceptor-specific scene statistics reveal melanopic structure in natural environments</a></td>
+<td align="left"><a href="../../persons/0000-0002-5464-2442/">Jan Haacker</a></td>
+<td align="left"><a href="../../venues/communities/codecheck">codecheck</a></td>
+<td align="left"><a href="../../venues/communities">Community</a></td>
+<td align="left">2026-07-07</td>
+</tr>
+</tbody>
+</table>
+<p class="page-note">
+<strong>Best effort data.</strong> Affiliations come from public ORCID profiles, matched against the publication date of the paper or the date of the check. People without a ROR-identified affiliation on record are not listed here.
+</p>
+</div>
+
+<p class="footer-links"><a
+        href="register.json"
+        title="JSON export of register">JSON</a>
+</p>
+
+<hr class="footer-separator" />
+
+<!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
+<div class="footer-content">
+    <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
+            href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a> | <a
+            href="https://doi.org/10.53962/qtrx-1a"><i class="fa fa-flask"></i> ResearchEquals Collection</a></p>
+
+    <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p><a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"><img title="license logo CC BY-SA 4.0"
+                src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></a>
+    </p>
+
+    <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
+
+    <p class="footer-description">CODECHECK is a process for independent execution of
+        computations underlying scholarly research articles.</p>
+
+    <p class="build-info"></p>
+</div>
+
+<script src="../../libs/codecheck/stupidtable.min.js"></script>
+<script src="../../libs/codecheck/table-sort-init.js"></script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

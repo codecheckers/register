@@ -1,0 +1,150 @@
+{
+  "source": "https://codecheck.org.uk/register/organisations/02kkvpp62/register.json",
+  "cert_count": 9,
+  "venue_count": 4,
+  "venues_per_type": {
+    "community": 3,
+    "conference": 1
+  },
+  "checks_per_type_per_year": {
+    "2023": {
+      "conference": 3
+    },
+    "2024": {
+      "community": 1,
+      "conference": 1
+    },
+    "2026": {
+      "community": 2,
+      "conference": 2
+    }
+  },
+  "checks_per_year": {
+    "2023": 3,
+    "2024": 2,
+    "2026": 4
+  },
+  "checks_cumulative": {
+    "2023": 3,
+    "2024": 5,
+    "2026": 9
+  },
+  "venues_per_year": {
+    "2023": 1,
+    "2024": 2,
+    "2026": 3
+  },
+  "venues_cumulative": {
+    "2023": 1,
+    "2024": 2,
+    "2026": 4
+  },
+  "codechecker_count": 6,
+  "codecheckers_per_year": {
+    "2023": 2,
+    "2024": 2,
+    "2026": 3
+  },
+  "codecheckers_cumulative": {
+    "2023": 2,
+    "2024": 4,
+    "2026": 6
+  },
+  "platform_per_year": {
+    "2023": {
+      "osf": 3
+    },
+    "2024": {
+      "osf": 1,
+      "zenodo": 1
+    },
+    "2026": {
+      "osf": 2,
+      "zenodo": 2
+    }
+  },
+  "platform_cumulative": {
+    "2023": {
+      "osf": 3,
+      "zenodo": 0
+    },
+    "2024": {
+      "osf": 4,
+      "zenodo": 1
+    },
+    "2026": {
+      "osf": 6,
+      "zenodo": 3
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "AGILEGIS",
+      "longname": "AGILE Conference on Geographic Information Science",
+      "year_range": "2023-2026",
+      "label": "conference",
+      "cert_count": 6,
+      "page_type": "conference",
+      "page_type_plural": "conferences",
+      "page_slug": "AGILEGIS",
+      "logo_url": "https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg",
+      "website_url": "https://agile-gi.eu",
+      "policy_url": "https://reproducible-agile.github.io/",
+      "publisher": "AGILE (Association of Geographic Information Laboratories in Europe)"
+    },
+    {
+      "name": "codecheck",
+      "longname": "CODECHECK",
+      "year_range": "2026",
+      "label": "community",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck",
+      "logo_url": "https://codecheck.org.uk/img/codecheck_logo.svg",
+      "website_url": "https://codecheck.org.uk",
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "codecheck NL",
+      "longname": "CODECHECK NL",
+      "year_range": "2024",
+      "label": "check-nl",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck%20NL",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "preprint",
+      "longname": "Preprint",
+      "year_range": "2026",
+      "label": "preprint",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "preprint",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
+      "venue_count": 1,
+      "cert_count": 6
+    },
+    {
+      "name": "unknown",
+      "venue_count": 3,
+      "cert_count": 3
+    }
+  ]
+}

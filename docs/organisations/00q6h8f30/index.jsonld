@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/00q6h8f30",
+  "name": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+  "identifier": "https://ror.org/00q6h8f30",
+  "url": "https://codecheck.org.uk/register/organisations/00q6h8f30/",
+  "sameAs": "https://vumc.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Amsterdam, The Netherlands"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-004/",
+      "name": "CODECHECK Certificate 2024-004",
+      "url": "https://codecheck.org.uk/register/certs/2024-004/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-024/",
+      "name": "CODECHECK Certificate 2024-024",
+      "url": "https://codecheck.org.uk/register/certs/2024-024/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-025/",
+      "name": "CODECHECK Certificate 2025-025",
+      "url": "https://codecheck.org.uk/register/certs/2025-025/"
+    }
+  ]
+}

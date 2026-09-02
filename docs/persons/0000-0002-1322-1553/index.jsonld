@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1322-1553",
+      "name": "Sam Langton",
+      "sameAs": "https://github.com/langtonhugh"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-004/",
+      "name": "CODECHECK Certificate 2024-004",
+      "url": "https://codecheck.org.uk/register/certs/2024-004/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1322-1553"
+      },
+      "datePublished": "2024-08-01"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-024/",
+      "name": "CODECHECK Certificate 2024-024",
+      "url": "https://codecheck.org.uk/register/certs/2024-024/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1322-1553"
+      },
+      "datePublished": "2024-12-16"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-025/",
+      "name": "CODECHECK Certificate 2025-025",
+      "url": "https://codecheck.org.uk/register/certs/2025-025/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1322-1553"
+      },
+      "datePublished": "2025-01-29"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1080/15614263.2022.2102494",
+      "url": "https://doi.org/10.1080/15614263.2022.2102494",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1322-1553"
+      },
+      "name": "Describing the scale and composition of calls for police service: a replication and extension using open data "
+    }
+  ]
+}

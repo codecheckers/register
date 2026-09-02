@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-5-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-5-2024",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-5-5-2024", "https://openalex.org/W4399177945"],
+      "name": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Dagoberto José Herrera-Murillo",
+          "@id": "https://orcid.org/0000-0002-8000-628X"
+        },
+        {
+          "@type": "Person",
+          "name": "Héctor Ochoa-Ortiz",
+          "@id": "https://orcid.org/0000-0002-6477-0683"
+        },
+        {
+          "@type": "Person",
+          "name": "Umair Ahmed",
+          "@id": "https://orcid.org/0000-0003-2260-2777"
+        },
+        {
+          "@type": "Person",
+          "name": "Francisco Javier López-Pellicer",
+          "@id": "https://orcid.org/0000-0001-6491-7430"
+        },
+        {
+          "@type": "Person",
+          "name": "Barbara Re",
+          "@id": "https://orcid.org/0000-0001-5374-2364"
+        },
+        {
+          "@type": "Person",
+          "name": "Andrea Polini",
+          "@id": "https://orcid.org/0000-0002-2840-7561"
+        },
+        {
+          "@type": "Person",
+          "name": "Javier Nogueras-Iso",
+          "@id": "https://orcid.org/0000-0002-1279-0367"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-011/",
+      "name": "CODECHECK Certificate 2024-011",
+      "url": "https://codecheck.org.uk/register/certs/2024-011/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-5-5-2024"
+      },
+      "datePublished": "2024-05-27"
+    }
+  ]
+}

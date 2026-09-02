@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04g6bbq64",
+  "name": "Adam Mickiewicz University in Poznań",
+  "identifier": "https://ror.org/04g6bbq64",
+  "url": "https://codecheck.org.uk/register/organisations/04g6bbq64/",
+  "sameAs": "https://amu.edu.pl",
+  "location": {
+    "@type": "Place",
+    "address": "Poznan, Poland"
+  }
+}

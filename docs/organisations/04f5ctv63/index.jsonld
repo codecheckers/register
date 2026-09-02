@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04f5ctv63",
+  "name": "Office Français de la Biodiversité",
+  "identifier": "https://ror.org/04f5ctv63",
+  "url": "https://codecheck.org.uk/register/organisations/04f5ctv63/",
+  "sameAs": "https://www.ofb.gouv.fr",
+  "location": {
+    "@type": "Place",
+    "address": "Paris, France"
+  }
+}

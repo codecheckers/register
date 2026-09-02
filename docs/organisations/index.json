@@ -1,0 +1,554 @@
+[
+  {
+    "Organisation": "University of Twente",
+    "ROR": "006hf6230",
+    "Country": "The Netherlands",
+    "Works authored": 4,
+    "Checks conducted": 12,
+    "People": 7
+  },
+  {
+    "Organisation": "Delft University of Technology",
+    "ROR": "02e2c7k09",
+    "Country": "The Netherlands",
+    "Works authored": 8,
+    "Checks conducted": 11,
+    "People": 23
+  },
+  {
+    "Organisation": "University of Münster",
+    "ROR": "00pd74e08",
+    "Country": "Germany",
+    "Works authored": 3,
+    "Checks conducted": 8,
+    "People": 4
+  },
+  {
+    "Organisation": "Technische Universität Dresden",
+    "ROR": "042aqky30",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 7,
+    "People": 3
+  },
+  {
+    "Organisation": "University of Salzburg",
+    "ROR": "05gs8cd61",
+    "Country": "Austria",
+    "Works authored": 1,
+    "Checks conducted": 4,
+    "People": 4
+  },
+  {
+    "Organisation": "Technical University of Munich",
+    "ROR": "02kkvpp62",
+    "Country": "Germany",
+    "Works authored": 5,
+    "Checks conducted": 3,
+    "People": 7
+  },
+  {
+    "Organisation": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+    "ROR": "00q6h8f30",
+    "Country": "The Netherlands",
+    "Works authored": 0,
+    "Checks conducted": 3,
+    "People": 1
+  },
+  {
+    "Organisation": "Eindhoven University of Technology",
+    "ROR": "02c2kyt77",
+    "Country": "The Netherlands",
+    "Works authored": 3,
+    "Checks conducted": 2,
+    "People": 3
+  },
+  {
+    "Organisation": "Erasmus University Rotterdam",
+    "ROR": "057w15z03",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 2,
+    "People": 3
+  },
+  {
+    "Organisation": "University of Tartu",
+    "ROR": "03z77qz90",
+    "Country": "Estonia",
+    "Works authored": 1,
+    "Checks conducted": 2,
+    "People": 5
+  },
+  {
+    "Organisation": "Utrecht University",
+    "ROR": "04pp8hn57",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 2,
+    "People": 3
+  },
+  {
+    "Organisation": "Max Planck Institute for Demographic Research",
+    "ROR": "02jgyam08",
+    "Country": "Germany",
+    "Works authored": 0,
+    "Checks conducted": 2,
+    "People": 1
+  },
+  {
+    "Organisation": "Universitat Pompeu Fabra",
+    "ROR": "04n0g0b29",
+    "Country": "Spain",
+    "Works authored": 0,
+    "Checks conducted": 2,
+    "People": 1
+  },
+  {
+    "Organisation": "Vrije Universiteit Amsterdam",
+    "ROR": "008xxew50",
+    "Country": "The Netherlands",
+    "Works authored": 2,
+    "Checks conducted": 1,
+    "People": 3
+  },
+  {
+    "Organisation": "RWTH Aachen University",
+    "ROR": "04xfq0f34",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 1,
+    "People": 2
+  },
+  {
+    "Organisation": "University Medical Center Groningen",
+    "ROR": "03cv38k47",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 1,
+    "People": 1
+  },
+  {
+    "Organisation": "4TU.ResearchData",
+    "ROR": "02d887280",
+    "Country": "The Netherlands",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "People": 1
+  },
+  {
+    "Organisation": "BOKU University",
+    "ROR": "057ff4y42",
+    "Country": "Austria",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "People": 1
+  },
+  {
+    "Organisation": "Instituto Superior Técnico",
+    "ROR": "03db2by73",
+    "Country": "Portugal",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "People": 1
+  },
+  {
+    "Organisation": "Politecnico di Torino",
+    "ROR": "00bgk9508",
+    "Country": "Italy",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "People": 1
+  },
+  {
+    "Organisation": "University College London",
+    "ROR": "02jx3x895",
+    "Country": "United Kingdom",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Augsburg",
+    "ROR": "03p14d497",
+    "Country": "Germany",
+    "Works authored": 4,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "Heidelberg University",
+    "ROR": "038t36y30",
+    "Country": "Germany",
+    "Works authored": 3,
+    "Checks conducted": 0,
+    "People": 4
+  },
+  {
+    "Organisation": "Leibniz University Hannover",
+    "ROR": "0304hq317",
+    "Country": "Germany",
+    "Works authored": 3,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "TU Wien",
+    "ROR": "04d836q62",
+    "Country": "Austria",
+    "Works authored": 3,
+    "Checks conducted": 0,
+    "People": 4
+  },
+  {
+    "Organisation": "University of California, Santa Barbara",
+    "ROR": "02t274463",
+    "Country": "United States",
+    "Works authored": 3,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "University of Vienna",
+    "ROR": "03prydq77",
+    "Country": "Austria",
+    "Works authored": 3,
+    "Checks conducted": 0,
+    "People": 4
+  },
+  {
+    "Organisation": "ETH Zurich",
+    "ROR": "05a28rw58",
+    "Country": "Switzerland",
+    "Works authored": 2,
+    "Checks conducted": 0,
+    "People": 3
+  },
+  {
+    "Organisation": "Institut national de l’information géographique et forestière",
+    "ROR": "05jxfge78",
+    "Country": "France",
+    "Works authored": 2,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "Universitat Jaume I",
+    "ROR": "02ws1xc11",
+    "Country": "Spain",
+    "Works authored": 2,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "Université de Montpellier",
+    "ROR": "051escj72",
+    "Country": "France",
+    "Works authored": 2,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "Aalborg University",
+    "ROR": "04m5j1k67",
+    "Country": "Denmark",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Adam Mickiewicz University in Poznań",
+    "ROR": "04g6bbq64",
+    "Country": "Poland",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "GFZ Helmholtz Centre for Geosciences",
+    "ROR": "04z8jg394",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Graz University of Technology",
+    "ROR": "00d7xrm67",
+    "Country": "Austria",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "HafenCity University Hamburg",
+    "ROR": "01fzsd381",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "Helmholtz-Zentrum Hereon",
+    "ROR": "03qjp1d79",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Hexagon (Sweden)",
+    "ROR": "009a2jy80",
+    "Country": "Sweden",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Idaho State University",
+    "ROR": "0162z8b04",
+    "Country": "United States",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Imperial College London",
+    "ROR": "041kmwe10",
+    "Country": "United Kingdom",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Institut National de Recherche pour l'Agriculture, l'Alimentation et l'Environnement",
+    "ROR": "003vg9w96",
+    "Country": "France",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Interdisciplinary Transformation University Austria",
+    "ROR": "03jzk4720",
+    "Country": "Austria",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 3
+  },
+  {
+    "Organisation": "International Audio Laboratories Erlangen",
+    "ROR": "02mkz3e80",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Leiden University",
+    "ROR": "027bh9e22",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Leipzig University",
+    "ROR": "03s7gtk40",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "McGill University",
+    "ROR": "01pxwe438",
+    "Country": "Canada",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "National University of Ireland, Maynooth",
+    "ROR": "048nfjm95",
+    "Country": "Ireland",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Netherlands Organisation for Applied Scientific Research",
+    "ROR": "01bnjb948",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Newcastle University",
+    "ROR": "01kj2bm70",
+    "Country": "United Kingdom",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Office Français de la Biodiversité",
+    "ROR": "04f5ctv63",
+    "Country": "France",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Örebro University",
+    "ROR": "05kytsw45",
+    "Country": "Sweden",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Royal Netherlands Meteorological Institute",
+    "ROR": "05dfgh554",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Stanford University",
+    "ROR": "00f54p054",
+    "Country": "United States",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Technical University of Denmark",
+    "ROR": "04qtj9h94",
+    "Country": "Denmark",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "The University of Melbourne",
+    "ROR": "01ej9dk98",
+    "Country": "Australia",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Tilburg University",
+    "ROR": "04b8v1s79",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Universidad de Zaragoza",
+    "ROR": "012a91z28",
+    "Country": "Spain",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Università di Camerino",
+    "ROR": "0005w8d69",
+    "Country": "Italy",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
+    "Organisation": "Universitat de València",
+    "ROR": "043nxc105",
+    "Country": "Spain",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Université de Tours",
+    "ROR": "02wwzvj46",
+    "Country": "France",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Bern",
+    "ROR": "02k7v4d05",
+    "Country": "Switzerland",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Calabria",
+    "ROR": "02rc97e94",
+    "Country": "Italy",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Duhok",
+    "ROR": "02g07ds81",
+    "Country": "Iraq",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Florida",
+    "ROR": "02y3ad647",
+    "Country": "United States",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Manchester",
+    "ROR": "027m9bs27",
+    "Country": "United Kingdom",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Washington",
+    "ROR": "00cvxb145",
+    "Country": "United States",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Waterloo",
+    "ROR": "01aff2v68",
+    "Country": "Canada",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Wageningen University & Research",
+    "ROR": "04qw24q55",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Walter and Eliza Hall Institute of Medical Research",
+    "ROR": "01b6kha49",
+    "Country": "Australia",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  }
+]

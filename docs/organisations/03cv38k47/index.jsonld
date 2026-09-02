@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03cv38k47",
+  "name": "University Medical Center Groningen",
+  "identifier": "https://ror.org/03cv38k47",
+  "url": "https://codecheck.org.uk/register/organisations/03cv38k47/",
+  "sameAs": "https://www.umcg.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Groningen, The Netherlands"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-001/",
+      "name": "CODECHECK Certificate 2025-001",
+      "url": "https://codecheck.org.uk/register/certs/2025-001/"
+    }
+  ]
+}

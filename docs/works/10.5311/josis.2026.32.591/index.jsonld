@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5311/josis.2026.32.591",
+      "url": "https://doi.org/10.5311/josis.2026.32.591",
+      "sameAs": ["https://doi.org/10.5311/josis.2026.32.591", "https://openalex.org/W7166859420"],
+      "name": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Carlos Granell",
+          "@id": "https://orcid.org/0000-0003-1004-9695"
+        },
+        {
+          "@type": "Person",
+          "name": "Frank O. Ostermann",
+          "@id": "https://orcid.org/0000-0002-9317-8291"
+        },
+        {
+          "@type": "Person",
+          "name": "Daniel Nüst",
+          "@id": "https://orcid.org/0000-0002-0024-5046"
+        },
+        {
+          "@type": "Person",
+          "name": "Peter Kedron",
+          "@id": "https://orcid.org/0000-0002-1093-3416"
+        },
+        {
+          "@type": "Person",
+          "name": "Eftychia Koukouraki",
+          "@id": "https://orcid.org/0000-0003-0928-1139"
+        },
+        {
+          "@type": "Person",
+          "name": "Miguel Matey-Sanz",
+          "@id": "https://orcid.org/0000-0002-1189-5079"
+        },
+        {
+          "@type": "Person",
+          "name": "Rémy Decoupes",
+          "@id": "https://orcid.org/0000-0003-0863-9581"
+        },
+        {
+          "@type": "Person",
+          "name": "Sergio Trilles",
+          "@id": "https://orcid.org/0000-0002-9304-0719"
+        },
+        {
+          "@type": "Person",
+          "name": "Anita Graser",
+          "@id": "https://orcid.org/0000-0001-5361-2885"
+        },
+        {
+          "@type": "Person",
+          "name": "Tom Niers",
+          "@id": "https://orcid.org/0000-0002-5746-8590"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-018/",
+      "name": "CODECHECK Certificate 2026-018",
+      "url": "https://codecheck.org.uk/register/certs/2026-018/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5311/josis.2026.32.591"
+      },
+      "datePublished": "2026-07-17"
+    }
+  ]
+}

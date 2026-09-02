@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-011/",
+  "name": "CODECHECK Certificate 2020-011",
+  "url": "https://codecheck.org.uk/register/certs/2020-011/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Seth Flaxman"
+      },
+      {
+        "@type": "Person",
+        "name": "Imperial College COVID-19 Response Team"
+      },
+      {
+        "@type": "Person",
+        "name": "Samir Bhatt",
+        "@id": "https://orcid.org/0000-0002-0891-4611"
+      }
+    ],
+    "url": "http://doi.org/10.1038/s41586-020-2405-7",
+    "sameAs": ["http://doi.org/10.1038/s41586-020-2405-7", "https://openalex.org/W3032971139"]
+  },
+  "reviewBody": "This reproduction required several hours of compute time, but the reproduction itself was straightforward.  All the R code was provided, along with a working Dockerfile.\n",
+  "datePublished": "2020-06-13",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.3893138"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.3893138"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-011/cert.pdf"
+  }
+}

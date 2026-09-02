@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-003/",
+  "name": "CODECHECK Certificate 2025-003",
+  "url": "https://codecheck.org.uk/register/certs/2025-003/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Aysun Urhan",
+      "@id": "https://orcid.org/0000-0001-8584-4736"
+    },
+    {
+      "@type": "Person",
+      "name": "Yasel Quintero",
+      "@id": "https://orcid.org/0009-0005-9240-7370"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Optimal Graph Stretching for Distributed Averaging",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Florine W. Dekker",
+        "@id": "https://orcid.org/0000-0002-0506-7365"
+      },
+      {
+        "@type": "Person",
+        "name": "Zekeriya Erkin",
+        "@id": "https://orcid.org/0000-0001-8932-4703"
+      },
+      {
+        "@type": "Person",
+        "name": "Mauro Conti",
+        "@id": "https://orcid.org/0000-0002-3612-1934"
+      }
+    ],
+    "abstract": "CODECHECK certificate for publication Optimal Graph Stretching for Distributed Averaging The author provided detailed instructions on how to reproduce the results in the manuscript. The instructions include descriptions of the directory structure, and the files available to reproduce the results. As part of this CODECHECK, we used the scripts provided by the author to submit SLURM jobs (which ran MATLAB scripts) to first generate the results and then replicate the figures in PNG format. The codecheckers were able to accurately reproduce all the figures in the manuscript in a straightforward manner following the instructions provided by the author.",
+    "url": "https://doi.org/10.48550/arXiv.2504.10289",
+    "sameAs": ["https://doi.org/10.48550/arXiv.2504.10289", "https://openalex.org/W4415160374"]
+  },
+  "reviewBody": "All figures in the manuscript were successfully reproduced, with the process requiring both an HPC cluster and a valid MATLAB license.\n",
+  "datePublished": "2025-03-25",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.15333601"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.15333601"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2025-003/cert.pdf"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-11-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-11-2025",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-6-11-2025", "https://openalex.org/W4411153243"],
+      "name": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Joseph Shingleton",
+          "@id": "https://orcid.org/0000-0002-1628-3231"
+        },
+        {
+          "@type": "Person",
+          "name": "Ana Basiri",
+          "@id": "https://orcid.org/0000-0002-2399-1797"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-017/",
+      "name": "CODECHECK Certificate 2025-017",
+      "url": "https://codecheck.org.uk/register/certs/2025-017/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-6-11-2025"
+      },
+      "datePublished": "2025-06-06"
+    }
+  ]
+}

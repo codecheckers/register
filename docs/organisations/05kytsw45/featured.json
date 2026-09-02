@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2025-003",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2025-003/",
+    "Certificate PDF": "https://zenodo.org/api/records/15333601/files/CODECHECK-certificate-2025-003.pdf/content",
+    "Repository": "github::codecheckers/certificate-2025-003",
+    "Repository Link": "https://github.com/codecheckers/certificate-2025-003",
+    "Report": "https://doi.org/10.5281/zenodo.15333601",
+    "Title": "Optimal Graph Stretching for Distributed Averaging",
+    "Paper reference": "https://doi.org/10.48550/arXiv.2504.10289",
+    "OpenAlex": "https://openalex.org/W4415160374",
+    "Type": "institution",
+    "Venue": "TU Delft DCC",
+    "Check date": "2025-03-25"
+  }
+]

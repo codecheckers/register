@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0506-7365",
+      "name": "Florine W. Dekker"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2504.10289",
+      "url": "https://doi.org/10.48550/arxiv.2504.10289",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-0506-7365"
+      },
+      "name": "Optimal Graph Stretching for Distributed Averaging"
+    }
+  ]
+}

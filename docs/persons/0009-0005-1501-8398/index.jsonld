@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-1501-8398",
+      "name": "Manuela Canestrini"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-2-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-2-2025",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-1501-8398"
+      },
+      "name": "Beyond Walking and Biking: Expanding the 15-Minute City Area through Public Transport"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-3-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-3-2026",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-1501-8398"
+      },
+      "name": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility"
+    }
+  ]
+}

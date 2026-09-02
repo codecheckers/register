@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5189-8442",
+      "name": "Guoray Cai orcid 1 and"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-2-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-2-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-5189-8442"
+      },
+      "name": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment"
+    }
+  ]
+}

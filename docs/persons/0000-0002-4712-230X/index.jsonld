@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4712-230X",
+      "name": "Ehsan Hamzei"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-1-23-2020",
+      "url": "https://doi.org/10.5194/agile-giss-1-23-2020",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-4712-230X"
+      },
+      "name": "Extracting interrogative intents and concepts from geo-analytic questions."
+    }
+  ]
+}

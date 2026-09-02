@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7563-0793",
+      "name": "Marinos Kavouras"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-13-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-13-2023",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-7563-0793"
+      },
+      "name": "Does spatial thinking ability relate to performance when using web-mapping services? A survey with digital natives"
+    }
+  ]
+}

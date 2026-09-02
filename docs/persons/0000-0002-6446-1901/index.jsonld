@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6446-1901",
+      "name": "Lukas Röseler",
+      "sameAs": "https://github.com/LukasRoeseler"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-005/",
+      "name": "CODECHECK Certificate 2024-005",
+      "url": "https://codecheck.org.uk/register/certs/2024-005/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6446-1901"
+      },
+      "datePublished": "2024-10-15"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31234/osf.io/gj76p",
+      "url": "https://doi.org/10.31234/osf.io/gj76p",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6446-1901"
+      },
+      "name": "Exploring Categorical Colors"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04n0g0b29",
+  "name": "Universitat Pompeu Fabra",
+  "identifier": "https://ror.org/04n0g0b29",
+  "url": "https://codecheck.org.uk/register/organisations/04n0g0b29/",
+  "sameAs": "https://www.upf.edu",
+  "location": {
+    "@type": "Place",
+    "address": "Barcelona, Spain"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-004/",
+      "name": "CODECHECK Certificate 2026-004",
+      "url": "https://codecheck.org.uk/register/certs/2026-004/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-017/",
+      "name": "CODECHECK Certificate 2026-017",
+      "url": "https://codecheck.org.uk/register/certs/2026-017/"
+    }
+  ]
+}

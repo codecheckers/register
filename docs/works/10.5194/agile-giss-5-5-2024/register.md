@@ -10,3 +10,4 @@ venues: AGILEGIS
 |Certificate |Report                        |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
 |[2024-011](../../../certs/2024-011/)|[doi.org/10.17605/osf.io/FMGB4](https://doi.org/10.17605/osf.io/FMGB4)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2024-05-27 |
+

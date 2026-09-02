@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02rc97e94",
+  "name": "University of Calabria",
+  "identifier": "https://ror.org/02rc97e94",
+  "url": "https://codecheck.org.uk/register/organisations/02rc97e94/",
+  "sameAs": "https://www.unical.it",
+  "location": {
+    "@type": "Place",
+    "address": "Rende, Italy"
+  }
+}

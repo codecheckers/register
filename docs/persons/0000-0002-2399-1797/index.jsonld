@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2399-1797",
+      "name": "Anahid Basiri"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-15-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-15-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-2399-1797"
+      },
+      "name": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-12-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-12-2024",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-2399-1797"
+      },
+      "name": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-11-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-11-2025",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-2399-1797"
+      },
+      "name": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models"
+    }
+  ]
+}

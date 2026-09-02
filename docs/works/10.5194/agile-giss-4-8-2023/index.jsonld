@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-8-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-8-2023",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-4-8-2023", "https://openalex.org/W4379802106"],
+      "name": "Is it safe to be attractive? Disentangling the influence of streetscape features on the perceived safety and attractiveness of city streets",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Vasileios Milias"
+        },
+        {
+          "@type": "Person",
+          "name": "Shahin Sharifi Noorian"
+        },
+        {
+          "@type": "Person",
+          "name": "Alessandro Bozzon"
+        },
+        {
+          "@type": "Person",
+          "name": "Achilleas Psyllidis"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-008/",
+      "name": "CODECHECK Certificate 2023-008",
+      "url": "https://codecheck.org.uk/register/certs/2023-008/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-4-8-2023"
+      },
+      "datePublished": "2023-06-13"
+    }
+  ]
+}

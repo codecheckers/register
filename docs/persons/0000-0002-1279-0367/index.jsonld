@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1279-0367",
+      "name": "Javier Nogueras-Iso"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-5-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-5-2024",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1279-0367"
+      },
+      "name": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager"
+    }
+  ]
+}

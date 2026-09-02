@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2504.10289",
+      "url": "https://doi.org/10.48550/arxiv.2504.10289",
+      "sameAs": ["https://doi.org/10.48550/arxiv.2504.10289", "https://openalex.org/W4415160374"],
+      "name": "Optimal Graph Stretching for Distributed Averaging",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Florine W. Dekker",
+          "@id": "https://orcid.org/0000-0002-0506-7365"
+        },
+        {
+          "@type": "Person",
+          "name": "Zekeriya Erkin",
+          "@id": "https://orcid.org/0000-0001-8932-4703"
+        },
+        {
+          "@type": "Person",
+          "name": "Mauro Conti",
+          "@id": "https://orcid.org/0000-0002-3612-1934"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-003/",
+      "name": "CODECHECK Certificate 2025-003",
+      "url": "https://codecheck.org.uk/register/certs/2025-003/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.48550/arxiv.2504.10289"
+      },
+      "datePublished": "2025-03-25"
+    }
+  ]
+}

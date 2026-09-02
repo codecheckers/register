@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1098/rsos.191613",
+      "url": "https://doi.org/10.1098/rsos.191613",
+      "sameAs": ["https://doi.org/10.1098/rsos.191613", "https://openalex.org/W4399759705"],
+      "name": "Regulation of pupil size in natural vision across the human lifespan ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Rafael Lazar",
+          "@id": "https://orcid.org/0000-0001-7972-5634"
+        },
+        {
+          "@type": "Person",
+          "name": "Manuel Spitschan",
+          "@id": "https://orcid.org/0000-0002-8572-9268"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-001/",
+      "name": "CODECHECK Certificate 2024-001",
+      "url": "https://codecheck.org.uk/register/certs/2024-001/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1098/rsos.191613"
+      },
+      "datePublished": "2024-03-15"
+    }
+  ]
+}

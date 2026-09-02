@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-6-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-6-2025",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-6-6-2025", "https://openalex.org/W4411153777"],
+      "name": "Exploring Urban Place Function through User-Generated Textual Content",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Shahreen Muntaha Nawfee",
+          "@id": "https://orcid.org/0000-0001-6154-8537"
+        },
+        {
+          "@type": "Person",
+          "name": "Stefano De Sabbata",
+          "@id": "https://orcid.org/0000-0002-2750-7579"
+        },
+        {
+          "@type": "Person",
+          "name": "Nicholas Tate",
+          "@id": "https://orcid.org/0009-0004-7648-5785"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-013/",
+      "name": "CODECHECK Certificate 2025-013",
+      "url": "https://codecheck.org.uk/register/certs/2025-013/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-6-6-2025"
+      },
+      "datePublished": "2025-06-12"
+    }
+  ]
+}

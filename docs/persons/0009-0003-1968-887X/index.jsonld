@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0003-1968-887X",
+      "name": "Krzysztof Janowicz"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-10-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-10-2026",
+      "author": {
+        "@id": "https://orcid.org/0009-0003-1968-887X"
+      },
+      "name": "Assessing the Geographic Diversity of AI's Platial Representations in Image Generation"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-6-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-6-2026",
+      "author": {
+        "@id": "https://orcid.org/0009-0003-1968-887X"
+      },
+      "name": "Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models"
+    }
+  ]
+}

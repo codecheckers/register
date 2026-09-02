@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3124-5364",
+      "name": "Philipp A. Friese",
+      "sameAs": "https://github.com/philippfriese"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-002/",
+      "name": "CODECHECK Certificate 2021-002",
+      "url": "https://codecheck.org.uk/register/certs/2021-002/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3124-5364"
+      },
+      "datePublished": "2021-06-10"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-003/",
+      "name": "CODECHECK Certificate 2021-003",
+      "url": "https://codecheck.org.uk/register/certs/2021-003/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3124-5364"
+      },
+      "datePublished": "2021-06-10"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-011/",
+      "name": "CODECHECK Certificate 2022-011",
+      "url": "https://codecheck.org.uk/register/certs/2022-011/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3124-5364"
+      },
+      "datePublished": "2022-07-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-014/",
+      "name": "CODECHECK Certificate 2022-014",
+      "url": "https://codecheck.org.uk/register/certs/2022-014/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3124-5364"
+      },
+      "datePublished": "2022-07-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-001/",
+      "name": "CODECHECK Certificate 2023-001",
+      "url": "https://codecheck.org.uk/register/certs/2023-001/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3124-5364"
+      },
+      "datePublished": "2023-06-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-005/",
+      "name": "CODECHECK Certificate 2023-005",
+      "url": "https://codecheck.org.uk/register/certs/2023-005/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3124-5364"
+      },
+      "datePublished": "2023-06-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-006/",
+      "name": "CODECHECK Certificate 2023-006",
+      "url": "https://codecheck.org.uk/register/certs/2023-006/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3124-5364"
+      },
+      "datePublished": "2023-06-13"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-1-7-2020",
+      "url": "https://doi.org/10.5194/agile-giss-1-7-2020",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3124-5364"
+      },
+      "name": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles"
+    }
+  ]
+}

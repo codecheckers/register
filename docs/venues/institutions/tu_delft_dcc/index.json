@@ -12,10 +12,10 @@
     "description": "The Digital Competence Centre (DCC) is TU Delft's institutional hub supporting researchers across all disciplines with data management, research software development and computational workflows. It offers hands-on project support, office hours, training workshops and reproducibility assessments. Its FAIR4RS mentoring programme helps researchers make their software outputs findable, accessible, interoperable and reusable.",
     "identifiers": [
       {
-        "name": "ROR",
-        "icon": "fa-university",
-        "value": "02e2c7k09",
-        "url": "https://ror.org/02e2c7k09"
+        "name": "Wikidata",
+        "icon": "fa-database",
+        "value": "Q141254549",
+        "url": "https://www.wikidata.org/wiki/Q141254549"
       }
     ]
   },

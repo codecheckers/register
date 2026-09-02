@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.7554/elife.50927",
+      "url": "https://doi.org/10.7554/elife.50927",
+      "sameAs": ["https://doi.org/10.7554/elife.50927", "https://openalex.org/W3012706327"],
+      "name": "A model for focal seizure onset, propagation, evolution, and progression ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Jyun-you Liou",
+          "@id": "https://orcid.org/0000-0003-4851-3676"
+        },
+        {
+          "@type": "Person",
+          "name": "Elliot H Smith",
+          "@id": "https://orcid.org/0000-0003-4323-4643"
+        },
+        {
+          "@type": "Person",
+          "name": "Lisa M Bateman"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-015/",
+      "name": "CODECHECK Certificate 2020-015",
+      "url": "https://codecheck.org.uk/register/certs/2020-015/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.7554/elife.50927"
+      },
+      "datePublished": "2020-08-04"
+    }
+  ]
+}

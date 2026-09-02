@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3208-3440",
+      "name": "Niket Agrawal",
+      "sameAs": "https://github.com/niketagrawal"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-018/",
+      "name": "CODECHECK Certificate 2025-018",
+      "url": "https://codecheck.org.uk/register/certs/2025-018/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3208-3440"
+      },
+      "datePublished": "2025-05-28"
+    }
+  ]
+}

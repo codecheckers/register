@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02y3ad647",
+  "name": "University of Florida",
+  "identifier": "https://ror.org/02y3ad647",
+  "url": "https://codecheck.org.uk/register/organisations/02y3ad647/",
+  "sameAs": "https://www.ufl.edu",
+  "location": {
+    "@type": "Place",
+    "address": "Gainesville, United States"
+  }
+}

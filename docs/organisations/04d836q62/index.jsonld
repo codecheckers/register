@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04d836q62",
+  "name": "TU Wien",
+  "identifier": "https://ror.org/04d836q62",
+  "url": "https://codecheck.org.uk/register/organisations/04d836q62/",
+  "sameAs": "https://www.tuwien.at",
+  "location": {
+    "@type": "Place",
+    "address": "Vienna, Austria"
+  }
+}

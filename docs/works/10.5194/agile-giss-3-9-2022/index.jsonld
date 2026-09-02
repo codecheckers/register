@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-9-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-9-2022",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-9-2022", "https://openalex.org/W4281689570"],
+      "name": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Zilong Liu",
+          "@id": "https://orcid.org/0000-0002-7699-3366"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzysztof Janowicz"
+        },
+        {
+          "@type": "Person",
+          "name": "Ling Cai",
+          "@id": "https://orcid.org/0000-0001-7106-4907"
+        },
+        {
+          "@type": "Person",
+          "name": "Rui Zhu",
+          "@id": "https://orcid.org/0000-0002-8910-9445"
+        },
+        {
+          "@type": "Person",
+          "name": "Gengchen Mai",
+          "@id": "https://orcid.org/0000-0002-7818-7309"
+        },
+        {
+          "@type": "Person",
+          "name": "Meilin Shi",
+          "@id": "https://orcid.org/0000-0001-6039-7810"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-007/",
+      "name": "CODECHECK Certificate 2022-007",
+      "url": "https://codecheck.org.uk/register/certs/2022-007/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-3-9-2022"
+      },
+      "datePublished": "2022-07-09"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9671-5558",
+      "name": "Cédric Van hoorickx"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.3397/in_2024_3491",
+      "url": "https://doi.org/10.3397/in_2024_3491",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9671-5558"
+      },
+      "name": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach "
+    }
+  ]
+}

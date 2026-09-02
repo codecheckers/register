@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0002-5032-249X",
+      "name": "Eveli Sisas"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-18-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-18-2026",
+      "author": {
+        "@id": "https://orcid.org/0009-0002-5032-249X"
+      },
+      "name": "Towards National-Scale Ecological Applications: Harmonised Framework for LiDAR Point Cloud Processing for Vegetation Metrics Calculation"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s41598-023-48241-y",
+      "url": "https://doi.org/10.1038/s41598-023-48241-y",
+      "sameAs": ["https://doi.org/10.1038/s41598-023-48241-y", "https://openalex.org/W4389674756"],
+      "name": "An inventory of human light exposure related behaviour ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Mushfiqul Anwar Siraji",
+          "@id": "https://orcid.org/0000-0003-0127-9982"
+        },
+        {
+          "@type": "Person",
+          "name": "Rafael Lazar",
+          "@id": "https://orcid.org/0000-0001-7972-5634"
+        },
+        {
+          "@type": "Person",
+          "name": "Juliëtte van Duijnhoven"
+        },
+        {
+          "@type": "Person",
+          "name": "Luc Schlangen"
+        },
+        {
+          "@type": "Person",
+          "name": "Shamsul Haque"
+        },
+        {
+          "@type": "Person",
+          "name": "Vineetha Kalavally"
+        },
+        {
+          "@type": "Person",
+          "name": "Celine Vetter"
+        },
+        {
+          "@type": "Person",
+          "name": "Gena Glickman"
+        },
+        {
+          "@type": "Person",
+          "name": "Karin Smolders"
+        },
+        {
+          "@type": "Person",
+          "name": "Manuel Spitschan",
+          "@id": "https://orcid.org/0000-0002-8572-9268"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-012/",
+      "name": "CODECHECK Certificate 2023-012",
+      "url": "https://codecheck.org.uk/register/certs/2023-012/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1038/s41598-023-48241-y"
+      },
+      "datePublished": "2023-11-26"
+    }
+  ]
+}

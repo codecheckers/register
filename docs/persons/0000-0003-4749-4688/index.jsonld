@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4749-4688",
+      "name": "Sofie Haesaert"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2411.11803",
+      "url": "https://doi.org/10.48550/arxiv.2411.11803",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-4749-4688"
+      },
+      "name": "Scalable control synthesis for stochastic systems via structural IMDP abstractions"
+    }
+  ]
+}

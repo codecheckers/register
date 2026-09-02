@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7078-3766",
+      "name": "Barbara Hofer",
+      "sameAs": "https://github.com/hoferb"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-016/",
+      "name": "CODECHECK Certificate 2025-016",
+      "url": "https://codecheck.org.uk/register/certs/2025-016/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-7078-3766"
+      },
+      "datePublished": "2025-06-06"
+    }
+  ]
+}

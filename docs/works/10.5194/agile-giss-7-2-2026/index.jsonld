@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-2-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-2-2026",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-2-2026", "https://openalex.org/W7164129368"],
+      "name": "A Method for Spatializing Disturbance by Detecting Human-Wildlife Encounters from GNSS Trajectories",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "John Dawson",
+          "@id": "https://orcid.org/0009-0008-9333-7169"
+        },
+        {
+          "@type": "Person",
+          "name": "Veronika Peralta",
+          "@id": "https://orcid.org/0000-0002-9236-9088"
+        },
+        {
+          "@type": "Person",
+          "name": "Ana-Maria Olteanu-Raimond",
+          "@id": "https://orcid.org/0000-0002-1101-1333"
+        },
+        {
+          "@type": "Person",
+          "name": "Thomas Devogele",
+          "@id": "https://orcid.org/0000-0001-9187-8385"
+        },
+        {
+          "@type": "Person",
+          "name": "Mathieu Garel",
+          "@id": "https://orcid.org/0000-0002-5978-7122"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-005/",
+      "name": "CODECHECK Certificate 2026-005",
+      "url": "https://codecheck.org.uk/register/certs/2026-005/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-7-2-2026"
+      },
+      "datePublished": "2026-03-24"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9028-681X",
+      "name": "Sarah Valentin"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-16-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-16-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9028-681X"
+      },
+      "name": "Spatio-Temporal Knowledge Graph from Unstructured Texts: A Multi-Scale Approach for Food Security Monitoring"
+    }
+  ]
+}

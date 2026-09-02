@@ -1,0 +1,76 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-019/",
+  "name": "CODECHECK Certificate 2024-019",
+  "url": "https://codecheck.org.uk/register/certs/2024-019/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Yasel Quintero",
+      "@id": "https://orcid.org/0009-0005-9240-7370"
+    },
+    {
+      "@type": "Person",
+      "name": "Tornike Skhirtladze"
+    },
+    {
+      "@type": "Person",
+      "name": "Joslyn Sun",
+      "@id": "https://orcid.org/0009-0002-2379-0060"
+    },
+    {
+      "@type": "Person",
+      "name": "Gabriella Low Chew Tung"
+    },
+    {
+      "@type": "Person",
+      "name": "Roel Janssen",
+      "@id": "https://orcid.org/0000-0003-4324-5350"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research.\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mohammadamin Sinichi",
+        "@id": "https://orcid.org/0009-0008-2491-1542"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Gevonden"
+      },
+      {
+        "@type": "Person",
+        "name": "Lydia Krabbendam"
+      }
+    ],
+    "abstract": "<p>Heart rate (HR) and heart rate variability (HRV) are two key measures with significant relevance in psychophysiological studies, and their measurement has become more convenient due to advances in wearable technology. However, photoplethysmography (PPG)-based wearables pose critical validity concerns. In this study, we validated four PPG wearables: three consumer-grade devices (Kyto2935, Schone Rhythm 24, and HeartMath Inner Balance Bluetooth) and one research-grade device (Empatica EmbracePlus, successor to the widely-used but discontinued Empatica E4). All devices were worn simultaneously by 40 healthy participants who underwent conditions commonly used in laboratory research (seated rest, arithmetic task, recovery, slow-paced breathing, a neuropsychological task, posture manipulation by standing up) and encountered in ambulatory-like settings (slow walking and stationary biking), compared against a criterion electrocardiography device, the Vrije Universiteit Ambulatory Monitoring System (VU-AMS). We determined the signal quality, the linear strength through regression analysis, the bias through Bland-Altman analysis, and the measurement error through mean arctangent absolute percentage error for each condition against the criterion device. We found that the research-grade device did not outperform the consumer-grade devices in laboratory conditions. It also showed low agreement with the ECG in ambulatory-like conditions. In general, devices captured HR more accurately compared to HRV. Finally, conditions that deviated from baseline settings and involved slight to high movement, negatively impacted the agreement between PPG devices and the criterion. We conclude that PPG devices, even those advertised and designed for research purposes, may pose validity concerns for HRV measurement in conditions other than those similar to resting states.<\/p>",
+    "url": "https://doi.org/10.31219/osf.io/wkzsn",
+    "sameAs": ["https://doi.org/10.31219/osf.io/wkzsn", "https://openalex.org/W4400220542"]
+  },
+  "reviewBody": "The codecheckers were able to reproduce most of the figures in the manuscript and its supplementary documentation.\n",
+  "datePublished": "2024-12-04",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.14279041"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.14279041"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2024-019/cert.pdf"
+  }
+}

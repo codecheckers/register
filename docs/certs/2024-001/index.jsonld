@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-001/",
+  "name": "CODECHECK Certificate 2024-001",
+  "url": "https://codecheck.org.uk/register/certs/2024-001/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Regulation of pupil size in natural vision across the human lifespan\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Rafael Lazar",
+        "@id": "https://orcid.org/0000-0001-7972-5634"
+      },
+      {
+        "@type": "Person",
+        "name": "Manuel Spitschan",
+        "@id": "https://orcid.org/0000-0002-8572-9268"
+      }
+    ],
+    "abstract": "<jats:p>\n                    Vision is mediated by light passing through the pupil, which changes in diameter from approximately 2 to 8 mm between bright and dark illumination. With age, mean pupil size declines. In laboratory experiments, factors affecting pupil size can be experimentally controlled. How the pupil reflects the change in retinal input from the visual environment under natural viewing conditions is unclear. We address this question in a field experiment (\n                    <jats:italic>N<\/jats:italic>\n                    = 83, 43 female, 18–87 years) using a custom-made wearable video-based eye tracker with a spectroradiometer measuring near-corneal spectral irradiance. Participants moved in and between indoor and outdoor environments varying in spectrum and engaged in a range of everyday tasks. Our data confirm that light-adapted pupil size is determined by light level, with a better model fit of melanopic over photopic units, and that it decreased with increasing age, yielding steeper slopes at lower light levels. We found no indication that sex, iris colour or reported caffeine consumption affects pupil size. Our exploratory results point to a role of photoreceptor integration in controlling steady-state pupil size. The data provide evidence for considering age in personalized lighting solutions and against the use of photopic illuminance alone to assess the impact of real-world lighting conditions.\n                  <\/jats:p>",
+    "url": "https://doi.org/10.1098/rsos.191613",
+    "sameAs": ["https://doi.org/10.1098/rsos.191613", "https://openalex.org/W4399759705"]
+  },
+  "reviewBody": "R code to generate all of the key figures in the paper.\n",
+  "datePublished": "2024-03-15",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.10823246"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.10823246"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2024-001/cert.pdf"
+  }
+}

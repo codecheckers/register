@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Periodical",
+      "name": "Journal of Spatial Information Science",
+      "@id": "https://portal.issn.org/resource/ISSN/1948-660X",
+      "url": "https://codecheck.org.uk/register/venues/journals/josis/",
+      "sameAs": "https://josis.org",
+      "description": "The Journal of Spatial Information Science (JOSIS) is an international, open-access, volunteer-run journal publishing original research in spatial and geographic information science. Its scope spans theoretical foundations through to computational methods and practical applications of geospatial technology. All published articles are freely accessible at no cost to authors or readers.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://ram.raumplanung.tu-dortmund.de/storages/ram-raumplanung/_processed_/1/b/csm_josis_cover_2023_2_385aad9109.png"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISSN",
+          "value": "1948-660X",
+          "url": "https://portal.issn.org/resource/ISSN/1948-660X"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-027/",
+      "name": "CODECHECK Certificate 2025-027",
+      "url": "https://codecheck.org.uk/register/certs/2025-027/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://portal.issn.org/resource/ISSN/1948-660X"
+        },
+        "name": "ClockBoard: A zoning system for urban analysis",
+        "url": "https://doi.org/10.5311/JOSIS.2022.24.172",
+        "sameAs": "https://doi.org/10.5311/JOSIS.2022.24.172"
+      },
+      "datePublished": "2025-09-04"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-018/",
+      "name": "CODECHECK Certificate 2026-018",
+      "url": "https://codecheck.org.uk/register/certs/2026-018/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://portal.issn.org/resource/ISSN/1948-660X"
+        },
+        "name": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures\n",
+        "url": "https://doi.org/10.5311/JOSIS.2026.32.591",
+        "sameAs": "https://doi.org/10.5311/JOSIS.2026.32.591"
+      },
+      "datePublished": "2026-07-17"
+    }
+  ]
+}

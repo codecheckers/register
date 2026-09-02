@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-017/",
+  "name": "CODECHECK Certificate 2020-017",
+  "url": "https://codecheck.org.uk/register/certs/2020-017/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Progress in the R ecosystem for representing and handling spatial data",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Roger S. Bivand",
+        "@id": "https://orcid.org/0000-0003-2392-6140"
+      }
+    ],
+    "abstract": "<jats:title>Abstract<\/jats:title><jats:p>Twenty years have passed since Bivand and Gebhardt (J Geogr Syst 2(3):307–317, 2000.<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"doi\" xlink:href=\"https://doi.org/10.1007/PL00011460\">10.1007/PL00011460<\/jats:ext-link>) indicated that there was a good match between the then nascent open-source R programming language and environment and the needs of researchers analysing spatial data. Recalling the development of classes for spatial data presented in book form in Bivand et al. (Applied spatial data analysis with R. Springer, New York, 2008, Applied spatial data analysis with R, 2nd edn. Springer, New York, 2013), it is important to present the progress now occurring in representation of spatial data, and possible consequences for spatial data handling and the statistical analysis of spatial data. Beyond this, it is imperative to discuss the relationships between R-spatial software and the larger open-source geospatial software community on whose work R packages crucially depend.<\/jats:p>",
+    "url": "https://doi.org/10.1007/s10109-020-00336-0",
+    "sameAs": ["https://doi.org/10.1007/s10109-020-00336-0", "https://openalex.org/W3092996383"]
+  },
+  "reviewBody": "Successful check of well-organised R script. All figures match the ones provided by the author.\n",
+  "datePublished": "2020-08-27",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.4003848"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.4003848"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-017/cert.pdf"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7699-3366",
+      "name": "Zilong Liu"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-9-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-9-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7699-3366"
+      },
+      "name": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-10-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-10-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7699-3366"
+      },
+      "name": "Assessing the Geographic Diversity of AI's Platial Representations in Image Generation"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-6-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-6-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7699-3366"
+      },
+      "name": "Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models"
+    }
+  ]
+}

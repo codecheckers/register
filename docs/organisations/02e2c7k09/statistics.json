@@ -1,0 +1,154 @@
+{
+  "source": "https://codecheck.org.uk/register/organisations/02e2c7k09/register.json",
+  "cert_count": 32,
+  "venue_count": 4,
+  "venues_per_type": {
+    "community": 3,
+    "institution": 1
+  },
+  "checks_per_type_per_year": {
+    "2023": {
+      "community": 1
+    },
+    "2024": {
+      "community": 5
+    },
+    "2025": {
+      "institution": 21
+    },
+    "2026": {
+      "community": 1,
+      "institution": 4
+    }
+  },
+  "checks_per_year": {
+    "2023": 1,
+    "2024": 5,
+    "2025": 21,
+    "2026": 5
+  },
+  "checks_cumulative": {
+    "2023": 1,
+    "2024": 6,
+    "2025": 27,
+    "2026": 32
+  },
+  "venues_per_year": {
+    "2023": 1,
+    "2024": 1,
+    "2025": 1,
+    "2026": 2
+  },
+  "venues_cumulative": {
+    "2023": 1,
+    "2024": 2,
+    "2025": 3,
+    "2026": 4
+  },
+  "codechecker_count": 18,
+  "codecheckers_per_year": {
+    "2023": 1,
+    "2024": 10,
+    "2025": 8,
+    "2026": 3
+  },
+  "codecheckers_cumulative": {
+    "2023": 1,
+    "2024": 10,
+    "2025": 17,
+    "2026": 18
+  },
+  "platform_per_year": {
+    "2023": {
+      "zenodo": 1
+    },
+    "2024": {
+      "zenodo": 5
+    },
+    "2025": {
+      "zenodo": 21
+    },
+    "2026": {
+      "zenodo": 5
+    }
+  },
+  "platform_cumulative": {
+    "2023": {
+      "zenodo": 1
+    },
+    "2024": {
+      "zenodo": 6
+    },
+    "2025": {
+      "zenodo": 27
+    },
+    "2026": {
+      "zenodo": 32
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "codecheck",
+      "longname": "CODECHECK",
+      "year_range": "2026",
+      "label": "community",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck",
+      "logo_url": "https://codecheck.org.uk/img/codecheck_logo.svg",
+      "website_url": "https://codecheck.org.uk",
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "codecheck NL",
+      "longname": "CODECHECK NL",
+      "year_range": "2024",
+      "label": "check-nl",
+      "cert_count": 5,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck%20NL",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "preprint",
+      "longname": "Preprint",
+      "year_range": "2023",
+      "label": "preprint",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "preprint",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    },
+    {
+      "name": "TU Delft DCC",
+      "longname": "TU Delft Digital Competence Centre",
+      "year_range": "2025-2026",
+      "label": "institution",
+      "cert_count": 25,
+      "page_type": "institution",
+      "page_type_plural": "institutions",
+      "page_slug": "TU%20Delft%20DCC",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg",
+      "website_url": "https://www.tudelft.nl/digital-competence-centre",
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 4,
+      "cert_count": 32
+    }
+  ]
+}

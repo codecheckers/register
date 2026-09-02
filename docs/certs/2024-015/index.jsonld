@@ -1,0 +1,74 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-015/",
+  "name": "CODECHECK of Landscape Character Assessment in Nigeria",
+  "url": "https://codecheck.org.uk/register/certs/2024-015/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Betelham Gebretsadik"
+    },
+    {
+      "@type": "Person",
+      "name": "Dilli Paudel"
+    },
+    {
+      "@type": "Person",
+      "name": "Jay Gohil"
+    },
+    {
+      "@type": "Person",
+      "name": "Pitchaporn Likitpanjamanon"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Landscape Character Assessment - Nigeria",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Patrick Samson Udama Eneche",
+        "@id": "https://orcid.org/0000-0002-0504-9677"
+      },
+      {
+        "@type": "Person",
+        "name": "Funda Atun"
+      },
+      {
+        "@type": "Person",
+        "name": "Karin Pfeffer",
+        "@id": "https://orcid.org/0000-0002-6080-1323"
+      },
+      {
+        "@type": "Person",
+        "name": "Yijian Zeng"
+      }
+    ],
+    "abstract": "This project is based on the landscape character assessment of Nigeria, using machine learning and open-access geospatial dataset.",
+    "url": "https://doi.org/10.17605/OSF.IO/E2K73",
+    "sameAs": ["https://doi.org/10.17605/OSF.IO/E2K73", "https://openalex.org/W6943834942"]
+  },
+  "reviewBody": "The CODECHECK utilized the supplied dataset, but certain steps were omitted as they would take several hours to compute on the available hardware.\nDespite this, the generated output aligns with the reported results.\nHowever, it is not clear which output should be compared in the Python notebooks.",
+  "datePublished": "2024-09-26",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/OSF.IO/mwbuq"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/mwbuq"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2024-015/cert.pdf"
+  }
+}

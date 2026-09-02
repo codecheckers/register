@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4051-4896",
+      "name": "Azita Dabiri"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1109/tits.2025.3549227",
+      "url": "https://doi.org/10.1109/tits.2025.3549227",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-4051-4896"
+      },
+      "name": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering"
+    }
+  ]
+}

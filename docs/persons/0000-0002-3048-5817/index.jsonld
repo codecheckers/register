@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3048-5817",
+      "name": "Tim Verlaan"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1080/15614263.2022.2102494",
+      "url": "https://doi.org/10.1080/15614263.2022.2102494",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3048-5817"
+      },
+      "name": "Describing the scale and composition of calls for police service: a replication and extension using open data "
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7190-9225",
+      "name": "Rodrique Kafando"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-2-2-2021",
+      "url": "https://doi.org/10.5194/agile-giss-2-2-2021",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7190-9225"
+      },
+      "name": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?"
+    }
+  ]
+}

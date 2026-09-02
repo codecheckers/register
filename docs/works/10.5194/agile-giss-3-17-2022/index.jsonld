@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-17-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-17-2022",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-17-2022", "https://openalex.org/W4281833313"],
+      "name": "A method to produce metadata describing and assessing the quality of spatial landmark datasets in mountain area",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Marie-Dominique Van Damme",
+          "@id": "https://orcid.org/0000-0002-0007-5972"
+        },
+        {
+          "@type": "Person",
+          "name": "Ana-Maria Olteanu-Raimond"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-014/",
+      "name": "CODECHECK Certificate 2022-014",
+      "url": "https://codecheck.org.uk/register/certs/2022-014/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-3-17-2022"
+      },
+      "datePublished": "2022-07-09"
+    }
+  ]
+}

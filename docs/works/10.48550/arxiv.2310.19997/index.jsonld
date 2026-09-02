@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2310.19997",
+      "url": "https://doi.org/10.48550/arxiv.2310.19997",
+      "sameAs": ["https://doi.org/10.48550/arxiv.2310.19997", "https://openalex.org/W4388184325"],
+      "name": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Filip Surma",
+          "@id": "https://orcid.org/0000-0002-6756-9598"
+        },
+        {
+          "@type": "Person",
+          "name": "Anahita Jamshidnejad",
+          "@id": "https://orcid.org/0000-0001-9151-2607"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-003/",
+      "name": "CODECHECK Certificate 2024-003",
+      "url": "https://codecheck.org.uk/register/certs/2024-003/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.48550/arxiv.2310.19997"
+      },
+      "datePublished": "2024-05-30"
+    }
+  ]
+}

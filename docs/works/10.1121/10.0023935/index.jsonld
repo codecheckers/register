@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1121/10.0023935",
+      "url": "https://doi.org/10.1121/10.0023935",
+      "sameAs": ["https://doi.org/10.1121/10.0023935", "https://openalex.org/W4390971714"],
+      "name": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method  ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Zeyu Xu",
+          "@id": "https://orcid.org/0000-0002-4158-6218"
+        },
+        {
+          "@type": "Person",
+          "name": "Adrian Herzog",
+          "@id": "https://orcid.org/0000-0003-0827-8333"
+        },
+        {
+          "@type": "Person",
+          "name": "Alexander Lodermeyer",
+          "@id": "https://orcid.org/0000-0003-4308-7137"
+        },
+        {
+          "@type": "Person",
+          "name": "Emanuel A.P. Habets",
+          "@id": "https://orcid.org/0000-0002-2613-8046"
+        },
+        {
+          "@type": "Person",
+          "name": "Albert G. Prinn",
+          "@id": "https://orcid.org/0000-0003-3491-3644"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-022/",
+      "name": "CODECHECK Certificate 2024-022",
+      "url": "https://codecheck.org.uk/register/certs/2024-022/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1121/10.0023935"
+      },
+      "datePublished": "2024-12-05"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5951-6835",
+      "name": "Martin Raubal"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-12-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-12-2023",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-5951-6835"
+      },
+      "name": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-3-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-3-2025",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-5951-6835"
+      },
+      "name": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1016/j.heares.2024.109127",
+      "url": "https://doi.org/10.1016/j.heares.2024.109127",
+      "sameAs": ["https://doi.org/10.1016/j.heares.2024.109127", "https://openalex.org/W4403117583"],
+      "name": "Influence of the cochlear partition’s flexibility on the macro mechanisms in the inner ear",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Simon Kersten",
+          "@id": "https://orcid.org/0000-0003-3303-9297"
+        },
+        {
+          "@type": "Person",
+          "name": "Henning Taschke"
+        },
+        {
+          "@type": "Person",
+          "name": "Michael Vorländer",
+          "@id": "https://orcid.org/0000-0002-7010-8370"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-023/",
+      "name": "CODECHECK Certificate 2024-023",
+      "url": "https://codecheck.org.uk/register/certs/2024-023/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1016/j.heares.2024.109127"
+      },
+      "datePublished": "2024-11-08"
+    }
+  ]
+}

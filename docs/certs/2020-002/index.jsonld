@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-002/",
+  "name": "CODECHECK Certificate 2020-002",
+  "url": "https://codecheck.org.uk/register/certs/2020-002/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    },
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "The principal components of natural images",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Peter J. B. Hancock"
+      },
+      {
+        "@type": "Person",
+        "name": "Roland J. Baddeley"
+      },
+      {
+        "@type": "Person",
+        "name": "Leslie S. Smith"
+      }
+    ],
+    "abstract": "A neural net was used to analyse samples of natural images and text. For the natural images, components resemble derivatives of Gaussian operators, similar to those found in visual cortex and inferred from psychophysics. While the results from natural images do not depend on scale, those from text images are highly scale dependent. Convolution of one of the text components with an original image shows that it is sensitive to inter-word gaps.",
+    "url": "https://doi.org/10.1088/0954-898X_3_1_008",
+    "sameAs": ["https://doi.org/10.1088/0954-898X_3_1_008", "https://openalex.org/W2169326908"]
+  },
+  "reviewBody": "Matlab code written by Iain Davies to reproduce original paper; natural images provided by Peter Hancock.",
+  "datePublished": "2020-04-13",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.3750741"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "http://doi.org/10.5281/zenodo.3750741"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-002/cert.pdf"
+  }
+}

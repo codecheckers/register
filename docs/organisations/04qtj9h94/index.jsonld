@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04qtj9h94",
+  "name": "Technical University of Denmark",
+  "identifier": "https://ror.org/04qtj9h94",
+  "url": "https://codecheck.org.uk/register/organisations/04qtj9h94/",
+  "sameAs": "https://dtu.dk",
+  "location": {
+    "@type": "Place",
+    "address": "Kongens Lyngby, Denmark"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/0005w8d69",
+  "name": "Università di Camerino",
+  "identifier": "https://ror.org/0005w8d69",
+  "url": "https://codecheck.org.uk/register/organisations/0005w8d69/",
+  "sameAs": "https://www.unicam.it",
+  "location": {
+    "@type": "Place",
+    "address": "Camerino, Italy"
+  }
+}

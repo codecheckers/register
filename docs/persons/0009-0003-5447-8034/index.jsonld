@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0003-5447-8034",
+      "name": "Prince Oppong Boakye",
+      "sameAs": "https://github.com/iprincegh"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-020/",
+      "name": "CODECHECK Certificate 2025-020",
+      "url": "https://codecheck.org.uk/register/certs/2025-020/",
+      "author": {
+        "@id": "https://orcid.org/0009-0003-5447-8034"
+      },
+      "datePublished": "2025-06-28"
+    }
+  ]
+}

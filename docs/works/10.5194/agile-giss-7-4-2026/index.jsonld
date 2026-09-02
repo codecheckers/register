@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-4-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-4-2026",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-4-2026", "https://openalex.org/W7164155701"],
+      "name": "Towards Fine-grained Relevance Scoring of Social Media Posts in Disaster Response: A Decay-based Regression Approach",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "David Hanny",
+          "@id": "https://orcid.org/0009-0004-8017-0786"
+        },
+        {
+          "@type": "Person",
+          "name": "Andreas Kramer",
+          "@id": "https://orcid.org/0009-0006-4763-749X"
+        },
+        {
+          "@type": "Person",
+          "name": "Ehsaneddin Jalilian",
+          "@id": "https://orcid.org/0000-0001-5925-5735"
+        },
+        {
+          "@type": "Person",
+          "name": "Sebastian Schmidt",
+          "@id": "https://orcid.org/0000-0003-1912-9771"
+        },
+        {
+          "@type": "Person",
+          "name": "Bernd Resch",
+          "@id": "https://orcid.org/0000-0002-2233-6926"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-006/",
+      "name": "CODECHECK Certificate 2026-006",
+      "url": "https://codecheck.org.uk/register/certs/2026-006/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-7-4-2026"
+      },
+      "datePublished": "2026-03-19"
+    }
+  ]
+}

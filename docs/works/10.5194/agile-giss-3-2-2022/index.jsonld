@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-2-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-2-2022",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-2-2022", "https://openalex.org/W4282976318"],
+      "name": "Understanding the Imperfection of 3D point Cloud and Semantic Segmentation algorithms for 3D Models of Indoor Environment",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Guoray Cai orcid 1 and",
+          "@id": "https://orcid.org/0000-0002-5189-8442"
+        },
+        {
+          "@type": "Person",
+          "name": "Yimu Pan"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-002/",
+      "name": "CODECHECK Certificate 2022-002",
+      "url": "https://codecheck.org.uk/register/certs/2022-002/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-3-2-2022"
+      },
+      "datePublished": "2022-07-09"
+    }
+  ]
+}

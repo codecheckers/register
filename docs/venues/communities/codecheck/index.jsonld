@@ -1,0 +1,208 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "CODECHECK",
+      "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/",
+      "url": "https://codecheck.org.uk/register/venues/communities/codecheck/",
+      "sameAs": "https://codecheck.org.uk",
+      "description": "CODECHECK is an initiative supporting the independent execution and verification of the code underlying scholarly research articles. Trained codecheckers rerun a paper's computations and award a certificate of executable computation when they succeed. The initiative partners with journals, conferences and institutions worldwide, including institutional programmes such as CODECHECK NL.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://codecheck.org.uk/img/codecheck_logo.svg"
+      }
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-002/",
+      "name": "CODECHECK Certificate 2020-002",
+      "url": "https://codecheck.org.uk/register/certs/2020-002/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "The principal components of natural images",
+        "url": "https://doi.org/10.1088/0954-898X_3_1_008",
+        "sameAs": "https://doi.org/10.1088/0954-898X_3_1_008"
+      },
+      "datePublished": "2020-04-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-003/",
+      "name": "CODECHECK Certificate 2020-003",
+      "url": "https://codecheck.org.uk/register/certs/2020-003/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Neural networks and physical systems with emergent collective computational abilities",
+        "url": "https://doi.org/10.1073/pnas.79.8.2554",
+        "sameAs": "https://doi.org/10.1073/pnas.79.8.2554"
+      },
+      "datePublished": "2020-04-06"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-004/",
+      "name": "CODECHECK Certificate 2020-004",
+      "url": "https://codecheck.org.uk/register/certs/2020-004/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Neuronlike adaptive elements that can solve difficult learning control problems",
+        "url": "https://doi.org/10.1109/TSMC.1983.6313077",
+        "sameAs": "https://doi.org/10.1109/TSMC.1983.6313077"
+      },
+      "datePublished": "2020-05-14"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-005/",
+      "name": "CODECHECK Certificate 2020-005",
+      "url": "https://codecheck.org.uk/register/certs/2020-005/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis\n",
+        "url": "https://doi.org/10.5281/zenodo.3538217",
+        "sameAs": "https://doi.org/10.5281/zenodo.3538217"
+      },
+      "datePublished": "2020-07-23"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-006/",
+      "name": "CODECHECK Certificate 2020-006",
+      "url": "https://codecheck.org.uk/register/certs/2020-006/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours\n",
+        "url": "https://doi.org/10.5281/zenodo.1003214",
+        "sameAs": "https://doi.org/10.5281/zenodo.1003214"
+      },
+      "datePublished": "2020-07-16"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-007/",
+      "name": "CODECHECK Certificate 2020-007",
+      "url": "https://codecheck.org.uk/register/certs/2020-007/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains\n",
+        "url": "https://doi.org/10.5281/zenodo.1327348",
+        "sameAs": "https://doi.org/10.5281/zenodo.1327348"
+      },
+      "datePublished": "2025-05-19"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-014/",
+      "name": "CODECHECK Certificate 2020-014",
+      "url": "https://codecheck.org.uk/register/certs/2020-014/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing\n",
+        "url": "https://doi.org/10.7554/eLife.52757",
+        "sameAs": "https://doi.org/10.7554/eLife.52757"
+      },
+      "datePublished": "2020-07-28"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-015/",
+      "name": "CODECHECK Certificate 2020-015",
+      "url": "https://codecheck.org.uk/register/certs/2020-015/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "A model for focal seizure onset, propagation, evolution, and progression\n",
+        "url": "https://doi.org/10.7554/eLife.50927",
+        "sameAs": "https://doi.org/10.7554/eLife.50927"
+      },
+      "datePublished": "2020-08-04"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-001/",
+      "name": "CODECHECK Certificate 2022-001",
+      "url": "https://codecheck.org.uk/register/certs/2022-001/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions\n",
+        "url": "http://www.iiep.unesco.org/en/publication/geographically-weighted-regressions-prioritizing-educational-planning-policies-and"
+      },
+      "datePublished": "2022-01-19"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-005/",
+      "name": "CODECHECK Certificate 2024-005",
+      "url": "https://codecheck.org.uk/register/certs/2024-005/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
+        "url": "https://doi.org/10.31234/osf.io/cz32t",
+        "sameAs": "https://doi.org/10.31234/osf.io/cz32t"
+      },
+      "datePublished": "2024-10-15"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-020/",
+      "name": "CODECHECK Certificate 2025-020",
+      "url": "https://codecheck.org.uk/register/certs/2025-020/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Exploring Categorical Colors",
+        "url": "https://doi.org/10.31234/osf.io/gj76p",
+        "sameAs": "https://doi.org/10.31234/osf.io/gj76p"
+      },
+      "datePublished": "2025-06-28"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-019/",
+      "name": "CODECHECK Certificate 2026-019",
+      "url": "https://codecheck.org.uk/register/certs/2026-019/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Photoreceptor-specific scene statistics reveal melanopic structure in natural environments",
+        "url": "https://doi.org/10.1016/j.isci.2026.116661",
+        "sameAs": "https://doi.org/10.1016/j.isci.2026.116661"
+      },
+      "datePublished": "2026-07-07"
+    }
+  ]
+}

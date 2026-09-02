@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7010-8370",
+      "name": "Michael Vorländer"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1016/j.heares.2024.109127",
+      "url": "https://doi.org/10.1016/j.heares.2024.109127",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7010-8370"
+      },
+      "name": "Influence of the cochlear partition’s flexibility on the macro mechanisms in the inner ear"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-20-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-20-2022",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-20-2022", "https://openalex.org/W4281951657"],
+      "name": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Pengxiang Zhao"
+        },
+        {
+          "@type": "Person",
+          "name": "Aoyong Li"
+        },
+        {
+          "@type": "Person",
+          "name": "Petter Pilesjö"
+        },
+        {
+          "@type": "Person",
+          "name": "Ali Mansourian"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-016/",
+      "name": "CODECHECK Certificate 2022-016",
+      "url": "https://codecheck.org.uk/register/certs/2022-016/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-3-20-2022"
+      },
+      "datePublished": "2022-07-09"
+    }
+  ]
+}

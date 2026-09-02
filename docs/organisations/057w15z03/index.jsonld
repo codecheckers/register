@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/057w15z03",
+  "name": "Erasmus University Rotterdam",
+  "identifier": "https://ror.org/057w15z03",
+  "url": "https://codecheck.org.uk/register/organisations/057w15z03/",
+  "sameAs": "https://www.eur.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Rotterdam, The Netherlands"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-020/",
+      "name": "CODECHECK Certificate 2024-020",
+      "url": "https://codecheck.org.uk/register/certs/2024-020/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-021/",
+      "name": "CODECHECK Certificate 2024-021",
+      "url": "https://codecheck.org.uk/register/certs/2024-021/"
+    }
+  ]
+}

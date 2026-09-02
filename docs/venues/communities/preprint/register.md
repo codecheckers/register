@@ -18,3 +18,4 @@ venue_type: community
 |[2023-012](../../../certs/2023-012/)|[doi.org/10.5281/zenodo.10213244](https://doi.org/10.5281/zenodo.10213244)|[An inventory of human light exposure related behaviour ](https://doi.org/10.1038/s41598-023-48241-y)                                                   |2023-11-26 |
 |[2024-001](../../../certs/2024-001/)|[doi.org/10.5281/zenodo.10823246](https://doi.org/10.5281/zenodo.10823246)|[Regulation of pupil size in natural vision across the human lifespan ](https://doi.org/10.1098/rsos.191613)                                            |2024-03-15 |
 |[2026-023](../../../certs/2026-023/)|[doi.org/10.5281/zenodo.22094773](https://doi.org/10.5281/zenodo.22094773)|[Circadian timing does not modulate human temporal contrast sensitivity ](https://doi.org/10.1101/2025.11.10.687546)                                    |2026-08-21 |
+

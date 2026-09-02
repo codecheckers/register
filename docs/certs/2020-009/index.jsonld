@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-009/",
+  "name": "CODECHECK Certificate 2020-009",
+  "url": "https://codecheck.org.uk/register/certs/2020-009/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Model of isolation, contact tracing, and physical distancing (Preprint)",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Adam Kucharski"
+      },
+      {
+        "@type": "Person",
+        "name": "COVID modelling group"
+      }
+    ],
+    "url": "https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf"
+  },
+  "reviewBody": "R code and packages worked well; simple edits needed to working directory.\n",
+  "datePublished": "2020-04-26",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.22109593"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.22109593"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-009/cert.pdf"
+  }
+}

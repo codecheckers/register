@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s41598-021-85363-7",
+      "url": "https://doi.org/10.1038/s41598-021-85363-7",
+      "sameAs": ["https://doi.org/10.1038/s41598-021-85363-7", "https://openalex.org/W3138189425"],
+      "name": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Aysun Urhan",
+          "@id": "https://orcid.org/0000-0001-8584-4736"
+        },
+        {
+          "@type": "Person",
+          "name": "Thomas Abeel",
+          "@id": "https://orcid.org/0000-0002-7205-7431"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-006/",
+      "name": "CODECHECK Certificate 2025-006",
+      "url": "https://codecheck.org.uk/register/certs/2025-006/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1038/s41598-021-85363-7"
+      },
+      "datePublished": "2025-05-01"
+    }
+  ]
+}

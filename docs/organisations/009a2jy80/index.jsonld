@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/009a2jy80",
+  "name": "Hexagon (Sweden)",
+  "identifier": "https://ror.org/009a2jy80",
+  "url": "https://codecheck.org.uk/register/organisations/009a2jy80/",
+  "sameAs": "https://hexagon.com/",
+  "location": {
+    "@type": "Place",
+    "address": "Stockholm, Sweden"
+  }
+}

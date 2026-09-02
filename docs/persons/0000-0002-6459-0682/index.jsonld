@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6459-0682",
+      "name": "Claus Brenner"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-2-10-2021",
+      "url": "https://doi.org/10.5194/agile-giss-2-10-2021",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6459-0682"
+      },
+      "name": "Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information"
+    }
+  ]
+}

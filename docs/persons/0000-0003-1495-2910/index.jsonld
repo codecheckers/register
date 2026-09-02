@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1495-2910",
+      "name": "Justyna Wilk"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1016/j.jas.2020.105306",
+      "url": "https://doi.org/10.1016/j.jas.2020.105306",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-1495-2910"
+      },
+      "name": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces"
+    }
+  ]
+}

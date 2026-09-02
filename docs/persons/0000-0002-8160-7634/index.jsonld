@@ -1,0 +1,50 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8160-7634",
+      "name": "Nina Wiedemann",
+      "sameAs": "https://github.com/NinaWie"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-003/",
+      "name": "CODECHECK Certificate 2023-003",
+      "url": "https://codecheck.org.uk/register/certs/2023-003/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8160-7634"
+      },
+      "datePublished": "2023-06-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-010/",
+      "name": "CODECHECK Certificate 2023-010",
+      "url": "https://codecheck.org.uk/register/certs/2023-010/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8160-7634"
+      },
+      "datePublished": "2023-06-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-009/",
+      "name": "CODECHECK Certificate 2025-009",
+      "url": "https://codecheck.org.uk/register/certs/2025-009/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8160-7634"
+      },
+      "datePublished": "2025-06-13"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-19-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-19-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8160-7634"
+      },
+      "name": "Unlocking social network analysis methods for studying human mobility"
+    }
+  ]
+}

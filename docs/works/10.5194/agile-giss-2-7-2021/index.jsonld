@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-2-7-2021",
+      "url": "https://doi.org/10.5194/agile-giss-2-7-2021",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-7-2021", "https://openalex.org/W3172863573"],
+      "name": "A Comparative Study of Typing and Speech For Map Metadata Creation",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Pei-Chun Lai"
+        },
+        {
+          "@type": "Person",
+          "name": "Auriol Degbelo",
+          "@id": "https://orcid.org/0000-0001-5087-8776"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-005/",
+      "name": "CODECHECK Certificate 2021-005",
+      "url": "https://codecheck.org.uk/register/certs/2021-005/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-2-7-2021"
+      },
+      "datePublished": "2021-06-10"
+    }
+  ]
+}

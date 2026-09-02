@@ -93,3 +93,4 @@ identifiers:
 |[2026-015](../../../certs/2026-015/)|[doi.org/10.17605/OSF.IO/VCGY2](https://doi.org/10.17605/OSF.IO/VCGY2)|[Assessing the Geographic Diversity of AI's Platial Representations in Image Generation](https://doi.org/10.5194/agile-giss-7-10-2026)          |2026-04-10 |
 |[2026-016](../../../certs/2026-016/)|[doi.org/10.17605/OSF.IO/WH6GD](https://doi.org/10.17605/OSF.IO/WH6GD)|[Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models](https://doi.org/10.5194/agile-giss-7-6-2026)|2026-04-27 |
 |[2026-017](../../../certs/2026-017/)|[doi.org/10.17605/OSF.IO/8C3VF](https://doi.org/10.17605/OSF.IO/8C3VF)|[OpenStreetMap Suitability Analysis for Wheelchair Routing](https://doi.org/10.5194/agile-giss-7-12-2026)                                       |2026-04-25 |
+

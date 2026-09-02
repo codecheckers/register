@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0003-3725-9454",
+      "name": "Josip Grguric",
+      "sameAs": "https://github.com/jgrguric96"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-007/",
+      "name": "CODECHECK Certificate 2025-007",
+      "url": "https://codecheck.org.uk/register/certs/2025-007/",
+      "author": {
+        "@id": "https://orcid.org/0009-0003-3725-9454"
+      },
+      "datePublished": "2025-05-26"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-001/",
+      "name": "CODECHECK Certificate 2026-001",
+      "url": "https://codecheck.org.uk/register/certs/2026-001/",
+      "author": {
+        "@id": "https://orcid.org/0009-0003-3725-9454"
+      },
+      "datePublished": "2026-03-03"
+    }
+  ]
+}

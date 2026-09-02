@@ -1,0 +1,65 @@
+{
+  "source": "https://codecheck.org.uk/register/organisations/02rc97e94/register.json",
+  "cert_count": 1,
+  "venue_count": 1,
+  "venues_per_type": {
+    "journal": 1
+  },
+  "checks_per_type_per_year": {
+    "2025": {
+      "journal": 1
+    }
+  },
+  "checks_per_year": {
+    "2025": 1
+  },
+  "checks_cumulative": {
+    "2025": 1
+  },
+  "venues_per_year": {
+    "2025": 1
+  },
+  "venues_cumulative": {
+    "2025": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2025": 1
+  },
+  "codecheckers_cumulative": {
+    "2025": 1
+  },
+  "platform_per_year": {
+    "2025": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2025": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "Lifecycle Journal",
+      "longname": "Lifecycle Journal",
+      "year_range": "2025",
+      "label": "lifecycle journal",
+      "cert_count": 1,
+      "page_type": "journal",
+      "page_type_plural": "journals",
+      "page_slug": "Lifecycle%20Journal",
+      "logo_url": "https://codecheck.org.uk/img/lifecyclejournal_logo.png",
+      "website_url": "https://lifecyclejournal.org/",
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-1-15-2020",
+      "url": "https://doi.org/10.5194/agile-giss-1-15-2020",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-1-15-2020", "https://openalex.org/W3043728279"],
+      "name": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Amine Medad",
+          "@id": "https://orcid.org/0000-0002-6473-9969"
+        },
+        {
+          "@type": "Person",
+          "name": "Mauro Gaio"
+        },
+        {
+          "@type": "Person",
+          "name": "Ludovic Moncla",
+          "@id": "https://orcid.org/0000-0002-1590-9546"
+        },
+        {
+          "@type": "Person",
+          "name": "Sébastien Mustière"
+        },
+        {
+          "@type": "Person",
+          "name": "Yannick Le Nir"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-021/",
+      "name": "CODECHECK Certificate 2020-021",
+      "url": "https://codecheck.org.uk/register/certs/2020-021/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-1-15-2020"
+      },
+      "datePublished": "2020-07-13"
+    }
+  ]
+}

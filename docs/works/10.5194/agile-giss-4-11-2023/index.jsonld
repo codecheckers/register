@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-11-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-11-2023",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-4-11-2023", "https://openalex.org/W4379798521"],
+      "name": "Extreme heat alerts and impacts across Mozambique 2016 - 2022: gathering evidence from media articles",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Carolina Pereira Marghidan",
+          "@id": "https://orcid.org/0000-0003-4427-4065"
+        },
+        {
+          "@type": "Person",
+          "name": "Maarten van Aalst",
+          "@id": "https://orcid.org/0000-0003-0319-5627"
+        },
+        {
+          "@type": "Person",
+          "name": "Justine Blanford",
+          "@id": "https://orcid.org/0000-0003-0844-9390"
+        },
+        {
+          "@type": "Person",
+          "name": "Genito Maure"
+        },
+        {
+          "@type": "Person",
+          "name": "Tatiana Marrufo"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-007/",
+      "name": "CODECHECK Certificate 2023-007",
+      "url": "https://codecheck.org.uk/register/certs/2023-007/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-4-11-2023"
+      },
+      "datePublished": "2023-06-13"
+    }
+  ]
+}

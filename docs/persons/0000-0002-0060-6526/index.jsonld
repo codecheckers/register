@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0060-6526",
+      "name": "Ewoud Smeur"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2507.03456",
+      "url": "https://doi.org/10.48550/arxiv.2507.03456",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-0060-6526"
+      },
+      "name": "Airspeed estimation for UAVs using only propeller feedback"
+    }
+  ]
+}

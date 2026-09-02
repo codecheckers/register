@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0006-1096-9108",
+      "name": "Luisa Lo Presti"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-11-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-11-2026",
+      "author": {
+        "@id": "https://orcid.org/0009-0006-1096-9108"
+      },
+      "name": "Exploring urban polygonal representation learning for complex footprint groups"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/05kytsw45",
+  "name": "Örebro University",
+  "identifier": "https://ror.org/05kytsw45",
+  "url": "https://codecheck.org.uk/register/organisations/05kytsw45/",
+  "sameAs": "https://www.oru.se",
+  "location": {
+    "@type": "Place",
+    "address": "Örebro, Sweden"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-4491-3744",
+      "name": "João Monteiro"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-5-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-5-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-4491-3744"
+      },
+      "name": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees"
+    }
+  ]
+}

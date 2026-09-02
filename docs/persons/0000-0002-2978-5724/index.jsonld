@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2978-5724",
+      "name": "Gerhard Navratil"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-2-13-2021",
+      "url": "https://doi.org/10.5194/agile-giss-2-13-2021",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-2978-5724"
+      },
+      "name": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0006-3516-9852",
+      "name": "Ruslan Mammadov"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-13-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-13-2026",
+      "author": {
+        "@id": "https://orcid.org/0009-0006-3516-9852"
+      },
+      "name": "Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels"
+    }
+  ]
+}

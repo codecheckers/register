@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02jgyam08",
+  "name": "Max Planck Institute for Demographic Research",
+  "identifier": "https://ror.org/02jgyam08",
+  "url": "https://codecheck.org.uk/register/organisations/02jgyam08/",
+  "sameAs": "http://www.demogr.mpg.de/en/",
+  "location": {
+    "@type": "Place",
+    "address": "Rostock, Germany"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-004/",
+      "name": "CODECHECK Certificate 2026-004",
+      "url": "https://codecheck.org.uk/register/certs/2026-004/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-017/",
+      "name": "CODECHECK Certificate 2026-017",
+      "url": "https://codecheck.org.uk/register/certs/2026-017/"
+    }
+  ]
+}

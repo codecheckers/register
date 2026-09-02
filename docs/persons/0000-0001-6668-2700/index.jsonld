@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6668-2700",
+      "name": "Ditsuhi Iskandaryan"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-6-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-6-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6668-2700"
+      },
+      "name": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide"
+    }
+  ]
+}

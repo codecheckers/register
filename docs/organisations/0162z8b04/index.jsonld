@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/0162z8b04",
+  "name": "Idaho State University",
+  "identifier": "https://ror.org/0162z8b04",
+  "url": "https://codecheck.org.uk/register/organisations/0162z8b04/",
+  "sameAs": "https://www.isu.edu",
+  "location": {
+    "@type": "Place",
+    "address": "Pocatello, United States"
+  }
+}

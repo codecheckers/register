@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01kj2bm70",
+  "name": "Newcastle University",
+  "identifier": "https://ror.org/01kj2bm70",
+  "url": "https://codecheck.org.uk/register/organisations/01kj2bm70/",
+  "sameAs": "https://www.ncl.ac.uk",
+  "location": {
+    "@type": "Place",
+    "address": "Newcastle upon Tyne, United Kingdom"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8381-3749",
+      "name": "Raniere Silva",
+      "sameAs": "https://github.com/rgaiacs"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-018/",
+      "name": "CODECHECK Certificate 2022-018",
+      "url": "https://codecheck.org.uk/register/certs/2022-018/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8381-3749"
+      },
+      "datePublished": "2022-09-27"
+    }
+  ]
+}

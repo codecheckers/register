@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03db2by73",
+  "name": "Instituto Superior Técnico",
+  "identifier": "https://ror.org/03db2by73",
+  "url": "https://codecheck.org.uk/register/organisations/03db2by73/",
+  "sameAs": "https://tecnico.ulisboa.pt",
+  "location": {
+    "@type": "Place",
+    "address": "Lisbon, Portugal"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-025/",
+      "name": "CODECHECK Certificate 2024-025",
+      "url": "https://codecheck.org.uk/register/certs/2024-025/"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3544-0631",
+      "name": "Rene Larisch"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.3538217",
+      "url": "https://doi.org/10.5281/zenodo.3538217",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-3544-0631"
+      },
+      "name": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis "
+    }
+  ]
+}

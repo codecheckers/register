@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5891-1702",
+      "name": "Tiziano Zito"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.1003214",
+      "url": "https://doi.org/10.5281/zenodo.1003214",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-5891-1702"
+      },
+      "name": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours "
+    }
+  ]
+}

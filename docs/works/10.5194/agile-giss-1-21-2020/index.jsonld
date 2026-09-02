@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-1-21-2020",
+      "url": "https://doi.org/10.5194/agile-giss-1-21-2020",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-1-21-2020", "https://openalex.org/W3043446483"],
+      "name": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Tobias Werner"
+        },
+        {
+          "@type": "Person",
+          "name": "Thomas Brinkhoff"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-020/",
+      "name": "CODECHECK Certificate 2020-020",
+      "url": "https://codecheck.org.uk/register/certs/2020-020/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-1-21-2020"
+      },
+      "datePublished": "2020-07-13"
+    }
+  ]
+}

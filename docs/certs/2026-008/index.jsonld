@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-008/",
+  "name": "AGILE 2026 Reproducibility Report - Paper 13",
+  "url": "https://codecheck.org.uk/register/certs/2026-008/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Joseph Shingleton",
+      "@id": "https://orcid.org/0000-0002-1628-3231"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ruslan Mammadov",
+        "@id": "https://orcid.org/0009-0006-3516-9852"
+      },
+      {
+        "@type": "Person",
+        "name": "Paul Walther",
+        "@id": "https://orcid.org/0000-0002-5101-5793"
+      },
+      {
+        "@type": "Person",
+        "name": "Julius Fricke",
+        "@id": "https://orcid.org/0009-0005-7709-8178"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Werner",
+        "@id": "https://orcid.org/0000-0002-6951-8022"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Remote Sensing Foundation Models (RSFMs), which are deep neural networks pre-trained on large-scale Earth observation datasets, have become increasingly popular in remote sensing in recent years. Meanwhile, regulatory changes such as the European Union’s Deforestation Regulation require a mapping of agricultural activities worldwide to ensure deforestation-free supply chains. In this context, we conduct a case study on the application of Foundation Models (FMs), such as CROMA and AlphaEarth, for the mapping of cocoa production in agroforestry systems in western Africa. In our study we show, that the pre-training of FMs does not improve the performance in data-rich conditions and that the pre-training only has limited advantage in zero-shot transfer applications. Still, the FMs show a higher sensitivity towards distribution shifts when fine-tuned in new environments. Based on our experiments, we comprehend insights for the selection and application of traditional convolutional neural network-based models and FMs in sparse-label remote sensing tasks.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/YH8F6<\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-7-13-2026",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-7-13-2026", "https://openalex.org/W7164194149"]
+  },
+  "reviewBody": "Partial reproduction of the foundation-model cocoa-mapping study. The provided code and data allowed the workflow to be run, though some files in the repository were differentiated only by path rather than filename, complicating the reproduction.\n",
+  "datePublished": "2026-03-31",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/OSF.IO/YH8F6"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/YH8F6"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-008/cert.pdf"
+  }
+}

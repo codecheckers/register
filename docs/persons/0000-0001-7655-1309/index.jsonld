@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7655-1309",
+      "name": "Maria Moleiro Dale"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-5-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-5-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-7655-1309"
+      },
+      "name": "Enhancing the Potential of a Tangible-Digital Planning Interface through User Evaluation"
+    }
+  ]
+}

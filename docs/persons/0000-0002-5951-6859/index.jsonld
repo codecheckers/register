@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5951-6859",
+      "name": "Cyril de Runz"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-3-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-3-2023",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-5951-6859"
+      },
+      "name": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-2-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-2-2024",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-5-2-2024", "https://openalex.org/W4399157568"],
+      "name": "Developing a city-specific walkability index through a participatory approach",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Matias Cardoso1"
+        },
+        {
+          "@type": "Person",
+          "name": "Vasileios Milias"
+        },
+        {
+          "@type": "Person",
+          "name": "Maurice Harteveld"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-009/",
+      "name": "CODECHECK Certificate 2024-009",
+      "url": "https://codecheck.org.uk/register/certs/2024-009/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-5-2-2024"
+      },
+      "datePublished": "2024-05-23"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-7205-7431",
+      "name": "Thomas Abeel"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s41598-021-85363-7",
+      "url": "https://doi.org/10.1038/s41598-021-85363-7",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-7205-7431"
+      },
+      "name": "Emergence of novel SARS-CoV-2 variants in the Netherlands"
+    }
+  ]
+}

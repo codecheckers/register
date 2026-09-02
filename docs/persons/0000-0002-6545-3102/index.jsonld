@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6545-3102",
+      "name": "Joao Guimaraes",
+      "sameAs": "https://github.com/joaoxg"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-004/",
+      "name": "CODECHECK Certificate 2025-004",
+      "url": "https://codecheck.org.uk/register/certs/2025-004/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6545-3102"
+      },
+      "datePublished": "2025-04-08"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-019/",
+      "name": "CODECHECK Certificate 2025-019",
+      "url": "https://codecheck.org.uk/register/certs/2025-019/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6545-3102"
+      },
+      "datePublished": "2025-06-11"
+    }
+  ]
+}

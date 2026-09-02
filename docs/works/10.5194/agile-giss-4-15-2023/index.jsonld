@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-15-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-15-2023",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-4-15-2023", "https://openalex.org/W4379647154"],
+      "name": "Advancing Forest Monitoring and Assessment Through Immersive Virtual Reality",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Raphael Zürcher",
+          "@id": "https://orcid.org/0000-0002-6206-956X"
+        },
+        {
+          "@type": "Person",
+          "name": "Jiayan Zhao",
+          "@id": "https://orcid.org/0000-0002-8533-6042"
+        },
+        {
+          "@type": "Person",
+          "name": "Alvaro Lau Sarmiento",
+          "@id": "https://orcid.org/0000-0002-0419-7002"
+        },
+        {
+          "@type": "Person",
+          "name": "Benjamin Brede",
+          "@id": "https://orcid.org/0000-0001-9253-4517"
+        },
+        {
+          "@type": "Person",
+          "name": "Alexander Klippel",
+          "@id": "https://orcid.org/0000-0002-7171-492X"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-005/",
+      "name": "CODECHECK Certificate 2023-005",
+      "url": "https://codecheck.org.uk/register/certs/2023-005/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-4-15-2023"
+      },
+      "datePublished": "2023-06-13"
+    }
+  ]
+}

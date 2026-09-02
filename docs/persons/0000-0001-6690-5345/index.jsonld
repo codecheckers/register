@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6690-5345",
+      "name": "Egor Kotov",
+      "sameAs": "https://github.com/e-kotov"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-004/",
+      "name": "CODECHECK Certificate 2026-004",
+      "url": "https://codecheck.org.uk/register/certs/2026-004/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6690-5345"
+      },
+      "datePublished": "2026-03-15"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-017/",
+      "name": "CODECHECK Certificate 2026-017",
+      "url": "https://codecheck.org.uk/register/certs/2026-017/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6690-5345"
+      },
+      "datePublished": "2026-04-25"
+    }
+  ]
+}

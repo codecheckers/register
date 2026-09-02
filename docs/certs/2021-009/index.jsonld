@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2021-009/",
+  "name": "Reproducibility review of: H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
+  "url": "https://codecheck.org.uk/register/certs/2021-009/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Rémy Decoupes",
+        "@id": "https://orcid.org/0000-0003-0863-9581"
+      },
+      {
+        "@type": "Person",
+        "name": "Rodrique Kafando",
+        "@id": "https://orcid.org/0000-0002-7190-9225"
+      },
+      {
+        "@type": "Person",
+        "name": "Mathieu Roche",
+        "@id": "https://orcid.org/0000-0003-3272-8568"
+      },
+      {
+        "@type": "Person",
+        "name": "Maguelonne Teisseire",
+        "@id": "https://orcid.org/0000-0001-9313-6414"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Data produced by social networks may contain weak signals of possible epidemic outbreaks. In this paper, we focus on Twitter data during the waiting period before the appearance of COVID-19 first cases outside China. Among the huge flow of tweets that reflects a global growing concern in all countries, we propose to analyze such data with an adaptation of the TF-IDF measure. It allows the users to extract the discriminant vocabularies used across time and space. The results are then discussed to show how the specific spatio-temporal anchoring of the extracted terms make it possible to follow the crisis dynamics on different scales of time and space.  \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-2-2-2021",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-2-2-2021", "https://openalex.org/W3171073192"]
+  },
+  "reviewBody": "The authors provide a well documented workflow analysing a large number of Tweets over a considerable\ntime span. Because of the data size, the authors provided instructions for a data subset, for which the\ncode could be executed successfully and the created figures match the provided baseline, and also confirm\nthat data can be created and the code is available for the results reported in the paper.\n",
+  "datePublished": "2021-06-10",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/osf.io/rdnyu"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/rdnyu"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2021-009/cert.pdf"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-5047-5205",
+      "name": "Hannah Sophie Heinrichs"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1101/2025.11.10.687546",
+      "url": "https://doi.org/10.1101/2025.11.10.687546",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-5047-5205"
+      },
+      "name": "Circadian timing does not modulate human temporal contrast sensitivity "
+    }
+  ]
+}

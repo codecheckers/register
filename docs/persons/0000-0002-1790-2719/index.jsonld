@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-1790-2719",
+      "name": "Thomas P A Debray"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1002/sim.10186",
+      "url": "https://doi.org/10.1002/sim.10186",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1790-2719"
+      },
+      "name": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment "
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2023-001/",
+  "name": "Reproducibility review of: Urban sound mapping for wayfinding - A theoretical approach and an empirical study",
+  "url": "https://codecheck.org.uk/register/certs/2023-001/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Philipp A. Friese",
+      "@id": "https://orcid.org/0000-0002-3124-5364"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Urban Sound Mapping for Wayfinding - A theoretical Approach and an empirical Study",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Eva Nuhn",
+        "@id": "https://orcid.org/0000-0003-2443-8122"
+      },
+      {
+        "@type": "Person",
+        "name": "Kai Hamburger"
+      },
+      {
+        "@type": "Person",
+        "name": "Sabine Timpf",
+        "@id": "https://orcid.org/0000-0002-7964-4110"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Conventional navigation systems use visually perceptible landmarks to navigate their users from a starting point to a destination. However, sometimes visual information is not enough for route guidance. Visually-impaired or elderly people may not be able to navigate using the visual sense. Furthermore, there may exist no outstanding (i.e., salient) visual landmarks that could be used to navigate. In such a case auditory information may be a helpful guide. We performed two online studies and a focus-group interview to identify possible sound classes in an urban environment. Based on our results, we gathered sounds in Augsburg and classified them according to their source. The findings support our notion that auditory information can be useful for spatial orientation and guidance in addition to or even replacing visual information. \n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-4-9-2023",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-4-9-2023", "https://openalex.org/W4379795573"]
+  },
+  "reviewBody": "The data of the paper under reproduction is published on figshare under a CC-BY-4.0 license.\nIn total, three tables, three figures, and two data points embedded into the text are eligible for reproduction.\nAll have been successfully reproduced. The authors showed concern and dedication to support reproducibility of their work.\nReproduction was successful.\n",
+  "datePublished": "2023-06-13",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/osf.io/c7vx3"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/c7vx3"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2023-001/cert.pdf"
+  }
+}

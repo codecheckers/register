@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-6438-6331",
+      "name": "Susanne Kohl"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1101/2020.06.02.129502",
+      "url": "https://doi.org/10.1101/2020.06.02.129502",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-6438-6331"
+      },
+      "name": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision "
+    }
+  ]
+}

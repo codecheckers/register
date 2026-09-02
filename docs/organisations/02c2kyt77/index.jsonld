@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02c2kyt77",
+  "name": "Eindhoven University of Technology",
+  "identifier": "https://ror.org/02c2kyt77",
+  "url": "https://codecheck.org.uk/register/organisations/02c2kyt77/",
+  "sameAs": "https://www.tue.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Eindhoven, The Netherlands"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-022/",
+      "name": "CODECHECK Certificate 2024-022",
+      "url": "https://codecheck.org.uk/register/certs/2024-022/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-023/",
+      "name": "CODECHECK Certificate 2024-023",
+      "url": "https://codecheck.org.uk/register/certs/2024-023/"
+    }
+  ]
+}

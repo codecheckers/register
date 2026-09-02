@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-7972-5634",
+      "name": "Rafael Lazar"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s41598-023-48241-y",
+      "url": "https://doi.org/10.1038/s41598-023-48241-y",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-7972-5634"
+      },
+      "name": "An inventory of human light exposure related behaviour "
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1098/rsos.191613",
+      "url": "https://doi.org/10.1098/rsos.191613",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-7972-5634"
+      },
+      "name": "Regulation of pupil size in natural vision across the human lifespan "
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04z8jg394",
+  "name": "GFZ Helmholtz Centre for Geosciences",
+  "identifier": "https://ror.org/04z8jg394",
+  "url": "https://codecheck.org.uk/register/organisations/04z8jg394/",
+  "sameAs": "https://www.gfz.de",
+  "location": {
+    "@type": "Place",
+    "address": "Potsdam, Germany"
+  }
+}

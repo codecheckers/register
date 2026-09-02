@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-3-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-3-2026",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-3-2026", "https://openalex.org/W7164176972"],
+      "name": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Ioanna Gogousou",
+          "@id": "https://orcid.org/0009-0001-3200-7202"
+        },
+        {
+          "@type": "Person",
+          "name": "Manuela Canestrini",
+          "@id": "https://orcid.org/0009-0005-1501-8398"
+        },
+        {
+          "@type": "Person",
+          "name": "Negar Alinaghi",
+          "@id": "https://orcid.org/0000-0001-6594-4481"
+        },
+        {
+          "@type": "Person",
+          "name": "Ioannis Giannopoulos",
+          "@id": "https://orcid.org/0000-0002-2556-5230"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-004/",
+      "name": "CODECHECK Certificate 2026-004",
+      "url": "https://codecheck.org.uk/register/certs/2026-004/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-7-3-2026"
+      },
+      "datePublished": "2026-03-15"
+    }
+  ]
+}

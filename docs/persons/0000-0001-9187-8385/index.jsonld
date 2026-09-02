@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9187-8385",
+      "name": "Thomas Devogele"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-3-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-3-2023",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9187-8385"
+      },
+      "name": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-2-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-2-2026",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9187-8385"
+      },
+      "name": "A Method for Spatializing Disturbance by Detecting Human-Wildlife Encounters from GNSS Trajectories"
+    }
+  ]
+}

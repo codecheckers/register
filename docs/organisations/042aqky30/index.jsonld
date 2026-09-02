@@ -1,0 +1,57 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/042aqky30",
+  "name": "Technische Universität Dresden",
+  "identifier": "https://ror.org/042aqky30",
+  "url": "https://codecheck.org.uk/register/organisations/042aqky30/",
+  "sameAs": "https://tu-dresden.de",
+  "location": {
+    "@type": "Place",
+    "address": "Dresden, Germany"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-007/",
+      "name": "CODECHECK Certificate 2020-007",
+      "url": "https://codecheck.org.uk/register/certs/2020-007/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-005/",
+      "name": "CODECHECK Certificate 2025-005",
+      "url": "https://codecheck.org.uk/register/certs/2025-005/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-008/",
+      "name": "CODECHECK Certificate 2025-008",
+      "url": "https://codecheck.org.uk/register/certs/2025-008/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-017/",
+      "name": "CODECHECK Certificate 2025-017",
+      "url": "https://codecheck.org.uk/register/certs/2025-017/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-027/",
+      "name": "CODECHECK Certificate 2025-027",
+      "url": "https://codecheck.org.uk/register/certs/2025-027/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-028/",
+      "name": "CODECHECK Certificate 2025-028",
+      "url": "https://codecheck.org.uk/register/certs/2025-028/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-014/",
+      "name": "CODECHECK Certificate 2026-014",
+      "url": "https://codecheck.org.uk/register/certs/2026-014/"
+    }
+  ]
+}

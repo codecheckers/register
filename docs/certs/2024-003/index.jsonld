@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2024-003/",
+  "name": "CODECHECK Certificate 2024-003",
+  "url": "https://codecheck.org.uk/register/certs/2024-003/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    },
+    {
+      "@type": "Person",
+      "name": "Delft 2024-05 participants"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances\n",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Filip Surma",
+        "@id": "https://orcid.org/0000-0002-6756-9598"
+      },
+      {
+        "@type": "Person",
+        "name": "Anahita Jamshidnejad",
+        "@id": "https://orcid.org/0000-0001-9151-2607"
+      }
+    ],
+    "abstract": "Most real-world systems are affected by external disturbances, which may be impossible or costly to measure. For instance, when autonomous robots move in dusty environments, the perception of their sensors is disturbed. Moreover, uneven terrains can cause ground robots to deviate from their planned trajectories. Thus, learning the external disturbances and incorporating this knowledge into the future predictions in decision-making can significantly contribute to improved performance. Our core idea is to learn the external disturbances that vary with the states of the system, and to incorporate this knowledge into a novel formulation for robust tube model predictive control (TMPC). Robust TMPC provides robustness to bounded disturbances considering the known (fixed) upper bound of the disturbances, but it does not consider the dynamics of the disturbances. This can lead to highly conservative solutions. We propose a new dynamic version of robust TMPC (with proven robust stability), called state-dependent dynamic TMPC (SDD-TMPC), which incorporates the dynamics of the disturbances into the decision-making of TMPC. In order to learn the dynamics of the disturbances as a function of the system states, a fuzzy model is proposed. We compare the performance of SDD-TMPC, MPC, and TMPC via simulations, in designed search-and-rescue scenarios. The results show that, while remaining robust to bounded external disturbances, SDD-TMPC generates less conservative solutions and remains feasible in more cases, compared to TMPC.",
+    "url": "https://doi.org/10.48550/arXiv.2310.19997",
+    "sameAs": ["https://doi.org/10.48550/arXiv.2310.19997", "https://openalex.org/W4388184325"]
+  },
+  "reviewBody": "Matlab code, requiring 3 additional toolboxes.  Case study 2 only. Full reproduction possible, takes about 2 hours to run\n",
+  "datePublished": "2024-05-30",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.11403956"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.11403956"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2024-003/cert.pdf"
+  }
+}

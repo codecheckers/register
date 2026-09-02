@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-4-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-4-2024",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-5-4-2024", "https://openalex.org/W4399157664"],
+      "name": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Ioanna Gogousou"
+        },
+        {
+          "@type": "Person",
+          "name": "Manuela Canestrini"
+        },
+        {
+          "@type": "Person",
+          "name": "Negar Alinaghi"
+        },
+        {
+          "@type": "Person",
+          "name": "Dimitrios Michail"
+        },
+        {
+          "@type": "Person",
+          "name": "Ioannis Giannopoulos"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-012/",
+      "name": "CODECHECK Certificate 2024-012",
+      "url": "https://codecheck.org.uk/register/certs/2024-012/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-5-4-2024"
+      },
+      "datePublished": "2024-05-30"
+    }
+  ]
+}

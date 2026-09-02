@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-3071-5563",
+      "name": "Farnaghi, Mahdi"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.13734819",
+      "url": "https://doi.org/10.5281/zenodo.13734819",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-3071-5563"
+      },
+      "name": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions"
+    }
+  ]
+}

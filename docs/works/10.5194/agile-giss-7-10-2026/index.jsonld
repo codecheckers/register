@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-10-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-10-2026",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-10-2026", "https://openalex.org/W7164183500"],
+      "name": "Assessing the Geographic Diversity of AI's Platial Representations in Image Generation",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Zilong Liu",
+          "@id": "https://orcid.org/0000-0002-7699-3366"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzysztof Janowicz",
+          "@id": "https://orcid.org/0009-0003-1968-887X"
+        },
+        {
+          "@type": "Person",
+          "name": "Mina Karimi",
+          "@id": "https://orcid.org/0000-0003-2521-8164"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-015/",
+      "name": "CODECHECK Certificate 2026-015",
+      "url": "https://codecheck.org.uk/register/certs/2026-015/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-7-10-2026"
+      },
+      "datePublished": "2026-04-10"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.46471/gigabyte.70",
+      "url": "https://doi.org/10.46471/gigabyte.70",
+      "sameAs": ["https://doi.org/10.46471/gigabyte.70", "https://openalex.org/W4301603101"],
+      "name": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Ruining Dong",
+          "@id": "https://orcid.org/0000-0003-1433-0484"
+        },
+        {
+          "@type": "Person",
+          "name": "Daniel Cameron",
+          "@id": "https://orcid.org/0000-0002-0951-7116"
+        },
+        {
+          "@type": "Person",
+          "name": "Justin Bedo",
+          "@id": "https://orcid.org/0000-0001-5704-0212"
+        },
+        {
+          "@type": "Person",
+          "name": "Anthony T Papenfuss",
+          "@id": "https://orcid.org/0000-0002-1102-8506"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-018/",
+      "name": "CODECHECK Certificate 2022-018",
+      "url": "https://codecheck.org.uk/register/certs/2022-018/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.46471/gigabyte.70"
+      },
+      "datePublished": "2022-09-27"
+    }
+  ]
+}

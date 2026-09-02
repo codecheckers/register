@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-8910-9445",
+      "name": "Rui Zhu"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-2-14-2021",
+      "url": "https://doi.org/10.5194/agile-giss-2-14-2021",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8910-9445"
+      },
+      "name": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-9-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-9-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8910-9445"
+      },
+      "name": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing"
+    }
+  ]
+}

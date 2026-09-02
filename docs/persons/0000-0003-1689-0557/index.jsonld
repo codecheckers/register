@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-1689-0557",
+      "name": "Bjørn Peare Bartholdy"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.24072/pcjournal.414",
+      "url": "https://doi.org/10.24072/pcjournal.414",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-1689-0557"
+      },
+      "name": "Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population"
+    }
+  ]
+}

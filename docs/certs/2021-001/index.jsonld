@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2021-001/",
+  "name": "CODECHECK Certificate 2021-001",
+  "url": "https://codecheck.org.uk/register/certs/2021-001/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Marcel Stimberg",
+      "@id": "https://orcid.org/0000-0002-2648-4790"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Causality indices for bivariate time series data: a comparative review of performance",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Tom Edinburgh",
+        "@id": "https://orcid.org/0000-0002-3599-7133"
+      },
+      {
+        "@type": "Person",
+        "name": "Stephen J. Eglen",
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      {
+        "@type": "Person",
+        "name": "Ari Ercole",
+        "@id": "https://orcid.org/0000-0001-8350-8093"
+      }
+    ],
+    "abstract": "Inferring nonlinear and asymmetric causal relationships between multivariate longitudinal data is a challenging task with wide-ranging application areas including clinical medicine, mathematical biology, economics and environmental research. A number of methods for inferring causal relationships within complex dynamic and stochastic systems have been proposed but there is not a unified consistent definition of causality in this context. We evaluate the performance of ten prominent bivariate causality indices for time series data, across four simulated model systems that have different coupling schemes and characteristics. In further experiments, we show that these methods may not always be invariant to real-world relevant transformations (data availability, standardisation and scaling, rounding error, missing data and noisy data). We recommend transfer entropy and nonlinear Granger causality as likely to be particularly robust indices for estimating bivariate causal relationships in real-world applications. Finally, we provide flexible open-access Python code for computation of these methods and for the model simulations.",
+    "url": "https://doi.org/10.48550/arXiv.2104.00718",
+    "sameAs": ["https://doi.org/10.48550/arXiv.2104.00718", "https://openalex.org/W6948154681"]
+  },
+  "reviewBody": "The authors provided all material and documented the process well, the check was therefore straightforward. Due to long computation times, only a subset of the results could be checked. Reproducing the results in the repository was successful, with non-significant numerical discrepancies. However, a small number of minor differences with the results in the arXiv preprint merit clarification.\n",
+  "datePublished": "2021-04-27",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.22205872"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.22205872"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2021-001/cert.pdf"
+  }
+}

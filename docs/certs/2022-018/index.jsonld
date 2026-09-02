@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-018/",
+  "name": "CODECHECK Certificate 2022-018",
+  "url": "https://codecheck.org.uk/register/certs/2022-018/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Raniere Silva",
+      "@id": "https://orcid.org/0000-0002-8381-3749"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ruining Dong",
+        "@id": "https://orcid.org/0000-0003-1433-0484"
+      },
+      {
+        "@type": "Person",
+        "name": "Daniel Cameron",
+        "@id": "https://orcid.org/0000-0002-0951-7116"
+      },
+      {
+        "@type": "Person",
+        "name": "Justin Bedo",
+        "@id": "https://orcid.org/0000-0001-5704-0212"
+      },
+      {
+        "@type": "Person",
+        "name": "Anthony T Papenfuss",
+        "@id": "https://orcid.org/0000-0002-1102-8506"
+      }
+    ],
+    "abstract": "<jats:p>Nuclear integration of mitochondrial genomes and retrocopied transcript insertion are biologically important but often-overlooked aspects of structural variant (SV) annotation. While tools for their detection exist, these typically rely on reanalysis of primary data using specialised detectors rather than leveraging calls from general purpose structural variant callers. Such reanalysis potentially leads to additional computational expense and does not take advantage of advances in general purpose structural variant calling. Here, we present svaRetro and svaNUMT; R packages that provide functions for annotating novel genomic events, such as nonreference retrocopied transcripts and nuclear integration of mitochondrial DNA. The packages were developed to work within the Bioconductor framework. We evaluate the performance of these packages to detect events using simulations and public benchmarking datasets, and annotate processed transcripts in a public structural variant database. svaRetro and svaNUMT provide modular, SV-caller agnostic tools for downstream annotation of structural variant calls.<\/jats:p>",
+    "url": "https://doi.org/10.46471/gigabyte.70",
+    "sameAs": ["https://doi.org/10.46471/gigabyte.70", "https://openalex.org/W4301603101"]
+  },
+  "reviewBody": "Only visualisation steps performed. All created figures match those in the article.\n",
+  "datePublished": "2022-09-27",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.7084333"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.7084333"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2022-018/cert.pdf"
+  }
+}

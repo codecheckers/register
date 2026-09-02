@@ -22,3 +22,4 @@ venue_type: community
 |[2024-025](../../../certs/2024-025/)|[doi.org/10.5281/zenodo.15023714](https://doi.org/10.5281/zenodo.15023714)|[Determination of a diffusion coefficient function for long rooms using a least square optimization approach](https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf)|2024-11-08 |
 |[2025-001](../../../certs/2025-001/)|[doi.org/10.5281/zenodo.15389126](https://doi.org/10.5281/zenodo.15389126)|[Multiproxy analysis exploring patterns of diet and disease in dental calculus and skeletal remains from a 19th century Dutch population](https://doi.org/10.24072/pcjournal.414)|2025-02-14 |
 |[2025-002](../../../certs/2025-002/)|[doi.org/10.5281/zenodo.15173758](https://doi.org/10.5281/zenodo.15173758)|[Evaluating Subtitle Segmentation for End-to-end Generation systems](https://aclanthology.org/2022.lrec-1.328/)                         |2025-02-14 |
+

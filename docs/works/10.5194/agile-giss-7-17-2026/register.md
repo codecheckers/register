@@ -10,3 +10,4 @@ venues: AGILEGIS
 |Certificate |Report                     |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
 |[2026-014](../../../certs/2026-014/)|[doi.org/10.53962/pdw8-n5v0](https://doi.org/10.53962/pdw8-n5v0)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2026-06-11 |
+

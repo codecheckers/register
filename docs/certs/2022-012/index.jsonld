@@ -1,0 +1,58 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2022-012/",
+  "name": "Reproducibility review of: The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
+  "url": "https://codecheck.org.uk/register/certs/2022-012/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rémy Decoupes",
+      "@id": "https://orcid.org/0000-0003-0863-9581"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Hyesop Shin"
+      },
+      {
+        "@type": "Person",
+        "name": "Costanza Cagnina"
+      },
+      {
+        "@type": "Person",
+        "name": "Anahid Basiri",
+        "@id": "https://orcid.org/0000-0002-2399-1797"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Active travel provides significant public health benefits including improving physical and mental health and air quality. Given the geography of congested roads, availability of required infrastructure and cost of transportation in cities, promoting active travel, including cycling, can be a good solution for commuting within built environments. Having a better understanding of the key drivers that may influence bike ridership can help with designing cities that accommodate cyclists’ needs for healthier citizens. This paper examines the built environment features that may affect commuting cyclists. We respectively employ Ordinary Linear Square (OLS) regression and Geographically Weighted Regression (GWR) for 136 Intermediate Zones of the city of Glasgow, UK. The results of GWR show that the significant local variation in green areas suggests that even though the global regression showed a negative association between the greenness and commute cycling, over half of the IZ areas had a strong positive association with the green areas. Building height and Public Transport Availability Index show geographic patterns where the residuals are fairly stationary across the study area with some clusters of high residuals. Performance wise, the results from GWR provided an R2 of 0.73 which was higher than OLS at 0.3. Our results can provide insights into how to use crowdsourced cycling data when there are spatially and temporally limited resources available.\n                    <\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-3-15-2022",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-3-15-2022", "https://openalex.org/W4282006514"]
+  },
+  "reviewBody": "The authors provide all the data and code in their GitHub repository. From a fresh install of R, the software environment is easily set up. The authors provide one R script and one computational notebook, which could be executed successfully to create all the paper's figures.\n",
+  "datePublished": "2022-07-09",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/osf.io/r6psq"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/osf.io/r6psq"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2022-012/cert.pdf"
+  }
+}

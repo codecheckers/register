@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0003-8352-7288",
+      "name": "Max Reichert"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-020/",
+      "name": "CODECHECK Certificate 2024-020",
+      "url": "https://codecheck.org.uk/register/certs/2024-020/",
+      "author": {
+        "@id": "https://orcid.org/0009-0003-8352-7288"
+      },
+      "datePublished": "2024-11-28"
+    }
+  ]
+}

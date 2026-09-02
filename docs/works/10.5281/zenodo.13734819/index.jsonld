@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.13734819",
+      "url": "https://doi.org/10.5281/zenodo.13734819",
+      "sameAs": ["https://doi.org/10.5281/zenodo.13734819", "https://openalex.org/W6893062762"],
+      "name": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "DelaPaz-Ruíz, Néstor",
+          "@id": "https://orcid.org/0000-0002-8941-4677"
+        },
+        {
+          "@type": "Person",
+          "name": "Augustijn, Ellen-Wien",
+          "@id": "https://orcid.org/0000-0002-3389-7585"
+        },
+        {
+          "@type": "Person",
+          "name": "Farnaghi, Mahdi",
+          "@id": "https://orcid.org/0000-0002-3071-5563"
+        },
+        {
+          "@type": "Person",
+          "name": "Abdulkareem, Shaheen A.",
+          "@id": "https://orcid.org/0000-0002-9837-0207"
+        },
+        {
+          "@type": "Person",
+          "name": "Zurita-Milla, Raul",
+          "@id": "https://orcid.org/0000-0002-1769-6310"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-016/",
+      "name": "CODECHECK Certificate 2024-016",
+      "url": "https://codecheck.org.uk/register/certs/2024-016/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5281/zenodo.13734819"
+      },
+      "datePublished": "2024-09-26"
+    }
+  ]
+}

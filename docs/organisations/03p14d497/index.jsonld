@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03p14d497",
+  "name": "University of Augsburg",
+  "identifier": "https://ror.org/03p14d497",
+  "url": "https://codecheck.org.uk/register/organisations/03p14d497/",
+  "sameAs": "https://www.uni-augsburg.de",
+  "location": {
+    "@type": "Place",
+    "address": "Augsburg, Germany"
+  }
+}

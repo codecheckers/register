@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Periodical",
+      "name": "GigaByte",
+      "@id": "https://portal.issn.org/resource/ISSN/2709-4715",
+      "url": "https://codecheck.org.uk/register/venues/journals/gigabyte/",
+      "sameAs": "https://gigabytejournal.com/",
+      "description": "GigaByte is an open-access journal from GigaScience Press covering complex, large-scale data research across the life sciences. Authors must make supporting data and source code publicly available, hosted alongside the article via the companion GigaDB database. The journal runs an open, transparent peer-review process built around the UNESCO Open Science Recommendation.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://codecheck.org.uk/img/gigabyte_logo.svg"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ISSN",
+          "value": "2709-4715",
+          "url": "https://portal.issn.org/resource/ISSN/2709-4715"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-018/",
+      "name": "CODECHECK Certificate 2022-018",
+      "url": "https://codecheck.org.uk/register/certs/2022-018/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://portal.issn.org/resource/ISSN/2709-4715"
+        },
+        "name": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
+        "url": "https://doi.org/10.46471/gigabyte.70",
+        "sameAs": "https://doi.org/10.46471/gigabyte.70"
+      },
+      "datePublished": "2022-09-27"
+    }
+  ]
+}

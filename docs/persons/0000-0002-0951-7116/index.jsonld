@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-0951-7116",
+      "name": "Daniel Cameron"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.46471/gigabyte.70",
+      "url": "https://doi.org/10.46471/gigabyte.70",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-0951-7116"
+      },
+      "name": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8584-4736",
+      "name": "Aysun Urhan",
+      "sameAs": "https://github.com/aysunrhn"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-003/",
+      "name": "CODECHECK Certificate 2025-003",
+      "url": "https://codecheck.org.uk/register/certs/2025-003/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8584-4736"
+      },
+      "datePublished": "2025-03-25"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s41598-021-85363-7",
+      "url": "https://doi.org/10.1038/s41598-021-85363-7",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8584-4736"
+      },
+      "name": "Emergence of novel SARS-CoV-2 variants in the Netherlands"
+    }
+  ]
+}

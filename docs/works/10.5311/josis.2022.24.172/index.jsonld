@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5311/josis.2022.24.172",
+      "url": "https://doi.org/10.5311/josis.2022.24.172",
+      "sameAs": ["https://doi.org/10.5311/josis.2022.24.172", "https://openalex.org/W4288754796"],
+      "name": "ClockBoard: A zoning system for urban analysis",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Robin Lovelace",
+          "@id": "https://orcid.org/0000-0001-5679-6536"
+        },
+        {
+          "@type": "Person",
+          "name": "Martijn Tennekes",
+          "@id": "https://orcid.org/0000-0002-6506-9522"
+        },
+        {
+          "@type": "Person",
+          "name": "Dustin Carlino",
+          "@id": "https://orcid.org/0000-0002-5565-0989"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-027/",
+      "name": "CODECHECK Certificate 2025-027",
+      "url": "https://codecheck.org.uk/register/certs/2025-027/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5311/josis.2022.24.172"
+      },
+      "datePublished": "2025-09-04"
+    }
+  ]
+}

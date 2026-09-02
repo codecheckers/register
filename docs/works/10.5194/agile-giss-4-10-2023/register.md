@@ -10,3 +10,4 @@ venues: AGILEGIS
 |Certificate |Report                        |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
 |[2023-006](../../../certs/2023-006/)|[doi.org/10.17605/OSF.IO/D2SHF](https://doi.org/10.17605/OSF.IO/D2SHF)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2023-06-13 |
+

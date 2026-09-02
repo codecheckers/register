@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.3538217",
+      "url": "https://doi.org/10.5281/zenodo.3538217",
+      "sameAs": ["https://doi.org/10.5281/zenodo.3538217", "https://openalex.org/W3206275069"],
+      "name": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Rene Larisch",
+          "@id": "https://orcid.org/0000-0003-3544-0631"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-005/",
+      "name": "CODECHECK Certificate 2020-005",
+      "url": "https://codecheck.org.uk/register/certs/2020-005/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5281/zenodo.3538217"
+      },
+      "datePublished": "2020-07-23"
+    }
+  ]
+}

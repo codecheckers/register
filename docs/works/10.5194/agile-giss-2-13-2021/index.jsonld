@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-2-13-2021",
+      "url": "https://doi.org/10.5194/agile-giss-2-13-2021",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-13-2021", "https://openalex.org/W3165945407"],
+      "name": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Martin Schmidl"
+        },
+        {
+          "@type": "Person",
+          "name": "Gerhard Navratil",
+          "@id": "https://orcid.org/0000-0002-2978-5724"
+        },
+        {
+          "@type": "Person",
+          "name": "Ioannis Giannopoulos",
+          "@id": "https://orcid.org/0000-0002-2556-5230"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-010/",
+      "name": "CODECHECK Certificate 2021-010",
+      "url": "https://codecheck.org.uk/register/certs/2021-010/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-2-13-2021"
+      },
+      "datePublished": "2021-06-10"
+    }
+  ]
+}

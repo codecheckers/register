@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-9724-820X",
+      "name": "Carsten Keßler"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-3-5-2022",
+      "url": "https://doi.org/10.5194/agile-giss-3-5-2022",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-9724-820X"
+      },
+      "name": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees"
+    }
+  ]
+}

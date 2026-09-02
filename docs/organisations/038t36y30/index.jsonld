@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/038t36y30",
+  "name": "Heidelberg University",
+  "identifier": "https://ror.org/038t36y30",
+  "url": "https://codecheck.org.uk/register/organisations/038t36y30/",
+  "sameAs": "https://www.uni-heidelberg.de",
+  "location": {
+    "@type": "Place",
+    "address": "Heidelberg, Germany"
+  }
+}

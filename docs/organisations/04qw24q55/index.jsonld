@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04qw24q55",
+  "name": "Wageningen University & Research",
+  "identifier": "https://ror.org/04qw24q55",
+  "url": "https://codecheck.org.uk/register/organisations/04qw24q55/",
+  "sameAs": "https://www.wur.nl/",
+  "location": {
+    "@type": "Place",
+    "address": "Wageningen, The Netherlands"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/041kmwe10",
+  "name": "Imperial College London",
+  "identifier": "https://ror.org/041kmwe10",
+  "url": "https://codecheck.org.uk/register/organisations/041kmwe10/",
+  "sameAs": "https://www.imperial.ac.uk",
+  "location": {
+    "@type": "Place",
+    "address": "London, United Kingdom"
+  }
+}

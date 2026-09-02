@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1016/j.jas.2020.105306",
+      "url": "https://doi.org/10.1016/j.jas.2020.105306",
+      "sameAs": ["https://doi.org/10.1016/j.jas.2020.105306", "https://openalex.org/W3112754451"],
+      "name": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Francesco Carrer",
+          "@id": "https://orcid.org/0000-0003-4397-4502"
+        },
+        {
+          "@type": "Person",
+          "name": "Tomasz M. Kossowski",
+          "@id": "https://orcid.org/0000-0002-9976-4398"
+        },
+        {
+          "@type": "Person",
+          "name": "Justyna Wilk",
+          "@id": "https://orcid.org/0000-0003-1495-2910"
+        },
+        {
+          "@type": "Person",
+          "name": "Michał B. Pietrzak",
+          "@id": "https://orcid.org/0000-0002-9263-4478"
+        },
+        {
+          "@type": "Person",
+          "name": "Roger S. Bivand",
+          "@id": "https://orcid.org/0000-0003-2392-6140"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-025/",
+      "name": "CODECHECK Certificate 2020-025",
+      "url": "https://codecheck.org.uk/register/certs/2020-025/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1016/j.jas.2020.105306"
+      },
+      "datePublished": "2020-11-19"
+    }
+  ]
+}

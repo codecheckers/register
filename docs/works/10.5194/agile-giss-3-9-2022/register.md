@@ -10,3 +10,4 @@ venues: AGILEGIS
 |Certificate |Report                        |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
 |[2022-007](../../../certs/2022-007/)|[doi.org/10.17605/OSF.IO/3DSMV](https://doi.org/10.17605/OSF.IO/3DSMV)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2022-07-09 |
+

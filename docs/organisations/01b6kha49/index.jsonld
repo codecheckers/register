@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01b6kha49",
+  "name": "Walter and Eliza Hall Institute of Medical Research",
+  "identifier": "https://ror.org/01b6kha49",
+  "url": "https://codecheck.org.uk/register/organisations/01b6kha49/",
+  "sameAs": "https://www.wehi.edu.au",
+  "location": {
+    "@type": "Place",
+    "address": "Melbourne, Australia"
+  }
+}

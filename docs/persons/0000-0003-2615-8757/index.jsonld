@@ -1,0 +1,51 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-2615-8757",
+      "name": "Jakub Krukar",
+      "sameAs": "https://github.com/kubakrukar"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-006/",
+      "name": "CODECHECK Certificate 2021-006",
+      "url": "https://codecheck.org.uk/register/certs/2021-006/",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-2615-8757"
+      },
+      "datePublished": "2021-06-10"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-013/",
+      "name": "CODECHECK Certificate 2022-013",
+      "url": "https://codecheck.org.uk/register/certs/2022-013/",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-2615-8757"
+      },
+      "datePublished": "2022-07-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-015/",
+      "name": "CODECHECK Certificate 2022-015",
+      "url": "https://codecheck.org.uk/register/certs/2022-015/",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-2615-8757"
+      },
+      "datePublished": "2022-07-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-006/",
+      "name": "CODECHECK Certificate 2023-006",
+      "url": "https://codecheck.org.uk/register/certs/2023-006/",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-2615-8757"
+      },
+      "datePublished": "2023-06-13"
+    }
+  ]
+}

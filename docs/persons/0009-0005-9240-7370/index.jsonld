@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0005-9240-7370",
+      "name": "Yasel Quintero",
+      "sameAs": "https://github.com/yiquintero"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-019/",
+      "name": "CODECHECK Certificate 2024-019",
+      "url": "https://codecheck.org.uk/register/certs/2024-019/",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-9240-7370"
+      },
+      "datePublished": "2024-12-04"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-003/",
+      "name": "CODECHECK Certificate 2025-003",
+      "url": "https://codecheck.org.uk/register/certs/2025-003/",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-9240-7370"
+      },
+      "datePublished": "2025-03-25"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-006/",
+      "name": "CODECHECK Certificate 2025-006",
+      "url": "https://codecheck.org.uk/register/certs/2025-006/",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-9240-7370"
+      },
+      "datePublished": "2025-05-01"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-007/",
+      "name": "CODECHECK Certificate 2025-007",
+      "url": "https://codecheck.org.uk/register/certs/2025-007/",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-9240-7370"
+      },
+      "datePublished": "2025-05-26"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-022/",
+      "name": "CODECHECK Certificate 2025-022",
+      "url": "https://codecheck.org.uk/register/certs/2025-022/",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-9240-7370"
+      },
+      "datePublished": "2025-08-04"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-001/",
+      "name": "CODECHECK Certificate 2026-001",
+      "url": "https://codecheck.org.uk/register/certs/2026-001/",
+      "author": {
+        "@id": "https://orcid.org/0009-0005-9240-7370"
+      },
+      "datePublished": "2026-03-03"
+    }
+  ]
+}

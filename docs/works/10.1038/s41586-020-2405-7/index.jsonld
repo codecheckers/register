@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s41586-020-2405-7",
+      "url": "https://doi.org/10.1038/s41586-020-2405-7",
+      "sameAs": ["https://doi.org/10.1038/s41586-020-2405-7", "https://openalex.org/W3032971139"],
+      "name": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Seth Flaxman"
+        },
+        {
+          "@type": "Person",
+          "name": "Imperial College COVID-19 Response Team"
+        },
+        {
+          "@type": "Person",
+          "name": "Samir Bhatt",
+          "@id": "https://orcid.org/0000-0002-0891-4611"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-011/",
+      "name": "CODECHECK Certificate 2020-011",
+      "url": "https://codecheck.org.uk/register/certs/2020-011/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1038/s41586-020-2405-7"
+      },
+      "datePublished": "2020-06-13"
+    }
+  ]
+}

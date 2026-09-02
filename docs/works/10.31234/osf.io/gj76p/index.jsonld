@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31234/osf.io/gj76p",
+      "url": "https://doi.org/10.31234/osf.io/gj76p",
+      "sameAs": ["https://doi.org/10.31234/osf.io/gj76p", "https://openalex.org/W4399738503"],
+      "name": "Exploring Categorical Colors",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Lukas Röseler",
+          "@id": "https://orcid.org/0000-0002-6446-1901"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-020/",
+      "name": "CODECHECK Certificate 2025-020",
+      "url": "https://codecheck.org.uk/register/certs/2025-020/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.31234/osf.io/gj76p"
+      },
+      "datePublished": "2025-06-28"
+    }
+  ]
+}

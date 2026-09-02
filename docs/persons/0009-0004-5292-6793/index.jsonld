@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0004-5292-6793",
+      "name": "Luke McQuade",
+      "sameAs": "https://github.com/lukesdm"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-010/",
+      "name": "CODECHECK Certificate 2025-010",
+      "url": "https://codecheck.org.uk/register/certs/2025-010/",
+      "author": {
+        "@id": "https://orcid.org/0009-0004-5292-6793"
+      },
+      "datePublished": "2025-03-23"
+    }
+  ]
+}

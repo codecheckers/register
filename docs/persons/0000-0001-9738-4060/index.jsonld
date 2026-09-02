@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9738-4060",
+      "name": "Benjamin Herfort"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-4-5-2023",
+      "url": "https://doi.org/10.5194/agile-giss-4-5-2023",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9738-4060"
+      },
+      "name": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquake"
+    }
+  ]
+}

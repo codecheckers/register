@@ -10,3 +10,4 @@ venues: AGILEGIS
 |Certificate |Report                        |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
 |[2024-010](../../../certs/2024-010/)|[doi.org/10.17605/osf.io/NBK57](https://doi.org/10.17605/osf.io/NBK57)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2024-05-27 |
+

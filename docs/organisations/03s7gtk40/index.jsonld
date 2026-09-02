@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03s7gtk40",
+  "name": "Leipzig University",
+  "identifier": "https://ror.org/03s7gtk40",
+  "url": "https://codecheck.org.uk/register/organisations/03s7gtk40/",
+  "sameAs": "https://www.uni-leipzig.de/en/",
+  "location": {
+    "@type": "Place",
+    "address": "Leipzig, Germany"
+  }
+}

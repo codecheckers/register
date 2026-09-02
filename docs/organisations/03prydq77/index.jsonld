@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03prydq77",
+  "name": "University of Vienna",
+  "identifier": "https://ror.org/03prydq77",
+  "url": "https://codecheck.org.uk/register/organisations/03prydq77/",
+  "sameAs": "https://www.univie.ac.at",
+  "location": {
+    "@type": "Place",
+    "address": "Vienna, Austria"
+  }
+}

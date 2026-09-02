@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01bnjb948",
+  "name": "Netherlands Organisation for Applied Scientific Research",
+  "identifier": "https://ror.org/01bnjb948",
+  "url": "https://codecheck.org.uk/register/organisations/01bnjb948/",
+  "sameAs": "https://www.tno.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Delft, The Netherlands"
+  }
+}

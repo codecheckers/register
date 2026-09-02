@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2025-010/",
+  "name": "Reproducibility Review of: Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
+  "url": "https://codecheck.org.uk/register/certs/2025-010/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Luke McQuade",
+      "@id": "https://orcid.org/0009-0004-5292-6793"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ayda Grišiūtė",
+        "@id": "https://orcid.org/0000-0001-7328-847X"
+      },
+      {
+        "@type": "Person",
+        "name": "Martin Raubal",
+        "@id": "https://orcid.org/0000-0001-5951-6835"
+      },
+      {
+        "@type": "Person",
+        "name": "Pieter Herthogs",
+        "@id": "https://orcid.org/0000-0003-2262-8374"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. This study addresses the challenge of evaluating Singapore’s long-term urban strategy by quantifying the impact of planning regulations, a task often hampered by fragmented data and siloed tools. To overcome these limitations, we developed a data-driven workflow using Semantic Web Technologies (SWT). Central to this workflow are two ontologies: OntoPlanningRegulations, which captures a subset of Singapore’s planning rules, and OntoBuildableSpace, which defines measurable 3D spaces within urban plots. These ontologies integrate diverse regulatory data into a structured Knowledge Graph (KG), connecting regulations to 3D urban models. This approach bridges document-based urban policies and advanced urban analytics, offering an automated methodology to generate 3D master plans. In doing so, it provides valuable information on the cumulative impacts of regulations on the future urban form of the city.<\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-6-3-2025",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-6-3-2025", "https://openalex.org/W4411153561"]
+  },
+  "reviewBody": "A partial reproduction, using intermediate results provided by the authors, was successfully achieved.\nTable and figure content were generated and materially match with those in the paper.\nSome minor code changes to match my environment were needed.\nI initially attempted a full reproduction, but had to abandon this due to time constraints.\n",
+  "datePublished": "2025-03-23",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/OSF.IO/gv2z4"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/gv2z4"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2025-010/cert.pdf"
+  }
+}

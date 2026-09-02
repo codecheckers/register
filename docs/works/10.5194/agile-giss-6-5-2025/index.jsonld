@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-5-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-5-2025",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-6-5-2025", "https://openalex.org/W4411153502"],
+      "name": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Ziyi Liu",
+          "@id": "https://orcid.org/0000-0003-2198-7708"
+        },
+        {
+          "@type": "Person",
+          "name": "Claudio Affolter"
+        },
+        {
+          "@type": "Person",
+          "name": "Sidi Wu",
+          "@id": "https://orcid.org/0000-0003-1669-6690"
+        },
+        {
+          "@type": "Person",
+          "name": "Yizi Chen",
+          "@id": "https://orcid.org/0000-0003-1637-0092"
+        },
+        {
+          "@type": "Person",
+          "name": "Lorenz Hurni",
+          "@id": "https://orcid.org/0000-0002-0453-8743"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-011/",
+      "name": "CODECHECK Certificate 2025-011",
+      "url": "https://codecheck.org.uk/register/certs/2025-011/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-6-5-2025"
+      },
+      "datePublished": "2025-06-12"
+    }
+  ]
+}

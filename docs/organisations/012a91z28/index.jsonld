@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/012a91z28",
+  "name": "Universidad de Zaragoza",
+  "identifier": "https://ror.org/012a91z28",
+  "url": "https://codecheck.org.uk/register/organisations/012a91z28/",
+  "sameAs": "https://www.unizar.es",
+  "location": {
+    "@type": "Place",
+    "address": "Zaragoza, Spain"
+  }
+}

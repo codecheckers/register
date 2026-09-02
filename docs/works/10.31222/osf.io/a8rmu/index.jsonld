@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31222/osf.io/a8rmu",
+      "url": "https://doi.org/10.31222/osf.io/a8rmu",
+      "sameAs": ["https://doi.org/10.31222/osf.io/a8rmu", "https://openalex.org/W4399757027"],
+      "name": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Leonie Dudda"
+        },
+        {
+          "@type": "Person",
+          "name": "Eva Kormann"
+        },
+        {
+          "@type": "Person",
+          "name": "Magdalena Kozula"
+        },
+        {
+          "@type": "Person",
+          "name": "Nicholas J. DeVito"
+        },
+        {
+          "@type": "Person",
+          "name": "Thomas Klebe"
+        },
+        {
+          "@type": "Person",
+          "name": "Ayu P.M. Dewi"
+        },
+        {
+          "@type": "Person",
+          "name": "René Spijker"
+        },
+        {
+          "@type": "Person",
+          "name": "Inge Stegeman"
+        },
+        {
+          "@type": "Person",
+          "name": "Veerle Van den Eynden"
+        },
+        {
+          "@type": "Person",
+          "name": "Tony Ross-Hellauer"
+        },
+        {
+          "@type": "Person",
+          "name": "Mariska M.G. Leeflang"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-004/",
+      "name": "CODECHECK Certificate 2024-004",
+      "url": "https://codecheck.org.uk/register/certs/2024-004/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.31222/osf.io/a8rmu"
+      },
+      "datePublished": "2024-08-01"
+    }
+  ]
+}

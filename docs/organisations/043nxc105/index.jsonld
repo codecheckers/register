@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/043nxc105",
+  "name": "Universitat de València",
+  "identifier": "https://ror.org/043nxc105",
+  "url": "https://codecheck.org.uk/register/organisations/043nxc105/",
+  "sameAs": "https://www.uv.es",
+  "location": {
+    "@type": "Place",
+    "address": "Valencia, Spain"
+  }
+}

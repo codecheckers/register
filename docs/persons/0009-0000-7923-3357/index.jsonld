@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0000-7923-3357",
+      "name": "Samuel Hollendonner"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-6-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-6-2024",
+      "author": {
+        "@id": "https://orcid.org/0009-0000-7923-3357"
+      },
+      "name": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/00cvxb145",
+  "name": "University of Washington",
+  "identifier": "https://ror.org/00cvxb145",
+  "url": "https://codecheck.org.uk/register/organisations/00cvxb145/",
+  "sameAs": "https://www.washington.edu",
+  "location": {
+    "@type": "Place",
+    "address": "Seattle, United States"
+  }
+}

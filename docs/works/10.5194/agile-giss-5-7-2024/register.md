@@ -10,3 +10,4 @@ venues: AGILEGIS
 |Certificate |Report                        |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
 |[2024-007](../../../certs/2024-007/)|[doi.org/10.17605/OSF.IO/GVPD9](https://doi.org/10.17605/OSF.IO/GVPD9)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2024-05-23 |
+

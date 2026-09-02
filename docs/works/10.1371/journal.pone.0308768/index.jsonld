@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1371/journal.pone.0308768",
+      "url": "https://doi.org/10.1371/journal.pone.0308768",
+      "sameAs": ["https://doi.org/10.1371/journal.pone.0308768", "https://openalex.org/W4405281316"],
+      "name": "Power analysis for personal light exposure measurements and interventions ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Johannes Zauner",
+          "@id": "https://orcid.org/0000-0003-2171-4566"
+        },
+        {
+          "@type": "Person",
+          "name": "Ljiljana Udovicic",
+          "@id": "https://orcid.org/0000-0002-6035-8309"
+        },
+        {
+          "@type": "Person",
+          "name": "Manuel Spitschan",
+          "@id": "https://orcid.org/0000-0002-8572-9268"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-018/",
+      "name": "CODECHECK Certificate 2024-018",
+      "url": "https://codecheck.org.uk/register/certs/2024-018/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1371/journal.pone.0308768"
+      },
+      "datePublished": "2024-11-28"
+    }
+  ]
+}

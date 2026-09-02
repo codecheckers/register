@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-004/",
+  "name": "Reproducibility review of: Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility",
+  "url": "https://codecheck.org.uk/register/certs/2026-004/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Egor Kotov",
+      "@id": "https://orcid.org/0000-0001-6690-5345"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ioanna Gogousou",
+        "@id": "https://orcid.org/0009-0001-3200-7202"
+      },
+      {
+        "@type": "Person",
+        "name": "Manuela Canestrini",
+        "@id": "https://orcid.org/0009-0005-1501-8398"
+      },
+      {
+        "@type": "Person",
+        "name": "Negar Alinaghi",
+        "@id": "https://orcid.org/0000-0001-6594-4481"
+      },
+      {
+        "@type": "Person",
+        "name": "Ioannis Giannopoulos",
+        "@id": "https://orcid.org/0000-0002-2556-5230"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Conventional routing algorithms in urban settings typically optimize travel time, assuming that travelers will accept any combination of public and active transport modes to have the fastest route. Empirical evidence, however, shows that people value more than just time: they usually avoid routes with excessive walking or transfers, even if they are technically the fastest. Most existing studies assume an average, healthy population and do not account for travelers who cannot or do not wish to meet typical mobility requirements. This work examines how routing outcomes change when mobility preference thresholds, defined as maximum acceptable walking distance, cycling distance, and number of transfers within a trip, are reduced. Using a synthetic mobility data generation pipeline, we generate thousands of Origin–Destination (OD) pairs and systematically reduce these thresholds by 25%, 50%, and 75% relative to baseline average values. Results from the city of Vienna, show that feasible routes, namely the routes that satisfy average mobility thresholds, exist for the majority of OD pairs (18,639/20,000), while average travel times for these routes remain relatively stable. However, stricter thresholds lead to major feasibility losses: only 1,506 of 20,000 OD pairs remain feasible, with average travel times increasing by min 5 to max 46% compared to the baseline.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/r2674<\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-7-3-2026",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-7-3-2026", "https://openalex.org/W7164176972"]
+  },
+  "reviewBody": "Reproduction of the multimodal routing analysis for the city of Vienna, investigating how routing outcomes change under behavioral constraints. The full pipeline (baseline routing, inclusive baseline routing, 12 parameter-variation scenarios, data grouping and visualization) was completed in a single, fully automated run on HPC resources. The reproduction was fully successful.\n",
+  "datePublished": "2026-03-15",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.17605/OSF.IO/R2674"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.17605/OSF.IO/R2674"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-004/cert.pdf"
+  }
+}

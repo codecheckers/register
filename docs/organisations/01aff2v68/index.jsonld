@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01aff2v68",
+  "name": "University of Waterloo",
+  "identifier": "https://ror.org/01aff2v68",
+  "url": "https://codecheck.org.uk/register/organisations/01aff2v68/",
+  "sameAs": "https://uwaterloo.ca/",
+  "location": {
+    "@type": "Place",
+    "address": "Waterloo, Canada"
+  }
+}

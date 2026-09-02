@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/00d7xrm67",
+  "name": "Graz University of Technology",
+  "identifier": "https://ror.org/00d7xrm67",
+  "url": "https://codecheck.org.uk/register/organisations/00d7xrm67/",
+  "sameAs": "https://www.tugraz.at",
+  "location": {
+    "@type": "Place",
+    "address": "Graz, Austria"
+  }
+}

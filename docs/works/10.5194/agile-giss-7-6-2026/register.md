@@ -10,3 +10,4 @@ venues: AGILEGIS
 |Certificate |Report                        |Venue    |Type       |Check date |
 |:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
 |[2026-016](../../../certs/2026-016/)|[doi.org/10.17605/OSF.IO/WH6GD](https://doi.org/10.17605/OSF.IO/WH6GD)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2026-04-27 |
+

@@ -1,0 +1,190 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8607-8025",
+      "name": "Stephen J. Eglen",
+      "sameAs": "https://github.com/sje30"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-001/",
+      "name": "CODECHECK Certificate 2020-001",
+      "url": "https://codecheck.org.uk/register/certs/2020-001/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2019-02-14"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-002/",
+      "name": "CODECHECK Certificate 2020-002",
+      "url": "https://codecheck.org.uk/register/certs/2020-002/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2020-04-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-007/",
+      "name": "CODECHECK Certificate 2020-007",
+      "url": "https://codecheck.org.uk/register/certs/2020-007/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2025-05-19"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-008/",
+      "name": "CODECHECK Certificate 2020-008",
+      "url": "https://codecheck.org.uk/register/certs/2020-008/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2020-04-09"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-009/",
+      "name": "CODECHECK Certificate 2020-009",
+      "url": "https://codecheck.org.uk/register/certs/2020-009/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2020-04-26"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-010/",
+      "name": "CODECHECK Certificate 2020-010",
+      "url": "https://codecheck.org.uk/register/certs/2020-010/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2020-05-29"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-011/",
+      "name": "CODECHECK Certificate 2020-011",
+      "url": "https://codecheck.org.uk/register/certs/2020-011/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2020-06-13"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-012/",
+      "name": "CODECHECK Certificate 2020-012",
+      "url": "https://codecheck.org.uk/register/certs/2020-012/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2020-06-14"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-024/",
+      "name": "CODECHECK Certificate 2020-024",
+      "url": "https://codecheck.org.uk/register/certs/2020-024/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2020-12-07"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-001/",
+      "name": "CODECHECK Certificate 2022-001",
+      "url": "https://codecheck.org.uk/register/certs/2022-001/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2022-01-19"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-011/",
+      "name": "CODECHECK Certificate 2023-011",
+      "url": "https://codecheck.org.uk/register/certs/2023-011/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2023-09-18"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2023-012/",
+      "name": "CODECHECK Certificate 2023-012",
+      "url": "https://codecheck.org.uk/register/certs/2023-012/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2023-11-26"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-001/",
+      "name": "CODECHECK Certificate 2024-001",
+      "url": "https://codecheck.org.uk/register/certs/2024-001/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2024-03-15"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-003/",
+      "name": "CODECHECK Certificate 2024-003",
+      "url": "https://codecheck.org.uk/register/certs/2024-003/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2024-05-30"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-017/",
+      "name": "CODECHECK Certificate 2024-017",
+      "url": "https://codecheck.org.uk/register/certs/2024-017/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2024-11-22"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-018/",
+      "name": "CODECHECK Certificate 2024-018",
+      "url": "https://codecheck.org.uk/register/certs/2024-018/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2024-11-28"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-023/",
+      "name": "CODECHECK Certificate 2026-023",
+      "url": "https://codecheck.org.uk/register/certs/2026-023/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "datePublished": "2026-08-21"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.48550/arxiv.2104.00718",
+      "url": "https://doi.org/10.48550/arxiv.2104.00718",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8607-8025"
+      },
+      "name": "Causality indices for bivariate time series data: a comparative review of performance"
+    }
+  ]
+}

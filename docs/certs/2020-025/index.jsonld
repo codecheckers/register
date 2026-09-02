@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-025/",
+  "name": "CODECHECK Certificate 2020-025",
+  "url": "https://codecheck.org.uk/register/certs/2020-025/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Nüst",
+      "@id": "https://orcid.org/0000-0002-0024-5046"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Francesco Carrer",
+        "@id": "https://orcid.org/0000-0003-4397-4502"
+      },
+      {
+        "@type": "Person",
+        "name": "Tomasz M. Kossowski",
+        "@id": "https://orcid.org/0000-0002-9976-4398"
+      },
+      {
+        "@type": "Person",
+        "name": "Justyna Wilk",
+        "@id": "https://orcid.org/0000-0003-1495-2910"
+      },
+      {
+        "@type": "Person",
+        "name": "Michał B. Pietrzak",
+        "@id": "https://orcid.org/0000-0002-9263-4478"
+      },
+      {
+        "@type": "Person",
+        "name": "Roger S. Bivand",
+        "@id": "https://orcid.org/0000-0003-2392-6140"
+      }
+    ],
+    "url": "https://doi.org/10.1016/j.jas.2020.105306",
+    "sameAs": ["https://doi.org/10.1016/j.jas.2020.105306", "https://openalex.org/W3112754451"]
+  },
+  "reviewBody": "This workflow was very straightforward to check following the authors' README. All figures stored in the repository could be recreated and match the ones given in the manuscript.\n",
+  "datePublished": "2020-11-19",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.4279275"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.4279275"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-025/cert.pdf"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0007-7851-4414",
+      "name": "Emmanuel Pio Pastore"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.71240/lcyc.66o7260",
+      "url": "https://doi.org/10.71240/lcyc.66o7260",
+      "author": {
+        "@id": "https://orcid.org/0009-0007-7851-4414"
+      },
+      "name": "Clinically Interpretable Survival Prediction in Primary Biliary Cholangitis with TreeSHAP and Gradient-Boosted Model"
+    }
+  ]
+}

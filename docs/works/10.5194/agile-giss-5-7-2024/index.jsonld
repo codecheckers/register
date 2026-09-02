@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-5-7-2024",
+      "url": "https://doi.org/10.5194/agile-giss-5-7-2024",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-5-7-2024", "https://openalex.org/W4399157471"],
+      "name": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Jonas Hurst",
+          "@id": "https://orcid.org/0009-0000-0004-0051"
+        },
+        {
+          "@type": "Person",
+          "name": "Auriol Degbelo",
+          "@id": "https://orcid.org/0000-0001-5087-8776"
+        },
+        {
+          "@type": "Person",
+          "name": "Christian Kray",
+          "@id": "https://orcid.org/0000-0002-4199-8976"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-007/",
+      "name": "CODECHECK Certificate 2024-007",
+      "url": "https://codecheck.org.uk/register/certs/2024-007/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-5-7-2024"
+      },
+      "datePublished": "2024-05-23"
+    }
+  ]
+}

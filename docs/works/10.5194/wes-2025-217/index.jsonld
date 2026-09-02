@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/wes-2025-217",
+      "url": "https://doi.org/10.5194/wes-2025-217",
+      "sameAs": "https://doi.org/10.5194/wes-2025-217",
+      "name": "Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Jelle Poland",
+          "@id": "https://orcid.org/0000-0003-3164-5648"
+        },
+        {
+          "@type": "Person",
+          "name": "Erik Fritz",
+          "@id": "https://orcid.org/0000-0003-1486-3643"
+        },
+        {
+          "@type": "Person",
+          "name": "Roland Schmehl",
+          "@id": "https://orcid.org/0000-0002-4112-841X"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-001/",
+      "name": "CODECHECK Certificate 2026-001",
+      "url": "https://codecheck.org.uk/register/certs/2026-001/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/wes-2025-217"
+      },
+      "datePublished": "2026-03-03"
+    }
+  ]
+}

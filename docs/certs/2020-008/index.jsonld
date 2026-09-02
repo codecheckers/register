@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2020-008/",
+  "name": "CODECHECK certificate 2020-008",
+  "url": "https://codecheck.org.uk/register/certs/2020-008/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stephen J. Eglen",
+      "@id": "https://orcid.org/0000-0001-8607-8025"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Nicholas G. Davies"
+      },
+      {
+        "@type": "Person",
+        "name": "Adam J. Kucharski"
+      },
+      {
+        "@type": "Person",
+        "name": "Rosalind M. Eggo"
+      },
+      {
+        "@type": "Person",
+        "name": "Amy Gimma"
+      },
+      {
+        "@type": "Person",
+        "name": "CMMID COVID-19 working group"
+      },
+      {
+        "@type": "Person",
+        "name": "W. John Edmunds"
+      }
+    ],
+    "url": "https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf"
+  },
+  "reviewBody": "Analysis steps took several days; otherwise mostly straightforward.",
+  "datePublished": "2020-04-09",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.3746024"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "http://doi.org/10.5281/zenodo.3746024"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2020-008/cert.pdf"
+  }
+}

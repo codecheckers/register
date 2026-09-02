@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-6-4-2025",
+      "url": "https://doi.org/10.5194/agile-giss-6-4-2025",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-6-4-2025", "https://openalex.org/W4411154948"],
+      "name": "Accessibility for pedestrians under heat stress - the example of Heidelberg, Germany ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Johannes Huber"
+        },
+        {
+          "@type": "Person",
+          "name": "Christina Ludwig",
+          "@id": "https://orcid.org/0000-0003-4669-3298"
+        },
+        {
+          "@type": "Person",
+          "name": "Kathrin Foshag",
+          "@id": "https://orcid.org/0000-0002-8610-2563"
+        },
+        {
+          "@type": "Person",
+          "name": "Nikolaos Kolaxidis",
+          "@id": "https://orcid.org/0009-0008-8406-2028"
+        },
+        {
+          "@type": "Person",
+          "name": "Alexander Zipf",
+          "@id": "https://orcid.org/0000-0003-4916-9838"
+        },
+        {
+          "@type": "Person",
+          "name": "Sven Lautenbach",
+          "@id": "https://orcid.org/0000-0003-1825-9996"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-015/",
+      "name": "CODECHECK Certificate 2025-015",
+      "url": "https://codecheck.org.uk/register/certs/2025-015/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-6-4-2025"
+      },
+      "datePublished": "2025-05-06"
+    }
+  ]
+}

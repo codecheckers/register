@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.71240/lcyc.052239",
+      "url": "https://doi.org/10.71240/lcyc.052239",
+      "sameAs": ["https://doi.org/10.71240/lcyc.052239", "https://openalex.org/W4409718072"],
+      "name": "Verification Report of Zhao et al. (2023) ‘Effect of Acceptance and Commitment Therapy for depressive disorders: a meta-analysis’  ",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Ian Hussey",
+          "@id": "https://orcid.org/0000-0001-8906-7559"
+        },
+        {
+          "@type": "Person",
+          "name": "Malte Elson",
+          "@id": "https://orcid.org/0000-0001-7806-9583"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2025-005/",
+      "name": "CODECHECK Certificate 2025-005",
+      "url": "https://codecheck.org.uk/register/certs/2025-005/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.71240/lcyc.052239"
+      },
+      "datePublished": "2025-05-15"
+    }
+  ]
+}

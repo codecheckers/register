@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02mkz3e80",
+  "name": "International Audio Laboratories Erlangen",
+  "identifier": "https://ror.org/02mkz3e80",
+  "url": "https://codecheck.org.uk/register/organisations/02mkz3e80/",
+  "sameAs": "https://www.audiolabs-erlangen.de/",
+  "location": {
+    "@type": "Place",
+    "address": "Erlangen, Germany"
+  }
+}

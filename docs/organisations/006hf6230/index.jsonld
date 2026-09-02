@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/006hf6230",
+  "name": "University of Twente",
+  "identifier": "https://ror.org/006hf6230",
+  "url": "https://codecheck.org.uk/register/organisations/006hf6230/",
+  "sameAs": "https://www.utwente.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Enschede, The Netherlands"
+  },
+  "subjectOf": [
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-020/",
+      "name": "CODECHECK Certificate 2020-020",
+      "url": "https://codecheck.org.uk/register/certs/2020-020/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-021/",
+      "name": "CODECHECK Certificate 2020-021",
+      "url": "https://codecheck.org.uk/register/certs/2020-021/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2020-023/",
+      "name": "CODECHECK Certificate 2020-023",
+      "url": "https://codecheck.org.uk/register/certs/2020-023/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-005/",
+      "name": "CODECHECK Certificate 2021-005",
+      "url": "https://codecheck.org.uk/register/certs/2021-005/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-005/",
+      "name": "CODECHECK Certificate 2022-005",
+      "url": "https://codecheck.org.uk/register/certs/2022-005/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2022-009/",
+      "name": "CODECHECK Certificate 2022-009",
+      "url": "https://codecheck.org.uk/register/certs/2022-009/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-008/",
+      "name": "CODECHECK Certificate 2024-008",
+      "url": "https://codecheck.org.uk/register/certs/2024-008/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-009/",
+      "name": "CODECHECK Certificate 2024-009",
+      "url": "https://codecheck.org.uk/register/certs/2024-009/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-014/",
+      "name": "CODECHECK Certificate 2024-014",
+      "url": "https://codecheck.org.uk/register/certs/2024-014/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2024-016/",
+      "name": "CODECHECK Certificate 2024-016",
+      "url": "https://codecheck.org.uk/register/certs/2024-016/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-011/",
+      "name": "CODECHECK Certificate 2026-011",
+      "url": "https://codecheck.org.uk/register/certs/2026-011/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-015/",
+      "name": "CODECHECK Certificate 2026-015",
+      "url": "https://codecheck.org.uk/register/certs/2026-015/"
+    }
+  ]
+}

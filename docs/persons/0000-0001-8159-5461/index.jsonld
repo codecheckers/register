@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8159-5461",
+      "name": "Sadra Sadeh"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.7554/elife.52757",
+      "url": "https://doi.org/10.7554/elife.52757",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8159-5461"
+      },
+      "name": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing "
+    }
+  ]
+}
