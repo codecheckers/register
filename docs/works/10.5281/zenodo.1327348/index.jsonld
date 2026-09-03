@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5281/zenodo.1327348",
       "url": "https://doi.org/10.5281/zenodo.1327348",
-      "sameAs": ["https://doi.org/10.5281/zenodo.1327348", "https://openalex.org/W3033755496"],
+      "sameAs": ["https://doi.org/10.5281/zenodo.1327348", "https://openalex.org/W3033755496", "https://www.wikidata.org/entity/Q141269331"],
       "name": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains ",
       "author": [
         {

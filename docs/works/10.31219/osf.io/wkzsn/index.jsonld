@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.31219/osf.io/wkzsn",
       "url": "https://doi.org/10.31219/osf.io/wkzsn",
-      "sameAs": ["https://doi.org/10.31219/osf.io/wkzsn", "https://openalex.org/W4400220542"],
+      "sameAs": ["https://doi.org/10.31219/osf.io/wkzsn", "https://openalex.org/W4400220542", "https://www.wikidata.org/entity/Q141269444"],
       "name": "Quality in Question: Assessing the accuracy of four heart rate wearables and the implications for psychophysiological research. ",
       "author": [
         {

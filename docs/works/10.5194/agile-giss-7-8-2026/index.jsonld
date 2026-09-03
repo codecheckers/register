@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-7-8-2026",
       "url": "https://doi.org/10.5194/agile-giss-7-8-2026",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-7-8-2026", "https://openalex.org/W7164179951"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-8-2026", "https://openalex.org/W7164179951", "https://www.wikidata.org/entity/Q141269478"],
       "name": "Maximizing Data Coverage: Fusing Street View and Oblique Imagery to Quantify Vertical Greenery Potential in Urban Areas",
       "author": [
         {

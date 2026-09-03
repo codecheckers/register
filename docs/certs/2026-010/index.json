@@ -21,7 +21,8 @@
       "text": "<jats:p>Abstract. Urban representation learning has traditionally focused on human mobility patterns and space functionality derived from points of interest. While such approaches provide a powerful way of understanding interactions between people and the urban environment, they overlook the impact of the physical urban configuration. When urban form is considered, its representation is commonly achieved using rasterization or abstractions, such as zonal aggregation and graph constructions, leading to information loss, sensitivity to design choices, and limited generalizability. Borrowing from signal processing, spectral approaches have been developed to encode polygonal geometries directly. Yet, their implications for urban systems remain largely under-explored. In this work, we address this gap by investigating the application of this methodology in complex urban scenarios, focusing on the unsupervised learning of compact embeddings for groups of building footprints. Using a reproducible workflow without rasterization or graph abstraction, the resulting embeddings are designed to capture the structural configuration of building clusters for urban form analysis beyond handcrafted features. The learned embeddings are analyzed using qualitative and quantitative evaluation methods. Our results demonstrate the novel potential of spectral approaches to learn generalizable, geometric urban embeddings and highlight their applicability for a wide range of urban analysis tasks.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/da3z4<\/jats:p>",
       "source": "CrossRef"
     },
-    "openalex": "https://openalex.org/W7164137138"
+    "openalex": "https://openalex.org/W7164137138",
+    "wikidata": "Q141269475"
   },
   "codecheck": {
     "codecheckers": [

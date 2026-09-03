@@ -33,7 +33,8 @@
       "text": "<jats:p>Abstract. A significant source of human pressure on the environment originates from human-wildlife encounters during recreational activities in natural spaces. These events are difficult to study given their short duration, as well as the sparsity and granularity of concurrently tracked human and wildlife data. Wildlife often perceives and reacts to human presence over distances greater than GNSS uncertainty. Thus, we propose a new encounter detection method that incorporates a broader range of human disturbance as opposed to addressing incompleteness, enabling us to identify where and when human-wildlife encounters are most likely to occur, and thus offering a more ecologically realistic assessment of encounter risk. The method was applied on a pilot study in the Bauges massif in the French Alps, leveraging semantically enhanced chamois and human trajectories. A spatio-temporal analysis of human-wildlife encounter results is presented to demonstrate how the method can support ecologists or stakeholders in gaining deeper understanding of wildlife behavior or in taking actions to mitigate human impacts.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/DZT8C<\/jats:p>",
       "source": "CrossRef"
     },
-    "openalex": "https://openalex.org/W7164129368"
+    "openalex": "https://openalex.org/W7164129368",
+    "wikidata": "Q141269471"
   },
   "codecheck": {
     "codecheckers": [

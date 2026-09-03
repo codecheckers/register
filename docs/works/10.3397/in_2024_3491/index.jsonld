@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.3397/in_2024_3491",
       "url": "https://doi.org/10.3397/in_2024_3491",
-      "sameAs": ["https://doi.org/10.3397/in_2024_3491", "https://openalex.org/W4403440488"],
+      "sameAs": ["https://doi.org/10.3397/in_2024_3491", "https://openalex.org/W4403440488", "https://www.wikidata.org/entity/Q141269442"],
       "name": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach ",
       "author": [
         {

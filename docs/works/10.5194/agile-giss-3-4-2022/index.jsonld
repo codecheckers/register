@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-3-4-2022",
       "url": "https://doi.org/10.5194/agile-giss-3-4-2022",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-3-4-2022", "https://openalex.org/W4281678515"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-4-2022", "https://openalex.org/W4281678515", "https://www.wikidata.org/entity/Q141269384"],
       "name": "What are intersections for pedestrian users?",
       "author": [
         {

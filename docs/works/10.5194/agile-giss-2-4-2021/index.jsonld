@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-2-4-2021",
       "url": "https://doi.org/10.5194/agile-giss-2-4-2021",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-2-4-2021", "https://openalex.org/W3166039225"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-4-2021", "https://openalex.org/W3166039225", "https://www.wikidata.org/entity/Q141269369"],
       "name": "Flood Impact Assessment on Road Network and Healthcare Access at the example of Jakarta, Indonesia",
       "author": [
         {

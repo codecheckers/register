@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.48550/arxiv.2104.00718",
       "url": "https://doi.org/10.48550/arxiv.2104.00718",
-      "sameAs": ["https://doi.org/10.48550/arxiv.2104.00718", "https://openalex.org/W6948154681"],
+      "sameAs": ["https://doi.org/10.48550/arxiv.2104.00718", "https://openalex.org/W6948154681", "https://www.wikidata.org/entity/Q141269351"],
       "name": "Causality indices for bivariate time series data: a comparative review of performance",
       "author": [
         {

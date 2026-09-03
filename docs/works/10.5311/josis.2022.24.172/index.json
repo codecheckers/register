@@ -5,7 +5,7 @@
     "doi": "10.5311/josis.2022.24.172",
     "title": "ClockBoard: A zoning system for urban analysis",
     "openalex": "https://openalex.org/W4288754796",
-    "wikidata": null,
+    "wikidata": "Q141269467",
     "venues": "JOSIS",
     "check_count": 1,
     "authors": [
@@ -37,6 +37,29 @@
   },
   "checks_cumulative": {
     "2025": 1
+  },
+  "interval_n": 1,
+  "interval_excluded": 0,
+  "interval_points": [
+    {
+      "id": "2025-027",
+      "days": 1172
+    }
+  ],
+  "interval_buckets": {
+    "Before publication": 0,
+    "0-1mo": 0,
+    "1-3mo": 0,
+    "3-6mo": 0,
+    "6-12mo": 0,
+    "1-2y": 0,
+    "2-5y": 1,
+    "5y+": 0
+  },
+  "interval_summary": {
+    "pct_before_publication": 0,
+    "pct_within_6mo": 0,
+    "max_years": 3
   },
   "venues_per_year": {
     "2025": 1

@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.48550/arxiv.2310.19997",
       "url": "https://doi.org/10.48550/arxiv.2310.19997",
-      "sameAs": ["https://doi.org/10.48550/arxiv.2310.19997", "https://openalex.org/W4388184325"],
+      "sameAs": ["https://doi.org/10.48550/arxiv.2310.19997", "https://openalex.org/W4388184325", "https://www.wikidata.org/entity/Q141269436"],
       "name": "State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances ",
       "author": [
         {

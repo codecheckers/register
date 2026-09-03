@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/wes-11-911-2026",
       "url": "https://doi.org/10.5194/wes-11-911-2026",
-      "sameAs": ["https://doi.org/10.5194/wes-11-911-2026", "https://openalex.org/W7140117817"],
+      "sameAs": ["https://doi.org/10.5194/wes-11-911-2026", "https://openalex.org/W7140117817", "https://www.wikidata.org/entity/Q141269452"],
       "name": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
       "author": [
         {

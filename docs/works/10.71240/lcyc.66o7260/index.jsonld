@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.71240/lcyc.66o7260",
       "url": "https://doi.org/10.71240/lcyc.66o7260",
-      "sameAs": ["https://doi.org/10.71240/lcyc.66o7260", "https://openalex.org/W4414316644"],
+      "sameAs": ["https://doi.org/10.71240/lcyc.66o7260", "https://openalex.org/W4414316644", "https://www.wikidata.org/entity/Q141269468"],
       "name": "Clinically Interpretable Survival Prediction in Primary Biliary Cholangitis with TreeSHAP and Gradient-Boosted Model",
       "author": [
         {

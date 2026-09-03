@@ -29,7 +29,8 @@
       "text": "<jats:p>Abstract. Conventional routing algorithms in urban settings typically optimize travel time, assuming that travelers will accept any combination of public and active transport modes to have the fastest route. Empirical evidence, however, shows that people value more than just time: they usually avoid routes with excessive walking or transfers, even if they are technically the fastest. Most existing studies assume an average, healthy population and do not account for travelers who cannot or do not wish to meet typical mobility requirements. This work examines how routing outcomes change when mobility preference thresholds, defined as maximum acceptable walking distance, cycling distance, and number of transfers within a trip, are reduced. Using a synthetic mobility data generation pipeline, we generate thousands of Origin–Destination (OD) pairs and systematically reduce these thresholds by 25%, 50%, and 75% relative to baseline average values. Results from the city of Vienna, show that feasible routes, namely the routes that satisfy average mobility thresholds, exist for the majority of OD pairs (18,639/20,000), while average travel times for these routes remain relatively stable. However, stricter thresholds lead to major feasibility losses: only 1,506 of 20,000 OD pairs remain feasible, with average travel times increasing by min 5 to max 46% compared to the baseline.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/r2674<\/jats:p>",
       "source": "CrossRef"
     },
-    "openalex": "https://openalex.org/W7164176972"
+    "openalex": "https://openalex.org/W7164176972",
+    "wikidata": "Q141269470"
   },
   "codecheck": {
     "codecheckers": [

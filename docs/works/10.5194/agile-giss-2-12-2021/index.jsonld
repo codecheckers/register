@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-2-12-2021",
       "url": "https://doi.org/10.5194/agile-giss-2-12-2021",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-2-12-2021", "https://openalex.org/W3171081052"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-12-2021", "https://openalex.org/W3171081052", "https://www.wikidata.org/entity/Q141269365"],
       "name": "Automated Extraction of Labels from Large-Scale Historical Maps",
       "author": [
         {

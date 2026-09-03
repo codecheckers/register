@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1038/s41598-021-85363-7",
       "url": "https://doi.org/10.1038/s41598-021-85363-7",
-      "sameAs": ["https://doi.org/10.1038/s41598-021-85363-7", "https://openalex.org/W3138189425"],
+      "sameAs": ["https://doi.org/10.1038/s41598-021-85363-7", "https://openalex.org/W3138189425", "https://www.wikidata.org/entity/Q141269451"],
       "name": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
       "author": [
         {

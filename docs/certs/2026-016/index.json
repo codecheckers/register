@@ -32,7 +32,8 @@
       "text": "<jats:p>Abstract. Vague cognitive regions (VCRs) such as Levant or Bible Belt play a central role in how people reason about space and place, despite lacking clear boundaries or formal definitions. Prior studies in behavioral geography and GIScience have used human surveys or crowd-sourced social media data to delineate human perception and cognition of such regions. In this paper, we introduce a new AI-based approach, which uses foundation models, particularly large language models (LLMs), to represent VCRs. Then, we challenge the results by arguing that LLMs exhibit uneven cognitive geographies, representing some VCRs more coherently and stably than others. We introduce geo-alignment as an analytical lens to examine the discrepancies between different representations. Focusing on comparative cases such as the Alps, Northern-Southern California, the Sahara, and Kashmir, we show variations that systematically shape LLM-derived VCRs. Rather than treating misalignment as a modeling error, we conceptualize it as a signal of unequal global cognitive visibility embedded in training data. The paper contributes a methodological framework for analyzing VCRs through the lens of geo-alignment and advances a methodological GIScience perspective on the spatial knowledge encoded in LLMs.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/WH6GD<\/jats:p>",
       "source": "CrossRef"
     },
-    "openalex": "https://openalex.org/W7164140075"
+    "openalex": "https://openalex.org/W7164140075",
+    "wikidata": "Q141269480"
   },
   "codecheck": {
     "codecheckers": [

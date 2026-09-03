@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-7-18-2026",
       "url": "https://doi.org/10.5194/agile-giss-7-18-2026",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-7-18-2026", "https://openalex.org/W7164197613"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-18-2026", "https://openalex.org/W7164197613", "https://www.wikidata.org/entity/Q141269476"],
       "name": "Towards National-Scale Ecological Applications: Harmonised Framework for LiDAR Point Cloud Processing for Vegetation Metrics Calculation",
       "author": [
         {

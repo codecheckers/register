@@ -5,7 +5,7 @@
     "doi": "10.71240/lcyc.052239",
     "title": "Verification Report of Zhao et al. (2023) ‘Effect of Acceptance and Commitment Therapy for depressive disorders: a meta-analysis’",
     "openalex": "https://openalex.org/W4409718072",
-    "wikidata": null,
+    "wikidata": "Q141269450",
     "venues": "Lifecycle Journal",
     "check_count": 1,
     "authors": [
@@ -33,6 +33,29 @@
   },
   "checks_cumulative": {
     "2025": 1
+  },
+  "interval_n": 1,
+  "interval_excluded": 0,
+  "interval_points": [
+    {
+      "id": "2025-005",
+      "days": 22
+    }
+  ],
+  "interval_buckets": {
+    "Before publication": 0,
+    "0-1mo": 1,
+    "1-3mo": 0,
+    "3-6mo": 0,
+    "6-12mo": 0,
+    "1-2y": 0,
+    "2-5y": 0,
+    "5y+": 0
+  },
+  "interval_summary": {
+    "pct_before_publication": 0,
+    "pct_within_6mo": 100,
+    "max_years": 0
   },
   "venues_per_year": {
     "2025": 1

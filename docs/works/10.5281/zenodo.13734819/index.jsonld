@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5281/zenodo.13734819",
       "url": "https://doi.org/10.5281/zenodo.13734819",
-      "sameAs": ["https://doi.org/10.5281/zenodo.13734819", "https://openalex.org/W6893062762"],
+      "sameAs": ["https://doi.org/10.5281/zenodo.13734819", "https://openalex.org/W6893062762", "https://www.wikidata.org/entity/Q141269441"],
       "name": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
       "author": [
         {

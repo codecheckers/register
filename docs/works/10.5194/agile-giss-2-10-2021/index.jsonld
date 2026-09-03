@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-2-10-2021",
       "url": "https://doi.org/10.5194/agile-giss-2-10-2021",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-2-10-2021", "https://openalex.org/W3168809494"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-10-2021", "https://openalex.org/W3168809494", "https://www.wikidata.org/entity/Q141269354"],
       "name": "Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information",
       "author": [
         {

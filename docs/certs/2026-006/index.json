@@ -33,7 +33,8 @@
       "text": "<jats:p>Abstract. Geo-social media posts can provide valuable real-time information during natural disasters. However, assessing their relevance for emergency response remains difficult. Most existing approaches simplify relevance into discrete classes. To incorporate space and time, they typically rely on manually engineered distance features, overlooking the non-linear effects of spatial and temporal proximity. This study introduces a more fine-grained approach for multimodal relevance assessment that integrates spatio-temporal decay transformations with ordinal regression. Using a multilingual, geo-referenced X (formerly Twitter) dataset spanning floods, wildfires, and earthquakes, we evaluated four decay transformations and reformulated relevance assessment as a regression task. A stretched exponential decay function best captured the non-linear decline of relevance with increasing spatial and temporal distance. Incorporating decay-transformed features into a multimodal meta-learning framework improved both prediction performance and stability. Reformulating the task as a regression problem reduced RMSE and increased R2 compared to classification, with Support Vector Regression (SVR) achieving the strongest results (RMSE: 0.231, R2: 0.617). Granularity and entropy analyses revealed that regression provided much finer relevance estimates than classification. Overall, our research presents a first step towards making insights from social media more actionable and decision-ready for disaster response.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/ZPURT<\/jats:p>",
       "source": "CrossRef"
     },
-    "openalex": "https://openalex.org/W7164155701"
+    "openalex": "https://openalex.org/W7164155701",
+    "wikidata": "Q141269472"
   },
   "codecheck": {
     "codecheckers": [

@@ -25,7 +25,8 @@
       "text": "Inferring nonlinear and asymmetric causal relationships between multivariate longitudinal data is a challenging task with wide-ranging application areas including clinical medicine, mathematical biology, economics and environmental research. A number of methods for inferring causal relationships within complex dynamic and stochastic systems have been proposed but there is not a unified consistent definition of causality in this context. We evaluate the performance of ten prominent bivariate causality indices for time series data, across four simulated model systems that have different coupling schemes and characteristics. In further experiments, we show that these methods may not always be invariant to real-world relevant transformations (data availability, standardisation and scaling, rounding error, missing data and noisy data). We recommend transfer entropy and nonlinear Granger causality as likely to be particularly robust indices for estimating bivariate causal relationships in real-world applications. Finally, we provide flexible open-access Python code for computation of these methods and for the model simulations.",
       "source": "OpenAlex"
     },
-    "openalex": "https://openalex.org/W6948154681"
+    "openalex": "https://openalex.org/W6948154681",
+    "wikidata": "Q141269351"
   },
   "codecheck": {
     "codecheckers": [

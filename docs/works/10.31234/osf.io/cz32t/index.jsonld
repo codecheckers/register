@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.31234/osf.io/cz32t",
       "url": "https://doi.org/10.31234/osf.io/cz32t",
-      "sameAs": ["https://doi.org/10.31234/osf.io/cz32t", "https://openalex.org/W4400463622"],
+      "sameAs": ["https://doi.org/10.31234/osf.io/cz32t", "https://openalex.org/W4400463622", "https://www.wikidata.org/entity/Q141269438"],
       "name": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
       "author": [
         {

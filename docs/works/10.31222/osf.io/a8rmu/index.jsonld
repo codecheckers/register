@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.31222/osf.io/a8rmu",
       "url": "https://doi.org/10.31222/osf.io/a8rmu",
-      "sameAs": ["https://doi.org/10.31222/osf.io/a8rmu", "https://openalex.org/W4399757027"],
+      "sameAs": ["https://doi.org/10.31222/osf.io/a8rmu", "https://openalex.org/W4399757027", "https://www.wikidata.org/entity/Q141269437"],
       "name": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint ",
       "author": [
         {

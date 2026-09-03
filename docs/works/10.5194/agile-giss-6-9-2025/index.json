@@ -5,7 +5,7 @@
     "doi": "10.5194/agile-giss-6-9-2025",
     "title": "Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
     "openalex": "https://openalex.org/W4411154871",
-    "wikidata": null,
+    "wikidata": "Q141269454",
     "venues": "AGILEGIS",
     "check_count": 1,
     "authors": [
@@ -33,6 +33,29 @@
   },
   "checks_cumulative": {
     "2025": 1
+  },
+  "interval_n": 1,
+  "interval_excluded": 0,
+  "interval_points": [
+    {
+      "id": "2025-009",
+      "days": 4
+    }
+  ],
+  "interval_buckets": {
+    "Before publication": 0,
+    "0-1mo": 1,
+    "1-3mo": 0,
+    "3-6mo": 0,
+    "6-12mo": 0,
+    "1-2y": 0,
+    "2-5y": 0,
+    "5y+": 0
+  },
+  "interval_summary": {
+    "pct_before_publication": 0,
+    "pct_within_6mo": 100,
+    "max_years": 0
   },
   "venues_per_year": {
     "2025": 1

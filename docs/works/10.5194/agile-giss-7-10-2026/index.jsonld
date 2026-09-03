@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-7-10-2026",
       "url": "https://doi.org/10.5194/agile-giss-7-10-2026",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-7-10-2026", "https://openalex.org/W7164183500"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-10-2026", "https://openalex.org/W7164183500", "https://www.wikidata.org/entity/Q141269479"],
       "name": "Assessing the Geographic Diversity of AI's Platial Representations in Image Generation",
       "author": [
         {

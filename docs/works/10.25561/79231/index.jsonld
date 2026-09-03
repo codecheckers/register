@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.25561/79231",
       "url": "https://doi.org/10.25561/79231",
-      "sameAs": ["https://doi.org/10.25561/79231", "https://openalex.org/W3034840651"],
+      "sameAs": ["https://doi.org/10.25561/79231", "https://openalex.org/W3034840651", "https://www.wikidata.org/entity/Q141269332"],
       "name": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020) ",
       "author": [
         {

@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.48550/arxiv.2503.21065",
       "url": "https://doi.org/10.48550/arxiv.2503.21065",
-      "sameAs": ["https://doi.org/10.48550/arxiv.2503.21065", "https://openalex.org/W4415061882"],
+      "sameAs": ["https://doi.org/10.48550/arxiv.2503.21065", "https://openalex.org/W4415061882", "https://www.wikidata.org/entity/Q141269463"],
       "name": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
       "author": [
         {

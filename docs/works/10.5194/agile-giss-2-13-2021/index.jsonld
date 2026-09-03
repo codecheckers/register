@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-2-13-2021",
       "url": "https://doi.org/10.5194/agile-giss-2-13-2021",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-2-13-2021", "https://openalex.org/W3165945407"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-13-2021", "https://openalex.org/W3165945407", "https://www.wikidata.org/entity/Q141269377"],
       "name": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
       "author": [
         {

@@ -51,7 +51,7 @@
     ],
     "abstract": "<jats:p>Over the last decades, considerable attention has been devoted to improving the diffusion equation model within the field of room acoustics. It has been found that this model is subject to certain limitations, with one constraint regarding the diffusion coefficient. The diffusion coefficient,\n a parameter integrated into the model, is a value that scales the sound intensity to the gradient of the sound energy density. Currently, this value is often treated as a constant, but research has shown that it is spatially dependent. This paper explores a method to optimise the diffusion\n coefficient for long rooms such as corridors and tunnels by comparing the results of the diffusion equation model with those computed with the radiosity model and using the least-square optimization method, minimising the difference between the results of both methods. The parameters of a\n diffusion coefficient function are optimised, targeting a function that can be applied to a range of elongated spaces.<\/jats:p>",
     "url": "https://doi.org/10.3397/IN_2024_3491",
-    "sameAs": ["https://doi.org/10.3397/IN_2024_3491", "https://openalex.org/W4403440488"]
+    "sameAs": ["https://doi.org/10.3397/IN_2024_3491", "https://openalex.org/W4403440488", "https://www.wikidata.org/entity/Q141269442"]
   },
   "reviewBody": "This project was a collection of python scripts for computation, together with some Matlab for computation.\n",
   "datePublished": "2024-11-22",

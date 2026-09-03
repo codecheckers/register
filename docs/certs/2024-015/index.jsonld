@@ -52,7 +52,7 @@
     ],
     "abstract": "This project is based on the landscape character assessment of Nigeria, using machine learning and open-access geospatial dataset.",
     "url": "https://doi.org/10.17605/OSF.IO/E2K73",
-    "sameAs": ["https://doi.org/10.17605/OSF.IO/E2K73", "https://openalex.org/W6943834942"]
+    "sameAs": ["https://doi.org/10.17605/OSF.IO/E2K73", "https://openalex.org/W6943834942", "https://www.wikidata.org/entity/Q141269440"]
   },
   "reviewBody": "The CODECHECK utilized the supplied dataset, but certain steps were omitted as they would take several hours to compute on the available hardware.\nDespite this, the generated output aligns with the reported results.\nHowever, it is not clear which output should be compared in the Python notebooks.",
   "datePublished": "2024-09-26",

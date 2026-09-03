@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1002/sim.10186",
       "url": "https://doi.org/10.1002/sim.10186",
-      "sameAs": ["https://doi.org/10.1002/sim.10186", "https://openalex.org/W4401278294"],
+      "sameAs": ["https://doi.org/10.1002/sim.10186", "https://openalex.org/W4401278294", "https://www.wikidata.org/entity/Q141269447"],
       "name": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment ",
       "author": [
         {

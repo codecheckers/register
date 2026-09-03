@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-3-14-2022",
       "url": "https://doi.org/10.5194/agile-giss-3-14-2022",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-3-14-2022", "https://openalex.org/W4281763766"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-14-2022", "https://openalex.org/W4281763766", "https://www.wikidata.org/entity/Q141269398"],
       "name": "Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach",
       "author": [
         {

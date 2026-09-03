@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-7-3-2026",
       "url": "https://doi.org/10.5194/agile-giss-7-3-2026",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-7-3-2026", "https://openalex.org/W7164176972"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-3-2026", "https://openalex.org/W7164176972", "https://www.wikidata.org/entity/Q141269470"],
       "name": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility",
       "author": [
         {

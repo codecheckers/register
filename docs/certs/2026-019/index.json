@@ -21,7 +21,8 @@
       "text": "Natural scenes shape visual perception and non-visual responses, yet the melanopsin pathway, the retina's key circadian input, is rarely quantified in this context. We measured spectral and spatial properties of 671 natural scenes: indoor scenes without windows ( n = 115), indoor scenes with windows ( n = 194), and outdoor scenes ( n = 362), across all five human photoreceptors. Radiance and photometric metrics increased systematically from windowless indoor view (mean melanopic EDI 280 lx) to indoor scenes with window view (2386 lx) to outdoor scenes (12,142 lx), with melanopic and photopic illuminance strongly correlated ( r > 0.98, p < 10 −5 ). Beyond overall α -opic exposure, melanopic input exhibited structured spatial variation. The image-level root-mean-square (RMS) contrast ranged from 0.001 to 0.365 across categories (lowest in indoor scenes and highest outdoors), and correlated with melanopic luminance indoors with windows (r = 0.495) and outdoors (r = 0.477) but not windowless scenes (r = 0.026). Melanopic amplitude spectra followed 1/ f -like power laws, steeper slopes indoors (modal ≈ − 1.4 ) and flatter outdoors (modal ≈ − 1.1 ), revealing photoreceptor-resolved regularities in natural melanopic input.",
       "source": "OpenAlex"
     },
-    "openalex": "https://openalex.org/W4416186252"
+    "openalex": "https://openalex.org/W4416186252",
+    "wikidata": "Q141269482"
   },
   "codecheck": {
     "codecheckers": [

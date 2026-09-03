@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-3-16-2022",
       "url": "https://doi.org/10.5194/agile-giss-3-16-2022",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-3-16-2022", "https://openalex.org/W4281885045"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-16-2022", "https://openalex.org/W4281885045", "https://www.wikidata.org/entity/Q141269403"],
       "name": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
       "author": [
         {

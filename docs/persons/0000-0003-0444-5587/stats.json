@@ -25,6 +25,9 @@
   "checks_cumulative": {
     "2025": 1
   },
+  "interval_n": 0,
+  "interval_excluded": 1,
+  "interval_points": [],
   "venues_per_year": {
     "2025": 1
   },

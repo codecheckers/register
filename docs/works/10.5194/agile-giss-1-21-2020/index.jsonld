@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-1-21-2020",
       "url": "https://doi.org/10.5194/agile-giss-1-21-2020",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-1-21-2020", "https://openalex.org/W3043446483"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-1-21-2020", "https://openalex.org/W3043446483", "https://www.wikidata.org/entity/Q141269336"],
       "name": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
       "author": [
         {

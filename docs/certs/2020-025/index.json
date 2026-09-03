@@ -29,7 +29,8 @@
       }
     ],
     "reference": "https://doi.org/10.1016/j.jas.2020.105306",
-    "openalex": "https://openalex.org/W3112754451"
+    "openalex": "https://openalex.org/W3112754451",
+    "wikidata": "Q141269346"
   },
   "codecheck": {
     "codecheckers": [

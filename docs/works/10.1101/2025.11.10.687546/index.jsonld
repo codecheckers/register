@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1101/2025.11.10.687546",
       "url": "https://doi.org/10.1101/2025.11.10.687546",
-      "sameAs": ["https://doi.org/10.1101/2025.11.10.687546", "https://openalex.org/W4416182239"],
+      "sameAs": ["https://doi.org/10.1101/2025.11.10.687546", "https://openalex.org/W4416182239", "https://www.wikidata.org/entity/Q141269483"],
       "name": "Circadian timing does not modulate human temporal contrast sensitivity ",
       "author": [
         {

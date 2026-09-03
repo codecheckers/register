@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.46471/gigabyte.70",
       "url": "https://doi.org/10.46471/gigabyte.70",
-      "sameAs": ["https://doi.org/10.46471/gigabyte.70", "https://openalex.org/W4301603101"],
+      "sameAs": ["https://doi.org/10.46471/gigabyte.70", "https://openalex.org/W4301603101", "https://www.wikidata.org/entity/Q141269415"],
       "name": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",
       "author": [
         {

@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1088/0954-898x_3_1_008",
       "url": "https://doi.org/10.1088/0954-898x_3_1_008",
-      "sameAs": ["https://doi.org/10.1088/0954-898x_3_1_008", "https://openalex.org/W2169326908"],
+      "sameAs": ["https://doi.org/10.1088/0954-898x_3_1_008", "https://openalex.org/W2169326908", "https://www.wikidata.org/entity/Q141269327"],
       "name": "The principal components of natural images",
       "author": [
         {

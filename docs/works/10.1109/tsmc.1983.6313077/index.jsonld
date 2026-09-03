@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1109/tsmc.1983.6313077",
       "url": "https://doi.org/10.1109/tsmc.1983.6313077",
-      "sameAs": ["https://doi.org/10.1109/tsmc.1983.6313077", "https://openalex.org/W1583833196"],
+      "sameAs": ["https://doi.org/10.1109/tsmc.1983.6313077", "https://openalex.org/W1583833196", "https://www.wikidata.org/entity/Q141269328"],
       "name": "Neuronlike adaptive elements that can solve difficult learning control problems",
       "author": [
         {

@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1109/tits.2025.3549227",
       "url": "https://doi.org/10.1109/tits.2025.3549227",
-      "sameAs": ["https://doi.org/10.1109/tits.2025.3549227", "https://openalex.org/W4408519626"],
+      "sameAs": ["https://doi.org/10.1109/tits.2025.3549227", "https://openalex.org/W4408519626", "https://www.wikidata.org/entity/Q141269466"],
       "name": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
       "author": [
         {

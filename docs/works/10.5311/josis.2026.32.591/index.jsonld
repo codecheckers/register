@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5311/josis.2026.32.591",
       "url": "https://doi.org/10.5311/josis.2026.32.591",
-      "sameAs": ["https://doi.org/10.5311/josis.2026.32.591", "https://openalex.org/W7166859420"],
+      "sameAs": ["https://doi.org/10.5311/josis.2026.32.591", "https://openalex.org/W7166859420", "https://www.wikidata.org/entity/Q141269481"],
       "name": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures ",
       "author": [
         {

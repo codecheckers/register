@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-4-13-2023",
       "url": "https://doi.org/10.5194/agile-giss-4-13-2023",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-4-13-2023", "https://openalex.org/W4379797511"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-4-13-2023", "https://openalex.org/W4379797511", "https://www.wikidata.org/entity/Q141269427"],
       "name": "Does spatial thinking ability relate to performance when using web-mapping services? A survey with digital natives",
       "author": [
         {

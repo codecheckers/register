@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1038/s41598-023-48241-y",
       "url": "https://doi.org/10.1038/s41598-023-48241-y",
-      "sameAs": ["https://doi.org/10.1038/s41598-023-48241-y", "https://openalex.org/W4389674756"],
+      "sameAs": ["https://doi.org/10.1038/s41598-023-48241-y", "https://openalex.org/W4389674756", "https://www.wikidata.org/entity/Q141269434"],
       "name": "An inventory of human light exposure related behaviour ",
       "author": [
         {

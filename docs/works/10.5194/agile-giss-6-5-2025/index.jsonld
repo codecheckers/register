@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-6-5-2025",
       "url": "https://doi.org/10.5194/agile-giss-6-5-2025",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-6-5-2025", "https://openalex.org/W4411153502"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-6-5-2025", "https://openalex.org/W4411153502", "https://www.wikidata.org/entity/Q141269456"],
       "name": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
       "author": [
         {

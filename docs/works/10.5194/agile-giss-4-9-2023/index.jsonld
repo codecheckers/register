@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-4-9-2023",
       "url": "https://doi.org/10.5194/agile-giss-4-9-2023",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-4-9-2023", "https://openalex.org/W4379795573"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-4-9-2023", "https://openalex.org/W4379795573", "https://www.wikidata.org/entity/Q141269417"],
       "name": "Urban Sound Mapping for Wayfinding - A theoretical Approach and an empirical Study",
       "author": [
         {

@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-2-14-2021",
       "url": "https://doi.org/10.5194/agile-giss-2-14-2021",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-2-14-2021", "https://openalex.org/W3168422666"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-14-2021", "https://openalex.org/W3168422666", "https://www.wikidata.org/entity/Q141269360"],
       "name": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
       "author": [
         {

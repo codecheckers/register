@@ -29,7 +29,8 @@
       }
     ],
     "reference": "https://doi.org/10.5281/zenodo.13734819",
-    "openalex": "https://openalex.org/W6893062762"
+    "openalex": "https://openalex.org/W6893062762",
+    "wikidata": "Q141269441"
   },
   "codecheck": {
     "codecheckers": [

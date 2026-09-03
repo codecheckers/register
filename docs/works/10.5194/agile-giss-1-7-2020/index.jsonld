@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-1-7-2020",
       "url": "https://doi.org/10.5194/agile-giss-1-7-2020",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-1-7-2020", "https://openalex.org/W3042838677"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-1-7-2020", "https://openalex.org/W3042838677", "https://www.wikidata.org/entity/Q141269335"],
       "name": "What to do in the Meantime: A Service Coverage Analysis for Parked Autonomous Vehicles",
       "author": [
         {

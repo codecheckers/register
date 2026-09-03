@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-6-11-2025",
       "url": "https://doi.org/10.5194/agile-giss-6-11-2025",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-6-11-2025", "https://openalex.org/W4411153243"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-6-11-2025", "https://openalex.org/W4411153243", "https://www.wikidata.org/entity/Q141269461"],
       "name": "How close is \"close\"? An analysis of the spatial characteristics of perceived proximity using Large Language Models",
       "author": [
         {

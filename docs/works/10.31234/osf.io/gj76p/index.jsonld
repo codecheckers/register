@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.31234/osf.io/gj76p",
       "url": "https://doi.org/10.31234/osf.io/gj76p",
-      "sameAs": ["https://doi.org/10.31234/osf.io/gj76p", "https://openalex.org/W4399738503"],
+      "sameAs": ["https://doi.org/10.31234/osf.io/gj76p", "https://openalex.org/W4399738503", "https://www.wikidata.org/entity/Q141269464"],
       "name": "Exploring Categorical Colors",
       "author": [
         {

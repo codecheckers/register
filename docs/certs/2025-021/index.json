@@ -19,7 +19,8 @@
         "orcid": "0000-0002-0060-6526"
       }
     ],
-    "reference": "https://doi.org/10.48550/arXiv.2507.03456"
+    "reference": "https://doi.org/10.48550/arXiv.2507.03456",
+    "wikidata": "Q141269465"
   },
   "codecheck": {
     "codecheckers": [

@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1007/s10109-020-00334-2",
       "url": "https://doi.org/10.1007/s10109-020-00334-2",
-      "sameAs": ["https://doi.org/10.1007/s10109-020-00334-2", "https://openalex.org/W3047775749"],
+      "sameAs": ["https://doi.org/10.1007/s10109-020-00334-2", "https://openalex.org/W3047775749", "https://www.wikidata.org/entity/Q141269334"],
       "name": "Opening practice: supporting reproducibility and critical spatial data science ",
       "author": [
         {

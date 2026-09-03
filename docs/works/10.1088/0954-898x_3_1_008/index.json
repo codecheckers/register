@@ -5,7 +5,7 @@
     "doi": "10.1088/0954-898x_3_1_008",
     "title": "The principal components of natural images",
     "openalex": "https://openalex.org/W2169326908",
-    "wikidata": null,
+    "wikidata": "Q141269327",
     "venues": "codecheck",
     "check_count": 1,
     "authors": [
@@ -37,6 +37,29 @@
   },
   "checks_cumulative": {
     "2020": 1
+  },
+  "interval_n": 1,
+  "interval_excluded": 0,
+  "interval_points": [
+    {
+      "id": "2020-002",
+      "days": 10330
+    }
+  ],
+  "interval_buckets": {
+    "Before publication": 0,
+    "0-1mo": 0,
+    "1-3mo": 0,
+    "3-6mo": 0,
+    "6-12mo": 0,
+    "1-2y": 0,
+    "2-5y": 0,
+    "5y+": 1
+  },
+  "interval_summary": {
+    "pct_before_publication": 0,
+    "pct_within_6mo": 0,
+    "max_years": 28
   },
   "venues_per_year": {
     "2020": 1

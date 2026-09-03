@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-3-9-2022",
       "url": "https://doi.org/10.5194/agile-giss-3-9-2022",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-3-9-2022", "https://openalex.org/W4281689570"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-9-2022", "https://openalex.org/W4281689570", "https://www.wikidata.org/entity/Q141269390"],
       "name": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
       "author": [
         {

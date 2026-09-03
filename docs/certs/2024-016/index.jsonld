@@ -57,7 +57,7 @@
       }
     ],
     "url": "https://doi.org/10.5281/zenodo.13734819",
-    "sameAs": ["https://doi.org/10.5281/zenodo.13734819", "https://openalex.org/W6893062762"]
+    "sameAs": ["https://doi.org/10.5281/zenodo.13734819", "https://openalex.org/W6893062762", "https://www.wikidata.org/entity/Q141269441"]
   },
   "reviewBody": "Codecheck performed on the .nlogo and .Rproj files to generate Figures 2-6 of the paper.\nThe resulting figures were not an exact match due to stochasticity.\nHowever, the overall patterns of the figures were similar to the patterns of the paper's figures.",
   "datePublished": "2024-09-26",

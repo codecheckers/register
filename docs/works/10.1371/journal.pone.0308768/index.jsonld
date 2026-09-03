@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1371/journal.pone.0308768",
       "url": "https://doi.org/10.1371/journal.pone.0308768",
-      "sameAs": ["https://doi.org/10.1371/journal.pone.0308768", "https://openalex.org/W4405281316"],
+      "sameAs": ["https://doi.org/10.1371/journal.pone.0308768", "https://openalex.org/W4405281316", "https://www.wikidata.org/entity/Q141269443"],
       "name": "Power analysis for personal light exposure measurements and interventions ",
       "author": [
         {

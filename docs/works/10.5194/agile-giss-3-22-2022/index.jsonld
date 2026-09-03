@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-3-22-2022",
       "url": "https://doi.org/10.5194/agile-giss-3-22-2022",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-3-22-2022", "https://openalex.org/W4281642483"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-22-2022", "https://openalex.org/W4281642483", "https://www.wikidata.org/entity/Q141269412"],
       "name": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
       "author": [
         {
