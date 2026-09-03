@@ -35,15 +35,18 @@ See the docs about manual rendering below for details.
 
 ## Deposit/archive
 
-This repository is archived *manually*, in irregular intervals, on Zenodo using the [GitHub-Zenodo-Integration](https://guides.github.com/activities/citable-code/): creating a new GitHub release deposits its metadata from [`.zenodo.json`](.zenodo.json).
+This repository is archived on Zenodo using the [GitHub-Zenodo-Integration](https://guides.github.com/activities/citable-code/): creating a new GitHub release deposits its metadata from [`.zenodo.json`](.zenodo.json).
 
 `.zenodo.json` is hand-maintained (title, creators, licence, community, related identifiers, ...), except for its `contributors` array: every `make render` regenerates that list from the codecheckers named in the register (see [`register#58`](https://github.com/codecheckers/register/issues/58)), so it credits everyone who has conducted a check without any manual edit. Zenodo's contributor role vocabulary has no "reviewer"/"checker" term, so every codechecker is listed with role "Other" - explained in the record's own description.
 
-To deposit a new version:
+Cutting the release itself is automated ([`register#34`](https://github.com/codecheckers/register/issues/34)): [`.github/workflows/deposit.yml`](.github/workflows/deposit.yml) runs monthly and creates a new release - tag `YYYY-MM-DD`, title "CODECHECK Register Deposit" followed by the month and year, e.g. "CODECHECK Register Deposit July 2025" - whenever both hold:
 
-1. Run `make render` (or otherwise ensure `docs/` and `.zenodo.json` are up to date with the latest `register.csv`).
-2. Create a new GitHub release, following the naming scheme of previous releases (tag `YYYY-MM-DD`, title "CODECHECK Register Deposit" followed by the month and year, e.g. "CODECHECK Register Deposit July 2025").
-3. Check the resulting Zenodo record: confirm it picked up the metadata from `.zenodo.json`, including the `contributors`, and that it is listed in [the CODECHECK community](https://zenodo.org/communities/codecheck/).
+- a full quarter (91 days) has passed since the last release tag, and
+- `register.csv` has changed since that tag (i.e. there is at least one new or updated certificate to deposit).
+
+`docs/` and `.zenodo.json` are already current by the time this runs, since `render.yml` renders on every push to `register.csv`; the deposit workflow only tags and releases `master` as it stands. It can also be triggered manually (`workflow_dispatch`) to check the current state without waiting for the schedule, or a release can still be created by hand at any time following the same naming scheme.
+
+After a deposit (automated or manual), check the resulting Zenodo record: confirm it picked up the metadata from `.zenodo.json`, including the `contributors`, and that it is listed in [the CODECHECK community](https://zenodo.org/communities/codecheck/).
 
 ## Files in this repository
 

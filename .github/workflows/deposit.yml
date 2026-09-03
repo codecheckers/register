@@ -1,0 +1,72 @@
+name: Scheduled Zenodo deposit
+
+# Automates the release side of register#34: on a monthly schedule, checks
+# whether a full quarter has passed since the last deposit and whether
+# register.csv changed since then, and if so cuts a new GitHub release -
+# which the existing GitHub-Zenodo integration deposits using .zenodo.json
+# (register#58). Rendering itself is already handled by render.yml on every
+# push to register.csv, so by the time a quarter has passed docs/ and
+# .zenodo.json are already current; this workflow only tags and releases.
+
+on:
+  schedule:
+    - cron: '0 6 1 * *' # 06:00 UTC on the 1st of every month
+  workflow_dispatch:
+
+jobs:
+  deposit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Find last release tag
+        id: last
+        run: |
+          tag=$(git tag --list '20*' --sort=-creatordate | head -1)
+          if [ -z "$tag" ]; then
+            echo "No previous release tag found, nothing to compare against."
+            exit 0
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          tag_date=$(git log -1 --format=%ai "$tag" | cut -d' ' -f1)
+          echo "tag_date=$tag_date" >> "$GITHUB_OUTPUT"
+          echo "Last release: $tag ($tag_date)"
+
+      - name: Check a quarter has passed
+        id: quarter
+        if: steps.last.outputs.tag
+        run: |
+          tag_date="${{ steps.last.outputs.tag_date }}"
+          days=$(( ( $(date +%s) - $(date -d "$tag_date" +%s) ) / 86400 ))
+          echo "Days since last release: $days"
+          if [ "$days" -lt 91 ]; then
+            echo "elapsed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "elapsed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check register.csv changed since last release
+        id: changed
+        if: steps.quarter.outputs.elapsed == 'true'
+        run: |
+          if git diff --quiet "${{ steps.last.outputs.tag }}" HEAD -- register.csv; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "register.csv unchanged since ${{ steps.last.outputs.tag }}, nothing to deposit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create release
+        if: steps.quarter.outputs.elapsed == 'true' && steps.changed.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          tag=$(date +%Y-%m-%d)
+          title="CODECHECK Register Deposit $(date +'%B %Y')"
+          gh release create "$tag" --target master --title "$title" \
+            --notes "Automated quarterly deposit. See https://github.com/codecheckers/register/issues/34."
