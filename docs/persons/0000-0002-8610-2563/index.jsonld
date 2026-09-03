@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8610-2563",
-      "name": "Kathrin Foshag"
+      "name": "Kathrin Foshag",
+      "sameAs": "https://www.wikidata.org/entity/Q133395828"
     },
     {
       "@type": "ScholarlyArticle",

@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-1007-6474",
-      "name": "Dan F. M. Goodman"
+      "name": "Dan F. M. Goodman",
+      "sameAs": "https://www.wikidata.org/entity/Q63659480"
     },
     {
       "@type": "ScholarlyArticle",

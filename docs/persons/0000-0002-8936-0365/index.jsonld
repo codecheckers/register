@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8936-0365",
       "name": "Eduard Klapwijk",
-      "sameAs": "https://github.com/eduardklap"
+      "sameAs": ["https://github.com/eduardklap", "https://www.wikidata.org/entity/Q57449034"]
     },
     {
       "@type": "Review",

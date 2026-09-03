@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0009-0000-7923-3357",
-      "name": "Samuel Hollendonner"
+      "name": "Samuel Hollendonner",
+      "sameAs": "https://www.wikidata.org/entity/Q126485410"
     },
     {
       "@type": "ScholarlyArticle",

@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-5-6-2024",
       "url": "https://doi.org/10.5194/agile-giss-5-6-2024",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-5-6-2024", "https://openalex.org/W4399175227"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-5-6-2024", "https://openalex.org/W4399175227", "https://www.wikidata.org/entity/Q126207800"],
       "name": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
       "author": [
         {

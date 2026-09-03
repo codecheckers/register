@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-9317-8291",
       "name": "Frank O. Ostermann",
-      "sameAs": "https://github.com/foost"
+      "sameAs": ["https://github.com/foost", "https://www.wikidata.org/entity/Q63615175"]
     },
     {
       "@type": "Review",

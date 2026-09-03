@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-5-4-2024",
       "url": "https://doi.org/10.5194/agile-giss-5-4-2024",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-5-4-2024", "https://openalex.org/W4399157664"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-5-4-2024", "https://openalex.org/W4399157664", "https://www.wikidata.org/entity/Q126207676"],
       "name": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
       "author": [
         {

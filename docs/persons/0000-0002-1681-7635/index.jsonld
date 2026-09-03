@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1681-7635",
-      "name": "Jörg Rainer Noennig"
+      "name": "Jörg Rainer Noennig",
+      "sameAs": "https://www.wikidata.org/entity/Q136965950"
     },
     {
       "@type": "ScholarlyArticle",

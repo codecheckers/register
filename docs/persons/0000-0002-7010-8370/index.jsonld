@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-7010-8370",
-      "name": "Michael Vorländer"
+      "name": "Michael Vorländer",
+      "sameAs": "https://www.wikidata.org/entity/Q131695308"
     },
     {
       "@type": "ScholarlyArticle",

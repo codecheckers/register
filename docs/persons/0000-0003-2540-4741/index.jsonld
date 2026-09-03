@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-2540-4741",
-      "name": "Francisco Ramos"
+      "name": "Francisco Ramos",
+      "sameAs": "https://www.wikidata.org/entity/Q60963008"
     },
     {
       "@type": "ScholarlyArticle",

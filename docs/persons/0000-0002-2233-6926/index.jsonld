@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2233-6926",
-      "name": "Bernd Resch"
+      "name": "Bernd Resch",
+      "sameAs": "https://www.wikidata.org/entity/Q57691095"
     },
     {
       "@type": "ScholarlyArticle",

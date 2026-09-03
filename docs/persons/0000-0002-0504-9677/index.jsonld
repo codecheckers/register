@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0504-9677",
       "name": "Patrick Eneche",
-      "sameAs": "https://github.com/Patrick-Samson-Udama-Eneche"
+      "sameAs": ["https://github.com/Patrick-Samson-Udama-Eneche", "https://www.wikidata.org/entity/Q100995690"]
     },
     {
       "@type": "Review",

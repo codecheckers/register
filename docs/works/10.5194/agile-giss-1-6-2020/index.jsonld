@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-1-6-2020",
       "url": "https://doi.org/10.5194/agile-giss-1-6-2020",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-1-6-2020", "https://openalex.org/W3042993452"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-1-6-2020", "https://openalex.org/W3042993452", "https://www.wikidata.org/entity/Q117430375"],
       "name": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
       "author": [
         {

@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2840-7561",
-      "name": "Andrea Polini"
+      "name": "Andrea Polini",
+      "sameAs": "https://www.wikidata.org/entity/Q122958130"
     },
     {
       "@type": "ScholarlyArticle",

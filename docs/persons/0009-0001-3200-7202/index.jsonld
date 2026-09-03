@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0009-0001-3200-7202",
-      "name": "Ioanna Gogousou"
+      "name": "Ioanna Gogousou",
+      "sameAs": "https://www.wikidata.org/entity/Q126454727"
     },
     {
       "@type": "ScholarlyArticle",

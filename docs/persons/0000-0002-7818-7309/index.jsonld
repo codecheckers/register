@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-7818-7309",
-      "name": "Gengchen Mai"
+      "name": "Gengchen Mai",
+      "sameAs": "https://www.wikidata.org/entity/Q114054915"
     },
     {
       "@type": "ScholarlyArticle",

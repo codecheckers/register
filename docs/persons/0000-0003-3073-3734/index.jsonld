@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-3073-3734",
-      "name": "Sérgio Lifschitz"
+      "name": "Sérgio Lifschitz",
+      "sameAs": "https://www.wikidata.org/entity/Q82586778"
     },
     {
       "@type": "ScholarlyArticle",

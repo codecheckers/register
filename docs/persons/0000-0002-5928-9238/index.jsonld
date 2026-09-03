@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-5928-9238",
-      "name": "Jørgen Hasselstrøm"
+      "name": "Jørgen Hasselstrøm",
+      "sameAs": "https://www.wikidata.org/entity/Q84177149"
     },
     {
       "@type": "ScholarlyArticle",

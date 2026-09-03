@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-0844-9390",
-      "name": "Justine Blanford"
+      "name": "Justine Blanford",
+      "sameAs": "https://www.wikidata.org/entity/Q96120753"
     },
     {
       "@type": "ScholarlyArticle",

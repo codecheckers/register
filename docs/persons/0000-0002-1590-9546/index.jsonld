@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1590-9546",
-      "name": "Ludovic Moncla"
+      "name": "Ludovic Moncla",
+      "sameAs": "https://www.wikidata.org/entity/Q123999348"
     },
     {
       "@type": "ScholarlyArticle",

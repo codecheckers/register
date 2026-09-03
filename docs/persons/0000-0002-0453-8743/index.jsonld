@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0453-8743",
-      "name": "Lorenz Hurni"
+      "name": "Lorenz Hurni",
+      "sameAs": "https://www.wikidata.org/entity/Q105672983"
     },
     {
       "@type": "ScholarlyArticle",

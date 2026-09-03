@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-6491-7430",
-      "name": "Francisco Javier López-Pellicer"
+      "name": "Francisco Javier López-Pellicer",
+      "sameAs": "https://www.wikidata.org/entity/Q29401823"
     },
     {
       "@type": "ScholarlyArticle",

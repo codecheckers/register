@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6656-8809",
-      "name": "Monika Sester"
+      "name": "Monika Sester",
+      "sameAs": "https://www.wikidata.org/entity/Q21264434"
     },
     {
       "@type": "ScholarlyArticle",

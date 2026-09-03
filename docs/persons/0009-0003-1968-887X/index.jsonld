@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0009-0003-1968-887X",
-      "name": "Krzysztof Janowicz"
+      "name": "Krzysztof Janowicz",
+      "sameAs": "https://www.wikidata.org/entity/Q130841679"
     },
     {
       "@type": "ScholarlyArticle",

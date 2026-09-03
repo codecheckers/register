@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-6594-4481",
-      "name": "Negar Alinaghi"
+      "name": "Negar Alinaghi",
+      "sameAs": "https://www.wikidata.org/entity/Q126454874"
     },
     {
       "@type": "ScholarlyArticle",

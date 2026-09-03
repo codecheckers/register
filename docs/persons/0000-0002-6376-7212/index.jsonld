@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6376-7212",
-      "name": "Tri-Long Nguyen"
+      "name": "Tri-Long Nguyen",
+      "sameAs": "https://www.wikidata.org/entity/Q57061202"
     },
     {
       "@type": "ScholarlyArticle",

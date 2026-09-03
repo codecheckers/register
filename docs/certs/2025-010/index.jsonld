@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Review",
   "@id": "https://codecheck.org.uk/register/certs/2025-010/",
-  "name": "Reproducibility Review of: Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
+  "name": "Reproducibility Review of: 3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
   "url": "https://codecheck.org.uk/register/certs/2025-010/",
   "inLanguage": "en",
   "publisher": {
@@ -45,12 +45,12 @@
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
-    "value": "10.17605/OSF.IO/gv2z4"
+    "value": "10.17605/OSF.IO/fxkws"
   },
   "associatedMedia": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
-    "url": "https://doi.org/10.17605/OSF.IO/gv2z4"
+    "url": "https://doi.org/10.17605/OSF.IO/fxkws"
   },
   "encoding": {
     "@type": "MediaObject",

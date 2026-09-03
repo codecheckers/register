@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-3212-8864",
-      "name": "Johannes Scholz"
+      "name": "Johannes Scholz",
+      "sameAs": "https://www.wikidata.org/entity/Q137067014"
     },
     {
       "@type": "ScholarlyArticle",

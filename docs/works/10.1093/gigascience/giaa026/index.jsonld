@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1093/gigascience/giaa026",
       "url": "https://doi.org/10.1093/gigascience/giaa026",
-      "sameAs": ["https://doi.org/10.1093/gigascience/giaa026", "https://openalex.org/W3014157798"],
+      "sameAs": ["https://doi.org/10.1093/gigascience/giaa026", "https://openalex.org/W3014157798", "https://www.wikidata.org/entity/Q91579802"],
       "name": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",
       "author": [
         {

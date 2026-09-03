@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-8159-5461",
-      "name": "Sadra Sadeh"
+      "name": "Sadra Sadeh",
+      "sameAs": "https://www.wikidata.org/entity/Q41047647"
     },
     {
       "@type": "ScholarlyArticle",

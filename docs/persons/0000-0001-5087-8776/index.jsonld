@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-5087-8776",
-      "name": "Auriol Degbelo"
+      "name": "Auriol Degbelo",
+      "sameAs": "https://www.wikidata.org/entity/Q58427486"
     },
     {
       "@type": "ScholarlyArticle",

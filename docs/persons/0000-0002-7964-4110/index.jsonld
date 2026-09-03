@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-7964-4110",
-      "name": "Sabine Timpf"
+      "name": "Sabine Timpf",
+      "sameAs": "https://www.wikidata.org/entity/Q85695819"
     },
     {
       "@type": "ScholarlyArticle",

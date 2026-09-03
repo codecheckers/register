@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-9738-4060",
-      "name": "Benjamin Herfort"
+      "name": "Benjamin Herfort",
+      "sameAs": "https://www.wikidata.org/entity/Q124218162"
     },
     {
       "@type": "ScholarlyArticle",

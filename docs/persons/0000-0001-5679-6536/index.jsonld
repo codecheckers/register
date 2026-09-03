@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-5679-6536",
-      "name": "Robin Lovelace"
+      "name": "Robin Lovelace",
+      "sameAs": "https://www.wikidata.org/entity/Q56854915"
     },
     {
       "@type": "ScholarlyArticle",

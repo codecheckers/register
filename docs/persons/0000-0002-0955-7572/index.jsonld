@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0955-7572",
-      "name": "Orestis Efthimiou"
+      "name": "Orestis Efthimiou",
+      "sameAs": "https://www.wikidata.org/entity/Q56425988"
     },
     {
       "@type": "ScholarlyArticle",

@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-5891-1702",
-      "name": "Tiziano Zito"
+      "name": "Tiziano Zito",
+      "sameAs": "https://www.wikidata.org/entity/Q103811805"
     },
     {
       "@type": "ScholarlyArticle",

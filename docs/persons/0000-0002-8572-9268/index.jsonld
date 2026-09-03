@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8572-9268",
-      "name": "Manuel Spitschan"
+      "name": "Manuel Spitschan",
+      "sameAs": "https://www.wikidata.org/entity/Q48095271"
     },
     {
       "@type": "ScholarlyArticle",

@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1093-3416",
-      "name": "Peter Kedron"
+      "name": "Peter Kedron",
+      "sameAs": "https://www.wikidata.org/entity/Q61830012"
     },
     {
       "@type": "ScholarlyArticle",

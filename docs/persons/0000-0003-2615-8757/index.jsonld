@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-2615-8757",
       "name": "Jakub Krukar",
-      "sameAs": "https://github.com/kubakrukar"
+      "sameAs": ["https://github.com/kubakrukar", "https://www.wikidata.org/entity/Q85927287"]
     },
     {
       "@type": "Review",

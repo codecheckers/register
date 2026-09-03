@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-3071-5563",
-      "name": "Farnaghi, Mahdi"
+      "name": "Farnaghi, Mahdi",
+      "sameAs": "https://www.wikidata.org/entity/Q88427402"
     },
     {
       "@type": "ScholarlyArticle",

@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-0319-5627",
-      "name": "Maarten van Aalst"
+      "name": "Maarten van Aalst",
+      "sameAs": "https://www.wikidata.org/entity/Q57904983"
     },
     {
       "@type": "ScholarlyArticle",

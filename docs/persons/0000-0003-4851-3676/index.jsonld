@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-4851-3676",
-      "name": "Jyun-you Liou"
+      "name": "Jyun-you Liou",
+      "sameAs": "https://www.wikidata.org/entity/Q90584852"
     },
     {
       "@type": "ScholarlyArticle",

@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6477-0683",
-      "name": "Héctor Ochoa-Ortiz"
+      "name": "Héctor Ochoa-Ortiz",
+      "sameAs": "https://www.wikidata.org/entity/Q123014245"
     },
     {
       "@type": "ScholarlyArticle",

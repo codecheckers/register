@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0891-4611",
-      "name": "Samir Bhatt"
+      "name": "Samir Bhatt",
+      "sameAs": "https://www.wikidata.org/entity/Q56788604"
     },
     {
       "@type": "ScholarlyArticle",

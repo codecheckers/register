@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-1-15-2020",
       "url": "https://doi.org/10.5194/agile-giss-1-15-2020",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-1-15-2020", "https://openalex.org/W3043728279"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-1-15-2020", "https://openalex.org/W3043728279", "https://www.wikidata.org/entity/Q123999338"],
       "name": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
       "author": [
         {

@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8381-3749",
       "name": "Raniere Silva",
-      "sameAs": "https://github.com/rgaiacs"
+      "sameAs": ["https://github.com/rgaiacs", "https://www.wikidata.org/entity/Q91223085"]
     },
     {
       "@type": "Review",

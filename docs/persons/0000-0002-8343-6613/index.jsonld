@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8343-6613",
-      "name": "Maarten Hornikx"
+      "name": "Maarten Hornikx",
+      "sameAs": "https://www.wikidata.org/entity/Q58593733"
     },
     {
       "@type": "ScholarlyArticle",

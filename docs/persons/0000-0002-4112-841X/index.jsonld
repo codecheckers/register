@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-4112-841X",
-      "name": "Roland Schmehl"
+      "name": "Roland Schmehl",
+      "sameAs": "https://www.wikidata.org/entity/Q90962041"
     },
     {
       "@type": "ScholarlyArticle",

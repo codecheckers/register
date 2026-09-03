@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2923-4199",
-      "name": "Amanda Henry"
+      "name": "Amanda Henry",
+      "sameAs": "https://www.wikidata.org/entity/Q42306018"
     },
     {
       "@type": "ScholarlyArticle",

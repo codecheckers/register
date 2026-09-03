@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-1637-0092",
-      "name": "Yizi Chen"
+      "name": "Yizi Chen",
+      "sameAs": "https://www.wikidata.org/entity/Q134243045"
     },
     {
       "@type": "ScholarlyArticle",

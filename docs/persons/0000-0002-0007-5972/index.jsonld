@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0007-5972",
-      "name": "Marie-Dominique Van Damme"
+      "name": "Marie-Dominique Van Damme",
+      "sameAs": "https://www.wikidata.org/entity/Q124394392"
     },
     {
       "@type": "ScholarlyArticle",

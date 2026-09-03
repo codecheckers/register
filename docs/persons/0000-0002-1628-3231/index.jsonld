@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1628-3231",
       "name": "Joseph Shingleton",
-      "sameAs": "https://github.com/jshng-glasgow"
+      "sameAs": ["https://github.com/jshng-glasgow", "https://www.wikidata.org/entity/Q95605145"]
     },
     {
       "@type": "Review",

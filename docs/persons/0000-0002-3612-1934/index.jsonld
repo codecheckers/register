@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-3612-1934",
-      "name": "Mauro Conti"
+      "name": "Mauro Conti",
+      "sameAs": "https://www.wikidata.org/entity/Q96028395"
     },
     {
       "@type": "ScholarlyArticle",

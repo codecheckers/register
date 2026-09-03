@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0204-5101",
-      "name": "Marcel Reinmuth"
+      "name": "Marcel Reinmuth",
+      "sameAs": "https://www.wikidata.org/entity/Q125777905"
     },
     {
       "@type": "ScholarlyArticle",

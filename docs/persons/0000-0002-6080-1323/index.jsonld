@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6080-1323",
-      "name": "Karin Pfeffer"
+      "name": "Karin Pfeffer",
+      "sameAs": "https://www.wikidata.org/entity/Q139272960"
     },
     {
       "@type": "ScholarlyArticle",

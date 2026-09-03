@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.7554/elife.50927",
       "url": "https://doi.org/10.7554/elife.50927",
-      "sameAs": ["https://doi.org/10.7554/elife.50927", "https://openalex.org/W3012706327"],
+      "sameAs": ["https://doi.org/10.7554/elife.50927", "https://openalex.org/W3012706327", "https://www.wikidata.org/entity/Q90584862"],
       "name": "A model for focal seizure onset, propagation, evolution, and progression ",
       "author": [
         {

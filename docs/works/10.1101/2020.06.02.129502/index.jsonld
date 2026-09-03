@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1101/2020.06.02.129502",
       "url": "https://doi.org/10.1101/2020.06.02.129502",
-      "sameAs": ["https://doi.org/10.1101/2020.06.02.129502", "https://openalex.org/W3123970356"],
+      "sameAs": ["https://doi.org/10.1101/2020.06.02.129502", "https://openalex.org/W3123970356", "https://www.wikidata.org/entity/Q107140879"],
       "name": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision ",
       "author": [
         {

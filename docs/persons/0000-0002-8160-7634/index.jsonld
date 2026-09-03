@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8160-7634",
       "name": "Nina Wiedemann",
-      "sameAs": "https://github.com/NinaWie"
+      "sameAs": ["https://github.com/NinaWie", "https://www.wikidata.org/entity/Q133825172"]
     },
     {
       "@type": "Review",

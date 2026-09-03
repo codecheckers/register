@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-4-10-2023",
       "url": "https://doi.org/10.5194/agile-giss-4-10-2023",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-4-10-2023", "https://openalex.org/W4379794592"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-4-10-2023", "https://openalex.org/W4379794592", "https://www.wikidata.org/entity/Q126012390"],
       "name": "Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",
       "author": [
         {

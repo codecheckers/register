@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0009-0008-8406-2028",
-      "name": "Nikolaos Kolaxidis"
+      "name": "Nikolaos Kolaxidis",
+      "sameAs": "https://www.wikidata.org/entity/Q135113599"
     },
     {
       "@type": "ScholarlyArticle",

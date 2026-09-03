@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-9304-0719",
-      "name": "Sergio Trilles"
+      "name": "Sergio Trilles",
+      "sameAs": "https://www.wikidata.org/entity/Q89467155"
     },
     {
       "@type": "ScholarlyArticle",

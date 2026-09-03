@@ -25,7 +25,8 @@
       "text": "<jats:p>Abstract. The COVID-19 pandemic has caused severe public health issues at a global scale. However, effects were not spatially homogeneous. We analyzed how five selects socio-economic factors (votes for right-winged populist party, share of foreigners, share of highly qualified employees, long-term unemployment rate, share of incoming commuters) shaped the incidence rate in Germany over the pandemic phase. The analysis was performed at the level of the 400 districts. In addition, we analyzed how spatial autocorrelation changed during the course of the pandemic. As regression residuals were positively spatially autocorrelated we applied a spatial eigenvector approach to derive unbiased estimates for our regression coefficients. We also tested for interactions of the regression coefficients with the selected spatial eigenvectors. With the exception of the votes for the rightwinged populist party all predictors showed significant interactions with the eigenvectors. The resulting spatially varying regression coefficients maps indicate that the relationship between incidence rate and the socioeconomic indicators might be less straight-forward than commonly assumed and seemed moderated by additional factors. The spatial clusters that emerged during the analysis provide a base for a more detailed analysis of the interplay of regional scale health politics and regional economic geography.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/DZURB<\/jats:p>",
       "source": "CrossRef"
     },
-    "openalex": "https://openalex.org/W7164208595"
+    "openalex": "https://openalex.org/W7164208595",
+    "wikidata": "Q140232106"
   },
   "codecheck": {
     "codecheckers": [

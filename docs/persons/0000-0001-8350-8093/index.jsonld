@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-8350-8093",
-      "name": "Ari Ercole"
+      "name": "Ari Ercole",
+      "sameAs": "https://www.wikidata.org/entity/Q41625599"
     },
     {
       "@type": "ScholarlyArticle",

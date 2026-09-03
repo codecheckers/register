@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2811-1920",
-      "name": "Balthasar Teuscher"
+      "name": "Balthasar Teuscher",
+      "sameAs": "https://www.wikidata.org/entity/Q130815084"
     },
     {
       "@type": "ScholarlyArticle",

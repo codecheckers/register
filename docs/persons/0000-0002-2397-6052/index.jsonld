@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2397-6052",
-      "name": "Jeroen Hoogland"
+      "name": "Jeroen Hoogland",
+      "sameAs": "https://www.wikidata.org/entity/Q94462919"
     },
     {
       "@type": "ScholarlyArticle",

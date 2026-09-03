@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-4386-4450",
       "name": "Alexander Kmoch",
-      "sameAs": "https://github.com/allixender"
+      "sameAs": ["https://github.com/allixender", "https://www.wikidata.org/entity/Q91522366"]
     },
     {
       "@type": "Review",

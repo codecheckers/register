@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-4324-5350",
-      "name": "Roel Janssen"
+      "name": "Roel Janssen",
+      "sameAs": "https://www.wikidata.org/entity/Q95300076"
     },
     {
       "@type": "Review",

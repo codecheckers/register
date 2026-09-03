@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-3856-2936",
-      "name": "Bruno Martins"
+      "name": "Bruno Martins",
+      "sameAs": "https://www.wikidata.org/entity/Q58477135"
     },
     {
       "@type": "ScholarlyArticle",

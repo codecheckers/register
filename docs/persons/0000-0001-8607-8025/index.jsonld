@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-8607-8025",
       "name": "Stephen J. Eglen",
-      "sameAs": "https://github.com/sje30"
+      "sameAs": ["https://github.com/sje30", "https://www.wikidata.org/entity/Q38324721"]
     },
     {
       "@type": "Review",

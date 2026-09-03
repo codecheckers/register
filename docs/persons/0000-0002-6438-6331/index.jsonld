@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6438-6331",
-      "name": "Susanne Kohl"
+      "name": "Susanne Kohl",
+      "sameAs": "https://www.wikidata.org/entity/Q47502299"
     },
     {
       "@type": "ScholarlyArticle",

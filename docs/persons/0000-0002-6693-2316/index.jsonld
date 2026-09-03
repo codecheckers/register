@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6693-2316",
-      "name": "Elena Arsevska"
+      "name": "Elena Arsevska",
+      "sameAs": "https://www.wikidata.org/entity/Q59685494"
     },
     {
       "@type": "ScholarlyArticle",

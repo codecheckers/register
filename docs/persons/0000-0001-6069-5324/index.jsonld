@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-6069-5324",
-      "name": "Sreten Cvetojevic"
+      "name": "Sreten Cvetojevic",
+      "sameAs": "https://www.wikidata.org/entity/Q56855932"
     },
     {
       "@type": "ScholarlyArticle",

@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-3-3-2022",
       "url": "https://doi.org/10.5194/agile-giss-3-3-2022",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-3-3-2022", "https://openalex.org/W4282982273"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-3-3-2022", "https://openalex.org/W4282982273", "https://www.wikidata.org/entity/Q126917439"],
       "name": "Optimizing Electric Vehicle Charging Schedules Based on Probabilistic Forecast of Individual Mobility",
       "author": [
         {

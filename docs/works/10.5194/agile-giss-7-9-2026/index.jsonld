@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-7-9-2026",
       "url": "https://doi.org/10.5194/agile-giss-7-9-2026",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-7-9-2026", "https://openalex.org/W7164208595"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-9-2026", "https://openalex.org/W7164208595", "https://www.wikidata.org/entity/Q140232106"],
       "name": "Analysis of the spatial and temporal pattern of COVID-19 incidence rate across Germany",
       "author": [
         {

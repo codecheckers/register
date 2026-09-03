@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1790-2719",
-      "name": "Thomas P A Debray"
+      "name": "Thomas P A Debray",
+      "sameAs": "https://www.wikidata.org/entity/Q56520487"
     },
     {
       "@type": "ScholarlyArticle",

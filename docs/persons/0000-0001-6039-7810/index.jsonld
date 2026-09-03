@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-6039-7810",
-      "name": "Meilin Shi"
+      "name": "Meilin Shi",
+      "sameAs": "https://www.wikidata.org/entity/Q126689763"
     },
     {
       "@type": "ScholarlyArticle",

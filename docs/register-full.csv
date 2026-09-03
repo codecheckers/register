@@ -371,7 +371,7 @@ While they are available via an API, the time to collect the data is not feasibl
 Using only the available data, the corresponding figures could be successfully reproduced after minor code fixes done upon request.
 Overall, the paper is partly reproducible.
 ",
-"2025-010","osf::FXKWS","https://osf.io/FXKWS","conference","AGILEGIS","2025-03-23","https://doi.org/10.17605/OSF.IO/gv2z4","3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations","https://doi.org/10.5194/agile-giss-6-3-2025","https://openalex.org/W4411153561","Ayda Grišiūtė; Martin Raubal; Pieter Herthogs","0000-0001-7328-847X; 0000-0001-5951-6835; 0000-0003-2262-8374","Luke McQuade","0009-0004-5292-6793","A partial reproduction, using intermediate results provided by the authors, was successfully achieved.
+"2025-010","osf::FXKWS","https://osf.io/FXKWS","conference","AGILEGIS","2025-03-23","https://doi.org/10.17605/OSF.IO/fxkws","3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations","https://doi.org/10.5194/agile-giss-6-3-2025","https://openalex.org/W4411153561","Ayda Grišiūtė; Martin Raubal; Pieter Herthogs","0000-0001-7328-847X; 0000-0001-5951-6835; 0000-0003-2262-8374","Luke McQuade","0009-0004-5292-6793","A partial reproduction, using intermediate results provided by the authors, was successfully achieved.
 Table and figure content were generated and materially match with those in the paper.
 Some minor code changes to match my environment were needed.
 I initially attempted a full reproduction, but had to abandon this due to time constraints.

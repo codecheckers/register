@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-5677-5209",
-      "name": "Sven Schade"
+      "name": "Sven Schade",
+      "sameAs": "https://www.wikidata.org/entity/Q55174596"
     },
     {
       "@type": "ScholarlyArticle",

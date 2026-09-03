@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6446-1901",
       "name": "Lukas Röseler",
-      "sameAs": "https://github.com/LukasRoeseler"
+      "sameAs": ["https://github.com/LukasRoeseler", "https://www.wikidata.org/entity/Q137056329"]
     },
     {
       "@type": "Review",

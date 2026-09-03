@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-5736-4679",
-      "name": "Martin Tomko"
+      "name": "Martin Tomko",
+      "sameAs": "https://www.wikidata.org/entity/Q92297137"
     },
     {
       "@type": "ScholarlyArticle",

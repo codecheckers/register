@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2389-3783",
-      "name": "Peter Mooney"
+      "name": "Peter Mooney",
+      "sameAs": "https://www.wikidata.org/entity/Q135312091"
     },
     {
       "@type": "ScholarlyArticle",

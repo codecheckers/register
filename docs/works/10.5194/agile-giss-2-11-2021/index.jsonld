@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-2-11-2021",
       "url": "https://doi.org/10.5194/agile-giss-2-11-2021",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-2-11-2021", "https://openalex.org/W3171527029"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-11-2021", "https://openalex.org/W3171527029", "https://www.wikidata.org/entity/Q133730149"],
       "name": "Extraction of linear structures from digital terrain models using deep learning",
       "author": [
         {

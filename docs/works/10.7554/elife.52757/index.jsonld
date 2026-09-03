@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.7554/elife.52757",
       "url": "https://doi.org/10.7554/elife.52757",
-      "sameAs": ["https://doi.org/10.7554/elife.52757", "https://openalex.org/W3008505973"],
+      "sameAs": ["https://doi.org/10.7554/elife.52757", "https://openalex.org/W3008505973", "https://www.wikidata.org/entity/Q89775486"],
       "name": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing ",
       "author": [
         {

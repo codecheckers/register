@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-9837-0207",
-      "name": "Abdulkareem, Shaheen A."
+      "name": "Abdulkareem, Shaheen A.",
+      "sameAs": "https://www.wikidata.org/entity/Q88111068"
     },
     {
       "@type": "ScholarlyArticle",

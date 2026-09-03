@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0951-7116",
-      "name": "Daniel Cameron"
+      "name": "Daniel Cameron",
+      "sameAs": "https://www.wikidata.org/entity/Q57155586"
     },
     {
       "@type": "ScholarlyArticle",

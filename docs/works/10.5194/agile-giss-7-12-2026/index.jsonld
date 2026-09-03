@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-7-12-2026",
       "url": "https://doi.org/10.5194/agile-giss-7-12-2026",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-7-12-2026", "https://openalex.org/W7164128034"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-12-2026", "https://openalex.org/W7164128034", "https://www.wikidata.org/entity/Q140361385"],
       "name": "OpenStreetMap Suitability Analysis for Wheelchair Routing",
       "author": [
         {

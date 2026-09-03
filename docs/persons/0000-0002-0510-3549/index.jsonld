@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0510-3549",
-      "name": "Matthijs van Leeuwen"
+      "name": "Matthijs van Leeuwen",
+      "sameAs": "https://www.wikidata.org/entity/Q102428826"
     },
     {
       "@type": "ScholarlyArticle",

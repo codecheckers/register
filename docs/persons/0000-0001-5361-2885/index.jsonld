@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-5361-2885",
       "name": "Anita Graser",
-      "sameAs": "https://github.com/anitagraser"
+      "sameAs": ["https://github.com/anitagraser", "https://www.wikidata.org/entity/Q55834001"]
     },
     {
       "@type": "Review",

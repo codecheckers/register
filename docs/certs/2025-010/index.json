@@ -1,7 +1,7 @@
 {
   "certificate": {
     "id": "2025-010",
-    "title": "Reproducibility Review of: Mobility Vitality in Active and Micro-Mobility Modes: Measuring Urban Vitality Through Spatiotemporal Similarity",
+    "title": "Reproducibility Review of: 3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
     "url": "https://codecheck.org.uk/register/certs/2025-010/"
   },
   "paper": {
@@ -36,7 +36,7 @@
     ],
     "check_time": "2025-03-23 12:00:00",
     "repository": "osf::FXKWS",
-    "report": "https://doi.org/10.17605/OSF.IO/gv2z4",
+    "report": "https://doi.org/10.17605/OSF.IO/fxkws",
     "type": "conference",
     "venue": "AGILEGIS",
     "summary": "A partial reproduction, using intermediate results provided by the authors, was successfully achieved.\nTable and figure content were generated and materially match with those in the paper.\nSome minor code changes to match my environment were needed.\nI initially attempted a full reproduction, but had to abandon this due to time constraints.\n",

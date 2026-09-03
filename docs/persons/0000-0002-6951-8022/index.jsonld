@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6951-8022",
-      "name": "Martin Werner"
+      "name": "Martin Werner",
+      "sameAs": "https://www.wikidata.org/entity/Q130314361"
     },
     {
       "@type": "ScholarlyArticle",

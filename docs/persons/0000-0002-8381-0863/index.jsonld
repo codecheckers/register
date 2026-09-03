@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8381-0863",
-      "name": "Katharina Henggeler"
+      "name": "Katharina Henggeler",
+      "sameAs": "https://www.wikidata.org/entity/Q127868083"
     },
     {
       "@type": "ScholarlyArticle",

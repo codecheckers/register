@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8000-628X",
-      "name": "Dagoberto José Herrera-Murillo"
+      "name": "Dagoberto José Herrera-Murillo",
+      "sameAs": "https://www.wikidata.org/entity/Q123784470"
     },
     {
       "@type": "ScholarlyArticle",

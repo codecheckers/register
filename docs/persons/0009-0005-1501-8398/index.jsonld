@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0009-0005-1501-8398",
-      "name": "Manuela Canestrini"
+      "name": "Manuela Canestrini",
+      "sameAs": "https://www.wikidata.org/entity/Q126454796"
     },
     {
       "@type": "ScholarlyArticle",

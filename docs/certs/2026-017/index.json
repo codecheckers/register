@@ -24,7 +24,8 @@
       "text": "<jats:p>Abstract. Navigation and wayfinding are essential for modern mobility and are readily available for vehicles and pedestrians. However, the process can be more challenging for wheelchair users, as the availability of suitable services may be limited. This study investigates the suitability of OpenStreetMap (OSM) for wheelchair navigation. The primary goal is to identify OSM tags (i.e., key-value combinations) that are particularly relevant for wheelchair users. Previous research has shown that the street type, surface, gradient, and barriers are particularly challenging factors for wheelchair navigation and are therefore analyzed in more detail here. Particular emphasis is placed on analyzing pavement conditions and the related challenges in urban infrastructure. Additionally, an area of interest in the city of Graz is selected for a detailed analysis and case study. Another aspect of this work focuses on generating a network specifically for wheelchair users using open-source data and tools. This study highlights the distinctions between pedestrian and wheelchair navigation and demonstrates this quantitatively by comparing their respective routes for numerous origin-destination pairs. Additionally, a performance evaluation is conducted on the established wheelchair network.  Reproducibility review available at: https://doi.org/10.17605/OSF.IO/8c3vf<\/jats:p>",
       "source": "CrossRef"
     },
-    "openalex": "https://openalex.org/W7164128034"
+    "openalex": "https://openalex.org/W7164128034",
+    "wikidata": "Q140361385"
   },
   "codecheck": {
     "codecheckers": [

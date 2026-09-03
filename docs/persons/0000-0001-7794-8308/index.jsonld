@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-7794-8308",
-      "name": "Marina Georgati"
+      "name": "Marina Georgati",
+      "sameAs": "https://www.wikidata.org/entity/Q126683112"
     },
     {
       "@type": "ScholarlyArticle",

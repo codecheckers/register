@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1154-8093",
-      "name": "Neil Ferguson"
+      "name": "Neil Ferguson",
+      "sameAs": "https://www.wikidata.org/entity/Q54209622"
     },
     {
       "@type": "ScholarlyArticle",

@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-7508-6078",
-      "name": "Eveline Crone"
+      "name": "Eveline Crone",
+      "sameAs": "https://www.wikidata.org/entity/Q28842555"
     },
     {
       "@type": "ScholarlyArticle",

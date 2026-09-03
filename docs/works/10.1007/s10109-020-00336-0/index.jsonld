@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1007/s10109-020-00336-0",
       "url": "https://doi.org/10.1007/s10109-020-00336-0",
-      "sameAs": ["https://doi.org/10.1007/s10109-020-00336-0", "https://openalex.org/W3092996383"],
+      "sameAs": ["https://doi.org/10.1007/s10109-020-00336-0", "https://openalex.org/W3092996383", "https://www.wikidata.org/entity/Q112856450"],
       "name": "Progress in the R ecosystem for representing and handling spatial data",
       "author": [
         {

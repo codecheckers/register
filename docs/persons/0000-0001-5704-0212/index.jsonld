@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-5704-0212",
-      "name": "Justin Bedo"
+      "name": "Justin Bedo",
+      "sameAs": "https://www.wikidata.org/entity/Q80656122"
     },
     {
       "@type": "ScholarlyArticle",

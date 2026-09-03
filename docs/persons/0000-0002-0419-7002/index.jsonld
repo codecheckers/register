@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0419-7002",
-      "name": "Alvaro Lau Sarmiento"
+      "name": "Alvaro Lau Sarmiento",
+      "sameAs": "https://www.wikidata.org/entity/Q59554899"
     },
     {
       "@type": "ScholarlyArticle",

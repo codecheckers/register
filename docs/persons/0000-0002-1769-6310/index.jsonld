@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1769-6310",
-      "name": "Zurita-Milla, Raul"
+      "name": "Zurita-Milla, Raul",
+      "sameAs": "https://www.wikidata.org/entity/Q60657855"
     },
     {
       "@type": "ScholarlyArticle",

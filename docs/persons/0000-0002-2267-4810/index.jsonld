@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2267-4810",
-      "name": "Simon Scheider"
+      "name": "Simon Scheider",
+      "sameAs": "https://www.wikidata.org/entity/Q133594839"
     },
     {
       "@type": "ScholarlyArticle",

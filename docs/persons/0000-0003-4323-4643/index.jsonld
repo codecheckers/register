@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-4323-4643",
-      "name": "Elliot H Smith"
+      "name": "Elliot H Smith",
+      "sameAs": "https://www.wikidata.org/entity/Q86846981"
     },
     {
       "@type": "ScholarlyArticle",

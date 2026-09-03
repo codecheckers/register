@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-5-5-2024",
       "url": "https://doi.org/10.5194/agile-giss-5-5-2024",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-5-5-2024", "https://openalex.org/W4399177945"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-5-5-2024", "https://openalex.org/W4399177945", "https://www.wikidata.org/entity/Q126207739"],
       "name": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
       "author": [
         {

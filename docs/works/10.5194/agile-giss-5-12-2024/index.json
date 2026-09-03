@@ -5,6 +5,7 @@
     "doi": "10.5194/agile-giss-5-12-2024",
     "title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
     "openalex": "https://openalex.org/W4399157460",
+    "wikidata": "Q126284658",
     "venues": "AGILEGIS",
     "check_count": 1,
     "authors": [

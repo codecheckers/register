@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-9724-820X",
-      "name": "Carsten Keßler"
+      "name": "Carsten Keßler",
+      "sameAs": "https://www.wikidata.org/entity/Q55993046"
     },
     {
       "@type": "ScholarlyArticle",

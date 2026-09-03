@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-2872-2710",
-      "name": "Stijn Ruiter"
+      "name": "Stijn Ruiter",
+      "sameAs": "https://www.wikidata.org/entity/Q87101730"
     },
     {
       "@type": "ScholarlyArticle",

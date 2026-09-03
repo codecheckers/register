@@ -35,7 +35,7 @@
       }
     ],
     "url": "http://doi.org/10.1038/s41586-020-2405-7",
-    "sameAs": ["http://doi.org/10.1038/s41586-020-2405-7", "https://openalex.org/W3032971139"]
+    "sameAs": ["http://doi.org/10.1038/s41586-020-2405-7", "https://openalex.org/W3032971139", "https://www.wikidata.org/entity/Q96226393"]
   },
   "reviewBody": "This reproduction required several hours of compute time, but the reproduction itself was straightforward.  All the R code was provided, along with a working Dockerfile.\n",
   "datePublished": "2020-06-13",

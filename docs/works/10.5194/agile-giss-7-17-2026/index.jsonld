@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-7-17-2026",
       "url": "https://doi.org/10.5194/agile-giss-7-17-2026",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-7-17-2026", "https://openalex.org/W7164210649"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-17-2026", "https://openalex.org/W7164210649", "https://www.wikidata.org/entity/Q140232098"],
       "name": "Food Insecurity Projections for Anticipatory Action: Comparative Spatiotemporal Analysis of FEWS NET and the IPC in Somalia",
       "author": [
         {

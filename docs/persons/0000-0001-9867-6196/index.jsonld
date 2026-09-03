@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-9867-6196",
-      "name": "Bart De Schutter"
+      "name": "Bart De Schutter",
+      "sameAs": "https://www.wikidata.org/entity/Q51687039"
     },
     {
       "@type": "ScholarlyArticle",

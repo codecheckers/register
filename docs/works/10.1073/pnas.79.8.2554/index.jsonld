@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1073/pnas.79.8.2554",
       "url": "https://doi.org/10.1073/pnas.79.8.2554",
-      "sameAs": ["https://doi.org/10.1073/pnas.79.8.2554", "https://openalex.org/W2128084896"],
+      "sameAs": ["https://doi.org/10.1073/pnas.79.8.2554", "https://openalex.org/W2128084896", "https://www.wikidata.org/entity/Q24632329"],
       "name": "Neural networks and physical systems with emergent collective computational abilities",
       "author": [
         {

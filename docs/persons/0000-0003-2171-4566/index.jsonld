@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-2171-4566",
-      "name": "Johannes Zauner"
+      "name": "Johannes Zauner",
+      "sameAs": "https://www.wikidata.org/entity/Q136583826"
     },
     {
       "@type": "ScholarlyArticle",

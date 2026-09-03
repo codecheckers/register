@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-2177-7882",
-      "name": "Jasper van Doninck"
+      "name": "Jasper van Doninck",
+      "sameAs": "https://www.wikidata.org/entity/Q58437083"
     },
     {
       "@type": "Review",

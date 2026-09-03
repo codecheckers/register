@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-1279-0367",
-      "name": "Javier Nogueras-Iso"
+      "name": "Javier Nogueras-Iso",
+      "sameAs": "https://www.wikidata.org/entity/Q30124885"
     },
     {
       "@type": "ScholarlyArticle",

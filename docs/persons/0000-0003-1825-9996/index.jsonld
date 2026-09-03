@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-1825-9996",
-      "name": "Sven Lautenbach"
+      "name": "Sven Lautenbach",
+      "sameAs": "https://www.wikidata.org/entity/Q42389552"
     },
     {
       "@type": "ScholarlyArticle",

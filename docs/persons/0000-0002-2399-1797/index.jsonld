@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2399-1797",
-      "name": "Anahid Basiri"
+      "name": "Anahid Basiri",
+      "sameAs": "https://www.wikidata.org/entity/Q57891562"
     },
     {
       "@type": "ScholarlyArticle",

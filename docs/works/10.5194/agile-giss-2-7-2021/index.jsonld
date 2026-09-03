@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5194/agile-giss-2-7-2021",
       "url": "https://doi.org/10.5194/agile-giss-2-7-2021",
-      "sameAs": ["https://doi.org/10.5194/agile-giss-2-7-2021", "https://openalex.org/W3172863573"],
+      "sameAs": ["https://doi.org/10.5194/agile-giss-2-7-2021", "https://openalex.org/W3172863573", "https://www.wikidata.org/entity/Q121374334"],
       "name": "A Comparative Study of Typing and Speech For Map Metadata Creation",
       "author": [
         {

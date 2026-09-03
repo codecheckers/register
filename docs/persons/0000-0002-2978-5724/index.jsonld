@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2978-5724",
-      "name": "Gerhard Navratil"
+      "name": "Gerhard Navratil",
+      "sameAs": "https://www.wikidata.org/entity/Q133455554"
     },
     {
       "@type": "ScholarlyArticle",

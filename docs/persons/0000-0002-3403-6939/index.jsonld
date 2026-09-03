@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-3403-6939",
-      "name": "Stephan Winter"
+      "name": "Stephan Winter",
+      "sameAs": "https://www.wikidata.org/entity/Q54552757"
     },
     {
       "@type": "ScholarlyArticle",

@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-5951-6835",
-      "name": "Martin Raubal"
+      "name": "Martin Raubal",
+      "sameAs": "https://www.wikidata.org/entity/Q105978989"
     },
     {
       "@type": "ScholarlyArticle",

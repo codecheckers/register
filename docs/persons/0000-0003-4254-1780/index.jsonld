@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-4254-1780",
-      "name": "Chris Brunsdon"
+      "name": "Chris Brunsdon",
+      "sameAs": "https://www.wikidata.org/entity/Q56850200"
     },
     {
       "@type": "ScholarlyArticle",

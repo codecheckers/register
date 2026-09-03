@@ -4,7 +4,8 @@
     {
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-8533-6042",
-      "name": "Jiayan Zhao"
+      "name": "Jiayan Zhao",
+      "sameAs": "https://www.wikidata.org/entity/Q91579899"
     },
     {
       "@type": "ScholarlyArticle",
