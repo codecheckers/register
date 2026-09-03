@@ -35,18 +35,15 @@ See the docs about manual rendering below for details.
 
 ## Deposit/archive
 
-This repository is archived *manually*, in irregular intervals, on Zenodo using the [GitHub-Zenodo-Integration](https://guides.github.com/activities/citable-code/).
-To deposit a new version on Zenodo, create a new release following the naming scheme of previous releases.
-Then, go to the new record and manually make the following changes:
+This repository is archived *manually*, in irregular intervals, on Zenodo using the [GitHub-Zenodo-Integration](https://guides.github.com/activities/citable-code/): creating a new GitHub release deposits its metadata from [`.zenodo.json`](.zenodo.json).
 
-- add the record to [the CODECHECK community](https://zenodo.org/communities/codecheck/) (if not already included)
-- change the record type to "Dataset"
-- update the ORCIDs and affiliations of authors
-- set the license to "Open Data Commons Attribution License"
-- update the Desription text (see previous records)
-- add <https://codecheck.org.uk/register/> as a related identifier with "is new version of this upload"
+`.zenodo.json` is hand-maintained (title, creators, licence, community, related identifiers, ...), except for its `contributors` array: every `make render` regenerates that list from the codecheckers named in the register (see [`register#58`](https://github.com/codecheckers/register/issues/58)), so it credits everyone who has conducted a check without any manual edit. Zenodo's contributor role vocabulary has no "reviewer"/"checker" term, so every codechecker is listed with role "Other" - explained in the record's own description.
 
-In the future, these steps may be automated, see [issue #34](https://github.com/codecheckers/register/issues/34).
+To deposit a new version:
+
+1. Run `make render` (or otherwise ensure `docs/` and `.zenodo.json` are up to date with the latest `register.csv`).
+2. Create a new GitHub release, following the naming scheme of previous releases (tag `YYYY-MM-DD`, title "CODECHECK Register Deposit" followed by the month and year, e.g. "CODECHECK Register Deposit July 2025").
+3. Check the resulting Zenodo record: confirm it picked up the metadata from `.zenodo.json`, including the `contributors`, and that it is listed in [the CODECHECK community](https://zenodo.org/communities/codecheck/).
 
 ## Files in this repository
 
