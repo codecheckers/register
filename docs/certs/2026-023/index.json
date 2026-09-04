@@ -31,7 +31,7 @@
         "orcid": "0000-0001-8607-8025"
       }
     ],
-    "check_time": "2026-08-21 10:00:00",
+    "check_time": "2026-08-21T10:00:00",
     "repository": "github::codecheckers/HeinrichsEtAl_JVis_2026",
     "report": "https://doi.org/10.5281/zenodo.22094773",
     "type": "community",

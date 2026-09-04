@@ -41,7 +41,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-6-3-2025", "https://openalex.org/W4411153561", "https://www.wikidata.org/entity/Q141269455"]
   },
   "reviewBody": "A partial reproduction, using intermediate results provided by the authors, was successfully achieved.\nTable and figure content were generated and materially match with those in the paper.\nSome minor code changes to match my environment were needed.\nI initially attempted a full reproduction, but had to abandon this due to time constraints.\n",
-  "datePublished": "2025-03-23",
+  "datePublished": "2025-03-23T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

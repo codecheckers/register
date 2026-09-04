@@ -34,7 +34,7 @@
         "name": "Delft 2024-05 participants"
       }
     ],
-    "check_time": "2024-05-30 11:30:00",
+    "check_time": "2024-05-30T11:30:00",
     "repository": "github::codecheckers/sddtmpc",
     "report": "https://doi.org/10.5281/zenodo.11403956",
     "type": "community",

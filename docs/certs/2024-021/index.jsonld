@@ -59,7 +59,7 @@
     "sameAs": ["https://doi.org/10.31234/osf.io/mqg86", "https://openalex.org/W4391281345", "https://www.wikidata.org/entity/Q141269445"]
   },
   "reviewBody": "This report checks the code of the article 'Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia'. The CODECHECK was successful. Two of the three figures created were visually identical to those in the paper. The third figure visually matched the figure in the code repository. This figure was equivalent in content but different in design compared to the one presented in the paper. \n",
-  "datePublished": "2024-11-28",
+  "datePublished": "2024-11-28T16:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

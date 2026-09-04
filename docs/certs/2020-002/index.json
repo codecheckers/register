@@ -36,7 +36,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2020-04-13 10:00:00",
+    "check_time": "2020-04-13T10:00:00",
     "repository": "github::codecheckers/Reproduction-Hancock",
     "report": "http://doi.org/10.5281/zenodo.3750741",
     "type": "community",

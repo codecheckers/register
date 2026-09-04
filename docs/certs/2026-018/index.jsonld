@@ -76,7 +76,7 @@
     "sameAs": ["https://doi.org/10.5311/JOSIS.2026.32.591", "https://openalex.org/W7166859420", "https://www.wikidata.org/entity/Q141269481"]
   },
   "reviewBody": "The computational workflow with all Quarto and Jupyter notebooks was reproduced successfully in a local environment without major issues. The reproduced analyses generated all substantive results, figures, and tables reported in the published paper, with minor differences in numbering between the manuscript and the rendered notebooks while the underlying values and conclusions remained consistent.\n",
-  "datePublished": "2026-07-17",
+  "datePublished": "2026-07-17T11:50:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

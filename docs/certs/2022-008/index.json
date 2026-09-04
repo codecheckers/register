@@ -43,7 +43,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2022-07-09 12:00:00",
+    "check_time": "2022-07-09T12:00:00",
     "repository": "osf::K78EB",
     "report": "https://doi.org/10.17605/OSF.IO/K78EB",
     "type": "conference",

@@ -56,7 +56,7 @@
     "sameAs": ["https://doi.org/10.1080/15614263.2022.2102494", "https://openalex.org/W4286489421", "https://www.wikidata.org/entity/Q113848447"]
   },
   "reviewBody": "Downloaded the data and ran the necessary R scripts to generate the figures. \n",
-  "datePublished": "2024-11-28",
+  "datePublished": "2024-11-28T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

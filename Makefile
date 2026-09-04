@@ -137,6 +137,17 @@ serve:
 	@echo "Serving docs/ at http://localhost"
 	@echo "Run 'make serve-stop' to stop the server"
 
+# headless-Chrome screenshots of the rendered docs/ at phone/tablet/desktop
+# widths, see test/screenshot.sh for options (paths, viewports, output dir)
+screenshots:
+	./test/screenshot.sh $(PATHS)
+
+# report pages that scroll sideways at phone width, i.e. content cut off with
+# no way to reach it; PATHS and WIDTH override the defaults
+overflow:
+	./test/overflow.py $(if $(WIDTH),--width $(WIDTH)) $(PATHS)
+.phony: screenshots, overflow
+
 # stop the local nginx server
 serve-stop:
 	docker stop codecheck-register-nginx

@@ -36,7 +36,7 @@
     "sameAs": ["https://doi.org/10.71240/lcyc.052239", "https://openalex.org/W4409718072", "https://www.wikidata.org/entity/Q141269450"]
   },
   "reviewBody": "The article referenced data and code in a OSF project.  An included computational notebook in R Markdown format could be executed without errors and Figure 1, Figure 2, Figure 3, and Table 2 as well as numerical statics could be recreated with the code in the notebook. The data deposit contains further files matching other tables in the article, though these are likely, at least partially, manually created and out of scope. The check was successful.\n",
-  "datePublished": "2025-05-15",
+  "datePublished": "2025-05-15T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

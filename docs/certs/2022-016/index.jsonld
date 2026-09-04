@@ -42,7 +42,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-3-20-2022", "https://openalex.org/W4281951657", "https://www.wikidata.org/entity/Q141269409"]
   },
   "reviewBody": "The provided workflow was partially reproduced.\nAccess to a processed data set of the e-scooter sharing vehicle data Service in Stockholm, Sweden, is provided along with Python scripts to run three machine learning methods based on the Python library Scikit-learn.\nThe results reported here refer to Figure 5, which is a bar chart comparing the performance evaluation metrics (accuracy, F1, precision and recall) of the three ML methods.\nNevertheless, no code is provided to visually recreate the figure, but the scripts produce the required data to create that figure. \nFor the rest of figures and tables, no code is provided.\n",
-  "datePublished": "2022-07-09",
+  "datePublished": "2022-07-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

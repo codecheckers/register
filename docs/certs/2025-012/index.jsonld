@@ -31,7 +31,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-6-12-2025", "https://openalex.org/W4411152705", "https://www.wikidata.org/entity/Q141269457"]
   },
   "reviewBody": "The author provided clear steps for the partial reproduction.\nHowever, due to computational and privacy constraints, only two basic examples could be reproduced.\nSince those two minimal examples demonstrate both new methods introduced in the paper, I would consider the partial reproduction to be successful.\n",
-  "datePublished": "2025-06-12",
+  "datePublished": "2025-06-12T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

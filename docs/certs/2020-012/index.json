@@ -36,7 +36,7 @@
         "orcid": "0000-0001-8607-8025"
       }
     ],
-    "check_time": "2020-06-14 14:00:00",
+    "check_time": "2020-06-14T14:00:00",
     "repository": "github::codecheckers/covid19model-report23",
     "report": "https://doi.org/10.5281/zenodo.3893617",
     "type": "community",

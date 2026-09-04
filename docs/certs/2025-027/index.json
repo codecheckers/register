@@ -35,7 +35,7 @@
         "orcid": "0009-0003-7546-1717"
       }
     ],
-    "check_time": "2025-09-04 12:00:00",
+    "check_time": "2025-09-04T12:00:00",
     "repository": "github::codecheckers/zonebuilder",
     "report": "https://doi.org/10.5281/zenodo.17059066",
     "type": "journal",

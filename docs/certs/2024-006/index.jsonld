@@ -35,7 +35,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-5-15-2024", "https://openalex.org/W4399177594", "https://www.wikidata.org/entity/Q126284747"]
   },
   "reviewBody": "The workflow provided was partially reproduced in the sense that I was able to reproduce the system reported in the paper qualitatively.\nThat is, I did not reproduce the experiment or other results (figures, etc.) included in the article, but I was able to set up and run the system described in the paper and test it with some query samples.\nTherefore, by doing this, this report ensures that the system works as described in the manuscript.\n",
-  "datePublished": "2024-05-23",
+  "datePublished": "2024-05-23T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

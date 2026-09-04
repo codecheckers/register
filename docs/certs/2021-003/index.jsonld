@@ -39,7 +39,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-2-3-2021", "https://openalex.org/W3172635671", "https://www.wikidata.org/entity/Q141269357"]
   },
   "reviewBody": "The updated submission contains a DASA section and provides the analysis script, dataset and questionnaires.\nThe provided R script computes all statistical analyses presented in the paper and generates the key figure\nand data for both presented tables. The reproduction was successful.\n",
-  "datePublished": "2021-06-10",
+  "datePublished": "2021-06-10T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

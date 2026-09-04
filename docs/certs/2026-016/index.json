@@ -42,7 +42,7 @@
         "orcid": "0000-0003-2432-1880"
       }
     ],
-    "check_time": "2026-04-27 12:00:00",
+    "check_time": "2026-04-27T12:00:00",
     "repository": "github::reproducible-agile/reviews-2026|reports/031",
     "report": "https://doi.org/10.17605/OSF.IO/WH6GD",
     "type": "conference",

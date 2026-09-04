@@ -60,7 +60,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-3-9-2022", "https://openalex.org/W4281689570", "https://www.wikidata.org/entity/Q141269390"]
   },
   "reviewBody": "The article presents an evaluation of geoparsing performance using a number of different datasets and methods from various sources.\nThough preprocessing steps and a core analysis step based on proprietary software could not be evaluated, one of two toponym resolution models could be executed successfully.\nThe provided notebooks for exploratory analysis, calculating statistical values, and geographic bias evaluation could be run and the outputs match the data and figures presented in the paper.\nTherefore, this reproducibility report can confirm a partially successful reproduction of a complex pipeline, for which authors provide reasonable but improvable documentation and share all details (code, data) of their computational workflow.\n",
-  "datePublished": "2022-07-09",
+  "datePublished": "2022-07-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -27,7 +27,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2025-11-04 14:36:30",
+    "check_time": "2025-11-04T14:36:30",
     "repository": "github::codecheckers/surv-tcav-pbc",
     "report": "https://doi.org/10.5281/zenodo.17533508",
     "type": "journal",

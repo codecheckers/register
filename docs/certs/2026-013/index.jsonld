@@ -39,7 +39,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-8-2026", "https://openalex.org/W7164179951", "https://www.wikidata.org/entity/Q141269478"]
   },
   "reviewBody": "Partially reproducible. The LoD2 preprocessing step (distribution of façade orientations) was reproduced successfully, confirming successful preprocessing; other manuscript outputs could be reproduced only partially.\n",
-  "datePublished": "2026-03-13",
+  "datePublished": "2026-03-13T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

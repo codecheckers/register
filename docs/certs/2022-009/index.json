@@ -34,7 +34,7 @@
         "orcid": "0000-0002-9317-8291"
       }
     ],
-    "check_time": "2022-07-09 12:00:00",
+    "check_time": "2022-07-09T12:00:00",
     "repository": "osf::94VNX",
     "report": "https://doi.org/10.17605/osf.io/94vnx",
     "type": "conference",

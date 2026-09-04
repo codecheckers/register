@@ -23,7 +23,7 @@
         "orcid": "0000-0001-8607-8025"
       }
     ],
-    "check_time": "2020-04-26 20:00:00",
+    "check_time": "2020-04-26T20:00:00",
     "repository": "github::codecheckers/2020-cov-tracing",
     "report": "https://doi.org/10.5281/zenodo.22109593",
     "type": "community",

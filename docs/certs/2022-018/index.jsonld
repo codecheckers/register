@@ -46,7 +46,7 @@
     "sameAs": ["https://doi.org/10.46471/gigabyte.70", "https://openalex.org/W4301603101", "https://www.wikidata.org/entity/Q141269415"]
   },
   "reviewBody": "Only visualisation steps performed. All created figures match those in the article.\n",
-  "datePublished": "2022-09-27",
+  "datePublished": "2022-09-27T00:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

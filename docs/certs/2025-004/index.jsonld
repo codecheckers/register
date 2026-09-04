@@ -38,7 +38,7 @@
     "url": "https://repository.tudelft.nl/record/uuid:190e87c7-9309-470f-a821-43b7c3b8867b"
   },
   "reviewBody": "The first figure shown in the code repository's README, so as the instructions shared in the same README on how to execute REF.m. The output figures are not found in the main publication.\n",
-  "datePublished": "2025-04-08",
+  "datePublished": "2025-04-08T10:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

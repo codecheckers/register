@@ -35,7 +35,7 @@
         "orcid": "0009-0004-5292-6793"
       }
     ],
-    "check_time": "2025-03-23 12:00:00",
+    "check_time": "2025-03-23T12:00:00",
     "repository": "osf::FXKWS",
     "report": "https://doi.org/10.17605/OSF.IO/fxkws",
     "type": "conference",

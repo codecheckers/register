@@ -32,7 +32,7 @@
     "url": "https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf"
   },
   "reviewBody": "R code and packages worked well; simple edits needed to working directory.\n",
-  "datePublished": "2020-04-26",
+  "datePublished": "2020-04-26T20:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

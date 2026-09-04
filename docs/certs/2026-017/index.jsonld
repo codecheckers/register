@@ -40,7 +40,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-12-2026", "https://openalex.org/W7164128034", "https://www.wikidata.org/entity/Q140361385"]
   },
   "reviewBody": "Reproduction using the authors' updated data package (v2), covering the full pipeline including database setup and all analysis notebooks (01 to 04). While the v2 package significantly improved structure and documentation, several surgical fixes were still required to address environment-specific dependency conflicts, undocumented tool behaviors, and logic bugs in the provided scripts. All notebooks were ultimately executed successfully.\n",
-  "datePublished": "2026-04-25",
+  "datePublished": "2026-04-25T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

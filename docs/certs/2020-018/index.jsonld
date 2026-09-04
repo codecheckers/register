@@ -35,7 +35,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-1-6-2020", "https://openalex.org/W3042993452", "https://www.wikidata.org/entity/Q117430375"]
   },
   "reviewBody": "The check was straightforward as all material was provided and documented well, but computations took about 3 hours to run.\n",
-  "datePublished": "2020-07-13",
+  "datePublished": "2020-07-13T11:32:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

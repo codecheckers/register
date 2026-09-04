@@ -31,7 +31,7 @@
     "sameAs": ["https://doi.org/10.71240/lcyc.66O7260", "https://openalex.org/W4414316644", "https://www.wikidata.org/entity/Q141269468"]
   },
   "reviewBody": "This code was straightforward to check and the reproduction is partially successful. Figure 1, 2, and 3 could be recreated without errors in the code but in part with differences beyond the variations due to re-computation. Table 2 could be reproduced within computational variation, but Table 3 could not be linked to any of the output files.\n",
-  "datePublished": "2025-11-04",
+  "datePublished": "2025-11-04T14:36:30",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

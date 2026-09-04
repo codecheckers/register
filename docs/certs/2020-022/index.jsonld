@@ -59,7 +59,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-1-23-2020", "https://openalex.org/W3042325721", "https://www.wikidata.org/entity/Q141269337"]
   },
   "reviewBody": "The workflow could be executed using the provided instructions and the provided scripts created a subset of the included figures. Although some key figures were not created by the provided data and code, the reproduction was partially successful.\n",
-  "datePublished": "2020-07-13",
+  "datePublished": "2020-07-13T11:54:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

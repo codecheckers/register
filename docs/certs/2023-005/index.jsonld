@@ -51,7 +51,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-4-15-2023", "https://openalex.org/W4379647154", "https://www.wikidata.org/entity/Q141269429"]
   },
   "reviewBody": "The data of the paper under reproduction is partially published on Zenodo under a CC-BY-4.0 license.\nData on the selected plots displayed in Figure 1 is not available due to intellectual property concerns.\nThe developed VR application is not available due to size and time constraints, therefore neither Figure 1 or 2 could be reproduced.\nStatistical analyses presented in Section 2.2 and Section 3 have been successfully reproduced.\nThe authors showed dedication to support reproducibility of their work.\nReproduction was partially successful.\n",
-  "datePublished": "2023-06-13",
+  "datePublished": "2023-06-13T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

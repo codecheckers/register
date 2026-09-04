@@ -50,7 +50,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-6-5-2025", "https://openalex.org/W4411153502", "https://www.wikidata.org/entity/Q141269456"]
   },
   "reviewBody": "The main challenge during this reproduction is the combination of a closed source model (Chat GPT) and available models (like CLIP).\nUsing the models provided by the authors, the results were reproducible (Recreated Table 2).\nUsing Ubuntu the results were partly not recreatable on Ubuntu.\nOn Windows the training was successful.\nThus, there is a system dependence of the reproducibility when retraining the models.\nAnother challenge was the volume of models and corresponding inference.\nThus I only chose a subset of models to retrain and perform inference on.\nA part of the inference in the paper was done manually in the paper, which I was not able to recreate.\nI was able to fully recreate Table1, Table 3, Table 5, Table 6 and Table 7 from the original paper.\nI would count the overall reproduction as a success.\n",
-  "datePublished": "2025-06-12",
+  "datePublished": "2025-06-12T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

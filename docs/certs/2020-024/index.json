@@ -36,7 +36,7 @@
         "orcid": "0000-0001-8607-8025"
       }
     ],
-    "check_time": "2020-12-07 15:00:00",
+    "check_time": "2020-12-07T15:00:00",
     "repository": "github::codecheckers/driftage",
     "report": "https://doi.org/10.5281/zenodo.4964880",
     "type": "journal",

@@ -40,7 +40,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-4-9-2023", "https://openalex.org/W4379795573", "https://www.wikidata.org/entity/Q141269417"]
   },
   "reviewBody": "The data of the paper under reproduction is published on figshare under a CC-BY-4.0 license.\nIn total, three tables, three figures, and two data points embedded into the text are eligible for reproduction.\nAll have been successfully reproduced. The authors showed concern and dedication to support reproducibility of their work.\nReproduction was successful.\n",
-  "datePublished": "2023-06-13",
+  "datePublished": "2023-06-13T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

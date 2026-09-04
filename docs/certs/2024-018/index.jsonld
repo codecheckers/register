@@ -41,7 +41,7 @@
     "sameAs": ["https://doi.org/10.1371/journal.pone.0308768", "https://openalex.org/W4405281316", "https://www.wikidata.org/entity/Q141269443"]
   },
   "reviewBody": "R quarto document that was able to compile, but see certificate for details of issues arising.\n",
-  "datePublished": "2024-11-28",
+  "datePublished": "2024-11-28T11:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

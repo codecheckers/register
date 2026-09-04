@@ -34,7 +34,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-3-4-2022", "https://openalex.org/W4281678515", "https://www.wikidata.org/entity/Q141269384"]
   },
   "reviewBody": "The updated submission contains a DASA section and links to two repositories on GitHub, which have been updated by the author during the reproducibility review process.\nThe first repository contains all necessary files and code for implementing the segmentation process, while the second, comprises all files necessary for using the evaluation tool.\nThe reproduction was successful.\n",
-  "datePublished": "2022-07-09",
+  "datePublished": "2022-07-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -31,7 +31,7 @@
         "orcid": "0000-0002-5361-6285"
       }
     ],
-    "check_time": "2020-07-28 10:00:00",
+    "check_time": "2020-07-28T10:00:00",
     "repository": "github::codecheckers/Sadeh-and-Clopath",
     "report": "https://doi.org/10.5281/zenodo.3967326",
     "type": "community",

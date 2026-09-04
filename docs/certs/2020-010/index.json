@@ -30,7 +30,7 @@
         "orcid": "0000-0001-8607-8025"
       }
     ],
-    "check_time": "2020-05-29 12:20:00",
+    "check_time": "2020-05-29T12:20:00",
     "repository": "github::codecheckers/covid-report9",
     "report": "https://doi.org/10.5281/zenodo.3865491",
     "type": "community",

@@ -51,7 +51,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-4-2026", "https://openalex.org/W7164155701", "https://www.wikidata.org/entity/Q141269472"]
   },
   "reviewBody": "Full reproduction. Using the materials provided by the authors, the reported results were successfully reproduced.\n",
-  "datePublished": "2026-03-19",
+  "datePublished": "2026-03-19T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -40,7 +40,7 @@
     "sameAs": ["https://doi.org/10.48550/arXiv.2310.19997", "https://openalex.org/W4388184325", "https://www.wikidata.org/entity/Q141269436"]
   },
   "reviewBody": "Matlab code, requiring 3 additional toolboxes.  Case study 2 only. Full reproduction possible, takes about 2 hours to run\n",
-  "datePublished": "2024-05-30",
+  "datePublished": "2024-05-30T11:30:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

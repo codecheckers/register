@@ -56,7 +56,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-6-7-2025", "https://openalex.org/W4411153143", "https://www.wikidata.org/entity/Q141269453"]
   },
   "reviewBody": "The reproduction of the visualisations and statistics presented in the manuscript was successful.\nThe authors provided a link to an online repo with several data files which seem to have been the basis for the illustrative map in the paper, as well as a spreadsheet which includes the model calculations, plots, and statistical tests presented in the paper.\n",
-  "datePublished": "2025-06-06",
+  "datePublished": "2025-06-06T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

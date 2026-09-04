@@ -38,7 +38,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-3-13-2022", "https://openalex.org/W4281732658", "https://www.wikidata.org/entity/Q141269395"]
   },
   "reviewBody": "The article present an experimental evaluation of a positioning system.\nNaturally, the physical/practical experiments could not be reproduced as part of this check of the computational reproducibility.\nHowever, the one figure in the article that is based on the data from the experiment, as well as the software for running the experiment shown in screenshots in the paper could be reproduced by me.\nWith respect to the computational aspects and data visualisation, the given paper is reproducible.\n",
-  "datePublished": "2022-07-09",
+  "datePublished": "2022-07-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

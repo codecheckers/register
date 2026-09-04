@@ -69,7 +69,7 @@
     "sameAs": ["https://doi.org/10.1038/s41598-023-48241-y", "https://openalex.org/W4389674756", "https://www.wikidata.org/entity/Q141269434"]
   },
   "reviewBody": "Comprehensive reproduction of RMarkdown document; biggest concerns found with Linux versions of R package \"gt\".\n",
-  "datePublished": "2023-11-26",
+  "datePublished": "2023-11-26T21:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

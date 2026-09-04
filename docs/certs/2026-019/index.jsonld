@@ -36,7 +36,7 @@
     "sameAs": ["https://doi.org/10.1016/j.isci.2026.116661", "https://openalex.org/W4416186252", "https://www.wikidata.org/entity/Q141269482"]
   },
   "reviewBody": "The checked repository includes code to reproduce all figures shown in\nthe associated manuscript titled \"Photoreceptor-specific scene\nstatistics reveal melanopic structure in natural environments\"\nincluding one supplementary figure. The workflow is instructed by a\ndetailed recipe in the file `README.md` and structured into three main\nparts and small alignment steps. The main parts are downloading the\ninput data and running two notebooks consecutively. Following the\ninstructions successfully produces the manuscript and supplement\nfigures; however, in Figures 1 to 4 structural changes can occur,\nprobably due to a non-deterministic order when processing input files.\nThe code is entirely written in Python allowing to understand the\nmechanics by reading and uses a transparent repository structure.\n",
-  "datePublished": "2026-07-07",
+  "datePublished": "2026-07-07T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

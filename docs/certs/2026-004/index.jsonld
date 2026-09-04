@@ -46,7 +46,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-3-2026", "https://openalex.org/W7164176972", "https://www.wikidata.org/entity/Q141269470"]
   },
   "reviewBody": "Reproduction of the multimodal routing analysis for the city of Vienna, investigating how routing outcomes change under behavioral constraints. The full pipeline (baseline routing, inclusive baseline routing, 12 parameter-variation scenarios, data grouping and visualization) was completed in a single, fully automated run on HPC resources. The reproduction was fully successful.\n",
-  "datePublished": "2026-03-15",
+  "datePublished": "2026-03-15T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

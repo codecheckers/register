@@ -43,7 +43,7 @@
     "sameAs": ["https://doi.org/10.1088/0954-898X_3_1_008", "https://openalex.org/W2169326908", "https://www.wikidata.org/entity/Q141269327"]
   },
   "reviewBody": "Matlab code written by Iain Davies to reproduce original paper; natural images provided by Peter Hancock.",
-  "datePublished": "2020-04-13",
+  "datePublished": "2020-04-13T10:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

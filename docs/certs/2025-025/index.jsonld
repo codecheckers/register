@@ -29,7 +29,7 @@
     "url": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html"
   },
   "reviewBody": "RMarkdown file with embedded R code created from the AbSolution Shiny app for the purposes of reproducibility. This code was straightforward to codecheck. An RMarkdown file could be executed with no errors. The resulting HTML output file matches the given file as expected.\n",
-  "datePublished": "2025-01-29",
+  "datePublished": "2025-01-29T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

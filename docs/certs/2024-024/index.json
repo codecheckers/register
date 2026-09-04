@@ -39,7 +39,7 @@
         "orcid": "0000-0002-1322-1553"
       }
     ],
-    "check_time": "2024-12-16 10:00:00",
+    "check_time": "2024-12-16T10:00:00",
     "repository": "github::codecheckers/iteval-sims",
     "report": "https://doi.org/10.5281/zenodo.14576035",
     "type": "institution",

@@ -41,7 +41,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-5-2026", "https://openalex.org/W7164168945", "https://www.wikidata.org/entity/Q141269474"]
   },
   "reviewBody": "Full reproduction. The submission is based on a qualitative framework and spreadsheet-based analysis rather than custom programming. The reviewer reviewed the materials in the repository (data and analysis materials archived at https://doi.org/10.5281/zenodo.18195076) and reproduced the reported figures.\n",
-  "datePublished": "2026-03-19",
+  "datePublished": "2026-03-19T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

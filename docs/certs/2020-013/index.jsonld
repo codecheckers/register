@@ -46,7 +46,7 @@
     "sameAs": ["https://doi.org/10.1101/2020.06.02.129502", "https://openalex.org/W3123970356", "https://www.wikidata.org/entity/Q107140879"]
   },
   "reviewBody": "This reproduction successfully reproduced all figures output by the original code. All original MATLAB code was provided and the reproduction had a small compute time.\n",
-  "datePublished": "2020-07-14",
+  "datePublished": "2020-07-14T16:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

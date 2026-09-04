@@ -61,7 +61,7 @@
     "sameAs": ["https://doi.org/10.1121/10.0023935", "https://openalex.org/W4390971714", "https://www.wikidata.org/entity/Q129972175"]
   },
   "reviewBody": "Full reproduction. After running two Python scripts (deism_JASA_fig8.py and deism_JASA_fig9.py in the examples folder) in a public GitHub repository, figures 8 and 9 were successfully reproduced (they seem to be identical to the paper at first glance).  The repository did not provide code to reproduce other plots (Figs. 7, 10 and 11). Other figures (Figs 1-6) seem to only help illustrate the main body of the paper and are therefore not applicable for reproduction with the code.\n",
-  "datePublished": "2024-12-05",
+  "datePublished": "2024-12-05T16:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

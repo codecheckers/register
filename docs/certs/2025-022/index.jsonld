@@ -41,7 +41,7 @@
     "sameAs": ["https://doi.org/10.1109/TITS.2025.3549227", "https://openalex.org/W4408519626", "https://www.wikidata.org/entity/Q141269466"]
   },
   "reviewBody": "Full reproduction of figures in the article using precomputed results \n",
-  "datePublished": "2025-08-04",
+  "datePublished": "2025-08-04T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

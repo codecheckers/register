@@ -38,7 +38,7 @@
     "sameAs": ["https://doi.org/10.1109/TSMC.1983.6313077", "https://openalex.org/W1583833196", "https://www.wikidata.org/entity/Q141269328"]
   },
   "reviewBody": "The check was relatively easy to do because the Python code was simple, but the documentation was not good.\nComputations took about 6 minutes to run.\n",
-  "datePublished": "2020-05-14",
+  "datePublished": "2020-05-14T16:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

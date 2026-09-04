@@ -50,7 +50,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-6-2026", "https://openalex.org/W7164140075", "https://www.wikidata.org/entity/Q141269480"]
   },
   "reviewBody": "The study is partially reproducible due to external resource constraints. The provided code, data and documentation are clear and complete, but a full reproduction was not possible because data generation relied on paid APIs (OpenAI, DeepSeek, Google Gemini) that were not accessible for re-running, and indices/figures required ArcGIS/arcpy, which was unavailable on the reviewer's system.\n",
-  "datePublished": "2026-04-27",
+  "datePublished": "2026-04-27T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

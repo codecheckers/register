@@ -50,7 +50,7 @@
     "sameAs": ["https://doi.org/10.5194/wes-11-911-2026", "https://openalex.org/W7140117817", "https://www.wikidata.org/entity/Q141269452"]
   },
   "reviewBody": "This codecheck resulted in a full reproduction of the figures presented in the publication. The authors provided a GitHub repository containing all the necessary code and instructions for reproducing the figures and provided the yet to be published data directly. Required adjustments: modifying the path to the data folder, providing LaTeX is a system dependency. \n",
-  "datePublished": "2025-05-26",
+  "datePublished": "2025-05-26T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

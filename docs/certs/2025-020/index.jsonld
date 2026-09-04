@@ -31,7 +31,7 @@
     "sameAs": ["https://doi.org/10.31234/osf.io/gj76p", "https://openalex.org/W4399738503", "https://www.wikidata.org/entity/Q141269464"]
   },
   "reviewBody": "The workflow outlined in the authors’ README was easily comprehensible. All figures stored in the repository could be recreated in R, and they accurately matched those presented in the manuscript.\n",
-  "datePublished": "2025-06-28",
+  "datePublished": "2025-06-28T12:28:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

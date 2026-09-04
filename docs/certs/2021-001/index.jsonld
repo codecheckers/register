@@ -41,7 +41,7 @@
     "sameAs": ["https://doi.org/10.48550/arXiv.2104.00718", "https://openalex.org/W6948154681", "https://www.wikidata.org/entity/Q141269351"]
   },
   "reviewBody": "The authors provided all material and documented the process well, the check was therefore straightforward. Due to long computation times, only a subset of the results could be checked. Reproducing the results in the repository was successful, with non-significant numerical discrepancies. However, a small number of minor differences with the results in the arXiv preprint merit clarification.\n",
-  "datePublished": "2021-04-27",
+  "datePublished": "2021-04-27T16:00:00+00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

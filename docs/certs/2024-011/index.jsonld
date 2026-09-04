@@ -61,7 +61,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-5-5-2024", "https://openalex.org/W4399177945", "https://www.wikidata.org/entity/Q126207739"]
   },
   "reviewBody": "The authors made their code available through a GitHub repository.\nThe Readme.md file provides clear instructions for executing the entire code. It is worth noting that the input data is available provided that accounts are created with HOTOSM and Bunting Labs.\nThe data retrieval process takes a long time.\nTherefore, the authors provided me with all the input data for my review.\nI did not encounter any difficulties in executing the Python notebooks.\nAs a result, I produced intermediate data (in 4 CSV files). Unfortunately, I encountered some blocking errors when executing the R Markdown (which is the notebook responsible for producing tables and figures of the manuscript).\nAssisted by the authors, we discovered that the errors were caused by the content of the intermediate files I had generated.\nStrictly speaking, since the authors shared all their input data with me, I should not have encountered these errors.\nTo continue my review, the authors sent me their version of the intermediate files.\nThanks to them, I was able to execute the entire R Markdown and generate all the tables and figures.\n",
-  "datePublished": "2024-05-27",
+  "datePublished": "2024-05-27T10:29:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

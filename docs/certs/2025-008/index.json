@@ -46,7 +46,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2025-06-06 14:00:00",
+    "check_time": "2025-06-06T14:00:00",
     "repository": "github::reproducible-agile/reviews-2025|reports/08",
     "report": "https://doi.org/10.53962/wxh7-8yjd",
     "type": "conference",

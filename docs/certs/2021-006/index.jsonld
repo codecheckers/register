@@ -49,7 +49,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-2-14-2021", "https://openalex.org/W3168422666", "https://www.wikidata.org/entity/Q141269360"]
   },
   "reviewBody": "The code, sample API query, and downloaded data were published in a public GitHub repository with a\nworking Binder link. All files containing the code could be executed and all tables presented in the paper\ncould be reproduced with only minor changes to the code. However, the code does not create figures\ncontained in the paper and an attempt to change the results of the model evaluation by changing its\nnumerical assumption was unsuccessful. The authors demonstrate concern for the reproducibility of their\nwork and actively improved the reproducibility workflow throughout the reproducibility review process.\n",
-  "datePublished": "2021-06-10",
+  "datePublished": "2021-06-10T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -35,7 +35,7 @@
     "sameAs": ["https://doi.org/10.25561/77482", "https://openalex.org/W3023441241", "https://www.wikidata.org/entity/Q87803531"]
   },
   "reviewBody": "Replication of key findings from Report 9 using CovidSim reimplementation.\n",
-  "datePublished": "2020-05-29",
+  "datePublished": "2020-05-29T12:20:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

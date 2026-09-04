@@ -43,7 +43,7 @@
         "orcid": "0000-0002-3124-5364"
       }
     ],
-    "check_time": "2023-06-13 12:00:00",
+    "check_time": "2023-06-13T12:00:00",
     "repository": "osf::27wzp",
     "report": "https://doi.org/10.17605/osf.io/27wzp",
     "type": "conference",

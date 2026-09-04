@@ -31,7 +31,7 @@
     "sameAs": ["https://doi.org/10.5281/zenodo.1003214", "https://openalex.org/W3210493981", "https://www.wikidata.org/entity/Q141269330"]
   },
   "reviewBody": "The three figures from the ReScience article \"[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours\" were reproduced using the code provided by the article authors. The code was straightforward to run and took minimal computation time. \n",
-  "datePublished": "2020-07-16",
+  "datePublished": "2020-07-16T10:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -35,7 +35,7 @@
         "orcid": "0000-0001-8607-8025"
       }
     ],
-    "check_time": "2019-02-14 10:00:00",
+    "check_time": "2019-02-14T10:00:00",
     "repository": "github::codecheckers/Piccolo-2020",
     "report": "http://doi.org/10.5281/zenodo.3674056",
     "type": "journal",

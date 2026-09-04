@@ -47,7 +47,7 @@
         "orcid": "0000-0002-8936-0365"
       }
     ],
-    "check_time": "2024-11-28 14:00:00",
+    "check_time": "2024-11-28T14:00:00",
     "repository": "github::codecheckers/codecheck_LangtonRuiterVerlaan2022",
     "report": "https://doi.org/10.5281/zenodo.14278912",
     "type": "community",

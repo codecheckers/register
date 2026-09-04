@@ -39,7 +39,7 @@
         "orcid": "0000-0002-8381-3749"
       }
     ],
-    "check_time": "2022-09-27 00:00:00",
+    "check_time": "2022-09-27T00:00:00",
     "repository": "gitlab::cdchck/community-codechecks/2022-svaRetro-svaNUMT",
     "report": "https://doi.org/10.5281/zenodo.7084333",
     "type": "journal",

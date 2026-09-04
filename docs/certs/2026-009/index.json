@@ -35,7 +35,7 @@
         "orcid": "0009-0002-5027-1151"
       }
     ],
-    "check_time": "2026-03-19 12:00:00",
+    "check_time": "2026-03-19T12:00:00",
     "repository": "osf::kcpze",
     "report": "https://doi.org/10.17605/OSF.IO/KCPZE",
     "type": "conference",

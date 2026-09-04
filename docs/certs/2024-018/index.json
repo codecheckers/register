@@ -35,7 +35,7 @@
         "orcid": "0000-0001-8607-8025"
       }
     ],
-    "check_time": "2024-11-28 11:00:00",
+    "check_time": "2024-11-28T11:00:00",
     "repository": "github::codecheckers/ZaunerEtAl_PLoS_ONE_2024",
     "report": "https://doi.org/10.5281/zenodo.14235113",
     "type": "community",

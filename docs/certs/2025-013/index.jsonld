@@ -41,7 +41,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-6-6-2025", "https://openalex.org/W4411153777", "https://www.wikidata.org/entity/Q141269458"]
   },
   "reviewBody": "The manuscript was partially reproducible, with three of seven figures recreated with some deviations, likely due to unset random states in the computational process. The remaining figures and tables could not be reproduced in this process due to code issues; the GitHub repository contained 16 code files but lacked sufficient documentation for navigating the complex workflow. While the code can be run on standard hardware with common Python and R libraries, there are no instructions on setup or library versioning. Communication with the authors (17 emails over ~10 days) was necessary to obtain intermediate data files and clarify the process.\n",
-  "datePublished": "2025-06-12",
+  "datePublished": "2025-06-12T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

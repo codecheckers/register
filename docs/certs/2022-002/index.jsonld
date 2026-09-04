@@ -35,7 +35,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-3-2-2022", "https://openalex.org/W4282976318", "https://www.wikidata.org/entity/Q141269381"]
   },
   "reviewBody": "The code and data provided by the authors allow to partially reproduce the computational work presented in the Section 4.4 of the paper. The model training (PointNet++) and the input data for Section 4.4 are not reproducible with the provided code but the authors added a note, in the GitHub repository of their project, explaining how the data was generated. Three figures in Section 4.4 are fully reproducible (5, 6, and 7), 2 partially (4 and 8) and 4 are not (3, 9, 10, and 11).\n",
-  "datePublished": "2022-07-09",
+  "datePublished": "2022-07-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

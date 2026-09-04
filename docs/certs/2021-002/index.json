@@ -34,7 +34,7 @@
         "orcid": "0000-0002-3124-5364"
       }
     ],
-    "check_time": "2021-06-10 12:00:00",
+    "check_time": "2021-06-10T12:00:00",
     "repository": "osf::rsf4m",
     "report": "https://doi.org/10.17605/osf.io/rsf4m",
     "type": "conference",

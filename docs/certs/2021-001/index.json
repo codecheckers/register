@@ -35,7 +35,7 @@
         "orcid": "0000-0002-2648-4790"
       }
     ],
-    "check_time": "2021-04-27T18:00:00+02:00",
+    "check_time": "2021-04-27T16:00:00+00:00",
     "repository": "github::codecheckers/causality-review",
     "report": "https://doi.org/10.5281/zenodo.22205872",
     "type": "community",

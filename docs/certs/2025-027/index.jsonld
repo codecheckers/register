@@ -41,7 +41,7 @@
     "sameAs": ["https://doi.org/10.5311/JOSIS.2022.24.172", "https://openalex.org/W4288754796", "https://www.wikidata.org/entity/Q141269467"]
   },
   "reviewBody": "Successfully reproduced all main figures from the ClockBoard paper using the  zonebuilder R package. All core functions (zb\\_zone, zb\\_doughnut, zb\\_segment,  zb\\_quadrat) work as described. Package installs correctly from CRAN and GitHub.  Interactive mapping requires coordinate transformation but works properly.  Parameter flexibility confirmed through additional tests.\n",
-  "datePublished": "2025-09-04",
+  "datePublished": "2025-09-04T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -33,7 +33,7 @@
         "orcid": "0009-0002-5027-1151"
       }
     ],
-    "check_time": "2026-03-13 12:00:00",
+    "check_time": "2026-03-13T12:00:00",
     "repository": "osf::hetv8",
     "report": "https://doi.org/10.17605/OSF.IO/HETV8",
     "type": "conference",

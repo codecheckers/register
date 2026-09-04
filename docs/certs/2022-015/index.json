@@ -33,7 +33,7 @@
         "orcid": "0000-0003-2615-8757"
       }
     ],
-    "check_time": "2022-07-09 12:00:00",
+    "check_time": "2022-07-09T12:00:00",
     "repository": "osf::MVQCW",
     "report": "https://doi.org/10.17605/osf.io/mvqcw",
     "type": "conference",

@@ -43,7 +43,7 @@
     "sameAs": ["https://doi.org/10.25561/79231", "https://openalex.org/W3034840651", "https://www.wikidata.org/entity/Q141269332"]
   },
   "reviewBody": "R code for this paper shared with an earlier codecheck certifice (2020-011) from the same codebase.\n",
-  "datePublished": "2020-06-14",
+  "datePublished": "2020-06-14T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

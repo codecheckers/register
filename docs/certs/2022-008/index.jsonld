@@ -51,7 +51,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-3-10-2022", "https://openalex.org/W4281746077", "https://www.wikidata.org/entity/Q114291512"]
   },
   "reviewBody": "The article presents a comparison of seven image-based species recognition models, which were benchmarked against a set of species. Selected model executions were successfully reproduced. The outputs were manually compared on a sample basis and match the result data shared privately by the authors; no summary statistics were recalculated.\nThe authors provided the used data privately, but all code and good documentation is available online and properly deposited and cited using a data repository.\nOnly two of the four online classification APIs were tested due to the requirement of registering accounts, therefore this reproduction is only partially complete.\n",
-  "datePublished": "2022-07-09",
+  "datePublished": "2022-07-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

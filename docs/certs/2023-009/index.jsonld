@@ -56,7 +56,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-4-3-2023", "https://openalex.org/W4379799841", "https://www.wikidata.org/entity/Q141269431"]
   },
   "reviewBody": "The authors execute their study fully within a framework of open source geospatial software.\nThe study is reproducible and the authors provide provide 2 scripts that query and subsequently visualise aspects of the data.\nFurthermore, they provide a How-to / Readme file that made it easy to reproduce.\nThe main challenges in reproduction were related to acquiring the correct data and the handling of the OSRM software.\nThis was overcome jointly through authors communication and fortunate experience with the Docker ecosystem of the reviewer.\nThe data analysis and visualisation was straightforward and the results were consistent with the original paper.\nFigures 4a and 4b are reproduced.\n",
-  "datePublished": "2023-06-13",
+  "datePublished": "2023-06-13T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

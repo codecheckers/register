@@ -36,7 +36,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-6-11-2025", "https://openalex.org/W4411153243", "https://www.wikidata.org/entity/Q141269461"]
   },
   "reviewBody": "The reproduction was partially successful. I could not re-run LLM-prompting and fine-tuning due to resource restrictions (time, specific hardware needed) but could run the visualisations and analysis based on the provided intermediate data files, which are all published in an OSF project and well documented.\nAll figures and statistics from the paper were successfully recreated using two provided Jupyter Notebooks using Jupyter Lab with a corresponding runtime environment specification for Python.\n",
-  "datePublished": "2025-06-06",
+  "datePublished": "2025-06-06T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

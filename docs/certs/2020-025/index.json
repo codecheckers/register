@@ -39,7 +39,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2020-11-19 12:00:00",
+    "check_time": "2020-11-19T12:00:00",
     "repository": "github::codecheckers/LICD_article",
     "report": "https://doi.org/10.5281/zenodo.4279275",
     "type": "journal",

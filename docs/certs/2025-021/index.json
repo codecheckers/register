@@ -29,7 +29,7 @@
         "orcid": "0000-0002-6637-2830"
       }
     ],
-    "check_time": "2025-07-30 18:00:00",
+    "check_time": "2025-07-30T18:00:00",
     "repository": "github::codecheckers/certificate-2025-021",
     "report": "https://doi.org/10.5281/zenodo.16616998",
     "type": "institution",

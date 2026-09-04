@@ -31,7 +31,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-2-12-2021", "https://openalex.org/W3171081052", "https://www.wikidata.org/entity/Q141269365"]
   },
   "reviewBody": "The provided workflow could be partially reproduced, notably the text detection and string similarity\ncalculations could be executed and provide sufficiently similar results. Some manual steps were included which\ncould not be reproduced, as well as a final step due to long execution time. The software stack was challenging\nto install but overall well documented.\n",
-  "datePublished": "2021-06-10",
+  "datePublished": "2021-06-10T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

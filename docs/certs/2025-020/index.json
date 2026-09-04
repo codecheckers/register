@@ -27,7 +27,7 @@
         "orcid": "0009-0003-5447-8034"
       }
     ],
-    "check_time": "2025-06-28 12:28:00",
+    "check_time": "2025-06-28T12:28:00",
     "repository": "github::codecheckers/Exploring-Categorical-Colors",
     "report": "https://doi.org/10.5281/zenodo.15762107",
     "type": "community",

@@ -21,7 +21,7 @@
         "orcid": "0000-0002-1322-1553"
       }
     ],
-    "check_time": "2025-01-29 14:00:00",
+    "check_time": "2025-01-29T14:00:00",
     "repository": "github::codecheckers/absolution_codecheck",
     "report": "https://doi.org/10.5281/zenodo.16758977",
     "type": "institution",

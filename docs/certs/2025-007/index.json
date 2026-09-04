@@ -42,7 +42,7 @@
         "orcid": "0009-0005-9240-7370"
       }
     ],
-    "check_time": "2025-05-26 14:00:00",
+    "check_time": "2025-05-26T14:00:00",
     "repository": "github::codecheckers/certificate-2025-007",
     "report": "https://doi.org/10.5281/zenodo.15603144",
     "type": "institution",

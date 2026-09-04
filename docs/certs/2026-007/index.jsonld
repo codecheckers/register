@@ -41,7 +41,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-9-2026", "https://openalex.org/W7164208595", "https://www.wikidata.org/entity/Q140232106"]
   },
   "reviewBody": "Partially successful reproduction. The authors shared scripts, intermediate results and documented instructions via an anonymous GitHub link. Figures 1-7 and Tables 2 and 3 were verified; the reproduced results were mostly in accordance with the reported results.\n",
-  "datePublished": "2026-06-09",
+  "datePublished": "2026-06-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

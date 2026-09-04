@@ -27,7 +27,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2021-06-10 12:00:00",
+    "check_time": "2021-06-10T12:00:00",
     "repository": "osf::anv9r",
     "report": "https://doi.org/10.17605/osf.io/anv9r",
     "type": "conference",

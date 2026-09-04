@@ -40,7 +40,7 @@
     "sameAs": ["https://doi.org/10.7554/eLife.50927", "https://openalex.org/W3012706327", "https://www.wikidata.org/entity/Q90584862"]
   },
   "reviewBody": "All code to run the neural network models discussed in the paper was  successfully executed. Some results could be read off these models in  action. The code to reproduce the figures given in the paper had more  difficulties, with only some figures successfully recreated.\n",
-  "datePublished": "2020-08-04",
+  "datePublished": "2020-08-04T10:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

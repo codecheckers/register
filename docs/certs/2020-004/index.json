@@ -32,7 +32,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2020-05-14 16:00:00",
+    "check_time": "2020-05-14T16:00:00",
     "repository": "github::codecheckers/Barto-Sutton-Anderson-1983",
     "report": "https://doi.org/10.5281/zenodo.22109800",
     "type": "community",

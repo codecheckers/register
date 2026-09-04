@@ -43,7 +43,7 @@
         "orcid": "0000-0001-7078-3766"
       }
     ],
-    "check_time": "2025-06-06 12:00:00",
+    "check_time": "2025-06-06T12:00:00",
     "repository": "osf::28jt4",
     "report": "https://doi.org/10.17605/OSF.IO/28JT4",
     "type": "conference",

@@ -36,7 +36,7 @@
         "orcid": "0000-0002-8160-7634"
       }
     ],
-    "check_time": "2023-06-13 12:00:00",
+    "check_time": "2023-06-13T12:00:00",
     "repository": "osf::m5bhk",
     "report": "https://doi.org/10.17605/osf.io/m5bhk",
     "type": "conference",

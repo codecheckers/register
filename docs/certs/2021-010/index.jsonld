@@ -45,7 +45,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-2-13-2021", "https://openalex.org/W3165945407", "https://www.wikidata.org/entity/Q141269377"]
   },
   "reviewBody": "The reproduction was successful. All provided scripts could be execute after clarification with the authors\nusing the provided data. Some manual steps could not be reproduced, but all code and data are shared.\nThe script outputs match what is presented in the paper considering the randomness in the workflow.\nRelevant figures and tables could be recreated successfully.\n",
-  "datePublished": "2021-06-10",
+  "datePublished": "2021-06-10T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -46,7 +46,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-2-2-2021", "https://openalex.org/W3171073192", "https://www.wikidata.org/entity/Q141269374"]
   },
   "reviewBody": "The authors provide a well documented workflow analysing a large number of Tweets over a considerable\ntime span. Because of the data size, the authors provided instructions for a data subset, for which the\ncode could be executed successfully and the created figures match the provided baseline, and also confirm\nthat data can be created and the code is available for the results reported in the paper.\n",
-  "datePublished": "2021-06-10",
+  "datePublished": "2021-06-10T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

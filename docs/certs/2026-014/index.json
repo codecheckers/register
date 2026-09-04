@@ -46,7 +46,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2026-06-11 12:00:00",
+    "check_time": "2026-06-11T12:00:00",
     "repository": "github::reproducible-agile/reviews-2026|reports/026",
     "report": "https://doi.org/10.53962/pdw8-n5v0",
     "type": "conference",

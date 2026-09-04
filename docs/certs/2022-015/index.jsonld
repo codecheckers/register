@@ -39,7 +39,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-3-19-2022", "https://openalex.org/W4281649094", "https://www.wikidata.org/entity/Q141269406"]
   },
   "reviewBody": "The paper provides a link to a GitHub repository that was initially difficult to use but was promptly improved by the authors after an email exchange.\nThe repository contains only one out of two datasets presented in the paper but most results based on this dataset have been successfully reproduced with minor disparities due to automated scaling of graphs.\nIn sum, the manuscript has been partially reproduced.\nThe repository is well-documented, it includes the documentation of required software versions, and the authors’ response to questions and bugs has been prompt and helpful.\n",
-  "datePublished": "2022-07-09",
+  "datePublished": "2022-07-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -31,7 +31,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2025-05-15 12:00:00",
+    "check_time": "2025-05-15T12:00:00",
     "repository": "zenodo::15323262",
     "report": "https://doi.org/10.5281/zenodo.15323262",
     "type": "journal",

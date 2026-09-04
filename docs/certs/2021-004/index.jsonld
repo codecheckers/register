@@ -45,7 +45,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-2-11-2021", "https://openalex.org/W3171527029", "https://www.wikidata.org/entity/Q133730149"]
   },
   "reviewBody": "The provided workflow was partially reproduced. Based on the provided test file and instructions, we\nwere able to recreate the computing environment and run the segmentation models. Relevant tables from\nthe paper could be recreated. The training and validation part of the workflow is irreproducible because\nof proprietary data, therefore no figures could be recreated.\n",
-  "datePublished": "2021-06-10",
+  "datePublished": "2021-06-10T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

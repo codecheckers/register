@@ -39,7 +39,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-1-21-2020", "https://openalex.org/W3043446483", "https://www.wikidata.org/entity/Q141269336"]
   },
   "reviewBody": "Based on an updated data and code archive provided by the authors, we were able to deploy a database with the new functions, insert test data, and recreate all but one data-based figure with the provided scripts.\n",
-  "datePublished": "2020-07-13",
+  "datePublished": "2020-07-13T11:37:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

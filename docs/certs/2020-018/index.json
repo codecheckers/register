@@ -30,7 +30,7 @@
         "orcid": "0000-0002-0024-5046"
       }
     ],
-    "check_time": "2020-07-13 11:32:00",
+    "check_time": "2020-07-13T11:32:00",
     "repository": "github::reproducible-agile/AGILECA",
     "report": "https://doi.org/10.17605/OSF.IO/ZTC7M",
     "type": "conference",

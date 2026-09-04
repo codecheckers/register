@@ -49,7 +49,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-4-11-2023", "https://openalex.org/W4379798521", "https://www.wikidata.org/entity/Q141269430"]
   },
   "reviewBody": "The paper elaborates on the data collection about extreme heat alerts in Mozambique from different media sources and subsequently overlays the collected datasets.\nAfter manual data collection, the data were gathered and analysed in spreadsheets and then shared via Github under CC BY 4.0.\nFor this reproducibility review, we attempted to reproduce Figures 1-4 and Table 2.\nSince the data processing steps were not detailed enough in the README files provided by the corresponding author, in most cases we managed to do a verification of the results, rather than a reproduction.\nFor this reason, the reproduction of this paper can be considered only partially successful.\n",
-  "datePublished": "2023-06-13",
+  "datePublished": "2023-06-13T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

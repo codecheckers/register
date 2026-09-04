@@ -36,7 +36,7 @@
     "sameAs": ["https://doi.org/10.7554/eLife.52757", "https://openalex.org/W3008505973", "https://www.wikidata.org/entity/Q89775486"]
   },
   "reviewBody": "Some of the original MATLAB code was provided on ModelDB. This code was successfully  rerun and reproduced some of the figures in the original paper. However this was a small subset of all the figures in the paper.\n",
-  "datePublished": "2020-07-28",
+  "datePublished": "2020-07-28T10:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

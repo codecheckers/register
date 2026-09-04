@@ -42,7 +42,7 @@
     "sameAs": ["https://doi.org/10.1093/gigascience/giaa026", "https://openalex.org/W3014157798", "https://www.wikidata.org/entity/Q91579802"]
   },
   "reviewBody": "Only visualiation steps performed, rather than machine learning (which could take several hours/days).  The created figures match those in the article. The content of other output files was not checked.",
-  "datePublished": "2019-02-14",
+  "datePublished": "2019-02-14T10:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -29,6 +29,64 @@ since that's more often a query problem than a real removal upstream. Only
 `make render PRUNE_STALE=1` actually removes a confirmed-unavailable value —
 use it deliberately, for a verified cleanup, not as part of a normal render.
 
+## Visual and responsive testing
+
+`docs/` is a static site, so the rendered pages can be checked in headless
+Chrome without a server or any npm tooling:
+
+```bash
+make screenshots                        # home page at 393x851, 768x1024, 1280x900
+make screenshots PATHS="/ /certs/2026-023/ /persons/"
+make overflow                           # every page that scrolls sideways at 393px
+make overflow WIDTH=768
+```
+
+- `test/screenshot.sh` serves `docs/` on a free port with `python3 -m
+  http.server` and shoots each path at each viewport with
+  `google-chrome --headless --screenshot`. It never renders - run `make render`
+  first if `docs/` is stale.
+- `393x851` is the CSS-pixel viewport of current Android phones (a Fairphone
+  FP4 is 1080x2340 at DPR 2.75); use it for the mobile check.
+- Chrome captures the **viewport**, not the full page, so pass a tall viewport
+  (`-w 393x2000`) to see a footer or the lower half of a certificate page.
+- `test/overflow.py` measures `documentElement.scrollWidth` against the
+  viewport on each page and exits non-zero if any page is wider. A page that
+  overflows drags the navigation and footer out with it and cuts off content
+  with no visible way to reach it - the failure mode wide register tables had
+  on phones. Anything that cannot fit must scroll inside its own container.
+  (Chrome's `--dump-dom` ignores `--window-size`, so the script compares the
+  numbers the page reports rather than the requested width.)
+
+The page CSS is **not** in this repository: it is
+`inst/extdata/templates/assets/codecheck-register.css` in `../codecheck/`,
+copied into `docs/assets/` by every render. To iterate, edit it there, copy it
+over (`cp ../codecheck/inst/extdata/templates/assets/codecheck-register.css
+docs/assets/`) and re-run the checks - no re-render needed for a CSS-only
+change. Layout rules for the register live in that one file; the rendered
+pages are Bootstrap 3.3.5 via `rmarkdown::html_document`, while the plain
+templates (404, redirect pages) load only this stylesheet.
+
+## Profiling a render
+
+`register_render(verbose = TRUE)` prefixes every log line with the seconds
+elapsed since the render started, so a redirected log says where the time
+went:
+
+```bash
+R -q -e 'codecheck::register_render(parallel = TRUE, verbose = TRUE)' > render.log 2>&1
+grep -E "^\[ *[0-9.]+s\] (──|✔ Completed|✔ Main register)" render.log
+```
+
+A warm-cache full render is about **60 s**: ~10 s of (cached) metadata
+lookups and PDF-link resolution, ~7 s for the 132 certificate pages, ~36 s
+for the filter pages (persons is the largest at ~19 s), and a few seconds of
+sitemap, redirects and policy audits. Certificates and filter pages both
+render in parallel when `parallel = TRUE`.
+
+A render that suddenly takes **six minutes** has lost its cache: everything
+is re-fetched from OpenAlex, ORCID, ROR, Zenodo and GitHub. `make clean` does
+that deliberately.
+
 ## Adding a new certificate
 
 1. Read the Zenodo record: `curl -s https://zenodo.org/api/records/<RECORD ID> | python3 -m json.tool`. Add `-H "Accept: application/vnd.inveniordm.v1+json"` for the representation the curation policy is written against (creators as `person_or_org`, alternate identifiers under `metadata.identifiers`).

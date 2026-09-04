@@ -45,7 +45,7 @@
         "orcid": "0009-0008-5638-1670"
       }
     ],
-    "check_time": "2024-11-22 10:00:00",
+    "check_time": "2024-11-22T10:00:00",
     "repository": "github::codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation",
     "report": "https://doi.org/10.5281/zenodo.14211707",
     "type": "community",

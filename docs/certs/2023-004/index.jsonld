@@ -45,7 +45,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-4-13-2023", "https://openalex.org/W4379797511", "https://www.wikidata.org/entity/Q141269427"]
   },
   "reviewBody": "The authors provided code and data were able to partially reproduce the results presented in the figures and tables of the reviewed paper, but some of the tables were not fully reproduced.\nThe paper includes the DASA section.\nThe author provide all the data and code through figshare.\nBoth R and RStudio are required for the reproductions of the authors work.\nFor the reproducibility of the work, the authors provided R script survey_2021.R along with having data in dataset.7z.\n",
-  "datePublished": "2023-06-13",
+  "datePublished": "2023-06-13T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

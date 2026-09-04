@@ -46,7 +46,7 @@
     "sameAs": ["https://doi.org/10.1038/s41598-021-85363-7", "https://openalex.org/W3138189425", "https://www.wikidata.org/entity/Q141269451"]
   },
   "reviewBody": "This project provides clear instructions on generating figures 1 – 9, described in the README.md document located in the GitHub repository linked to the publication. However, to run figures 8 and 9, the author recommends the use of an HPC cluster, which is beyond the scope of this CODECHECK. Figures 1 – 7 could be reproduced on certain systems and configurations.\n",
-  "datePublished": "2025-05-01",
+  "datePublished": "2025-05-01T14:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

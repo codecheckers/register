@@ -46,7 +46,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-16-2026", "https://openalex.org/W7164184955", "https://www.wikidata.org/entity/Q141269477"]
   },
   "reviewBody": "Partial reproduction. The authors provided a well-documented GitHub repository with detailed instructions; Table 2 was recreated with the provided script. A full reproduction requires substantial computational resources (in particular the fine-tuning in Step 2).\n",
-  "datePublished": "2026-04-10",
+  "datePublished": "2026-04-10T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

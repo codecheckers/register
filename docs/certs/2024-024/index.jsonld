@@ -46,7 +46,7 @@
     "sameAs": ["https://doi.org/10.1002/sim.10186", "https://openalex.org/W4401278294", "https://www.wikidata.org/entity/Q141269447"]
   },
   "reviewBody": "R to generate and analyze simulated data in order to evaluate the prediction performance of individualized treatment effects.\n",
-  "datePublished": "2024-12-16",
+  "datePublished": "2024-12-16T10:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -39,7 +39,7 @@
         "orcid": "0000-0002-4314-8107"
       }
     ],
-    "check_time": "2026-04-10 12:00:00",
+    "check_time": "2026-04-10T12:00:00",
     "repository": "osf::bv4mk",
     "report": "https://doi.org/10.17605/OSF.IO/BV4MK",
     "type": "conference",

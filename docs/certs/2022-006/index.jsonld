@@ -46,7 +46,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-3-6-2022", "https://openalex.org/W4281897965", "https://www.wikidata.org/entity/Q141269387"]
   },
   "reviewBody": "The paper evaluates the competence of selected features in the prediction of Nitrogen Dioxide with Machine Learning.\nFor this reproduciblity review, the Figures and Tables of \"Section 5 - Experiments and Results\" were considered, while the Figures of \"Section 3 - Exploratory Analysis\"\" were not.\nThe code of the corresponding analysis was provided as a GitHub repository and the data that is necessary to run the code were provided through a Zenodo repository.\nThe reproduced results were in accordance with the ones reported in the paper, so the reproduction of the paper is considered successful.\n",
-  "datePublished": "2022-07-09",
+  "datePublished": "2022-07-09T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

@@ -36,7 +36,7 @@
         "orcid": "0000-0001-7777-1864"
       }
     ],
-    "check_time": "2025-02-14 12:00:00",
+    "check_time": "2025-02-14T12:00:00",
     "repository": "github::codecheckers/EvalSubtitle",
     "report": "https://doi.org/10.5281/zenodo.15173758",
     "type": "community",

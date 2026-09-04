@@ -38,7 +38,7 @@
     "sameAs": ["https://doi.org/10.5194/agile-giss-4-4-2023", "https://openalex.org/W4379802617", "https://www.wikidata.org/entity/Q141269432"]
   },
   "reviewBody": "The paper is accompanied by a GitHub repository with front end and back end code of their indoor localization app.\nThe code was not executable first, but installation instructions were added and file paths were fixed upon exchange with the authors.\nThe results reported in the paper are partially reproducible with the provided code.\nThe code mainly yields examples that are similar but not the same as in the paper, due to randomness in the algorithms.\nOne script allows to reproduce a figure exactly, while other quantitative results (tables in the paper) can not be created with the code.\nHowever,  given the instructions in the README and the example data, the repository can be very useful for researchers who want to apply the pipeline on their own data.\n",
-  "datePublished": "2023-06-13",
+  "datePublished": "2023-06-13T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

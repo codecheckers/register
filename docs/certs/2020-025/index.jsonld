@@ -50,7 +50,7 @@
     "sameAs": ["https://doi.org/10.1016/j.jas.2020.105306", "https://openalex.org/W3112754451", "https://www.wikidata.org/entity/Q141269346"]
   },
   "reviewBody": "This workflow was very straightforward to check following the authors' README. All figures stored in the repository could be recreated and match the ones given in the manuscript.\n",
-  "datePublished": "2020-11-19",
+  "datePublished": "2020-11-19T12:00:00",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",

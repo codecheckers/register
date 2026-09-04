@@ -27,7 +27,7 @@
         "orcid": "0000-0002-4314-8107"
       }
     ],
-    "check_time": "2025-06-12 12:00:00",
+    "check_time": "2025-06-12T12:00:00",
     "repository": "osf::956a8",
     "report": "https://doi.org/10.17605/OSF.IO/956a8",
     "type": "conference",
