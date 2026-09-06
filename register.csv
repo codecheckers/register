@@ -1,134 +1,134 @@
-Certificate,Repository,Type,Venue,Issue
-2020-001,github::codecheckers/Piccolo-2020,journal,GigaScience,NA
-2020-002,github::codecheckers/Reproduction-Hancock,community,codecheck,2
-2020-003,github::codecheckers/Hopfield-1982,community,codecheck,1
-2020-004,github::codecheckers/Barto-Sutton-Anderson-1983,community,codecheck,4
-2020-005,github::codecheckers/Larisch-reproduction,community,codecheck,5
-2020-006,github::codecheckers/Detorakis-reproduction,community,codecheck,6
-2020-008,github::codecheckers/covid-uk,community,preprint,8
-2020-009,github::codecheckers/2020-cov-tracing,community,preprint,9
-2020-010,github::codecheckers/covid-report9,community,preprint,14
-2020-011,github::codecheckers/covid19model-nature,community,in press,18
-2020-012,github::codecheckers/covid19model-report23,community,preprint,19
-2020-013,github::codecheckers/Spitschan2020_bioRxiv,community,preprint,20
-2020-014,github::codecheckers/Sadeh-and-Clopath,community,codecheck,21
-2020-015,github::codecheckers/Liou-and-Bateman,community,codecheck,22
-2020-016,github::codecheckers/OpeningPractice,journal,J Geogr Syst,15
-2020-017,github::codecheckers/JGSY-D-19-00087,journal,J Geogr Syst,24
-2020-018,github::reproducible-agile/AGILECA,conference,AGILEGIS,25
-2020-019,osf::5SVMT,conference,AGILEGIS,25
-2020-020,osf::7TWR2,conference,AGILEGIS,25
-2020-021,github::reproducible-agile/Spatial-nominal-entity-recognition,conference,AGILEGIS,25
-2020-022,osf::7XRQG,conference,AGILEGIS,25
-2020-023,github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter,conference,AGILEGIS,25
-2020-024,github::codecheckers/driftage,journal,GigaScience,31
-2020-025,github::codecheckers/LICD_article,journal,J Archaeol Sci,29
-2021-001,github::codecheckers/causality-review,community,preprint,35
-2021-002,osf::rsf4m,conference,AGILEGIS,38
-2021-003,osf::dx92a,conference,AGILEGIS,38
-2021-004,osf::2sc7g,conference,AGILEGIS,38
-2021-005,osf::7fqtm,conference,AGILEGIS,38
-2021-006,osf::4cpm3,conference,AGILEGIS,38
-2021-007,osf::anv9r,conference,AGILEGIS,38
-2021-008,osf::g4dcq,conference,AGILEGIS,38
-2021-009,osf::rdnyu,conference,AGILEGIS,38
-2021-010,osf::bdu28,conference,AGILEGIS,38
-2022-001,github::codecheckers/GWR-in-educational-planning,community,codecheck,40
-2022-002,osf::Z7P8K,conference,AGILEGIS,41
-2022-003,osf::JDTN3,conference,AGILEGIS,41
-2022-004,osf::XPG6Y,conference,AGILEGIS,41
-2022-005,osf::CDFAH,conference,AGILEGIS,41
-2022-006,osf::W7VPH,conference,AGILEGIS,41
-2022-007,osf::3DSMV,conference,AGILEGIS,41
-2022-008,osf::K78EB,conference,AGILEGIS,41
-2022-009,osf::94VNX,conference,AGILEGIS,41
-2022-010,osf::8B7MR,conference,AGILEGIS,41
-2022-011,osf::KF8SR,conference,AGILEGIS,41
-2022-012,osf::R6PSQ,conference,AGILEGIS,41
-2022-013,osf::3G9S8,conference,AGILEGIS,41
-2022-014,osf::6S2GP,conference,AGILEGIS,41
-2022-015,osf::MVQCW,conference,AGILEGIS,41
-2022-016,osf::DJFC2,conference,AGILEGIS,41
-2022-017,osf::WNCSM,conference,AGILEGIS,41
-2022-018,gitlab::cdchck/community-codechecks/2022-svaRetro-svaNUMT,journal,GigaByte,44
-2023-001,osf::c7vx3,conference,AGILEGIS,49
-2023-002,osf::rbgvk,conference,AGILEGIS,49
-2023-003,osf::m5bhk,conference,AGILEGIS,49
-2023-004,osf::2em7v,conference,AGILEGIS,49
-2023-005,osf::27wzp,conference,AGILEGIS,49
-2023-006,osf::d2shf,conference,AGILEGIS,49
-2023-007,osf::eu8kw,conference,AGILEGIS,49
-2023-008,osf::aqgxr,conference,AGILEGIS,49
-2023-009,osf::9kp7u,conference,AGILEGIS,49
-2023-010,osf::8t3bh,conference,AGILEGIS,49
-2023-011,github::codecheckers/rmr-solver,community,preprint,56
-2023-012,github::codecheckers/leba-manuscript,community,preprint,59
-2024-001,github::codecheckers/LazarEtAl_RSocOpenSci_2024,community,preprint,60
+Certificate,Repository,Type,Venue,Issue,Wikidata
+2020-001,github::codecheckers/Piccolo-2020,journal,GigaScience,NA,Q116702174
+2020-002,github::codecheckers/Reproduction-Hancock,community,codecheck,2,Q141269512
+2020-003,github::codecheckers/Hopfield-1982,community,codecheck,1,Q141269513
+2020-004,github::codecheckers/Barto-Sutton-Anderson-1983,community,codecheck,4,Q141269514
+2020-005,github::codecheckers/Larisch-reproduction,community,codecheck,5,Q141269515
+2020-006,github::codecheckers/Detorakis-reproduction,community,codecheck,6,Q141269516
+2020-008,github::codecheckers/covid-uk,community,preprint,8,Q141269518
+2020-009,github::codecheckers/2020-cov-tracing,community,preprint,9,Q141269520
+2020-010,github::codecheckers/covid-report9,community,preprint,14,Q141269521
+2020-011,github::codecheckers/covid19model-nature,community,in press,18,Q141269522
+2020-012,github::codecheckers/covid19model-report23,community,preprint,19,Q141269523
+2020-013,github::codecheckers/Spitschan2020_bioRxiv,community,preprint,20,Q141269524
+2020-014,github::codecheckers/Sadeh-and-Clopath,community,codecheck,21,Q141269526
+2020-015,github::codecheckers/Liou-and-Bateman,community,codecheck,22,Q141269527
+2020-016,github::codecheckers/OpeningPractice,journal,J Geogr Syst,15,Q141269528
+2020-017,github::codecheckers/JGSY-D-19-00087,journal,J Geogr Syst,24,Q141269529
+2020-018,github::reproducible-agile/AGILECA,conference,AGILEGIS,25,Q141269530
+2020-019,osf::5SVMT,conference,AGILEGIS,25,Q141269531
+2020-020,osf::7TWR2,conference,AGILEGIS,25,Q141269532
+2020-021,github::reproducible-agile/Spatial-nominal-entity-recognition,conference,AGILEGIS,25,Q141269533
+2020-022,osf::7XRQG,conference,AGILEGIS,25,Q141269534
+2020-023,github::reproducible-agile/Tracking-Hurricane-Dorian-in-GDELT-and-Twitter,conference,AGILEGIS,25,Q141269535
+2020-024,github::codecheckers/driftage,journal,GigaScience,31,Q141269536
+2020-025,github::codecheckers/LICD_article,journal,J Archaeol Sci,29,Q141269537
+2021-001,github::codecheckers/causality-review,community,preprint,35,Q141269538
+2021-002,osf::rsf4m,conference,AGILEGIS,38,Q141269539
+2021-003,osf::dx92a,conference,AGILEGIS,38,Q141269540
+2021-004,osf::2sc7g,conference,AGILEGIS,38,Q141269541
+2021-005,osf::7fqtm,conference,AGILEGIS,38,Q141269542
+2021-006,osf::4cpm3,conference,AGILEGIS,38,Q141269543
+2021-007,osf::anv9r,conference,AGILEGIS,38,Q141269544
+2021-008,osf::g4dcq,conference,AGILEGIS,38,Q141269545
+2021-009,osf::rdnyu,conference,AGILEGIS,38,Q141269546
+2021-010,osf::bdu28,conference,AGILEGIS,38,Q141269547
+2022-001,github::codecheckers/GWR-in-educational-planning,community,codecheck,40,Q141269548
+2022-002,osf::Z7P8K,conference,AGILEGIS,41,Q141269549
+2022-003,osf::JDTN3,conference,AGILEGIS,41,Q141269550
+2022-004,osf::XPG6Y,conference,AGILEGIS,41,Q141269551
+2022-005,osf::CDFAH,conference,AGILEGIS,41,Q141269552
+2022-006,osf::W7VPH,conference,AGILEGIS,41,Q141269553
+2022-007,osf::3DSMV,conference,AGILEGIS,41,Q141269554
+2022-008,osf::K78EB,conference,AGILEGIS,41,Q141269555
+2022-009,osf::94VNX,conference,AGILEGIS,41,Q141269556
+2022-010,osf::8B7MR,conference,AGILEGIS,41,Q141269557
+2022-011,osf::KF8SR,conference,AGILEGIS,41,Q141269558
+2022-012,osf::R6PSQ,conference,AGILEGIS,41,Q141269559
+2022-013,osf::3G9S8,conference,AGILEGIS,41,Q141269560
+2022-014,osf::6S2GP,conference,AGILEGIS,41,Q141269561
+2022-015,osf::MVQCW,conference,AGILEGIS,41,Q141269562
+2022-016,osf::DJFC2,conference,AGILEGIS,41,Q141269563
+2022-017,osf::WNCSM,conference,AGILEGIS,41,Q141269565
+2022-018,gitlab::cdchck/community-codechecks/2022-svaRetro-svaNUMT,journal,GigaByte,44,Q141269566
+2023-001,osf::c7vx3,conference,AGILEGIS,49,Q141269567
+2023-002,osf::rbgvk,conference,AGILEGIS,49,Q141269568
+2023-003,osf::m5bhk,conference,AGILEGIS,49,Q141269569
+2023-004,osf::2em7v,conference,AGILEGIS,49,Q141269570
+2023-005,osf::27wzp,conference,AGILEGIS,49,Q141269571
+2023-006,osf::d2shf,conference,AGILEGIS,49,Q141269572
+2023-007,osf::eu8kw,conference,AGILEGIS,49,Q141269573
+2023-008,osf::aqgxr,conference,AGILEGIS,49,Q141269574
+2023-009,osf::9kp7u,conference,AGILEGIS,49,Q141269575
+2023-010,osf::8t3bh,conference,AGILEGIS,49,Q141269576
+2023-011,github::codecheckers/rmr-solver,community,preprint,56,Q141269577
+2023-012,github::codecheckers/leba-manuscript,community,preprint,59,Q141269578
+2024-001,github::codecheckers/LazarEtAl_RSocOpenSci_2024,community,preprint,60,Q141269579
 #2024-002,github::codecheckers/domestic.wastewater.variability,community,codecheck NL,61
-2024-003,github::codecheckers/sddtmpc,community,codecheck NL,66
-2024-004,github::codecheckers/scope,institution,AUMC,96
-2024-006,osf::ymc3t,conference,AGILEGIS,69
-2024-007,osf::gvpd9,conference,AGILEGIS,69
-2024-008,osf::3nbjw,conference,AGILEGIS,69
-2024-009,osf::csb7r,conference,AGILEGIS,69
-2024-010,osf::nbk57,conference,AGILEGIS,69
-2024-011,osf::fmgb4,conference,AGILEGIS,69
-2024-012,osf::w42ad,conference,AGILEGIS,69
-2024-013,osf::txgzv,conference,AGILEGIS,69
-2024-005,github::codecheckers/sample-size-codecheck,community,codecheck,100
-2024-014,osf::spxt5,community,codecheck NL,124
-2024-015,osf::mwbuq,community,codecheck NL,124
-2024-016,osf::6ngyc,community,codecheck NL,124
-2024-017,github::codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation,community,codecheck NL,133
-2024-018,github::codecheckers/ZaunerEtAl_PLoS_ONE_2024,community,codecheck NL,132
-2024-019,github::codecheckers/wearable-hrv,community,codecheck NL,134
-2024-020,github::codecheckers/codecheck_LangtonRuiterVerlaan2022,community,codecheck NL,135
-2024-021,github::codecheckers/DementiaPhysicalActivity,community,codecheck NL,136
-2024-022,github::codecheckers/DEISM,community,codecheck NL,136
-2024-024,github::codecheckers/iteval-sims,institution,AUMC,139
-2024-023,zenodo::14900193,community,codecheck NL,138
-2024-025,zenodo::15025861,community,codecheck NL,149
-2025-003,github::codecheckers/certificate-2025-003,institution,TU Delft DCC,157
-2025-001,github::codecheckers/mb11CalculusPilot,community,codecheck NL,148
-2020-007,github::codecheckers/Hathway-Goodman-2018,community,codecheck,7
-2025-004,github::codecheckers/certificate-2025-004,institution,TU Delft DCC,156
-2025-005,zenodo::15323262,journal,Lifecycle Journal,158
-2025-006,github::codecheckers/sarscov2-variants,institution,TU Delft DCC,159
-2025-007,github::codecheckers/certificate-2025-007,institution,TU Delft DCC,164
-2025-008,github::reproducible-agile/reviews-2025|reports/08,conference,AGILEGIS,147
-2025-009,osf::gv2z4,conference,AGILEGIS,147
-2025-010,osf::FXKWS,conference,AGILEGIS,147
-2025-011,osf::GT5BW,conference,AGILEGIS,147
-2025-012,osf::956a8,conference,AGILEGIS,147
-2025-013,osf::BGY83,conference,AGILEGIS,147
-2025-014,osf::st98a,conference,AGILEGIS,147
-2025-015,osf::chx28,conference,AGILEGIS,147
-2025-016,osf::28jt4,conference,AGILEGIS,147
-2025-017,github::reproducible-agile/reviews-2025|reports/28,conference,AGILEGIS,147
-2025-018,github::codecheckers/certificate-2025-018,institution,TU Delft DCC,167
-2025-019,github::codecheckers/certificate-2025-019,institution,TU Delft DCC,169
-2025-020,github::codecheckers/Exploring-Categorical-Colors,community,codecheck,170
-2025-002,github::codecheckers/EvalSubtitle,community,codecheck NL,154
-2025-021,github::codecheckers/certificate-2025-021,institution,TU Delft DCC,172
-2025-022,github::codecheckers/certificate-2025-022,institution,TU Delft DCC,173
-2025-025,github::codecheckers/absolution_codecheck,institution,AUMC,174
-2025-028,github::codecheckers/surv-tcav-pbc,journal,Lifecycle Journal,178
-2025-027,github::codecheckers/zonebuilder,journal,JOSIS,176
-2026-001,github::codecheckers/kite_piv_analysis,institution,TU Delft DCC,187
-2026-019,github::codecheckers/certificate-2026-019,community,codecheck,196
-2026-018,github::codecheckers/reproducible-research-giscience-longitudinal-study,journal,JOSIS,195
-2026-023,github::codecheckers/HeinrichsEtAl_JVis_2026,community,preprint,202
-2026-004,github::reproducible-agile/reviews-2026|reports/007,conference,AGILEGIS,186
-2026-005,github::reproducible-agile/reviews-2026|reports/008,conference,AGILEGIS,186
-2026-006,osf::zpurt,conference,AGILEGIS,186
-2026-007,github::reproducible-agile/reviews-2026|reports/012,conference,AGILEGIS,186
-2026-008,github::reproducible-agile/reviews-2026|reports/013,conference,AGILEGIS,186
-2026-009,osf::kcpze,conference,AGILEGIS,186
-2026-010,github::reproducible-agile/reviews-2026|reports/016,conference,AGILEGIS,186
-2026-011,github::reproducible-agile/reviews-2026|reports/017,conference,AGILEGIS,186
-2026-012,osf::bv4mk,conference,AGILEGIS,186
-2026-013,osf::hetv8,conference,AGILEGIS,186
-2026-014,github::reproducible-agile/reviews-2026|reports/026,conference,AGILEGIS,186
-2026-015,github::reproducible-agile/reviews-2026|reports/029,conference,AGILEGIS,186
-2026-016,github::reproducible-agile/reviews-2026|reports/031,conference,AGILEGIS,186
-2026-017,github::reproducible-agile/reviews-2026|reports/033,conference,AGILEGIS,186
+2024-003,github::codecheckers/sddtmpc,community,codecheck NL,66,Q141269580
+2024-004,github::codecheckers/scope,institution,AUMC,96,Q141269581
+2024-006,osf::ymc3t,conference,AGILEGIS,69,Q141269583
+2024-007,osf::gvpd9,conference,AGILEGIS,69,Q141269584
+2024-008,osf::3nbjw,conference,AGILEGIS,69,Q141269585
+2024-009,osf::csb7r,conference,AGILEGIS,69,Q141269586
+2024-010,osf::nbk57,conference,AGILEGIS,69,Q141269587
+2024-011,osf::fmgb4,conference,AGILEGIS,69,Q141269588
+2024-012,osf::w42ad,conference,AGILEGIS,69,Q141269589
+2024-013,osf::txgzv,conference,AGILEGIS,69,Q141269590
+2024-005,github::codecheckers/sample-size-codecheck,community,codecheck,100,Q141269582
+2024-014,osf::spxt5,community,codecheck NL,124,Q141269591
+2024-015,osf::mwbuq,community,codecheck NL,124,Q141269592
+2024-016,osf::6ngyc,community,codecheck NL,124,Q141269593
+2024-017,github::codecheckers/Inter_Noise2024_Codes_Acoustics_Diffusion_Equation,community,codecheck NL,133,Q141269594
+2024-018,github::codecheckers/ZaunerEtAl_PLoS_ONE_2024,community,codecheck NL,132,Q141269595
+2024-019,github::codecheckers/wearable-hrv,community,codecheck NL,134,Q141269596
+2024-020,github::codecheckers/codecheck_LangtonRuiterVerlaan2022,community,codecheck NL,135,Q141269597
+2024-021,github::codecheckers/DementiaPhysicalActivity,community,codecheck NL,136,Q141269598
+2024-022,github::codecheckers/DEISM,community,codecheck NL,136,Q141269600
+2024-024,github::codecheckers/iteval-sims,institution,AUMC,139,Q141269602
+2024-023,zenodo::14900193,community,codecheck NL,138,Q141269601
+2024-025,zenodo::15025861,community,codecheck NL,149,Q141269603
+2025-003,github::codecheckers/certificate-2025-003,institution,TU Delft DCC,157,Q141269704
+2025-001,github::codecheckers/mb11CalculusPilot,community,codecheck NL,148,Q141269604
+2020-007,github::codecheckers/Hathway-Goodman-2018,community,codecheck,7,Q141269517
+2025-004,github::codecheckers/certificate-2025-004,institution,TU Delft DCC,156,Q141269707
+2025-005,zenodo::15323262,journal,Lifecycle Journal,158,Q141269709
+2025-006,github::codecheckers/sarscov2-variants,institution,TU Delft DCC,159,Q141269710
+2025-007,github::codecheckers/certificate-2025-007,institution,TU Delft DCC,164,Q141269712
+2025-008,github::reproducible-agile/reviews-2025|reports/08,conference,AGILEGIS,147,Q141269714
+2025-009,osf::gv2z4,conference,AGILEGIS,147,Q141269716
+2025-010,osf::FXKWS,conference,AGILEGIS,147,Q141269718
+2025-011,osf::GT5BW,conference,AGILEGIS,147,Q141269720
+2025-012,osf::956a8,conference,AGILEGIS,147,Q141269722
+2025-013,osf::BGY83,conference,AGILEGIS,147,Q141269724
+2025-014,osf::st98a,conference,AGILEGIS,147,Q141269726
+2025-015,osf::chx28,conference,AGILEGIS,147,Q141269728
+2025-016,osf::28jt4,conference,AGILEGIS,147,Q141269730
+2025-017,github::reproducible-agile/reviews-2025|reports/28,conference,AGILEGIS,147,Q141269732
+2025-018,github::codecheckers/certificate-2025-018,institution,TU Delft DCC,167,Q141269734
+2025-019,github::codecheckers/certificate-2025-019,institution,TU Delft DCC,169,Q141269736
+2025-020,github::codecheckers/Exploring-Categorical-Colors,community,codecheck,170,Q141269738
+2025-002,github::codecheckers/EvalSubtitle,community,codecheck NL,154,Q141269703
+2025-021,github::codecheckers/certificate-2025-021,institution,TU Delft DCC,172,Q141269740
+2025-022,github::codecheckers/certificate-2025-022,institution,TU Delft DCC,173,Q141269741
+2025-025,github::codecheckers/absolution_codecheck,institution,AUMC,174,Q141269742
+2025-028,github::codecheckers/surv-tcav-pbc,journal,Lifecycle Journal,178,Q141269744
+2025-027,github::codecheckers/zonebuilder,journal,JOSIS,176,Q141269743
+2026-001,github::codecheckers/kite_piv_analysis,institution,TU Delft DCC,187,Q141269746
+2026-019,github::codecheckers/certificate-2026-019,community,codecheck,196,Q141269763
+2026-018,github::codecheckers/reproducible-research-giscience-longitudinal-study,journal,JOSIS,195,Q141269762
+2026-023,github::codecheckers/HeinrichsEtAl_JVis_2026,community,preprint,202,Q141269764
+2026-004,github::reproducible-agile/reviews-2026|reports/007,conference,AGILEGIS,186,Q141269747
+2026-005,github::reproducible-agile/reviews-2026|reports/008,conference,AGILEGIS,186,Q141269748
+2026-006,osf::zpurt,conference,AGILEGIS,186,Q141269749
+2026-007,github::reproducible-agile/reviews-2026|reports/012,conference,AGILEGIS,186,Q141269750
+2026-008,github::reproducible-agile/reviews-2026|reports/013,conference,AGILEGIS,186,Q141269751
+2026-009,osf::kcpze,conference,AGILEGIS,186,Q141269752
+2026-010,github::reproducible-agile/reviews-2026|reports/016,conference,AGILEGIS,186,Q141269754
+2026-011,github::reproducible-agile/reviews-2026|reports/017,conference,AGILEGIS,186,Q141269755
+2026-012,osf::bv4mk,conference,AGILEGIS,186,Q141269756
+2026-013,osf::hetv8,conference,AGILEGIS,186,Q141269757
+2026-014,github::reproducible-agile/reviews-2026|reports/026,conference,AGILEGIS,186,Q141269758
+2026-015,github::reproducible-agile/reviews-2026|reports/029,conference,AGILEGIS,186,Q141269759
+2026-016,github::reproducible-agile/reviews-2026|reports/031,conference,AGILEGIS,186,Q141269760
+2026-017,github::reproducible-agile/reviews-2026|reports/033,conference,AGILEGIS,186,Q141269761
