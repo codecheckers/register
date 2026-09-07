@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2025-010",
     "title": "Reproducibility Review of: 3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",
-    "url": "https://codecheck.org.uk/register/certs/2025-010/"
+    "url": "https://codecheck.org.uk/register/certs/2025-010/",
+    "wikidata": "Q141269718"
   },
   "paper": {
     "title": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations",

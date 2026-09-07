@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2026-007",
     "title": "Reproducibility Review Of: Analysis Of The Spatial And Temporal Pattern Of COVID-19 Incidence Rate Across Germany",
-    "url": "https://codecheck.org.uk/register/certs/2026-007/"
+    "url": "https://codecheck.org.uk/register/certs/2026-007/",
+    "wikidata": "Q141269750"
   },
   "paper": {
     "title": "Analysis of the spatial and temporal pattern of COVID-19 incidence rate across Germany",

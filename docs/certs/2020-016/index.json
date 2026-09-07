@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-016",
     "title": "CODECHECK Certificate 2020-016",
-    "url": "https://codecheck.org.uk/register/certs/2020-016/"
+    "url": "https://codecheck.org.uk/register/certs/2020-016/",
+    "wikidata": "Q141269528"
   },
   "paper": {
     "title": "Opening practice: supporting reproducibility and critical spatial data science ",

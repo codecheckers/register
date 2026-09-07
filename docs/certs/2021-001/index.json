@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2021-001",
     "title": "CODECHECK Certificate 2021-001",
-    "url": "https://codecheck.org.uk/register/certs/2021-001/"
+    "url": "https://codecheck.org.uk/register/certs/2021-001/",
+    "wikidata": "Q141269538"
   },
   "paper": {
     "title": "Causality indices for bivariate time series data: a comparative review of performance",

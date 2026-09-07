@@ -35,6 +35,7 @@
     "url": "https://doi.org/10.48550/arXiv.2503.21065",
     "sameAs": ["https://doi.org/10.48550/arXiv.2503.21065", "https://openalex.org/W4415061882", "https://www.wikidata.org/entity/Q141269463"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141269736",
   "reviewBody": "Figures 3-8 from the manuscript were successfully reproduced. Figures 1-2 and Tables 1-3 were not covered by this CODECHECK. To avoid the lengthy execution time required to run the full experiments, the pre-computed results used to generate the figures were provided in a separate repository.\n",
   "datePublished": "2025-06-11T10:00:00",
   "identifier": {

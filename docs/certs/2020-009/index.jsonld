@@ -31,6 +31,7 @@
     ],
     "url": "https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf"
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141269520",
   "reviewBody": "R code and packages worked well; simple edits needed to working directory.\n",
   "datePublished": "2020-04-26T20:00:00",
   "identifier": {

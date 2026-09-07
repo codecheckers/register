@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-015",
     "title": "CODECHECK certificate 2020-015",
-    "url": "https://codecheck.org.uk/register/certs/2020-015/"
+    "url": "https://codecheck.org.uk/register/certs/2020-015/",
+    "wikidata": "Q141269527"
   },
   "paper": {
     "title": "A model for focal seizure onset, propagation, evolution, and progression\n",

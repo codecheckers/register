@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2026-008",
     "title": "AGILE 2026 Reproducibility Report - Paper 13",
-    "url": "https://codecheck.org.uk/register/certs/2026-008/"
+    "url": "https://codecheck.org.uk/register/certs/2026-008/",
+    "wikidata": "Q141269751"
   },
   "paper": {
     "title": "Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels",

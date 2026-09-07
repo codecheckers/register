@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-022",
     "title": "Reproducibility review of: Extracting interrogative intents and concepts from geo-analytic questions",
-    "url": "https://codecheck.org.uk/register/certs/2020-022/"
+    "url": "https://codecheck.org.uk/register/certs/2020-022/",
+    "wikidata": "Q141269534"
   },
   "paper": {
     "title": "Extracting interrogative intents and concepts from geo-analytic questions.",

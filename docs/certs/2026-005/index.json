@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2026-005",
     "title": "Reproducibility Review of: A Method for Spatializing Disturbance by Detecting Human-Wildlife Encounters from GNSS Trajectories",
-    "url": "https://codecheck.org.uk/register/certs/2026-005/"
+    "url": "https://codecheck.org.uk/register/certs/2026-005/",
+    "wikidata": "Q141269748"
   },
   "paper": {
     "title": "A Method for Spatializing Disturbance by Detecting Human-Wildlife Encounters from GNSS Trajectories",

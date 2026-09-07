@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-007",
     "title": "Reproducibility review of: Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
-    "url": "https://codecheck.org.uk/register/certs/2022-007/"
+    "url": "https://codecheck.org.uk/register/certs/2022-007/",
+    "wikidata": "Q141269554"
   },
   "paper": {
     "title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",

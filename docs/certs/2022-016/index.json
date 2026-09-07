@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-016",
     "title": "Reproducibility review of: A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",
-    "url": "https://codecheck.org.uk/register/certs/2022-016/"
+    "url": "https://codecheck.org.uk/register/certs/2022-016/",
+    "wikidata": "Q141269563"
   },
   "paper": {
     "title": "A machine learning based approach for predicting usage efficiency of shared e-scooters using vehicle availability data",

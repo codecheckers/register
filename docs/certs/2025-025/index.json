@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2025-025",
     "title": "CODECHECK Certificate 2025-025",
-    "url": "https://codecheck.org.uk/register/certs/2025-025/"
+    "url": "https://codecheck.org.uk/register/certs/2025-025/",
+    "wikidata": "Q141269742"
   },
   "paper": {
     "title": "AbSolution Report v.0.71\n",

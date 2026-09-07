@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2025-019",
     "title": "CODECHECK Certificate 2025-019",
-    "url": "https://codecheck.org.uk/register/certs/2025-019/"
+    "url": "https://codecheck.org.uk/register/certs/2025-019/",
+    "wikidata": "Q141269736"
   },
   "paper": {
     "title": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",

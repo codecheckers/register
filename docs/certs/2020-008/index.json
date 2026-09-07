@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-008",
     "title": "CODECHECK certificate 2020-008",
-    "url": "https://codecheck.org.uk/register/certs/2020-008/"
+    "url": "https://codecheck.org.uk/register/certs/2020-008/",
+    "wikidata": "Q141269518"
   },
   "paper": {
     "title": "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study",

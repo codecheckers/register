@@ -40,6 +40,7 @@
     "url": "https://doi.org/10.5194/agile-giss-7-10-2026",
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-10-2026", "https://openalex.org/W7164183500", "https://www.wikidata.org/entity/Q141269479"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141269759",
   "reviewBody": "Successful but partial reproduction. The third part of the analysis reproduced smoothly, with all figures identical to the ones produced for the paper.\n",
   "datePublished": "2026-04-10T12:00:00",
   "identifier": {

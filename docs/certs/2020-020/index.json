@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-020",
     "title": "Reproducibility review of: Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
-    "url": "https://codecheck.org.uk/register/certs/2020-020/"
+    "url": "https://codecheck.org.uk/register/certs/2020-020/",
+    "wikidata": "Q141269532"
   },
   "paper": {
     "title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",

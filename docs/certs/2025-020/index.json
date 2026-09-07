@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2025-020",
     "title": "CODECHECK Certificate 2025-020",
-    "url": "https://codecheck.org.uk/register/certs/2025-020/"
+    "url": "https://codecheck.org.uk/register/certs/2025-020/",
+    "wikidata": "Q141269738"
   },
   "paper": {
     "title": "Exploring Categorical Colors",

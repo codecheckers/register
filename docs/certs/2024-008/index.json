@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-008",
     "title": "Reproducibility Review of: Knowledge-Based Identification of Urban Green Spaces - Allotments",
-    "url": "https://codecheck.org.uk/register/certs/2024-008/"
+    "url": "https://codecheck.org.uk/register/certs/2024-008/",
+    "wikidata": "Q141269585"
   },
   "paper": {
     "title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",

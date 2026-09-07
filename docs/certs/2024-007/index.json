@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-007",
     "title": "Reproducibility review of: 'FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments'",
-    "url": "https://codecheck.org.uk/register/certs/2024-007/"
+    "url": "https://codecheck.org.uk/register/certs/2024-007/",
+    "wikidata": "Q141269584"
   },
   "paper": {
     "title": "FreeMapRetrieve: Freehand Gestures for Retrieve Operations in Large-Screen Map Environments",

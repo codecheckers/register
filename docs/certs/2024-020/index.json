@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-020",
     "title": "CODECHECK Certificate 2024-020",
-    "url": "https://codecheck.org.uk/register/certs/2024-020/"
+    "url": "https://codecheck.org.uk/register/certs/2024-020/",
+    "wikidata": "Q141269597"
   },
   "paper": {
     "title": "Describing the scale and composition of calls for police service: a replication and extension using open data\n",

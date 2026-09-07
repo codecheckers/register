@@ -44,6 +44,7 @@
     "url": "https://doi.org/10.5194/agile-giss-1-19-2020",
     "sameAs": ["https://doi.org/10.5194/agile-giss-1-19-2020", "https://openalex.org/W3043006037", "https://www.wikidata.org/entity/Q141269340"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141269535",
   "reviewBody": "After initial problems because of absence of documentation, the reproduction was successful for some of the paper's figures, but not the maps.\n",
   "datePublished": "2020-07-13T12:00:00",
   "identifier": {

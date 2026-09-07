@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2023-002",
     "title": "Reproducibility review of:  Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Charts",
-    "url": "https://codecheck.org.uk/register/certs/2023-002/"
+    "url": "https://codecheck.org.uk/register/certs/2023-002/",
+    "wikidata": "Q141269568"
   },
   "paper": {
     "title": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",

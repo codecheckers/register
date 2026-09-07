@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-011",
     "title": "CODECHECK Certificate 2020-011",
-    "url": "https://codecheck.org.uk/register/certs/2020-011/"
+    "url": "https://codecheck.org.uk/register/certs/2020-011/",
+    "wikidata": "Q141269522"
   },
   "paper": {
     "title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe\n",

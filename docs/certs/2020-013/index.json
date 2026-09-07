@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-013",
     "title": "CODECHECK certificate 2020-013",
-    "url": "https://codecheck.org.uk/register/certs/2020-013/"
+    "url": "https://codecheck.org.uk/register/certs/2020-013/",
+    "wikidata": "Q141269524"
   },
   "paper": {
     "title": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision\n",

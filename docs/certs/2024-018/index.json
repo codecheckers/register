@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-018",
     "title": "CODECHECK Certificate 2024-018",
-    "url": "https://codecheck.org.uk/register/certs/2024-018/"
+    "url": "https://codecheck.org.uk/register/certs/2024-018/",
+    "wikidata": "Q141269595"
   },
   "paper": {
     "title": "Power analysis for personal light exposure measurements and interventions\n",

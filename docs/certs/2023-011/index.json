@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2023-011",
     "title": "CODECHECK Certificate 2023-011",
-    "url": "https://codecheck.org.uk/register/certs/2023-011/"
+    "url": "https://codecheck.org.uk/register/certs/2023-011/",
+    "wikidata": "Q141269577"
   },
   "paper": {
     "title": "Does enforcing glenohumeral joint stability matter? A new rapid muscle redundancy solver highlights the importance of non-superficial shoulder muscles\n",

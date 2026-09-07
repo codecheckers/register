@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-023",
     "title": "CODECHECK Certificate 2024-023",
-    "url": "https://codecheck.org.uk/register/certs/2024-023/"
+    "url": "https://codecheck.org.uk/register/certs/2024-023/",
+    "wikidata": "Q141269601"
   },
   "paper": {
     "title": "Influence of the cochlear partition’s flexibility on the macro mechanisms in the inner ear",

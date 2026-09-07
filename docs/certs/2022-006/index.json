@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-006",
     "title": "Reproducibility review of: Exploratory Analysis and  Feature Selection for the Prediction of Nitrogen Dioxide",
-    "url": "https://codecheck.org.uk/register/certs/2022-006/"
+    "url": "https://codecheck.org.uk/register/certs/2022-006/",
+    "wikidata": "Q141269553"
   },
   "paper": {
     "title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",

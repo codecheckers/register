@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2025-022",
     "title": "CODECHECK Certificate 2025-022",
-    "url": "https://codecheck.org.uk/register/certs/2025-022/"
+    "url": "https://codecheck.org.uk/register/certs/2025-022/",
+    "wikidata": "Q141269741"
   },
   "paper": {
     "title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",

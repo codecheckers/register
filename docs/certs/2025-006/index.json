@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2025-006",
     "title": "CODECHECK Certificate 2025-006",
-    "url": "https://codecheck.org.uk/register/certs/2025-006/"
+    "url": "https://codecheck.org.uk/register/certs/2025-006/",
+    "wikidata": "Q141269710"
   },
   "paper": {
     "title": "Emergence of novel SARS-CoV-2 variants in the Netherlands",

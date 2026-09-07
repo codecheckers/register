@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-012",
     "title": "CODECHECK certificate 2020-012",
-    "url": "https://codecheck.org.uk/register/certs/2020-012/"
+    "url": "https://codecheck.org.uk/register/certs/2020-012/",
+    "wikidata": "Q141269523"
   },
   "paper": {
     "title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)\n",

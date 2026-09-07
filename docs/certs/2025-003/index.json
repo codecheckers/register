@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2025-003",
     "title": "CODECHECK Certificate 2025-003",
-    "url": "https://codecheck.org.uk/register/certs/2025-003/"
+    "url": "https://codecheck.org.uk/register/certs/2025-003/",
+    "wikidata": "Q141269704"
   },
   "paper": {
     "title": "Optimal Graph Stretching for Distributed Averaging",

@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2023-006",
     "title": "Reproducibility review of: Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",
-    "url": "https://codecheck.org.uk/register/certs/2023-006/"
+    "url": "https://codecheck.org.uk/register/certs/2023-006/",
+    "wikidata": "Q141269572"
   },
   "paper": {
     "title": "Semantic complexity of geographic questions - A comparison in terms of conceptual transformations of answers",

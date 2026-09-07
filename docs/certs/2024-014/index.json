@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-014",
     "title": "CODECHECK of CY-Benchmark",
-    "url": "https://codecheck.org.uk/register/certs/2024-014/"
+    "url": "https://codecheck.org.uk/register/certs/2024-014/",
+    "wikidata": "Q141269591"
   },
   "paper": {
     "title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",

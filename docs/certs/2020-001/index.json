@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-001",
     "title": "CODECHECK Certificate 2020-001",
-    "url": "https://codecheck.org.uk/register/certs/2020-001/"
+    "url": "https://codecheck.org.uk/register/certs/2020-001/",
+    "wikidata": "Q116702174"
   },
   "paper": {
     "title": "ShinyLearner: A containerized benchmarking tool for machine-learning classification of tabular data.",

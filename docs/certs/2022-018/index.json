@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-018",
     "title": "CODECHECK Certificate 2022-018",
-    "url": "https://codecheck.org.uk/register/certs/2022-018/"
+    "url": "https://codecheck.org.uk/register/certs/2022-018/",
+    "wikidata": "Q141269566"
   },
   "paper": {
     "title": "svaRetro and svaNUMT: Modular packages for annotation of retrotransposed transcripts and nuclear integration of mitochondrial DNA in genome sequencing data",

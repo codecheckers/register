@@ -47,6 +47,7 @@
     "url": "https://doi.org/10.1073/pnas.79.8.2554",
     "sameAs": ["https://doi.org/10.1073/pnas.79.8.2554", "https://openalex.org/W2128084896", "https://www.wikidata.org/entity/Q24632329"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141269513",
   "datePublished": "2020-04-06",
   "identifier": {
     "@type": "PropertyValue",

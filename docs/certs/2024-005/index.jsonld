@@ -45,6 +45,7 @@
     "url": "https://doi.org/10.31234/osf.io/cz32t",
     "sameAs": ["https://doi.org/10.31234/osf.io/cz32t", "https://openalex.org/W4400463622", "https://www.wikidata.org/entity/Q141269438"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141269582",
   "reviewBody": "This report checks the code of the article Sample size estimation for task-related functional MRI studies using Bayesian updating. (https://doi.org/10.31234/osf.io/cz32t (currently under review at Developmental Cognitive Neuroscience)). See section Notes for details about running the code. The CODECHECK was successful. The created figures figures_cohens_d.html and figures-correlations.html are visually very close to the one in the repository. The reproduction of the figures from the repository was easy due to the workflow and integration with Quarto and RStudio.\n",
   "datePublished": "2024-10-15",
   "identifier": {

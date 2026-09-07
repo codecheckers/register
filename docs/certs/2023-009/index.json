@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2023-009",
     "title": "Reproducibility review of: Analysis of cycling network evolution in OpenStreetMap through a data quality prism",
-    "url": "https://codecheck.org.uk/register/certs/2023-009/"
+    "url": "https://codecheck.org.uk/register/certs/2023-009/",
+    "wikidata": "Q141269575"
   },
   "paper": {
     "title": "Analysis of cycling network evolution in OpenStreetMap through a data quality prism",

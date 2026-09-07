@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2023-003",
     "title": "Reproducibility review of: Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquake",
-    "url": "https://codecheck.org.uk/register/certs/2023-003/"
+    "url": "https://codecheck.org.uk/register/certs/2023-003/",
+    "wikidata": "Q141269569"
   },
   "paper": {
     "title": "Exploring MapSwipe as a Crowdsourcing Tool for (Rapid) Damage Assessment: The Case of the 2021 Haiti Earthquake",

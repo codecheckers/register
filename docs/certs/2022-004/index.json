@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-004",
     "title": "Reproducibility review of: What are intersections for pedestrian users?",
-    "url": "https://codecheck.org.uk/register/certs/2022-004/"
+    "url": "https://codecheck.org.uk/register/certs/2022-004/",
+    "wikidata": "Q141269551"
   },
   "paper": {
     "title": "What are intersections for pedestrian users?",

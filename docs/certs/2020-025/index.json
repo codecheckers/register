@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-025",
     "title": "CODECHECK Certificate 2020-025",
-    "url": "https://codecheck.org.uk/register/certs/2020-025/"
+    "url": "https://codecheck.org.uk/register/certs/2020-025/",
+    "wikidata": "Q141269537"
   },
   "paper": {
     "title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",

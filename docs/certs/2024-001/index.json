@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-001",
     "title": "CODECHECK Certificate 2024-001",
-    "url": "https://codecheck.org.uk/register/certs/2024-001/"
+    "url": "https://codecheck.org.uk/register/certs/2024-001/",
+    "wikidata": "Q141269579"
   },
   "paper": {
     "title": "Regulation of pupil size in natural vision across the human lifespan\n",

@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-009",
     "title": "CODECHECK Certificate 2020-009",
-    "url": "https://codecheck.org.uk/register/certs/2020-009/"
+    "url": "https://codecheck.org.uk/register/certs/2020-009/",
+    "wikidata": "Q141269520"
   },
   "paper": {
     "title": "Model of isolation, contact tracing, and physical distancing (Preprint)",

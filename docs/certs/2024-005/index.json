@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-005",
     "title": "CODECHECK Certificate 2024-005",
-    "url": "https://codecheck.org.uk/register/certs/2024-005/"
+    "url": "https://codecheck.org.uk/register/certs/2024-005/",
+    "wikidata": "Q141269582"
   },
   "paper": {
     "title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",

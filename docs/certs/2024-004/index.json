@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-004",
     "title": "CODECHECK Certificate 2024-004",
-    "url": "https://codecheck.org.uk/register/certs/2024-004/"
+    "url": "https://codecheck.org.uk/register/certs/2024-004/",
+    "wikidata": "Q141269581"
   },
   "paper": {
     "title": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint\n",

@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2026-011",
     "title": "Reproducibility Review of: Towards national-scale ecological applications: harmonized framework for LiDAR point cloud processing for vegetation metrics calculation",
-    "url": "https://codecheck.org.uk/register/certs/2026-011/"
+    "url": "https://codecheck.org.uk/register/certs/2026-011/",
+    "wikidata": "Q141269755"
   },
   "paper": {
     "title": "Towards National-Scale Ecological Applications: Harmonised Framework for LiDAR Point Cloud Processing for Vegetation Metrics Calculation",

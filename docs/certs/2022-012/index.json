@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-012",
     "title": "Reproducibility review of: The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
-    "url": "https://codecheck.org.uk/register/certs/2022-012/"
+    "url": "https://codecheck.org.uk/register/certs/2022-012/",
+    "wikidata": "Q141269559"
   },
   "paper": {
     "title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",

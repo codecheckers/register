@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-013",
     "title": "Reproducibility review of: GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
-    "url": "https://codecheck.org.uk/register/certs/2022-013/"
+    "url": "https://codecheck.org.uk/register/certs/2022-013/",
+    "wikidata": "Q141269560"
   },
   "paper": {
     "title": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",

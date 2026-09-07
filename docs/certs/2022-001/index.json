@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-001",
     "title": "CODECHECK Certificate 2022-001",
-    "url": "https://codecheck.org.uk/register/certs/2022-001/"
+    "url": "https://codecheck.org.uk/register/certs/2022-001/",
+    "wikidata": "Q141269548"
   },
   "paper": {
     "title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions\n",

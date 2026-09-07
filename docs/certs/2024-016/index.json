@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-016",
     "title": "CODECHECK of Integrating agent-based disease, mobility, and wastewater models",
-    "url": "https://codecheck.org.uk/register/certs/2024-016/"
+    "url": "https://codecheck.org.uk/register/certs/2024-016/",
+    "wikidata": "Q141269593"
   },
   "paper": {
     "title": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",

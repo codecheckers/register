@@ -35,6 +35,7 @@
     "url": "https://doi.org/10.1007/s10109-020-00334-2",
     "sameAs": ["https://doi.org/10.1007/s10109-020-00334-2", "https://openalex.org/W3047775749", "https://www.wikidata.org/entity/Q141269334"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141269528",
   "reviewBody": "A small R script to render a map and two tables. Minor code adjustments were made, but reproduction of results (one figure, two tables) was successful.\n",
   "datePublished": "2020-06-02",
   "identifier": {

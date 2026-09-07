@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-005",
     "title": "CODECHECK certificate 2020-005",
-    "url": "https://codecheck.org.uk/register/certs/2020-005/"
+    "url": "https://codecheck.org.uk/register/certs/2020-005/",
+    "wikidata": "Q141269515"
   },
   "paper": {
     "title": "[Re] Connectivity reflects coding: a model of voltage-based STDP with homeostasis\n",

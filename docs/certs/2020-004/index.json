@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-004",
     "title": "CODECHECK Certificate 2020-004",
-    "url": "https://codecheck.org.uk/register/certs/2020-004/"
+    "url": "https://codecheck.org.uk/register/certs/2020-004/",
+    "wikidata": "Q141269514"
   },
   "paper": {
     "title": "Neuronlike adaptive elements that can solve difficult learning control problems",

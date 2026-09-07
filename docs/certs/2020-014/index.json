@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-014",
     "title": "CODECHECK certificate 2020-014",
-    "url": "https://codecheck.org.uk/register/certs/2020-014/"
+    "url": "https://codecheck.org.uk/register/certs/2020-014/",
+    "wikidata": "Q141269526"
   },
   "paper": {
     "title": "Patterned perturbation of inhibition can reveal the dynamical structure of neural processing\n",

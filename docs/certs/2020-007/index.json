@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-007",
     "title": "CODECHECK Certificate 2020-007",
-    "url": "https://codecheck.org.uk/register/certs/2020-007/"
+    "url": "https://codecheck.org.uk/register/certs/2020-007/",
+    "wikidata": "Q141269517"
   },
   "paper": {
     "title": "[Re] Spike Timing Dependent Plasticity Finds the Start of Repeating Patterns in Continuous Spike Trains\n",

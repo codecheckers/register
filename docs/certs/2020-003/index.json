@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2020-003",
     "title": "CODECHECK Certificate 2020-003",
-    "url": "https://codecheck.org.uk/register/certs/2020-003/"
+    "url": "https://codecheck.org.uk/register/certs/2020-003/",
+    "wikidata": "Q141269513"
   },
   "paper": {
     "title": "Neural networks and physical systems with emergent collective computational abilities",

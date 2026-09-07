@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2024-022",
     "title": "CODECHECK Certificate 2024-022",
-    "url": "https://codecheck.org.uk/register/certs/2024-022/"
+    "url": "https://codecheck.org.uk/register/certs/2024-022/",
+    "wikidata": "Q141269600"
   },
   "paper": {
     "title": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method \n",

@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2021-004",
     "title": "Reproducibility review of: Extraction of linear structures from digital terrain models using deep learning",
-    "url": "https://codecheck.org.uk/register/certs/2021-004/"
+    "url": "https://codecheck.org.uk/register/certs/2021-004/",
+    "wikidata": "Q141269541"
   },
   "paper": {
     "title": "Extraction of linear structures from digital terrain models using deep learning",

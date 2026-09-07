@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2021-009",
     "title": "Reproducibility review of: H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
-    "url": "https://codecheck.org.uk/register/certs/2021-009/"
+    "url": "https://codecheck.org.uk/register/certs/2021-009/",
+    "wikidata": "Q141269546"
   },
   "paper": {
     "title": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",

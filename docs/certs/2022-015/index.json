@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2022-015",
     "title": "Reproducibility review of: Unlocking social network analysis methods for studying human mobility",
-    "url": "https://codecheck.org.uk/register/certs/2022-015/"
+    "url": "https://codecheck.org.uk/register/certs/2022-015/",
+    "wikidata": "Q141269562"
   },
   "paper": {
     "title": "Unlocking social network analysis methods for studying human mobility",

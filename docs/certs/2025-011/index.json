@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2025-011",
     "title": "Reproducibility Review of: An Efficient System for Automatic Map Storytelling – A Case Study on Historical Maps",
-    "url": "https://codecheck.org.uk/register/certs/2025-011/"
+    "url": "https://codecheck.org.uk/register/certs/2025-011/",
+    "wikidata": "Q141269720"
   },
   "paper": {
     "title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",

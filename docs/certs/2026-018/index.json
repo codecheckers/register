@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2026-018",
     "title": "CODECHECK Certificate 2026-018",
-    "url": "https://codecheck.org.uk/register/certs/2026-018/"
+    "url": "https://codecheck.org.uk/register/certs/2026-018/",
+    "wikidata": "Q141269762"
   },
   "paper": {
     "title": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures\n",

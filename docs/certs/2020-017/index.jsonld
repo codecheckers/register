@@ -30,6 +30,7 @@
     "url": "https://doi.org/10.1007/s10109-020-00336-0",
     "sameAs": ["https://doi.org/10.1007/s10109-020-00336-0", "https://openalex.org/W3092996383", "https://www.wikidata.org/entity/Q112856450"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141269529",
   "reviewBody": "Successful check of well-organised R script. All figures match the ones provided by the author.\n",
   "datePublished": "2020-08-27",
   "identifier": {
