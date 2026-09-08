@@ -145,7 +145,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -289,7 +290,8 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
 <div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
@@ -301,13 +303,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -321,19 +325,48 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="../../works/10.48550/arxiv.2310.19997/">State-Dependent Dynamic Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances</a>
+<strong>Title</strong>: <a
+href="../../works/10.48550/arxiv.2310.19997/">State-Dependent Dynamic
+Tube MPC: A Novel Tube MPC Method with a Fuzzy Model of Disturbances</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="../../persons/0000-0002-6756-9598/">Filip Surma</a> <a href="https://orcid.org/0000-0002-6756-9598" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0001-9151-2607/">Anahita Jamshidnejad</a> <a href="https://orcid.org/0000-0001-9151-2607" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Authors</strong>: <a
+href="../../persons/0000-0002-6756-9598/">Filip Surma</a>
+<a href="https://orcid.org/0000-0002-6756-9598" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0001-9151-2607/">Anahita Jamshidnejad</a>
+<a href="https://orcid.org/0000-0001-9151-2607" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="text-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://openalex.org">OpenAlex</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://openalex.org">OpenAlex</a></i>
 </p>
 <div id="abstract-content" class="text-box">
 <p>
-Most real-world systems are affected by external disturbances, which may be impossible or costly to measure. For instance, when autonomous robots move in dusty environments, the perception of their sensors is disturbed. Moreover, uneven terrains can cause ground robots to deviate from their planned trajectories. Thus, learning the external disturbances and incorporating this knowledge into the future predictions in decision-making can significantly contribute to improved performance. Our core idea is to learn the external disturbances that vary with the states of the system, and to incorporate this knowledge into a novel formulation for robust tube model predictive control (TMPC). Robust TMPC provides robustness to bounded disturbances considering the known (fixed) upper bound of the disturbances, but it does not consider the dynamics of the disturbances. This can lead to highly conservative solutions. We propose a new dynamic version of robust TMPC (with proven robust stability), called state-dependent dynamic TMPC (SDD-TMPC), which incorporates the dynamics of the disturbances into the decision-making of TMPC. In order to learn the dynamics of the disturbances as a function of the system states, a fuzzy model is proposed. We compare the performance of SDD-TMPC, MPC, and TMPC via simulations, in designed search-and-rescue scenarios. The results show that, while remaining robust to bounded external disturbances, SDD-TMPC generates less conservative solutions and remains feasible in more cases, compared to TMPC.
+Most real-world systems are affected by external disturbances, which may
+be impossible or costly to measure. For instance, when autonomous robots
+move in dusty environments, the perception of their sensors is
+disturbed. Moreover, uneven terrains can cause ground robots to deviate
+from their planned trajectories. Thus, learning the external
+disturbances and incorporating this knowledge into the future
+predictions in decision-making can significantly contribute to improved
+performance. Our core idea is to learn the external disturbances that
+vary with the states of the system, and to incorporate this knowledge
+into a novel formulation for robust tube model predictive control
+(TMPC). Robust TMPC provides robustness to bounded disturbances
+considering the known (fixed) upper bound of the disturbances, but it
+does not consider the dynamics of the disturbances. This can lead to
+highly conservative solutions. We propose a new dynamic version of
+robust TMPC (with proven robust stability), called state-dependent
+dynamic TMPC (SDD-TMPC), which incorporates the dynamics of the
+disturbances into the decision-making of TMPC. In order to learn the
+dynamics of the disturbances as a function of the system states, a fuzzy
+model is proposed. We compare the performance of SDD-TMPC, MPC, and TMPC
+via simulations, in designed search-and-rescue scenarios. The results
+show that, while remaining robust to bounded external disturbances,
+SDD-TMPC generates less conservative solutions and remains feasible in
+more cases, compared to TMPC.
 </p>
 </div>
 </div>
@@ -341,7 +374,8 @@ Most real-world systems are affected by external disturbances, which may be impo
 <strong>Work publication date</strong>: 2023-10-30
 </p>
 <p class="mt-3">
-<strong>OpenAlex</strong>: <a href="https://openalex.org/W4388184325">https://openalex.org/W4388184325</a>
+<strong>OpenAlex</strong>:
+<a href="https://openalex.org/W4388184325">https://openalex.org/W4388184325</a>
 </p>
 </div>
 </div>
@@ -356,25 +390,34 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2024-003
 </p>
 <p>
-<strong>Codechecker names</strong>: <a href="../../persons/0000-0001-8607-8025/">Stephen J. Eglen</a> <a href="https://orcid.org/0000-0001-8607-8025" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, Delft 2024-05 participants
+<strong>Codechecker names</strong>: <a
+href="../../persons/0000-0001-8607-8025/">Stephen J. Eglen</a>
+<a href="https://orcid.org/0000-0001-8607-8025" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+Delft 2024-05 participants
 </p>
 <p>
 <strong>Time of check</strong>: 2024-05-30
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://github.com/codecheckers/sddtmpc" class="uri">https://github.com/codecheckers/sddtmpc</a>
+<strong>Repository</strong>: <a
+href="https://github.com/codecheckers/sddtmpc"
+class="uri">https://github.com/codecheckers/sddtmpc</a>
 </p>
 <p>
-<strong>Full certificate</strong>: <a href="https://doi.org/10.5281/zenodo.11403956" class="uri">https://doi.org/10.5281/zenodo.11403956</a>
+<strong>Full certificate</strong>: <a
+href="https://doi.org/10.5281/zenodo.11403956"
+class="uri">https://doi.org/10.5281/zenodo.11403956</a>
 </p>
 <p>
-<strong>Certificate on Wikidata</strong>: <a href="https://www.wikidata.org/wiki/Q141269580">Q141269580</a>
+<strong>Certificate on Wikidata</strong>: <a
+href="https://www.wikidata.org/wiki/Q141269580">Q141269580</a>
 </p>
 <p>
 <strong>Type</strong>: <a href="../../venues/communities/">community</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="../../venues/communities/codecheck_nl/">codecheck NL</a>
+<strong>Venue</strong>: <a
+href="../../venues/communities/codecheck_nl/">codecheck NL</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="text-container">
@@ -383,23 +426,34 @@ CODECHECK details
 </p>
 <div id="summary-content" class="text-box">
 <p>
-Matlab code, requiring 3 additional toolboxes. Case study 2 only. Full reproduction possible, takes about 2 hours to run
+Matlab code, requiring 3 additional toolboxes. Case study 2 only. Full
+reproduction possible, takes about 2 hours to run
 </p>
 </div>
 </div>
 <!-- Citation Generator -->
 <div id="citation-section" class="mt-3">
 <p>
-<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2"
+style="font-size: 0.9em;">Citation metadata retrieved from
+data.crosscite.org</span>
 </p>
 <div class="mb-2">
-<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style">
+<option value="apa">APA</option>
+<option value="vancouver">Vancouver</option>
+<option value="harvard1">Harvard</option>
+<option value="bibtex" selected>BibTeX</option>
+<option value="biblatex">BibLaTeX</option>
+<option value="ris">RIS</option> </select>
 </div>
 <div class="citation-preview-wrapper mb-2">
 <div id="citation-preview" class="border rounded p-2 citation-preview">
 <span class="text-muted">Loading citation…</span>
 </div>
-<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard">
+<i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback"
+class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
@@ -441,6 +495,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p class="footer-links">
 </p>

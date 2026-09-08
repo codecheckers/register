@@ -160,7 +160,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -304,7 +305,8 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
 <div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
@@ -316,13 +318,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -336,19 +340,67 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="../../works/10.5194/agile-giss-7-18-2026/">Towards National-Scale Ecological Applications: Harmonised Framework for LiDAR Point Cloud Processing for Vegetation Metrics Calculation</a>
+<strong>Title</strong>: <a
+href="../../works/10.5194/agile-giss-7-18-2026/">Towards National-Scale
+Ecological Applications: Harmonised Framework for LiDAR Point Cloud
+Processing for Vegetation Metrics Calculation</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="../../persons/0009-0002-5032-249X/">Eveli Sisas</a> <a href="https://orcid.org/0009-0002-5032-249X" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0001-6110-5453/">Holger Virro</a> <a href="https://orcid.org/0000-0001-6110-5453" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0009-0005-3779-139X/">Wai Tik Chan</a> <a href="https://orcid.org/0009-0005-3779-139X" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0003-4386-4450/">Alexander Kmoch</a> <a href="https://orcid.org/0000-0003-4386-4450" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0003-2338-4564/">Aveliina Helm</a> <a href="https://orcid.org/0000-0003-2338-4564" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0002-0782-6740/">Evelyn Uuemaa</a> <a href="https://orcid.org/0000-0002-0782-6740" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Authors</strong>: <a
+href="../../persons/0009-0002-5032-249X/">Eveli Sisas</a>
+<a href="https://orcid.org/0009-0002-5032-249X" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0001-6110-5453/">Holger Virro</a>
+<a href="https://orcid.org/0000-0001-6110-5453" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0009-0005-3779-139X/">Wai Tik Chan</a>
+<a href="https://orcid.org/0009-0005-3779-139X" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0003-4386-4450/">Alexander Kmoch</a>
+<a href="https://orcid.org/0000-0003-4386-4450" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0003-2338-4564/">Aveliina Helm</a>
+<a href="https://orcid.org/0000-0003-2338-4564" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-0782-6740/">Evelyn Uuemaa</a>
+<a href="https://orcid.org/0000-0002-0782-6740" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="text-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="text-box">
 <p>
-<jats:p>Abstract. National airborne laser scanning (ALS) datasets provide essential three-dimensional information for large-scale vegetation metric calculation, but their ecological use is constrained by multi-year acquisition cycles, seasonal variation, heterogeneous point densities, and inconsistent point classification. These factors reduce the reliability and comparability of vegetation metrics derived directly from national ALS archives. We developed a harmonised, reproducible point-cloud preprocessing framework for national-scale ecological applications of ALS data. The framework corrects metadata and file-format inconsistencies, removes overlap-related sampling artefacts, applies digital terrain model (DTM)-based height normalisation, and performs deterministic rule-based reclassification using height information, seasonal normalised difference vegetation index, and ancillary vector data. The workflow was applied to selected 2019–2024 acquisition campaigns of the Estonian national ALS archive, comprising approximately 132 000 LAZ files from leaf-off and leaf-on surveys. Harmonised preprocessing increased thematic consistency of vegetation, ground, building, and water classes across acquisition campaigns by correcting systematic classification and sampling artefacts. Removal of overlap-flagged points reduced local point-density inflation by approximately 25 %, thereby improving comparability of later grid-based vegetation metrics. Rule-based reclassification reassigned a median of 32% of previously unclassified returns to vegetation, increasing completeness and seasonal consistency of vegetation representation. DTM-based height normalisation produced stable and interpretable height distributions across campaigns while retaining expected seasonal structural differences.By providing a more consistent point-level representation of vegetation structure, the framework offers a robust basis for vegetation metric calculation and national-scale ecological analysis using heterogeneous ALS archives.  Reproducibility review available at: <a href="https://doi.org/10.17605/OSF.IO/75pwn" class="uri">https://doi.org/10.17605/OSF.IO/75pwn</a></jats:p>
+<jats:p>Abstract. National airborne laser scanning (ALS) datasets
+provide essential three-dimensional information for large-scale
+vegetation metric calculation, but their ecological use is constrained
+by multi-year acquisition cycles, seasonal variation, heterogeneous
+point densities, and inconsistent point classification. These factors
+reduce the reliability and comparability of vegetation metrics derived
+directly from national ALS archives. We developed a harmonised,
+reproducible point-cloud preprocessing framework for national-scale
+ecological applications of ALS data. The framework corrects metadata and
+file-format inconsistencies, removes overlap-related sampling artefacts,
+applies digital terrain model (DTM)-based height normalisation, and
+performs deterministic rule-based reclassification using height
+information, seasonal normalised difference vegetation index, and
+ancillary vector data. The workflow was applied to selected 2019–2024
+acquisition campaigns of the Estonian national ALS archive, comprising
+approximately 132 000 LAZ files from leaf-off and leaf-on
+surveys. Harmonised preprocessing increased thematic consistency of
+vegetation, ground, building, and water classes across acquisition
+campaigns by correcting systematic classification and sampling
+artefacts. Removal of overlap-flagged points reduced local point-density
+inflation by approximately 25 %, thereby improving comparability of
+later grid-based vegetation metrics. Rule-based reclassification
+reassigned a median of 32% of previously unclassified returns to
+vegetation, increasing completeness and seasonal consistency of
+vegetation representation. DTM-based height normalisation produced
+stable and interpretable height distributions across campaigns while
+retaining expected seasonal structural differences.By providing a more
+consistent point-level representation of vegetation structure, the
+framework offers a robust basis for vegetation metric calculation and
+national-scale ecological analysis using heterogeneous ALS archives.
+ Reproducibility review available at: <a
+href="https://doi.org/10.17605/OSF.IO/75pwn"
+class="uri">https://doi.org/10.17605/OSF.IO/75pwn</a></jats:p>
 </p>
 </div>
 </div>
@@ -356,7 +408,8 @@ Paper details
 <strong>Work publication date</strong>: 2026-06-10
 </p>
 <p class="mt-3">
-<strong>OpenAlex</strong>: <a href="https://openalex.org/W7164197613">https://openalex.org/W7164197613</a>
+<strong>OpenAlex</strong>:
+<a href="https://openalex.org/W7164197613">https://openalex.org/W7164197613</a>
 </p>
 </div>
 </div>
@@ -371,25 +424,34 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2026-011
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="../../persons/0000-0002-9317-8291/">Frank O. Ostermann</a> <a href="https://orcid.org/0000-0002-9317-8291" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Codechecker name</strong>: <a
+href="../../persons/0000-0002-9317-8291/">Frank O. Ostermann</a>
+<a href="https://orcid.org/0000-0002-9317-8291" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <p>
 <strong>Time of check</strong>: 2026-03-31
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://github.com/reproducible-agile/reviews-2026%7Creports/017" class="uri">https://github.com/reproducible-agile/reviews-2026|reports/017</a>
+<strong>Repository</strong>: <a
+href="https://github.com/reproducible-agile/reviews-2026%7Creports/017"
+class="uri">https://github.com/reproducible-agile/reviews-2026|reports/017</a>
 </p>
 <p>
-<strong>Full certificate</strong>: <a href="https://doi.org/10.17605/OSF.IO/75PWN" class="uri">https://doi.org/10.17605/OSF.IO/75PWN</a>
+<strong>Full certificate</strong>: <a
+href="https://doi.org/10.17605/OSF.IO/75PWN"
+class="uri">https://doi.org/10.17605/OSF.IO/75PWN</a>
 </p>
 <p>
-<strong>Certificate on Wikidata</strong>: <a href="https://www.wikidata.org/wiki/Q141269755">Q141269755</a>
+<strong>Certificate on Wikidata</strong>: <a
+href="https://www.wikidata.org/wiki/Q141269755">Q141269755</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
+<strong>Type</strong>: <a
+href="../../venues/conferences/">conference</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
+<strong>Venue</strong>: <a
+href="../../venues/conferences/agilegis/">AGILEGIS</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="text-container">
@@ -398,23 +460,37 @@ CODECHECK details
 </p>
 <div id="summary-content" class="text-box">
 <p>
-Full reproduction of a sample data set. A complete reproduction was infeasible as part of the review due to the computational environment required for the national-scale workflow, but the successful reproduction of a sample data set demonstrates the overall reproducibility of the study.
+Full reproduction of a sample data set. A complete reproduction was
+infeasible as part of the review due to the computational environment
+required for the national-scale workflow, but the successful
+reproduction of a sample data set demonstrates the overall
+reproducibility of the study.
 </p>
 </div>
 </div>
 <!-- Citation Generator -->
 <div id="citation-section" class="mt-3">
 <p>
-<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2"
+style="font-size: 0.9em;">Citation metadata retrieved from
+data.crosscite.org</span>
 </p>
 <div class="mb-2">
-<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style">
+<option value="apa">APA</option>
+<option value="vancouver">Vancouver</option>
+<option value="harvard1">Harvard</option>
+<option value="bibtex" selected>BibTeX</option>
+<option value="biblatex">BibLaTeX</option>
+<option value="ris">RIS</option> </select>
 </div>
 <div class="citation-preview-wrapper mb-2">
 <div id="citation-preview" class="border rounded p-2 citation-preview">
 <span class="text-muted">Loading citation…</span>
 </div>
-<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard">
+<i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback"
+class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
@@ -456,6 +532,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p class="footer-links">
 </p>

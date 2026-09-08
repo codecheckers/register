@@ -150,7 +150,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -294,7 +295,8 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
 <div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
@@ -306,13 +308,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -326,19 +330,49 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="../../works/10.5194/agile-giss-7-13-2026/">Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels</a>
+<strong>Title</strong>: <a
+href="../../works/10.5194/agile-giss-7-13-2026/">Generalizability of
+Foundation Models: A Case Study on Cocoa Mapping Across Countries Using
+Sparse Labels</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="../../persons/0009-0006-3516-9852/">Ruslan Mammadov</a> <a href="https://orcid.org/0009-0006-3516-9852" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0002-5101-5793/">Paul Walther</a> <a href="https://orcid.org/0000-0002-5101-5793" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0009-0005-7709-8178/">Julius Fricke</a> <a href="https://orcid.org/0009-0005-7709-8178" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0002-6951-8022/">Martin Werner</a> <a href="https://orcid.org/0000-0002-6951-8022" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Authors</strong>: <a
+href="../../persons/0009-0006-3516-9852/">Ruslan Mammadov</a>
+<a href="https://orcid.org/0009-0006-3516-9852" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-5101-5793/">Paul Walther</a>
+<a href="https://orcid.org/0000-0002-5101-5793" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0009-0005-7709-8178/">Julius Fricke</a>
+<a href="https://orcid.org/0009-0005-7709-8178" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-6951-8022/">Martin Werner</a>
+<a href="https://orcid.org/0000-0002-6951-8022" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="text-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="text-box">
 <p>
-<jats:p>Abstract. Remote Sensing Foundation Models (RSFMs), which are deep neural networks pre-trained on large-scale Earth observation datasets, have become increasingly popular in remote sensing in recent years. Meanwhile, regulatory changes such as the European Union’s Deforestation Regulation require a mapping of agricultural activities worldwide to ensure deforestation-free supply chains. In this context, we conduct a case study on the application of Foundation Models (FMs), such as CROMA and AlphaEarth, for the mapping of cocoa production in agroforestry systems in western Africa. In our study we show, that the pre-training of FMs does not improve the performance in data-rich conditions and that the pre-training only has limited advantage in zero-shot transfer applications. Still, the FMs show a higher sensitivity towards distribution shifts when fine-tuned in new environments. Based on our experiments, we comprehend insights for the selection and application of traditional convolutional neural network-based models and FMs in sparse-label remote sensing tasks.  Reproducibility review available at: <a href="https://doi.org/10.17605/OSF.IO/YH8F6" class="uri">https://doi.org/10.17605/OSF.IO/YH8F6</a></jats:p>
+<jats:p>Abstract. Remote Sensing Foundation Models (RSFMs), which are
+deep neural networks pre-trained on large-scale Earth observation
+datasets, have become increasingly popular in remote sensing in recent
+years. Meanwhile, regulatory changes such as the European Union’s
+Deforestation Regulation require a mapping of agricultural activities
+worldwide to ensure deforestation-free supply chains. In this context,
+we conduct a case study on the application of Foundation Models (FMs),
+such as CROMA and AlphaEarth, for the mapping of cocoa production in
+agroforestry systems in western Africa. In our study we show, that the
+pre-training of FMs does not improve the performance in data-rich
+conditions and that the pre-training only has limited advantage in
+zero-shot transfer applications. Still, the FMs show a higher
+sensitivity towards distribution shifts when fine-tuned in new
+environments. Based on our experiments, we comprehend insights for the
+selection and application of traditional convolutional neural
+network-based models and FMs in sparse-label remote sensing tasks.
+ Reproducibility review available at: <a
+href="https://doi.org/10.17605/OSF.IO/YH8F6"
+class="uri">https://doi.org/10.17605/OSF.IO/YH8F6</a></jats:p>
 </p>
 </div>
 </div>
@@ -346,7 +380,8 @@ Paper details
 <strong>Work publication date</strong>: 2026-06-10
 </p>
 <p class="mt-3">
-<strong>OpenAlex</strong>: <a href="https://openalex.org/W7164194149">https://openalex.org/W7164194149</a>
+<strong>OpenAlex</strong>:
+<a href="https://openalex.org/W7164194149">https://openalex.org/W7164194149</a>
 </p>
 </div>
 </div>
@@ -361,25 +396,34 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2026-008
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="../../persons/0000-0002-1628-3231/">Joseph Shingleton</a> <a href="https://orcid.org/0000-0002-1628-3231" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Codechecker name</strong>: <a
+href="../../persons/0000-0002-1628-3231/">Joseph Shingleton</a>
+<a href="https://orcid.org/0000-0002-1628-3231" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <p>
 <strong>Time of check</strong>: 2026-03-31
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://github.com/reproducible-agile/reviews-2026%7Creports/013" class="uri">https://github.com/reproducible-agile/reviews-2026|reports/013</a>
+<strong>Repository</strong>: <a
+href="https://github.com/reproducible-agile/reviews-2026%7Creports/013"
+class="uri">https://github.com/reproducible-agile/reviews-2026|reports/013</a>
 </p>
 <p>
-<strong>Full certificate</strong>: <a href="https://doi.org/10.17605/OSF.IO/YH8F6" class="uri">https://doi.org/10.17605/OSF.IO/YH8F6</a>
+<strong>Full certificate</strong>: <a
+href="https://doi.org/10.17605/OSF.IO/YH8F6"
+class="uri">https://doi.org/10.17605/OSF.IO/YH8F6</a>
 </p>
 <p>
-<strong>Certificate on Wikidata</strong>: <a href="https://www.wikidata.org/wiki/Q141269751">Q141269751</a>
+<strong>Certificate on Wikidata</strong>: <a
+href="https://www.wikidata.org/wiki/Q141269751">Q141269751</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
+<strong>Type</strong>: <a
+href="../../venues/conferences/">conference</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
+<strong>Venue</strong>: <a
+href="../../venues/conferences/agilegis/">AGILEGIS</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="text-container">
@@ -388,23 +432,36 @@ CODECHECK details
 </p>
 <div id="summary-content" class="text-box">
 <p>
-Partial reproduction of the foundation-model cocoa-mapping study. The provided code and data allowed the workflow to be run, though some files in the repository were differentiated only by path rather than filename, complicating the reproduction.
+Partial reproduction of the foundation-model cocoa-mapping study. The
+provided code and data allowed the workflow to be run, though some files
+in the repository were differentiated only by path rather than filename,
+complicating the reproduction.
 </p>
 </div>
 </div>
 <!-- Citation Generator -->
 <div id="citation-section" class="mt-3">
 <p>
-<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2"
+style="font-size: 0.9em;">Citation metadata retrieved from
+data.crosscite.org</span>
 </p>
 <div class="mb-2">
-<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style">
+<option value="apa">APA</option>
+<option value="vancouver">Vancouver</option>
+<option value="harvard1">Harvard</option>
+<option value="bibtex" selected>BibTeX</option>
+<option value="biblatex">BibLaTeX</option>
+<option value="ris">RIS</option> </select>
 </div>
 <div class="citation-preview-wrapper mb-2">
 <div id="citation-preview" class="border rounded p-2 citation-preview">
 <span class="text-muted">Loading citation…</span>
 </div>
-<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard">
+<i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback"
+class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
@@ -446,6 +503,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p class="footer-links">
 </p>

@@ -143,7 +143,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -287,7 +288,8 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
 <div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
@@ -299,13 +301,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -319,19 +323,58 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="../../works/10.5194/agile-giss-7-8-2026/">Maximizing Data Coverage: Fusing Street View and Oblique Imagery to Quantify Vertical Greenery Potential in Urban Areas</a>
+<strong>Title</strong>: <a
+href="../../works/10.5194/agile-giss-7-8-2026/">Maximizing Data
+Coverage: Fusing Street View and Oblique Imagery to Quantify Vertical
+Greenery Potential in Urban Areas</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="../../persons/0009-0002-7801-9388/">Aruscha Kramm</a> <a href="https://orcid.org/0009-0002-7801-9388" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, André Ludwig, Bogdan Franczyk
+<strong>Authors</strong>: <a
+href="../../persons/0009-0002-7801-9388/">Aruscha Kramm</a>
+<a href="https://orcid.org/0009-0002-7801-9388" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+André Ludwig, Bogdan Franczyk
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="text-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="text-box">
 <p>
-<jats:p>Abstract. As urbanization intensifies globally, the Urban Heat Island (UHI) effect has emerged as a critical environmental challenge, inducing higher energy demands, compromised air quality, and significant public health risks. Vertical Greenery Systems (VGS) such as green facades and living walls, offer a spatially efficient adaptation strategy by utilizing vertical surface areas of the built environment for thermal regulation and microclimatic improvement, yet the absence of data-integrative methods hinders large-scale evaluation of factors defining a surface’s suitability for VGS. Previous methodologies for estimating city-wide greening potential have successfully integrated semantic 3D city models (LoD2) with Street View Imagery (SVI) to derive key suitability factors such as Window-to-Wall Ratio (WWR) and Solid Wall Area (SWA). However, these approaches are inherently limited by the sparse spatial coverage of SVI, which is restricted to navigable road networks, leaving rear facades and inner courtyards unassessed, and which is frequently obstructed by foreground occlusion, leading to errors in the factor calculation. This consecutive work introduces a robust computational method that enhances the existing LoD2-SVI pipeline with Oblique Aerial Imagery extending the potential estimation to over 90% of the urban building stock. To mitigate occlusion and resolution disparities, we propose a multi-view fusion algorithm that aggregates detections across multiple views within one perspective and further across two perspectives. Our evaluation demonstrates that both data sources deliver comparable results when assessing identical facades. Further, our fusion approach significantly reduces systematic biases found in single-source estimations. Ultimately, while the fusion approach maximizes assessment reliability for walls with dual coverage, the integration of oblique imagery remains critical for scalability. Although it yields lower feature fidelity than street view, it provides the only viable means to assess surfaces lying beyond the navigable road network.  Reproducibility review available at: <a href="https://doi.org/10.17605/OSF.IO/HETV8" class="uri">https://doi.org/10.17605/OSF.IO/HETV8</a></jats:p>
+<jats:p>Abstract. As urbanization intensifies globally, the Urban Heat
+Island (UHI) effect has emerged as a critical environmental challenge,
+inducing higher energy demands, compromised air quality, and significant
+public health risks. Vertical Greenery Systems (VGS) such as green
+facades and living walls, offer a spatially efficient adaptation
+strategy by utilizing vertical surface areas of the built environment
+for thermal regulation and microclimatic improvement, yet the absence of
+data-integrative methods hinders large-scale evaluation of factors
+defining a surface’s suitability for VGS. Previous methodologies for
+estimating city-wide greening potential have successfully integrated
+semantic 3D city models (LoD2) with Street View Imagery (SVI) to derive
+key suitability factors such as Window-to-Wall Ratio (WWR) and Solid
+Wall Area (SWA). However, these approaches are inherently limited by the
+sparse spatial coverage of SVI, which is restricted to navigable road
+networks, leaving rear facades and inner courtyards unassessed, and
+which is frequently obstructed by foreground occlusion, leading to
+errors in the factor calculation. This consecutive work introduces a
+robust computational method that enhances the existing LoD2-SVI pipeline
+with Oblique Aerial Imagery extending the potential estimation to over
+90% of the urban building stock. To mitigate occlusion and resolution
+disparities, we propose a multi-view fusion algorithm that aggregates
+detections across multiple views within one perspective and further
+across two perspectives. Our evaluation demonstrates that both data
+sources deliver comparable results when assessing identical facades.
+Further, our fusion approach significantly reduces systematic biases
+found in single-source estimations. Ultimately, while the fusion
+approach maximizes assessment reliability for walls with dual coverage,
+the integration of oblique imagery remains critical for scalability.
+Although it yields lower feature fidelity than street view, it provides
+the only viable means to assess surfaces lying beyond the navigable road
+network.  Reproducibility review available at: <a
+href="https://doi.org/10.17605/OSF.IO/HETV8"
+class="uri">https://doi.org/10.17605/OSF.IO/HETV8</a></jats:p>
 </p>
 </div>
 </div>
@@ -339,7 +382,8 @@ Paper details
 <strong>Work publication date</strong>: 2026-06-10
 </p>
 <p class="mt-3">
-<strong>OpenAlex</strong>: <a href="https://openalex.org/W7164179951">https://openalex.org/W7164179951</a>
+<strong>OpenAlex</strong>:
+<a href="https://openalex.org/W7164179951">https://openalex.org/W7164179951</a>
 </p>
 </div>
 </div>
@@ -354,25 +398,33 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2026-013
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="../../persons/0009-0002-5027-1151/">Jeonghwan Choi</a> <a href="https://orcid.org/0009-0002-5027-1151" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Codechecker name</strong>: <a
+href="../../persons/0009-0002-5027-1151/">Jeonghwan Choi</a>
+<a href="https://orcid.org/0009-0002-5027-1151" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <p>
 <strong>Time of check</strong>: 2026-03-13
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://osf.io/hetv8" class="uri">https://osf.io/hetv8</a>
+<strong>Repository</strong>: <a href="https://osf.io/hetv8"
+class="uri">https://osf.io/hetv8</a>
 </p>
 <p>
-<strong>Full certificate</strong>: <a href="https://doi.org/10.17605/OSF.IO/HETV8" class="uri">https://doi.org/10.17605/OSF.IO/HETV8</a>
+<strong>Full certificate</strong>: <a
+href="https://doi.org/10.17605/OSF.IO/HETV8"
+class="uri">https://doi.org/10.17605/OSF.IO/HETV8</a>
 </p>
 <p>
-<strong>Certificate on Wikidata</strong>: <a href="https://www.wikidata.org/wiki/Q141269757">Q141269757</a>
+<strong>Certificate on Wikidata</strong>: <a
+href="https://www.wikidata.org/wiki/Q141269757">Q141269757</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
+<strong>Type</strong>: <a
+href="../../venues/conferences/">conference</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
+<strong>Venue</strong>: <a
+href="../../venues/conferences/agilegis/">AGILEGIS</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="text-container">
@@ -381,23 +433,36 @@ CODECHECK details
 </p>
 <div id="summary-content" class="text-box">
 <p>
-Partially reproducible. The LoD2 preprocessing step (distribution of façade orientations) was reproduced successfully, confirming successful preprocessing; other manuscript outputs could be reproduced only partially.
+Partially reproducible. The LoD2 preprocessing step (distribution of
+façade orientations) was reproduced successfully, confirming successful
+preprocessing; other manuscript outputs could be reproduced only
+partially.
 </p>
 </div>
 </div>
 <!-- Citation Generator -->
 <div id="citation-section" class="mt-3">
 <p>
-<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2"
+style="font-size: 0.9em;">Citation metadata retrieved from
+data.crosscite.org</span>
 </p>
 <div class="mb-2">
-<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style">
+<option value="apa">APA</option>
+<option value="vancouver">Vancouver</option>
+<option value="harvard1">Harvard</option>
+<option value="bibtex" selected>BibTeX</option>
+<option value="biblatex">BibLaTeX</option>
+<option value="ris">RIS</option> </select>
 </div>
 <div class="citation-preview-wrapper mb-2">
 <div id="citation-preview" class="border rounded p-2 citation-preview">
 <span class="text-muted">Loading citation…</span>
 </div>
-<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard">
+<i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback"
+class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
@@ -439,6 +504,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p class="footer-links">
 </p>

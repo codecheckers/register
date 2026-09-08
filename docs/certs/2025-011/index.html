@@ -163,7 +163,8 @@ I would count the overall reproduction as a success.">
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -307,7 +308,8 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
 <div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
@@ -319,13 +321,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -339,19 +343,50 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="../../works/10.5194/agile-giss-6-5-2025/">An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps</a>
+<strong>Title</strong>: <a
+href="../../works/10.5194/agile-giss-6-5-2025/">An Efficient System for
+Automatic Map Storytelling: A Case Study on Historical Maps</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="../../persons/0000-0003-2198-7708/">Ziyi Liu</a> <a href="https://orcid.org/0000-0003-2198-7708" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, Claudio Affolter, <a href="../../persons/0000-0003-1669-6690/">Sidi Wu</a> <a href="https://orcid.org/0000-0003-1669-6690" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0003-1637-0092/">Yizi Chen</a> <a href="https://orcid.org/0000-0003-1637-0092" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0002-0453-8743/">Lorenz Hurni</a> <a href="https://orcid.org/0000-0002-0453-8743" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Authors</strong>: <a
+href="../../persons/0000-0003-2198-7708/">Ziyi Liu</a>
+<a href="https://orcid.org/0000-0003-2198-7708" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+Claudio Affolter, <a href="../../persons/0000-0003-1669-6690/">Sidi
+Wu</a>
+<a href="https://orcid.org/0000-0003-1669-6690" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0003-1637-0092/">Yizi Chen</a>
+<a href="https://orcid.org/0000-0003-1637-0092" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-0453-8743/">Lorenz Hurni</a>
+<a href="https://orcid.org/0000-0002-0453-8743" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="text-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="text-box">
 <p>
-<jats:p>Abstract. Historical maps provide valuable information and knowledge about the past. However, as they often feature non-standard projections, hand-drawn styles, and artistic elements, it is challenging for non-experts to identify and interpret them. While existing image captioning methods have achieved remarkable success on natural images, their performance on maps is suboptimal as maps are underrepresented in their pre-training process. Despite the recent advance of vision-enabled GPT models in text recognition and map captioning, they still have a limited understanding of maps, as their performance wanes when texts (e.g., titles and legends) in maps are missing or inaccurate. Besides, it is inefficient or even impractical to fine-tune these models with users’ own datasets. To address these problems, we propose a novel and lightweight map-captioning counterpart. Specifically, we fine-tune the state-of-the-art vision-language model CLIP to generate captions relevant to historical maps and enrich the captions with GPT models to tell a brief story regarding where, what, when and why of a given map. We propose a novel decision tree architecture to only generate captions relevant to the specified map type. Our system shows invariance to text alterations in maps. The system can be easily adapted and extended to other map types and scaled to a larger map captioning system.</jats:p>
+<jats:p>Abstract. Historical maps provide valuable information and
+knowledge about the past. However, as they often feature non-standard
+projections, hand-drawn styles, and artistic elements, it is challenging
+for non-experts to identify and interpret them. While existing image
+captioning methods have achieved remarkable success on natural images,
+their performance on maps is suboptimal as maps are underrepresented in
+their pre-training process. Despite the recent advance of vision-enabled
+GPT models in text recognition and map captioning, they still have a
+limited understanding of maps, as their performance wanes when texts
+(e.g., titles and legends) in maps are missing or inaccurate. Besides,
+it is inefficient or even impractical to fine-tune these models with
+users’ own datasets. To address these problems, we propose a novel and
+lightweight map-captioning counterpart. Specifically, we fine-tune the
+state-of-the-art vision-language model CLIP to generate captions
+relevant to historical maps and enrich the captions with GPT models to
+tell a brief story regarding where, what, when and why of a given map.
+We propose a novel decision tree architecture to only generate captions
+relevant to the specified map type. Our system shows invariance to text
+alterations in maps. The system can be easily adapted and extended to
+other map types and scaled to a larger map captioning system.</jats:p>
 </p>
 </div>
 </div>
@@ -359,7 +394,8 @@ Paper details
 <strong>Work publication date</strong>: 2025-06-09
 </p>
 <p class="mt-3">
-<strong>OpenAlex</strong>: <a href="https://openalex.org/W4411153502">https://openalex.org/W4411153502</a>
+<strong>OpenAlex</strong>:
+<a href="https://openalex.org/W4411153502">https://openalex.org/W4411153502</a>
 </p>
 </div>
 </div>
@@ -374,25 +410,33 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2025-011
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="../../persons/0000-0002-4314-8107/">Sophie Teichmann</a> <a href="https://orcid.org/0000-0002-4314-8107" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Codechecker name</strong>: <a
+href="../../persons/0000-0002-4314-8107/">Sophie Teichmann</a>
+<a href="https://orcid.org/0000-0002-4314-8107" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <p>
 <strong>Time of check</strong>: 2025-06-12
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://osf.io/GT5BW" class="uri">https://osf.io/GT5BW</a>
+<strong>Repository</strong>: <a href="https://osf.io/GT5BW"
+class="uri">https://osf.io/GT5BW</a>
 </p>
 <p>
-<strong>Full certificate</strong>: <a href="https://doi.org/10.17605/OSF.IO/GT5BW" class="uri">https://doi.org/10.17605/OSF.IO/GT5BW</a>
+<strong>Full certificate</strong>: <a
+href="https://doi.org/10.17605/OSF.IO/GT5BW"
+class="uri">https://doi.org/10.17605/OSF.IO/GT5BW</a>
 </p>
 <p>
-<strong>Certificate on Wikidata</strong>: <a href="https://www.wikidata.org/wiki/Q141269720">Q141269720</a>
+<strong>Certificate on Wikidata</strong>: <a
+href="https://www.wikidata.org/wiki/Q141269720">Q141269720</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
+<strong>Type</strong>: <a
+href="../../venues/conferences/">conference</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
+<strong>Venue</strong>: <a
+href="../../venues/conferences/agilegis/">AGILEGIS</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="text-container">
@@ -401,23 +445,44 @@ CODECHECK details
 </p>
 <div id="summary-content" class="text-box">
 <p>
-The main challenge during this reproduction is the combination of a closed source model (Chat GPT) and available models (like CLIP). Using the models provided by the authors, the results were reproducible (Recreated Table 2). Using Ubuntu the results were partly not recreatable on Ubuntu. On Windows the training was successful. Thus, there is a system dependence of the reproducibility when retraining the models. Another challenge was the volume of models and corresponding inference. Thus I only chose a subset of models to retrain and perform inference on. A part of the inference in the paper was done manually in the paper, which I was not able to recreate. I was able to fully recreate Table1, Table 3, Table 5, Table 6 and Table 7 from the original paper. I would count the overall reproduction as a success.
+The main challenge during this reproduction is the combination of a
+closed source model (Chat GPT) and available models (like CLIP). Using
+the models provided by the authors, the results were reproducible
+(Recreated Table 2). Using Ubuntu the results were partly not
+recreatable on Ubuntu. On Windows the training was successful. Thus,
+there is a system dependence of the reproducibility when retraining the
+models. Another challenge was the volume of models and corresponding
+inference. Thus I only chose a subset of models to retrain and perform
+inference on. A part of the inference in the paper was done manually in
+the paper, which I was not able to recreate. I was able to fully
+recreate Table1, Table 3, Table 5, Table 6 and Table 7 from the original
+paper. I would count the overall reproduction as a success.
 </p>
 </div>
 </div>
 <!-- Citation Generator -->
 <div id="citation-section" class="mt-3">
 <p>
-<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2"
+style="font-size: 0.9em;">Citation metadata retrieved from
+data.crosscite.org</span>
 </p>
 <div class="mb-2">
-<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style">
+<option value="apa">APA</option>
+<option value="vancouver">Vancouver</option>
+<option value="harvard1">Harvard</option>
+<option value="bibtex" selected>BibTeX</option>
+<option value="biblatex">BibLaTeX</option>
+<option value="ris">RIS</option> </select>
 </div>
 <div class="citation-preview-wrapper mb-2">
 <div id="citation-preview" class="border rounded p-2 citation-preview">
 <span class="text-muted">Loading citation…</span>
 </div>
-<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard">
+<i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback"
+class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
@@ -459,6 +524,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p class="footer-links">
 </p>

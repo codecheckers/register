@@ -145,7 +145,8 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
 
 
 
@@ -289,7 +290,8 @@ pre code {
 </div>
 
 
-<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet"> <link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
 <div class="cert-container container-fluid">
 <div class="row">
 <div class="col-md-6">
@@ -301,13 +303,15 @@ pre code {
 <h4>
 Previous
 </h4>
-</button> <button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
 <h4>
 Next
 </h4>
 </button>
 </div>
-<!-- Cert image --> <img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
 </div>
 </div>
 </div>
@@ -321,19 +325,54 @@ Paper details
 </div>
 <div class="card-body d-flex flex-column">
 <p>
-<strong>Title</strong>: <a href="../../works/10.5194/agile-giss-7-10-2026/">Assessing the Geographic Diversity of AI’s Platial Representations in Image Generation</a>
+<strong>Title</strong>: <a
+href="../../works/10.5194/agile-giss-7-10-2026/">Assessing the
+Geographic Diversity of AI’s Platial Representations in Image
+Generation</a>
 </p>
 <p>
-<strong>Authors</strong>: <a href="../../persons/0000-0002-7699-3366/">Zilong Liu</a> <a href="https://orcid.org/0000-0002-7699-3366" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0009-0003-1968-887X/">Krzysztof Janowicz</a> <a href="https://orcid.org/0009-0003-1968-887X" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>, <a href="../../persons/0000-0003-2521-8164/">Mina Karimi</a> <a href="https://orcid.org/0000-0003-2521-8164" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Authors</strong>: <a
+href="../../persons/0000-0002-7699-3366/">Zilong Liu</a>
+<a href="https://orcid.org/0000-0002-7699-3366" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0009-0003-1968-887X/">Krzysztof Janowicz</a>
+<a href="https://orcid.org/0009-0003-1968-887X" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0003-2521-8164/">Mina Karimi</a>
+<a href="https://orcid.org/0000-0003-2521-8164" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <!-- Abstract section -->
 <div id="abstract-section" class="text-container">
 <p>
-<strong>Abstract</strong>: <i>Obtained from <a href="https://www.crossref.org">CrossRef</a></i>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
 </p>
 <div id="abstract-content" class="text-box">
 <p>
-<jats:p>Abstract. (Gen)AI diversity is not merely an ethical issue. From the perspective of geographic information science (GIScience), it could be interpreted as a function of uncertainty and as a form of cognitive bias, embedded in AI outputs. Recent work has sought to develop information-theoretic diversity measures and apply them to evaluate AI-chatbot outputs in a geographic context. As the AI ecosystem to which we are exposed on a daily basis becomes rapidly multimodal, we believe it is important to examine geographic diversity across various modalities. Focusing on images, this paper aims to fill this research gap. First, we select the GPT and DALL·E models as state-of-the-art examples and point out how assessing their geographic diversity involves various stages, including prompt revision and image generation. Then, taking inspiration from species diversity measures in ecological research, we incorporate similarity weighting into the measurement of geographic diversity. Next, we demonstrate how to evaluate geographic diversity in image generation through a case study. Our analysis reveals several counterintuitive findings. For instance, older models can exhibit greater geographic diversity despite producing lower-quality images, and prompt revision yields greater geographic diversity than image generation. At the same time, we observe explicit model homogeneity underlying the lack of geographic diversity, as the selected models consistently depict the same prototypical geo-specific feature or similar features. This is concerning, as it risks producing stereotypical representations of places.  Reproducibility review available at: <a href="https://doi.org/10.17605/OSF.IO/vcgy2" class="uri">https://doi.org/10.17605/OSF.IO/vcgy2</a></jats:p>
+<jats:p>Abstract. (Gen)AI diversity is not merely an ethical issue. From
+the perspective of geographic information science (GIScience), it could
+be interpreted as a function of uncertainty and as a form of cognitive
+bias, embedded in AI outputs. Recent work has sought to develop
+information-theoretic diversity measures and apply them to evaluate
+AI-chatbot outputs in a geographic context. As the AI ecosystem to which
+we are exposed on a daily basis becomes rapidly multimodal, we believe
+it is important to examine geographic diversity across various
+modalities. Focusing on images, this paper aims to fill this research
+gap. First, we select the GPT and DALL·E models as state-of-the-art
+examples and point out how assessing their geographic diversity involves
+various stages, including prompt revision and image generation. Then,
+taking inspiration from species diversity measures in ecological
+research, we incorporate similarity weighting into the measurement of
+geographic diversity. Next, we demonstrate how to evaluate geographic
+diversity in image generation through a case study. Our analysis reveals
+several counterintuitive findings. For instance, older models can
+exhibit greater geographic diversity despite producing lower-quality
+images, and prompt revision yields greater geographic diversity than
+image generation. At the same time, we observe explicit model
+homogeneity underlying the lack of geographic diversity, as the selected
+models consistently depict the same prototypical geo-specific feature or
+similar features. This is concerning, as it risks producing
+stereotypical representations of places.  Reproducibility review
+available at: <a href="https://doi.org/10.17605/OSF.IO/vcgy2"
+class="uri">https://doi.org/10.17605/OSF.IO/vcgy2</a></jats:p>
 </p>
 </div>
 </div>
@@ -341,7 +380,8 @@ Paper details
 <strong>Work publication date</strong>: 2026-06-10
 </p>
 <p class="mt-3">
-<strong>OpenAlex</strong>: <a href="https://openalex.org/W7164183500">https://openalex.org/W7164183500</a>
+<strong>OpenAlex</strong>:
+<a href="https://openalex.org/W7164183500">https://openalex.org/W7164183500</a>
 </p>
 </div>
 </div>
@@ -356,25 +396,34 @@ CODECHECK details
 <strong>Certificate identifier</strong>: 2026-015
 </p>
 <p>
-<strong>Codechecker name</strong>: <a href="../../persons/0000-0002-9317-8291/">Frank O. Ostermann</a> <a href="https://orcid.org/0000-0002-9317-8291" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+<strong>Codechecker name</strong>: <a
+href="../../persons/0000-0002-9317-8291/">Frank O. Ostermann</a>
+<a href="https://orcid.org/0000-0002-9317-8291" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
 </p>
 <p>
 <strong>Time of check</strong>: 2026-04-10
 </p>
 <p>
-<strong>Repository</strong>: <a href="https://github.com/reproducible-agile/reviews-2026%7Creports/029" class="uri">https://github.com/reproducible-agile/reviews-2026|reports/029</a>
+<strong>Repository</strong>: <a
+href="https://github.com/reproducible-agile/reviews-2026%7Creports/029"
+class="uri">https://github.com/reproducible-agile/reviews-2026|reports/029</a>
 </p>
 <p>
-<strong>Full certificate</strong>: <a href="https://doi.org/10.17605/OSF.IO/VCGY2" class="uri">https://doi.org/10.17605/OSF.IO/VCGY2</a>
+<strong>Full certificate</strong>: <a
+href="https://doi.org/10.17605/OSF.IO/VCGY2"
+class="uri">https://doi.org/10.17605/OSF.IO/VCGY2</a>
 </p>
 <p>
-<strong>Certificate on Wikidata</strong>: <a href="https://www.wikidata.org/wiki/Q141269759">Q141269759</a>
+<strong>Certificate on Wikidata</strong>: <a
+href="https://www.wikidata.org/wiki/Q141269759">Q141269759</a>
 </p>
 <p>
-<strong>Type</strong>: <a href="../../venues/conferences/">conference</a>
+<strong>Type</strong>: <a
+href="../../venues/conferences/">conference</a>
 </p>
 <p>
-<strong>Venue</strong>: <a href="../../venues/conferences/agilegis/">AGILEGIS</a>
+<strong>Venue</strong>: <a
+href="../../venues/conferences/agilegis/">AGILEGIS</a>
 </p>
 <!-- Summary -->
 <div id="summary-section" class="text-container">
@@ -383,23 +432,35 @@ CODECHECK details
 </p>
 <div id="summary-content" class="text-box">
 <p>
-Successful but partial reproduction. The third part of the analysis reproduced smoothly, with all figures identical to the ones produced for the paper.
+Successful but partial reproduction. The third part of the analysis
+reproduced smoothly, with all figures identical to the ones produced for
+the paper.
 </p>
 </div>
 </div>
 <!-- Citation Generator -->
 <div id="citation-section" class="mt-3">
 <p>
-<strong>Cite this certificate</strong>: <span class="text-muted ms-2" style="font-size: 0.9em;">Citation metadata retrieved from data.crosscite.org</span>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2"
+style="font-size: 0.9em;">Citation metadata retrieved from
+data.crosscite.org</span>
 </p>
 <div class="mb-2">
-<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style"> <option value="apa">APA</option> <option value="vancouver">Vancouver</option> <option value="harvard1">Harvard</option> <option value="bibtex" selected>BibTeX</option> <option value="biblatex">BibLaTeX</option> <option value="ris">RIS</option> </select>
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style">
+<option value="apa">APA</option>
+<option value="vancouver">Vancouver</option>
+<option value="harvard1">Harvard</option>
+<option value="bibtex" selected>BibTeX</option>
+<option value="biblatex">BibLaTeX</option>
+<option value="ris">RIS</option> </select>
 </div>
 <div class="citation-preview-wrapper mb-2">
 <div id="citation-preview" class="border rounded p-2 citation-preview">
 <span class="text-muted">Loading citation…</span>
 </div>
-<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard"> <i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback" class="text-success citation-copy-feedback d-none">Copied!</span>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard">
+<i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback"
+class="text-success citation-copy-feedback d-none">Copied!</span>
 </div>
 </div>
 </div>
@@ -441,6 +502,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 </script>
+</div>
 
 <p class="footer-links">
 </p>
