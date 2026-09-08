@@ -23,9 +23,18 @@ jobs:
             register:
               - 'register.csv'
               - 'venues.csv'
+              # read before Wikidata is queried, so a hand-edited QID changes
+              # the rendered person pages; the render writes it back, which can
+              # trigger one further (then no-op) run
+              - 'persons.csv'
+              - '.github/workflows/render.yml'
   render:
     needs: changes
-    if: ${{ needs.changes.outputs.register == 'true' }}
+    # the paths filter has no diff to work from on a manual run, so it would
+    # skip the render; "Run workflow" must always mean run it - that is also
+    # the only way to re-render after a codecheck package change, which touches
+    # no file in this repository
+    if: ${{ needs.changes.outputs.register == 'true' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     container:
       image: codecheckers/register:latest
