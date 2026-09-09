@@ -1,7 +1,7 @@
 {
   "title": "codecheckers/register: CODECHECK Register Deposit",
   "upload_type": "dataset",
-  "description": "<p>The CODECHECK register: a dataset tracking independent, reproducibility checks of scientific papers, see https://codecheck.org.uk/register/ .<\/p><p>The contributors listed with role \"Other\" are the codecheckers who conducted the checks recorded in this register. Zenodo's contributor vocabulary has no term for a reviewer or checker, so \"Other\" is used; each contributor is identified by ORCID where the register records one. See https://codecheck.org.uk/register/persons/ for the checks each of them conducted.<\/p>",
+  "description": "<p>The CODECHECK register: a dataset tracking independent, reproducibility checks of scientific papers, see https://codecheck.org.uk/register/ .<\/p><p>The contributors listed with role \"Other\" are the codecheckers who conducted the checks recorded in this register. Zenodo's contributor vocabulary has no term for a reviewer or checker, so \"Other\" is used; each contributor is identified by ORCID where the register records one. See https://codecheck.org.uk/register/persons/ for the checks each of them conducted.<\/p><p>Besides the register itself, this deposit contains the authoritative list of the validation rules that CODECHECK tooling applies to a <code>codecheck.yml<\/code> file: <code>rules-1.0.yml<\/code> and <code>rules-2.0.yml<\/code>, one file per version of the configuration file specification, plus <code>RULES.md<\/code>, which documents the permanent rule identifiers and how each rule's severity follows the RFC 2119 keyword used in the specification. The specification itself is published at https://codecheck.org.uk/spec/config/ .<\/p>",
   "creators": [
     {
       "name": "Nüst, Daniel",
@@ -426,6 +426,12 @@
       "identifier": "https://codecheck.org.uk/register/",
       "relation": "isSupplementTo",
       "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://codecheck.org.uk/spec/config/",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-technicalnote",
       "scheme": "url"
     }
   ]
