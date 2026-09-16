@@ -54,6 +54,49 @@ hardened.
 | `rules-1.0.yml` | [1.0](https://codecheck.org.uk/spec/config/1.0/), superseded but still referenced by existing certificates |
 | `rules-2.0.yml` | [2.0](https://codecheck.org.uk/spec/config/2.0/), the current version, at `spec/config/latest`; absorbs the former 1.x draft |
 
+Each file also carries `spec_date`, the publication date of that specification
+version, taken from the specification page itself:
+
+| File | `spec_date` |
+|---|---|
+| `rules-1.0.yml` | 2020-02-06 |
+| `rules-2.0.yml` | 2026-09-11 |
+
+## Choosing the specification version
+
+*An implementation recommendation, not a rule. No rule changes; `CC-CFG-014`
+and `CC-CFG-015` keep reporting exactly what they report today.*
+
+The specification asks a tool to assume the newest version when a
+`codecheck.yml` names none. Taken literally, that judges a configuration
+written in 2020 against requirements published in 2026, and reports failures
+its author could not have known about. A tool SHOULD therefore choose the
+version like this:
+
+1. **The file says so.** Use the version its `version` URL names. Accept the
+   historical form `https://codecheck.org.uk/spec/1.0` as well as the current
+   `https://codecheck.org.uk/spec/config/1.0` - certificates from 2020 use the
+   former, and the page has never been redirected. This is only about *which
+   rules to apply*: `CC-CFG-015` still reports an unpublished URL, because a
+   reader following it still gets a 404.
+2. **The file is dated.** When there is no version node, use the newest version
+   whose `spec_date` is not after the configuration's own date, in this order
+   of evidence: the `check_time` field; the date of the last change to the file
+   in its repository; the publication date of the archived record it came from.
+3. **Nothing is known.** Fall back to the newest version, as the specification
+   says.
+
+A date older than every `spec_date` selects the **oldest** version: a CODECHECK
+performed before the configuration file was specified at all can only be judged
+by the earliest requirements. Certificates from 2019 exist.
+
+Report which version was applied and why, so that a codechecker reading
+"checked against 1.0" is not left guessing whether that was chosen or assumed.
+
+A configuration that names no version and cannot be dated is a configuration
+whose author can still be asked; `CC-CFG-014` failing is the prompt for that
+conversation.
+
 **2.0 hardens nine rules** and **adds three**. `diff rules-1.0.yml rules-2.0.yml`
 shows exactly this:
 
