@@ -85,7 +85,12 @@ render in parallel when `parallel = TRUE`.
 
 A render that suddenly takes **six minutes** has lost its cache: everything
 is re-fetched from OpenAlex, ORCID, ROR, Zenodo and GitHub. `make clean` does
-that deliberately.
+that deliberately. When only a few certificates changed at their source - a
+corrected `codecheck.yml`, a new report version - refresh just those with
+`make clean_cert CERT_ID="2025-009 2025-010"`: it fetches their `codecheck.yml`
+again and drops their abstract, OpenAlex ID, PDF link and policy records, and
+keeps the rest of the cache. It needs a `codecheck` version with
+`register_clear_cache(certificates = )` (`make install_local`).
 
 ## Adding a new certificate
 

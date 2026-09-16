@@ -70,6 +70,16 @@ clean: version
 	find docs/certs -type d -name "libs" -exec rm -rf {} + 2>/dev/null || true
 	R -q -e "codecheck::register_clear_cache();"
 
+# refresh what is cached about some certificates only - their codecheck.yml,
+# abstract, OpenAlex ID, PDF link and policy records - and keep the rest of the
+# cache, e.g. after a codecheck.yml was corrected at its source:
+# make clean_cert CERT_ID="2025-009 2025-010"
+clean_cert:
+ifndef CERT_ID
+	$(error Usage: make clean_cert CERT_ID=2025-009 or CERT_ID="2025-009 2025-010")
+endif
+	R -q -e "codecheck::register_clear_cache(strsplit('$(CERT_ID)', '[ ,]+')[[1]]);"
+
 check: clean
 	R -q -e "codecheck::register_check(); warnings();"
 
