@@ -114,6 +114,10 @@ that deliberately.
 
 The GitHub issue labels (`community`, `journal`, `institution`, `conference`) mirror the `Type` column and are a good cross-check.
 
+## Validation rules
+
+`rules-1.0.yml` and `rules-2.0.yml` list every check CODECHECK tooling applies, one file per version of the configuration file specification; the identifier scheme (`CC-CFG-…`, `CC-MET-…`, `CC-REG-…`) and how severities follow from MUST/SHOULD/MAY are in `RULES.md`. These files are the source of truth: a severity is changed here, never in code. The `codecheck` package bundles copies (refresh with `codecheck::update_codecheck_rules(from = "../register")` in `../codecheck/`) and runs them with `validate_codecheck_yml_rules()` for a `codecheck.yml` and `validate_register_rules()` for `register.csv` - the latter also runs at the start of `register_check()`, so a new row with an unknown type, an unknown venue or an identifier that jumps more than 9 past the year's previous one is reported there.
+
 ## Zenodo community curation
 
 Certificates are archived in the [CODECHECK community on Zenodo](https://zenodo.org/communities/codecheck/), whose [curation policy](https://zenodo.org/communities/codecheck/curation-policy) the record metadata must follow: title `CODECHECK Certificate <ID>`, publisher `CODECHECK Community on Zenodo`, resource type `publication-report`, language set, the certificate PDF as preview plus a machine-readable source (`codecheck.Rmd`), a `Reviews` relation to the paper DOI, a relation to a repository under `codecheckers/` or `cdchck`, and both alternate identifiers `http://cdchck.science/register/certs/<ID>` (scheme `url`) and `cdchck.science/register/certs/<ID>` (scheme `other`).
