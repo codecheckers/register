@@ -84,6 +84,50 @@ and clear the cache (in case you made a recent change to an online repo) with `R
 To fix problems with hitting the GitHub API rate limit on local register management, save a Personal Access Token in the environment variable `GITHUB_PAT`, see [API keys](#api-keys) below.
 Alternatively, you may log into your GitHub account locally using the [GitHub CLI (`gh`)](https://cli.github.com/).
 
+### Pandoc version
+
+The pages in `docs/` are rendered by `rmarkdown`, which calls [pandoc](https://pandoc.org/), and **pandoc's version decides how the HTML is laid out**.
+Pandoc 3 wraps raw-HTML inlines at its 72-column default where pandoc 2 kept them on a single line, and pandoc's built-in `<style>` block changes between minor versions.
+Both appear in every rendered page, so rendering with a pandoc other than the one CI uses rewrites hundreds of files with whitespace-only changes - which the next CI render flips straight back.
+The register CI runs in the `codecheckers/register:latest` image (see the [`Dockerfile`](Dockerfile)), which currently carries **pandoc 3.10**; the switch from pandoc 2 to 3 arrived with the base image bump to `rocker/verse:4.6.0` and shows up as a 658-file rendering commit.
+
+Compare your pandoc with the one in the CI image:
+
+```bash
+make pandoc_check
+```
+
+`make render` runs the same check first and prints the warning, but never stops a render you asked for; `make pandoc_check` is the strict form and exits non-zero, for use in a script.
+Neither needs a version to be maintained by hand: the image is the authority and the version is read out of it, and the check also compares your local image with the registry so a stale copy cannot answer for a CI that has moved on (`docker pull codecheckers/register:latest` to refresh).
+Only when the image is not available locally does the check fall back to the version recorded in [`test/pandoc_check.sh`](test/pandoc_check.sh), overridable with `make pandoc_check PANDOC_CI_VERSION=3.11`.
+A difference in the patch level is reported as harmless; a major or minor difference is what changes `docs/`.
+
+If the versions differ, either render in the CI image itself:
+
+```bash
+make image_render
+```
+
+or install a matching pandoc.
+Ubuntu ships pandoc 2.9.2.1 in 22.04 LTS (jammy) and nothing newer through `apt`, so take the release straight from the pandoc project - the officially recommended route ([installing pandoc](https://pandoc.org/installing.html)):
+
+```bash
+# a .deb for the whole system, matching the version in the CI image
+curl -LO https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-1-amd64.deb
+sudo dpkg -i pandoc-3.10-1-amd64.deb
+```
+
+Without root, or to keep the distribution package in place, unpack the tarball into your home directory and point `rmarkdown` at it with `RSTUDIO_PANDOC` (which takes precedence over the `pandoc` on `PATH`):
+
+```bash
+curl -L https://github.com/jgm/pandoc/releases/download/3.10/pandoc-3.10-linux-amd64.tar.gz \
+  | tar xvz --strip-components 1 -C "$HOME/.local"
+echo 'RSTUDIO_PANDOC=~/.local/bin' >> ~/.Renviron
+```
+
+Both install the current CI version rather than the newest release (3.11 as of September 2026): the goal is to match CI, not to be up to date.
+Quarto's bundled pandoc (`/opt/quarto/bin/tools/`) is *not* a substitute unless its version happens to match - 3.6.3 wraps like 3.10 but writes a different `<style>` block.
+
 ## API keys
 
 Rendering the register queries a number of external APIs.

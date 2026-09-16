@@ -50,7 +50,7 @@ install_local:
 # render's live lookup conclusively confirms it is no longer available -
 # routine renders never do this, a lookup that merely failed always keeps the
 # previous value regardless of this flag, see resolve_external_field()
-render: version env
+render: version env pandoc_warn
 	R -q -e "codecheck::register_render(parallel = TRUE, check_zenodo_policy = $(if $(filter 0,$(CHECK_ZENODO)),FALSE,TRUE), prune_unavailable_metadata = $(if $(filter 1,$(PRUNE_STALE)),TRUE,FALSE));"
 
 stats: version
@@ -146,7 +146,20 @@ screenshots:
 # no way to reach it; PATHS and WIDTH override the defaults
 overflow:
 	./test/overflow.py $(if $(WIDTH),--width $(WIDTH)) $(PATHS)
-.phony: screenshots, overflow
+
+# compare the local pandoc with the one in the CI image that renders docs/;
+# a differing major or minor version rewrites docs/ with whitespace-only
+# changes and exits non-zero, see the README section "Pandoc version"
+# IMAGE and PANDOC_CI_VERSION override the image and the fallback version
+pandoc_check:
+	./test/pandoc_check.sh $(if $(IMAGE),-i $(IMAGE)) $(if $(PANDOC_CI_VERSION),-e $(PANDOC_CI_VERSION))
+
+# the same check as a warning, as a prerequisite of render: a mismatch is
+# worth knowing about before the diff lands in docs/, but it must never stop
+# a render that was asked for
+pandoc_warn:
+	@./test/pandoc_check.sh $(if $(IMAGE),-i $(IMAGE)) $(if $(PANDOC_CI_VERSION),-e $(PANDOC_CI_VERSION)) || true
+.phony: screenshots, overflow, pandoc_check, pandoc_warn
 
 # stop the local nginx server
 serve-stop:
