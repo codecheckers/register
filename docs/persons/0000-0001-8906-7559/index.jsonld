@@ -5,8 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-8906-7559",
       "name": "Ian Hussey",
-      "sameAs": ["https://github.com/ianhussey", "https://www.wikidata.org/entity/Q86440112"],
-      "knowsAbout": ["learning psychology", "implicit attitudes", "suicide", "metascience", "R (advanced)"]
+      "sameAs": ["https://github.com/ianhussey", "https://www.wikidata.org/entity/Q86440112"]
     },
     {
       "@type": "ScholarlyArticle",

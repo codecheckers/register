@@ -5,8 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0009-0003-7546-1717",
       "name": "Subhan Ali",
-      "sameAs": "https://github.com/subhanLabs",
-      "knowsAbout": ["web development", "machine learning", "NLP", "PHP (intermediate)", "Javascript (intermediate)", "Python(intermediate)"]
+      "sameAs": "https://github.com/subhanLabs"
     },
     {
       "@type": "Review",

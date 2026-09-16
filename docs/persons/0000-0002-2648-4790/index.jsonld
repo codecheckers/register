@@ -5,8 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-2648-4790",
       "name": "Marcel Stimberg",
-      "sameAs": ["https://github.com/mstimberg", "https://www.wikidata.org/entity/Q46033665"],
-      "knowsAbout": ["computational neuroscience", "neuroinformatics", "Python (expert)", "C/C++/CUDA (intermediate)", "R (basic)"]
+      "sameAs": ["https://github.com/mstimberg", "https://www.wikidata.org/entity/Q46033665"]
     },
     {
       "@type": "Review",

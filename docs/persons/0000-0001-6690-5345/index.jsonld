@@ -5,8 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-6690-5345",
       "name": "Egor Kotov",
-      "sameAs": "https://github.com/e-kotov",
-      "knowsAbout": ["spatial data analysis", "GIScience", "big data", "containers", "R (expert, package dev)"]
+      "sameAs": "https://github.com/e-kotov"
     },
     {
       "@type": "Review",

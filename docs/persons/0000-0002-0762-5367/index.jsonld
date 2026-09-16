@@ -5,8 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-0762-5367",
       "name": "Alexander Trinidad",
-      "sameAs": "https://github.com/alexandertrinidad",
-      "knowsAbout": ["spatial data analysis", "attitudes", "meta-analysis", "R"]
+      "sameAs": "https://github.com/alexandertrinidad"
     },
     {
       "@type": "Review",

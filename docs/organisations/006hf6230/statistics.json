@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/organisations/006hf6230/register.json",
-  "cert_count": 19,
+  "cert_count": 20,
   "venue_count": 3,
   "venues_per_type": {
     "community": 1,
@@ -18,7 +18,7 @@
       "conference": 2
     },
     "2023": {
-      "conference": 2
+      "conference": 3
     },
     "2024": {
       "community": 6,
@@ -33,7 +33,7 @@
     "2020": 3,
     "2021": 1,
     "2022": 2,
-    "2023": 2,
+    "2023": 3,
     "2024": 8,
     "2026": 3
   },
@@ -41,11 +41,11 @@
     "2020": 3,
     "2021": 4,
     "2022": 6,
-    "2023": 8,
-    "2024": 16,
-    "2026": 19
+    "2023": 9,
+    "2024": 17,
+    "2026": 20
   },
-  "interval_n": 17,
+  "interval_n": 18,
   "interval_excluded": 2,
   "interval_points": [
     {
@@ -71,6 +71,10 @@
     {
       "id": "2022-009",
       "days": 29
+    },
+    {
+      "id": "2023-007",
+      "days": 7
     },
     {
       "id": "2023-007",
@@ -119,7 +123,7 @@
   ],
   "interval_buckets": {
     "Before publication": 7,
-    "0-1mo": 9,
+    "0-1mo": 10,
     "1-3mo": 0,
     "3-6mo": 0,
     "6-12mo": 1,
@@ -128,8 +132,8 @@
     "5y+": 0
   },
   "interval_summary": {
-    "pct_before_publication": 41,
-    "pct_within_6mo": 53,
+    "pct_before_publication": 39,
+    "pct_within_6mo": 56,
     "max_years": 1
   },
   "venues_per_year": {
@@ -176,7 +180,7 @@
       "osf": 2
     },
     "2023": {
-      "osf": 2
+      "osf": 3
     },
     "2024": {
       "osf": 8
@@ -200,15 +204,15 @@
       "zenodo": 0
     },
     "2023": {
-      "osf": 8,
+      "osf": 9,
       "zenodo": 0
     },
     "2024": {
-      "osf": 16,
+      "osf": 17,
       "zenodo": 0
     },
     "2026": {
-      "osf": 18,
+      "osf": 19,
       "zenodo": 1
     }
   },
@@ -218,7 +222,7 @@
       "longname": "AGILE Conference on Geographic Information Science",
       "year_range": "2020-2026",
       "label": "conference",
-      "cert_count": 12,
+      "cert_count": 13,
       "page_type": "conference",
       "page_type_plural": "conferences",
       "page_slug": "AGILEGIS",
@@ -260,7 +264,7 @@
     {
       "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
       "venue_count": 1,
-      "cert_count": 12
+      "cert_count": 13
     },
     {
       "name": "University of Maine",
