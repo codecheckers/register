@@ -357,12 +357,20 @@
     "Country": "Canada",
     "Works authored": 1,
     "Checks conducted": 0,
-    "People": 1
+    "People": 2
   },
   {
     "Organisation": "National University of Ireland, Maynooth",
     "ROR": "048nfjm95",
     "Country": "Ireland",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "National University of Singapore",
+    "ROR": "01tgyzw49",
+    "Country": "Singapore",
     "Works authored": 1,
     "Checks conducted": 0,
     "People": 1

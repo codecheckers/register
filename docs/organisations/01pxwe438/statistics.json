@@ -1,24 +1,28 @@
 {
   "source": "https://codecheck.org.uk/register/organisations/01pxwe438/register.json",
-  "cert_count": 1,
+  "cert_count": 2,
   "venue_count": 1,
   "venues_per_type": {
     "conference": 1
   },
   "checks_per_type_per_year": {
     "2025": {
-      "conference": 1
+      "conference": 2
     }
   },
   "checks_per_year": {
-    "2025": 1
+    "2025": 2
   },
   "checks_cumulative": {
-    "2025": 1
+    "2025": 2
   },
-  "interval_n": 1,
+  "interval_n": 2,
   "interval_excluded": 0,
   "interval_points": [
+    {
+      "id": "2025-009",
+      "days": 4
+    },
     {
       "id": "2025-009",
       "days": 4
@@ -26,7 +30,7 @@
   ],
   "interval_buckets": {
     "Before publication": 0,
-    "0-1mo": 1,
+    "0-1mo": 2,
     "1-3mo": 0,
     "3-6mo": 0,
     "6-12mo": 0,
@@ -54,12 +58,12 @@
   },
   "platform_per_year": {
     "2025": {
-      "osf": 1
+      "osf": 2
     }
   },
   "platform_cumulative": {
     "2025": {
-      "osf": 1
+      "osf": 2
     }
   },
   "venues_detail": [
@@ -68,7 +72,7 @@
       "longname": "AGILE Conference on Geographic Information Science",
       "year_range": "2025",
       "label": "conference",
-      "cert_count": 1,
+      "cert_count": 2,
       "page_type": "conference",
       "page_type_plural": "conferences",
       "page_slug": "AGILEGIS",
@@ -82,7 +86,7 @@
     {
       "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
       "venue_count": 1,
-      "cert_count": 1
+      "cert_count": 2
     }
   ]
 }

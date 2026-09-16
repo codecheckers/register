@@ -5,7 +5,8 @@
       "@type": "Person",
       "@id": "https://orcid.org/0009-0003-5447-8034",
       "name": "Prince Oppong Boakye",
-      "sameAs": "https://github.com/iprincegh"
+      "sameAs": "https://github.com/iprincegh",
+      "knowsAbout": ["Geoinformatics", "Open Science", "Replication and Reproducible Research", "Meta Science", "R", "Python", "Javascript", "SQL"]
     },
     {
       "@type": "Review",

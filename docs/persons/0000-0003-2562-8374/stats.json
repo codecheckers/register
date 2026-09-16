@@ -1,11 +1,13 @@
 {
-  "source": "https://codecheck.org.uk/register/persons/0000-0003-2262-8374/register.json",
+  "source": "https://codecheck.org.uk/register/persons/0000-0003-2562-8374/register.json",
   "cert_count": 1,
   "person": {
     "name": "Pieter Herthogs",
-    "orcid": "0000-0003-2262-8374",
+    "orcid": "0000-0003-2562-8374",
     "github_username": null,
     "wikidata": null,
+    "fields": [],
+    "languages": [],
     "works_authored": 1,
     "checks_conducted": 0,
     "venues": []

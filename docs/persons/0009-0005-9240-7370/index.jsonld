@@ -5,7 +5,8 @@
       "@type": "Person",
       "@id": "https://orcid.org/0009-0005-9240-7370",
       "name": "Yasel Quintero",
-      "sameAs": "https://github.com/yiquintero"
+      "sameAs": "https://github.com/yiquintero",
+      "knowsAbout": ["physics", "engineering", "HPC", "C++", "Fortran", "Python", "Matlab", "C"]
     },
     {
       "@type": "Review",

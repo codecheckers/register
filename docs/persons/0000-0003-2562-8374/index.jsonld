@@ -3,7 +3,7 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://orcid.org/0000-0003-2262-8374",
+      "@id": "https://orcid.org/0000-0003-2562-8374",
       "name": "Pieter Herthogs"
     },
     {
@@ -11,7 +11,7 @@
       "@id": "https://doi.org/10.5194/agile-giss-6-3-2025",
       "url": "https://doi.org/10.5194/agile-giss-6-3-2025",
       "author": {
-        "@id": "https://orcid.org/0000-0003-2262-8374"
+        "@id": "https://orcid.org/0000-0003-2562-8374"
       },
       "name": "3D Land Use Planning: Making Future Cities Measurable with Ontology-Driven Representations of Planning Regulations"
     }

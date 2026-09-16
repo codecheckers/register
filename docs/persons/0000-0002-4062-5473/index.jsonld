@@ -5,7 +5,8 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-4062-5473",
       "name": "Silvin Willemsen",
-      "sameAs": "https://github.com/SilvinWillemsen"
+      "sameAs": "https://github.com/SilvinWillemsen",
+      "knowsAbout": ["audio technology", "physical modelling", "digital signal processing", "acoustics", "virtual reality", "C++ (highly proficient)", "MATLAB (highly proficient)", "Unity / C# (proficient)", "Python (know how to run code, not proficient)"]
     },
     {
       "@type": "Review",

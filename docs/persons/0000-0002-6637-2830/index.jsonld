@@ -5,7 +5,8 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6637-2830",
       "name": "Heather Andrews",
-      "sameAs": "https://github.com/HeatherAn"
+      "sameAs": "https://github.com/HeatherAn",
+      "knowsAbout": ["data stewardship", "astrophysics", "astrochemistry", "data/software carpentry", "Python", "Matlab", "C/C++", "IDL", "Fortran"]
     },
     {
       "@type": "Review",

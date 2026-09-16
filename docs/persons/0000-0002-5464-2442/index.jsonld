@@ -5,7 +5,8 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-5464-2442",
       "name": "Jan Haacker",
-      "sameAs": "https://github.com/j-haacker"
+      "sameAs": "https://github.com/j-haacker",
+      "knowsAbout": ["remote sensing", "climate research", "geosciences", "Python"]
     },
     {
       "@type": "Review",

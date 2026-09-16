@@ -2137,7 +2137,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://codecheck.org.uk/register/persons/0000-0003-3247-7777/</loc>
+    <loc>https://codecheck.org.uk/register/persons/0000-0003-3247-2777/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2155,7 +2155,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://codecheck.org.uk/register/persons/0000-0003-2262-8374/</loc>
+    <loc>https://codecheck.org.uk/register/persons/0000-0003-2562-8374/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -2948,6 +2948,12 @@
   </url>
   <url>
     <loc>https://codecheck.org.uk/register/organisations/05a28rw58/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codecheck.org.uk/register/organisations/01tgyzw49/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

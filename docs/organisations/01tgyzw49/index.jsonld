@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01tgyzw49",
+  "name": "National University of Singapore",
+  "identifier": "https://ror.org/01tgyzw49",
+  "url": "https://codecheck.org.uk/register/organisations/01tgyzw49/",
+  "sameAs": "http://www.nus.edu.sg/",
+  "location": {
+    "@type": "Place",
+    "address": "Singapore, Singapore"
+  }
+}
