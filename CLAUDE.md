@@ -108,7 +108,7 @@ keeps the rest of the cache. It needs a `codecheck` version with
 
 ## Venue and type conventions
 
-`register.csv` columns: `Certificate,Repository,Type,Venue,Issue`. `Venue` must be a `name` from `venues.csv`; a new venue needs a `venues.csv` row (`name,longname,label`) first.
+`register.csv` columns: `Certificate,Repository,Type,Venue,Issue`. `Venue` must be a `name` from `venues.csv`; a new venue needs a `venues.csv` row (`name,longname,label`; `fediverse` and `hashtags` optional, see README) first.
 
 - `community` + `codecheck` — community check published in the register itself
 - `community` + `preprint` — community check where the checked work is a preprint
