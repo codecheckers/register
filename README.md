@@ -32,7 +32,7 @@ Two more files carry what the register knows about the people and venues named i
 - `persons.csv`, one row per person, keyed by ORCID:
   - `orcid`: the bare ORCID
   - `wikidata`: the person's Wikidata item, e.g. `Q58427486`; written by the renderer when it resolves an ORCID, so leave it alone
-  - `fediverse`: optional, the person's fediverse (e.g., Mastodon) account as `@user@instance`, used to mention them when a certificate is announced ([#217](https://github.com/codecheckers/register/issues/217)); only add an account the person asked for. Codecheckers can instead put theirs in the [codechecker lists](https://github.com/codecheckers/codecheckers); `persons.csv` wins where both have one.
+  - `fediverse`: optional, the person's fediverse (e.g., Mastodon) account as `@user@instance`, used to mention them when a certificate is announced ([#217](https://github.com/codecheckers/register/issues/217)); an account the person provided themselves, or one found through their own ORCID record, GitHub profile or personal homepage — always self-asserted by the person, never guessed. Codecheckers can instead put theirs in the [codechecker lists](https://github.com/codecheckers/codecheckers); `persons.csv` wins where both have one.
 - `venues.csv`, one row per venue; `name` is what the `Venue` column of `register.csv` uses, `longname` and `label` are required, the other columns optional:
   - `fediverse`: the venue's fediverse account as `@user@instance`
   - `hashtags`: hashtags for announcements, `;`-separated and without `#`, e.g. `GIScience;OpenScience`
