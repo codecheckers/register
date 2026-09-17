@@ -10,6 +10,8 @@
     "contact_name": null,
     "contact_email": null,
     "description": "The Journal of Spatial Information Science (JOSIS) is an international, open-access, volunteer-run journal publishing original research in spatial and geographic information science. Its scope spans theoretical foundations through to computational methods and practical applications of geospatial technology. All published articles are freely accessible at no cost to authors or readers.",
+    "fediverse": null,
+    "hashtags": [],
     "identifiers": [
       {
         "name": "ISSN",

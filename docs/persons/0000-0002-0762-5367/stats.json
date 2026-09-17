@@ -6,6 +6,9 @@
     "orcid": "0000-0002-0762-5367",
     "github_username": "alexandertrinidad",
     "wikidata": null,
+    "fediverse": null,
+    "fields": ["spatial data analysis", "attitudes", "meta-analysis"],
+    "languages": ["R"],
     "works_authored": 0,
     "checks_conducted": 1,
     "venues": [

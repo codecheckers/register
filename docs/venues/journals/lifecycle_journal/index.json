@@ -10,6 +10,8 @@
     "contact_name": null,
     "contact_email": null,
     "description": "Lifecycle Journal is a research-publishing pilot from the Center for Open Science that lets researchers share and publish outputs at any stage of the research lifecycle, not just the final paper. It puts publishing and peer review under community control, aiming to increase trustworthiness and reduce bias in scholarly communication. The pilot has since closed to new submissions.",
+    "fediverse": null,
+    "hashtags": [],
     "identifiers": [
       {
         "name": "ISSN",

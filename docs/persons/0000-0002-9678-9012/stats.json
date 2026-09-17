@@ -6,6 +6,9 @@
     "orcid": "0000-0002-9678-9012",
     "github_username": "DanielaGawehns",
     "wikidata": null,
+    "fediverse": null,
+    "fields": ["clinical neuropsychology (developmental disorders and dementias)", "technology in healthcare settings (IoT, wearables, mobile and stationary sensing)", "applied statistics"],
+    "languages": ["R (advanced user)", "Python (basic)", "MatLab (basic)"],
     "works_authored": 1,
     "checks_conducted": 1,
     "venues": [

@@ -6,6 +6,9 @@
     "orcid": "0000-0002-5464-2442",
     "github_username": "j-haacker",
     "wikidata": null,
+    "fediverse": null,
+    "fields": ["remote sensing", "climate research", "geosciences"],
+    "languages": ["Python"],
     "works_authored": 0,
     "checks_conducted": 1,
     "venues": [

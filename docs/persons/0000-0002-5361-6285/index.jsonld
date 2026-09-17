@@ -5,7 +5,8 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-5361-6285",
       "name": "Iain Davies",
-      "sameAs": "https://github.com/IainDaviesMaths"
+      "sameAs": "https://github.com/IainDaviesMaths",
+      "knowsAbout": ["neuroscience", "MATLAB (intermediate)", "familiar with Python and C"]
     },
     {
       "@type": "Review",

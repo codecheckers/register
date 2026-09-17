@@ -6,6 +6,9 @@
     "orcid": "0000-0002-8936-0365",
     "github_username": "eduardklap",
     "wikidata": "Q57449034",
+    "fediverse": null,
+    "fields": ["cognitive neuroscience", "psychology"],
+    "languages": ["R (advanced)", "Python (basic)"],
     "works_authored": 1,
     "checks_conducted": 1,
     "venues": [

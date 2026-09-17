@@ -5,7 +5,8 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0002-6446-1901",
       "name": "Lukas Röseler",
-      "sameAs": ["https://github.com/LukasRoeseler", "https://www.wikidata.org/entity/Q137056329"]
+      "sameAs": ["https://github.com/LukasRoeseler", "https://www.wikidata.org/entity/Q137056329", "https://nerdculture.de/@aufdroeseler"],
+      "knowsAbout": ["psychology", "marketing", "economics", "meta-science", "R"]
     },
     {
       "@type": "Review",

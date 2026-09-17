@@ -6,6 +6,9 @@
     "orcid": "0000-0002-6637-2830",
     "github_username": "HeatherAn",
     "wikidata": null,
+    "fediverse": null,
+    "fields": ["data stewardship", "astrophysics", "astrochemistry", "data/software carpentry"],
+    "languages": ["Python", "Matlab", "C/C++", "IDL", "Fortran"],
     "works_authored": 0,
     "checks_conducted": 1,
     "venues": [

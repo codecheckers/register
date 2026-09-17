@@ -48,23 +48,23 @@
     "summary": "Only visualisation steps performed. All created figures match those in the article.\n",
     "manifest": [
       {
-        "file": "figure-2b.pdf",
+        "file": "codecheck/figure-2b.png",
         "comment": "Figure 2(b) of the article"
       },
       {
-        "file": "figure-3b.pdf",
+        "file": "codecheck/figure-3b.png",
         "comment": "Figure 3(b) of the article"
       },
       {
-        "file": "figure-4.pdf",
+        "file": "codecheck/figure-4.png",
         "comment": "Figure 4 of the article"
       },
       {
-        "file": "figure-5.pdf",
+        "file": "codecheck/figure-5.pdf",
         "comment": "Figure 5 of the article"
       },
       {
-        "file": "figure-6.pdf",
+        "file": "codecheck/figure-6.pdf",
         "comment": "Figure 6 of the article"
       }
     ]

@@ -10,6 +10,8 @@
     "contact_name": null,
     "contact_email": null,
     "description": null,
+    "fediverse": null,
+    "hashtags": [],
     "identifiers": []
   },
   "venue_count": 1,

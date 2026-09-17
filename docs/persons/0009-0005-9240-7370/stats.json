@@ -6,6 +6,9 @@
     "orcid": "0009-0005-9240-7370",
     "github_username": "yiquintero",
     "wikidata": null,
+    "fediverse": null,
+    "fields": ["physics", "engineering", "HPC"],
+    "languages": ["C++", "Fortran", "Python", "Matlab", "C"],
     "works_authored": 0,
     "checks_conducted": 6,
     "venues": [
