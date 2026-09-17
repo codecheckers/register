@@ -25,6 +25,20 @@ Here are some possible values or rules for the specific columns in the file:
   - the journal abbreviation uses the [ISO 4](https://en.wikipedia.org/wiki/ISO_4) standard name for the journal, using common capitalization and omitting full stops, for example `J Geogr Syst` or `GigaScience` (find the correct name via Wikipedia or the journal website)
 - `Issue`: number of the issue in the register project where the CODECHECK is managed (informative mostly, not for metadata retrieval)
 
+### People and venues
+
+Two more files carry what the register knows about the people and venues named in `register.csv`:
+
+- `persons.csv`, one row per person, keyed by ORCID:
+  - `orcid`: the bare ORCID
+  - `wikidata`: the person's Wikidata item, e.g. `Q58427486`; written by the renderer when it resolves an ORCID, so leave it alone
+  - `fediverse`: optional, the person's fediverse (e.g., Mastodon) account as `@user@instance`, used to mention them when a certificate is announced ([#217](https://github.com/codecheckers/register/issues/217)); only add an account the person asked for. Codecheckers can instead put theirs in the [codechecker lists](https://github.com/codecheckers/codecheckers); `persons.csv` wins where both have one.
+- `venues.csv`, one row per venue; `name` is what the `Venue` column of `register.csv` uses, `longname` and `label` are required, the other columns optional:
+  - `fediverse`: the venue's fediverse account as `@user@instance`
+  - `hashtags`: hashtags for announcements, `;`-separated and without `#`, e.g. `GIScience;OpenScience`
+
+Person and venue pages show a fediverse account as a `rel="me"` link, so the account can verify the page in return.
+
 To update the register, edit the `register.csv` file and submit the change.
 You can add preliminary information by starting the line with the comment character `#`, this row will be ignored.
 
