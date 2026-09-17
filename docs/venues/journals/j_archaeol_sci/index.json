@@ -10,6 +10,8 @@
     "contact_name": null,
     "contact_email": null,
     "description": "The Journal of Archaeological Science is a monthly peer-reviewed journal published by Elsevier, established in 1974, focused on the development and application of scientific techniques and methodologies across all areas of archaeology. It bridges scientific methods with archaeological inquiry, covering archaeometry, bioarchaeology, geoarchaeology and related computational approaches. It operates a hybrid open-access model and is indexed in Scopus and the Science Citation Index.",
+    "fediverse": null,
+    "hashtags": [],
     "identifiers": [
       {
         "name": "ISSN (print)",

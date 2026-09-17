@@ -10,6 +10,8 @@
     "contact_name": null,
     "contact_email": null,
     "description": "AGILE is the Association of Geographic Information Laboratories in Europe, a membership organisation connecting geographic information researchers and educators across the continent. It runs an annual international conference on geographic information science, alongside PhD schools, research initiatives and open science programmes. AGILE places particular emphasis on reproducible research practice in GIScience.",
+    "fediverse": null,
+    "hashtags": [],
     "identifiers": [
       {
         "name": "ConfIDent",

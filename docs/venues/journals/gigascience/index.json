@@ -10,6 +10,8 @@
     "contact_name": null,
     "contact_email": null,
     "description": "GigaScience is an open-access, open-data journal published by Oxford University Press and GigaScience Press, focusing on \"big data\" research across computational biology, genomics, metagenomics and the life and biomedical sciences. Publication requires open and FAIR data, code and methods alongside the article, with reproducibility and usability as explicit review criteria. It runs an open peer-review process, supported by companion platforms such as the GigaDB dataset repository.",
+    "fediverse": null,
+    "hashtags": [],
     "identifiers": [
       {
         "name": "ISSN",

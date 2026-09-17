@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0003-0928-1139",
       "name": "Eftychia Koukouraki",
-      "sameAs": "https://github.com/EftyK"
+      "sameAs": ["https://github.com/EftyK", "https://mastodon.social/@eftyk"]
     },
     {
       "@type": "Review",

@@ -6,6 +6,7 @@
     "orcid": "0009-0009-4474-171X",
     "github_username": null,
     "wikidata": null,
+    "fediverse": null,
     "fields": [],
     "languages": [],
     "works_authored": 0,
@@ -38,7 +39,7 @@
   "interval_points": [
     {
       "id": "2024-025",
-      "days": -665
+      "days": -678
     }
   ],
   "interval_buckets": {
