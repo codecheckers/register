@@ -10,7 +10,7 @@
     "contact_name": null,
     "contact_email": null,
     "description": "The Journal of Geographical Systems is a quarterly peer-reviewed journal published by Springer, founded in 1999 by Manfred M. Fischer and Arthur Getis. It covers geographical information, mathematical modelling, spatial analysis, regional science, geography, environmental science, planning and decision-making. It is indexed in Scopus, Web of Science and EconLit.",
-    "fediverse": null,
+    "fediverse": "@JGeoSys@mapstodon.space",
     "hashtags": [],
     "identifiers": [
       {

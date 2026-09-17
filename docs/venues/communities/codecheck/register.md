@@ -8,6 +8,7 @@ description: CODECHECK is an initiative supporting the independent execution and
   paper's computations and award a certificate of executable computation when they
   succeed. The initiative partners with journals, conferences and institutions worldwide,
   including institutional programmes such as CODECHECK NL.
+fediverse: '@codecheck@fediscience.org'
 ---
 
 

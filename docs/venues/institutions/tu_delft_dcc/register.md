@@ -9,6 +9,7 @@ description: The Digital Competence Centre (DCC) is TU Delft's institutional hub
   workshops and reproducibility assessments. Its FAIR4RS mentoring programme helps
   researchers make their software outputs findable, accessible, interoperable and
   reusable.
+fediverse: '@tudelft@social.edu.nl'
 identifiers:
 - name: Wikidata
   value: Q141254549

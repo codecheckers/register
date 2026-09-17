@@ -8,6 +8,7 @@ description: GigaByte is an open-access journal from GigaScience Press covering 
   data and source code publicly available, hosted alongside the article via the companion
   GigaDB database. The journal runs an open, transparent peer-review process built
   around the UNESCO Open Science Recommendation.
+fediverse: '@GigaByte@mas.to'
 identifiers:
 - name: ISSN
   value: 2709-4715

@@ -9,6 +9,7 @@ description: GigaScience is an open-access, open-data journal published by Oxfor
   requires open and FAIR data, code and methods alongside the article, with reproducibility
   and usability as explicit review criteria. It runs an open peer-review process,
   supported by companion platforms such as the GigaDB dataset repository.
+fediverse: '@GigaScience@mastodon.social'
 identifiers:
 - name: ISSN
   value: 2047-217X

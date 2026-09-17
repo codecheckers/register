@@ -8,6 +8,7 @@ description: The Journal of Geographical Systems is a quarterly peer-reviewed jo
   covers geographical information, mathematical modelling, spatial analysis, regional
   science, geography, environmental science, planning and decision-making. It is indexed
   in Scopus, Web of Science and EconLit.
+fediverse: '@JGeoSys@mapstodon.space'
 identifiers:
 - name: ISSN (print)
   value: 1435-5930

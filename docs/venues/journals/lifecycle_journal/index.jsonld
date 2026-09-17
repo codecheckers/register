@@ -6,7 +6,7 @@
       "name": "Lifecycle Journal",
       "@id": "https://portal.issn.org/resource/ISSN/3069-2229",
       "url": "https://codecheck.org.uk/register/venues/journals/lifecycle_journal/",
-      "sameAs": "https://lifecyclejournal.org/",
+      "sameAs": ["https://lifecyclejournal.org/", "https://fosstodon.org/@CenterforOpenScience"],
       "description": "Lifecycle Journal is a research-publishing pilot from the Center for Open Science that lets researchers share and publish outputs at any stage of the research lifecycle, not just the final paper. It puts publishing and peer review under community control, aiming to increase trustworthiness and reduce bias in scholarly communication. The pilot has since closed to new submissions.",
       "logo": {
         "@type": "ImageObject",

@@ -8,6 +8,7 @@ description: Lifecycle Journal is a research-publishing pilot from the Center fo
   research lifecycle, not just the final paper. It puts publishing and peer review
   under community control, aiming to increase trustworthiness and reduce bias in scholarly
   communication. The pilot has since closed to new submissions.
+fediverse: '@CenterforOpenScience@fosstodon.org'
 identifiers:
 - name: ISSN
   value: 3069-2229
