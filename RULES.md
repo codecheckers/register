@@ -15,7 +15,7 @@ CC-<AREA>-<NNN>
 | Area | Meaning |
 |---|---|
 | `CFG` | Structure and content of `codecheck.yml` |
-| `MET` | External identifiers and metadata (ORCID, Crossref) |
+| `MET` | External identifiers and metadata (ORCID, and an open scholarly database) |
 | `BUN` | The CODECHECK bundle and the repository under check |
 | `REP` | Certificate/report and its archive record |
 | `REG` | The register entry itself |

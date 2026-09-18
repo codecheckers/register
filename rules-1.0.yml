@@ -247,35 +247,35 @@ rules:
     severity: warning
     status: active
     reference: "R:validate_codecheck_yml_crossref"
-    description: "The single paper.reference identifier resolves; with a DOI this is a Crossref lookup"
+    description: "The single paper.reference identifier resolves; with a DOI this is a lookup in an open scholarly database"
   - id: CC-MET-005
-    name: crossref-title-match
+    name: paper-title-match
     area: metadata
     severity: warning
     status: active
     reference: "R:validate_codecheck_yml_crossref"
-    description: "The paper title matches the Crossref record"
+    description: "The paper title matches the record in an open scholarly database"
   - id: CC-MET-006
-    name: crossref-author-count-match
+    name: paper-author-count-match
     area: metadata
     severity: warning
     status: active
     reference: "R:validate_codecheck_yml_crossref"
-    description: "The number of authors matches the Crossref record"
+    description: "The number of authors matches the record in an open scholarly database"
   - id: CC-MET-007
-    name: crossref-author-name-match
+    name: paper-author-name-match
     area: metadata
     severity: warning
     status: active
     reference: "R:validate_codecheck_yml_crossref"
-    description: "Each author name matches the Crossref record"
+    description: "Each author name matches the record in an open scholarly database"
   - id: CC-MET-008
-    name: crossref-author-orcid-match
+    name: paper-author-orcid-match
     area: metadata
     severity: warning
     status: active
     reference: "R:validate_codecheck_yml_crossref"
-    description: "Author ORCIDs match those recorded in Crossref"
+    description: "Author ORCIDs match those in an open scholarly database"
 
   # --- bundle ---
   - id: CC-BUN-001
