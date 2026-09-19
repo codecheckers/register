@@ -15,7 +15,7 @@ CC-<AREA>-<NNN>
 | Area | Meaning |
 |---|---|
 | `CFG` | Structure and content of `codecheck.yml` |
-| `MET` | External identifiers and metadata (ORCID, Crossref) |
+| `MET` | External identifiers and metadata (ORCID, open scholarly databases) |
 | `BUN` | The CODECHECK bundle and the repository under check |
 | `REP` | Certificate/report and its archive record |
 | `REG` | The register entry itself |
@@ -149,7 +149,7 @@ Each entry in the `rules:` list has the same seven keys, in this order:
 | `area` | `config`, `metadata`, `bundle`, `report`, `register` |
 | `severity` | `error`, `warning`, `info` — see above |
 | `status` | `active`, `deprecated` |
-| `reference` | Specification anchor, the R function that first implemented the rule, or `practice` |
+| `reference` | Specification anchor, the R function implementing the rule, or `practice` |
 | `description` | One line in plain language; quoted, because several contain a colon |
 
 Each file also carries `version` for the catalogue format, `spec_version` for
