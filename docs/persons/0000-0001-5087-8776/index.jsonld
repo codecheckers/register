@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://orcid.org/0000-0001-5087-8776",
       "name": "Auriol Degbelo",
-      "sameAs": "https://www.wikidata.org/entity/Q58427486"
+      "sameAs": ["https://www.wikidata.org/entity/Q58427486", "https://mastodon.social/@aurioldegbelo"]
     },
     {
       "@type": "ScholarlyArticle",
