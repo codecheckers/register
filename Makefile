@@ -119,6 +119,17 @@ zenodo_curate_all:
 	  write.csv(res, 'zenodo_curation_result.csv', row.names = FALSE);"
 .phony: zenodo_check, zenodo_curate, zenodo_curate_all
 
+# rewrite the generated pages on codecheck.wikibase.cloud (Main Page,
+# certificate index, Wikidata export, ...) from the rendered register and the
+# instance, see codecheck::publish_wikibase_pages(). Reads docs/register.json,
+# so render first. Dry run by default, pass APPLY=1 to write, which needs
+# WIKIBASE_USER and WIKIBASE_TOKEN (see .env.example). WIKIBASE_LOG is the edit
+# log whose submitted QuickStatements batches the Wikidata export page lists.
+WIKIBASE_LOG ?= ../codecheck/wikidata/wikibase-log.csv
+wikibase: version env
+	R -q -e "codecheck::publish_wikibase_pages('.', dry_run = $(if $(APPLY),FALSE,TRUE), log_file = $(if $(wildcard $(WIKIBASE_LOG)),'$(WIKIBASE_LOG)',NULL));"
+.phony: wikibase
+
 # automated build is active via GitHub Action
 image_build:
 	docker build --tag codecheckers/register:latest --no-cache --build-arg GITHUB_PAT=@bash -c "source ~/.Renviron && echo \$\$GITHUB_PAT" .
