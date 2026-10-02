@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-8250-4074",
+      "name": "Bruno de Paula Kinoshita",
+      "sameAs": "https://github.com/kinow",
+      "knowsAbout": ["workflows", "software engineering", "HPC", "earth sciences", "CWL", "Cylc", "ecFlow", "Autosubmit", "Java", "Python", "PHP", "Shell", "Prolog", "JavaScript", "C", "R"]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-025/",
+      "name": "CODECHECK Certificate 2026-025",
+      "url": "https://codecheck.org.uk/register/certs/2026-025/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-8250-4074"
+      },
+      "datePublished": "2026-09-20"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2026-025",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-025/",
+    "Certificate PDF": "https://zenodo.org/api/records/22935939/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
+    "Repository Link": "https://github.com/codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
+    "Report": "https://doi.org/10.5281/zenodo.22935939",
+    "Title": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
+    "Paper reference": "https://doi.org/10.1038/s44323-026-00108-x",
+    "OpenAlex": null,
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2026-09-20"
+  }
+]

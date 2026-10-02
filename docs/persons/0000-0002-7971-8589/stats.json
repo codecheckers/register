@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/persons/0000-0002-7971-8589/register.json",
-  "cert_count": 1,
+  "cert_count": 2,
   "person": {
     "name": "Niloufar Tabandeh",
     "orcid": "0000-0002-7971-8589",
@@ -9,7 +9,7 @@
     "fediverse": null,
     "fields": [],
     "languages": [],
-    "works_authored": 1,
+    "works_authored": 2,
     "checks_conducted": 0,
     "venues": []
   },
@@ -19,17 +19,17 @@
   },
   "checks_per_type_per_year": {
     "2026": {
-      "community": 1
+      "community": 2
     }
   },
   "checks_per_year": {
-    "2026": 1
+    "2026": 2
   },
   "checks_cumulative": {
-    "2026": 1
+    "2026": 2
   },
   "interval_n": 1,
-  "interval_excluded": 0,
+  "interval_excluded": 1,
   "interval_points": [
     {
       "id": "2026-019",
@@ -57,21 +57,21 @@
   "venues_cumulative": {
     "2026": 1
   },
-  "codechecker_count": 1,
+  "codechecker_count": 2,
   "codecheckers_per_year": {
-    "2026": 1
+    "2026": 2
   },
   "codecheckers_cumulative": {
-    "2026": 1
+    "2026": 2
   },
   "platform_per_year": {
     "2026": {
-      "zenodo": 1
+      "zenodo": 2
     }
   },
   "platform_cumulative": {
     "2026": {
-      "zenodo": 1
+      "zenodo": 2
     }
   },
   "venues_detail": [
@@ -80,7 +80,7 @@
       "longname": "CODECHECK",
       "year_range": "2026",
       "label": "community",
-      "cert_count": 1,
+      "cert_count": 2,
       "page_type": "community",
       "page_type_plural": "communities",
       "page_slug": "codecheck",
@@ -94,7 +94,7 @@
     {
       "name": "unknown",
       "venue_count": 1,
-      "cert_count": 1
+      "cert_count": 2
     }
   ]
 }

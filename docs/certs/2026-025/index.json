@@ -1,0 +1,261 @@
+{
+  "certificate": {
+    "id": "2026-025",
+    "title": "CODECHECK Certificate 2026-025",
+    "url": "https://codecheck.org.uk/register/certs/2026-025/"
+  },
+  "paper": {
+    "title": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
+    "authors": [
+      {
+        "name": "Niloufar Tabandeh",
+        "orcid": "0000-0002-7971-8589"
+      },
+      {
+        "name": "Jennifer A. Veitch",
+        "orcid": "0000-0003-3183-4537"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "reference": "https://doi.org/10.1038/s44323-026-00108-x"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Bruno de Paula Kinoshita",
+        "orcid": "0000-0001-8250-4074"
+      }
+    ],
+    "check_time": "2026-09-20T10:32:00",
+    "repository": "github::codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
+    "report": "https://doi.org/10.5281/zenodo.22935939",
+    "type": "community",
+    "venue": "codecheck",
+    "summary": "Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba, with R 4.6.1, latest quarto and renv, following the instructions from the project README file. There were minor issues during the dependencies installation that authors started working on improvements for the documentation. A Jupyter notebook was used, as instructed in the project README, to execute part of the workflow. The actual data processing was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data, plots, tables, all looked correct.\n",
+    "manifest": [
+      {
+        "file": "terminal_output.log",
+        "comment": "The terminal output of executing the R script on my personal laptop."
+      },
+      {
+        "file": "code/LightLogR.html",
+        "comment": "Updated notebook/document after re-running it locally."
+      },
+      {
+        "file": "code/trajectory.ipynb",
+        "comment": "Updated notebook/document after re-running it locally."
+      },
+      {
+        "file": "results/datatree.txt",
+        "comment": "Generated directory tree, produced after running the scripts locally."
+      },
+      {
+        "file": "results/plots/Figure1.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure1.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure10.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure10.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure11.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure11.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure12.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure12.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure2.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure2.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure9.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Figure9.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/Models_distribution_grid.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/activity_block_matched.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/activity_block_matched.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/broad_context_matched.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/broad_context_matched.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/exact_slot_matched.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/exact_slot_matched.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/indoor_only_bound.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/indoor_only_bound.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/melanopic_trajectory_days.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/outdoor_only_bound.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/outdoor_only_bound.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/photopic_trajectory_days.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/tailored_model_dose_plot.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/tailored_model_effect_plot.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/unrestricted_pooled.pdf",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/plots/unrestricted_pooled.png",
+        "comment": "Plot recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/activity_block_matched_melanopic.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/activity_block_matched_melanopic_numeric.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/broad_context_matched_melanopic.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/broad_context_matched_melanopic_numeric.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/exact_slot_matched_melanopic.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/exact_slot_matched_melanopic_numeric.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/indoor_only_bound_melanopic.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/indoor_only_bound_melanopic_numeric.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/outdoor_only_bound_melanopic.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/outdoor_only_bound_melanopic_numeric.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/unrestricted_pooled_melanopic.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/LightLogR/metrics_raw/unrestricted_pooled_melanopic_numeric.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/pivot_melanopic_metadata_trajectory_canada.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/pivot_photopic_melanopic_trajectory_canada.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/pivot_summary_metrics_stats.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/pivot_summary_trajectory_canada.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/sequences/activity_block_matched_melanopic_sequence.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/sequences/broad_context_matched_melanopic_sequence.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/sequences/exact_slot_matched_melanopic_sequence.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/sequences/indoor_only_bound_melanopic_sequence.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/sequences/outdoor_only_bound_melanopic_sequence.csv",
+        "comment": "CSV recreated locally with Python/R."
+      },
+      {
+        "file": "results/tables/sequences/unrestricted_pooled_melanopic_sequence.csv",
+        "comment": "CSV recreated locally with Python/R."
+      }
+    ]
+  }
+}

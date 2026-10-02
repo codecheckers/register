@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-025/",
+  "name": "CODECHECK Certificate 2026-025",
+  "url": "https://codecheck.org.uk/register/certs/2026-025/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Bruno de Paula Kinoshita",
+      "@id": "https://orcid.org/0000-0001-8250-4074"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Niloufar Tabandeh",
+        "@id": "https://orcid.org/0000-0002-7971-8589"
+      },
+      {
+        "@type": "Person",
+        "name": "Jennifer A. Veitch",
+        "@id": "https://orcid.org/0000-0003-3183-4537"
+      },
+      {
+        "@type": "Person",
+        "name": "Manuel Spitschan",
+        "@id": "https://orcid.org/0000-0002-8572-9268"
+      }
+    ],
+    "url": "https://doi.org/10.1038/s44323-026-00108-x",
+    "sameAs": "https://doi.org/10.1038/s44323-026-00108-x"
+  },
+  "reviewBody": "Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba, with R 4.6.1, latest quarto and renv, following the instructions from the project README file. There were minor issues during the dependencies installation that authors started working on improvements for the documentation. A Jupyter notebook was used, as instructed in the project README, to execute part of the workflow. The actual data processing was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data, plots, tables, all looked correct.\n",
+  "datePublished": "2026-09-20T10:32:00",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.22935939"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.22935939"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-025/cert.pdf"
+  }
+}

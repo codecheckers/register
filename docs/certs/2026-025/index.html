@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CODECHECK Certificate 2026-025</title>
+
+<script src="../../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../../libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="../../libs/navigation-1.1/tabsets.js"></script>
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+
+<link rel="stylesheet" href="../../assets/codecheck-register.css">
+
+<meta property="og:title" content="CODECHECK Certificate 2026-025">
+<meta name="author" content="Bruno de Paula Kinoshita">
+<meta name="generator" content="codecheck">
+
+<meta property="og:url" content="https://codecheck.org.uk/register/certs/2026-025/">
+<meta property="og:site_name" content="CODECHECK Register">
+<meta property="og:description" content="Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba, with R 4.6.1, latest quarto and renv, following the…">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://codecheck.org.uk/register/certs/2026-025/cert_1.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Highwire Press citation metadata, for Google Scholar and Zotero (register#52) -->
+<meta name="citation_title" content="CODECHECK Certificate 2026-025">
+<meta name="citation_author" content="Bruno de Paula Kinoshita">
+<meta name="citation_publication_date" content="2026/09/20">
+<meta name="citation_technical_report_institution" content="CODECHECK Initiative">
+<meta name="citation_technical_report_number" content="2026-025">
+<meta name="citation_publisher" content="CODECHECK Initiative">
+<meta name="citation_doi" content="10.5281/zenodo.22935939">
+<meta name="citation_abstract" content="Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba, with R 4.6.1, latest quarto and renv, following the instructions from the project README file. There were minor issues during the dependencies installation that authors started working on improvements for the documentation. A Jupyter notebook was used, as instructed in the project README, to execute part of the workflow. The actual data processing was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data, plots, tables, all looked correct.">
+<meta name="citation_pdf_url" content="https://codecheck.org.uk/register/certs/2026-025/cert.pdf">
+<meta name="citation_fulltext_html_url" content="https://codecheck.org.uk/register/certs/2026-025/">
+<meta name="citation_public_url" content="https://codecheck.org.uk/register/certs/2026-025/">
+<meta name="citation_language" content="en">
+<meta name="citation_keywords" content="CODECHECK; reproducibility; code execution; codecheck">
+
+<!-- FAIR Signposting Level 1, as HTML link elements: GitHub Pages cannot set
+     HTTP Link headers (register#55) -->
+<link rel="cite-as" href="https://doi.org/10.5281/zenodo.22935939">
+<link rel="type" href="https://schema.org/Review">
+<link rel="type" href="https://schema.org/AboutPage">
+<link rel="author" href="https://orcid.org/0000-0001-8250-4074">
+<link rel="describedby" href="index.json" type="application/json">
+<link rel="describedby" href="index.jsonld" type="application/ld+json">
+<link rel="item" href="cert.pdf" type="application/pdf">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-025/",
+  "name": "CODECHECK Certificate 2026-025",
+  "url": "https://codecheck.org.uk/register/certs/2026-025/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Bruno de Paula Kinoshita",
+      "@id": "https://orcid.org/0000-0001-8250-4074"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Niloufar Tabandeh",
+        "@id": "https://orcid.org/0000-0002-7971-8589"
+      },
+      {
+        "@type": "Person",
+        "name": "Jennifer A. Veitch",
+        "@id": "https://orcid.org/0000-0003-3183-4537"
+      },
+      {
+        "@type": "Person",
+        "name": "Manuel Spitschan",
+        "@id": "https://orcid.org/0000-0002-8572-9268"
+      }
+    ],
+    "url": "https://doi.org/10.1038/s44323-026-00108-x",
+    "sameAs": "https://doi.org/10.1038/s44323-026-00108-x"
+  },
+  "reviewBody": "Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba, with R 4.6.1, latest quarto and renv, following the instructions from the project README file. There were minor issues during the dependencies installation that authors started working on improvements for the documentation. A Jupyter notebook was used, as instructed in the project README, to execute part of the workflow. The actual data processing was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data, plots, tables, all looked correct.\n",
+  "datePublished": "2026-09-20T10:32:00",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.22935939"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.22935939"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-025/cert.pdf"
+  }
+}</script>
+
+<!-- Icon fonts -->
+<link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="codecheck-navbar">
+  <div class="navbar-container">
+    <a href="../../index.html" class="navbar-brand" title="Go to list of checks">
+      <img src="../../codecheck_logo.svg" alt="Go to list of checks" class="navbar-logo">
+    </a>
+
+    <nav class="navbar-menu">
+      <a href="../../index.html" class="nav-link" title="Browse all CODECHECK certificates">Checks</a>
+      <a href="../../venues/index.html" class="nav-link" title="Browse venues that have hosted a CODECHECK">Venues</a>
+      <a href="../../works/index.html" class="nav-link" title="Browse checked papers">Works</a>
+      <a href="../../persons/index.html" class="nav-link" title="Browse people who authored or checked a paper">People</a>
+      <a href="../../organisations/index.html" class="nav-link" title="Browse organisations whose people authored or checked a paper">Organisations</a>
+      <a href="../../statistics/index.html" class="nav-link" title="View register statistics">Statistics</a>
+      <a href="https://codecheck.org.uk/" class="nav-link" title="About the CODECHECK project">About</a>
+    </nav>
+  </div>
+</div>
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/communities/index.html">Communities</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/communities/codecheck/index.html">CODECHECK</a></li>
+    <li class="breadcrumb-item active" aria-current="page">2026-025</li>
+  </ol>
+</nav>
+</div>
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">CODECHECK Certificate 2026-025</h1>
+
+</div>
+
+
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<div class="cert-container container-fluid">
+<div class="row">
+<div class="col-md-6">
+<div class="card mb-3">
+<div class="card-body">
+<!-- Buttons to change cert page -->
+<div class="d-flex justify-content-center">
+<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2" id="prev-btn" title="View previous page">
+<h4>
+Previous
+</h4>
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+<h4>
+Next
+</h4>
+</button>
+</div>
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+</div>
+</div>
+</div>
+<!-- Right Side Content (Paper details + CODECHECK details) -->
+<div class="col-md-6 d-flex flex-column">
+<div class="card mb-3 flex-grow-1">
+<div class="card-header pt-4">
+<h2 class="card-title cert-card-title">
+Paper details
+</h2>
+</div>
+<div class="card-body d-flex flex-column">
+<p>
+<strong>Title</strong>: <a
+href="../../works/10.1038/s44323-026-00108-x/">Constructing melanopic
+light exposure profiles from sparse daily-route measurements</a>
+</p>
+<p>
+<strong>Authors</strong>: <a
+href="../../persons/0000-0002-7971-8589/">Niloufar Tabandeh</a>
+<a href="https://orcid.org/0000-0002-7971-8589" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0003-3183-4537/">Jennifer A. Veitch</a>
+<a href="https://orcid.org/0000-0003-3183-4537" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-8572-9268/">Manuel Spitschan</a>
+<a href="https://orcid.org/0000-0002-8572-9268" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+</p>
+<!-- Abstract section -->
+<div id="abstract-section" class="text-container">
+<p>
+<strong>Abstract</strong>: <i>Obtained from <span
+class="math inline"><em>a</em><em>b</em><em>s</em><em>t</em><em>r</em><em>a</em><em>c</em><em>t</em><sub><em>s</em></sub><em>o</em><em>u</em><em>r</em><em>c</em><em>e</em></span></i>
+</p>
+<div id="abstract-content" class="text-box">
+<p>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="card mb-3 flex-grow-1">
+<div class="card-header pt-4">
+<h2 class="card-title cert-card-title">
+CODECHECK details
+</h2>
+</div>
+<div class="card-body d-flex flex-column">
+<p>
+<strong>Certificate identifier</strong>: 2026-025
+</p>
+<p>
+<strong>Codechecker name</strong>: <a
+href="../../persons/0000-0001-8250-4074/">Bruno de Paula Kinoshita</a>
+<a href="https://orcid.org/0000-0001-8250-4074" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+</p>
+<p>
+<strong>Time of check</strong>: 2026-09-20
+</p>
+<p>
+<strong>Repository</strong>: <a
+href="https://github.com/codecheckers/TabandehEtAl_npjBiolTimingSleep_2026"
+class="uri">https://github.com/codecheckers/TabandehEtAl_npjBiolTimingSleep_2026</a>
+</p>
+<p>
+<strong>Full certificate</strong>: <a
+href="https://doi.org/10.5281/zenodo.22935939"
+class="uri">https://doi.org/10.5281/zenodo.22935939</a>
+</p>
+<p>
+<strong>Type</strong>: <a href="../../venues/communities/">community</a>
+</p>
+<p>
+<strong>Venue</strong>: <a
+href="../../venues/communities/codecheck/">codecheck</a>
+</p>
+<!-- Summary -->
+<div id="summary-section" class="text-container">
+<p>
+<strong>Summary</strong>:
+</p>
+<div id="summary-content" class="text-box">
+<p>
+Reproduction using the Workflow hosted at <a
+href="https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026"
+class="uri">https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026</a>,
+using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed
+the dependencies on a Linux Ubuntu 26.04, using micromamba, with R
+4.6.1, latest quarto and renv, following the instructions from the
+project README file. There were minor issues during the dependencies
+installation that authors started working on improvements for the
+documentation. A Jupyter notebook was used, as instructed in the project
+README, to execute part of the workflow. The actual data processing was
+verified using the R Quarto notebook, that took about 11 hours to
+complete. After that, the remaining steps of the Jupyter notebook were
+executed, and produced the same figures and table data used in the
+article. The data, plots, tables, all looked correct.
+</p>
+</div>
+</div>
+<!-- Citation Generator -->
+<div id="citation-section" class="mt-3">
+<p>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2"
+style="font-size: 0.9em;">Citation metadata retrieved from
+data.crosscite.org</span>
+</p>
+<div class="mb-2">
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style">
+<option value="apa">APA</option>
+<option value="vancouver">Vancouver</option>
+<option value="harvard1">Harvard</option>
+<option value="bibtex" selected>BibTeX</option>
+<option value="biblatex">BibLaTeX</option>
+<option value="ris">RIS</option> </select>
+</div>
+<div class="citation-preview-wrapper mb-2">
+<div id="citation-preview" class="border rounded p-2 citation-preview">
+<span class="text-muted">Loading citation…</span>
+</div>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard">
+<i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback"
+class="text-success citation-copy-feedback d-none">Copied!</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /.row -->
+<script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../../libs/codecheck/citation.min.js"></script>
+<script src="../../libs/codecheck/citation-wrapper.js"></script>
+<script src="../../libs/codecheck/cert-utils.js"></script>
+<script src="../../libs/codecheck/cert-citation.js"></script>
+<div class="row">
+<div class="col-12">
+<p class="text-muted cert-footer-link">
+<a href="index.json">View certificate data as JSON</a>
+</p>
+</div>
+</div>
+</div>
+<script>
+// Dynamically insert the images array
+var images = ["cert_1.png", "cert_2.png", "cert_3.png", "cert_4.png", "cert_5.png", "cert_6.png", "cert_7.png", "cert_8.png", "cert_9.png", "cert_10.png", "cert_11.png", "cert_12.png", "cert_13.png", "cert_14.png", "cert_15.png", "cert_16.png", "cert_17.png", "cert_18.png", "cert_19.png", "cert_20.png", "cert_21.png", "cert_22.png", "cert_23.png"];
+var currentIndex = 0;
+
+// Initialize page on DOM load
+document.addEventListener("DOMContentLoaded", function() {
+  // Setting the cert page 1 as the display image
+  changeImage(0);
+
+  initializeCertificateSections();
+
+  // Initialize auto-pagination
+  if (typeof initializeAutoPagination === 'function') {
+    initializeAutoPagination();
+  }
+
+  // Initialize citation generator
+  // The citation-wrapper.js ensures Cite is available globally
+  if (typeof initializeCitationGenerator === 'function') {
+    initializeCitationGenerator();
+  } else {
+    console.error('Citation generator function not available');
+  }
+});
+
+</script>
+
+<p class="footer-links">
+</p>
+
+<hr class="footer-separator" />
+
+<!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
+<div class="footer-content">
+    <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
+            href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a> | <a
+            href="https://doi.org/10.53962/qtrx-1a"><i class="fa fa-flask"></i> ResearchEquals Collection</a></p>
+
+    <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p><a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"><img title="license logo CC BY-SA 4.0"
+                src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></a>
+    </p>
+
+    <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
+
+    <p class="footer-description">CODECHECK is a process for independent execution of
+        computations underlying scholarly research articles.</p>
+
+    <p class="build-info"></p>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

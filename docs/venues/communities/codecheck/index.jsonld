@@ -203,6 +203,22 @@
         "sameAs": "https://doi.org/10.1016/j.isci.2026.116661"
       },
       "datePublished": "2026-07-07"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-025/",
+      "name": "CODECHECK Certificate 2026-025",
+      "url": "https://codecheck.org.uk/register/certs/2026-025/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
+        "url": "https://doi.org/10.1038/s44323-026-00108-x",
+        "sameAs": "https://doi.org/10.1038/s44323-026-00108-x"
+      },
+      "datePublished": "2026-09-20"
     }
   ]
 }

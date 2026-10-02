@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/register.json",
-  "cert_count": 132,
+  "cert_count": 133,
   "venue_count": 13,
   "venues_per_type": {
     "community": 4,
@@ -42,7 +42,7 @@
       "journal": 3
     },
     "2026": {
-      "community": 2,
+      "community": 3,
       "conference": 14,
       "institution": 1,
       "journal": 1
@@ -56,7 +56,7 @@
     "2023": 12,
     "2024": 24,
     "2025": 26,
-    "2026": 18
+    "2026": 19
   },
   "checks_cumulative": {
     "2019": 1,
@@ -66,10 +66,10 @@
     "2023": 64,
     "2024": 88,
     "2025": 114,
-    "2026": 132
+    "2026": 133
   },
   "interval_n": 130,
-  "interval_excluded": 2,
+  "interval_excluded": 3,
   "interval_points": [
     {
       "id": "2020-001",
@@ -421,7 +421,7 @@
     },
     {
       "id": "2024-025",
-      "days": -678
+      "days": -665
     },
     {
       "id": "2025-001",
@@ -627,7 +627,7 @@
     "2025": 13,
     "2026": 13
   },
-  "codechecker_count": 66,
+  "codechecker_count": 67,
   "codecheckers_per_year": {
     "2019": 1,
     "2020": 5,
@@ -636,7 +636,7 @@
     "2023": 8,
     "2024": 31,
     "2025": 25,
-    "2026": 14
+    "2026": 15
   },
   "codecheckers_cumulative": {
     "2019": 1,
@@ -646,7 +646,7 @@
     "2023": 16,
     "2024": 42,
     "2025": 60,
-    "2026": 66
+    "2026": 67
   },
   "platform_per_year": {
     "2019": {
@@ -680,7 +680,7 @@
     "2026": {
       "osf": 13,
       "researchequals": 1,
-      "zenodo": 4
+      "zenodo": 5
     }
   },
   "platform_cumulative": {
@@ -722,7 +722,7 @@
     "2026": {
       "osf": 73,
       "researchequals": 4,
-      "zenodo": 55
+      "zenodo": 56
     }
   },
   "venues_detail": [
@@ -801,7 +801,7 @@
       "longname": "CODECHECK",
       "year_range": "2020-2026",
       "label": "community",
-      "cert_count": 12,
+      "cert_count": 13,
       "page_type": "community",
       "page_type_plural": "communities",
       "page_slug": "codecheck",
@@ -938,7 +938,7 @@
     {
       "name": "unknown",
       "venue_count": 7,
-      "cert_count": 51
+      "cert_count": 52
     }
   ]
 }

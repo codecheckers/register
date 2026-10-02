@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/organisations/02kkvpp62/register.json",
-  "cert_count": 9,
+  "cert_count": 10,
   "venue_count": 4,
   "venues_per_type": {
     "community": 3,
@@ -15,22 +15,22 @@
       "conference": 1
     },
     "2026": {
-      "community": 2,
+      "community": 3,
       "conference": 2
     }
   },
   "checks_per_year": {
     "2023": 3,
     "2024": 2,
-    "2026": 4
+    "2026": 5
   },
   "checks_cumulative": {
     "2023": 3,
     "2024": 5,
-    "2026": 9
+    "2026": 10
   },
   "interval_n": 9,
-  "interval_excluded": 0,
+  "interval_excluded": 1,
   "interval_points": [
     {
       "id": "2023-001",
@@ -94,16 +94,16 @@
     "2024": 2,
     "2026": 4
   },
-  "codechecker_count": 6,
+  "codechecker_count": 7,
   "codecheckers_per_year": {
     "2023": 2,
     "2024": 2,
-    "2026": 3
+    "2026": 4
   },
   "codecheckers_cumulative": {
     "2023": 2,
     "2024": 4,
-    "2026": 6
+    "2026": 7
   },
   "platform_per_year": {
     "2023": {
@@ -115,7 +115,7 @@
     },
     "2026": {
       "osf": 2,
-      "zenodo": 2
+      "zenodo": 3
     }
   },
   "platform_cumulative": {
@@ -129,7 +129,7 @@
     },
     "2026": {
       "osf": 6,
-      "zenodo": 3
+      "zenodo": 4
     }
   },
   "venues_detail": [
@@ -152,7 +152,7 @@
       "longname": "CODECHECK",
       "year_range": "2026",
       "label": "community",
-      "cert_count": 1,
+      "cert_count": 2,
       "page_type": "community",
       "page_type_plural": "communities",
       "page_slug": "codecheck",
@@ -199,7 +199,7 @@
     {
       "name": "unknown",
       "venue_count": 3,
-      "cert_count": 3
+      "cert_count": 4
     }
   ]
 }

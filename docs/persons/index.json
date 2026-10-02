@@ -81,7 +81,7 @@
   {
     "Name": "Manuel Spitschan",
     "ORCID": "0000-0002-8572-9268",
-    "Works authored": 6,
+    "Works authored": 7,
     "Checks conducted": 0,
     "Check types": []
   },
@@ -1914,7 +1914,7 @@
   {
     "Name": "Niloufar Tabandeh",
     "ORCID": "0000-0002-7971-8589",
-    "Works authored": 1,
+    "Works authored": 2,
     "Checks conducted": 0,
     "Check types": []
   },
@@ -2195,6 +2195,22 @@
   {
     "Name": "Johannes Scholz",
     "ORCID": "0000-0002-3212-8864",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Bruno de Paula Kinoshita",
+    "ORCID": "0000-0001-8250-4074",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "Check types": {
+      "community": 1
+    }
+  },
+  {
+    "Name": "Jennifer A. Veitch",
+    "ORCID": "0000-0003-3183-4537",
     "Works authored": 1,
     "Checks conducted": 0,
     "Check types": []

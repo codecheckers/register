@@ -3650,7 +3650,7 @@
     "OpenAlex": null,
     "Paper ISSN": null,
     "Paper venue": null,
-    "Work publication date": "2026-09-17",
+    "Work publication date": "2026-09-04",
     "Check time": "2024-11-08",
     "Report": "https://doi.org/10.5281/zenodo.15023714",
     "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
@@ -5411,6 +5411,44 @@
       }
     ],
     "Summary": "The bulk of this project is a set of Rscripts. There is also a python package that comes in the authors’ repository, and some Juypyter notebooks. There was some work involved to reproduce the environment on my machine (a mac laptop). However, following feeback with the authors, these issues were resolved and the reproduction was successful.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-025",
+    "Repository": "github::codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
+    "Repository Link": "https://github.com/codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2026-09-20",
+    "OpenAlex": null,
+    "Paper ISSN": null,
+    "Paper venue": null,
+    "Work publication date": null,
+    "Check time": "2026-09-20T10:32:00",
+    "Report": "https://doi.org/10.5281/zenodo.22935939",
+    "Title": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
+    "Paper reference": "https://doi.org/10.1038/s44323-026-00108-x",
+    "Paper authors": [
+      {
+        "name": "Niloufar Tabandeh",
+        "orcid": "0000-0002-7971-8589"
+      },
+      {
+        "name": "Jennifer A. Veitch",
+        "orcid": "0000-0003-3183-4537"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Bruno de Paula Kinoshita",
+        "orcid": "0000-0001-8250-4074"
+      }
+    ],
+    "Summary": "Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba, with R 4.6.1, latest quarto and renv, following the instructions from the project README file. There were minor issues during the dependencies installation that authors started working on improvements for the documentation. A Jupyter notebook was used, as instructed in the project README, to execute part of the workflow. The actual data processing was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data, plots, tables, all looked correct.\n",
     "Source": null
   }
 ]

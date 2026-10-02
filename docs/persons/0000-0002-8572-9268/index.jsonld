@@ -60,6 +60,15 @@
         "@id": "https://orcid.org/0000-0002-8572-9268"
       },
       "name": "Circadian timing does not modulate human temporal contrast sensitivity "
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1038/s44323-026-00108-x",
+      "url": "https://doi.org/10.1038/s44323-026-00108-x",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8572-9268"
+      },
+      "name": "Constructing melanopic light exposure profiles from sparse daily-route measurements"
     }
   ]
 }

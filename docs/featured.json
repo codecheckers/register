@@ -1,5 +1,22 @@
 [
   {
+    "Certificate ID": "2026-025",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-025/",
+    "Certificate PDF": "https://zenodo.org/api/records/22935939/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
+    "Repository Link": "https://github.com/codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
+    "Report": "https://doi.org/10.5281/zenodo.22935939",
+    "Title": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
+    "Paper reference": "https://doi.org/10.1038/s44323-026-00108-x",
+    "OpenAlex": null,
+    "Paper ISSN": null,
+    "Paper venue": null,
+    "Work publication date": null,
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2026-09-20"
+  },
+  {
     "Certificate ID": "2026-023",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2026-023/",
     "Certificate PDF": "https://zenodo.org/api/records/22094773/files/codecheck.pdf/content",
@@ -151,22 +168,5 @@
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2026-04-10"
-  },
-  {
-    "Certificate ID": "2026-010",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-010/",
-    "Certificate PDF": "https://osf.io/download/vrnzq/",
-    "Repository": "github::reproducible-agile/reviews-2026|reports/016",
-    "Repository Link": "https://github.com/reproducible-agile/reviews-2026|reports/016",
-    "Report": "https://doi.org/10.17605/OSF.IO/DA3Z4",
-    "Title": "Exploring urban polygonal representation learning for complex footprint groups",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-7-11-2026",
-    "OpenAlex": "https://openalex.org/W7164137138",
-    "Paper ISSN": "2700-8150",
-    "Paper venue": "AGILE GIScience Series",
-    "Work publication date": "2026-06-10",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2026-04-06"
   }
 ]
