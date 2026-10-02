@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <link rel="shortcut icon" type="image/png" href="../../favicon.png">
+  <link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
+  <link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../assets/codecheck-register.css">
+  <title>Validation rules 2.0 - CODECHECK Register</title>
+</head>
+<body>
+<div class="codecheck-navbar">
+  <div class="navbar-container">
+    <a href="../../index.html" class="navbar-brand" title="Go to list of checks">
+      <img src="../../codecheck_logo.svg" alt="Go to list of checks" class="navbar-logo">
+    </a>
+
+    <nav class="navbar-menu">
+      <a href="../../index.html" class="nav-link" title="Browse all CODECHECK certificates">Checks</a>
+      <a href="../../venues/index.html" class="nav-link" title="Browse venues that have hosted a CODECHECK">Venues</a>
+      <a href="../../works/index.html" class="nav-link" title="Browse checked papers">Works</a>
+      <a href="../../persons/index.html" class="nav-link" title="Browse people who authored or checked a paper">People</a>
+      <a href="../../organisations/index.html" class="nav-link" title="Browse organisations whose people authored or checked a paper">Organisations</a>
+      <a href="../../statistics/index.html" class="nav-link" title="View register statistics">Statistics</a>
+      <a href="https://codecheck.org.uk/" class="nav-link" title="About the CODECHECK project">About</a>
+    </nav>
+  </div>
+</div>
+
+  <div class="rules-container">
+    <h1 class="rules-title">CODECHECK validation rules, specification 2.0</h1>
+    <p>
+      The 62 rules that CODECHECK tooling applies to a <code>codecheck.yml</code>,
+      its bundle, the certificate and the register entry, for
+      <a href="https://codecheck.org.uk/spec/config/2.0/">version 2.0 of the configuration file specification</a>
+      (published 2026-09-11; rules updated 2026-10-02).
+      The rule file is the source of truth; see
+      <a href="https://github.com/codecheckers/register/blob/master/RULES.md">RULES.md</a>
+      for the identifier scheme.
+    </p>
+    <p>
+      Severity follows the specification's RFC 2119 keywords:
+      <span class="rules-severity rules-severity-error">error</span> for MUST,
+      <span class="rules-severity rules-severity-warning">warning</span> for SHOULD,
+      <span class="rules-severity rules-severity-info">info</span> for MAY or advice.
+      Other versions:
+      <a href="../1.0/">1.0</a> 
+    </p>
+    <h2 class="rules-area">Configuration file</h2>
+    <div class="rules-table-wrap">
+      <table class="rules-table">
+        <thead><tr><th>ID</th><th>Name</th><th>Severity</th><th>Reference</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr id="CC-CFG-001">
+            <td><a href="#CC-CFG-001">CC-CFG-001</a></td>
+            <td><code>yaml-parses</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#format</td>
+            <td>The codecheck.yml is well-formed YAML 1.1 or later and UTF-8 encoded</td>
+          </tr>
+          <tr id="CC-CFG-002">
+            <td><a href="#CC-CFG-002">CC-CFG-002</a></td>
+            <td><code>explicit-document</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#explicit-document-and-directive</td>
+            <td>The file starts with the explicit document marker ---</td>
+          </tr>
+          <tr id="CC-CFG-003">
+            <td><a href="#CC-CFG-003">CC-CFG-003</a></td>
+            <td><code>file-name-and-location</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#storage-location</td>
+            <td>The file is named codecheck.yml and sits at the root of the bundle</td>
+          </tr>
+          <tr id="CC-CFG-004">
+            <td><a href="#CC-CFG-004">CC-CFG-004</a></td>
+            <td><code>manifest-present</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#manifest-list</td>
+            <td>A root-level manifest list is present</td>
+          </tr>
+          <tr id="CC-CFG-005">
+            <td><a href="#CC-CFG-005">CC-CFG-005</a></td>
+            <td><code>manifest-item-file</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#manifest-list</td>
+            <td>Every manifest item has a file node</td>
+          </tr>
+          <tr id="CC-CFG-006">
+            <td><a href="#CC-CFG-006">CC-CFG-006</a></td>
+            <td><code>manifest-path-relative</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#manifest-list</td>
+            <td>Manifest file paths are relative to the codecheck.yml</td>
+          </tr>
+          <tr id="CC-CFG-007">
+            <td><a href="#CC-CFG-007">CC-CFG-007</a></td>
+            <td><code>manifest-item-comment</code></td>
+            <td><span class="rules-severity rules-severity-info">info</span></td>
+            <td>spec/config/2.0#manifest-list</td>
+            <td>Every manifest item has a human-readable comment (MAY, advisory only)</td>
+          </tr>
+          <tr id="CC-CFG-008">
+            <td><a href="#CC-CFG-008">CC-CFG-008</a></td>
+            <td><code>codechecker-present</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#codecheck-metadata</td>
+            <td>A root-level codechecker list with at least one entry is present</td>
+          </tr>
+          <tr id="CC-CFG-009">
+            <td><a href="#CC-CFG-009">CC-CFG-009</a></td>
+            <td><code>codechecker-name</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#codecheck-metadata</td>
+            <td>Every codechecker entry has a name</td>
+          </tr>
+          <tr id="CC-CFG-010">
+            <td><a href="#CC-CFG-010">CC-CFG-010</a></td>
+            <td><code>codechecker-orcid</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>spec/config/2.0#codecheck-metadata</td>
+            <td>Every codechecker entry has an ORCID</td>
+          </tr>
+          <tr id="CC-CFG-011">
+            <td><a href="#CC-CFG-011">CC-CFG-011</a></td>
+            <td><code>report-present</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#codecheck-metadata</td>
+            <td>A root-level report node identifies the published certificate</td>
+          </tr>
+          <tr id="CC-CFG-012">
+            <td><a href="#CC-CFG-012">CC-CFG-012</a></td>
+            <td><code>report-resolvable</code></td>
+            <td><span class="rules-severity rules-severity-info">info</span></td>
+            <td>spec/config/2.0#codecheck-metadata</td>
+            <td>The report identifier is in a resolvable form such as a DOI URL (ideally, advisory only)</td>
+          </tr>
+          <tr id="CC-CFG-013">
+            <td><a href="#CC-CFG-013">CC-CFG-013</a></td>
+            <td><code>report-doi-not-placeholder</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>R:is_doi_placeholder</td>
+            <td>The report DOI is not a placeholder such as zenodo.FIXME</td>
+          </tr>
+          <tr id="CC-CFG-014">
+            <td><a href="#CC-CFG-014">CC-CFG-014</a></td>
+            <td><code>version-present</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>spec/config/2.0#version</td>
+            <td>A version node names the specification version used</td>
+          </tr>
+          <tr id="CC-CFG-015">
+            <td><a href="#CC-CFG-015">CC-CFG-015</a></td>
+            <td><code>version-known</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>spec/config/2.0#version</td>
+            <td>The version URL matches a published specification version</td>
+          </tr>
+          <tr id="CC-CFG-016">
+            <td><a href="#CC-CFG-016">CC-CFG-016</a></td>
+            <td><code>paper-present</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>A root-level paper node is present</td>
+          </tr>
+          <tr id="CC-CFG-017">
+            <td><a href="#CC-CFG-017">CC-CFG-017</a></td>
+            <td><code>paper-title</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>paper.title is present</td>
+          </tr>
+          <tr id="CC-CFG-018">
+            <td><a href="#CC-CFG-018">CC-CFG-018</a></td>
+            <td><code>paper-authors</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>paper.authors is a sequence with at least one entry</td>
+          </tr>
+          <tr id="CC-CFG-019">
+            <td><a href="#CC-CFG-019">CC-CFG-019</a></td>
+            <td><code>paper-author-name</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>Every paper author entry has a name</td>
+          </tr>
+          <tr id="CC-CFG-020">
+            <td><a href="#CC-CFG-020">CC-CFG-020</a></td>
+            <td><code>paper-author-orcid</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>Every paper author entry has an ORCID, given as the plain identifier without URL prefix</td>
+          </tr>
+          <tr id="CC-CFG-021">
+            <td><a href="#CC-CFG-021">CC-CFG-021</a></td>
+            <td><code>paper-reference</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>A reference to the article is provided in paper.reference</td>
+          </tr>
+          <tr id="CC-CFG-022">
+            <td><a href="#CC-CFG-022">CC-CFG-022</a></td>
+            <td><code>reference-not-bare-pdf</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>paper.reference points at a DOI or landing page rather than a direct, unarchived PDF</td>
+          </tr>
+          <tr id="CC-CFG-023">
+            <td><a href="#CC-CFG-023">CC-CFG-023</a></td>
+            <td><code>no-placeholder-values</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>R:complete_codecheck_yml</td>
+            <td>No field still holds a FIXME/TODO/XXXXX placeholder value</td>
+          </tr>
+          <tr id="CC-CFG-024">
+            <td><a href="#CC-CFG-024">CC-CFG-024</a></td>
+            <td><code>summary-present</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#codecheck-metadata</td>
+            <td>A root-level summary gives a short textual summary of the certificate</td>
+          </tr>
+          <tr id="CC-CFG-025">
+            <td><a href="#CC-CFG-025">CC-CFG-025</a></td>
+            <td><code>certificate-present</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#codecheck-metadata</td>
+            <td>A root-level certificate node carries the register identifier</td>
+          </tr>
+          <tr id="CC-CFG-026">
+            <td><a href="#CC-CFG-026">CC-CFG-026</a></td>
+            <td><code>certificate-id-format</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>R:validate_certificate_github_issue</td>
+            <td>The certificate identifier matches the YYYY-NNN pattern</td>
+          </tr>
+          <tr id="CC-CFG-027">
+            <td><a href="#CC-CFG-027">CC-CFG-027</a></td>
+            <td><code>reference-is-url</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>paper.reference is a resolvable URL rather than free text; tools do not extract URLs from surrounding text</td>
+          </tr>
+          <tr id="CC-CFG-028">
+            <td><a href="#CC-CFG-028">CC-CFG-028</a></td>
+            <td><code>reference-prefers-doi</code></td>
+            <td><span class="rules-severity rules-severity-info">info</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>paper.reference is a DOI, preferred over other URLs for long-term availability</td>
+          </tr>
+          <tr id="CC-CFG-029">
+            <td><a href="#CC-CFG-029">CC-CFG-029</a></td>
+            <td><code>reference-other-is-list</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>reference-other, when present, is a sequence</td>
+          </tr>
+          <tr id="CC-CFG-030">
+            <td><a href="#CC-CFG-030">CC-CFG-030</a></td>
+            <td><code>reference-other-item-form</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>Every reference-other entry is a resolvable URL, preferably a DOI</td>
+          </tr>
+          <tr id="CC-CFG-031">
+            <td><a href="#CC-CFG-031">CC-CFG-031</a></td>
+            <td><code>reference-pdf-is-archived</code></td>
+            <td><span class="rules-severity rules-severity-info">info</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>paper.reference is a direct PDF link, but a web archive snapshot, which is acceptable where no DOI or landing page exists</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 class="rules-area">External identifiers and metadata</h2>
+    <div class="rules-table-wrap">
+      <table class="rules-table">
+        <thead><tr><th>ID</th><th>Name</th><th>Severity</th><th>Reference</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr id="CC-MET-001">
+            <td><a href="#CC-MET-001">CC-MET-001</a></td>
+            <td><code>orcid-format</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>R:validate_codecheck_yml_orcid</td>
+            <td>Every ORCID is syntactically valid including its checksum digit</td>
+          </tr>
+          <tr id="CC-MET-002">
+            <td><a href="#CC-MET-002">CC-MET-002</a></td>
+            <td><code>orcid-resolves</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_codecheck_yml_orcid</td>
+            <td>Every ORCID resolves against the ORCID public API</td>
+          </tr>
+          <tr id="CC-MET-003">
+            <td><a href="#CC-MET-003">CC-MET-003</a></td>
+            <td><code>orcid-name-match</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_codecheck_yml_orcid</td>
+            <td>The name given matches the name on the ORCID record</td>
+          </tr>
+          <tr id="CC-MET-004">
+            <td><a href="#CC-MET-004">CC-MET-004</a></td>
+            <td><code>paper-reference-resolves</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_codecheck_yml_metadata</td>
+            <td>The single paper.reference identifier resolves; with a DOI this is a lookup in an open scholarly database</td>
+          </tr>
+          <tr id="CC-MET-005">
+            <td><a href="#CC-MET-005">CC-MET-005</a></td>
+            <td><code>paper-title-match</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_codecheck_yml_metadata</td>
+            <td>The paper title matches the record in an open scholarly database</td>
+          </tr>
+          <tr id="CC-MET-006">
+            <td><a href="#CC-MET-006">CC-MET-006</a></td>
+            <td><code>paper-author-count-match</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_codecheck_yml_metadata</td>
+            <td>The number of authors matches the record in an open scholarly database</td>
+          </tr>
+          <tr id="CC-MET-007">
+            <td><a href="#CC-MET-007">CC-MET-007</a></td>
+            <td><code>paper-author-name-match</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_codecheck_yml_metadata</td>
+            <td>Each author name matches the record in an open scholarly database</td>
+          </tr>
+          <tr id="CC-MET-008">
+            <td><a href="#CC-MET-008">CC-MET-008</a></td>
+            <td><code>paper-author-orcid-match</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_codecheck_yml_metadata</td>
+            <td>Author ORCIDs match those in an open scholarly database</td>
+          </tr>
+          <tr id="CC-MET-009">
+            <td><a href="#CC-MET-009">CC-MET-009</a></td>
+            <td><code>reference-other-resolves</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>Every reference-other entry resolves</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 class="rules-area">Bundle and repository</h2>
+    <div class="rules-table-wrap">
+      <table class="rules-table">
+        <thead><tr><th>ID</th><th>Name</th><th>Severity</th><th>Reference</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr id="CC-BUN-001">
+            <td><a href="#CC-BUN-001">CC-BUN-001</a></td>
+            <td><code>manifest-files-exist</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>guide/bundle</td>
+            <td>Every manifest file exists at the stated path</td>
+          </tr>
+          <tr id="CC-BUN-002">
+            <td><a href="#CC-BUN-002">CC-BUN-002</a></td>
+            <td><code>codecheck-directory-present</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>guide/bundle</td>
+            <td>The bundle contains a codecheck/ or .codecheck/ directory</td>
+          </tr>
+          <tr id="CC-BUN-003">
+            <td><a href="#CC-BUN-003">CC-BUN-003</a></td>
+            <td><code>report-file-present</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>guide/bundle</td>
+            <td>The certificate report file is present in the bundle</td>
+          </tr>
+          <tr id="CC-BUN-004">
+            <td><a href="#CC-BUN-004">CC-BUN-004</a></td>
+            <td><code>repository-reachable</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>R:get_codecheck_yml_github|gitlab|osf|zenodo</td>
+            <td>The material under check is reachable at its stated location, for every supported source: GitHub, GitLab, OSF and Zenodo</td>
+          </tr>
+          <tr id="CC-BUN-005">
+            <td><a href="#CC-BUN-005">CC-BUN-005</a></td>
+            <td><code>licence-present</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The repository under check states a licence</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 class="rules-area">Certificate and its archive record</h2>
+    <div class="rules-table-wrap">
+      <table class="rules-table">
+        <thead><tr><th>ID</th><th>Name</th><th>Severity</th><th>Reference</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr id="CC-REP-001">
+            <td><a href="#CC-REP-001">CC-REP-001</a></td>
+            <td><code>report-doi-version-specific</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_certificate_for_rendering</td>
+            <td>The report DOI is version-specific rather than a Zenodo concept DOI</td>
+          </tr>
+          <tr id="CC-REP-002">
+            <td><a href="#CC-REP-002">CC-REP-002</a></td>
+            <td><code>report-doi-newest-version</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_certificate_for_rendering</td>
+            <td>The report DOI points at the newest published version of the record</td>
+          </tr>
+          <tr id="CC-REP-003" class="rules-deprecated">
+            <td><a href="#CC-REP-003">CC-REP-003</a></td>
+            <td><code>zenodo-files-present</code> <em>(deprecated)</em></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>Split into CC-REP-007 (certificate PDF present), CC-REP-008 (PDF named codecheck.pdf), CC-REP-009 (certificate source present) and CC-REP-010 (one certificate source only)</td>
+          </tr>
+          <tr id="CC-REP-004">
+            <td><a href="#CC-REP-004">CC-REP-004</a></td>
+            <td><code>zenodo-certificate-id-match</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The certificate identifier in the Zenodo record matches the one in the codecheck.yml</td>
+          </tr>
+          <tr id="CC-REP-005">
+            <td><a href="#CC-REP-005">CC-REP-005</a></td>
+            <td><code>zenodo-codechecker-names-match</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The codechecker names in the Zenodo record match those in the codecheck.yml</td>
+          </tr>
+          <tr id="CC-REP-006">
+            <td><a href="#CC-REP-006">CC-REP-006</a></td>
+            <td><code>zenodo-codechecker-orcids-match</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The codechecker ORCIDs in the Zenodo record match those in the codecheck.yml</td>
+          </tr>
+          <tr id="CC-REP-007">
+            <td><a href="#CC-REP-007">CC-REP-007</a></td>
+            <td><code>zenodo-certificate-pdf-present</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The Zenodo record carries the certificate as a PDF file</td>
+          </tr>
+          <tr id="CC-REP-008">
+            <td><a href="#CC-REP-008">CC-REP-008</a></td>
+            <td><code>zenodo-certificate-pdf-name</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The certificate PDF in the Zenodo record is named codecheck.pdf</td>
+          </tr>
+          <tr id="CC-REP-009">
+            <td><a href="#CC-REP-009">CC-REP-009</a></td>
+            <td><code>zenodo-certificate-source-present</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The Zenodo record carries the certificate source, a machine-readable file such as codecheck.Rmd, .qmd, .ipynb, .docx, .odt, .md or .tex, not only the PDF</td>
+          </tr>
+          <tr id="CC-REP-010">
+            <td><a href="#CC-REP-010">CC-REP-010</a></td>
+            <td><code>zenodo-certificate-source-unambiguous</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The Zenodo record carries at most one executable certificate source, not several of codecheck.Rmd, codecheck.qmd and codecheck.ipynb</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 class="rules-area">Register entry</h2>
+    <div class="rules-table-wrap">
+      <table class="rules-table">
+        <thead><tr><th>ID</th><th>Name</th><th>Severity</th><th>Reference</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr id="CC-REG-001">
+            <td><a href="#CC-REG-001">CC-REG-001</a></td>
+            <td><code>certificate-unique</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>practice</td>
+            <td>The certificate identifier does not already exist in register.csv</td>
+          </tr>
+          <tr id="CC-REG-002">
+            <td><a href="#CC-REG-002">CC-REG-002</a></td>
+            <td><code>certificate-id-sequence</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>practice</td>
+            <td>The certificate identifier follows YYYY-NNN and continues the year's sequence</td>
+          </tr>
+          <tr id="CC-REG-003">
+            <td><a href="#CC-REG-003">CC-REG-003</a></td>
+            <td><code>repository-spec-format</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>practice</td>
+            <td>The Repository column uses a known prefix: github:: gitlab:: osf:: zenodo::</td>
+          </tr>
+          <tr id="CC-REG-004">
+            <td><a href="#CC-REG-004">CC-REG-004</a></td>
+            <td><code>type-known</code></td>
+            <td><span class="rules-severity rules-severity-error">error</span></td>
+            <td>practice</td>
+            <td>The Type column is one of journal conference community institution</td>
+          </tr>
+          <tr id="CC-REG-005">
+            <td><a href="#CC-REG-005">CC-REG-005</a></td>
+            <td><code>venue-known</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The Venue is listed in venues.csv</td>
+          </tr>
+          <tr id="CC-REG-006">
+            <td><a href="#CC-REG-006">CC-REG-006</a></td>
+            <td><code>issue-exists</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_certificate_github_issue</td>
+            <td>The Issue number resolves to an issue in codecheckers/register</td>
+          </tr>
+          <tr id="CC-REG-007">
+            <td><a href="#CC-REG-007">CC-REG-007</a></td>
+            <td><code>issue-references-certificate</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>R:validate_certificate_github_issue</td>
+            <td>The referenced issue's title carries the certificate identifier</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="rules-container">
+<hr class="footer-separator" />
+
+<!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
+<div class="footer-content">
+    <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
+            href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a> | <a
+            href="https://doi.org/10.53962/qtrx-1a"><i class="fa fa-flask"></i> ResearchEquals Collection</a></p>
+
+    <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p><a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"><img title="license logo CC BY-SA 4.0"
+                src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></a>
+    </p>
+
+    <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
+
+    <p class="footer-description">CODECHECK is a process for independent execution of
+        computations underlying scholarly research articles.</p>
+
+    <p class="build-info">Built: 2026-10-02 11:27:56 CEST | codecheck v0.31.0.9000 | register f41a917</p>
+</div>
+  </div>
+</body>
+</html>

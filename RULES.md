@@ -51,8 +51,13 @@ hardened.
 
 | File | Specification |
 |---|---|
-| `rules-1.0.yml` | [1.0](https://codecheck.org.uk/spec/config/1.0/), superseded but still referenced by existing certificates |
-| `rules-2.0.yml` | [2.0](https://codecheck.org.uk/spec/config/2.0/), the current version, at `spec/config/latest`; absorbs the former 1.x draft |
+| `rules-1.0.yml` | [1.0](https://codecheck.org.uk/spec/config/1.0/), superseded but still referenced by existing certificates; [rendered](https://codecheck.org.uk/register/rules/1.0/) |
+| `rules-2.0.yml` | [2.0](https://codecheck.org.uk/spec/config/2.0/), the current version, at `spec/config/latest`; absorbs the former 1.x draft; [rendered](https://codecheck.org.uk/register/rules/2.0/) |
+
+The register renders each file as a readable page, with an anchor per rule
+(for example [`rules/2.0/#CC-REP-007`](https://codecheck.org.uk/register/rules/2.0/#CC-REP-007)).
+The pages are generated with the rest of the register, reachable by direct URL
+only, and not in the sitemap or the navigation.
 
 Each file also carries `spec_date`, the publication date of that specification
 version, taken from the specification page itself:
