@@ -92,23 +92,57 @@ again and drops their abstract, OpenAlex ID, PDF link and policy records, and
 keeps the rest of the cache. It needs a `codecheck` version with
 `register_clear_cache(certificates = )` (`make install_local`).
 
+## Running a render from Claude Code
+
+`make render` (which also runs the Zenodo and ResearchEquals policy audits)
+took about **seven minutes** for the 2026-025 render, far beyond the ~2 minutes
+a background shell task survives. Detach it and wait on its PID:
+
+```bash
+setsid nohup make render > <scratchpad>/render.log 2>&1 < /dev/null & echo $!
+# wait (Monitor or run_in_background) until the process is gone:
+while kill -0 <PID> 2>/dev/null; do sleep 5; done; tail -5 <scratchpad>/render.log
+```
+
+Do **not** wait with `pgrep -f register_render`: the pattern matches the
+waiting script's own command line, so it never sees the render end. A
+finished render ends its log with `✔ Register rendering complete`. The
+`! codechecker ORCID and GitHub username missing …` warnings and the long
+`✖` lists under the Zenodo/ResearchEquals curation policy headings are
+pre-existing. Read them for the new certificate only.
+
+**Stage only what the change touched.** The local cache never expires, so a
+local render reverts metadata that CI fetched more recently. The 2026-025
+render, for example, swapped 2025-007's abstract back, moved 2024-025's
+publication date (and its `"days"` entry in every `stats.json`/`statistics.json`
+that lists it) and dropped University of Twente affiliations. List the
+suspects with
+`git diff -U0 docs/ | grep -E '^\+\+\+|<other cert IDs or values>'`. Leave
+whole files that only carry such drift unstaged, along with `docs/.meta.json`
+and the build-info footer in `docs/rules/*/index.html`. Aggregate files
+(`statistics.json`, `register*.json`) that mix the new certificate with a
+drifted line can be staged, because the next CI render corrects them.
+A new certificate also legitimately changes `.zenodo.json` (codechecker added
+as contributor) and `persons.csv` (Wikidata items of newly resolved ORCIDs).
+
 ## Adding a new certificate
 
 1. Read the Zenodo record: `curl -s https://zenodo.org/api/records/<RECORD ID> | python3 -m json.tool`. Add `-H "Accept: application/vnd.inveniordm.v1+json"` for the representation the curation policy is written against (creators as `person_or_org`, alternate identifiers under `metadata.identifiers`).
-2. Read `codecheck.yml` from the checked repository (`https://raw.githubusercontent.com/codecheckers/<repo>/<branch>/codecheck.yml`) for the certificate ID, paper reference, codechecker and `check_time`. This file, not the Zenodo record, is what the register renders from.
+2. Read `codecheck.yml` from the checked repository (`https://raw.githubusercontent.com/codecheckers/<repo>/<branch>/codecheck.yml`) for the certificate ID, paper reference, codechecker and `check_time`. This file, not the Zenodo record, is what the register renders from. If the issue doesn't name the `codecheckers/` repository, the newest repositories in the org usually include it: `gh api 'orgs/codecheckers/repos?sort=created&direction=desc&per_page=8' --jq '.[]|.name+" "+.default_branch'`.
 3. Find the register issue for the certificate. **`gh issue view` currently fails** with a Projects-classic GraphQL deprecation error; use the REST API instead:
    `gh api repos/codecheckers/register/issues/<N> --jq '.title+"\n"+.body'` and `gh api repos/codecheckers/register/issues/<N>/comments`.
    To find the issue by certificate ID: `gh api repos/codecheckers/register/issues --paginate --jq '.[] | "\(.number) \(.title)"'` — issue titles follow `Author names | YYYY-NNN`.
-4. Append one row to `register.csv` (append at the end, the renderer sorts).
-5. `make render`, then verify `docs/certs/<CERT ID>/index.html` exists and the entry in `docs/register.json` carries the right title, paper reference and check date.
+   The comment thread of a long check can be 100 KB (logs, Dockerfiles, screenshots); grep it for links instead of reading it whole.
+4. Append one row to `register.csv` (append at the end, the renderer sorts), leaving the `Wikidata` column empty.
+5. `make render` (detached, see "Running a render from Claude Code"), then verify `docs/certs/<CERT ID>/index.html` exists and the entry in `docs/register.json` carries the right title, paper reference and check date.
 6. Preview with `make serve` → `http://localhost/certs/<CERT ID>/`, then `make serve-stop`.
-7. Stage `register.csv` and `docs/` together and propose the commit message (see Conventions).
+7. Stage `register.csv` and the `docs/` files belonging to the new certificate together (not the stale-cache drift) and propose the commit message (see Conventions).
 8. Audit the Zenodo record: `make zenodo_check CERT_ID=<CERT ID>` (see below).
 9. Propose the issue-closing comments (see below).
 
 ## Venue and type conventions
 
-`register.csv` columns: `Certificate,Repository,Type,Venue,Issue`. `Venue` must be a `name` from `venues.csv`; a new venue needs a `venues.csv` row (`name,longname,label`; `fediverse` and `hashtags` optional, see README) first.
+`register.csv` columns: `Certificate,Repository,Type,Venue,Issue,Wikidata`. `Wikidata` is the certificate's Wikidata item (see #50); it stays empty in a new row. `Venue` must be a `name` from `venues.csv`; a new venue needs a `venues.csv` row (`name,longname,label`; `fediverse` and `hashtags` optional, see README) first.
 
 - `community` + `codecheck` — community check published in the register itself
 - `community` + `preprint` — community check where the checked work is a preprint
