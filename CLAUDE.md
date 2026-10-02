@@ -96,17 +96,20 @@ keeps the rest of the cache. It needs a `codecheck` version with
 
 `make render` (which also runs the Zenodo and ResearchEquals policy audits)
 took about **seven minutes** for the 2026-025 render, far beyond the ~2 minutes
-a background shell task survives. Detach it and wait on its PID:
+a background shell task survives. Detach it, then wait on the R process
+itself (Bash `run_in_background`):
 
 ```bash
-setsid nohup make render > <scratchpad>/render.log 2>&1 < /dev/null & echo $!
-# wait (Monitor or run_in_background) until the process is gone:
-while kill -0 <PID> 2>/dev/null; do sleep 5; done; tail -5 <scratchpad>/render.log
+setsid nohup make render > <scratchpad>/render.log 2>&1 < /dev/null &
+while pgrep -f '^/usr/lib/R/bin/exec/R .*register_render' >/dev/null; do sleep 10; done; tail -5 <scratchpad>/render.log
 ```
 
-Do **not** wait with `pgrep -f register_render`: the pattern matches the
-waiting script's own command line, so it never sees the render end. A
-finished render ends its log with `✔ Register rendering complete`. The
+The same works for `tinytest::build_install_test` in `../codecheck/` (pattern
+`build_install_test`). Keep the pattern anchored at `^/usr/lib/R/bin/exec/R`:
+an unanchored `pgrep -f register_render` also matches the waiting loop's own
+command line, so it never sees the render end. Waiting on `$!` doesn't work
+either: after `setsid nohup R …` that PID belonged to a wrapper that exited
+right away while R kept running. A finished render ends its log with `✔ Register rendering complete`. The
 `! codechecker ORCID and GitHub username missing …` warnings and the long
 `✖` lists under the Zenodo/ResearchEquals curation policy headings are
 pre-existing. Read them for the new certificate only.
