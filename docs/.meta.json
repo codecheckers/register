@@ -1,6 +1,7 @@
 {
-  "timestamp": "2026-10-08 00:56:41 CEST",
+  "timestamp": "2026-10-07 23:12:21 UTC",
   "package_version": "0.31.0.9000",
-  "register_commit": "8fbbe515283b2018c3e9830708805feb73cfa3bc",
-  "register_commit_short": "8fbbe51"
+  "register_commit": "a6ca687e3a0e13229c499c9f891f096e0fdca841",
+  "register_commit_short": "a6ca687",
+  "register_commit_url": "https://github.com/codecheckers/register/commit/a6ca687e3a0e13229c499c9f891f096e0fdca841"
 }

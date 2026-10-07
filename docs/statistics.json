@@ -173,7 +173,7 @@
     },
     {
       "id": "2021-001",
-      "days": 26
+      "days": -78
     },
     {
       "id": "2021-002",
@@ -213,7 +213,7 @@
     },
     {
       "id": "2022-001",
-      "days": -1422
+      "days": -1716
     },
     {
       "id": "2022-002",
@@ -421,7 +421,7 @@
     },
     {
       "id": "2024-025",
-      "days": -665
+      "days": -698
     },
     {
       "id": "2025-001",
@@ -493,7 +493,7 @@
     },
     {
       "id": "2025-018",
-      "days": 191
+      "days": 82
     },
     {
       "id": "2025-019",
@@ -605,17 +605,17 @@
     }
   ],
   "interval_buckets": {
-    "Before publication": 48,
-    "0-1mo": 50,
-    "1-3mo": 8,
+    "Before publication": 49,
+    "0-1mo": 49,
+    "1-3mo": 9,
     "3-6mo": 7,
-    "6-12mo": 8,
+    "6-12mo": 7,
     "1-2y": 1,
     "2-5y": 6,
     "5y+": 5
   },
   "interval_summary": {
-    "pct_before_publication": 36,
+    "pct_before_publication": 37,
     "pct_within_6mo": 49,
     "max_years": 38
   },
