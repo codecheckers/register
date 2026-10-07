@@ -5,15 +5,15 @@
     "Country": "The Netherlands",
     "Works authored": 4,
     "Checks conducted": 12,
-    "People": 7
+    "People": 8
   },
   {
     "Organisation": "Delft University of Technology",
     "ROR": "02e2c7k09",
     "Country": "The Netherlands",
-    "Works authored": 8,
+    "Works authored": 9,
     "Checks conducted": 11,
-    "People": 23
+    "People": 26
   },
   {
     "Organisation": "University of Münster",
@@ -256,6 +256,14 @@
     "People": 1
   },
   {
+    "Organisation": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+    "ROR": "04bwf3e34",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
     "Organisation": "GFZ Helmholtz Centre for Geosciences",
     "ROR": "04z8jg394",
     "Country": "Germany",
@@ -427,6 +435,14 @@
     "Organisation": "Technical University of Denmark",
     "ROR": "04qtj9h94",
     "Country": "Denmark",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Thales (France)",
+    "ROR": "04emwm605",
+    "Country": "France",
     "Works authored": 1,
     "Checks conducted": 0,
     "People": 1

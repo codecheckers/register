@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/register.json",
-  "cert_count": 133,
+  "cert_count": 134,
   "venue_count": 13,
   "venues_per_type": {
     "community": 4,
@@ -44,7 +44,7 @@
     "2026": {
       "community": 3,
       "conference": 14,
-      "institution": 1,
+      "institution": 2,
       "journal": 1
     }
   },
@@ -56,7 +56,7 @@
     "2023": 12,
     "2024": 24,
     "2025": 26,
-    "2026": 19
+    "2026": 20
   },
   "checks_cumulative": {
     "2019": 1,
@@ -66,9 +66,9 @@
     "2023": 64,
     "2024": 88,
     "2025": 114,
-    "2026": 133
+    "2026": 134
   },
-  "interval_n": 130,
+  "interval_n": 131,
   "interval_excluded": 3,
   "interval_points": [
     {
@@ -173,7 +173,7 @@
     },
     {
       "id": "2021-001",
-      "days": 26
+      "days": -78
     },
     {
       "id": "2021-002",
@@ -213,7 +213,7 @@
     },
     {
       "id": "2022-001",
-      "days": -1422
+      "days": -1716
     },
     {
       "id": "2022-002",
@@ -421,7 +421,7 @@
     },
     {
       "id": "2024-025",
-      "days": -665
+      "days": -698
     },
     {
       "id": "2025-001",
@@ -493,7 +493,7 @@
     },
     {
       "id": "2025-018",
-      "days": 191
+      "days": 82
     },
     {
       "id": "2025-019",
@@ -588,23 +588,27 @@
       "days": -25
     },
     {
+      "id": "2026-022",
+      "days": 17
+    },
+    {
       "id": "2026-023",
       "days": 283
     }
   ],
   "interval_buckets": {
-    "Before publication": 48,
+    "Before publication": 49,
     "0-1mo": 49,
-    "1-3mo": 8,
+    "1-3mo": 9,
     "3-6mo": 6,
-    "6-12mo": 8,
+    "6-12mo": 7,
     "1-2y": 1,
     "2-5y": 6,
     "5y+": 4
   },
   "interval_summary": {
     "pct_before_publication": 37,
-    "pct_within_6mo": 48,
+    "pct_within_6mo": 49,
     "max_years": 38
   },
   "venues_per_year": {
@@ -636,7 +640,7 @@
     "2023": 8,
     "2024": 31,
     "2025": 25,
-    "2026": 15
+    "2026": 16
   },
   "codecheckers_cumulative": {
     "2019": 1,
@@ -680,7 +684,7 @@
     "2026": {
       "osf": 13,
       "researchequals": 1,
-      "zenodo": 5
+      "zenodo": 6
     }
   },
   "platform_cumulative": {
@@ -722,7 +726,7 @@
     "2026": {
       "osf": 73,
       "researchequals": 4,
-      "zenodo": 56
+      "zenodo": 57
     }
   },
   "venues_detail": [
@@ -885,7 +889,7 @@
       "longname": "TU Delft Digital Competence Centre",
       "year_range": "2025-2026",
       "label": "institution",
-      "cert_count": 9,
+      "cert_count": 10,
       "page_type": "institution",
       "page_type_plural": "institutions",
       "page_slug": "TU%20Delft%20DCC",
@@ -938,7 +942,7 @@
     {
       "name": "unknown",
       "venue_count": 7,
-      "cert_count": 52
+      "cert_count": 53
     }
   ]
 }

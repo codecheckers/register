@@ -33,7 +33,7 @@
   "interval_points": [
     {
       "id": "2022-001",
-      "days": -1422
+      "days": -1716
     }
   ],
   "interval_buckets": {
@@ -49,7 +49,7 @@
   "interval_summary": {
     "pct_before_publication": 100,
     "pct_within_6mo": 0,
-    "max_years": -4
+    "max_years": -5
   },
   "venues_per_year": {
     "2022": 1

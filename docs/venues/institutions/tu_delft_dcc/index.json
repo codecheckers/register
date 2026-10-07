@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/register.json",
-  "cert_count": 9,
+  "cert_count": 10,
   "venue": {
     "name": "TU Delft DCC",
     "longname": "TU Delft Digital Competence Centre",
@@ -30,18 +30,18 @@
       "institution": 8
     },
     "2026": {
-      "institution": 1
+      "institution": 2
     }
   },
   "checks_per_year": {
     "2025": 8,
-    "2026": 1
+    "2026": 2
   },
   "checks_cumulative": {
     "2025": 8,
-    "2026": 9
+    "2026": 10
   },
-  "interval_n": 9,
+  "interval_n": 10,
   "interval_excluded": 0,
   "interval_points": [
     {
@@ -62,7 +62,7 @@
     },
     {
       "id": "2025-018",
-      "days": 191
+      "days": 82
     },
     {
       "id": "2025-019",
@@ -79,21 +79,25 @@
     {
       "id": "2026-001",
       "days": -57
+    },
+    {
+      "id": "2026-022",
+      "days": 17
     }
   ],
   "interval_buckets": {
     "Before publication": 3,
-    "0-1mo": 1,
-    "1-3mo": 1,
+    "0-1mo": 2,
+    "1-3mo": 2,
     "3-6mo": 1,
-    "6-12mo": 1,
+    "6-12mo": 0,
     "1-2y": 0,
     "2-5y": 2,
     "5y+": 0
   },
   "interval_summary": {
-    "pct_before_publication": 33,
-    "pct_within_6mo": 33,
+    "pct_before_publication": 30,
+    "pct_within_6mo": 50,
     "max_years": 5
   },
   "venues_per_year": {
@@ -107,7 +111,7 @@
   "codechecker_count": 8,
   "codecheckers_per_year": {
     "2025": 8,
-    "2026": 2
+    "2026": 3
   },
   "codecheckers_cumulative": {
     "2025": 8,
@@ -118,7 +122,7 @@
       "zenodo": 8
     },
     "2026": {
-      "zenodo": 1
+      "zenodo": 2
     }
   },
   "platform_cumulative": {
@@ -126,7 +130,7 @@
       "zenodo": 8
     },
     "2026": {
-      "zenodo": 9
+      "zenodo": 10
     }
   },
   "venues_detail": [
@@ -135,7 +139,7 @@
       "longname": "TU Delft Digital Competence Centre",
       "year_range": "2025-2026",
       "label": "institution",
-      "cert_count": 9,
+      "cert_count": 10,
       "page_type": "institution",
       "page_type_plural": "institutions",
       "page_slug": "TU%20Delft%20DCC",
@@ -149,7 +153,7 @@
     {
       "name": "unknown",
       "venue_count": 1,
-      "cert_count": 9
+      "cert_count": 10
     }
   ]
 }

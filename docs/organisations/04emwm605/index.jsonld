@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04emwm605",
+  "name": "Thales (France)",
+  "identifier": "https://ror.org/04emwm605",
+  "url": "https://codecheck.org.uk/register/organisations/04emwm605/",
+  "sameAs": "https://www.thalesgroup.com/en",
+  "location": {
+    "@type": "Place",
+    "address": "Paris, France"
+  }
+}

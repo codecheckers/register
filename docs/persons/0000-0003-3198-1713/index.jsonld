@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0003-3198-1713",
+      "name": "Katrin Dahlmann",
+      "sameAs": "https://www.wikidata.org/entity/Q57614190"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/jecats-2026-13",
+      "url": "https://doi.org/10.5194/jecats-2026-13",
+      "author": {
+        "@id": "https://orcid.org/0000-0003-3198-1713"
+      },
+      "name": "Can we achieve significant climate mitigation by optimising only for contrails?"
+    }
+  ]
+}

@@ -132,11 +132,11 @@
     },
     {
       "id": "2021-001",
-      "days": 26
+      "days": -78
     },
     {
       "id": "2022-001",
-      "days": -1422
+      "days": -1716
     },
     {
       "id": "2023-011",
@@ -168,8 +168,8 @@
     }
   ],
   "interval_buckets": {
-    "Before publication": 8,
-    "0-1mo": 3,
+    "Before publication": 9,
+    "0-1mo": 2,
     "1-3mo": 3,
     "3-6mo": 0,
     "6-12mo": 2,
@@ -178,8 +178,8 @@
     "5y+": 2
   },
   "interval_summary": {
-    "pct_before_publication": 44,
-    "pct_within_6mo": 33,
+    "pct_before_publication": 50,
+    "pct_within_6mo": 28,
     "max_years": 28
   },
   "venues_per_year": {

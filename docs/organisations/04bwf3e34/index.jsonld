@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/04bwf3e34",
+  "name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+  "identifier": "https://ror.org/04bwf3e34",
+  "url": "https://codecheck.org.uk/register/organisations/04bwf3e34/",
+  "sameAs": "https://www.dlr.de",
+  "location": {
+    "@type": "Place",
+    "address": "Cologne, Germany"
+  }
+}

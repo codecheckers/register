@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0000-9255-6580",
+      "name": "Joël Clément"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/jecats-2026-13",
+      "url": "https://doi.org/10.5194/jecats-2026-13",
+      "author": {
+        "@id": "https://orcid.org/0009-0000-9255-6580"
+      },
+      "name": "Can we achieve significant climate mitigation by optimising only for contrails?"
+    }
+  ]
+}

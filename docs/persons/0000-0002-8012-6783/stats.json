@@ -1,0 +1,100 @@
+{
+  "source": "https://codecheck.org.uk/register/persons/0000-0002-8012-6783/register.json",
+  "cert_count": 1,
+  "person": {
+    "name": "Volker Grewe",
+    "orcid": "0000-0002-8012-6783",
+    "github_username": null,
+    "wikidata": "Q56875849",
+    "fediverse": null,
+    "fields": [],
+    "languages": [],
+    "works_authored": 1,
+    "checks_conducted": 0,
+    "venues": []
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "institution": 1
+  },
+  "checks_per_type_per_year": {
+    "2026": {
+      "institution": 1
+    }
+  },
+  "checks_per_year": {
+    "2026": 1
+  },
+  "checks_cumulative": {
+    "2026": 1
+  },
+  "interval_n": 1,
+  "interval_excluded": 0,
+  "interval_points": [
+    {
+      "id": "2026-022",
+      "days": 17
+    }
+  ],
+  "interval_buckets": {
+    "Before publication": 0,
+    "0-1mo": 1,
+    "1-3mo": 0,
+    "3-6mo": 0,
+    "6-12mo": 0,
+    "1-2y": 0,
+    "2-5y": 0,
+    "5y+": 0
+  },
+  "interval_summary": {
+    "pct_before_publication": 0,
+    "pct_within_6mo": 100,
+    "max_years": 0
+  },
+  "venues_per_year": {
+    "2026": 1
+  },
+  "venues_cumulative": {
+    "2026": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2026": 1
+  },
+  "codecheckers_cumulative": {
+    "2026": 1
+  },
+  "platform_per_year": {
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "TU Delft DCC",
+      "longname": "TU Delft Digital Competence Centre",
+      "year_range": "2026",
+      "label": "institution",
+      "cert_count": 1,
+      "page_type": "institution",
+      "page_type_plural": "institutions",
+      "page_slug": "TU%20Delft%20DCC",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/de/b/b5/TU_Delft_Logo.svg",
+      "website_url": "https://www.tudelft.nl/digital-competence-centre",
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

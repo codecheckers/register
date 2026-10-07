@@ -31,4 +31,5 @@ identifiers:
 |[2025-021](../../../certs/2025-021/)|[doi.org/10.5281/zenodo.16616998](https://doi.org/10.5281/zenodo.16616998)|[Airspeed estimation for UAVs using only propeller feedback](https://doi.org/10.48550/arXiv.2507.03456)               |2025-07-30 |
 |[2025-022](../../../certs/2025-022/)|[doi.org/10.5281/zenodo.16814874](https://doi.org/10.5281/zenodo.16814874)|[Reinforcement Learning With Model Predictive Control for Highway Ramp Metering](https://doi.org/10.1109/TITS.2025.3549227)|2025-08-04 |
 |[2026-001](../../../certs/2026-001/)|[doi.org/10.5281/zenodo.18890103](https://doi.org/10.5281/zenodo.18890103)|[Flow Field Analysis of a Leading-Edge Inflatable Kite Rigid Scale Model Using Stereoscopic Particle Image Velocimetry](https://doi.org/10.5194/wes-2025-217)|2026-03-03 |
+|[2026-022](../../../certs/2026-022/)|[doi.org/10.5281/zenodo.21932994](https://doi.org/10.5281/zenodo.21932994)|[Can we achieve significant climate mitigation by optimising only for contrails?](https://doi.org/10.5194/jecats-2026-13)|2026-08-14 |
 

@@ -1811,9 +1811,9 @@
     "Name": "Heather Andrews",
     "ORCID": "0000-0002-6637-2830",
     "Works authored": 0,
-    "Checks conducted": 1,
+    "Checks conducted": 2,
     "Check types": {
-      "institution": 1
+      "institution": 2
     }
   },
   {
@@ -2211,6 +2211,55 @@
   {
     "Name": "Jennifer A. Veitch",
     "ORCID": "0000-0003-3183-4537",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Jakob Smretschnig",
+    "ORCID": "0009-0003-6446-3039",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Feijia Yin",
+    "ORCID": "0000-0002-6081-9136",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Dennis Piontek",
+    "ORCID": "0000-0001-9426-0564",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Joël Clément",
+    "ORCID": "0009-0000-9255-6580",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Katrin Dahlmann",
+    "ORCID": "0000-0003-3198-1713",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Federica Castino",
+    "ORCID": "0000-0002-7069-0356",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Volker Grewe",
+    "ORCID": "0000-0002-8012-6783",
     "Works authored": 1,
     "Checks conducted": 0,
     "Check types": []

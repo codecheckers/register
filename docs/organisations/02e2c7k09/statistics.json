@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/organisations/02e2c7k09/register.json",
-  "cert_count": 32,
+  "cert_count": 35,
   "venue_count": 4,
   "venues_per_type": {
     "community": 3,
@@ -18,22 +18,22 @@
     },
     "2026": {
       "community": 1,
-      "institution": 4
+      "institution": 7
     }
   },
   "checks_per_year": {
     "2023": 1,
     "2024": 5,
     "2025": 21,
-    "2026": 5
+    "2026": 8
   },
   "checks_cumulative": {
     "2023": 1,
     "2024": 6,
     "2025": 27,
-    "2026": 32
+    "2026": 35
   },
-  "interval_n": 32,
+  "interval_n": 35,
   "interval_excluded": 0,
   "interval_points": [
     {
@@ -110,11 +110,11 @@
     },
     {
       "id": "2025-018",
-      "days": 191
+      "days": 82
     },
     {
       "id": "2025-018",
-      "days": 191
+      "days": 82
     },
     {
       "id": "2025-019",
@@ -163,21 +163,33 @@
     {
       "id": "2026-019",
       "days": -25
+    },
+    {
+      "id": "2026-022",
+      "days": 17
+    },
+    {
+      "id": "2026-022",
+      "days": 17
+    },
+    {
+      "id": "2026-022",
+      "days": 17
     }
   ],
   "interval_buckets": {
     "Before publication": 14,
-    "0-1mo": 2,
-    "1-3mo": 3,
+    "0-1mo": 5,
+    "1-3mo": 5,
     "3-6mo": 7,
-    "6-12mo": 3,
+    "6-12mo": 1,
     "1-2y": 0,
     "2-5y": 3,
     "5y+": 0
   },
   "interval_summary": {
-    "pct_before_publication": 44,
-    "pct_within_6mo": 38,
+    "pct_before_publication": 40,
+    "pct_within_6mo": 49,
     "max_years": 5
   },
   "venues_per_year": {
@@ -197,7 +209,7 @@
     "2023": 1,
     "2024": 10,
     "2025": 8,
-    "2026": 3
+    "2026": 4
   },
   "codecheckers_cumulative": {
     "2023": 1,
@@ -216,7 +228,7 @@
       "zenodo": 21
     },
     "2026": {
-      "zenodo": 5
+      "zenodo": 8
     }
   },
   "platform_cumulative": {
@@ -230,7 +242,7 @@
       "zenodo": 27
     },
     "2026": {
-      "zenodo": 32
+      "zenodo": 35
     }
   },
   "venues_detail": [
@@ -281,7 +293,7 @@
       "longname": "TU Delft Digital Competence Centre",
       "year_range": "2025-2026",
       "label": "institution",
-      "cert_count": 25,
+      "cert_count": 28,
       "page_type": "institution",
       "page_type_plural": "institutions",
       "page_slug": "TU%20Delft%20DCC",
@@ -295,7 +307,7 @@
     {
       "name": "unknown",
       "venue_count": 4,
-      "cert_count": 32
+      "cert_count": 35
     }
   ]
 }

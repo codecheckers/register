@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/jecats-2026-13",
+      "url": "https://doi.org/10.5194/jecats-2026-13",
+      "sameAs": "https://doi.org/10.5194/jecats-2026-13",
+      "name": "Can we achieve significant climate mitigation by optimising only for contrails?",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Jakob Smretschnig",
+          "@id": "https://orcid.org/0009-0003-6446-3039"
+        },
+        {
+          "@type": "Person",
+          "name": "Feijia Yin",
+          "@id": "https://orcid.org/0000-0002-6081-9136"
+        },
+        {
+          "@type": "Person",
+          "name": "Dennis Piontek",
+          "@id": "https://orcid.org/0000-0001-9426-0564"
+        },
+        {
+          "@type": "Person",
+          "name": "Joël Clément",
+          "@id": "https://orcid.org/0009-0000-9255-6580"
+        },
+        {
+          "@type": "Person",
+          "name": "Sergio Núñez Arribas"
+        },
+        {
+          "@type": "Person",
+          "name": "Katrin Dahlmann",
+          "@id": "https://orcid.org/0000-0003-3198-1713"
+        },
+        {
+          "@type": "Person",
+          "name": "Federica Castino",
+          "@id": "https://orcid.org/0000-0002-7069-0356"
+        },
+        {
+          "@type": "Person",
+          "name": "Volker Grewe",
+          "@id": "https://orcid.org/0000-0002-8012-6783"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-022/",
+      "name": "CODECHECK Certificate 2026-022",
+      "url": "https://codecheck.org.uk/register/certs/2026-022/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/jecats-2026-13"
+      },
+      "datePublished": "2026-08-14"
+    }
+  ]
+}

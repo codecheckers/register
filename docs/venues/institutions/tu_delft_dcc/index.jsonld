@@ -163,6 +163,22 @@
         "sameAs": "https://doi.org/10.5194/wes-2025-217"
       },
       "datePublished": "2026-03-03"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-022/",
+      "name": "CODECHECK Certificate 2026-022",
+      "url": "https://codecheck.org.uk/register/certs/2026-022/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q141254549"
+        },
+        "name": "Can we achieve significant climate mitigation by optimising only for contrails?",
+        "url": "https://doi.org/10.5194/jecats-2026-13",
+        "sameAs": "https://doi.org/10.5194/jecats-2026-13"
+      },
+      "datePublished": "2026-08-14"
     }
   ]
 }
