@@ -1,0 +1,22 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-5866-1472",
+      "name": "Simon Christ",
+      "sameAs": ["https://github.com/BeastyBlacksmith", "https://www.wikidata.org/entity/Q92483556"],
+      "knowsAbout": ["physics", "biophysics", "simulations", "julia", "Matlab", "Mathematica", "C", "C++", "Python", "R"]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-024/",
+      "name": "CODECHECK Certificate 2026-024",
+      "url": "https://codecheck.org.uk/register/certs/2026-024/",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-5866-1472"
+      },
+      "datePublished": "2026-09-26"
+    }
+  ]
+}

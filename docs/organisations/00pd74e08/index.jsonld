@@ -5,7 +5,7 @@
   "name": "University of Münster",
   "identifier": "https://ror.org/00pd74e08",
   "url": "https://codecheck.org.uk/register/organisations/00pd74e08/",
-  "sameAs": "https://www.uni-muenster.de/",
+  "sameAs": "https://www.uni-muenster.de",
   "location": {
     "@type": "Place",
     "address": "Münster, Germany"

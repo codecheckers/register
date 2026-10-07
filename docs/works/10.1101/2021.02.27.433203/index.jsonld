@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1101/2021.02.27.433203",
+      "url": "https://doi.org/10.1101/2021.02.27.433203",
+      "sameAs": ["https://doi.org/10.1101/2021.02.27.433203", "https://openalex.org/W3133925542"],
+      "name": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "A. C. Hexley",
+          "@id": "https://orcid.org/0000-0002-0173-540X"
+        },
+        {
+          "@type": "Person",
+          "name": "T. Morimoto",
+          "@id": "https://orcid.org/0000-0001-9897-8338"
+        },
+        {
+          "@type": "Person",
+          "name": "H. E. Smithson",
+          "@id": "https://orcid.org/0000-0001-8904-8315"
+        },
+        {
+          "@type": "Person",
+          "name": "M. Spitschan",
+          "@id": "https://orcid.org/0000-0002-8572-9268"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-024/",
+      "name": "CODECHECK Certificate 2026-024",
+      "url": "https://codecheck.org.uk/register/certs/2026-024/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.1101/2021.02.27.433203"
+      },
+      "datePublished": "2026-09-26"
+    }
+  ]
+}

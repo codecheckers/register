@@ -1,0 +1,342 @@
+{
+  "certificate": {
+    "id": "2026-024",
+    "title": "CODECHECK Certificate 2026-024",
+    "url": "https://codecheck.org.uk/register/certs/2026-024/"
+  },
+  "paper": {
+    "title": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals",
+    "authors": [
+      {
+        "name": "A. C. Hexley",
+        "orcid": "0000-0002-0173-540X"
+      },
+      {
+        "name": "T. Morimoto",
+        "orcid": "0000-0001-9897-8338"
+      },
+      {
+        "name": "H. E. Smithson",
+        "orcid": "0000-0001-8904-8315"
+      },
+      {
+        "name": "M. Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "reference": "https://doi.org/10.1101/2021.02.27.433203",
+    "abstract": {
+      "text": "<jats:title>Abstract<\/jats:title>\n                <jats:p>Colour gamuts describe the chromaticity reproduction capabilities of a display, i.e. its ability to reproduce the relative cone excitations from real-world radiance spectra. While the cones dominate “canonical” visual function (i.e. perception of colour, space, and motion) under photopic light levels, they are not the only photoreceptors in the human retina. Rods and melanopsin-containing intrinsically photosensitive retinal ganglion cells (ipRGCs) also respond to light and contribute to both visual and non-visual light responses, including circadian rhythms, sleep-wake control, mood, pupil size, and alertness. Three-primary display technologies, with their focus on reproducing colour, are not designed to reproduce the rod and melanopsin excitations. Moreover, conventional display metrics used to characterize three-primary displays fail to describe the display’s ability (or inability) to reproduce rod and melanopsin excitations, and thus do not capture the display’s ability to reproduce the full human physiological response to light. In this paper, three novel physiologically relevant metrics are proposed for quantifying the reproduction and distortion of the photoreceptor signals by visual displays. A novel equal-luminance photoreceptor excitation diagram is proposed, extending the well-known MacLeod-Boynton chromaticity diagram, to allow visualizations of the five-dimensional photoreceptor signal space in a three-dimensional projection.<\/jats:p>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W3133925542"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Simon Christ",
+        "orcid": "0000-0002-5866-1472"
+      }
+    ],
+    "check_time": "2026-09-26",
+    "repository": "github::codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026",
+    "report": "https://doi.org/10.5281/zenodo.23166593",
+    "type": "community",
+    "venue": "preprint",
+    "summary": "The code check was straightforward. Only the toolboxes \"Statistics and Machine Learning\" and \"Image Processing\" needed to be added in contrast to what was stated in the README.\nAlso the preprint was not up-to-date with the code of the repository but the authors provided the current version upon request.\n",
+    "manifest": [
+      {
+        "file": "codecheck/outputs/fig1a.pdf",
+        "comment": "Fig 1 - spectral sensitivities 1"
+      },
+      {
+        "file": "codecheck/outputs/fig1b.pdf",
+        "comment": "Fig 1 - example signals 1"
+      },
+      {
+        "file": "codecheck/outputs/fig1c.pdf",
+        "comment": "Fig 1 - spectral sensitivities 2"
+      },
+      {
+        "file": "codecheck/outputs/fig1d.pdf",
+        "comment": "Fig 1 - example signals 2"
+      },
+      {
+        "file": "codecheck/outputs/fig1e_inserted.pdf",
+        "comment": "Fig 1 - inset of contrast for R and I"
+      },
+      {
+        "file": "codecheck/outputs/fig1e_inserted.pdf",
+        "comment": "Fig 1 - response bar chart 1"
+      },
+      {
+        "file": "codecheck/outputs/fig1e.pdf",
+        "comment": "Fig 1 - spectral sensitivities 3"
+      },
+      {
+        "file": "codecheck/outputs/fig1g.pdf",
+        "comment": "Fig 1 - example signals 3"
+      },
+      {
+        "file": "codecheck/outputs/fig1h.pdf",
+        "comment": "Fig 1 - response bar chart 2"
+      },
+      {
+        "file": "codecheck/outputs/fig2a.pdf",
+        "comment": "Fig 2 - equal-luminance MacLeod-Boynton locus 1"
+      },
+      {
+        "file": "codecheck/outputs/fig2a_insert.pdf",
+        "comment": "Fig 2 - equal-luminance MacLeod-Boynton locus inset 1"
+      },
+      {
+        "file": "codecheck/outputs/fig2b.pdf",
+        "comment": "Fig 2 - equal-luminance MacLeod-Boynton locus 2"
+      },
+      {
+        "file": "codecheck/outputs/fig2b_insert.pdf",
+        "comment": "Fig 2 - equal-luminance MacLeod-Boynton locus inset 2"
+      },
+      {
+        "file": "codecheck/outputs/fig2c.pdf",
+        "comment": "Fig 2 - equal-luminance MacLeod-Boynton locus 3"
+      },
+      {
+        "file": "codecheck/outputs/fig2c_insert.pdf",
+        "comment": "Fig 2 - equal-luminance MacLeod-Boynton locus inset 3"
+      },
+      {
+        "file": "codecheck/outputs/fig3a.pdf",
+        "comment": "Fig 3a - display primaries"
+      },
+      {
+        "file": "codecheck/outputs/fig3b.pdf",
+        "comment": "Fig 3b - display primaries"
+      },
+      {
+        "file": "codecheck/outputs/fig3c.pdf",
+        "comment": "Fig 3c - display primaries"
+      },
+      {
+        "file": "codecheck/outputs/fig3d.pdf",
+        "comment": "Fig 3d - display primaries"
+      },
+      {
+        "file": "codecheck/outputs/fig3e.pdf",
+        "comment": "Fig 3e - display primaries"
+      },
+      {
+        "file": "codecheck/outputs/fig3f.pdf",
+        "comment": "Fig 3f - display primaries"
+      },
+      {
+        "file": "codecheck/outputs/fig3g.pdf",
+        "comment": "Fig 3g - display primaries"
+      },
+      {
+        "file": "codecheck/outputs/fig3h.pdf",
+        "comment": "Fig 3h - display primaries"
+      },
+      {
+        "file": "codecheck/outputs/fig4a.png",
+        "comment": "Fig 4a - chromaticity reproduction diagram"
+      },
+      {
+        "file": "codecheck/outputs/fig4b.pdf",
+        "comment": "Fig 4b - chromaticity reproduction bar graph"
+      },
+      {
+        "file": "codecheck/outputs/fig4c.pdf",
+        "comment": "Fig 4c - PSRM (photoreceptor signal reproduction) bar graph"
+      },
+      {
+        "file": "codecheck/outputs/fig5ai.pdf",
+        "comment": "Fig 5a - PSDM rod and melanopsin distortion 1"
+      },
+      {
+        "file": "codecheck/outputs/fig5aii.pdf",
+        "comment": "Fig 5a - PSDM rod and melanopsin distortion 2"
+      },
+      {
+        "file": "codecheck/outputs/fig5bi.pdf",
+        "comment": "Fig 5b - PSDM rod and melanopsin distortion 1"
+      },
+      {
+        "file": "codecheck/outputs/fig5bii.pdf",
+        "comment": "Fig 5b - PSDM rod and melanopsin distortion 2"
+      },
+      {
+        "file": "codecheck/outputs/fig5ci.pdf",
+        "comment": "Fig 5c - PSDM rod and melanopsin distortion 1"
+      },
+      {
+        "file": "codecheck/outputs/fig5cii.pdf",
+        "comment": "Fig 5c - PSDM rod and melanopsin distortion 2"
+      },
+      {
+        "file": "codecheck/outputs/fig6a_box_CRT.pdf",
+        "comment": "Fig 6a - PSDM box plot CRT"
+      },
+      {
+        "file": "codecheck/outputs/fig6a_box_DP.pdf",
+        "comment": "Fig 6a - PSDM box plot DP"
+      },
+      {
+        "file": "codecheck/outputs/fig6a_box_LCD.pdf",
+        "comment": "Fig 6a - PSDM box plot LCD"
+      },
+      {
+        "file": "codecheck/outputs/fig6a_xy_CRT.pdf",
+        "comment": "Fig 6a - PSDM xy plot CRT"
+      },
+      {
+        "file": "codecheck/outputs/fig6a_xy_DP.pdf",
+        "comment": "Fig 6a - PSDM xy plot DP"
+      },
+      {
+        "file": "codecheck/outputs/fig6a_xy_LCD.pdf",
+        "comment": "Fig 6a - PSDM xy plot LCD"
+      },
+      {
+        "file": "codecheck/outputs/fig6b_box_CRT.pdf",
+        "comment": "Fig 6b - PSDM box plot CRT"
+      },
+      {
+        "file": "codecheck/outputs/fig6b_box_DP.pdf",
+        "comment": "Fig 6b - PSDM box plot DP"
+      },
+      {
+        "file": "codecheck/outputs/fig6b_box_LCD.pdf",
+        "comment": "Fig 6b - PSDM box plot LCD"
+      },
+      {
+        "file": "codecheck/outputs/fig6b_xy_CRT.pdf",
+        "comment": "Fig 6b - PSDM xy plot CRT"
+      },
+      {
+        "file": "codecheck/outputs/fig6b_xy_DP.pdf",
+        "comment": "Fig 6b - PSDM xy plot DP"
+      },
+      {
+        "file": "codecheck/outputs/fig6b_xy_LCD.pdf",
+        "comment": "Fig 6b - PSDM xy plot LCD"
+      },
+      {
+        "file": "codecheck/outputs/fig7_LvsS_all.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, full database"
+      },
+      {
+        "file": "codecheck/outputs/fig7_LvsS_crt.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, CRT"
+      },
+      {
+        "file": "codecheck/outputs/fig7_LvsS_dp.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, DP"
+      },
+      {
+        "file": "codecheck/outputs/fig7_LvsS_lcd.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, LCD"
+      },
+      {
+        "file": "codecheck/outputs/fig7_LvsI_all.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, full database"
+      },
+      {
+        "file": "codecheck/outputs/fig7_LvsI_crt.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, CRT"
+      },
+      {
+        "file": "codecheck/outputs/fig7_LvsI_dp.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, DP"
+      },
+      {
+        "file": "codecheck/outputs/fig7_LvsI_lcd.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, LCD"
+      },
+      {
+        "file": "codecheck/outputs/fig7_IvsS_all.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, full database"
+      },
+      {
+        "file": "codecheck/outputs/fig7_IvsS_crt.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, CRT"
+      },
+      {
+        "file": "codecheck/outputs/fig7_IvsS_dp.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, DP"
+      },
+      {
+        "file": "codecheck/outputs/fig7_IvsS_lcd.pdf",
+        "comment": "Fig 7 - equal-luminance excitation diagrams, LCD"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsS_MPHDR.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, MPHDR"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsS_Man.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, Man"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsS_nb5p.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, np5p"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsS_bb5p.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, bb5p"
+      },
+      {
+        "file": "codecheck/outputs/fig8_IvsS_NZ.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, NZ"
+      },
+      {
+        "file": "codecheck/outputs/fig8_IvsS_MPHDR.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, MPHDR"
+      },
+      {
+        "file": "codecheck/outputs/fig8_IvsS_Man.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, Man"
+      },
+      {
+        "file": "codecheck/outputs/fig8_IvsS_nb5p.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, np5p"
+      },
+      {
+        "file": "codecheck/outputs/fig8_IvsS_bb5p.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, bb5p"
+      },
+      {
+        "file": "codecheck/outputs/fig8_IvsS_NZ.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, NZ"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsI_MPHDR.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, MPHDR"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsI_Man.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, Man"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsI_nb5p.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, np5p"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsI_bb5p.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, bb5p"
+      },
+      {
+        "file": "codecheck/outputs/fig8_LvsI_NZ.pdf",
+        "comment": "Fig 8 - equal-luminance excitation diagrams, NZ"
+      },
+      {
+        "file": "codecheck/outputs/fig9a.pdf",
+        "comment": "Fig 9 - bit depth"
+      },
+      {
+        "file": "codecheck/outputs/fig9b.pdf",
+        "comment": "Fig 9 - tolerance analysis"
+      }
+    ]
+  }
+}

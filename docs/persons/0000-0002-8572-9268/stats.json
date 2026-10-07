@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/persons/0000-0002-8572-9268/register.json",
-  "cert_count": 8,
+  "cert_count": 9,
   "person": {
     "name": "Manuel Spitschan",
     "orcid": "0000-0002-8572-9268",
@@ -9,7 +9,7 @@
     "fediverse": null,
     "fields": [],
     "languages": [],
-    "works_authored": 7,
+    "works_authored": 8,
     "checks_conducted": 0,
     "venues": []
   },
@@ -28,22 +28,22 @@
       "community": 2
     },
     "2026": {
-      "community": 3
+      "community": 4
     }
   },
   "checks_per_year": {
     "2020": 2,
     "2023": 1,
     "2024": 2,
-    "2026": 3
+    "2026": 4
   },
   "checks_cumulative": {
     "2020": 2,
     "2023": 3,
     "2024": 5,
-    "2026": 8
+    "2026": 9
   },
-  "interval_n": 7,
+  "interval_n": 8,
   "interval_excluded": 1,
   "interval_points": [
     {
@@ -73,6 +73,10 @@
     {
       "id": "2026-023",
       "days": 283
+    },
+    {
+      "id": "2026-024",
+      "days": 2035
     }
   ],
   "interval_buckets": {
@@ -83,12 +87,12 @@
     "6-12mo": 1,
     "1-2y": 0,
     "2-5y": 0,
-    "5y+": 0
+    "5y+": 1
   },
   "interval_summary": {
-    "pct_before_publication": 57,
-    "pct_within_6mo": 29,
-    "max_years": 1
+    "pct_before_publication": 50,
+    "pct_within_6mo": 25,
+    "max_years": 6
   },
   "venues_per_year": {
     "2020": 1,
@@ -102,18 +106,18 @@
     "2024": 2,
     "2026": 3
   },
-  "codechecker_count": 4,
+  "codechecker_count": 5,
   "codecheckers_per_year": {
     "2020": 1,
     "2023": 1,
     "2024": 1,
-    "2026": 3
+    "2026": 4
   },
   "codecheckers_cumulative": {
     "2020": 1,
     "2023": 2,
     "2024": 2,
-    "2026": 4
+    "2026": 5
   },
   "platform_per_year": {
     "2020": {
@@ -126,7 +130,7 @@
       "zenodo": 2
     },
     "2026": {
-      "zenodo": 3
+      "zenodo": 4
     }
   },
   "platform_cumulative": {
@@ -140,7 +144,7 @@
       "zenodo": 5
     },
     "2026": {
-      "zenodo": 8
+      "zenodo": 9
     }
   },
   "venues_detail": [
@@ -177,7 +181,7 @@
       "longname": "Preprint",
       "year_range": "2020-2026",
       "label": "preprint",
-      "cert_count": 5,
+      "cert_count": 6,
       "page_type": "community",
       "page_type_plural": "communities",
       "page_slug": "preprint",
@@ -191,7 +195,7 @@
     {
       "name": "unknown",
       "venue_count": 3,
-      "cert_count": 8
+      "cert_count": 9
     }
   ]
 }

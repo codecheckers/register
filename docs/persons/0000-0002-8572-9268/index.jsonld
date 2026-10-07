@@ -63,6 +63,15 @@
     },
     {
       "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1101/2021.02.27.433203",
+      "url": "https://doi.org/10.1101/2021.02.27.433203",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-8572-9268"
+      },
+      "name": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals"
+    },
+    {
+      "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1038/s44323-026-00108-x",
       "url": "https://doi.org/10.1038/s44323-026-00108-x",
       "author": {

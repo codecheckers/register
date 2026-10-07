@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02vjkv261",
+  "name": "Inserm",
+  "identifier": "https://ror.org/02vjkv261",
+  "url": "https://codecheck.org.uk/register/organisations/02vjkv261/",
+  "sameAs": "https://www.inserm.fr",
+  "location": {
+    "@type": "Place",
+    "address": "Paris, France"
+  }
+}

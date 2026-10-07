@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/05grdyy37",
+  "name": "Amsterdam University Medical Centers",
+  "identifier": "https://ror.org/05grdyy37",
+  "url": "https://codecheck.org.uk/register/organisations/05grdyy37/",
+  "sameAs": "https://www.amsterdamumc.org",
+  "location": {
+    "@type": "Place",
+    "address": "Amsterdam, The Netherlands"
+  }
+}

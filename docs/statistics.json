@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/register.json",
-  "cert_count": 134,
+  "cert_count": 136,
   "venue_count": 13,
   "venues_per_type": {
     "community": 4,
@@ -42,9 +42,9 @@
       "journal": 3
     },
     "2026": {
-      "community": 3,
+      "community": 4,
       "conference": 14,
-      "institution": 2,
+      "institution": 3,
       "journal": 1
     }
   },
@@ -56,7 +56,7 @@
     "2023": 12,
     "2024": 24,
     "2025": 26,
-    "2026": 20
+    "2026": 22
   },
   "checks_cumulative": {
     "2019": 1,
@@ -66,9 +66,9 @@
     "2023": 64,
     "2024": 88,
     "2025": 114,
-    "2026": 134
+    "2026": 136
   },
-  "interval_n": 131,
+  "interval_n": 133,
   "interval_excluded": 3,
   "interval_points": [
     {
@@ -173,7 +173,7 @@
     },
     {
       "id": "2021-001",
-      "days": -78
+      "days": 26
     },
     {
       "id": "2021-002",
@@ -213,7 +213,7 @@
     },
     {
       "id": "2022-001",
-      "days": -1716
+      "days": -1422
     },
     {
       "id": "2022-002",
@@ -421,7 +421,7 @@
     },
     {
       "id": "2024-025",
-      "days": -698
+      "days": -665
     },
     {
       "id": "2025-001",
@@ -493,7 +493,7 @@
     },
     {
       "id": "2025-018",
-      "days": 82
+      "days": 191
     },
     {
       "id": "2025-019",
@@ -594,20 +594,28 @@
     {
       "id": "2026-023",
       "days": 283
+    },
+    {
+      "id": "2026-024",
+      "days": 2035
+    },
+    {
+      "id": "2026-026",
+      "days": 161
     }
   ],
   "interval_buckets": {
-    "Before publication": 49,
-    "0-1mo": 49,
-    "1-3mo": 9,
-    "3-6mo": 6,
-    "6-12mo": 7,
+    "Before publication": 48,
+    "0-1mo": 50,
+    "1-3mo": 8,
+    "3-6mo": 7,
+    "6-12mo": 8,
     "1-2y": 1,
     "2-5y": 6,
-    "5y+": 4
+    "5y+": 5
   },
   "interval_summary": {
-    "pct_before_publication": 37,
+    "pct_before_publication": 36,
     "pct_within_6mo": 49,
     "max_years": 38
   },
@@ -619,7 +627,7 @@
     "2023": 2,
     "2024": 5,
     "2025": 7,
-    "2026": 5
+    "2026": 6
   },
   "venues_cumulative": {
     "2019": 1,
@@ -631,7 +639,7 @@
     "2025": 13,
     "2026": 13
   },
-  "codechecker_count": 67,
+  "codechecker_count": 69,
   "codecheckers_per_year": {
     "2019": 1,
     "2020": 5,
@@ -640,7 +648,7 @@
     "2023": 8,
     "2024": 31,
     "2025": 25,
-    "2026": 16
+    "2026": 18
   },
   "codecheckers_cumulative": {
     "2019": 1,
@@ -650,7 +658,7 @@
     "2023": 16,
     "2024": 42,
     "2025": 60,
-    "2026": 67
+    "2026": 69
   },
   "platform_per_year": {
     "2019": {
@@ -684,7 +692,7 @@
     "2026": {
       "osf": 13,
       "researchequals": 1,
-      "zenodo": 6
+      "zenodo": 8
     }
   },
   "platform_cumulative": {
@@ -726,7 +734,7 @@
     "2026": {
       "osf": 73,
       "researchequals": 4,
-      "zenodo": 57
+      "zenodo": 59
     }
   },
   "venues_detail": [
@@ -847,7 +855,7 @@
       "longname": "Preprint",
       "year_range": "2020-2026",
       "label": "preprint",
-      "cert_count": 10,
+      "cert_count": 11,
       "page_type": "community",
       "page_type_plural": "communities",
       "page_slug": "preprint",
@@ -859,9 +867,9 @@
     {
       "name": "AUMC",
       "longname": "Amsterdam UMC",
-      "year_range": "2024-2025",
+      "year_range": "2024-2026",
       "label": "institution",
-      "cert_count": 3,
+      "cert_count": 4,
       "page_type": "institution",
       "page_type_plural": "institutions",
       "page_slug": "AUMC",
@@ -942,7 +950,7 @@
     {
       "name": "unknown",
       "venue_count": 7,
-      "cert_count": 53
+      "cert_count": 55
     }
   ]
 }

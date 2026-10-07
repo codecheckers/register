@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0001-7072-2178",
+      "name": "Ka Hin Tai"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31222/osf.io/dvhux_v1",
+      "url": "https://doi.org/10.31222/osf.io/dvhux_v1",
+      "author": {
+        "@id": "https://orcid.org/0009-0001-7072-2178"
+      },
+      "name": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications"
+    }
+  ]
+}

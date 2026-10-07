@@ -5,7 +5,7 @@
   "name": "National University of Singapore",
   "identifier": "https://ror.org/01tgyzw49",
   "url": "https://codecheck.org.uk/register/organisations/01tgyzw49/",
-  "sameAs": "https://www.nus.edu.sg/",
+  "sameAs": "http://www.nus.edu.sg/",
   "location": {
     "@type": "Place",
     "address": "Singapore, Singapore"

@@ -1,5 +1,17 @@
 [
   {
+    "Certificate ID": "2026-026",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-026/",
+    "Certificate PDF": "https://zenodo.org/api/records/23081945/files/CODECHECK_certificate_2026_026.pdf/content",
+    "Repository": "github::codecheckers/funders",
+    "Repository Link": "https://github.com/codecheckers/funders",
+    "Report": "https://doi.org/10.5281/zenodo.23081945",
+    "Title": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
+    "Paper reference": "https://doi.org/10.31222/osf.io/dvhux_v1",
+    "OpenAlex": "https://openalex.org/W7129689501",
+    "Check date": "2026-07-28"
+  },
+  {
     "Certificate ID": "2025-025",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2025-025/",
     "Certificate PDF": "https://zenodo.org/api/records/16758977/files/codecheck.pdf/content",

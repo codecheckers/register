@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-4463-8917",
+      "name": "Hengky Kurniawan"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31222/osf.io/dvhux_v1",
+      "url": "https://doi.org/10.31222/osf.io/dvhux_v1",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-4463-8917"
+      },
+      "name": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications"
+    }
+  ]
+}

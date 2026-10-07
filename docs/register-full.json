@@ -957,9 +957,9 @@
     "Venue": "preprint",
     "Check date": "2021-04-27",
     "OpenAlex": "https://openalex.org/W6948154681",
-    "Paper ISSN": null,
-    "Paper venue": null,
-    "Work publication date": "2021-07-14",
+    "Paper ISSN": "2331-8422",
+    "Paper venue": "arXiv (Cornell University)",
+    "Work publication date": "2021-04-01",
     "Check time": "2021-04-27T16:00:00+00:00",
     "Report": "https://doi.org/10.5281/zenodo.22205872",
     "Title": "Causality indices for bivariate time series data: a comparative review of performance",
@@ -1342,7 +1342,7 @@
     "OpenAlex": null,
     "Paper ISSN": null,
     "Paper venue": null,
-    "Work publication date": "2026-10-01",
+    "Work publication date": "2025-12-11",
     "Check time": "2022-01-19T10:00:00",
     "Report": "https://doi.org/10.5281/zenodo.6043785",
     "Title": "Geographically Weighted Regressions for prioritizing educational planning, policies, and interventions",
@@ -3219,8 +3219,8 @@
     "Venue": "codecheck NL",
     "Check date": "2024-09-26",
     "OpenAlex": "https://openalex.org/W6893062762",
-    "Paper ISSN": null,
-    "Paper venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "Paper ISSN": "1827-1987",
+    "Paper venue": "Geospatial health",
     "Work publication date": "2024-09-09",
     "Check time": "2024-09-26",
     "Report": "https://doi.org/10.17605/OSF.IO/6NGYC",
@@ -3650,7 +3650,7 @@
     "OpenAlex": null,
     "Paper ISSN": null,
     "Paper venue": null,
-    "Work publication date": "2026-10-07",
+    "Work publication date": "2026-09-04",
     "Check time": "2024-11-08",
     "Report": "https://doi.org/10.5281/zenodo.15023714",
     "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
@@ -3790,8 +3790,8 @@
     "Venue": "TU Delft DCC",
     "Check date": "2025-03-25",
     "OpenAlex": "https://openalex.org/W4415160374",
-    "Paper ISSN": null,
-    "Paper venue": null,
+    "Paper ISSN": "2331-8422",
+    "Paper venue": "arXiv (Cornell University)",
     "Work publication date": "2025-04-14",
     "Check time": "2025-03-25T14:00:00",
     "Report": "https://doi.org/10.5281/zenodo.15333601",
@@ -4387,9 +4387,9 @@
     "Venue": "TU Delft DCC",
     "Check date": "2025-05-28",
     "OpenAlex": "https://openalex.org/W4404571336",
-    "Paper ISSN": null,
-    "Paper venue": null,
-    "Work publication date": "2025-03-07",
+    "Paper ISSN": "2331-8422",
+    "Paper venue": "arXiv (Cornell University)",
+    "Work publication date": "2024-11-18",
     "Check time": "2025-05-28T10:00:00",
     "Report": "https://doi.org/10.5281/zenodo.15630442",
     "Title": "Scalable control synthesis for stochastic systems via structural IMDP abstractions",
@@ -5386,7 +5386,7 @@
     "Type": "institution",
     "Venue": "TU Delft DCC",
     "Check date": "2026-08-14",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W7171507035",
     "Paper ISSN": null,
     "Paper venue": null,
     "Work publication date": "2026-07-28",
@@ -5471,6 +5471,48 @@
     "Source": null
   },
   {
+    "Certificate ID": "2026-024",
+    "Repository": "github::codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026",
+    "Repository Link": "https://github.com/codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2026-09-26",
+    "OpenAlex": "https://openalex.org/W3133925542",
+    "Paper ISSN": null,
+    "Paper venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "Work publication date": "2021-03-01",
+    "Check time": "2026-09-26",
+    "Report": "https://doi.org/10.5281/zenodo.23166593",
+    "Title": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals",
+    "Paper reference": "https://doi.org/10.1101/2021.02.27.433203",
+    "Paper authors": [
+      {
+        "name": "A. C. Hexley",
+        "orcid": "0000-0002-0173-540X"
+      },
+      {
+        "name": "T. Morimoto",
+        "orcid": "0000-0001-9897-8338"
+      },
+      {
+        "name": "H. E. Smithson",
+        "orcid": "0000-0001-8904-8315"
+      },
+      {
+        "name": "M. Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Simon Christ",
+        "orcid": "0000-0002-5866-1472"
+      }
+    ],
+    "Summary": "The code check was straightforward. Only the toolboxes \"Statistics and Machine Learning\" and \"Image Processing\" needed to be added in contrast to what was stated in the README.\nAlso the preprint was not up-to-date with the code of the repository but the authors provided the current version upon request.\n",
+    "Source": null
+  },
+  {
     "Certificate ID": "2026-025",
     "Repository": "github::codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
     "Repository Link": "https://github.com/codecheckers/TabandehEtAl_npjBiolTimingSleep_2026",
@@ -5506,6 +5548,92 @@
       }
     ],
     "Summary": "Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba, with R 4.6.1, latest quarto and renv, following the instructions from the project README file. There were minor issues during the dependencies installation that authors started working on improvements for the documentation. A Jupyter notebook was used, as instructed in the project README, to execute part of the workflow. The actual data processing was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data, plots, tables, all looked correct.\n",
+    "Source": null
+  },
+  {
+    "Certificate ID": "2026-026",
+    "Repository": "github::codecheckers/funders",
+    "Repository Link": "https://github.com/codecheckers/funders",
+    "Type": "institution",
+    "Venue": "AUMC",
+    "Check date": "2026-07-28",
+    "OpenAlex": "https://openalex.org/W7129689501",
+    "Paper ISSN": null,
+    "Paper venue": null,
+    "Work publication date": "2026-02-17",
+    "Check time": "2026-07-28",
+    "Report": "https://doi.org/10.5281/zenodo.23081945",
+    "Title": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
+    "Paper reference": "https://doi.org/10.31222/osf.io/dvhux_v1",
+    "Paper authors": [
+      {
+        "name": "Ayu Putu Madri Dewi",
+        "orcid": "0000-0001-7645-6424"
+      },
+      {
+        "name": "Anne Floor Holtrop",
+        "orcid": "0009-0004-5165-0481"
+      },
+      {
+        "name": "Nicholas J DeVito",
+        "orcid": "0000-0001-8286-1995"
+      },
+      {
+        "name": "Melissa L. Rethlefsen",
+        "orcid": "0000-0001-5322-9368"
+      },
+      {
+        "name": "Zulfan Zazuli",
+        "orcid": "0000-0002-1264-9558"
+      },
+      {
+        "name": "Mathieu Repiquet",
+        "orcid": "0009-0005-4719-6607"
+      },
+      {
+        "name": "Ka Hin Tai",
+        "orcid": "0009-0001-7072-2178"
+      },
+      {
+        "name": "Constant Vinatier",
+        "orcid": "0000-0002-6899-1838"
+      },
+      {
+        "name": "Monika Varga",
+        "orcid": "0000-0002-6886-5751"
+      },
+      {
+        "name": "Stefan Wouters",
+        "orcid": "0000-0002-5243-6186"
+      },
+      {
+        "name": "Hengky Kurniawan",
+        "orcid": "0000-0002-4463-8917"
+      },
+      {
+        "name": "Nynke Swart",
+        "orcid": "0000-0002-4553-6234"
+      },
+      {
+        "name": "Gowri Gopalakrishna",
+        "orcid": "0000-0003-3847-3906"
+      },
+      {
+        "name": "Inge Stegeman",
+        "orcid": "0000-0001-5154-7178"
+      },
+      {
+        "name": "Mariska Leeflang",
+        "orcid": "0000-0001-5960-0471"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Merel C. Postema",
+        "orcid": "0000-0002-1536-7062"
+      }
+    ],
+    "Summary": "Partial reproduction. The gt package could not be installed in the Amsterdam UMC myDRE environment (Error: Chrome debugging port not open after 10 seconds), so the gtsave() lines were commented out and the tables saved manually. Only the first rows of each table could be viewed and these were reproducible; reproducibility of the complete tables could not be verified. Two minor modifications to the original code were needed: installing missing packages and loading stringr.\n",
     "Source": null
   }
 ]

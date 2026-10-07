@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/0575yy874",
+  "name": "University Medical Center Utrecht",
+  "identifier": "https://ror.org/0575yy874",
+  "url": "https://codecheck.org.uk/register/organisations/0575yy874/",
+  "sameAs": "https://www.umcutrecht.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Utrecht, The Netherlands"
+  }
+}

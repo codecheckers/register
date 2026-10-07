@@ -1,5 +1,20 @@
 [
   {
+    "Certificate ID": "2026-024",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-024/",
+    "Certificate PDF": "https://zenodo.org/api/records/23166593/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026",
+    "Repository Link": "https://github.com/codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026",
+    "Report": "https://doi.org/10.5281/zenodo.23166593",
+    "Title": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals",
+    "Paper reference": "https://doi.org/10.1101/2021.02.27.433203",
+    "OpenAlex": "https://openalex.org/W3133925542",
+    "Type": "community",
+    "Venue": "preprint",
+    "Check date": "2026-09-26",
+    "Role": "author"
+  },
+  {
     "Certificate ID": "2026-025",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2026-025/",
     "Certificate PDF": "https://zenodo.org/api/records/22935939/files/codecheck.pdf/content",

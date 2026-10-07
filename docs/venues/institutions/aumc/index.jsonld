@@ -66,6 +66,22 @@
         "url": "https://github.com/codecheckers/absolution_codecheck/raw/refs/heads/main/Results/Report_template.html"
       },
       "datePublished": "2025-01-29"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-026/",
+      "name": "CODECHECK Certificate 2026-026",
+      "url": "https://codecheck.org.uk/register/certs/2026-026/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://ror.org/05grdyy37"
+        },
+        "name": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
+        "url": "https://doi.org/10.31222/osf.io/dvhux_v1",
+        "sameAs": "https://doi.org/10.31222/osf.io/dvhux_v1"
+      },
+      "datePublished": "2026-07-28"
     }
   ]
 }

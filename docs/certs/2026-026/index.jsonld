@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-026/",
+  "name": "CODECHECK Certificate 2026-026",
+  "url": "https://codecheck.org.uk/register/certs/2026-026/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Merel C. Postema",
+      "@id": "https://orcid.org/0000-0002-1536-7062"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ayu Putu Madri Dewi",
+        "@id": "https://orcid.org/0000-0001-7645-6424"
+      },
+      {
+        "@type": "Person",
+        "name": "Anne Floor Holtrop",
+        "@id": "https://orcid.org/0009-0004-5165-0481"
+      },
+      {
+        "@type": "Person",
+        "name": "Nicholas J DeVito",
+        "@id": "https://orcid.org/0000-0001-8286-1995"
+      },
+      {
+        "@type": "Person",
+        "name": "Melissa L. Rethlefsen",
+        "@id": "https://orcid.org/0000-0001-5322-9368"
+      },
+      {
+        "@type": "Person",
+        "name": "Zulfan Zazuli",
+        "@id": "https://orcid.org/0000-0002-1264-9558"
+      },
+      {
+        "@type": "Person",
+        "name": "Mathieu Repiquet",
+        "@id": "https://orcid.org/0009-0005-4719-6607"
+      },
+      {
+        "@type": "Person",
+        "name": "Ka Hin Tai",
+        "@id": "https://orcid.org/0009-0001-7072-2178"
+      },
+      {
+        "@type": "Person",
+        "name": "Constant Vinatier",
+        "@id": "https://orcid.org/0000-0002-6899-1838"
+      },
+      {
+        "@type": "Person",
+        "name": "Monika Varga",
+        "@id": "https://orcid.org/0000-0002-6886-5751"
+      },
+      {
+        "@type": "Person",
+        "name": "Stefan Wouters",
+        "@id": "https://orcid.org/0000-0002-5243-6186"
+      },
+      {
+        "@type": "Person",
+        "name": "Hengky Kurniawan",
+        "@id": "https://orcid.org/0000-0002-4463-8917"
+      },
+      {
+        "@type": "Person",
+        "name": "Nynke Swart",
+        "@id": "https://orcid.org/0000-0002-4553-6234"
+      },
+      {
+        "@type": "Person",
+        "name": "Gowri Gopalakrishna",
+        "@id": "https://orcid.org/0000-0003-3847-3906"
+      },
+      {
+        "@type": "Person",
+        "name": "Inge Stegeman",
+        "@id": "https://orcid.org/0000-0001-5154-7178"
+      },
+      {
+        "@type": "Person",
+        "name": "Mariska Leeflang",
+        "@id": "https://orcid.org/0000-0001-5960-0471"
+      }
+    ],
+    "abstract": "<p>ObjectiveTo determine whether an open science checklist can be useful for predicting the reproducibility of publications resulting from these grant proposals when used by grant referees assessing them.Study Design and SettingThis is a comparative accuracy study design using funded grant proposals obtained from online sources (i.e., Open Grants, RIO Journal, NIH, and Grantome). Two independent groups of mock referees assessed open science practices in the proposals and predicted whether the resulting publications would be reproducible, with one group using an Open Science checklist as an intervention, and the other without. Then we attempted to reproduce the primary findings of a resulting publication from the grant proposal. Sensitivity, specificity, predictive values, and overall accuracy were calculated from 2×2 tables, comparing predicted versus actual reproducibility. The primary outcome is the level of reproducibility, measured by the predictive value, the proportion of (non)reproducible study findings that are accurately predicted. This study was conducted between April and September 2025.Results Of seven out of 101 publications (6.9%, 95% CI 2.8–13.8%), the primary results could be reproduced. When using the checklist, only 16.8% of the proposals were expected to be reproducible, while without the checklist 75.2% were expected to be reproducible. When using the checklist, 17 proposals were expected to be reproducible, while only 2 out of these 17 could actually be reproduced (positive predictive value (PPV) 11.8% (95% CI 3.3–34.3%)). Without using the checklist, 76 proposals were thought to be reproducible, while only six out of 76 could actually be reproduced (PPV 7.9% (95% CI 3.7−16.2%)). Sensitivity analysis by research field was not conducted because of small sample sizes in most categories.Conclusion The Open Science checklist has a low positive predictive value, as expected given the low reproducibility prevalence in our sample. Although the differences between the group using the checklist and the group that did not use the checklist may also have been caused by their level of knowledge of reproducibility and open science, neither group could predict which proposals would or would not be reproducible.<\/p>",
+    "url": "https://doi.org/10.31222/osf.io/dvhux_v1",
+    "sameAs": ["https://doi.org/10.31222/osf.io/dvhux_v1", "https://openalex.org/W7129689501"]
+  },
+  "reviewBody": "Partial reproduction. The gt package could not be installed in the Amsterdam UMC myDRE environment (Error: Chrome debugging port not open after 10 seconds), so the gtsave() lines were commented out and the tables saved manually. Only the first rows of each table could be viewed and these were reproducible; reproducibility of the complete tables could not be verified. Two minor modifications to the original code were needed: installing missing packages and loading stringr.\n",
+  "datePublished": "2026-07-28",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.23081945"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.23081945"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-026/cert.pdf"
+  }
+}

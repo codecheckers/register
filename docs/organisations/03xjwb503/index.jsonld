@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03xjwb503",
+  "name": "Université Paris-Saclay",
+  "identifier": "https://ror.org/03xjwb503",
+  "url": "https://codecheck.org.uk/register/organisations/03xjwb503/",
+  "sameAs": "https://www.universite-paris-saclay.fr/",
+  "location": {
+    "@type": "Place",
+    "address": "Gif-sur-Yvette, France"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-9897-8338",
+      "name": "T. Morimoto",
+      "sameAs": "https://www.wikidata.org/entity/Q91405786"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.1101/2021.02.27.433203",
+      "url": "https://doi.org/10.1101/2021.02.27.433203",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-9897-8338"
+      },
+      "name": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals"
+    }
+  ]
+}

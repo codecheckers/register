@@ -81,7 +81,7 @@
   {
     "Name": "Manuel Spitschan",
     "ORCID": "0000-0002-8572-9268",
-    "Works authored": 7,
+    "Works authored": 8,
     "Checks conducted": 0,
     "Check types": []
   },
@@ -2260,6 +2260,150 @@
   {
     "Name": "Volker Grewe",
     "ORCID": "0000-0002-8012-6783",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Simon Christ",
+    "ORCID": "0000-0002-5866-1472",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "Check types": {
+      "community": 1
+    }
+  },
+  {
+    "Name": "A. C. Hexley",
+    "ORCID": "0000-0002-0173-540X",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "T. Morimoto",
+    "ORCID": "0000-0001-9897-8338",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "H. E. Smithson",
+    "ORCID": "0000-0001-8904-8315",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Merel C. Postema",
+    "ORCID": "0000-0002-1536-7062",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "Check types": {
+      "institution": 1
+    }
+  },
+  {
+    "Name": "Ayu Putu Madri Dewi",
+    "ORCID": "0000-0001-7645-6424",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Anne Floor Holtrop",
+    "ORCID": "0009-0004-5165-0481",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Nicholas J DeVito",
+    "ORCID": "0000-0001-8286-1995",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Melissa L. Rethlefsen",
+    "ORCID": "0000-0001-5322-9368",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Zulfan Zazuli",
+    "ORCID": "0000-0002-1264-9558",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Mathieu Repiquet",
+    "ORCID": "0009-0005-4719-6607",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Ka Hin Tai",
+    "ORCID": "0009-0001-7072-2178",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Constant Vinatier",
+    "ORCID": "0000-0002-6899-1838",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Monika Varga",
+    "ORCID": "0000-0002-6886-5751",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Stefan Wouters",
+    "ORCID": "0000-0002-5243-6186",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Hengky Kurniawan",
+    "ORCID": "0000-0002-4463-8917",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Nynke Swart",
+    "ORCID": "0000-0002-4553-6234",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Gowri Gopalakrishna",
+    "ORCID": "0000-0003-3847-3906",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Inge Stegeman",
+    "ORCID": "0000-0001-5154-7178",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Mariska Leeflang",
+    "ORCID": "0000-0001-5960-0471",
     "Works authored": 1,
     "Checks conducted": 0,
     "Check types": []

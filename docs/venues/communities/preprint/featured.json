@@ -1,5 +1,17 @@
 [
   {
+    "Certificate ID": "2026-024",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-024/",
+    "Certificate PDF": "https://zenodo.org/api/records/23166593/files/codecheck.pdf/content",
+    "Repository": "github::codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026",
+    "Repository Link": "https://github.com/codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026",
+    "Report": "https://doi.org/10.5281/zenodo.23166593",
+    "Title": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals",
+    "Paper reference": "https://doi.org/10.1101/2021.02.27.433203",
+    "OpenAlex": "https://openalex.org/W3133925542",
+    "Check date": "2026-09-26"
+  },
+  {
     "Certificate ID": "2026-023",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2026-023/",
     "Certificate PDF": "https://zenodo.org/api/records/22094773/files/codecheck.pdf/content",
@@ -106,17 +118,5 @@
     "Paper reference": "https://cmmid.github.io/topics/covid19/reports/bbc_contact_tracing.pdf",
     "OpenAlex": null,
     "Check date": "2020-04-26"
-  },
-  {
-    "Certificate ID": "2020-008",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-008/",
-    "Certificate PDF": "https://zenodo.org/api/records/3746024/files/codecheck.pdf/content",
-    "Repository": "github::codecheckers/covid-uk",
-    "Repository Link": "https://github.com/codecheckers/covid-uk",
-    "Report": "http://doi.org/10.5281/zenodo.3746024",
-    "Title": "The effect of non-pharmaceutical interventions on COVID-19 cases, deaths and demand for hospital services in the UK: a modelling study",
-    "Paper reference": "https://web.archive.org/web/20200420185137/https://cmmid.github.io/topics/covid19/control-measures/report/uk_scenario_modelling_preprint_2020_04_01.pdf",
-    "OpenAlex": null,
-    "Check date": "2020-04-09"
   }
 ]

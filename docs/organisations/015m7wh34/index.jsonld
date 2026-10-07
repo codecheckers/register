@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/015m7wh34",
+  "name": "Université de Rennes",
+  "identifier": "https://ror.org/015m7wh34",
+  "url": "https://codecheck.org.uk/register/organisations/015m7wh34/",
+  "sameAs": "https://www.univ-rennes.fr",
+  "location": {
+    "@type": "Place",
+    "address": "Rennes, France"
+  }
+}

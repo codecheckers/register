@@ -1,0 +1,99 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.31222/osf.io/dvhux_v1",
+      "url": "https://doi.org/10.31222/osf.io/dvhux_v1",
+      "sameAs": ["https://doi.org/10.31222/osf.io/dvhux_v1", "https://openalex.org/W7129689501"],
+      "name": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Ayu Putu Madri Dewi",
+          "@id": "https://orcid.org/0000-0001-7645-6424"
+        },
+        {
+          "@type": "Person",
+          "name": "Anne Floor Holtrop",
+          "@id": "https://orcid.org/0009-0004-5165-0481"
+        },
+        {
+          "@type": "Person",
+          "name": "Nicholas J DeVito",
+          "@id": "https://orcid.org/0000-0001-8286-1995"
+        },
+        {
+          "@type": "Person",
+          "name": "Melissa L. Rethlefsen",
+          "@id": "https://orcid.org/0000-0001-5322-9368"
+        },
+        {
+          "@type": "Person",
+          "name": "Zulfan Zazuli",
+          "@id": "https://orcid.org/0000-0002-1264-9558"
+        },
+        {
+          "@type": "Person",
+          "name": "Mathieu Repiquet",
+          "@id": "https://orcid.org/0009-0005-4719-6607"
+        },
+        {
+          "@type": "Person",
+          "name": "Ka Hin Tai",
+          "@id": "https://orcid.org/0009-0001-7072-2178"
+        },
+        {
+          "@type": "Person",
+          "name": "Constant Vinatier",
+          "@id": "https://orcid.org/0000-0002-6899-1838"
+        },
+        {
+          "@type": "Person",
+          "name": "Monika Varga",
+          "@id": "https://orcid.org/0000-0002-6886-5751"
+        },
+        {
+          "@type": "Person",
+          "name": "Stefan Wouters",
+          "@id": "https://orcid.org/0000-0002-5243-6186"
+        },
+        {
+          "@type": "Person",
+          "name": "Hengky Kurniawan",
+          "@id": "https://orcid.org/0000-0002-4463-8917"
+        },
+        {
+          "@type": "Person",
+          "name": "Nynke Swart",
+          "@id": "https://orcid.org/0000-0002-4553-6234"
+        },
+        {
+          "@type": "Person",
+          "name": "Gowri Gopalakrishna",
+          "@id": "https://orcid.org/0000-0003-3847-3906"
+        },
+        {
+          "@type": "Person",
+          "name": "Inge Stegeman",
+          "@id": "https://orcid.org/0000-0001-5154-7178"
+        },
+        {
+          "@type": "Person",
+          "name": "Mariska Leeflang",
+          "@id": "https://orcid.org/0000-0001-5960-0471"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-026/",
+      "name": "CODECHECK Certificate 2026-026",
+      "url": "https://codecheck.org.uk/register/certs/2026-026/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.31222/osf.io/dvhux_v1"
+      },
+      "datePublished": "2026-07-28"
+    }
+  ]
+}

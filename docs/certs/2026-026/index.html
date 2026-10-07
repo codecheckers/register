@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CODECHECK Certificate 2026-026</title>
+
+<script src="../../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="../../libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="../../libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="../../libs/navigation-1.1/tabsets.js"></script>
+<link rel="shortcut icon" type="image/png" href="../../favicon.png">
+
+<link rel="stylesheet" href="../../assets/codecheck-register.css">
+
+<meta property="og:title" content="CODECHECK Certificate 2026-026">
+<meta name="author" content="Merel C. Postema">
+<meta name="generator" content="codecheck">
+
+<meta property="og:url" content="https://codecheck.org.uk/register/certs/2026-026/">
+<meta property="og:site_name" content="CODECHECK Register">
+<meta property="og:description" content="Partial reproduction. The gt package could not be installed in the Amsterdam UMC myDRE environment (Error: Chrome debugging port not open after 10 seconds), so the gtsave() lines were commented out and the tables saved manually. Only the first rows of each table could be viewed and these were…">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://codecheck.org.uk/register/certs/2026-026/cert_1.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Highwire Press citation metadata, for Google Scholar and Zotero (register#52) -->
+<meta name="citation_title" content="CODECHECK Certificate 2026-026">
+<meta name="citation_author" content="Merel C. Postema">
+<meta name="citation_publication_date" content="2026/07/28">
+<meta name="citation_technical_report_institution" content="CODECHECK Initiative">
+<meta name="citation_technical_report_number" content="2026-026">
+<meta name="citation_publisher" content="CODECHECK Initiative">
+<meta name="citation_doi" content="10.5281/zenodo.23081945">
+<meta name="citation_abstract" content="Partial reproduction. The gt package could not be installed in the Amsterdam UMC myDRE environment (Error: Chrome debugging port not open after 10 seconds), so the gtsave() lines were commented out and the tables saved manually. Only the first rows of each table could be viewed and these were reproducible; reproducibility of the complete tables could not be verified. Two minor modifications to the original code were needed: installing missing packages and loading stringr.">
+<meta name="citation_pdf_url" content="https://codecheck.org.uk/register/certs/2026-026/cert.pdf">
+<meta name="citation_fulltext_html_url" content="https://codecheck.org.uk/register/certs/2026-026/">
+<meta name="citation_public_url" content="https://codecheck.org.uk/register/certs/2026-026/">
+<meta name="citation_language" content="en">
+<meta name="citation_keywords" content="CODECHECK; reproducibility; code execution; AUMC">
+
+<!-- FAIR Signposting Level 1, as HTML link elements: GitHub Pages cannot set
+     HTTP Link headers (register#55) -->
+<link rel="cite-as" href="https://doi.org/10.5281/zenodo.23081945">
+<link rel="type" href="https://schema.org/Review">
+<link rel="type" href="https://schema.org/AboutPage">
+<link rel="author" href="https://orcid.org/0000-0002-1536-7062">
+<link rel="describedby" href="index.json" type="application/json">
+<link rel="describedby" href="index.jsonld" type="application/ld+json">
+<link rel="item" href="cert.pdf" type="application/pdf">
+<link rel="license" href="https://creativecommons.org/licenses/by/4.0/">
+
+<!-- Schema.org metadata for CODECHECK certificate -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-026/",
+  "name": "CODECHECK Certificate 2026-026",
+  "url": "https://codecheck.org.uk/register/certs/2026-026/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Merel C. Postema",
+      "@id": "https://orcid.org/0000-0002-1536-7062"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Ayu Putu Madri Dewi",
+        "@id": "https://orcid.org/0000-0001-7645-6424"
+      },
+      {
+        "@type": "Person",
+        "name": "Anne Floor Holtrop",
+        "@id": "https://orcid.org/0009-0004-5165-0481"
+      },
+      {
+        "@type": "Person",
+        "name": "Nicholas J DeVito",
+        "@id": "https://orcid.org/0000-0001-8286-1995"
+      },
+      {
+        "@type": "Person",
+        "name": "Melissa L. Rethlefsen",
+        "@id": "https://orcid.org/0000-0001-5322-9368"
+      },
+      {
+        "@type": "Person",
+        "name": "Zulfan Zazuli",
+        "@id": "https://orcid.org/0000-0002-1264-9558"
+      },
+      {
+        "@type": "Person",
+        "name": "Mathieu Repiquet",
+        "@id": "https://orcid.org/0009-0005-4719-6607"
+      },
+      {
+        "@type": "Person",
+        "name": "Ka Hin Tai",
+        "@id": "https://orcid.org/0009-0001-7072-2178"
+      },
+      {
+        "@type": "Person",
+        "name": "Constant Vinatier",
+        "@id": "https://orcid.org/0000-0002-6899-1838"
+      },
+      {
+        "@type": "Person",
+        "name": "Monika Varga",
+        "@id": "https://orcid.org/0000-0002-6886-5751"
+      },
+      {
+        "@type": "Person",
+        "name": "Stefan Wouters",
+        "@id": "https://orcid.org/0000-0002-5243-6186"
+      },
+      {
+        "@type": "Person",
+        "name": "Hengky Kurniawan",
+        "@id": "https://orcid.org/0000-0002-4463-8917"
+      },
+      {
+        "@type": "Person",
+        "name": "Nynke Swart",
+        "@id": "https://orcid.org/0000-0002-4553-6234"
+      },
+      {
+        "@type": "Person",
+        "name": "Gowri Gopalakrishna",
+        "@id": "https://orcid.org/0000-0003-3847-3906"
+      },
+      {
+        "@type": "Person",
+        "name": "Inge Stegeman",
+        "@id": "https://orcid.org/0000-0001-5154-7178"
+      },
+      {
+        "@type": "Person",
+        "name": "Mariska Leeflang",
+        "@id": "https://orcid.org/0000-0001-5960-0471"
+      }
+    ],
+    "abstract": "<p>ObjectiveTo determine whether an open science checklist can be useful for predicting the reproducibility of publications resulting from these grant proposals when used by grant referees assessing them.Study Design and SettingThis is a comparative accuracy study design using funded grant proposals obtained from online sources (i.e., Open Grants, RIO Journal, NIH, and Grantome). Two independent groups of mock referees assessed open science practices in the proposals and predicted whether the resulting publications would be reproducible, with one group using an Open Science checklist as an intervention, and the other without. Then we attempted to reproduce the primary findings of a resulting publication from the grant proposal. Sensitivity, specificity, predictive values, and overall accuracy were calculated from 2×2 tables, comparing predicted versus actual reproducibility. The primary outcome is the level of reproducibility, measured by the predictive value, the proportion of (non)reproducible study findings that are accurately predicted. This study was conducted between April and September 2025.Results Of seven out of 101 publications (6.9%, 95% CI 2.8–13.8%), the primary results could be reproduced. When using the checklist, only 16.8% of the proposals were expected to be reproducible, while without the checklist 75.2% were expected to be reproducible. When using the checklist, 17 proposals were expected to be reproducible, while only 2 out of these 17 could actually be reproduced (positive predictive value (PPV) 11.8% (95% CI 3.3–34.3%)). Without using the checklist, 76 proposals were thought to be reproducible, while only six out of 76 could actually be reproduced (PPV 7.9% (95% CI 3.7−16.2%)). Sensitivity analysis by research field was not conducted because of small sample sizes in most categories.Conclusion The Open Science checklist has a low positive predictive value, as expected given the low reproducibility prevalence in our sample. Although the differences between the group using the checklist and the group that did not use the checklist may also have been caused by their level of knowledge of reproducibility and open science, neither group could predict which proposals would or would not be reproducible.<\/p>",
+    "url": "https://doi.org/10.31222/osf.io/dvhux_v1",
+    "sameAs": ["https://doi.org/10.31222/osf.io/dvhux_v1", "https://openalex.org/W7129689501"]
+  },
+  "reviewBody": "Partial reproduction. The gt package could not be installed in the Amsterdam UMC myDRE environment (Error: Chrome debugging port not open after 10 seconds), so the gtsave() lines were commented out and the tables saved manually. Only the first rows of each table could be viewed and these were reproducible; reproducibility of the complete tables could not be verified. Two minor modifications to the original code were needed: installing missing packages and loading stringr.\n",
+  "datePublished": "2026-07-28",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.23081945"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.23081945"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-026/cert.pdf"
+  }
+}</script>
+
+<!-- Icon fonts -->
+<link rel="stylesheet" href="../../libs/academicons/css/academicons.min.css">
+<link rel="stylesheet" href="../../libs/font-awesome/css/font-awesome.min.css">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+<div class="codecheck-navbar">
+  <div class="navbar-container">
+    <a href="../../index.html" class="navbar-brand" title="Go to list of checks">
+      <img src="../../codecheck_logo.svg" alt="Go to list of checks" class="navbar-logo">
+    </a>
+
+    <nav class="navbar-menu">
+      <a href="../../index.html" class="nav-link" title="Browse all CODECHECK certificates">Checks</a>
+      <a href="../../venues/index.html" class="nav-link" title="Browse venues that have hosted a CODECHECK">Venues</a>
+      <a href="../../works/index.html" class="nav-link" title="Browse checked papers">Works</a>
+      <a href="../../persons/index.html" class="nav-link" title="Browse people who authored or checked a paper">People</a>
+      <a href="../../organisations/index.html" class="nav-link" title="Browse organisations whose people authored or checked a paper">Organisations</a>
+      <a href="../../statistics/index.html" class="nav-link" title="View register statistics">Statistics</a>
+      <a href="https://codecheck.org.uk/" class="nav-link" title="About the CODECHECK project">About</a>
+    </nav>
+  </div>
+</div>
+<div class="breadcrumb-container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../../index.html">CODECHECK Register</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/index.html">Venues</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/institutions/index.html">Institutions</a></li>
+    <li class="breadcrumb-item"><a href="../../venues/institutions/aumc/index.html">Amsterdam UMC</a></li>
+    <li class="breadcrumb-item active" aria-current="page">2026-026</li>
+  </ol>
+</nav>
+</div>
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">CODECHECK Certificate 2026-026</h1>
+
+</div>
+
+
+<p><link href="../../libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../assets/codecheck-register.css" rel="stylesheet"></p>
+<div class="cert-container container-fluid">
+<div class="row">
+<div class="col-md-6">
+<div class="card mb-3">
+<div class="card-body">
+<!-- Buttons to change cert page -->
+<div class="d-flex justify-content-center">
+<button type="button" onclick="changeImage(-1)" class="btn btn-outline-secondary mx-2" id="prev-btn" title="View previous page">
+<h4>
+Previous
+</h4>
+</button>
+<button type="button" onclick="changeImage(1)" class="btn btn-outline-secondary mx-2" id="next-btn" title="View next page">
+<h4>
+Next
+</h4>
+</button>
+</div>
+<!-- Cert image -->
+<img class="card-img-top mb-3" src="cert_1.png" id="image-slider">
+</div>
+</div>
+</div>
+<!-- Right Side Content (Paper details + CODECHECK details) -->
+<div class="col-md-6 d-flex flex-column">
+<div class="card mb-3 flex-grow-1">
+<div class="card-header pt-4">
+<h2 class="card-title cert-card-title">
+Paper details
+</h2>
+</div>
+<div class="card-body d-flex flex-column">
+<p>
+<strong>Title</strong>: <a
+href="../../works/10.31222/osf.io/dvhux_v1/">Using an Open Science
+Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded
+Publications</a>
+</p>
+<p>
+<strong>Authors</strong>: <a
+href="../../persons/0000-0001-7645-6424/">Ayu Putu Madri Dewi</a>
+<a href="https://orcid.org/0000-0001-7645-6424" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0009-0004-5165-0481/">Anne Floor Holtrop</a>
+<a href="https://orcid.org/0009-0004-5165-0481" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0001-8286-1995/">Nicholas J DeVito</a>
+<a href="https://orcid.org/0000-0001-8286-1995" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0001-5322-9368/">Melissa L. Rethlefsen</a>
+<a href="https://orcid.org/0000-0001-5322-9368" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-1264-9558/">Zulfan Zazuli</a>
+<a href="https://orcid.org/0000-0002-1264-9558" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0009-0005-4719-6607/">Mathieu Repiquet</a>
+<a href="https://orcid.org/0009-0005-4719-6607" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0009-0001-7072-2178/">Ka Hin Tai</a>
+<a href="https://orcid.org/0009-0001-7072-2178" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-6899-1838/">Constant Vinatier</a>
+<a href="https://orcid.org/0000-0002-6899-1838" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-6886-5751/">Monika Varga</a>
+<a href="https://orcid.org/0000-0002-6886-5751" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-5243-6186/">Stefan Wouters</a>
+<a href="https://orcid.org/0000-0002-5243-6186" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-4463-8917/">Hengky Kurniawan</a>
+<a href="https://orcid.org/0000-0002-4463-8917" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0002-4553-6234/">Nynke Swart</a>
+<a href="https://orcid.org/0000-0002-4553-6234" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0003-3847-3906/">Gowri Gopalakrishna</a>
+<a href="https://orcid.org/0000-0003-3847-3906" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0001-5154-7178/">Inge Stegeman</a>
+<a href="https://orcid.org/0000-0001-5154-7178" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>,
+<a href="../../persons/0000-0001-5960-0471/">Mariska Leeflang</a>
+<a href="https://orcid.org/0000-0001-5960-0471" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+</p>
+<!-- Abstract section -->
+<div id="abstract-section" class="text-container">
+<p>
+<strong>Abstract</strong>: <i>Obtained from <a
+href="https://www.crossref.org">CrossRef</a></i>
+</p>
+<div id="abstract-content" class="text-box">
+<p>
+<p>
+ObjectiveTo determine whether an open science checklist can be useful
+for predicting the reproducibility of publications resulting from these
+grant proposals when used by grant referees assessing them.Study Design
+and SettingThis is a comparative accuracy study design using funded
+grant proposals obtained from online sources (i.e., Open Grants, RIO
+Journal, NIH, and Grantome). Two independent groups of mock referees
+assessed open science practices in the proposals and predicted whether
+the resulting publications would be reproducible, with one group using
+an Open Science checklist as an intervention, and the other without.
+Then we attempted to reproduce the primary findings of a resulting
+publication from the grant proposal. Sensitivity, specificity,
+predictive values, and overall accuracy were calculated from 2×2 tables,
+comparing predicted versus actual reproducibility. The primary outcome
+is the level of reproducibility, measured by the predictive value, the
+proportion of (non)reproducible study findings that are accurately
+predicted. This study was conducted between April and September
+2025.Results Of seven out of 101 publications (6.9%, 95% CI 2.8–13.8%),
+the primary results could be reproduced. When using the checklist, only
+16.8% of the proposals were expected to be reproducible, while without
+the checklist 75.2% were expected to be reproducible. When using the
+checklist, 17 proposals were expected to be reproducible, while only 2
+out of these 17 could actually be reproduced (positive predictive value
+(PPV) 11.8% (95% CI 3.3–34.3%)). Without using the checklist, 76
+proposals were thought to be reproducible, while only six out of 76
+could actually be reproduced (PPV 7.9% (95% CI 3.7−16.2%)). Sensitivity
+analysis by research field was not conducted because of small sample
+sizes in most categories.Conclusion The Open Science checklist has a low
+positive predictive value, as expected given the low reproducibility
+prevalence in our sample. Although the differences between the group
+using the checklist and the group that did not use the checklist may
+also have been caused by their level of knowledge of reproducibility and
+open science, neither group could predict which proposals would or would
+not be reproducible.
+</p>
+</p>
+</div>
+</div>
+<p class="mt-3">
+<strong>Work publication date</strong>: 2026-02-17
+</p>
+<p class="mt-3">
+<strong>OpenAlex</strong>:
+<a href="https://openalex.org/W7129689501">https://openalex.org/W7129689501</a>
+</p>
+</div>
+</div>
+<div class="card mb-3 flex-grow-1">
+<div class="card-header pt-4">
+<h2 class="card-title cert-card-title">
+CODECHECK details
+</h2>
+</div>
+<div class="card-body d-flex flex-column">
+<p>
+<strong>Certificate identifier</strong>: 2026-026
+</p>
+<p>
+<strong>Codechecker name</strong>: <a
+href="../../persons/0000-0002-1536-7062/">Merel C. Postema</a>
+<a href="https://orcid.org/0000-0002-1536-7062" title="ORCID iD"><i class="ai ai-orcid orcid-icon-large"></i></a>
+</p>
+<p>
+<strong>Time of check</strong>: 2026-07-28
+</p>
+<p>
+<strong>Repository</strong>: <a
+href="https://github.com/codecheckers/funders"
+class="uri">https://github.com/codecheckers/funders</a>
+</p>
+<p>
+<strong>Full certificate</strong>: <a
+href="https://doi.org/10.5281/zenodo.23081945"
+class="uri">https://doi.org/10.5281/zenodo.23081945</a>
+</p>
+<p>
+<strong>Type</strong>: <a
+href="../../venues/institutions/">institution</a>
+</p>
+<p>
+<strong>Venue</strong>: <a
+href="../../venues/institutions/aumc/">AUMC</a>
+</p>
+<!-- Summary -->
+<div id="summary-section" class="text-container">
+<p>
+<strong>Summary</strong>:
+</p>
+<div id="summary-content" class="text-box">
+<p>
+Partial reproduction. The gt package could not be installed in the
+Amsterdam UMC myDRE environment (Error: Chrome debugging port not open
+after 10 seconds), so the gtsave() lines were commented out and the
+tables saved manually. Only the first rows of each table could be viewed
+and these were reproducible; reproducibility of the complete tables
+could not be verified. Two minor modifications to the original code were
+needed: installing missing packages and loading stringr.
+</p>
+</div>
+</div>
+<!-- Citation Generator -->
+<div id="citation-section" class="mt-3">
+<p>
+<strong>Cite this certificate</strong>: <span class="text-muted ms-2"
+style="font-size: 0.9em;">Citation metadata retrieved from
+data.crosscite.org</span>
+</p>
+<div class="mb-2">
+<select class="form-select" id="citation-format" aria-label="Citation format" title="Choose citation style">
+<option value="apa">APA</option>
+<option value="vancouver">Vancouver</option>
+<option value="harvard1">Harvard</option>
+<option value="bibtex" selected>BibTeX</option>
+<option value="biblatex">BibLaTeX</option>
+<option value="ris">RIS</option> </select>
+</div>
+<div class="citation-preview-wrapper mb-2">
+<div id="citation-preview" class="border rounded p-2 citation-preview">
+<span class="text-muted">Loading citation…</span>
+</div>
+<button class="btn btn-outline-secondary citation-copy-btn" id="copy-citation-btn" type="button" title="Copy citation to clipboard">
+<i class="ai ai-doi ai-2x"></i> </button> <span id="copy-feedback"
+class="text-success citation-copy-feedback d-none">Copied!</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /.row -->
+<script src="../../libs/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../../libs/codecheck/citation.min.js"></script>
+<script src="../../libs/codecheck/citation-wrapper.js"></script>
+<script src="../../libs/codecheck/cert-utils.js"></script>
+<script src="../../libs/codecheck/cert-citation.js"></script>
+<div class="row">
+<div class="col-12">
+<p class="text-muted cert-footer-link">
+<a href="index.json">View certificate data as JSON</a>
+</p>
+</div>
+</div>
+</div>
+<script>
+// Dynamically insert the images array
+var images = ["cert_1.png", "cert_2.png", "cert_3.png", "cert_4.png", "cert_5.png", "cert_6.png", "cert_7.png", "cert_8.png", "cert_9.png", "cert_10.png", "cert_11.png"];
+var currentIndex = 0;
+
+// Initialize page on DOM load
+document.addEventListener("DOMContentLoaded", function() {
+  // Setting the cert page 1 as the display image
+  changeImage(0);
+
+  initializeCertificateSections();
+
+  // Initialize auto-pagination
+  if (typeof initializeAutoPagination === 'function') {
+    initializeAutoPagination();
+  }
+
+  // Initialize citation generator
+  // The citation-wrapper.js ensures Cite is available globally
+  if (typeof initializeCitationGenerator === 'function') {
+    initializeCitationGenerator();
+  } else {
+    console.error('Citation generator function not available');
+  }
+});
+
+</script>
+
+<p class="footer-links">
+</p>
+
+<hr class="footer-separator" />
+
+<!-- based on footer from https://codecheck.org.uk/ on 2020-04-14 -->
+<div class="footer-content">
+    <p><strong><a href="https://codecheck.org.uk/">https://codecheck.org.uk/</a></strong> | <a
+            href="https://github.com/codecheckers/"><i class="fa fa-github"></i> codecheckers</a> | <a
+            href="https://zenodo.org/communities/codecheck/"><i class="ai ai-zenodo"></i> Zenodo Community</a> | <a
+            href="https://doi.org/10.53962/qtrx-1a"><i class="fa fa-flask"></i> ResearchEquals Collection</a></p>
+
+    <p>© <a href="mailto:team@cdchck.science">team@cdchck.science</a> | Published under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    <p><a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"><img title="license logo CC BY-SA 4.0"
+                src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg"></a>
+    </p>
+
+    <p><a href="https://doi.org/10.5281/zenodo.4059767"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4059767.svg" alt="DOI of Zenodo Deposit"></a></p>
+
+    <p class="footer-description">CODECHECK is a process for independent execution of
+        computations underlying scholarly research articles.</p>
+
+    <p class="build-info"></p>
+</div>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+</body>
+</html>

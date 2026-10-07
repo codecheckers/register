@@ -5,7 +5,7 @@
     "Country": "The Netherlands",
     "Works authored": 4,
     "Checks conducted": 12,
-    "People": 8
+    "People": 7
   },
   {
     "Organisation": "Delft University of Technology",
@@ -107,9 +107,9 @@
     "Organisation": "Vrije Universiteit Amsterdam",
     "ROR": "008xxew50",
     "Country": "The Netherlands",
-    "Works authored": 2,
+    "Works authored": 3,
     "Checks conducted": 1,
-    "People": 3
+    "People": 5
   },
   {
     "Organisation": "RWTH Aachen University",
@@ -256,6 +256,14 @@
     "People": 1
   },
   {
+    "Organisation": "Amsterdam University Medical Centers",
+    "ROR": "05grdyy37",
+    "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
     "Organisation": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
     "ROR": "04bwf3e34",
     "Country": "Germany",
@@ -315,6 +323,14 @@
     "Organisation": "Imperial College London",
     "ROR": "041kmwe10",
     "Country": "United Kingdom",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Inserm",
+    "ROR": "02vjkv261",
+    "Country": "France",
     "Works authored": 1,
     "Checks conducted": 0,
     "People": 1
@@ -488,9 +504,33 @@
     "People": 1
   },
   {
+    "Organisation": "Université de Rennes",
+    "ROR": "015m7wh34",
+    "Country": "France",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
     "Organisation": "Université de Tours",
     "ROR": "02wwzvj46",
     "Country": "France",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Université Paris-Saclay",
+    "ROR": "03xjwb503",
+    "Country": "France",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University Medical Center Utrecht",
+    "ROR": "0575yy874",
+    "Country": "The Netherlands",
     "Works authored": 1,
     "Checks conducted": 0,
     "People": 1
@@ -530,6 +570,14 @@
   {
     "Organisation": "University of Manchester",
     "ROR": "027m9bs27",
+    "Country": "United Kingdom",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "University of Oxford",
+    "ROR": "052gg0110",
     "Country": "United Kingdom",
     "Works authored": 1,
     "Checks conducted": 0,

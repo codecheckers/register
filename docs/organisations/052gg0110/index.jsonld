@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/052gg0110",
+  "name": "University of Oxford",
+  "identifier": "https://ror.org/052gg0110",
+  "url": "https://codecheck.org.uk/register/organisations/052gg0110/",
+  "sameAs": "https://www.ox.ac.uk",
+  "location": {
+    "@type": "Place",
+    "address": "Oxford, United Kingdom"
+  }
+}
