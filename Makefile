@@ -130,6 +130,29 @@ wikibase: version env
 	R -q -e "codecheck::publish_wikibase_pages('.', dry_run = $(if $(APPLY),FALSE,TRUE), log_file = $(if $(wildcard $(WIKIBASE_LOG)),'$(WIKIBASE_LOG)',NULL));"
 .phony: wikibase
 
+# write the QuickStatements batches for the Wikidata import, see
+# codecheck::preview_wikidata_export(). Runs in the codecheck R package folder
+# (CODECHECK_DIR), so the batches land in its wikidata/ folder next to the edit
+# log. Nothing is sent to Wikidata: the batches are pasted into QuickStatements
+# by hand. Reads register.csv and docs/register.json, so render first. Pass
+# PUBLISH=1 to also write the preview to the Wikibase as Project:Wikidata export
+# (needs WIKIBASE_USER and WIKIBASE_TOKEN). The edit log makes the preview refuse
+# a batch while an earlier one, recorded as submitted, still has unresolved
+# entities; pass FORCE=1 once you know those are new, not a failed batch.
+CODECHECK_DIR ?= ../codecheck
+wikidata: version env
+	cd $(CODECHECK_DIR) && R -q -e "invisible(codecheck::preview_wikidata_export('$(CURDIR)', out_dir = 'wikidata', log_file = 'wikidata/wikibase-log.csv', publish = $(if $(PUBLISH),TRUE,FALSE), force = $(if $(FORCE),TRUE,FALSE)));"
+	@echo ""
+	@echo "Batches are in $(CODECHECK_DIR)/wikidata/ - nothing was sent to Wikidata. Manual steps:"
+	@echo "  1. paste wikidata-works.qs into https://quickstatements.toolforge.org/ and run it"
+	@echo "  2. record it: quickstatements_submitted('wikidata-works', url = '<editgroups URL>')"
+	@echo "  3. run 'make wikidata' again: the works now resolve, the certificates batch is complete"
+	@echo "  4. paste wikidata-certificates.qs, record it with quickstatements_submitted('wikidata-certificates', url = ...)"
+	@echo "  5. verify_wikidata_export(), then enter the new Q numbers in the Wikidata column of register.csv"
+	@echo "Full procedure: vignette('codecheck_wikidata', package = 'codecheck') or"
+	@echo "  $(CODECHECK_DIR)/vignettes/codecheck_wikidata.Rmd"
+.phony: wikidata
+
 # automated build is active via GitHub Action
 image_build:
 	docker build --tag codecheckers/register:latest --no-cache --build-arg GITHUB_PAT=@bash -c "source ~/.Renviron && echo \$\$GITHUB_PAT" .
