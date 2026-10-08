@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2026-025",
     "title": "CODECHECK Certificate 2026-025",
-    "url": "https://codecheck.org.uk/register/certs/2026-025/"
+    "url": "https://codecheck.org.uk/register/certs/2026-025/",
+    "wikidata": "Q141668973"
   },
   "paper": {
     "title": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
@@ -20,7 +21,8 @@
         "orcid": "0000-0002-8572-9268"
       }
     ],
-    "reference": "https://doi.org/10.1038/s44323-026-00108-x"
+    "reference": "https://doi.org/10.1038/s44323-026-00108-x",
+    "wikidata": "Q141668950"
   },
   "codecheck": {
     "codecheckers": [

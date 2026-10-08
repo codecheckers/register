@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.1038/s44323-026-00108-x",
       "url": "https://doi.org/10.1038/s44323-026-00108-x",
-      "sameAs": "https://doi.org/10.1038/s44323-026-00108-x",
+      "sameAs": ["https://doi.org/10.1038/s44323-026-00108-x", "https://www.wikidata.org/entity/Q141668950"],
       "name": "Constructing melanopic light exposure profiles from sparse daily-route measurements",
       "author": [
         {

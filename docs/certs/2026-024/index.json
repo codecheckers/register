@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2026-024",
     "title": "CODECHECK Certificate 2026-024",
-    "url": "https://codecheck.org.uk/register/certs/2026-024/"
+    "url": "https://codecheck.org.uk/register/certs/2026-024/",
+    "wikidata": "Q141668972"
   },
   "paper": {
     "title": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals",
@@ -29,7 +30,8 @@
       "text": "<jats:title>Abstract<\/jats:title>\n                <jats:p>Colour gamuts describe the chromaticity reproduction capabilities of a display, i.e. its ability to reproduce the relative cone excitations from real-world radiance spectra. While the cones dominate “canonical” visual function (i.e. perception of colour, space, and motion) under photopic light levels, they are not the only photoreceptors in the human retina. Rods and melanopsin-containing intrinsically photosensitive retinal ganglion cells (ipRGCs) also respond to light and contribute to both visual and non-visual light responses, including circadian rhythms, sleep-wake control, mood, pupil size, and alertness. Three-primary display technologies, with their focus on reproducing colour, are not designed to reproduce the rod and melanopsin excitations. Moreover, conventional display metrics used to characterize three-primary displays fail to describe the display’s ability (or inability) to reproduce rod and melanopsin excitations, and thus do not capture the display’s ability to reproduce the full human physiological response to light. In this paper, three novel physiologically relevant metrics are proposed for quantifying the reproduction and distortion of the photoreceptor signals by visual displays. A novel equal-luminance photoreceptor excitation diagram is proposed, extending the well-known MacLeod-Boynton chromaticity diagram, to allow visualizations of the five-dimensional photoreceptor signal space in a three-dimensional projection.<\/jats:p>",
       "source": "CrossRef"
     },
-    "openalex": "https://openalex.org/W3133925542"
+    "openalex": "https://openalex.org/W3133925542",
+    "wikidata": "Q141668949"
   },
   "codecheck": {
     "codecheckers": [

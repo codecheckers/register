@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.31222/osf.io/dvhux_v1",
       "url": "https://doi.org/10.31222/osf.io/dvhux_v1",
-      "sameAs": ["https://doi.org/10.31222/osf.io/dvhux_v1", "https://openalex.org/W7129689501"],
+      "sameAs": ["https://doi.org/10.31222/osf.io/dvhux_v1", "https://openalex.org/W7129689501", "https://www.wikidata.org/entity/Q141668951"],
       "name": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
       "author": [
         {

@@ -37,8 +37,9 @@
       }
     ],
     "url": "https://doi.org/10.1038/s44323-026-00108-x",
-    "sameAs": "https://doi.org/10.1038/s44323-026-00108-x"
+    "sameAs": ["https://doi.org/10.1038/s44323-026-00108-x", "https://www.wikidata.org/entity/Q141668950"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q141668973",
   "reviewBody": "Reproduction using the Workflow hosted at https://github.com/tscnlab/TabandehEtAl_npjBiolTimingSleep_2026, using the Git commit e4a1b5500394de6e317aabd8315df60b8bedc6e3. Installed the dependencies on a Linux Ubuntu 26.04, using micromamba, with R 4.6.1, latest quarto and renv, following the instructions from the project README file. There were minor issues during the dependencies installation that authors started working on improvements for the documentation. A Jupyter notebook was used, as instructed in the project README, to execute part of the workflow. The actual data processing was verified using the R Quarto notebook, that took about 11 hours to complete. After that, the remaining steps of the Jupyter notebook were executed, and produced the same figures and table data used in the article. The data, plots, tables, all looked correct.\n",
   "datePublished": "2026-09-20T10:32:00",
   "identifier": {
