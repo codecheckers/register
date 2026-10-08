@@ -132,7 +132,7 @@ Certificate,Repository,Type,Venue,Issue,Wikidata
 2026-015,github::reproducible-agile/reviews-2026|reports/029,conference,AGILEGIS,186,Q141269759
 2026-016,github::reproducible-agile/reviews-2026|reports/031,conference,AGILEGIS,186,Q141269760
 2026-017,github::reproducible-agile/reviews-2026|reports/033,conference,AGILEGIS,186,Q141269761
-2026-025,github::codecheckers/TabandehEtAl_npjBiolTimingSleep_2026,community,codecheck,211,
-2026-022,github::codecheckers/jecats-paper-climate-mitigation,institution,TU Delft DCC,201,
-2026-024,github::codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026,community,preprint,203,
-2026-026,github::codecheckers/funders,institution,AUMC,214,
+2026-025,github::codecheckers/TabandehEtAl_npjBiolTimingSleep_2026,community,codecheck,211,Q141668973
+2026-022,github::codecheckers/jecats-paper-climate-mitigation,institution,TU Delft DCC,201,Q141668971
+2026-024,github::codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026,community,preprint,203,Q141668972
+2026-026,github::codecheckers/funders,institution,AUMC,214,Q141668974
