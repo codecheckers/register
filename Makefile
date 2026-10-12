@@ -52,6 +52,7 @@ install_local:
 # previous value regardless of this flag, see resolve_external_field()
 render: version env pandoc_warn
 	R -q -e "codecheck::register_render(parallel = TRUE, check_zenodo_policy = $(if $(filter 0,$(CHECK_ZENODO)),FALSE,TRUE), prune_unavailable_metadata = $(if $(filter 1,$(PRUNE_STALE)),TRUE,FALSE));"
+	./test/stray_files.sh
 
 stats: version
 	R -q -e "codecheck::register_update_stats();"
@@ -62,12 +63,7 @@ ifndef CERT_ID
 endif
 	R -q -e "codecheck::register_render_cert('$(CERT_ID)');"
 
-render_latest: clean
-	R -q -e "register = read.csv('register.csv', as.is = TRUE, comment.char = '#'); codecheck::register_check(from = nrow(register), to = nrow(register) - 2);"
-
 clean: version
-	rm -r -f .cache/R
-	find docs/certs -type d -name "libs" -exec rm -rf {} + 2>/dev/null || true
 	R -q -e "codecheck::register_clear_cache();"
 
 # refresh what is cached about some certificates only - their codecheck.yml,
@@ -155,11 +151,7 @@ wikidata: version env
 
 # automated build is active via GitHub Action
 image_build:
-	docker build --tag codecheckers/register:latest --no-cache --build-arg GITHUB_PAT=@bash -c "source ~/.Renviron && echo \$\$GITHUB_PAT" .
-
-# use the local GITHUB_PAT to avoid rate limits
-image_build_local: $(eval SHELL:=/bin/bash)
-	source ~/.Renviron && docker build --tag codecheckers/register:latest --no-cache --build-arg GITHUB_PAT=$$GITHUB_PAT .
+	docker build --tag codecheckers/register:latest --no-cache .
 
 image_push: image_build
 	docker push codecheckers/register:latest
@@ -191,6 +183,11 @@ screenshots:
 overflow:
 	./test/overflow.py $(if $(WIDTH),--width $(WIDTH)) $(PATHS)
 
+# report temporary render files and page-local libs/ folders left in docs/,
+# also run at the end of every render
+stray_check:
+	./test/stray_files.sh
+
 # compare the local pandoc with the one in the CI image that renders docs/;
 # a differing major or minor version rewrites docs/ with whitespace-only
 # changes and exits non-zero, see the README section "Pandoc version"
@@ -203,7 +200,7 @@ pandoc_check:
 # a render that was asked for
 pandoc_warn:
 	@./test/pandoc_check.sh $(if $(IMAGE),-i $(IMAGE)) $(if $(PANDOC_CI_VERSION),-e $(PANDOC_CI_VERSION)) || true
-.phony: screenshots, overflow, pandoc_check, pandoc_warn
+.phony: screenshots, overflow, stray_check, pandoc_check, pandoc_warn
 
 # stop the local nginx server
 serve-stop:

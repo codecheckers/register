@@ -52,6 +52,12 @@ jobs:
           R -e 'options("R.cache.rootPath" = "/tmp"); codecheck::register_render(); warnings()'
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check for stray render files
+        # temporary page inputs or page-local libs/ must not be committed
+        run: ./test/stray_files.sh
+      - name: Skip whitespace-only changes
+        # a new pandoc in the image re-wraps every page, commit only real changes
+        run: ./test/revert_whitespace_only.sh docs
       - name: Rate after
         if: always()
         run: |

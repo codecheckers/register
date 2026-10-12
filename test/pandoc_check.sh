@@ -13,7 +13,7 @@
 #   -i IMAGE      CI image to read the version from
 #                 (default: codecheckers/register:latest)
 #   -e VERSION    fallback CI version, used only when that image is not
-#                 available locally (default: 3.10)
+#                 available locally (default: 3.11)
 #
 # The image itself is the authority: whenever it is present the version is
 # read out of it, so -e never has to be kept up to date on a machine that
@@ -28,7 +28,7 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 IMAGE="codecheckers/register:latest"
-EXPECTED="3.10"
+EXPECTED="3.11"
 
 while getopts "i:e:" opt; do
   case "$opt" in
