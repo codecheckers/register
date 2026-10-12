@@ -33,13 +33,13 @@
   "interval_points": [
     {
       "id": "2025-018",
-      "days": 82
+      "days": 22
     }
   ],
   "interval_buckets": {
     "Before publication": 0,
-    "0-1mo": 0,
-    "1-3mo": 1,
+    "0-1mo": 1,
+    "1-3mo": 0,
     "3-6mo": 0,
     "6-12mo": 0,
     "1-2y": 0,

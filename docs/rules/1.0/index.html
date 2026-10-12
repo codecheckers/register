@@ -35,7 +35,7 @@
       The 59 rules that CODECHECK tooling applies to a <code>codecheck.yml</code>,
       its bundle, the certificate and the register entry, for
       <a href="https://codecheck.org.uk/spec/config/1.0/">version 1.0 of the configuration file specification</a>
-      (published 2020-02-06; rules updated 2026-10-02).
+      (published 2020-02-06; rules updated 2026-10-09).
       The rule file is the source of truth; see
       <a href="https://github.com/codecheckers/register/blob/master/RULES.md">RULES.md</a>
       for the identifier scheme.
@@ -66,14 +66,14 @@
             <td><code>explicit-document</code></td>
             <td><span class="rules-severity rules-severity-error">error</span></td>
             <td>spec/config/1.0#explicit-document-and-directive</td>
-            <td>The file starts with the explicit document marker ---</td>
+            <td>The YAML document starts with the explicit document marker ---, optionally preceded by directives such as %YAML 1.2, comments or blank lines</td>
           </tr>
           <tr id="CC-CFG-003">
             <td><a href="#CC-CFG-003">CC-CFG-003</a></td>
             <td><code>file-name-and-location</code></td>
             <td><span class="rules-severity rules-severity-error">error</span></td>
             <td>spec/config/1.0#storage-location</td>
-            <td>The file is named codecheck.yml and sits at the root of the bundle</td>
+            <td>The file is named codecheck.yml</td>
           </tr>
           <tr id="CC-CFG-004">
             <td><a href="#CC-CFG-004">CC-CFG-004</a></td>
@@ -94,7 +94,7 @@
             <td><code>manifest-path-relative</code></td>
             <td><span class="rules-severity rules-severity-error">error</span></td>
             <td>spec/config/1.0#manifest-list</td>
-            <td>Manifest file paths are relative to the codecheck.yml</td>
+            <td>Manifest file paths are relative to the codecheck.yml and stay inside the bundle: no absolute path, ~, drive letter or .. step</td>
           </tr>
           <tr id="CC-CFG-007">
             <td><a href="#CC-CFG-007">CC-CFG-007</a></td>
@@ -136,7 +136,7 @@
             <td><code>report-resolvable</code></td>
             <td><span class="rules-severity rules-severity-info">info</span></td>
             <td>spec/config/1.0#codecheck-metadata</td>
-            <td>The report identifier is in a resolvable form such as a DOI URL (ideally, advisory only)</td>
+            <td>The report identifier is an http(s) URL, such as a DOI URL, and resolves (ideally, advisory only)</td>
           </tr>
           <tr id="CC-CFG-013">
             <td><a href="#CC-CFG-013">CC-CFG-013</a></td>
@@ -192,7 +192,7 @@
             <td><code>paper-author-orcid</code></td>
             <td><span class="rules-severity rules-severity-warning">warning</span></td>
             <td>spec/config/1.0#author-and-submission-metadata</td>
-            <td>Every paper author entry has an ORCID, given as the plain identifier without URL prefix</td>
+            <td>Every paper author entry has an ORCID</td>
           </tr>
           <tr id="CC-CFG-021">
             <td><a href="#CC-CFG-021">CC-CFG-021</a></td>
@@ -213,7 +213,7 @@
             <td><code>no-placeholder-values</code></td>
             <td><span class="rules-severity rules-severity-error">error</span></td>
             <td>R:complete_codecheck_yml</td>
-            <td>No field still holds a FIXME/TODO/XXXXX placeholder value</td>
+            <td>No field still holds a placeholder value: FIXME, TODO, XXXX, the ORCID 0000-0000-0000-0000, or a placeholder report DOI</td>
           </tr>
           <tr id="CC-CFG-024">
             <td><a href="#CC-CFG-024">CC-CFG-024</a></td>
@@ -233,7 +233,7 @@
             <td><a href="#CC-CFG-026">CC-CFG-026</a></td>
             <td><code>certificate-id-format</code></td>
             <td><span class="rules-severity rules-severity-error">error</span></td>
-            <td>R:validate_certificate_github_issue</td>
+            <td>R:validate_register_rules</td>
             <td>The certificate identifier matches the YYYY-NNN pattern</td>
           </tr>
           <tr id="CC-CFG-027">
@@ -241,7 +241,7 @@
             <td><code>reference-is-url</code></td>
             <td><span class="rules-severity rules-severity-info">info</span></td>
             <td>spec/config/1.0#author-and-submission-metadata</td>
-            <td>paper.reference is a resolvable URL rather than free text; tools do not extract URLs from surrounding text</td>
+            <td>paper.reference is a single http(s) URL rather than free text; tools do not extract URLs from surrounding text</td>
           </tr>
           <tr id="CC-CFG-028">
             <td><a href="#CC-CFG-028">CC-CFG-028</a></td>
@@ -255,7 +255,7 @@
             <td><code>reference-pdf-is-archived</code></td>
             <td><span class="rules-severity rules-severity-info">info</span></td>
             <td>spec/config/1.0#author-and-submission-metadata</td>
-            <td>paper.reference is a direct PDF link, but a web archive snapshot, which is acceptable where no DOI or landing page exists</td>
+            <td>A paper.reference that is a direct PDF link is a web archive snapshot, which is acceptable where no DOI or landing page exists</td>
           </tr>
         </tbody>
       </table>
@@ -348,7 +348,7 @@
             <td><code>report-file-present</code></td>
             <td><span class="rules-severity rules-severity-warning">warning</span></td>
             <td>guide/bundle</td>
-            <td>The certificate report file is present in the bundle</td>
+            <td>A PDF, the certificate, is present in the bundle's codecheck/ or .codecheck/ directory</td>
           </tr>
           <tr id="CC-BUN-004">
             <td><a href="#CC-BUN-004">CC-BUN-004</a></td>
@@ -362,7 +362,7 @@
             <td><code>licence-present</code></td>
             <td><span class="rules-severity rules-severity-warning">warning</span></td>
             <td>practice</td>
-            <td>The repository under check states a licence</td>
+            <td>The bundle root holds a LICENSE, LICENCE or COPYING file</td>
           </tr>
         </tbody>
       </table>
@@ -433,7 +433,7 @@
             <td><code>zenodo-certificate-source-present</code></td>
             <td><span class="rules-severity rules-severity-warning">warning</span></td>
             <td>practice</td>
-            <td>The Zenodo record carries the certificate source, a machine-readable file such as codecheck.Rmd, .qmd, .ipynb, .docx, .odt, .md or .tex, not only the PDF</td>
+            <td>The Zenodo record carries the certificate source, not only the PDF: a file with the extension .Rmd, .qmd, .ipynb, .docx, .odt, .md or .tex</td>
           </tr>
           <tr id="CC-REP-010">
             <td><a href="#CC-REP-010">CC-REP-010</a></td>
@@ -462,14 +462,14 @@
             <td><code>certificate-id-sequence</code></td>
             <td><span class="rules-severity rules-severity-error">error</span></td>
             <td>practice</td>
-            <td>The certificate identifier follows YYYY-NNN and continues the year's sequence</td>
+            <td>Every certificate identifier follows YYYY-NNN, is not in a future year, and is at most 9 past the year's previous identifier</td>
           </tr>
           <tr id="CC-REG-003">
             <td><a href="#CC-REG-003">CC-REG-003</a></td>
             <td><code>repository-spec-format</code></td>
             <td><span class="rules-severity rules-severity-error">error</span></td>
             <td>practice</td>
-            <td>The Repository column uses a known prefix: github:: gitlab:: osf:: zenodo::</td>
+            <td>The Repository column uses a known prefix: github:: gitlab:: osf:: zenodo:: zenodo-sandbox::</td>
           </tr>
           <tr id="CC-REG-004">
             <td><a href="#CC-REG-004">CC-REG-004</a></td>
@@ -489,14 +489,14 @@
             <td><a href="#CC-REG-006">CC-REG-006</a></td>
             <td><code>issue-exists</code></td>
             <td><span class="rules-severity rules-severity-warning">warning</span></td>
-            <td>R:validate_certificate_github_issue</td>
+            <td>R:validate_register_rules</td>
             <td>The Issue number resolves to an issue in codecheckers/register</td>
           </tr>
           <tr id="CC-REG-007">
             <td><a href="#CC-REG-007">CC-REG-007</a></td>
             <td><code>issue-references-certificate</code></td>
             <td><span class="rules-severity rules-severity-warning">warning</span></td>
-            <td>R:validate_certificate_github_issue</td>
+            <td>R:validate_register_rules</td>
             <td>The referenced issue's title carries the certificate identifier</td>
           </tr>
         </tbody>
@@ -525,7 +525,7 @@
     <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2026-10-08 00:25:54 UTC | codecheck v0.31.0.9000 | register <a href="https://github.com/codecheckers/register/commit/316f7f61d1b3282e52e4bb5a2a035df99f6bb68e">316f7f6</a></p>
+    <p class="build-info">Built: 2026-10-12 12:41:08 UTC | codecheck v0.31.0.9000 | register <a href="https://github.com/codecheckers/register/commit/60060f6a8c7bced95de1135bea0c7f3584182562">60060f6</a></p>
 </div>
   </div>
 </body>
