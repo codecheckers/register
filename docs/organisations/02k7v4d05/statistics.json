@@ -45,6 +45,13 @@
   "venues_cumulative": {
     "2025": 1
   },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2025": 1
+  },
+  "codecheckers_cumulative": {
+    "2025": 1
+  },
   "platform_per_year": {
     "2025": {
       "zenodo": 1
