@@ -16,10 +16,14 @@ While iterating, skip the full build: `R CMD INSTALL --no-docs --no-byte-compile
 
 ## Workflow
 
+For regular CODECHECK editing, **CI renders the register**: `.github/workflows/render.yml` runs `register_render()` on every push to `master` that touches `register.csv`, `venues.csv` or `persons.csv`, and commits the result as "Update register renderings".
+
 1. Edit `register.csv` to add or update certificates
-2. Render with `R -q -e "codecheck::register_render(); warnings()"`
-3. Stage both `register.csv` and the generated `docs/` output (see Committing)
-4. Preview locally with `make serve` (nginx on port 80), stop with `make serve-stop`
+2. Validate the rows with `R -q -e 'codecheck::validate_register_rules()'` (seconds, no render)
+3. Stage `register.csv` only (see Committing); the user pushes, and CI renders `docs/`
+4. After the CI commit, check the result on the live site, e.g. `https://codecheck.org.uk/register/certs/<CERT ID>/`
+
+**A local render is the exception**, for when CI cannot do the job: debugging a render, trying out a change to the `codecheck` package before it is in the image, or previewing something risky before pushing. Then render (see "Running a render from Claude Code"), preview with `make serve` (nginx on port 80, stop with `make serve-stop`), and stage only the `docs/` files the change touched.
 
 A routine render never removes a certificate's OpenAlex ID or abstract just
 because this run's CrossRef/OpenAlex lookup came back empty: a lookup that
@@ -94,6 +98,7 @@ keeps the rest of the cache. It needs a `codecheck` version with
 
 ## Running a render from Claude Code
 
+Only for the exceptions listed under "Workflow" - routine certificate additions are rendered by CI.
 `make render` (which also runs the Zenodo and ResearchEquals policy audits)
 took about **seven minutes** for the 2026-025 render, far beyond the ~2 minutes
 a background shell task survives. Detach it, then wait on the R process
@@ -134,14 +139,16 @@ as contributor) and `persons.csv` (Wikidata items of newly resolved ORCIDs).
 2. Read `codecheck.yml` from the checked repository (`https://raw.githubusercontent.com/codecheckers/<repo>/<branch>/codecheck.yml`) for the certificate ID, paper reference, codechecker and `check_time`. This file, not the Zenodo record, is what the register renders from. If the issue doesn't name the `codecheckers/` repository, the newest repositories in the org usually include it: `gh api 'orgs/codecheckers/repos?sort=created&direction=desc&per_page=8' --jq '.[]|.name+" "+.default_branch'`.
 3. Find the register issue for the certificate. **`gh issue view` currently fails** with a Projects-classic GraphQL deprecation error; use the REST API instead:
    `gh api repos/codecheckers/register/issues/<N> --jq '.title+"\n"+.body'` and `gh api repos/codecheckers/register/issues/<N>/comments`.
-   To find the issue by certificate ID: `gh api repos/codecheckers/register/issues --paginate --jq '.[] | "\(.number) \(.title)"'` — issue titles follow `Author names | YYYY-NNN`.
+   To find the issue by certificate ID: `gh api 'repos/codecheckers/register/issues?state=all&per_page=100' --paginate --jq '.[] | "\(.number) \(.title)"'` — issue titles follow `Author names | YYYY-NNN`. Without `state=all` the API returns open issues only.
    The comment thread of a long check can be 100 KB (logs, Dockerfiles, screenshots); grep it for links instead of reading it whole.
 4. Append one row to `register.csv` (append at the end, the renderer sorts), leaving the `Wikidata` column empty.
-5. `make render` (detached, see "Running a render from Claude Code"), then verify `docs/certs/<CERT ID>/index.html` exists and the entry in `docs/register.json` carries the right title, paper reference and check date.
-6. Preview with `make serve` → `http://localhost/certs/<CERT ID>/`, then `make serve-stop`.
-7. Stage `register.csv` and the `docs/` files belonging to the new certificate together (not the stale-cache drift) and propose the commit message (see Conventions).
+5. Validate with `R -q -e 'codecheck::validate_register_rules()'`.
+6. Stage `register.csv` alone and propose the commit message (see Conventions). After the user pushes, CI renders the certificate (see "Workflow").
+7. Once the CI commit "Update register renderings" is in, verify `https://codecheck.org.uk/register/certs/<CERT ID>/` and the entry in `https://codecheck.org.uk/register/register.json` carry the right title, paper reference and check date.
 8. Audit the Zenodo record: `make zenodo_check CERT_ID=<CERT ID>` (see below).
 9. Propose the issue-closing comments (see below).
+
+Render locally instead (steps as under "Running a render from Claude Code", then `make serve` → `http://localhost/certs/<CERT ID>/`) only when CI cannot do it, see "Workflow".
 
 ## Venue and type conventions
 
@@ -229,8 +236,11 @@ lists, ORCIDs or remarks such as a missing licence.
   so CrossRef or the ORCID API is the reference.
 - **Resolve OSF links** with `https://api.osf.io/v2/guids/<id>/`. Five-character
   links are often single files in a project, not projects.
-- **Next certificate ID**: take the highest of `register.csv` and the
-  `| YYYY-NNN` suffixes of all issue titles, open and closed.
+- **Next certificate ID**: one more than the highest `| YYYY-NNN` suffix
+  among the titles of **all** register issues, open and closed
+  (`gh api 'repos/codecheckers/register/issues?state=all&per_page=100' --paginate --jq '.[].title'`).
+  Not `register.csv`: it lists finished checks only, so IDs already given
+  to checks in progress are missing from it.
 - **Create issues** with
   `gh api repos/codecheckers/register/issues -X POST --input <json>`, a JSON
   file carrying `title`, `body`, `labels` and `assignees`.
