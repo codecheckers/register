@@ -205,6 +205,60 @@ Here is the certificate landing page in the register: https://codecheck.org.uk/r
 ```
 
 Labels stay as they are. Draft the comments and let the user post them.
+Once approved, post each one from a JSON file:
+`gh api repos/codecheckers/register/issues/<N>/comments -X POST --input <json>`
+(a file with a `body` field).
+
+## Opening Lifecycle Journal check issues
+
+Issues follow `.github/ISSUE_TEMPLATE/new-lifecycle-journal-codecheck.md`
+(labels `lifecycle journal`, `needs codechecker`, assignee `nuest`). Keep the
+body to the template: submission DOI and links to code and data. No author
+lists, ORCIDs or remarks such as a missing licence.
+
+- **Find the right submission.** Each article has several DOIs
+  (`10.71240/lcyc.*`), one per stage (`ResearchPlan`, then `OutcomesReport`)
+  and per version. Check the Outcomes Report and link the Research Plan beside
+  it. CrossRef search can miss a stage (for example the Jaeger Outcomes Report),
+  so scan the neighbouring article numbers on
+  `https://lifecycle-flax.fly.dev/journal/articles/<N>/index.html`.
+- **Read the landing page's embedded JSON** (`const submission = {…}`), not the
+  rendered text. Its `type`, `status`, `code`, `data`, `materials`,
+  `registration` and `$authors` fields hold the code and data links. An ORCID
+  there can be wrong (one page had an author's ORCID swapped with a co-author's),
+  so CrossRef or the ORCID API is the reference.
+- **Resolve OSF links** with `https://api.osf.io/v2/guids/<id>/`. Five-character
+  links are often single files in a project, not projects.
+- **Next certificate ID**: take the highest of `register.csv` and the
+  `| YYYY-NNN` suffixes of all issue titles, open and closed.
+- **Create issues** with
+  `gh api repos/codecheckers/register/issues -X POST --input <json>`, a JSON
+  file carrying `title`, `body`, `labels` and `assignees`.
+
+## Suggesting codecheckers
+
+The local Chekhov checkout (`../chekhov/`) previews the bot's reply and
+posts nothing:
+
+```bash
+cd ../chekhov && go build -o <scratchpad>/chekhov ./cmd/chekhov
+printf '@chekhovbot suggest codecheckers <DOI or github::owner/repo>\n\n<pasted hints>\n' \
+  | CHEKHOV_TARGET_REPO=codecheckers/codecheckers CHEKHOV_GH_ACCESS_TOKEN=$(gh auth token) \
+    <scratchpad>/chekhov comment --as nuest --online -
+```
+
+- Without `CHEKHOV_TARGET_REPO` it reads the stale lists in the testing
+  register. Check that the reply says about 87 codecheckers were considered.
+- Without the token, it refuses with "`@chekhovbot suggest` is for editors".
+- It reads no languages from OSF or Zenodo (codecheckers/chekhov#58), so paste
+  the deposit's file names under the command.
+- The ranking ignores how recently someone signed up. Sign-up dates come from
+  the "Register as codechecker" issues in `codecheckers/codecheckers`
+  (`gh api 'repos/codecheckers/codecheckers/issues?state=all&sort=created'`).
+  Newcomers are preferred and have to be promoted by hand.
+- Invitation comment: @-mention the codechecker, ask whether they are
+  interested and can finish by the end of the month, and offer an onboarding
+  call with Daniel.
 
 ## Conventions
 
