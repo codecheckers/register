@@ -28,5 +28,8 @@ jobs:
         with:
           push: true
           tags: codecheckers/register:latest
+          # "Run workflow" is how a codecheck change gets into the image, and
+          # the cached pak layer would keep the old package
+          no-cache: ${{ github.event_name == 'workflow_dispatch' }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
