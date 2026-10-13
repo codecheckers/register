@@ -8,6 +8,9 @@ on:
 
 jobs:
   changes:
+    # forks (e.g. nuest/register) push the same commits as upstream, so a
+    # push render there only repeats upstream's; a manual run still works
+    if: ${{ github.repository == 'codecheckers/register' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     outputs:
       register: ${{ steps.filter.outputs.register }}

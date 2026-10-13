@@ -12,6 +12,8 @@ on:
 
 jobs:
   docker:
+    # only upstream pushes the image; a fork has no Docker Hub credentials
+    if: ${{ github.repository == 'codecheckers/register' }}
     runs-on: ubuntu-latest
     steps:
       - name: Set up Docker Buildx
