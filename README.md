@@ -21,7 +21,7 @@ Here are some possible values or rules for the specific columns in the file:
   - `journal` = check conducted as part of a peer review process with a scientific journal, including a reference to the check in the published article
   - `conference` = check conducted as part of a peer review process at a scientific conference
   - `institution` = check conducted as part of a peer review process at an institution
-- `Venue`: name of the journal, conference, or institution where the check was conducted, including specifications such as `preprint` or `in press`
+- `Venue`: name of the journal, conference, or institution where the check was conducted, including specifications such as `preprint`
   - the journal abbreviation uses the [ISO 4](https://en.wikipedia.org/wiki/ISO_4) standard name for the journal, using common capitalization and omitting full stops, for example `J Geogr Syst` or `GigaScience` (find the correct name via Wikipedia or the journal website)
 - `Issue`: number of the issue in the register project where the CODECHECK is managed (informative mostly, not for metadata retrieval)
 

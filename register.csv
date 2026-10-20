@@ -8,7 +8,7 @@ Certificate,Repository,Type,Venue,Issue,Wikidata
 2020-008,github::codecheckers/covid-uk,community,preprint,8,Q141269518
 2020-009,github::codecheckers/2020-cov-tracing,community,preprint,9,Q141269520
 2020-010,github::codecheckers/covid-report9,community,preprint,14,Q141269521
-2020-011,github::codecheckers/covid19model-nature,community,in press,18,Q141269522
+2020-011,github::codecheckers/covid19model-nature,community,Nature,18,Q141269522
 2020-012,github::codecheckers/covid19model-report23,community,preprint,19,Q141269523
 2020-013,github::codecheckers/Spitschan2020_bioRxiv,community,preprint,20,Q141269524
 2020-014,github::codecheckers/Sadeh-and-Clopath,community,codecheck,21,Q141269526

@@ -247,6 +247,10 @@ lists, ORCIDs or remarks such as a missing licence.
   (`gh api 'repos/codecheckers/register/issues?state=all&per_page=100' --paginate --jq '.[].title'`).
   Not `register.csv`: it lists finished checks only, so IDs already given
   to checks in progress are missing from it.
+  An issue that carries an ID in its title also needs the label
+  `id assigned`: the [Launch Pad](https://codecheck.org.uk/launch-pad/)
+  counts only issues with this label when it looks up the next ID (it warns
+  about titles with an ID but without the label).
 - **Create issues** with
   `gh api repos/codecheckers/register/issues -X POST --input <json>`, a JSON
   file carrying `title`, `body`, `labels` and `assignees`.
