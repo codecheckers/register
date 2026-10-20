@@ -37,6 +37,8 @@ Two more files carry what the register knows about the people and venues named i
   - `fediverse`: the venue's fediverse account as `@user@instance`
   - `hashtags`: hashtags for announcements, `;`-separated and without `#`, e.g. `GIScience;OpenScience`
 
+The issue of a check carries labels that say the same as its row ([#232](https://github.com/codecheckers/register/issues/232), rule `CC-REG-008`): one type label equal to `Type`, and a label naming the venue - its `name`, or its `label` in `venues.csv` where that is not a type, e.g. `check-nl` - unless it is the only venue whose `label` is that type, such as `codecheck` for `community`. A new venue therefore also needs a GitHub label named after it.
+
 Person and venue pages show a fediverse account as a `rel="me"` link, so the account can verify the page in return.
 
 To update the register, edit the `register.csv` file and submit the change.

@@ -161,7 +161,13 @@ Render locally instead (steps as under "Running a render from Claude Code", then
 - `conference` + `AGILEGIS`
 - `institution` + `TU Delft DCC`, `AUMC`, …
 
-The GitHub issue labels (`community`, `journal`, `institution`, `conference`) mirror the `Type` column and are a good cross-check.
+The GitHub issue labels mirror the row, and `CC-REG-008` checks that they do (#232):
+
+- exactly one **type label** - `community`, `journal`, `institution` or `conference` - equal to `Type`;
+- a **venue label** equal to the venue's `name` in `venues.csv` (`JOSIS`, `AUMC`, `TU Delft DCC`, …), or to its `label` there when that is not a type (`check-nl`, `lifecycle journal`, `preprint`);
+- no venue label when the type label alone names the venue, which is when exactly one venue in `venues.csv` carries the type as its `label`: `community` names `codecheck`, `conference` names `AGILEGIS`. A second venue with that `label` makes the venue label necessary for both.
+
+A new venue therefore needs a GitHub label named after it as well as its `venues.csv` row, unless it is the only one of its type. The labels are mirrored to `codecheckers/testing-dev-register`.
 
 ## Validation rules
 
