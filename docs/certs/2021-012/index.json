@@ -1,0 +1,58 @@
+{
+  "certificate": {
+    "id": "2021-012",
+    "title": "CODECHECK of Population census estimation for Spatial Microsimulation",
+    "url": "https://codecheck.org.uk/register/certs/2021-012/"
+  },
+  "paper": {
+    "title": "Population census estimation for Spatial Microsimulation",
+    "authors": [
+      {
+        "name": "Néstor de la Paz Ruíz",
+        "orcid": "0000-0002-8941-4677"
+      },
+      {
+        "name": "Ellen-Wien Augustijn",
+        "orcid": "0000-0002-3389-7585"
+      },
+      {
+        "name": "Mahdi Farnaghi",
+        "orcid": "0000-0002-3071-5563"
+      },
+      {
+        "name": "Raul Zurita-Milla",
+        "orcid": "0000-0002-1769-6310"
+      }
+    ],
+    "reference": "https://doi.org/10.5281/zenodo.14175899",
+    "abstract": {
+      "text": "Problem and motivation Data privacy policies protect inhabitants' sensitive information and make population census data difficult to use in research activities. Privacy policies make data inaccessible only partially to small spatial units such as neighborhood blocks with low population density. Estimations of inaccessible data increase the accuracy of quantitative research and facilitate applying methods at low-density places that otherwise become impractical to study. Spatial microsimulation (SMS) refers to \"the creation, analysis, and modelling of individual-level data allocated to geographic zones\" (Lovelace, 2018). Estimates at small spatial units are required for SMS to increase the certainty of behavioral dynamics in complex phenomena such as security, pollution, or health at low-density localities. Objective Develop a method to estimate inaccessible population census data to enable more complex applications like SMS.",
+      "source": "OpenAlex"
+    },
+    "openalex": "https://openalex.org/W6968106929"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Markus Konkol",
+        "orcid": "0000-0001-6651-0976"
+      }
+    ],
+    "check_time": "2021-10-01",
+    "repository": "github::codecheckers/open-science-itc|2021-012",
+    "report": "https://doi.org/10.5281/zenodo.5543112",
+    "type": "institution",
+    "venue": "Open Science at ITC",
+    "summary": "The reproduction was successful. The author followed good scientific practice and provided open code and open data via a GitHub repository. The two relevant figures from the poster could be reproduced with only minor design-related deviations from the figures reported in the poster, caused by a different aspect ratio. The author demonstrated concern for the reproducibility of the work by improving the code throughout the review process.\n",
+    "manifest": [
+      {
+        "file": "codecheck/figure_3.png",
+        "comment": "Figure 3 in the poster; design-related deviations caused by the aspect ratio, difference in the correlation likely a rounding error"
+      },
+      {
+        "file": "codecheck/figure_4.png",
+        "comment": "Figure 4 in the poster; design-related deviations caused by the aspect ratio, difference in the correlation likely a rounding error"
+      }
+    ]
+  }
+}

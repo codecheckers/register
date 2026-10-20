@@ -638,5 +638,20 @@
     "Work title": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
     "DOI": "10.31222/osf.io/dvhux_v1",
     "No. of checks": 1
+  },
+  {
+    "Work title": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
+    "DOI": "10.3390/rs13061098",
+    "No. of checks": 1
+  },
+  {
+    "Work title": "Population census estimation for Spatial Microsimulation",
+    "DOI": "10.5281/zenodo.14175899",
+    "No. of checks": 1
+  },
+  {
+    "Work title": "When is variable importance estimation in species distribution modelling affected by spatial correlation?",
+    "DOI": "10.1111/ecog.05534",
+    "No. of checks": 1
   }
 ]

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/0428exr50",
+  "name": "Environmental Systems Research Institute (United States)",
+  "identifier": "https://ror.org/0428exr50",
+  "url": "https://codecheck.org.uk/register/organisations/0428exr50/",
+  "sameAs": "http://www.esri.com/",
+  "location": {
+    "@type": "Place",
+    "address": "Redlands, United States"
+  }
+}

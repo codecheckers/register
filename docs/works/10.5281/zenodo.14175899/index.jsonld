@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.14175899",
+      "url": "https://doi.org/10.5281/zenodo.14175899",
+      "sameAs": ["https://doi.org/10.5281/zenodo.14175899", "https://openalex.org/W6968106929"],
+      "name": "Population census estimation for Spatial Microsimulation",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Néstor de la Paz Ruíz",
+          "@id": "https://orcid.org/0000-0002-8941-4677"
+        },
+        {
+          "@type": "Person",
+          "name": "Ellen-Wien Augustijn",
+          "@id": "https://orcid.org/0000-0002-3389-7585"
+        },
+        {
+          "@type": "Person",
+          "name": "Mahdi Farnaghi",
+          "@id": "https://orcid.org/0000-0002-3071-5563"
+        },
+        {
+          "@type": "Person",
+          "name": "Raul Zurita-Milla",
+          "@id": "https://orcid.org/0000-0002-1769-6310"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-012/",
+      "name": "CODECHECK Certificate 2021-012",
+      "url": "https://codecheck.org.uk/register/certs/2021-012/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5281/zenodo.14175899"
+      },
+      "datePublished": "2021-10-01"
+    }
+  ]
+}

@@ -1333,6 +1333,128 @@
     "Source": null
   },
   {
+    "Certificate ID": "2021-011",
+    "Repository": "github::codecheckers/open-science-itc|2021-011",
+    "Repository Link": "https://github.com/codecheckers/open-science-itc|2021-011",
+    "Type": "institution",
+    "Venue": "Open Science at ITC",
+    "Check date": "2021-07-15",
+    "OpenAlex": "https://openalex.org/W3138799110",
+    "Paper ISSN": "2072-4292",
+    "Paper venue": "Remote Sensing",
+    "Work publication date": "2021-03-13",
+    "Check time": "2021-07-15",
+    "Report": "https://doi.org/10.5281/zenodo.5106408",
+    "Title": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
+    "Paper reference": "https://doi.org/10.3390/rs13061098",
+    "Paper authors": [
+      {
+        "name": "Egor Prikaziuk",
+        "orcid": "0000-0002-7331-7004"
+      },
+      {
+        "name": "Peiqi Yang",
+        "orcid": "0000-0003-4377-8560"
+      },
+      {
+        "name": "Christiaan van der Tol",
+        "orcid": "0000-0002-2484-8191"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Markus Konkol",
+        "orcid": "0000-0001-6651-0976"
+      }
+    ],
+    "Summary": "The reproduction was successful. The authors followed good scientific practice and provided open code via a GitHub repository and open data via DANS Easy. After some clarification with the corresponding author, all relevant figures from the paper could be reproduced with only minor deviations from the figures reported in the paper. The author demonstrated concern for the reproducibility of the work by improving the code throughout the review process.\n",
+    "Source": "Code from the GitHub repository Prikaziuk/S3_loader, data (extracted pixels) from DANS EASY (https://doi.org/10.17026/dans-xb8-efke). The codechecker's fork with the changes made during the check (merged via https://github.com/Prikaziuk/S3_loader/pull/1) was deleted later; an archived snapshot is listed under repository.\n"
+  },
+  {
+    "Certificate ID": "2021-012",
+    "Repository": "github::codecheckers/open-science-itc|2021-012",
+    "Repository Link": "https://github.com/codecheckers/open-science-itc|2021-012",
+    "Type": "institution",
+    "Venue": "Open Science at ITC",
+    "Check date": "2021-10-01",
+    "OpenAlex": "https://openalex.org/W6968106929",
+    "Paper ISSN": null,
+    "Paper venue": "University of Twente Research Information",
+    "Work publication date": "2021-09-03",
+    "Check time": "2021-10-01",
+    "Report": "https://doi.org/10.5281/zenodo.5543112",
+    "Title": "Population census estimation for Spatial Microsimulation",
+    "Paper reference": "https://doi.org/10.5281/zenodo.14175899",
+    "Paper authors": [
+      {
+        "name": "Néstor de la Paz Ruíz",
+        "orcid": "0000-0002-8941-4677"
+      },
+      {
+        "name": "Ellen-Wien Augustijn",
+        "orcid": "0000-0002-3389-7585"
+      },
+      {
+        "name": "Mahdi Farnaghi",
+        "orcid": "0000-0002-3071-5563"
+      },
+      {
+        "name": "Raul Zurita-Milla",
+        "orcid": "0000-0002-1769-6310"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Markus Konkol",
+        "orcid": "0000-0001-6651-0976"
+      }
+    ],
+    "Summary": "The reproduction was successful. The author followed good scientific practice and provided open code and open data via a GitHub repository. The two relevant figures from the poster could be reproduced with only minor design-related deviations from the figures reported in the poster, caused by a different aspect ratio. The author demonstrated concern for the reproducibility of the work by improving the code throughout the review process.\n",
+    "Source": "Code and data from the GitHub repository delapazruiz/population.modelling.hue2010. The changes made during the check were merged via https://github.com/delapazruiz/population.modelling.hue2010/pull/1 and are included in release v1.0.0 (https://doi.org/10.5281/zenodo.5558638). The codechecker's fork was deleted later; an archived snapshot is listed under repository.\n"
+  },
+  {
+    "Certificate ID": "2021-013",
+    "Repository": "github::codecheckers/open-science-itc|2021-013",
+    "Repository Link": "https://github.com/codecheckers/open-science-itc|2021-013",
+    "Type": "institution",
+    "Venue": "Open Science at ITC",
+    "Check date": "2021-10-18",
+    "OpenAlex": "https://openalex.org/W3129841042",
+    "Paper ISSN": "0906-7590",
+    "Paper venue": "Ecography",
+    "Work publication date": "2021-02-12",
+    "Check time": "2021-10-18",
+    "Report": "https://doi.org/10.5281/zenodo.5574909",
+    "Title": "When is variable importance estimation in species distribution modelling affected by spatial correlation?",
+    "Paper reference": "https://doi.org/10.1111/ecog.05534",
+    "Paper authors": [
+      {
+        "name": "Nivedita Varma Harisena",
+        "orcid": "0000-0002-0135-0841"
+      },
+      {
+        "name": "Thomas A. Groen",
+        "orcid": "0000-0001-6333-2553"
+      },
+      {
+        "name": "A. G. Toxopeus",
+        "orcid": "0000-0001-9446-9245"
+      },
+      {
+        "name": "Babak Naimi",
+        "orcid": "0000-0001-5431-2729"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Markus Konkol",
+        "orcid": "0000-0001-6651-0976"
+      }
+    ],
+    "Summary": "The reproduction was (partially) successful. The authors provided the source code via a link to a shared folder. From the three relevant figures in the paper, two were reproducible (Figure 4 and 5) with only minor deviations from the corresponding figures reported in the paper. The deviations were caused by randomness. The authors demonstrated concern for the reproducibility of their work by improving the code and responding to requests throughout the review process.\n",
+    "Source": "The authors provided the code to the codechecker via a link to a shared folder. The code was subsequently published as supplementary material on 4TU.ResearchData (https://doi.org/10.4121/16752223).\n"
+  },
+  {
     "Certificate ID": "2022-001",
     "Repository": "github::codecheckers/GWR-in-educational-planning",
     "Repository Link": "https://github.com/codecheckers/GWR-in-educational-planning",

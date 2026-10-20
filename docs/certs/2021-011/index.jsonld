@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2021-011/",
+  "name": "CODECHECK of Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
+  "url": "https://codecheck.org.uk/register/certs/2021-011/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Markus Konkol",
+      "@id": "https://orcid.org/0000-0001-6651-0976"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Egor Prikaziuk",
+        "@id": "https://orcid.org/0000-0002-7331-7004"
+      },
+      {
+        "@type": "Person",
+        "name": "Peiqi Yang",
+        "@id": "https://orcid.org/0000-0003-4377-8560"
+      },
+      {
+        "@type": "Person",
+        "name": "Christiaan van der Tol",
+        "@id": "https://orcid.org/0000-0002-2484-8191"
+      }
+    ],
+    "abstract": "<jats:p>In this study, we demonstrate that the Google Earth Engine (GEE) dataset of Sentinel-3 Ocean and Land Color Instrument (OLCI) level-1 deviates from the original Copernicus Open Access Data Hub Service (DHUS) data by 10–20 W m−2 sr−1μμm−1 per pixel per band. We compared GEE and DHUS single pixel time series for the period from April 2016 to September 2020 and identified two sources of this discrepancy: the ground pixel position and reprojection. The ground pixel position of OLCI product can be determined in two ways: from geo-coordinates (DHUS) or from tie-point coordinates (GEE). We recommend using geo-coordinates for pixel extraction from the original data. When the Sentinel Application Platform (SNAP) Pixel Extraction Tool is used, an additional distance check has to be conducted to exclude pixels that lay further than 212 m from the point of interest. Even geo-coordinates-based pixel extraction requires the homogeneity of the target area at a 700 m diameter (49 ha) footprint (double of the pixel resolution). The GEE OLCI dataset can be safely used if the homogeneity assumption holds at 2700 m diameter (9-by-9 OLCI pixels) or if the uncertainty in the radiance of 10% is not critical for the application. Further analysis showed that the scaling factors reported in the GEE dataset description must not be used. Finally, observation geometry and meteorological data are not present in the GEE OLCI dataset, but they are crucial for most applications. Therefore, we propose to calculate angles and extraterrestrial solar fluxes and to use an alternative data source—the Copernicus Atmosphere Monitoring Service (CAMS) dataset—for meteodata.<\/jats:p>",
+    "url": "https://doi.org/10.3390/rs13061098",
+    "sameAs": ["https://doi.org/10.3390/rs13061098", "https://openalex.org/W3138799110"]
+  },
+  "reviewBody": "The reproduction was successful. The authors followed good scientific practice and provided open code via a GitHub repository and open data via DANS Easy. After some clarification with the corresponding author, all relevant figures from the paper could be reproduced with only minor deviations from the figures reported in the paper. The author demonstrated concern for the reproducibility of the work by improving the code throughout the review process.\n",
+  "datePublished": "2021-07-15",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.5106408"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.5106408"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2021-011/cert.pdf"
+  }
+}

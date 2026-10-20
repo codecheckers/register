@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0001-6651-0976",
+      "name": "Markus Konkol",
+      "sameAs": "https://www.wikidata.org/entity/Q90261316"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-011/",
+      "name": "CODECHECK Certificate 2021-011",
+      "url": "https://codecheck.org.uk/register/certs/2021-011/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6651-0976"
+      },
+      "datePublished": "2021-07-15"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-012/",
+      "name": "CODECHECK Certificate 2021-012",
+      "url": "https://codecheck.org.uk/register/certs/2021-012/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6651-0976"
+      },
+      "datePublished": "2021-10-01"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-013/",
+      "name": "CODECHECK Certificate 2021-013",
+      "url": "https://codecheck.org.uk/register/certs/2021-013/",
+      "author": {
+        "@id": "https://orcid.org/0000-0001-6651-0976"
+      },
+      "datePublished": "2021-10-18"
+    }
+  ]
+}

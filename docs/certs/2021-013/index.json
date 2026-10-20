@@ -1,0 +1,115 @@
+{
+  "certificate": {
+    "id": "2021-013",
+    "title": "CODECHECK of When is variable importance estimation in species distribution modelling affected by spatial correlation?",
+    "url": "https://codecheck.org.uk/register/certs/2021-013/"
+  },
+  "paper": {
+    "title": "When is variable importance estimation in species distribution modelling affected by spatial correlation?",
+    "authors": [
+      {
+        "name": "Nivedita Varma Harisena",
+        "orcid": "0000-0002-0135-0841"
+      },
+      {
+        "name": "Thomas A. Groen",
+        "orcid": "0000-0001-6333-2553"
+      },
+      {
+        "name": "A. G. Toxopeus",
+        "orcid": "0000-0001-9446-9245"
+      },
+      {
+        "name": "Babak Naimi",
+        "orcid": "0000-0001-5431-2729"
+      }
+    ],
+    "reference": "https://doi.org/10.1111/ecog.05534",
+    "abstract": {
+      "text": "<jats:p>Species distribution models are generic empirical techniques that have a number of applications. One of these applications is to determine which environmental conditions are most important for a species. The calculation of this variable importance depends on a number of assumptions, including that the observations that are used to estimate the models are independent of each other. Spatial autocorrelation, which is a common feature most environmental factors confounds this assumption. Besides, many species distribution models are trained using a number of explanatory variables that have different levels of spatial autocorrelation. In this study we quantified the effects of differences in spatial autocorrelation in explanatory variables and the type of species responses to environmental gradients on variable importance estimations in species distribution models. We simulated data for both environmental predictors and species, so that we were in control of the true contribution of every variable in the model and the importance that could be estimated after fitting the models. We found that spatial autocorrelation in the predictors inflated the variable importance estimates, but only when the response of species to the environmental gradients is linear. This inflation effect was larger when the environmental preferences of species coincided with the dominant environmental conditions in a study site. Additionally we find that unimodal responses to the predictors yield systematically a higher variable importance compared to linear responses. We conclude that the type of response to environmental conditions and the relative levels of spatial autocorrelation in the environmental variables cause most bias in relative variable importance estimations. In this way, this study helps to clarify in a systematic and controlled approach how to make proper inferences about variable importance in species distribution models.<\/jats:p>",
+      "source": "CrossRef"
+    },
+    "openalex": "https://openalex.org/W3129841042",
+    "wikidata": "Q112800952"
+  },
+  "codecheck": {
+    "codecheckers": [
+      {
+        "name": "Markus Konkol",
+        "orcid": "0000-0001-6651-0976"
+      }
+    ],
+    "check_time": "2021-10-18",
+    "repository": "github::codecheckers/open-science-itc|2021-013",
+    "report": "https://doi.org/10.5281/zenodo.5574909",
+    "type": "institution",
+    "venue": "Open Science at ITC",
+    "summary": "The reproduction was (partially) successful. The authors provided the source code via a link to a shared folder. From the three relevant figures in the paper, two were reproducible (Figure 4 and 5) with only minor deviations from the corresponding figures reported in the paper. The deviations were caused by randomness. The authors demonstrated concern for the reproducibility of their work by improving the code and responding to requests throughout the review process.\n",
+    "manifest": [
+      {
+        "file": "codecheck/figure_4a.png",
+        "comment": "Figure 4a in the paper"
+      },
+      {
+        "file": "codecheck/figure_4b.png",
+        "comment": "Figure 4b in the paper"
+      },
+      {
+        "file": "codecheck/figure_4c.png",
+        "comment": "Figure 4c in the paper"
+      },
+      {
+        "file": "codecheck/figure_4d.png",
+        "comment": "Figure 4d in the paper"
+      },
+      {
+        "file": "codecheck/figure_4e.png",
+        "comment": "Figure 4e in the paper"
+      },
+      {
+        "file": "codecheck/figure_4f.png",
+        "comment": "Figure 4f in the paper"
+      },
+      {
+        "file": "codecheck/figure_4g.png",
+        "comment": "Figure 4g in the paper"
+      },
+      {
+        "file": "codecheck/figure_4h.png",
+        "comment": "Figure 4h in the paper"
+      },
+      {
+        "file": "codecheck/figure_5a.png",
+        "comment": "Figure 5a in the paper"
+      },
+      {
+        "file": "codecheck/figure_5b.png",
+        "comment": "Figure 5b in the paper"
+      },
+      {
+        "file": "codecheck/figure_5c.png",
+        "comment": "Figure 5c in the paper"
+      },
+      {
+        "file": "codecheck/figure_5d.png",
+        "comment": "Figure 5d in the paper"
+      },
+      {
+        "file": "codecheck/figure_5e.png",
+        "comment": "Figure 5e in the paper"
+      },
+      {
+        "file": "codecheck/figure_5f.png",
+        "comment": "Figure 5f in the paper"
+      },
+      {
+        "file": "codecheck/figure_5g.png",
+        "comment": "Figure 5g in the paper"
+      },
+      {
+        "file": "codecheck/figure_5h.png",
+        "comment": "Figure 5h in the paper"
+      }
+    ]
+  }
+}

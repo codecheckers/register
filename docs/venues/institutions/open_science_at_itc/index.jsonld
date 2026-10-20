@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "Open Science at ITC (OS@ITC), Faculty of Geo-Information Science and Earth Observation, University of Twente",
+      "@id": "https://www.wikidata.org/wiki/Q644820",
+      "url": "https://codecheck.org.uk/register/venues/institutions/open_science_at_itc/",
+      "sameAs": "https://www.utwente.nl/en/service-portal/research-support/additional-information-per-facultyinstitute/geo-information-science-earth-observation-itc/open-science-itc",
+      "description": "Open Science at ITC (OS@ITC) is a horizontal facility of the Faculty of Geo-Information Science and Earth Observation (ITC) at the University of Twente, supporting all ITC departments in adopting Open Science practices. In 2021, it offered CODECHECK as a service to ITC researchers, with checks conducted by the faculty's Open Science Officer before or after submission of a manuscript. Certificates are published in the Open Science at ITC community on Zenodo.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://codecheck.org.uk/img/itc-logo@2x.png"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Wikidata (ITC)",
+          "value": "Q644820",
+          "url": "https://www.wikidata.org/wiki/Q644820"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ROR (University of Twente)",
+          "value": "006hf6230",
+          "url": "https://ror.org/006hf6230"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-011/",
+      "name": "CODECHECK Certificate 2021-011",
+      "url": "https://codecheck.org.uk/register/certs/2021-011/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q644820"
+        },
+        "name": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
+        "url": "https://doi.org/10.3390/rs13061098",
+        "sameAs": "https://doi.org/10.3390/rs13061098"
+      },
+      "datePublished": "2021-07-15"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-012/",
+      "name": "CODECHECK Certificate 2021-012",
+      "url": "https://codecheck.org.uk/register/certs/2021-012/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q644820"
+        },
+        "name": "Population census estimation for Spatial Microsimulation",
+        "url": "https://doi.org/10.5281/zenodo.14175899",
+        "sameAs": "https://doi.org/10.5281/zenodo.14175899"
+      },
+      "datePublished": "2021-10-01"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-013/",
+      "name": "CODECHECK Certificate 2021-013",
+      "url": "https://codecheck.org.uk/register/certs/2021-013/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://www.wikidata.org/wiki/Q644820"
+        },
+        "name": "When is variable importance estimation in species distribution modelling affected by spatial correlation?",
+        "url": "https://doi.org/10.1111/ecog.05534",
+        "sameAs": "https://doi.org/10.1111/ecog.05534"
+      },
+      "datePublished": "2021-10-18"
+    }
+  ]
+}

@@ -3,9 +3,9 @@
     "Organisation": "University of Twente",
     "ROR": "006hf6230",
     "Country": "The Netherlands",
-    "Works authored": 4,
+    "Works authored": 5,
     "Checks conducted": 12,
-    "People": 8
+    "People": 7
   },
   {
     "Organisation": "Delft University of Technology",
@@ -267,6 +267,14 @@
     "Organisation": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
     "ROR": "04bwf3e34",
     "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "Environmental Systems Research Institute (United States)",
+    "ROR": "0428exr50",
+    "Country": "United States",
     "Works authored": 1,
     "Checks conducted": 0,
     "People": 1

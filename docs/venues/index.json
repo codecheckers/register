@@ -89,5 +89,12 @@
     "No. of codechecks": 2,
     "Issue label": "journal",
     "codechecks": "https://codecheck.org.uk/register/venues/journals/josis/register.json"
+  },
+  {
+    "Venue type": "institution",
+    "Venue name": "Open Science at ITC (OS@ITC), Faculty of Geo-Information Science and Earth Observation, University of Twente",
+    "No. of codechecks": 3,
+    "Issue label": "institution",
+    "codechecks": "https://codecheck.org.uk/register/venues/institutions/open_science_at_itc/register.json"
   }
 ]

@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0000-0002-2484-8191",
+      "name": "Christiaan van der Tol",
+      "sameAs": "https://www.wikidata.org/entity/Q61927287"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.3390/rs13061098",
+      "url": "https://doi.org/10.3390/rs13061098",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-2484-8191"
+      },
+      "name": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2021-012/",
+  "name": "CODECHECK of Population census estimation for Spatial Microsimulation",
+  "url": "https://codecheck.org.uk/register/certs/2021-012/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Markus Konkol",
+      "@id": "https://orcid.org/0000-0001-6651-0976"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Population census estimation for Spatial Microsimulation",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Néstor de la Paz Ruíz",
+        "@id": "https://orcid.org/0000-0002-8941-4677"
+      },
+      {
+        "@type": "Person",
+        "name": "Ellen-Wien Augustijn",
+        "@id": "https://orcid.org/0000-0002-3389-7585"
+      },
+      {
+        "@type": "Person",
+        "name": "Mahdi Farnaghi",
+        "@id": "https://orcid.org/0000-0002-3071-5563"
+      },
+      {
+        "@type": "Person",
+        "name": "Raul Zurita-Milla",
+        "@id": "https://orcid.org/0000-0002-1769-6310"
+      }
+    ],
+    "abstract": "Problem and motivation Data privacy policies protect inhabitants' sensitive information and make population census data difficult to use in research activities. Privacy policies make data inaccessible only partially to small spatial units such as neighborhood blocks with low population density. Estimations of inaccessible data increase the accuracy of quantitative research and facilitate applying methods at low-density places that otherwise become impractical to study. Spatial microsimulation (SMS) refers to \"the creation, analysis, and modelling of individual-level data allocated to geographic zones\" (Lovelace, 2018). Estimates at small spatial units are required for SMS to increase the certainty of behavioral dynamics in complex phenomena such as security, pollution, or health at low-density localities. Objective Develop a method to estimate inaccessible population census data to enable more complex applications like SMS.",
+    "url": "https://doi.org/10.5281/zenodo.14175899",
+    "sameAs": ["https://doi.org/10.5281/zenodo.14175899", "https://openalex.org/W6968106929"]
+  },
+  "reviewBody": "The reproduction was successful. The author followed good scientific practice and provided open code and open data via a GitHub repository. The two relevant figures from the poster could be reproduced with only minor design-related deviations from the figures reported in the poster, caused by a different aspect ratio. The author demonstrated concern for the reproducibility of the work by improving the code throughout the review process.\n",
+  "datePublished": "2021-10-01",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.5543112"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.5543112"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2021-012/cert.pdf"
+  }
+}

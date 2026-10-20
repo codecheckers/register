@@ -9,6 +9,15 @@
     },
     {
       "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5281/zenodo.14175899",
+      "url": "https://doi.org/10.5281/zenodo.14175899",
+      "author": {
+        "@id": "https://orcid.org/0000-0002-1769-6310"
+      },
+      "name": "Population census estimation for Spatial Microsimulation"
+    },
+    {
+      "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.5281/zenodo.13734819",
       "url": "https://doi.org/10.5281/zenodo.13734819",
       "author": {

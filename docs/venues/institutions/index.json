@@ -8,5 +8,10 @@
     "Institution name": "TU Delft Digital Competence Centre",
     "No. of codechecks": 10,
     "codechecks": "https://codecheck.org.uk/register/venues/institutions/tu_delft_dcc/register.json"
+  },
+  {
+    "Institution name": "Open Science at ITC (OS@ITC), Faculty of Geo-Information Science and Earth Observation, University of Twente",
+    "No. of codechecks": 3,
+    "codechecks": "https://codecheck.org.uk/register/venues/institutions/open_science_at_itc/register.json"
   }
 ]

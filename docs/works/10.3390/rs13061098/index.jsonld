@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.3390/rs13061098",
+      "url": "https://doi.org/10.3390/rs13061098",
+      "sameAs": ["https://doi.org/10.3390/rs13061098", "https://openalex.org/W3138799110"],
+      "name": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Egor Prikaziuk",
+          "@id": "https://orcid.org/0000-0002-7331-7004"
+        },
+        {
+          "@type": "Person",
+          "name": "Peiqi Yang",
+          "@id": "https://orcid.org/0000-0003-4377-8560"
+        },
+        {
+          "@type": "Person",
+          "name": "Christiaan van der Tol",
+          "@id": "https://orcid.org/0000-0002-2484-8191"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2021-011/",
+      "name": "CODECHECK Certificate 2021-011",
+      "url": "https://codecheck.org.uk/register/certs/2021-011/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.3390/rs13061098"
+      },
+      "datePublished": "2021-07-15"
+    }
+  ]
+}

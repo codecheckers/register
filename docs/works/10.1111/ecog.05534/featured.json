@@ -1,0 +1,16 @@
+[
+  {
+    "Certificate ID": "2021-013",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-013/",
+    "Certificate PDF": "https://zenodo.org/api/records/5574909/files/thomas_groen.pdf/content",
+    "Repository": "github::codecheckers/open-science-itc|2021-013",
+    "Repository Link": "https://github.com/codecheckers/open-science-itc|2021-013",
+    "Report": "https://doi.org/10.5281/zenodo.5574909",
+    "Title": "When is variable importance estimation in species distribution modelling affected by spatial correlation?",
+    "Paper reference": "https://doi.org/10.1111/ecog.05534",
+    "OpenAlex": "https://openalex.org/W3129841042",
+    "Type": "institution",
+    "Venue": "Open Science at ITC",
+    "Check date": "2021-10-18"
+  }
+]

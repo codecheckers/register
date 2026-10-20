@@ -1,0 +1,47 @@
+[
+  {
+    "Certificate ID": "2021-013",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-013/",
+    "Certificate PDF": "https://zenodo.org/api/records/5574909/files/thomas_groen.pdf/content",
+    "Repository": "github::codecheckers/open-science-itc|2021-013",
+    "Repository Link": "https://github.com/codecheckers/open-science-itc|2021-013",
+    "Report": "https://doi.org/10.5281/zenodo.5574909",
+    "Title": "When is variable importance estimation in species distribution modelling affected by spatial correlation?",
+    "Paper reference": "https://doi.org/10.1111/ecog.05534",
+    "OpenAlex": "https://openalex.org/W3129841042",
+    "Type": "institution",
+    "Venue": "Open Science at ITC",
+    "Check date": "2021-10-18",
+    "Role": "codechecker"
+  },
+  {
+    "Certificate ID": "2021-012",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-012/",
+    "Certificate PDF": "https://zenodo.org/api/records/5543112/files/nestor_codecheck.pdf/content",
+    "Repository": "github::codecheckers/open-science-itc|2021-012",
+    "Repository Link": "https://github.com/codecheckers/open-science-itc|2021-012",
+    "Report": "https://doi.org/10.5281/zenodo.5543112",
+    "Title": "Population census estimation for Spatial Microsimulation",
+    "Paper reference": "https://doi.org/10.5281/zenodo.14175899",
+    "OpenAlex": "https://openalex.org/W6968106929",
+    "Type": "institution",
+    "Venue": "Open Science at ITC",
+    "Check date": "2021-10-01",
+    "Role": "codechecker"
+  },
+  {
+    "Certificate ID": "2021-011",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-011/",
+    "Certificate PDF": "https://zenodo.org/api/records/5106408/files/egor_prikaziuk.pdf/content",
+    "Repository": "github::codecheckers/open-science-itc|2021-011",
+    "Repository Link": "https://github.com/codecheckers/open-science-itc|2021-011",
+    "Report": "https://doi.org/10.5281/zenodo.5106408",
+    "Title": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
+    "Paper reference": "https://doi.org/10.3390/rs13061098",
+    "OpenAlex": "https://openalex.org/W3138799110",
+    "Type": "institution",
+    "Venue": "Open Science at ITC",
+    "Check date": "2021-07-15",
+    "Role": "codechecker"
+  }
+]

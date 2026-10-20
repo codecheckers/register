@@ -1,0 +1,17 @@
+[
+  {
+    "Certificate ID": "2021-011",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2021-011/",
+    "Certificate PDF": "https://zenodo.org/api/records/5106408/files/egor_prikaziuk.pdf/content",
+    "Repository": "github::codecheckers/open-science-itc|2021-011",
+    "Repository Link": "https://github.com/codecheckers/open-science-itc|2021-011",
+    "Report": "https://doi.org/10.5281/zenodo.5106408",
+    "Title": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
+    "Paper reference": "https://doi.org/10.3390/rs13061098",
+    "OpenAlex": "https://openalex.org/W3138799110",
+    "Type": "institution",
+    "Venue": "Open Science at ITC",
+    "Check date": "2021-07-15",
+    "Role": "author"
+  }
+]

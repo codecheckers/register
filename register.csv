@@ -136,3 +136,6 @@ Certificate,Repository,Type,Venue,Issue,Wikidata
 2026-022,github::codecheckers/jecats-paper-climate-mitigation,institution,TU Delft DCC,201,Q141668971
 2026-024,github::codecheckers/SchneiderMorimotoEtAl_ColorResAppl_2026,community,preprint,203,Q141668972
 2026-026,github::codecheckers/funders,institution,AUMC,214,Q141668974
+2021-011,github::codecheckers/open-science-itc|2021-011,institution,Open Science at ITC,233,
+2021-012,github::codecheckers/open-science-itc|2021-012,institution,Open Science at ITC,234,
+2021-013,github::codecheckers/open-science-itc|2021-013,institution,Open Science at ITC,235,
