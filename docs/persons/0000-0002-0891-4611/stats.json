@@ -76,23 +76,23 @@
   },
   "venues_detail": [
     {
-      "name": "in press",
-      "longname": "In press",
+      "name": "Nature",
+      "longname": "Nature",
       "year_range": "2020",
       "label": "journal",
       "cert_count": 1,
       "page_type": "community",
       "page_type_plural": "communities",
-      "page_slug": "in%20press",
+      "page_slug": "Nature",
       "logo_url": null,
-      "website_url": null,
+      "website_url": "https://www.nature.com/nature/",
       "policy_url": null,
-      "publisher": null
+      "publisher": "Springer Nature"
     }
   ],
   "publishers": [
     {
-      "name": "unknown",
+      "name": "Springer Nature",
       "venue_count": 1,
       "cert_count": 1
     }

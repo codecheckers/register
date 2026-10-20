@@ -34,7 +34,7 @@
     "repository": "github::codecheckers/covid19model-nature",
     "report": "https://doi.org/10.5281/zenodo.3893138",
     "type": "community",
-    "venue": "in press",
+    "venue": "Nature",
     "summary": "This reproduction required several hours of compute time, but the reproduction itself was straightforward.  All the R code was provided, along with a working Dockerfile.\n",
     "manifest": [
       {

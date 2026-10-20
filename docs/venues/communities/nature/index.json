@@ -1,0 +1,108 @@
+{
+  "source": "https://codecheck.org.uk/register/venues/communities/nature/register.json",
+  "cert_count": 1,
+  "venue": {
+    "name": "Nature",
+    "longname": "Nature",
+    "venue_type": "community",
+    "logo_url": null,
+    "website_url": "https://www.nature.com/nature/",
+    "contact_name": null,
+    "contact_email": null,
+    "description": "Nature is a weekly multidisciplinary journal. CODECHECK has no collaboration with it: the venue records where a paper checked in the community process was published.",
+    "fediverse": null,
+    "hashtags": [],
+    "identifiers": [
+      {
+        "name": "Wikidata",
+        "icon": "fa-database",
+        "value": "Q180445",
+        "url": "https://www.wikidata.org/wiki/Q180445"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2020": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2020": 1
+  },
+  "checks_cumulative": {
+    "2020": 1
+  },
+  "interval_n": 1,
+  "interval_excluded": 0,
+  "interval_points": [
+    {
+      "id": "2020-011",
+      "days": 5
+    }
+  ],
+  "interval_buckets": {
+    "Before publication": 0,
+    "0-1mo": 1,
+    "1-3mo": 0,
+    "3-6mo": 0,
+    "6-12mo": 0,
+    "1-2y": 0,
+    "2-5y": 0,
+    "5y+": 0
+  },
+  "interval_summary": {
+    "pct_before_publication": 0,
+    "pct_within_6mo": 100,
+    "max_years": 0
+  },
+  "venues_per_year": {
+    "2020": 1
+  },
+  "venues_cumulative": {
+    "2020": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2020": 1
+  },
+  "codecheckers_cumulative": {
+    "2020": 1
+  },
+  "platform_per_year": {
+    "2020": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2020": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "Nature",
+      "longname": "Nature",
+      "year_range": "2020",
+      "label": "journal",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "Nature",
+      "logo_url": null,
+      "website_url": "https://www.nature.com/nature/",
+      "policy_url": null,
+      "publisher": "Springer Nature"
+    }
+  ],
+  "publishers": [
+    {
+      "name": "Springer Nature",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

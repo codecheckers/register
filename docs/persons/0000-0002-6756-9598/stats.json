@@ -39,7 +39,7 @@
   "interval_points": [
     {
       "id": "2024-003",
-      "days": 213
+      "days": -54
     },
     {
       "id": "2025-019",
@@ -47,19 +47,19 @@
     }
   ],
   "interval_buckets": {
-    "Before publication": 0,
+    "Before publication": 1,
     "0-1mo": 0,
     "1-3mo": 1,
     "3-6mo": 0,
-    "6-12mo": 1,
+    "6-12mo": 0,
     "1-2y": 0,
     "2-5y": 0,
     "5y+": 0
   },
   "interval_summary": {
-    "pct_before_publication": 0,
+    "pct_before_publication": 50,
     "pct_within_6mo": 50,
-    "max_years": 1
+    "max_years": 0
   },
   "venues_per_year": {
     "2024": 1,
