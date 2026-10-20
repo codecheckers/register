@@ -32,10 +32,10 @@
   <div class="rules-container">
     <h1 class="rules-title">CODECHECK validation rules, specification 1.0</h1>
     <p>
-      The 59 rules that CODECHECK tooling applies to a <code>codecheck.yml</code>,
+      The 60 rules that CODECHECK tooling applies to a <code>codecheck.yml</code>,
       its bundle, the certificate and the register entry, for
       <a href="https://codecheck.org.uk/spec/config/1.0/">version 1.0 of the configuration file specification</a>
-      (published 2020-02-06; rules updated 2026-10-09).
+      (published 2020-02-06; rules updated 2026-10-20).
       The rule file is the source of truth; see
       <a href="https://github.com/codecheckers/register/blob/master/RULES.md">RULES.md</a>
       for the identifier scheme.
@@ -499,6 +499,13 @@
             <td>R:validate_register_rules</td>
             <td>The referenced issue's title carries the certificate identifier</td>
           </tr>
+          <tr id="CC-REG-008">
+            <td><a href="#CC-REG-008">CC-REG-008</a></td>
+            <td><code>issue-labels-match-row</code></td>
+            <td><span class="rules-severity rules-severity-warning">warning</span></td>
+            <td>practice</td>
+            <td>The referenced issue carries exactly one type label, equal to Type, and its labels name the Venue: a label equal to the venue's name or to its label in venues.csv, or the type label alone when exactly one venue carries it</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -525,7 +532,7 @@
     <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2026-10-15 18:28:29 UTC | codecheck v0.31.0.9000 | register <a href="https://github.com/codecheckers/register/commit/d4f57e08e61c986d6dc9ef2aa7cf91b912b1388d">d4f57e0</a></p>
+    <p class="build-info">Built: 2026-10-20 10:53:04 CEST | codecheck v0.31.0.9000 | register 65c7d22</p>
 </div>
   </div>
 </body>

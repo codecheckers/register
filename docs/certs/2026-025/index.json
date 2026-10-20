@@ -21,7 +21,8 @@
         "orcid": "0000-0002-8572-9268"
       }
     ],
-    "reference": "https://doi.org/10.1038/s44323-026-00108-x"
+    "reference": "https://doi.org/10.1038/s44323-026-00108-x",
+    "openalex": "https://openalex.org/W7222584248"
   },
   "codecheck": {
     "codecheckers": [

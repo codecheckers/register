@@ -5,7 +5,7 @@
   "name": "University of Manchester",
   "identifier": "https://ror.org/027m9bs27",
   "url": "https://codecheck.org.uk/register/organisations/027m9bs27/",
-  "sameAs": "https://www.manchester.ac.uk/",
+  "sameAs": "http://www.manchester.ac.uk/",
   "location": {
     "@type": "Place",
     "address": "Manchester, United Kingdom"
