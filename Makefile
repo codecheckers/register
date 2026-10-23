@@ -149,6 +149,24 @@ wikidata: version env
 	@echo "  $(CODECHECK_DIR)/vignettes/codecheck_wikidata.Rmd"
 .phony: wikidata
 
+# write the QuickStatements batch that adds to items already on Wikidata every
+# statement of the model they do not carry yet, see
+# codecheck::preview_wikidata_updates(). Same folder and edit log as 'make
+# wikidata', and nothing is sent either. Next to the batch it writes
+# wikidata-updates.csv, which marks each item as created by the CODECHECK export
+# or by someone else, and lists the statements whose value differs from the
+# item's - those are not in the batch. ORIGIN=0 skips the per-item lookup of who
+# created it, which costs one request per item.
+wikidata_updates: version env
+	cd $(CODECHECK_DIR) && R -q -e "invisible(codecheck::preview_wikidata_updates('$(CURDIR)', out_dir = 'wikidata', log_file = 'wikidata/wikibase-log.csv', origin = $(if $(filter 0,$(ORIGIN)),FALSE,TRUE)));"
+	@echo ""
+	@echo "The batch is in $(CODECHECK_DIR)/wikidata/ - nothing was sent to Wikidata. Manual steps:"
+	@echo "  1. review wikidata-updates.csv, above all the additions to items of origin 'other' or 'quickstatements'"
+	@echo "  2. paste wikidata-updates.qs into https://quickstatements.toolforge.org/ and run it"
+	@echo "  3. record it: quickstatements_submitted('wikidata-updates', url = '<editgroups URL>')"
+	@echo "  4. the 'differs' rows of the report are for a person to settle on Wikidata itself"
+.phony: wikidata_updates
+
 # automated build is active via GitHub Action
 image_build:
 	docker build --tag codecheckers/register:latest --no-cache .
