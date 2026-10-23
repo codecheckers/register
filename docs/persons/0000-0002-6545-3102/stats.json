@@ -34,13 +34,9 @@
   "checks_cumulative": {
     "2025": 2
   },
-  "interval_n": 2,
-  "interval_excluded": 0,
+  "interval_n": 1,
+  "interval_excluded": 1,
   "interval_points": [
-    {
-      "id": "2025-004",
-      "days": 1741
-    },
     {
       "id": "2025-019",
       "days": 76
@@ -53,13 +49,13 @@
     "3-6mo": 0,
     "6-12mo": 0,
     "1-2y": 0,
-    "2-5y": 1,
+    "2-5y": 0,
     "5y+": 0
   },
   "interval_summary": {
     "pct_before_publication": 0,
-    "pct_within_6mo": 50,
-    "max_years": 5
+    "pct_within_6mo": 100,
+    "max_years": 0
   },
   "venues_per_year": {
     "2025": 1
