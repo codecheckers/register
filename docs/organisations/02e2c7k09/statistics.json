@@ -1,9 +1,10 @@
 {
   "source": "https://codecheck.org.uk/register/organisations/02e2c7k09/register.json",
   "cert_count": 35,
-  "venue_count": 4,
+  "venue_count": 5,
   "venues_per_type": {
     "community": 3,
+    "conference": 1,
     "institution": 1
   },
   "checks_per_type_per_year": {
@@ -11,34 +12,43 @@
       "community": 1
     },
     "2024": {
-      "community": 5
+      "community": 5,
+      "conference": 2
     },
     "2025": {
-      "institution": 21
+      "institution": 20
     },
     "2026": {
       "community": 1,
-      "institution": 7
+      "institution": 6
     }
   },
   "checks_per_year": {
     "2023": 1,
-    "2024": 5,
-    "2025": 21,
-    "2026": 8
+    "2024": 7,
+    "2025": 20,
+    "2026": 7
   },
   "checks_cumulative": {
     "2023": 1,
-    "2024": 6,
-    "2025": 27,
+    "2024": 8,
+    "2025": 28,
     "2026": 35
   },
-  "interval_n": 35,
-  "interval_excluded": 0,
+  "interval_n": 33,
+  "interval_excluded": 2,
   "interval_points": [
     {
       "id": "2023-011",
-      "days": -73
+      "days": 68
+    },
+    {
+      "id": "2024-009",
+      "days": -7
+    },
+    {
+      "id": "2024-009",
+      "days": -7
     },
     {
       "id": "2024-017",
@@ -81,14 +91,6 @@
       "days": -20
     },
     {
-      "id": "2025-004",
-      "days": 1741
-    },
-    {
-      "id": "2025-004",
-      "days": 1741
-    },
-    {
       "id": "2025-006",
       "days": 1500
     },
@@ -105,16 +107,12 @@
       "days": -301
     },
     {
-      "id": "2025-007",
-      "days": -301
+      "id": "2025-018",
+      "days": 191
     },
     {
       "id": "2025-018",
-      "days": 22
-    },
-    {
-      "id": "2025-018",
-      "days": 22
+      "days": 191
     },
     {
       "id": "2025-019",
@@ -146,19 +144,15 @@
     },
     {
       "id": "2026-001",
-      "days": -57
+      "days": 124
     },
     {
       "id": "2026-001",
-      "days": -57
+      "days": 124
     },
     {
       "id": "2026-001",
-      "days": -57
-    },
-    {
-      "id": "2026-001",
-      "days": -57
+      "days": 124
     },
     {
       "id": "2026-019",
@@ -178,74 +172,93 @@
     }
   ],
   "interval_buckets": {
-    "Before publication": 15,
-    "0-1mo": 7,
-    "1-3mo": 2,
-    "3-6mo": 7,
-    "6-12mo": 1,
+    "Before publication": 11,
+    "0-1mo": 5,
+    "1-3mo": 3,
+    "3-6mo": 10,
+    "6-12mo": 3,
     "1-2y": 0,
-    "2-5y": 3,
+    "2-5y": 1,
     "5y+": 0
   },
   "interval_summary": {
-    "pct_before_publication": 43,
-    "pct_within_6mo": 46,
-    "max_years": 5
+    "pct_before_publication": 33,
+    "pct_within_6mo": 55,
+    "max_years": 4
   },
   "venues_per_year": {
     "2023": 1,
-    "2024": 1,
+    "2024": 2,
     "2025": 1,
     "2026": 2
   },
   "venues_cumulative": {
     "2023": 1,
-    "2024": 2,
-    "2025": 3,
-    "2026": 4
+    "2024": 3,
+    "2025": 4,
+    "2026": 5
   },
-  "codechecker_count": 18,
+  "codechecker_count": 19,
   "codecheckers_per_year": {
     "2023": 1,
-    "2024": 10,
+    "2024": 11,
     "2025": 8,
     "2026": 4
   },
   "codecheckers_cumulative": {
     "2023": 1,
-    "2024": 10,
-    "2025": 17,
-    "2026": 18
+    "2024": 11,
+    "2025": 18,
+    "2026": 19
   },
   "platform_per_year": {
     "2023": {
       "zenodo": 1
     },
     "2024": {
+      "osf": 2,
       "zenodo": 5
     },
     "2025": {
-      "zenodo": 21
+      "zenodo": 20
     },
     "2026": {
-      "zenodo": 8
+      "zenodo": 7
     }
   },
   "platform_cumulative": {
     "2023": {
+      "osf": 0,
       "zenodo": 1
     },
     "2024": {
+      "osf": 2,
       "zenodo": 6
     },
     "2025": {
-      "zenodo": 27
+      "osf": 2,
+      "zenodo": 26
     },
     "2026": {
-      "zenodo": 35
+      "osf": 2,
+      "zenodo": 33
     }
   },
   "venues_detail": [
+    {
+      "name": "AGILEGIS",
+      "longname": "AGILE Conference on Geographic Information Science",
+      "year_range": "2024",
+      "label": "conference",
+      "cert_count": 2,
+      "page_type": "conference",
+      "page_type_plural": "conferences",
+      "page_slug": "AGILEGIS",
+      "logo_url": "https://codecheck.org.uk/img/reproducible-AGILE-logo-square.svg",
+      "website_url": "https://agile-gi.eu",
+      "policy_url": "https://reproducible-agile.github.io/",
+      "publisher": "AGILE (Association of Geographic Information Laboratories in Europe)"
+    },
     {
       "name": "codecheck",
       "longname": "CODECHECK",
@@ -293,7 +306,7 @@
       "longname": "TU Delft Digital Competence Centre",
       "year_range": "2025-2026",
       "label": "institution",
-      "cert_count": 28,
+      "cert_count": 26,
       "page_type": "institution",
       "page_type_plural": "institutions",
       "page_slug": "TU%20Delft%20DCC",
@@ -305,9 +318,14 @@
   ],
   "publishers": [
     {
+      "name": "AGILE (Association of Geographic Information Laboratories in Europe)",
+      "venue_count": 1,
+      "cert_count": 2
+    },
+    {
       "name": "unknown",
       "venue_count": 4,
-      "cert_count": 35
+      "cert_count": 33
     }
   ]
 }
