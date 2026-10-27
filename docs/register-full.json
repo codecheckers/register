@@ -2962,13 +2962,15 @@
     "Paper reference": "https://doi.org/10.5194/agile-giss-5-2-2024",
     "Paper authors": [
       {
-        "name": "Matias Cardoso1"
+        "name": "Matias Cardoso"
       },
       {
-        "name": "Vasileios Milias"
+        "name": "Vasileios Milias",
+        "orcid": "0000-0003-1022-4465"
       },
       {
-        "name": "Maurice Harteveld"
+        "name": "Maurice Harteveld",
+        "orcid": "0000-0001-7164-6165"
       }
     ],
     "Codecheckers": [
