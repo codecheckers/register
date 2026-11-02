@@ -9,6 +9,10 @@ description: CODECHECK is an initiative supporting the independent execution and
   succeed. The initiative partners with journals, conferences and institutions worldwide,
   including institutional programmes such as CODECHECK NL.
 fediverse: '@codecheck@fediscience.org'
+hashtags:
+- CODECHECK
+- ReproducibleResearch
+- OpenScience
 ---
 
 

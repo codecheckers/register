@@ -41,7 +41,7 @@
         "@id": "https://orcid.org/0000-0002-3612-1934"
       }
     ],
-    "abstract": "CODECHECK certificate for paper: Optimal Graph Stretching for Distributed Averaging CODECHECK repository: https://github.com/yiquintero/codecheck-2504.10289",
+    "abstract": "The performance of distributed averaging depends heavily on the underlying topology. In various fields, including compressed sensing, multi-party computation, and abstract graph theory, graphs may be expected to be free of short cycles, i.e. to have high girth. Though extensive analyses and heuristics exist for optimising the performance of distributed averaging in general networks, these studies do not consider girth. As such, it is not clear what happens to convergence time when a graph is stretched to a higher girth. In this work, we introduce the optimal graph stretching problem, wherein we are interested in finding the set of edges for a particular graph that ensures optimal convergence time under constraint of a minimal girth. We compare various methods for choosing which edges to remove, and use various convergence heuristics to speed up the searching process. We generate many graphs with varying parameters, stretch and optimise them, and measure the duration of distributed averaging. We find that stretching by itself significantly increases convergence time. This decrease can be counteracted with a subsequent repair phase, guided by a convergence time heuristic. Existing heuristics are capable, but may be suboptimal.",
     "url": "https://doi.org/10.48550/arXiv.2504.10289",
     "sameAs": ["https://doi.org/10.48550/arXiv.2504.10289", "https://openalex.org/W6912142737", "https://www.wikidata.org/entity/Q141269449"]
   },
