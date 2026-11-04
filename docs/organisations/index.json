@@ -4,7 +4,7 @@
     "ROR": "006hf6230",
     "Country": "The Netherlands",
     "Works authored": 5,
-    "Checks conducted": 12,
+    "Checks conducted": 13,
     "People": 8
   },
   {
@@ -27,9 +27,9 @@
     "Organisation": "Technische Universität Dresden",
     "ROR": "042aqky30",
     "Country": "Germany",
-    "Works authored": 1,
+    "Works authored": 2,
     "Checks conducted": 7,
-    "People": 3
+    "People": 4
   },
   {
     "Organisation": "University of Salzburg",
@@ -131,6 +131,14 @@
     "Organisation": "BOKU University",
     "ROR": "057ff4y42",
     "Country": "Austria",
+    "Works authored": 0,
+    "Checks conducted": 1,
+    "People": 1
+  },
+  {
+    "Organisation": "Institut de la Vision",
+    "ROR": "000zhpw23",
+    "Country": "France",
     "Works authored": 0,
     "Checks conducted": 1,
     "People": 1
@@ -368,6 +376,14 @@
     "People": 1
   },
   {
+    "Organisation": "Leibniz Institute of Ecological Urban and Regional Development",
+    "ROR": "02t26g637",
+    "Country": "Germany",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 2
+  },
+  {
     "Organisation": "Leiden University",
     "ROR": "027bh9e22",
     "Country": "The Netherlands",
@@ -483,6 +499,14 @@
     "Organisation": "Tilburg University",
     "ROR": "04b8v1s79",
     "Country": "The Netherlands",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "People": 1
+  },
+  {
+    "Organisation": "TU Dortmund University",
+    "ROR": "01k97gp34",
+    "Country": "Germany",
     "Works authored": 1,
     "Checks conducted": 0,
     "People": 1

@@ -3774,7 +3774,7 @@
     "OpenAlex": null,
     "Paper ISSN": null,
     "Paper venue": null,
-    "Work publication date": "2026-11-02",
+    "Work publication date": "2026-11-04",
     "Check time": "2024-11-08",
     "Report": "https://doi.org/10.5281/zenodo.15023714",
     "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
@@ -5759,5 +5759,43 @@
     ],
     "Summary": "Partial reproduction. The gt package could not be installed in the Amsterdam UMC myDRE environment (Error: Chrome debugging port not open after 10 seconds), so the gtsave() lines were commented out and the tables saved manually. Only the first rows of each table could be viewed and these were reproducible; reproducibility of the complete tables could not be verified. Two minor modifications to the original code were needed: installing missing packages and loading stringr.\n",
     "Source": null
+  },
+  {
+    "Certificate ID": "2026-033",
+    "Repository": "github::codecheckers/regional-accessibility",
+    "Repository Link": "https://github.com/codecheckers/regional-accessibility",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2026-11-03",
+    "OpenAlex": "https://openalex.org/W7164126232",
+    "Paper ISSN": "2700-8150",
+    "Paper venue": "AGILE GIScience Series",
+    "Work publication date": "2026-06-10",
+    "Check time": "2026-11-03",
+    "Report": "https://doi.org/10.5281/zenodo.23913180",
+    "Title": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-27-2026",
+    "Paper authors": [
+      {
+        "name": "Mathias Jehling",
+        "orcid": "0000-0002-7498-3607"
+      },
+      {
+        "name": "Lucie Kluwe",
+        "orcid": "0009-0000-3542-0230"
+      },
+      {
+        "name": "Caspar Kleiner",
+        "orcid": "0009-0004-8810-6770"
+      }
+    ],
+    "Codecheckers": [
+      {
+        "name": "Frank Ostermann",
+        "orcid": "0000-0002-9317-8291"
+      }
+    ],
+    "Summary": "The CODECHECK successfully reproduced the outcomes for a subset of the data (one of four case study areas). The workflow is fully reproducible and can be used to replicate the work for different study areas.\n",
+    "Source": "https://github.com/urban-structure-and-policy/regional-accessibility"
   }
 ]

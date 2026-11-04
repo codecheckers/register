@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/venues/communities/codecheck/register.json",
-  "cert_count": 13,
+  "cert_count": 14,
   "venue": {
     "name": "codecheck",
     "longname": "CODECHECK",
@@ -32,7 +32,7 @@
       "community": 2
     },
     "2026": {
-      "community": 2
+      "community": 3
     }
   },
   "checks_per_year": {
@@ -40,16 +40,16 @@
     "2022": 1,
     "2024": 1,
     "2025": 2,
-    "2026": 2
+    "2026": 3
   },
   "checks_cumulative": {
     "2020": 7,
     "2022": 8,
     "2024": 9,
     "2025": 11,
-    "2026": 13
+    "2026": 14
   },
-  "interval_n": 13,
+  "interval_n": 14,
   "interval_excluded": 0,
   "interval_points": [
     {
@@ -103,21 +103,25 @@
     {
       "id": "2026-025",
       "days": -26
+    },
+    {
+      "id": "2026-033",
+      "days": 146
     }
   ],
   "interval_buckets": {
     "Before publication": 3,
     "0-1mo": 0,
     "1-3mo": 0,
-    "3-6mo": 3,
+    "3-6mo": 4,
     "6-12mo": 1,
     "1-2y": 1,
     "2-5y": 1,
     "5y+": 4
   },
   "interval_summary": {
-    "pct_before_publication": 23,
-    "pct_within_6mo": 23,
+    "pct_before_publication": 21,
+    "pct_within_6mo": 29,
     "max_years": 38
   },
   "venues_per_year": {
@@ -134,20 +138,20 @@
     "2025": 1,
     "2026": 1
   },
-  "codechecker_count": 7,
+  "codechecker_count": 8,
   "codecheckers_per_year": {
     "2020": 3,
     "2022": 1,
     "2024": 1,
     "2025": 3,
-    "2026": 2
+    "2026": 3
   },
   "codecheckers_cumulative": {
     "2020": 3,
     "2022": 3,
     "2024": 4,
     "2025": 5,
-    "2026": 7
+    "2026": 8
   },
   "platform_per_year": {
     "2020": {
@@ -164,7 +168,7 @@
       "zenodo": 1
     },
     "2026": {
-      "zenodo": 2
+      "zenodo": 3
     }
   },
   "platform_cumulative": {
@@ -186,7 +190,7 @@
     },
     "2026": {
       "researchequals": 1,
-      "zenodo": 12
+      "zenodo": 13
     }
   },
   "venues_detail": [
@@ -195,7 +199,7 @@
       "longname": "CODECHECK",
       "year_range": "2020-2026",
       "label": "community",
-      "cert_count": 13,
+      "cert_count": 14,
       "page_type": "community",
       "page_type_plural": "communities",
       "page_slug": "codecheck",
@@ -209,7 +213,7 @@
     {
       "name": "unknown",
       "venue_count": 1,
-      "cert_count": 13
+      "cert_count": 14
     }
   ]
 }

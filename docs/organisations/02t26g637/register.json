@@ -1,0 +1,30 @@
+[
+  {
+    "Certificate ID": "2026-033",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-033/",
+    "Certificate PDF": "https://zenodo.org/api/records/23913180/files/CODECHECK_report_2026-33.pdf/content",
+    "Repository": "github::codecheckers/regional-accessibility",
+    "Repository Link": "https://github.com/codecheckers/regional-accessibility",
+    "Report": "https://doi.org/10.5281/zenodo.23913180",
+    "Title": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-27-2026",
+    "OpenAlex": "https://openalex.org/W7164126232",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2026-11-03"
+  },
+  {
+    "Certificate ID": "2026-033",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-033/",
+    "Certificate PDF": "https://zenodo.org/api/records/23913180/files/CODECHECK_report_2026-33.pdf/content",
+    "Repository": "github::codecheckers/regional-accessibility",
+    "Repository Link": "https://github.com/codecheckers/regional-accessibility",
+    "Report": "https://doi.org/10.5281/zenodo.23913180",
+    "Title": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-27-2026",
+    "OpenAlex": "https://openalex.org/W7164126232",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2026-11-03"
+  }
+]

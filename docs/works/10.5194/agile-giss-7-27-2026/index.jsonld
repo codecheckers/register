@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ScholarlyArticle",
+      "@id": "https://doi.org/10.5194/agile-giss-7-27-2026",
+      "url": "https://doi.org/10.5194/agile-giss-7-27-2026",
+      "sameAs": ["https://doi.org/10.5194/agile-giss-7-27-2026", "https://openalex.org/W7164126232"],
+      "name": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Mathias Jehling",
+          "@id": "https://orcid.org/0000-0002-7498-3607"
+        },
+        {
+          "@type": "Person",
+          "name": "Lucie Kluwe",
+          "@id": "https://orcid.org/0009-0000-3542-0230"
+        },
+        {
+          "@type": "Person",
+          "name": "Caspar Kleiner",
+          "@id": "https://orcid.org/0009-0004-8810-6770"
+        }
+      ]
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-033/",
+      "name": "CODECHECK Certificate 2026-033",
+      "url": "https://codecheck.org.uk/register/certs/2026-033/",
+      "itemReviewed": {
+        "@id": "https://doi.org/10.5194/agile-giss-7-27-2026"
+      },
+      "datePublished": "2026-11-03"
+    }
+  ]
+}

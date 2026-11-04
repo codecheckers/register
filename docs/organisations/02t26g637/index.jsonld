@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/02t26g637",
+  "name": "Leibniz Institute of Ecological Urban and Regional Development",
+  "identifier": "https://ror.org/02t26g637",
+  "url": "https://codecheck.org.uk/register/organisations/02t26g637/",
+  "sameAs": "https://www.ioer.de",
+  "location": {
+    "@type": "Place",
+    "address": "Dresden, Germany"
+  }
+}

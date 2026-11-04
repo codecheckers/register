@@ -82,6 +82,12 @@
       "@id": "https://codecheck.org.uk/register/certs/2026-015/",
       "name": "CODECHECK Certificate 2026-015",
       "url": "https://codecheck.org.uk/register/certs/2026-015/"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-033/",
+      "name": "CODECHECK Certificate 2026-033",
+      "url": "https://codecheck.org.uk/register/certs/2026-033/"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/01k97gp34",
+  "name": "TU Dortmund University",
+  "identifier": "https://ror.org/01k97gp34",
+  "url": "https://codecheck.org.uk/register/organisations/01k97gp34/",
+  "sameAs": "https://www.tu-dortmund.de/en/",
+  "location": {
+    "@type": "Place",
+    "address": "Dortmund, Germany"
+  }
+}

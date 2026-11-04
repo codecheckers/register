@@ -1,0 +1,60 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "@id": "https://codecheck.org.uk/register/certs/2026-033/",
+  "name": "CODECHECK Certificate 2026-033",
+  "url": "https://codecheck.org.uk/register/certs/2026-033/",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CODECHECK Initiative"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Frank Ostermann",
+      "@id": "https://orcid.org/0000-0002-9317-8291"
+    }
+  ],
+  "itemReviewed": {
+    "@type": "ScholarlyArticle",
+    "name": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Mathias Jehling",
+        "@id": "https://orcid.org/0000-0002-7498-3607"
+      },
+      {
+        "@type": "Person",
+        "name": "Lucie Kluwe",
+        "@id": "https://orcid.org/0009-0000-3542-0230"
+      },
+      {
+        "@type": "Person",
+        "name": "Caspar Kleiner",
+        "@id": "https://orcid.org/0009-0004-8810-6770"
+      }
+    ],
+    "abstract": "<jats:p>Abstract. Across countries, urban form is characterised by polycentric city-regions. This entails challenges in analysing urban structures with regard to their locations within these city-regions. In particular, research in regional and urban planning lacks medium-scale analytical approaches. We present a fully reproducible approach to describe regional location within urban form through accessibility. Our network-based approach relies on street-network data to derive a weighted centrality measure for each location in a region (Closeness Centrality). Considering a distance decay, we retrieve travel impediments for two modes of transportation: car-based transport and short-distance mobility (walking/cycling). To apply the approach for questions of urban analytics, we use the example of vacant lots. Given their key role for infill development, we analyse their distribution across four regions with distinct urban form characteristics. The results indicate that the approach allows for an analysis within a region to show the distribution of an urban structure of interest across different levels of centrality. The standardised description of a regional score of centrality also allows for comparing the distributions across regions. Our research contributes to align urban analytics closer to relevant conceptions of functional city-regions with urban cores, suburbs and peripheries.<\/jats:p>",
+    "url": "https://doi.org/10.5194/agile-giss-7-27-2026",
+    "sameAs": ["https://doi.org/10.5194/agile-giss-7-27-2026", "https://openalex.org/W7164126232"]
+  },
+  "reviewBody": "The CODECHECK successfully reproduced the outcomes for a subset of the data (one of four case study areas). The workflow is fully reproducible and can be used to replicate the work for different study areas.\n",
+  "datePublished": "2026-11-03",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.23913180"
+  },
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "url": "https://doi.org/10.5281/zenodo.23913180"
+  },
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://codecheck.org.uk/register/certs/2026-033/cert.pdf"
+  }
+}

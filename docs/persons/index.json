@@ -174,13 +174,13 @@
     }
   },
   {
-    "Name": "Frank O. Ostermann",
+    "Name": "Frank Ostermann",
     "ORCID": "0000-0002-9317-8291",
     "Works authored": 1,
-    "Checks conducted": 11,
+    "Checks conducted": 12,
     "Check types": {
       "conference": 10,
-      "community": 1
+      "community": 2
     }
   },
   {
@@ -2476,6 +2476,27 @@
   {
     "Name": "Babak Naimi",
     "ORCID": "0000-0001-5431-2729",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Mathias Jehling",
+    "ORCID": "0000-0002-7498-3607",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Lucie Kluwe",
+    "ORCID": "0009-0000-3542-0230",
+    "Works authored": 1,
+    "Checks conducted": 0,
+    "Check types": []
+  },
+  {
+    "Name": "Caspar Kleiner",
+    "ORCID": "0009-0004-8810-6770",
     "Works authored": 1,
     "Checks conducted": 0,
     "Check types": []

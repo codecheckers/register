@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/register.json",
-  "cert_count": 139,
+  "cert_count": 140,
   "venue_count": 14,
   "venues_per_type": {
     "community": 4,
@@ -43,7 +43,7 @@
       "journal": 3
     },
     "2026": {
-      "community": 4,
+      "community": 5,
       "conference": 14,
       "institution": 3,
       "journal": 1
@@ -57,7 +57,7 @@
     "2023": 12,
     "2024": 24,
     "2025": 26,
-    "2026": 22
+    "2026": 23
   },
   "checks_cumulative": {
     "2019": 1,
@@ -67,9 +67,9 @@
     "2023": 67,
     "2024": 91,
     "2025": 117,
-    "2026": 139
+    "2026": 140
   },
-  "interval_n": 136,
+  "interval_n": 137,
   "interval_excluded": 3,
   "interval_points": [
     {
@@ -434,7 +434,7 @@
     },
     {
       "id": "2024-025",
-      "days": -724
+      "days": -726
     },
     {
       "id": "2025-001",
@@ -615,13 +615,17 @@
     {
       "id": "2026-026",
       "days": 161
+    },
+    {
+      "id": "2026-033",
+      "days": 146
     }
   ],
   "interval_buckets": {
     "Before publication": 48,
     "0-1mo": 51,
     "1-3mo": 8,
-    "3-6mo": 9,
+    "3-6mo": 10,
     "6-12mo": 9,
     "1-2y": 1,
     "2-5y": 5,
@@ -705,7 +709,7 @@
     "2026": {
       "osf": 13,
       "researchequals": 1,
-      "zenodo": 8
+      "zenodo": 9
     }
   },
   "platform_cumulative": {
@@ -747,7 +751,7 @@
     "2026": {
       "osf": 73,
       "researchequals": 4,
-      "zenodo": 62
+      "zenodo": 63
     }
   },
   "venues_detail": [
@@ -826,7 +830,7 @@
       "longname": "CODECHECK",
       "year_range": "2020-2026",
       "label": "community",
-      "cert_count": 13,
+      "cert_count": 14,
       "page_type": "community",
       "page_type_plural": "communities",
       "page_slug": "codecheck",
@@ -982,7 +986,7 @@
     {
       "name": "unknown",
       "venue_count": 7,
-      "cert_count": 57
+      "cert_count": 58
     }
   ]
 }

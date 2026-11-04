@@ -219,6 +219,22 @@
         "sameAs": "https://doi.org/10.1038/s44323-026-00108-x"
       },
       "datePublished": "2026-09-20"
+    },
+    {
+      "@type": "Review",
+      "@id": "https://codecheck.org.uk/register/certs/2026-033/",
+      "name": "CODECHECK Certificate 2026-033",
+      "url": "https://codecheck.org.uk/register/certs/2026-033/",
+      "itemReviewed": {
+        "@type": "ScholarlyArticle",
+        "isPartOf": {
+          "@id": "https://codecheck.org.uk/register/venues/communities/codecheck/"
+        },
+        "name": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
+        "url": "https://doi.org/10.5194/agile-giss-7-27-2026",
+        "sameAs": "https://doi.org/10.5194/agile-giss-7-27-2026"
+      },
+      "datePublished": "2026-11-03"
     }
   ]
 }

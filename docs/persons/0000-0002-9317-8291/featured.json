@@ -1,5 +1,20 @@
 [
   {
+    "Certificate ID": "2026-033",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-033/",
+    "Certificate PDF": "https://zenodo.org/api/records/23913180/files/CODECHECK_report_2026-33.pdf/content",
+    "Repository": "github::codecheckers/regional-accessibility",
+    "Repository Link": "https://github.com/codecheckers/regional-accessibility",
+    "Report": "https://doi.org/10.5281/zenodo.23913180",
+    "Title": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-27-2026",
+    "OpenAlex": "https://openalex.org/W7164126232",
+    "Type": "community",
+    "Venue": "codecheck",
+    "Check date": "2026-11-03",
+    "Role": "codechecker"
+  },
+  {
     "Certificate ID": "2026-018",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2026-018/",
     "Certificate PDF": "https://zenodo.org/api/records/21807544/files/codecheck.pdf/content",
@@ -132,21 +147,6 @@
     "Type": "conference",
     "Venue": "AGILEGIS",
     "Check date": "2021-06-10",
-    "Role": "codechecker"
-  },
-  {
-    "Certificate ID": "2020-020",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-020/",
-    "Certificate PDF": "https://osf.io/download/7hcxv/",
-    "Repository": "osf::7TWR2",
-    "Repository Link": "https://osf.io/7TWR2",
-    "Report": "https://doi.org/10.17605/OSF.IO/7TWR2",
-    "Title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
-    "Paper reference": "https://doi.org/10.5194/agile-giss-1-21-2020",
-    "OpenAlex": "https://openalex.org/W3043446483",
-    "Type": "conference",
-    "Venue": "AGILEGIS",
-    "Check date": "2020-07-13",
     "Role": "codechecker"
   }
 ]

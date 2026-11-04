@@ -1,5 +1,17 @@
 [
   {
+    "Certificate ID": "2026-033",
+    "Certificate Link": "https://codecheck.org.uk/register/certs/2026-033/",
+    "Certificate PDF": "https://zenodo.org/api/records/23913180/files/CODECHECK_report_2026-33.pdf/content",
+    "Repository": "github::codecheckers/regional-accessibility",
+    "Repository Link": "https://github.com/codecheckers/regional-accessibility",
+    "Report": "https://doi.org/10.5281/zenodo.23913180",
+    "Title": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
+    "Paper reference": "https://doi.org/10.5194/agile-giss-7-27-2026",
+    "OpenAlex": "https://openalex.org/W7164126232",
+    "Check date": "2026-11-03"
+  },
+  {
     "Certificate ID": "2026-025",
     "Certificate Link": "https://codecheck.org.uk/register/certs/2026-025/",
     "Certificate PDF": "https://zenodo.org/api/records/22935939/files/codecheck.pdf/content",
@@ -106,17 +118,5 @@
     "Paper reference": "https://doi.org/10.5281/zenodo.3538217",
     "OpenAlex": "https://openalex.org/W3206275069",
     "Check date": "2020-07-23"
-  },
-  {
-    "Certificate ID": "2020-006",
-    "Certificate Link": "https://codecheck.org.uk/register/certs/2020-006/",
-    "Certificate PDF": "https://zenodo.org/api/records/3948353/files/codecheck.pdf/content",
-    "Repository": "github::codecheckers/Detorakis-reproduction",
-    "Repository Link": "https://github.com/codecheckers/Detorakis-reproduction",
-    "Report": "https://doi.org/10.5281/zenodo.3948353",
-    "Title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
-    "Paper reference": "https://doi.org/10.5281/zenodo.1003214",
-    "OpenAlex": "https://openalex.org/W3210493981",
-    "Check date": "2020-07-16"
   }
 ]

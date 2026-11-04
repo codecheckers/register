@@ -1,0 +1,88 @@
+{
+  "source": "https://codecheck.org.uk/register/organisations/01k97gp34/register.json",
+  "cert_count": 1,
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2026": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2026": 1
+  },
+  "checks_cumulative": {
+    "2026": 1
+  },
+  "interval_n": 1,
+  "interval_excluded": 0,
+  "interval_points": [
+    {
+      "id": "2026-033",
+      "days": 146
+    }
+  ],
+  "interval_buckets": {
+    "Before publication": 0,
+    "0-1mo": 0,
+    "1-3mo": 0,
+    "3-6mo": 1,
+    "6-12mo": 0,
+    "1-2y": 0,
+    "2-5y": 0,
+    "5y+": 0
+  },
+  "interval_summary": {
+    "pct_before_publication": 0,
+    "pct_within_6mo": 100,
+    "max_years": 0
+  },
+  "venues_per_year": {
+    "2026": 1
+  },
+  "venues_cumulative": {
+    "2026": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2026": 1
+  },
+  "codecheckers_cumulative": {
+    "2026": 1
+  },
+  "platform_per_year": {
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "codecheck",
+      "longname": "CODECHECK",
+      "year_range": "2026",
+      "label": "community",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "codecheck",
+      "logo_url": "https://codecheck.org.uk/img/codecheck_logo.svg",
+      "website_url": "https://codecheck.org.uk",
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}
