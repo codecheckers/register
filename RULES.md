@@ -102,7 +102,7 @@ A configuration that names no version and cannot be dated is a configuration
 whose author can still be asked; `CC-CFG-014` failing is the prompt for that
 conversation.
 
-**2.0 hardens nine rules** and **adds three**. `diff rules-1.0.yml rules-2.0.yml`
+**2.0 hardens nine rules** and **adds five**. `diff rules-1.0.yml rules-2.0.yml`
 shows exactly this:
 
 | Rule | 1.0 | 2.0 |
@@ -124,6 +124,8 @@ references to the work, a plain list for now:
 |---|---|---|
 | `CC-CFG-029` reference-other-is-list | error | when present, it is a sequence |
 | `CC-CFG-030` reference-other-item-form | warning | each entry is a resolvable URL, preferably a DOI |
+| `CC-CFG-032` reference-other-prefers-doi | info | each entry is a DOI; only a DOI gets its own work page |
+| `CC-CFG-033` reference-other-not-reference | info | no entry repeats `reference` or another entry |
 | `CC-MET-009` reference-other-resolves | warning | each entry resolves |
 
 The `reference` wording follows
