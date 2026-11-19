@@ -165,7 +165,7 @@ The GitHub issue labels mirror the row, and `CC-REG-008` checks that they do (#2
 
 - exactly one **type label** - `community`, `journal`, `institution` or `conference` - equal to `Type`;
 - a **venue label** equal to the venue's `name` in `venues.csv` (`JOSIS`, `AUMC`, `TU Delft DCC`, …), or to its `label` there when that is not a type (`check-nl`, `lifecycle journal`, `preprint`);
-- no venue label when the type label alone names the venue, which is when exactly one venue in `venues.csv` carries the type as its `label`: `community` names `codecheck`, `conference` names `AGILEGIS`. A second venue with that `label` makes the venue label necessary for both.
+- no venue label when the type label alone names the venue, which is when exactly one venue in `venues.csv` carries the type as its `label`: `community` names `codecheck`. A second venue with that `label` makes the venue label necessary for both, as `CHR` did for `AGILEGIS` (both `conference`).
 
 A new venue therefore needs a GitHub label named after it as well as its `venues.csv` row, unless it is the only one of its type. The labels are mirrored to `codecheckers/testing-dev-register`.
 
