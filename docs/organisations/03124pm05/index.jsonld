@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://ror.org/03124pm05",
+  "name": "Netherlands Institute for the Study of Crime and Law Enforcement",
+  "identifier": "https://ror.org/03124pm05",
+  "url": "https://codecheck.org.uk/register/organisations/03124pm05/",
+  "sameAs": "https://nscr.nl",
+  "location": {
+    "@type": "Place",
+    "address": "Amsterdam, The Netherlands"
+  }
+}

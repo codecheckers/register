@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.31222/osf.io/dvhux_v1",
+    "type": "Preprint",
     "title": "Using an Open Science Checklist in Grant Proposal Reviews to Predict Reproducibility of Funded Publications",
     "openalex": "https://openalex.org/W7167227198",
     "wikidata": "Q141668951",
@@ -69,7 +70,8 @@
         "name": "Mariska Leeflang",
         "orcid": "0000-0001-5960-0471"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

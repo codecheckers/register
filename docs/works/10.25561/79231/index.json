@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.25561/79231",
+    "type": null,
     "title": "Report 23: State-level tracking of COVID-19 in the United States version 2 (28-05-2020)",
     "openalex": "https://openalex.org/W3034840651",
     "wikidata": "Q141269332",
@@ -25,7 +26,8 @@
         "name": "et al.",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

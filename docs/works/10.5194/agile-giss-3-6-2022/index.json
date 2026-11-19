@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-3-6-2022",
+    "type": "Journal article",
     "title": "Exploratory Analysis and Feature Selection for the Prediction of Nitrogen Dioxide",
     "openalex": "https://openalex.org/W4281897965",
     "wikidata": "Q141269387",
@@ -25,7 +26,8 @@
         "name": "Sergio Trilles",
         "orcid": "0000-0002-9304-0719"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

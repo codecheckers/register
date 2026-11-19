@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.17605/osf.io/e2k73",
+    "type": null,
     "title": "Landscape Character Assessment - Nigeria",
     "openalex": "https://openalex.org/W6943834942",
     "wikidata": "Q141269440",
@@ -25,7 +26,8 @@
         "name": "Yijian Zeng",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

@@ -7,7 +7,7 @@ venues: Open Science at ITC
 
 
 
-|Certificate |Report                         |Venue               |Type        |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2021-011](../../../certs/2021-011/)|[doi.org/10.5281/zenodo.5106408](https://doi.org/10.5281/zenodo.5106408)|[Open Science at ITC](../../../venues/institutions/open_science_at_itc)|[Institution](../../../venues/institutions)|2021-07-15 |
+|Certificate |Report                         |Venue               |Type        |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2021-011](../../../certs/2021-011/)|[doi.org/10.5281/zenodo.5106408](https://doi.org/10.5281/zenodo.5106408)|[Open Science at ITC](../../../venues/institutions/open_science_at_itc)|[Institution](../../../venues/institutions)|2021-07-15 |Reference     |
 

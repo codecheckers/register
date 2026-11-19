@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.25561/77482",
+    "type": null,
     "title": "Report 9: Impact of non-pharmaceutical interventions (NPIs) to reduce COVID-19 mortality and healthcare demand. March 16, 2020.",
     "openalex": "https://openalex.org/W3023441241",
     "wikidata": "Q87803531",
@@ -17,7 +18,8 @@
         "name": "COVID-19 Response Team",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

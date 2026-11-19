@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-17-2026",
+    "type": "Journal article",
     "title": "Food Insecurity Projections for Anticipatory Action: Comparative Spatiotemporal Analysis of FEWS NET and the IPC in Somalia",
     "openalex": "https://openalex.org/W7164210649",
     "wikidata": "Q140232098",
@@ -33,7 +34,8 @@
         "name": "Alexander Zipf",
         "orcid": "0000-0003-4916-9838"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

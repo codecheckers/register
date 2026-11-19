@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-10-2026",
+    "type": "Journal article",
     "title": "Assessing the Geographic Diversity of AI's Platial Representations in Image Generation",
     "openalex": "https://openalex.org/W7164183500",
     "wikidata": "Q141269479",
@@ -21,7 +22,8 @@
         "name": "Mina Karimi",
         "orcid": "0000-0003-2521-8164"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

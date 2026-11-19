@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-2-10-2021",
+    "type": "Journal article",
     "title": "Building Change Detection of Airborne Laser Scanning and Dense Image Matching Point Clouds using Height and Class Information",
     "openalex": "https://openalex.org/W3168809494",
     "wikidata": "Q141269354",
@@ -21,7 +22,8 @@
         "name": "Claus Brenner",
         "orcid": "0000-0002-6459-0682"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

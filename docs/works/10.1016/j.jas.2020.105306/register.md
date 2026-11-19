@@ -7,7 +7,7 @@ venues: J Archaeol Sci
 
 
 
-|Certificate |Report                         |Venue          |Type    |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2020-025](../../../certs/2020-025/)|[doi.org/10.5281/zenodo.4279275](https://doi.org/10.5281/zenodo.4279275)|[J Archaeol Sci](../../../venues/journals/j_archaeol_sci)|[Journal](../../../venues/journals)|2020-11-19 |
+|Certificate |Report                         |Venue          |Type    |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2020-025](../../../certs/2020-025/)|[doi.org/10.5281/zenodo.4279275](https://doi.org/10.5281/zenodo.4279275)|[J Archaeol Sci](../../../venues/journals/j_archaeol_sci)|[Journal](../../../venues/journals)|2020-11-19 |Reference     |
 

@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-5-8-2024",
+    "type": "Journal article",
     "title": "Knowledge-Based Identification of Urban Green Spaces: Allotments",
     "openalex": "https://openalex.org/W4399178759",
     "wikidata": "Q126207842",
@@ -17,7 +18,8 @@
         "name": "Sabine Timpf",
         "orcid": "0000-0002-7964-4110"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

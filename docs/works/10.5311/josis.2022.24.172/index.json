@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5311/josis.2022.24.172",
+    "type": "Journal article",
     "title": "ClockBoard: A zoning system for urban analysis",
     "openalex": "https://openalex.org/W4288754796",
     "wikidata": "Q141269467",
@@ -21,7 +22,8 @@
         "name": "Dustin Carlino",
         "orcid": "0000-0002-5565-0989"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

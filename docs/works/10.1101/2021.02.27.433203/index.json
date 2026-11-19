@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1101/2021.02.27.433203",
+    "type": "Preprint",
     "title": "Beyond colour gamuts: Novel metrics for the reproduction of photoreceptor signals",
     "openalex": "https://openalex.org/W3133925542",
     "wikidata": "Q141668949",
@@ -25,7 +26,8 @@
         "name": "M. Spitschan",
         "orcid": "0000-0002-8572-9268"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

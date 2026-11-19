@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1038/s41586-020-2405-7",
+    "type": "Journal article",
     "title": "Estimating the effects of non-pharmaceutical interventions on COVID-19 in Europe",
     "openalex": "https://openalex.org/W3032971139",
     "wikidata": "Q96226393",
@@ -21,7 +22,8 @@
         "name": "Samir Bhatt",
         "orcid": "0000-0002-0891-4611"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

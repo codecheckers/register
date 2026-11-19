@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-2-11-2021",
+    "type": "Journal article",
     "title": "Extraction of linear structures from digital terrain models using deep learning",
     "openalex": "https://openalex.org/W3171527029",
     "wikidata": "Q133730149",
@@ -21,7 +22,8 @@
         "name": "Monika Sester",
         "orcid": "0000-0002-6656-8809"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

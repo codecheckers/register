@@ -1,0 +1,114 @@
+{
+  "source": "https://codecheck.org.uk/register/works/10.1167/jov.26.10.14/register.json",
+  "cert_count": 1,
+  "work": {
+    "doi": "10.1167/jov.26.10.14",
+    "type": "Journal article",
+    "title": "Circadian timing does not modulate human temporal contrast sensitivity",
+    "openalex": "https://openalex.org/W7221791361",
+    "wikidata": null,
+    "venues": "preprint",
+    "check_count": 1,
+    "authors": [
+      {
+        "name": "Hannah Sophie Heinrichs",
+        "orcid": "0000-0001-5047-5205"
+      },
+      {
+        "name": "Manuel Spitschan",
+        "orcid": "0000-0002-8572-9268"
+      }
+    ],
+    "related": [
+      {
+        "url": "https://doi.org/10.1101/2025.11.10.687546",
+        "doi": "10.1101/2025.11.10.687546",
+        "type": "Preprint"
+      }
+    ]
+  },
+  "venue_count": 1,
+  "venues_per_type": {
+    "community": 1
+  },
+  "checks_per_type_per_year": {
+    "2026": {
+      "community": 1
+    }
+  },
+  "checks_per_year": {
+    "2026": 1
+  },
+  "checks_cumulative": {
+    "2026": 1
+  },
+  "interval_n": 1,
+  "interval_excluded": 0,
+  "interval_points": [
+    {
+      "id": "2026-023",
+      "days": -54
+    }
+  ],
+  "interval_buckets": {
+    "Before publication": 1,
+    "0-1mo": 0,
+    "1-3mo": 0,
+    "3-6mo": 0,
+    "6-12mo": 0,
+    "1-2y": 0,
+    "2-5y": 0,
+    "5y+": 0
+  },
+  "interval_summary": {
+    "pct_before_publication": 100,
+    "pct_within_6mo": 0,
+    "max_years": -0
+  },
+  "venues_per_year": {
+    "2026": 1
+  },
+  "venues_cumulative": {
+    "2026": 1
+  },
+  "codechecker_count": 1,
+  "codecheckers_per_year": {
+    "2026": 1
+  },
+  "codecheckers_cumulative": {
+    "2026": 1
+  },
+  "platform_per_year": {
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "platform_cumulative": {
+    "2026": {
+      "zenodo": 1
+    }
+  },
+  "venues_detail": [
+    {
+      "name": "preprint",
+      "longname": "Preprint",
+      "year_range": "2026",
+      "label": "preprint",
+      "cert_count": 1,
+      "page_type": "community",
+      "page_type_plural": "communities",
+      "page_slug": "preprint",
+      "logo_url": null,
+      "website_url": null,
+      "policy_url": null,
+      "publisher": null
+    }
+  ],
+  "publishers": [
+    {
+      "name": "unknown",
+      "venue_count": 1,
+      "cert_count": 1
+    }
+  ]
+}

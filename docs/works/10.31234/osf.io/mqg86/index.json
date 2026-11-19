@@ -3,8 +3,9 @@
   "cert_count": 1,
   "work": {
     "doi": "10.31234/osf.io/mqg86",
+    "type": "Preprint",
     "title": "Using Consumer Wearables to Measure Physical Activity of Nursing Home Residents with Dementia",
-    "openalex": "https://openalex.org/W4391281345",
+    "openalex": "https://openalex.org/W4406425321",
     "wikidata": "Q141269445",
     "venues": "codecheck NL",
     "check_count": 1,
@@ -25,7 +26,8 @@
         "name": "Matthijs van Leeuwen",
         "orcid": "0000-0002-0510-3549"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

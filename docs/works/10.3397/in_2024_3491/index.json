@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.3397/in_2024_3491",
+    "type": "Journal article",
     "title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
     "openalex": "https://openalex.org/W4403440488",
     "wikidata": "Q141269442",
@@ -21,7 +22,8 @@
         "name": "Maarten Hornikx",
         "orcid": "0000-0002-8343-6613"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

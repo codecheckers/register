@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-2-13-2021",
+    "type": "Journal article",
     "title": "An Approach to Assess the Effect of Currentness of Spatial Data on Routing Quality",
     "openalex": "https://openalex.org/W3165945407",
     "wikidata": "Q141269377",
@@ -21,7 +22,8 @@
         "name": "Ioannis Giannopoulos",
         "orcid": "0000-0002-2556-5230"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

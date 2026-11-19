@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5281/zenodo.13734819",
+    "type": "Preprint",
     "title": "Integrating agent-based disease, mobility, and wastewater models: Dealing with differences in spatiotemporal resolutions",
     "openalex": "https://openalex.org/W6893062762",
     "wikidata": "Q141269441",
@@ -29,7 +30,8 @@
         "name": "Zurita-Milla, Raul",
         "orcid": "0000-0002-1769-6310"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

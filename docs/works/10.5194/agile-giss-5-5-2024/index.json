@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-5-5-2024",
+    "type": "Journal article",
     "title": "Process Analysis in Humanitarian Voluntary Geographic Information: the case of the HOT Tasking Manager",
     "openalex": "https://openalex.org/W4399177945",
     "wikidata": "Q126207739",
@@ -37,7 +38,8 @@
         "name": "Javier Nogueras-Iso",
         "orcid": "0000-0002-1279-0367"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

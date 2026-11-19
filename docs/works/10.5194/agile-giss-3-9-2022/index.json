@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-3-9-2022",
+    "type": "Journal article",
     "title": "Geoparsing: Solved or Biased? An Evaluation of Geographic Biases in Geoparsing",
     "openalex": "https://openalex.org/W4281689570",
     "wikidata": "Q141269390",
@@ -33,7 +34,8 @@
         "name": "Meilin Shi",
         "orcid": "0000-0001-6039-7810"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

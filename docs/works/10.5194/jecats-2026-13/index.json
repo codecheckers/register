@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/jecats-2026-13",
+    "type": "Preprint",
     "title": "Can we achieve significant climate mitigation by optimising only for contrails?",
     "openalex": "https://openalex.org/W7171507035",
     "wikidata": "Q141668947",
@@ -41,7 +42,8 @@
         "name": "Volker Grewe",
         "orcid": "0000-0002-8012-6783"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

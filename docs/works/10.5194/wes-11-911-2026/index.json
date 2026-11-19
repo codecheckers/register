@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/wes-11-911-2026",
+    "type": "Journal article",
     "title": "Wind Tunnel Load Measurements of a Leading-Edge Inflatable Kite Rigid Scale Model",
     "openalex": "https://openalex.org/W7140117817",
     "wikidata": "Q141269452",
@@ -25,7 +26,8 @@
         "name": "Roland Schmehl",
         "orcid": "0000-0002-4112-841X"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

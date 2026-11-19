@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1098/rsos.191613",
+    "type": "Journal article",
     "title": "Regulation of pupil size in natural vision across the human lifespan",
     "openalex": "https://openalex.org/W4399759705",
     "wikidata": "Q141269435",
@@ -17,7 +18,8 @@
         "name": "Manuel Spitschan",
         "orcid": "0000-0002-8572-9268"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

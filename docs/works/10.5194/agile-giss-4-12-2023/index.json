@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-4-12-2023",
+    "type": "Journal article",
     "title": "Evaluating and Comparing Airspace Structure Visualisation and Perception on Digital Aeronautical Chart",
     "openalex": "https://openalex.org/W4379794908",
     "wikidata": "Q141269420",
@@ -29,7 +30,8 @@
         "name": "Martin Raubal",
         "orcid": "0000-0001-5951-6835"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

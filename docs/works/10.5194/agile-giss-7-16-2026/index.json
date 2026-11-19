@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-16-2026",
+    "type": "Journal article",
     "title": "Spatio-Temporal Knowledge Graph from Unstructured Texts: A Multi-Scale Approach for Food Security Monitoring",
     "openalex": "https://openalex.org/W7164184955",
     "wikidata": "Q141269477",
@@ -25,7 +26,8 @@
         "name": "Sarah Valentin",
         "orcid": "0000-0002-9028-681X"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-5-6-2024",
+    "type": "Journal article",
     "title": "Road Network Mapping from Multispectral Satellite Imagery: Leveraging Deep Learning and Spectral Bands",
     "openalex": "https://openalex.org/W4399175227",
     "wikidata": "Q126207800",
@@ -21,7 +22,8 @@
         "name": "Ioannis Giannopoulos",
         "orcid": "0000-0002-2556-5230"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

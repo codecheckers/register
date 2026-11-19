@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-1-6-2020",
+    "type": "Journal article",
     "title": "Integrating cellular automata and discrete global grid systems: a case study into wildfire modelling",
     "openalex": "https://openalex.org/W3042993452",
     "wikidata": "Q117430375",
@@ -17,7 +18,8 @@
         "name": "Colin Robertson",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

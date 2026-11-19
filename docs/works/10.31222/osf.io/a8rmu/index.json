@@ -3,8 +3,9 @@
   "cert_count": 1,
   "work": {
     "doi": "10.31222/osf.io/a8rmu",
+    "type": "Preprint",
     "title": "Open Science interventions to improve reproducibility and replicability of research: a scoping review preprint",
-    "openalex": "https://openalex.org/W4399757027",
+    "openalex": "https://openalex.org/W4409280816",
     "wikidata": "Q141269437",
     "venues": "AUMC",
     "check_count": 1,
@@ -53,7 +54,8 @@
         "name": "Mariska M.G. Leeflang",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {
@@ -75,7 +77,7 @@
   "interval_points": [
     {
       "id": "2024-004",
-      "days": 46
+      "days": 45
     }
   ],
   "interval_buckets": {

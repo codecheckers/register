@@ -3,8 +3,9 @@
   "cert_count": 1,
   "work": {
     "doi": "10.48550/arxiv.2507.03456",
+    "type": "Preprint",
     "title": "Airspeed estimation for UAVs using only propeller feedback",
-    "openalex": null,
+    "openalex": "https://openalex.org/W4414825922",
     "wikidata": "Q141269465",
     "venues": "TU Delft DCC",
     "check_count": 1,
@@ -21,7 +22,8 @@
         "name": "Ewoud Smeur",
         "orcid": "0000-0002-0060-6526"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-1-15-2020",
+    "type": "Journal article",
     "title": "Comparing supervised learning algorithms for Spatial Nominal Entity recognition",
     "openalex": "https://openalex.org/W3043728279",
     "wikidata": "Q123999338",
@@ -29,7 +30,8 @@
         "name": "Yannick Le Nir",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

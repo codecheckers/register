@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-3-2026",
+    "type": "Journal article",
     "title": "Inclusive Multimodal Routing: How Behavioral Constraints Shape Accessibility",
     "openalex": "https://openalex.org/W7164176972",
     "wikidata": "Q141269470",
@@ -25,7 +26,8 @@
         "name": "Ioannis Giannopoulos",
         "orcid": "0000-0002-2556-5230"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

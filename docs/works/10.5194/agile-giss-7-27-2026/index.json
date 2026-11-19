@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-27-2026",
+    "type": "Journal article",
     "title": "Measuring regional accessibility in urban form: A reproducible approach for urban analytics",
     "openalex": "https://openalex.org/W7164126232",
     "wikidata": null,
@@ -21,7 +22,8 @@
         "name": "Caspar Kleiner",
         "orcid": "0009-0004-8810-6770"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

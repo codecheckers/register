@@ -7,7 +7,7 @@ venues: Nature
 
 
 
-|Certificate |Report                         |Venue  |Type      |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2020-011](../../../certs/2020-011/)|[doi.org/10.5281/zenodo.3893138](https://doi.org/10.5281/zenodo.3893138)|[Nature](../../../venues/communities/nature)|[Community](../../../venues/communities)|2020-06-13 |
+|Certificate |Report                         |Venue  |Type      |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2020-011](../../../certs/2020-011/)|[doi.org/10.5281/zenodo.3893138](https://doi.org/10.5281/zenodo.3893138)|[Nature](../../../venues/communities/nature)|[Community](../../../venues/communities)|2020-06-13 |Reference     |
 

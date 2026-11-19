@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5281/zenodo.14175899",
+    "type": null,
     "title": "Population census estimation for Spatial Microsimulation",
     "openalex": "https://openalex.org/W6968106929",
     "wikidata": null,
@@ -25,7 +26,8 @@
         "name": "Raul Zurita-Milla",
         "orcid": "0000-0002-1769-6310"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

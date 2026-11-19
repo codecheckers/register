@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-4-4-2023",
+    "type": "Journal article",
     "title": "Indoor localisation and location tracking in indoor facilities based on LiDAR point clouds and images of the ceilings",
     "openalex": "https://openalex.org/W4379802617",
     "wikidata": "Q141269432",
@@ -21,7 +22,8 @@
         "name": "Azarakhsh Rafiee",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

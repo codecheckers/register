@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-3-22-2022",
+    "type": "Journal article",
     "title": "Traffic Regulation Recognition using Crowd-Sensed GPS and Map Data: a Hybrid Approach",
     "openalex": "https://openalex.org/W4281642483",
     "wikidata": "Q141269412",
@@ -21,7 +22,8 @@
         "name": "Monika Sester",
         "orcid": "0000-0002-6656-8809"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

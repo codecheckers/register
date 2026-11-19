@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-2-14-2021",
+    "type": "Journal article",
     "title": "A Socially Aware Huff Model for Destination Choice in Nature-based Tourism",
     "openalex": "https://openalex.org/W3168422666",
     "wikidata": "Q141269360",
@@ -29,7 +30,8 @@
         "name": "Rui Zhu",
         "orcid": "0000-0002-8910-9445"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

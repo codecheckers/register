@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-5-2026",
+    "type": "Journal article",
     "title": "Enhancing the Potential of a Tangible-Digital Planning Interface through User Evaluation",
     "openalex": "https://openalex.org/W7164168945",
     "wikidata": "Q141269474",
@@ -21,7 +22,8 @@
         "name": "Jörg Rainer Noennig",
         "orcid": "0000-0002-1681-7635"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-4-13-2023",
+    "type": "Journal article",
     "title": "Does spatial thinking ability relate to performance when using web-mapping services? A survey with digital natives",
     "openalex": "https://openalex.org/W4379797511",
     "wikidata": "Q141269427",
@@ -25,7 +26,8 @@
         "name": "Marinos Kavouras",
         "orcid": "0000-0001-7563-0793"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

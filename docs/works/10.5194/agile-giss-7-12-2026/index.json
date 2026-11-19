@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-12-2026",
+    "type": "Journal article",
     "title": "OpenStreetMap Suitability Analysis for Wheelchair Routing",
     "openalex": "https://openalex.org/W7164128034",
     "wikidata": "Q140361385",
@@ -21,7 +22,8 @@
         "name": "Johannes Scholz",
         "orcid": "0000-0002-3212-8864"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

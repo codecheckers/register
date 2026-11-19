@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.71240/lcyc.052239",
+    "type": "Preprint",
     "title": "Verification Report of Zhao et al. (2023) ‘Effect of Acceptance and Commitment Therapy for depressive disorders: a meta-analysis’",
     "openalex": "https://openalex.org/W4409718072",
     "wikidata": "Q141269450",
@@ -17,7 +18,8 @@
         "name": "Malte Elson",
         "orcid": "0000-0001-7806-9583"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

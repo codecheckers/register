@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1016/j.isci.2026.116661",
+    "type": "Journal article",
     "title": "Photoreceptor-specific scene statistics reveal melanopic structure in natural environments",
     "openalex": "https://openalex.org/W4416186252",
     "wikidata": "Q141269482",
@@ -17,7 +18,8 @@
         "name": "Manuel Spitschan",
         "orcid": "0000-0002-8572-9268"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

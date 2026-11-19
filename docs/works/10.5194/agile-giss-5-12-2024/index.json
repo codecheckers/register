@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-5-12-2024",
+    "type": "Journal article",
     "title": "Enhancing toponym identification: Leveraging Topo-BERT and open-source data to differentiate between toponyms and extract spatial relationships",
     "openalex": "https://openalex.org/W4399157460",
     "wikidata": "Q126284658",
@@ -17,7 +18,8 @@
         "name": "Ana Basiri",
         "orcid": "0000-0002-2399-1797"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

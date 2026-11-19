@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-3-15-2022",
+    "type": "Journal article",
     "title": "The Impact of Built Environment on Bike Commuting: Utilising Strava Bike Data and Geographically Weighted Models",
     "openalex": "https://openalex.org/W4282006514",
     "wikidata": "Q141269401",
@@ -21,7 +22,8 @@
         "name": "Anahid Basiri",
         "orcid": "0000-0002-2399-1797"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

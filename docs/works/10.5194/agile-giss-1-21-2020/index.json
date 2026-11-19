@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-1-21-2020",
+    "type": "Journal article",
     "title": "Window Operators for Processing Spatio-Temporal Data Streams on Unmanned Vehicles",
     "openalex": "https://openalex.org/W3043446483",
     "wikidata": "Q141269336",
@@ -17,7 +18,8 @@
         "name": "Thomas Brinkhoff",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

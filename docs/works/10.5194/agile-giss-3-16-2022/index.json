@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-3-16-2022",
+    "type": "Journal article",
     "title": "GeoXTag: Relative Spatial Information Extraction and Tagging of Unstructured Text",
     "openalex": "https://openalex.org/W4281885045",
     "wikidata": "Q141269403",
@@ -25,7 +26,8 @@
         "name": "Maguelonne Teisseire",
         "orcid": "0000-0001-9313-6414"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

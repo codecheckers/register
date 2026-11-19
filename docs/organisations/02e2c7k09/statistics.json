@@ -35,8 +35,8 @@
     "2025": 28,
     "2026": 35
   },
-  "interval_n": 33,
-  "interval_excluded": 2,
+  "interval_n": 35,
+  "interval_excluded": 0,
   "interval_points": [
     {
       "id": "2023-011",
@@ -89,6 +89,14 @@
     {
       "id": "2025-003",
       "days": -20
+    },
+    {
+      "id": "2025-004",
+      "days": 1741
+    },
+    {
+      "id": "2025-004",
+      "days": 1741
     },
     {
       "id": "2025-006",
@@ -178,13 +186,13 @@
     "3-6mo": 10,
     "6-12mo": 3,
     "1-2y": 0,
-    "2-5y": 1,
+    "2-5y": 3,
     "5y+": 0
   },
   "interval_summary": {
-    "pct_before_publication": 33,
-    "pct_within_6mo": 55,
-    "max_years": 4
+    "pct_before_publication": 31,
+    "pct_within_6mo": 51,
+    "max_years": 5
   },
   "venues_per_year": {
     "2023": 1,

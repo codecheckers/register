@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1038/s41598-021-85363-7",
+    "type": "Journal article",
     "title": "Emergence of novel SARS-CoV-2 variants in the Netherlands",
     "openalex": "https://openalex.org/W3138189425",
     "wikidata": "Q141269451",
@@ -17,7 +18,8 @@
         "name": "Thomas Abeel",
         "orcid": "0000-0002-7205-7431"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

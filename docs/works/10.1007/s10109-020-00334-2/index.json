@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1007/s10109-020-00334-2",
+    "type": "Journal article",
     "title": "Opening practice: supporting reproducibility and critical spatial data science",
     "openalex": "https://openalex.org/W3047775749",
     "wikidata": "Q141269334",
@@ -17,7 +18,8 @@
         "name": "Alexis Comber",
         "orcid": "0000-0002-3652-7846"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

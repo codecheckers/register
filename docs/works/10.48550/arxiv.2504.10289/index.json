@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.48550/arxiv.2504.10289",
+    "type": "Preprint",
     "title": "Optimal Graph Stretching for Distributed Averaging",
     "openalex": "https://openalex.org/W6912142737",
     "wikidata": "Q141269449",
@@ -21,7 +22,8 @@
         "name": "Mauro Conti",
         "orcid": "0000-0002-3612-1934"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

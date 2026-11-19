@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1093/gigascience/giab030",
+    "type": "Journal article",
     "title": "Driftage: a multi-agent system framework for concept drift detection",
     "openalex": "https://openalex.org/W3165405739",
     "wikidata": "Q108127006",
@@ -25,7 +26,8 @@
         "name": "Sérgio Lifschitz",
         "orcid": "0000-0003-3073-3734"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

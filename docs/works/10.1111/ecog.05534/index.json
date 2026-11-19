@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1111/ecog.05534",
+    "type": "Journal article",
     "title": "When is variable importance estimation in species distribution modelling affected by spatial correlation?",
     "openalex": "https://openalex.org/W3129841042",
     "wikidata": "Q112800952",
@@ -25,7 +26,8 @@
         "name": "Babak Naimi",
         "orcid": "0000-0001-5431-2729"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

@@ -7,7 +7,7 @@ venues: AGILEGIS
 
 
 
-|Certificate |Report                        |Venue    |Type       |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2025-015](../../../certs/2025-015/)|[doi.org/10.17605/OSF.IO/CHX28](https://doi.org/10.17605/OSF.IO/CHX28)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2025-05-06 |
+|Certificate |Report                        |Venue    |Type       |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2025-015](../../../certs/2025-015/)|[doi.org/10.17605/OSF.IO/CHX28](https://doi.org/10.17605/OSF.IO/CHX28)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2025-05-06 |Reference     |
 

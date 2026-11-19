@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-13-2026",
+    "type": "Journal article",
     "title": "Generalizability of Foundation Models: A Case Study on Cocoa Mapping Across Countries Using Sparse Labels",
     "openalex": "https://openalex.org/W7164194149",
     "wikidata": "Q141269473",
@@ -25,7 +26,8 @@
         "name": "Martin Werner",
         "orcid": "0000-0002-6951-8022"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

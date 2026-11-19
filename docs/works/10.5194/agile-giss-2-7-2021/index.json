@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-2-7-2021",
+    "type": "Journal article",
     "title": "A Comparative Study of Typing and Speech For Map Metadata Creation",
     "openalex": "https://openalex.org/W3172863573",
     "wikidata": "Q121374334",
@@ -17,7 +18,8 @@
         "name": "Auriol Degbelo",
         "orcid": "0000-0001-5087-8776"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

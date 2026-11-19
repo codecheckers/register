@@ -7,7 +7,7 @@ venues: TU Delft DCC
 
 
 
-|Certificate |Report                          |Venue        |Type        |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2025-022](../../../certs/2025-022/)|[doi.org/10.5281/zenodo.16814874](https://doi.org/10.5281/zenodo.16814874)|[TU Delft DCC](../../../venues/institutions/tu_delft_dcc)|[Institution](../../../venues/institutions)|2025-08-04 |
+|Certificate |Report                          |Venue        |Type        |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2025-022](../../../certs/2025-022/)|[doi.org/10.5281/zenodo.16814874](https://doi.org/10.5281/zenodo.16814874)|[TU Delft DCC](../../../venues/institutions/tu_delft_dcc)|[Institution](../../../venues/institutions)|2025-08-04 |Reference     |
 

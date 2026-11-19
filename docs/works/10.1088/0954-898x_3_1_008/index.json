@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1088/0954-898x_3_1_008",
+    "type": "Journal article",
     "title": "The principal components of natural images",
     "openalex": "https://openalex.org/W2169326908",
     "wikidata": "Q141269327",
@@ -21,7 +22,8 @@
         "name": "Leslie S. Smith",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

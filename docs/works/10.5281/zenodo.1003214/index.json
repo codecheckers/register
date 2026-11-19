@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5281/zenodo.1003214",
+    "type": null,
     "title": "[Re] A Generalized Linear Integrate-and-Fire Neural Model Produces Diverse Spiking Behaviours",
     "openalex": "https://openalex.org/W3210493981",
     "wikidata": "Q141269330",
@@ -13,7 +14,8 @@
         "name": "Tiziano Zito",
         "orcid": "0000-0001-5891-1702"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

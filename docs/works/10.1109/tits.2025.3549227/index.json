@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1109/tits.2025.3549227",
+    "type": "Journal article",
     "title": "Reinforcement Learning With Model Predictive Control for Highway Ramp Metering",
     "openalex": "https://openalex.org/W4408519626",
     "wikidata": "Q141269466",
@@ -21,7 +22,8 @@
         "name": "Azita Dabiri",
         "orcid": "0000-0002-4051-4896"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

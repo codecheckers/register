@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-4-2026",
+    "type": "Journal article",
     "title": "Towards Fine-grained Relevance Scoring of Social Media Posts in Disaster Response: A Decay-based Regression Approach",
     "openalex": "https://openalex.org/W7164155701",
     "wikidata": "Q141269472",
@@ -29,7 +30,8 @@
         "name": "Bernd Resch",
         "orcid": "0000-0002-2233-6926"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

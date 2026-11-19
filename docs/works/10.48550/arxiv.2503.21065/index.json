@@ -3,8 +3,9 @@
   "cert_count": 1,
   "work": {
     "doi": "10.48550/arxiv.2503.21065",
+    "type": "Preprint",
     "title": "Fuzzy-Logic-based model predictive control: A paradigm integrating optimal and common-sense decision making",
-    "openalex": "https://openalex.org/W4415061882",
+    "openalex": "https://openalex.org/W4411175514",
     "wikidata": "Q141269463",
     "venues": "TU Delft DCC",
     "check_count": 1,
@@ -17,7 +18,8 @@
         "name": "Anahita Jamshidnejad",
         "orcid": "0000-0001-9151-2607"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

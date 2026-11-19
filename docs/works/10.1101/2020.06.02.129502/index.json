@@ -3,8 +3,9 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1101/2020.06.02.129502",
+    "type": "Preprint",
     "title": "Rest-activity cycles and melatonin phase angle of circadian entrainment in people without cone-mediated vision",
-    "openalex": "https://openalex.org/W3123970356",
+    "openalex": "https://openalex.org/W3183688969",
     "wikidata": "Q107140879",
     "venues": "preprint",
     "check_count": 1,
@@ -25,7 +26,8 @@
         "name": "Christian Cajochen",
         "orcid": "0000-0002-8572-9268"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

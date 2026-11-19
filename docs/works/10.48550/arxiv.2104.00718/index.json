@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.48550/arxiv.2104.00718",
+    "type": "Preprint",
     "title": "Causality indices for bivariate time series data: a comparative review of performance",
     "openalex": "https://openalex.org/W3152182812",
     "wikidata": "Q141269351",
@@ -21,7 +22,8 @@
         "name": "Ari Ercole",
         "orcid": "0000-0001-8350-8093"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

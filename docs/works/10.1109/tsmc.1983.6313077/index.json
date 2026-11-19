@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1109/tsmc.1983.6313077",
+    "type": "Journal article",
     "title": "Neuronlike adaptive elements that can solve difficult learning control problems",
     "openalex": "https://openalex.org/W1583833196",
     "wikidata": "Q141269328",
@@ -21,7 +22,8 @@
         "name": "C. W. Anderson",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

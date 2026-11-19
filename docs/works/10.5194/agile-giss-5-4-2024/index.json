@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-5-4-2024",
+    "type": "Journal article",
     "title": "The Impact of Traffic Lights on Modal Split and Route Choice: A use-case in Vienna",
     "openalex": "https://openalex.org/W4399157664",
     "wikidata": "Q126207676",
@@ -29,7 +30,8 @@
         "name": "Ioannis Giannopoulos",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

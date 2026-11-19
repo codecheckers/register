@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-3-5-2022",
+    "type": "Journal article",
     "title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
     "openalex": "https://openalex.org/W4282970832",
     "wikidata": "Q113198341",
@@ -25,7 +26,8 @@
         "name": "Carsten Keßler",
         "orcid": "0000-0002-9724-820X"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-6-5-2025",
+    "type": "Journal article",
     "title": "An Efficient System for Automatic Map Storytelling: A Case Study on Historical Maps",
     "openalex": "https://openalex.org/W4411153502",
     "wikidata": "Q141269456",
@@ -29,7 +30,8 @@
         "name": "Lorenz Hurni",
         "orcid": "0000-0002-0453-8743"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

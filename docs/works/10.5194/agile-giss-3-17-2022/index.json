@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-3-17-2022",
+    "type": "Journal article",
     "title": "A method to produce metadata describing and assessing the quality of spatial landmark datasets in mountain area",
     "openalex": "https://openalex.org/W4281833313",
     "wikidata": "Q122519117",
@@ -17,7 +18,8 @@
         "name": "Ana-Maria Olteanu-Raimond",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

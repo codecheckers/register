@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.31234/osf.io/cz32t",
+    "type": "Preprint",
     "title": "Sample size estimation for task-related functional MRI studies using Bayesian updating.",
     "openalex": "https://openalex.org/W4405494358",
     "wikidata": "Q141269438",
@@ -25,7 +26,8 @@
         "name": "Eveline Crone",
         "orcid": "0000-0002-7508-6078"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

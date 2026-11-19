@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.7554/elife.50927",
+    "type": "Journal article",
     "title": "A model for focal seizure onset, propagation, evolution, and progression",
     "openalex": "https://openalex.org/W3012706327",
     "wikidata": "Q90584862",
@@ -21,7 +22,8 @@
         "name": "Lisa M Bateman",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

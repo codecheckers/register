@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5311/josis.2026.32.591",
+    "type": "Journal article",
     "title": "Improving reproducibility of GIScience publications through novel reproducibility guidelines and revised review procedures",
     "openalex": "https://openalex.org/W7166859420",
     "wikidata": "Q141269481",
@@ -49,7 +50,8 @@
         "name": "Tom Niers",
         "orcid": "0000-0002-5746-8590"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

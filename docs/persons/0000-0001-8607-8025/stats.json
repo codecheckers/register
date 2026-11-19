@@ -91,8 +91,8 @@
     "2025": 17,
     "2026": 18
   },
-  "interval_n": 18,
-  "interval_excluded": 0,
+  "interval_n": 17,
+  "interval_excluded": 1,
   "interval_points": [
     {
       "id": "2020-001",
@@ -135,10 +135,6 @@
       "days": 26
     },
     {
-      "id": "2022-001",
-      "days": -1716
-    },
-    {
       "id": "2023-011",
       "days": 68
     },
@@ -164,7 +160,7 @@
     },
     {
       "id": "2026-023",
-      "days": 283
+      "days": -54
     }
   ],
   "interval_buckets": {
@@ -172,14 +168,14 @@
     "0-1mo": 3,
     "1-3mo": 3,
     "3-6mo": 0,
-    "6-12mo": 2,
+    "6-12mo": 1,
     "1-2y": 0,
     "2-5y": 0,
     "5y+": 2
   },
   "interval_summary": {
-    "pct_before_publication": 44,
-    "pct_within_6mo": 33,
+    "pct_before_publication": 47,
+    "pct_within_6mo": 35,
     "max_years": 28
   },
   "venues_per_year": {

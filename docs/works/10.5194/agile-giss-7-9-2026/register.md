@@ -7,7 +7,7 @@ venues: AGILEGIS
 
 
 
-|Certificate |Report                        |Venue    |Type       |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2026-007](../../../certs/2026-007/)|[doi.org/10.17605/OSF.IO/DZURB](https://doi.org/10.17605/OSF.IO/DZURB)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2026-06-09 |
+|Certificate |Report                        |Venue    |Type       |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2026-007](../../../certs/2026-007/)|[doi.org/10.17605/OSF.IO/DZURB](https://doi.org/10.17605/OSF.IO/DZURB)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2026-06-09 |Reference     |
 

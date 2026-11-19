@@ -7,7 +7,7 @@ venues: preprint
 
 
 
-|Certificate |Report                          |Venue    |Type      |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2024-001](../../../certs/2024-001/)|[doi.org/10.5281/zenodo.10823246](https://doi.org/10.5281/zenodo.10823246)|[preprint](../../../venues/communities/preprint)|[Community](../../../venues/communities)|2024-03-15 |
+|Certificate |Report                          |Venue    |Type      |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2024-001](../../../certs/2024-001/)|[doi.org/10.5281/zenodo.10823246](https://doi.org/10.5281/zenodo.10823246)|[preprint](../../../venues/communities/preprint)|[Community](../../../venues/communities)|2024-03-15 |Reference     |
 

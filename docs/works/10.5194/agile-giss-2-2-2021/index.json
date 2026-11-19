@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-2-2-2021",
+    "type": "Journal article",
     "title": "H-TFIDF: What makes areas specific over time in the massive flow of tweets related to the covid pandemic?",
     "openalex": "https://openalex.org/W3171073192",
     "wikidata": "Q141269374",
@@ -25,7 +26,8 @@
         "name": "Maguelonne Teisseire",
         "orcid": "0000-0001-9313-6414"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

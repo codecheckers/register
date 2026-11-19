@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1002/sim.10186",
+    "type": "Journal article",
     "title": "Evaluating individualized treatment effect predictions: A model-based perspective on discrimination and calibration assessment",
     "openalex": "https://openalex.org/W4401278294",
     "wikidata": "Q141269447",
@@ -25,7 +26,8 @@
         "name": "Thomas P A Debray",
         "orcid": "0000-0002-1790-2719"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

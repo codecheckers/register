@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.3390/rs13061098",
+    "type": "Journal article",
     "title": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
     "openalex": "https://openalex.org/W3138799110",
     "wikidata": null,
@@ -21,7 +22,8 @@
         "name": "Christiaan van der Tol",
         "orcid": "0000-0002-2484-8191"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

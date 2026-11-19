@@ -7,7 +7,7 @@ venues: codecheck NL
 
 
 
-|Certificate |Report                          |Venue        |Type      |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2025-001](../../../certs/2025-001/)|[doi.org/10.5281/zenodo.15389126](https://doi.org/10.5281/zenodo.15389126)|[codecheck NL](../../../venues/communities/codecheck_nl)|[Community](../../../venues/communities)|2025-02-14 |
+|Certificate |Report                          |Venue        |Type      |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2025-001](../../../certs/2025-001/)|[doi.org/10.5281/zenodo.15389126](https://doi.org/10.5281/zenodo.15389126)|[codecheck NL](../../../venues/communities/codecheck_nl)|[Community](../../../venues/communities)|2025-02-14 |Reference     |
 

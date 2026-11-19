@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1016/j.jas.2020.105306",
+    "type": "Journal article",
     "title": "The application of Local Indicators for Categorical Data (LICD) to explore spatial dependence in archaeological spaces",
     "openalex": "https://openalex.org/W3112754451",
     "wikidata": "Q141269346",
@@ -29,7 +30,8 @@
         "name": "Roger S. Bivand",
         "orcid": "0000-0003-2392-6140"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

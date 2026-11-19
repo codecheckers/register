@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-8-2026",
+    "type": "Journal article",
     "title": "Maximizing Data Coverage: Fusing Street View and Oblique Imagery to Quantify Vertical Greenery Potential in Urban Areas",
     "openalex": "https://openalex.org/W7164179951",
     "wikidata": "Q141269478",
@@ -21,7 +22,8 @@
         "name": "Bogdan Franczyk",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

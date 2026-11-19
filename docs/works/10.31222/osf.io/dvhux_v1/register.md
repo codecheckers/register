@@ -7,7 +7,7 @@ venues: AUMC
 
 
 
-|Certificate |Report                          |Venue |Type        |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2026-026](../../../../certs/2026-026/)|[doi.org/10.5281/zenodo.23081945](https://doi.org/10.5281/zenodo.23081945)|[AUMC](../../../../venues/institutions/aumc)|[Institution](../../../../venues/institutions)|2026-07-28 |
+|Certificate |Report                          |Venue |Type        |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2026-026](../../../../certs/2026-026/)|[doi.org/10.5281/zenodo.23081945](https://doi.org/10.5281/zenodo.23081945)|[AUMC](../../../../venues/institutions/aumc)|[Institution](../../../../venues/institutions)|2026-07-28 |Reference     |
 

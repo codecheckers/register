@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.1121/10.0023935",
+    "type": "Journal article",
     "title": "Simulating room transfer functions between transducers mounted on audio devices using a modified image source method",
     "openalex": "https://openalex.org/W4390971714",
     "wikidata": "Q129972175",
@@ -29,7 +30,8 @@
         "name": "Albert G. Prinn",
         "orcid": "0000-0003-3491-3644"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

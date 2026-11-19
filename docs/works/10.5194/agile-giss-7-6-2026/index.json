@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-7-6-2026",
+    "type": "Journal article",
     "title": "Geo-Alignment of Vague Cognitive Regions: Representing Uneven Cognitive Geographies of Large Language Models",
     "openalex": "https://openalex.org/W7164140075",
     "wikidata": "Q141269480",
@@ -29,7 +30,8 @@
         "name": "Annika Süß",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-5-15-2024",
+    "type": "Journal article",
     "title": "Random Data Distribution for Efficient Parallel Point Cloud Processing",
     "openalex": "https://openalex.org/W4399177594",
     "wikidata": "Q126284747",
@@ -17,7 +18,8 @@
         "name": "Martin Werner",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-1-19-2020",
+    "type": "Journal article",
     "title": "Tracking Hurricane Dorian in GDELT and Twitter",
     "openalex": "https://openalex.org/W3043006037",
     "wikidata": "Q141269340",
@@ -21,7 +22,8 @@
         "name": "Sreten Cvetojevic",
         "orcid": "0000-0001-6069-5324"
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {

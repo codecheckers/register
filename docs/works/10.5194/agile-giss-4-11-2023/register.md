@@ -7,7 +7,7 @@ venues: AGILEGIS
 
 
 
-|Certificate |Report                        |Venue    |Type       |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2023-007](../../../certs/2023-007/)|[doi.org/10.17605/osf.io/eu8kw](https://doi.org/10.17605/osf.io/eu8kw)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2023-06-13 |
+|Certificate |Report                        |Venue    |Type       |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2023-007](../../../certs/2023-007/)|[doi.org/10.17605/osf.io/eu8kw](https://doi.org/10.17605/osf.io/eu8kw)|[AGILEGIS](../../../venues/conferences/agilegis)|[Conference](../../../venues/conferences)|2023-06-13 |Reference     |
 

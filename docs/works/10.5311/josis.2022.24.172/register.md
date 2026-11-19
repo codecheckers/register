@@ -7,7 +7,7 @@ venues: JOSIS
 
 
 
-|Certificate |Report                          |Venue |Type    |Check date |
-|:-------|:--------------------------------------------------|:---------------|:---|:--------------------------|
-|[2025-027](../../../certs/2025-027/)|[doi.org/10.5281/zenodo.17059066](https://doi.org/10.5281/zenodo.17059066)|[JOSIS](../../../venues/journals/josis)|[Journal](../../../venues/journals)|2025-09-04 |
+|Certificate |Report                          |Venue |Type    |Check date |Referenced as |
+|:-------|:--------------------------------------------------|:---------------|:---|:-------------|:-------------|
+|[2025-027](../../../certs/2025-027/)|[doi.org/10.5281/zenodo.17059066](https://doi.org/10.5281/zenodo.17059066)|[JOSIS](../../../venues/journals/josis)|[Journal](../../../venues/journals)|2025-09-04 |Reference     |
 

@@ -3,6 +3,7 @@
   "cert_count": 1,
   "work": {
     "doi": "10.5194/agile-giss-3-14-2022",
+    "type": "Journal article",
     "title": "Understanding COVID-19 Effects on Mobility: A Community-Engaged Approach",
     "openalex": "https://openalex.org/W4281763766",
     "wikidata": "Q141269398",
@@ -33,7 +34,8 @@
         "name": "Shashi Shekhar",
         "orcid": null
       }
-    ]
+    ],
+    "related": []
   },
   "venue_count": 1,
   "venues_per_type": {
