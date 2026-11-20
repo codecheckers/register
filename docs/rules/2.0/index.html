@@ -32,10 +32,10 @@
   <div class="rules-container">
     <h1 class="rules-title">CODECHECK validation rules, specification 2.0</h1>
     <p>
-      The 63 rules that CODECHECK tooling applies to a <code>codecheck.yml</code>,
+      The 66 rules that CODECHECK tooling applies to a <code>codecheck.yml</code>,
       its bundle, the certificate and the register entry, for
       <a href="https://codecheck.org.uk/spec/config/2.0/">version 2.0 of the configuration file specification</a>
-      (published 2026-09-11; rules updated 2026-10-20).
+      (published 2026-09-11; rules updated 2026-11-17).
       The rule file is the source of truth; see
       <a href="https://github.com/codecheckers/register/blob/master/RULES.md">RULES.md</a>
       for the identifier scheme.
@@ -270,6 +270,20 @@
             <td>spec/config/2.0#author-and-submission-metadata</td>
             <td>A paper.reference that is a direct PDF link is a web archive snapshot, which is acceptable where no DOI or landing page exists</td>
           </tr>
+          <tr id="CC-CFG-032">
+            <td><a href="#CC-CFG-032">CC-CFG-032</a></td>
+            <td><code>reference-other-prefers-doi</code></td>
+            <td><span class="rules-severity rules-severity-info">info</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>Every reference-other entry is a DOI, preferred over other URLs as for paper.reference; only a DOI gets its own work page in the register</td>
+          </tr>
+          <tr id="CC-CFG-033">
+            <td><a href="#CC-CFG-033">CC-CFG-033</a></td>
+            <td><code>reference-other-not-reference</code></td>
+            <td><span class="rules-severity rules-severity-info">info</span></td>
+            <td>spec/config/2.0#author-and-submission-metadata</td>
+            <td>No reference-other entry repeats paper.reference or another entry</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -340,6 +354,13 @@
             <td><span class="rules-severity rules-severity-warning">warning</span></td>
             <td>practice</td>
             <td>Every reference-other entry resolves</td>
+          </tr>
+          <tr id="CC-MET-010">
+            <td><a href="#CC-MET-010">CC-MET-010</a></td>
+            <td><code>reference-other-openalex-copies</code></td>
+            <td><span class="rules-severity rules-severity-info">info</span></td>
+            <td>practice</td>
+            <td>Every DOI that the paper's OpenAlex record lists for the work, such as another copy of a preprint that OpenAlex merged with it, is paper.reference or a reference-other entry</td>
           </tr>
         </tbody>
       </table>
@@ -552,7 +573,7 @@
     <p class="footer-description">CODECHECK is a process for independent execution of
         computations underlying scholarly research articles.</p>
 
-    <p class="build-info">Built: 2026-11-19 15:49:48 UTC | codecheck v0.32.0.9000 | register <a href="https://github.com/codecheckers/register/commit/aa401ee2a150b04f3aeb4f3ed5c351075aff6cb8">aa401ee</a></p>
+    <p class="build-info">Built: 2026-11-20 15:16:34 UTC | codecheck v0.32.0.9000 | register <a href="https://github.com/codecheckers/register/commit/66ea0bc6b803422e05e4d3f4a7a446b404c59e34">66ea0bc</a></p>
 </div>
   </div>
 </body>
