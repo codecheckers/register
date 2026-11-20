@@ -127,6 +127,7 @@ references to the work, a plain list for now:
 | `CC-CFG-032` reference-other-prefers-doi | info | each entry is a DOI; only a DOI gets its own work page |
 | `CC-CFG-033` reference-other-not-reference | info | no entry repeats `reference` or another entry |
 | `CC-MET-009` reference-other-resolves | warning | each entry resolves |
+| `CC-MET-010` reference-other-openalex-copies | info | every DOI the paper's OpenAlex record lists for the work is `reference` or an entry |
 
 The `reference` wording follows
 [discussion#3](https://github.com/codecheckers/discussion/issues/3#issuecomment-2357812608):
