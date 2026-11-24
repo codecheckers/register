@@ -31,6 +31,13 @@
     ],
     "reference": "https://doi.org/10.5281/zenodo.13734819",
     "reference_type": "Preprint",
+    "reference_other": [
+      {
+        "url": "https://doi.org/10.4081/gh.2025.1326",
+        "doi": "10.4081/gh.2025.1326",
+        "type": "Journal article"
+      }
+    ],
     "openalex": "https://openalex.org/W6893062762",
     "wikidata": "Q141269441"
   },

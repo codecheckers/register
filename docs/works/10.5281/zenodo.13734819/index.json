@@ -31,7 +31,13 @@
         "orcid": "0000-0002-1769-6310"
       }
     ],
-    "related": []
+    "related": [
+      {
+        "url": "https://doi.org/10.4081/gh.2025.1326",
+        "doi": "10.4081/gh.2025.1326",
+        "type": "Journal article"
+      }
+    ]
   },
   "venue_count": 1,
   "venues_per_type": {
