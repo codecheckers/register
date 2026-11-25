@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2021-011",
     "title": "CODECHECK Certificate 2021-011",
-    "url": "https://codecheck.org.uk/register/certs/2021-011/"
+    "url": "https://codecheck.org.uk/register/certs/2021-011/",
+    "wikidata": "Q142285461"
   },
   "paper": {
     "title": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",

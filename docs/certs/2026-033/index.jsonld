@@ -40,6 +40,7 @@
     "url": "https://doi.org/10.5194/agile-giss-7-27-2026",
     "sameAs": ["https://doi.org/10.5194/agile-giss-7-27-2026", "https://openalex.org/W7164126232"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q142285464",
   "reviewBody": "The CODECHECK successfully reproduced the outcomes for a subset of the data (one of four case study areas). The workflow is fully reproducible and can be used to replicate the work for different study areas.\n",
   "datePublished": "2026-11-03",
   "identifier": {

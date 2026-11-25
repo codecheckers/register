@@ -45,6 +45,7 @@
     "url": "https://doi.org/10.1111/ecog.05534",
     "sameAs": ["https://doi.org/10.1111/ecog.05534", "https://openalex.org/W3129841042", "https://www.wikidata.org/entity/Q112800952"]
   },
+  "sameAs": "https://www.wikidata.org/entity/Q142285463",
   "reviewBody": "The reproduction was (partially) successful. The authors provided the source code via a link to a shared folder. From the three relevant figures in the paper, two were reproducible (Figure 4 and 5) with only minor deviations from the corresponding figures reported in the paper. The deviations were caused by randomness. The authors demonstrated concern for the reproducibility of their work by improving the code and responding to requests throughout the review process.\n",
   "datePublished": "2021-10-18",
   "identifier": {

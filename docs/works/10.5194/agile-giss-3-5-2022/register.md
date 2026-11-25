@@ -1,5 +1,5 @@
 ---
-title: "CODECHECKs of Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees"
+title: "CODECHECKs of Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosting Regression Trees"
 doi: 10.5194/agile-giss-3-5-2022
 venues: AGILEGIS
 ---

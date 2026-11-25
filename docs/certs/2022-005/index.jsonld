@@ -18,7 +18,7 @@
   ],
   "itemReviewed": {
     "@type": "ScholarlyArticle",
-    "name": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
+    "name": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosting Regression Trees",
     "author": [
       {
         "@type": "Person",

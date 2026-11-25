@@ -2,7 +2,8 @@
   "certificate": {
     "id": "2021-013",
     "title": "CODECHECK Certificate 2021-013",
-    "url": "https://codecheck.org.uk/register/certs/2021-013/"
+    "url": "https://codecheck.org.uk/register/certs/2021-013/",
+    "wikidata": "Q142285463"
   },
   "paper": {
     "title": "When is variable importance estimation in species distribution modelling affected by spatial correlation?",

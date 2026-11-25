@@ -10,20 +10,6 @@
     "authors": [
       {
         "name": "J J Hopfield"
-      },
-      {
-        "name": "Wulfram Gerstner",
-        "orcid": "0000-0002-4344-2189"
-      },
-      {
-        "name": "Werner M. Kistler"
-      },
-      {
-        "name": "Richard Naud",
-        "orcid": "0000-0001-7383-3095"
-      },
-      {
-        "name": "Liam Paninski"
       }
     ],
     "reference": "https://doi.org/10.1073/pnas.79.8.2554",

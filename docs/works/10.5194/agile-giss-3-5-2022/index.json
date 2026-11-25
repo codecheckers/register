@@ -4,7 +4,7 @@
   "work": {
     "doi": "10.5194/agile-giss-3-5-2022",
     "type": "Journal article",
-    "title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosted Regression Trees",
+    "title": "Spatial Disaggregation of Population Subgroups Leveraging Self-Trained Multi-Output Gradient Boosting Regression Trees",
     "openalex": "https://openalex.org/W4282970832",
     "wikidata": "Q113198341",
     "venues": "AGILEGIS",
