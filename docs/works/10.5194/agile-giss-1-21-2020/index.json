@@ -65,6 +65,13 @@
   "venues_cumulative": {
     "2020": 1
   },
+  "codechecker_count": 2,
+  "codecheckers_per_year": {
+    "2020": 2
+  },
+  "codecheckers_cumulative": {
+    "2020": 2
+  },
   "platform_per_year": {
     "2020": {
       "osf": 1
