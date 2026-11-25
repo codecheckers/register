@@ -165,6 +165,9 @@ wikidata_updates: version env
 	@echo "  2. paste wikidata-updates.qs into https://quickstatements.toolforge.org/ and run it"
 	@echo "  3. record it: quickstatements_submitted('wikidata-updates', url = '<editgroups URL>')"
 	@echo "  4. the 'differs' rows of the report are for a person to settle on Wikidata itself"
+	@echo "  5. if wikidata-ranks.qs was written: paste it into QuickStatements 3.0, https://qs-dev.toolforge.org/"
+	@echo "     (classic QuickStatements cannot set ranks), or deprecate the listed IDs by hand;"
+	@echo "     record it: quickstatements_submitted('wikidata-ranks', url = '<batch URL>')"
 .phony: wikidata_updates
 
 # automated build is active via GitHub Action
