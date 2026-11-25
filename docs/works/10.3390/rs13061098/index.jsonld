@@ -5,7 +5,7 @@
       "@type": "ScholarlyArticle",
       "@id": "https://doi.org/10.3390/rs13061098",
       "url": "https://doi.org/10.3390/rs13061098",
-      "sameAs": ["https://doi.org/10.3390/rs13061098", "https://openalex.org/W3138799110"],
+      "sameAs": ["https://doi.org/10.3390/rs13061098", "https://openalex.org/W3138799110", "https://www.wikidata.org/entity/Q142282836"],
       "name": "Google Earth Engine Sentinel-3 OLCI Level-1 Dataset Deviates from the Original Data: Causes and Consequences",
       "author": [
         {

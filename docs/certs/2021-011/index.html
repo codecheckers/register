@@ -13,7 +13,7 @@
 
 <title>CODECHECK Certificate 2021-011</title>
 
-<script src="../../libs/jquery-3.7.1/jquery-3.7.1.min.js"></script>
+<script src="../../libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="../../libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="../../libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -112,7 +112,7 @@
     ],
     "abstract": "<jats:p>In this study, we demonstrate that the Google Earth Engine (GEE) dataset of Sentinel-3 Ocean and Land Color Instrument (OLCI) level-1 deviates from the original Copernicus Open Access Data Hub Service (DHUS) data by 10–20 W m−2 sr−1μμm−1 per pixel per band. We compared GEE and DHUS single pixel time series for the period from April 2016 to September 2020 and identified two sources of this discrepancy: the ground pixel position and reprojection. The ground pixel position of OLCI product can be determined in two ways: from geo-coordinates (DHUS) or from tie-point coordinates (GEE). We recommend using geo-coordinates for pixel extraction from the original data. When the Sentinel Application Platform (SNAP) Pixel Extraction Tool is used, an additional distance check has to be conducted to exclude pixels that lay further than 212 m from the point of interest. Even geo-coordinates-based pixel extraction requires the homogeneity of the target area at a 700 m diameter (49 ha) footprint (double of the pixel resolution). The GEE OLCI dataset can be safely used if the homogeneity assumption holds at 2700 m diameter (9-by-9 OLCI pixels) or if the uncertainty in the radiance of 10% is not critical for the application. Further analysis showed that the scaling factors reported in the GEE dataset description must not be used. Finally, observation geometry and meteorological data are not present in the GEE OLCI dataset, but they are crucial for most applications. Therefore, we propose to calculate angles and extraterrestrial solar fluxes and to use an alternative data source—the Copernicus Atmosphere Monitoring Service (CAMS) dataset—for meteodata.<\/jats:p>",
     "url": "https://doi.org/10.3390/rs13061098",
-    "sameAs": ["https://doi.org/10.3390/rs13061098", "https://openalex.org/W3138799110"]
+    "sameAs": ["https://doi.org/10.3390/rs13061098", "https://openalex.org/W3138799110", "https://www.wikidata.org/entity/Q142282836"]
   },
   "sameAs": "https://www.wikidata.org/entity/Q142285461",
   "reviewBody": "The reproduction was successful. The authors followed good scientific practice and provided open code via a GitHub repository and open data via DANS Easy. After some clarification with the corresponding author, all relevant figures from the paper could be reproduced with only minor deviations from the figures reported in the paper. The author demonstrated concern for the reproducibility of the work by improving the code throughout the review process.\n",
@@ -145,8 +145,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    </style>
 
 
 

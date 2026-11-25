@@ -30,7 +30,8 @@
       "text": "Problem and motivation Data privacy policies protect inhabitants' sensitive information and make population census data difficult to use in research activities. Privacy policies make data inaccessible only partially to small spatial units such as neighborhood blocks with low population density. Estimations of inaccessible data increase the accuracy of quantitative research and facilitate applying methods at low-density places that otherwise become impractical to study. Spatial microsimulation (SMS) refers to \"the creation, analysis, and modelling of individual-level data allocated to geographic zones\" (Lovelace, 2018). Estimates at small spatial units are required for SMS to increase the certainty of behavioral dynamics in complex phenomena such as security, pollution, or health at low-density localities. Objective Develop a method to estimate inaccessible population census data to enable more complex applications like SMS.",
       "source": "OpenAlex"
     },
-    "openalex": "https://openalex.org/W6968106929"
+    "openalex": "https://openalex.org/W6968106929",
+    "wikidata": "Q142282837"
   },
   "codecheck": {
     "codecheckers": [

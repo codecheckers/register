@@ -11,24 +11,6 @@
         {
           "@type": "Person",
           "name": "J J Hopfield"
-        },
-        {
-          "@type": "Person",
-          "name": "Wulfram Gerstner",
-          "@id": "https://orcid.org/0000-0002-4344-2189"
-        },
-        {
-          "@type": "Person",
-          "name": "Werner M. Kistler"
-        },
-        {
-          "@type": "Person",
-          "name": "Richard Naud",
-          "@id": "https://orcid.org/0000-0001-7383-3095"
-        },
-        {
-          "@type": "Person",
-          "name": "Liam Paninski"
         }
       ]
     },

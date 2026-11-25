@@ -30,7 +30,8 @@
         "type": "Preprint"
       }
     ],
-    "openalex": "https://openalex.org/W7221791361"
+    "openalex": "https://openalex.org/W7221791361",
+    "wikidata": "Q142282838"
   },
   "codecheck": {
     "codecheckers": [

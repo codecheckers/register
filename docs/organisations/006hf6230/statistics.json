@@ -1,6 +1,6 @@
 {
   "source": "https://codecheck.org.uk/register/organisations/006hf6230/register.json",
-  "cert_count": 23,
+  "cert_count": 24,
   "venue_count": 5,
   "venues_per_type": {
     "community": 2,
@@ -14,7 +14,7 @@
     },
     "2021": {
       "conference": 1,
-      "institution": 2
+      "institution": 3
     },
     "2022": {
       "conference": 2
@@ -34,7 +34,7 @@
   },
   "checks_per_year": {
     "2020": 3,
-    "2021": 3,
+    "2021": 4,
     "2022": 2,
     "2023": 3,
     "2024": 8,
@@ -42,13 +42,13 @@
   },
   "checks_cumulative": {
     "2020": 3,
-    "2021": 6,
-    "2022": 8,
-    "2023": 11,
-    "2024": 19,
-    "2026": 23
+    "2021": 7,
+    "2022": 9,
+    "2023": 12,
+    "2024": 20,
+    "2026": 24
   },
-  "interval_n": 21,
+  "interval_n": 22,
   "interval_excluded": 2,
   "interval_points": [
     {
@@ -74,6 +74,10 @@
     {
       "id": "2021-012",
       "days": 28
+    },
+    {
+      "id": "2021-013",
+      "days": 248
     },
     {
       "id": "2022-005",
@@ -141,14 +145,14 @@
     "0-1mo": 12,
     "1-3mo": 0,
     "3-6mo": 1,
-    "6-12mo": 1,
+    "6-12mo": 2,
     "1-2y": 0,
     "2-5y": 0,
     "5y+": 0
   },
   "interval_summary": {
-    "pct_before_publication": 33,
-    "pct_within_6mo": 62,
+    "pct_before_publication": 32,
+    "pct_within_6mo": 59,
     "max_years": 1
   },
   "venues_per_year": {
@@ -190,7 +194,7 @@
     },
     "2021": {
       "osf": 1,
-      "zenodo": 2
+      "zenodo": 3
     },
     "2022": {
       "osf": 2
@@ -213,23 +217,23 @@
     },
     "2021": {
       "osf": 4,
-      "zenodo": 2
+      "zenodo": 3
     },
     "2022": {
       "osf": 6,
-      "zenodo": 2
+      "zenodo": 3
     },
     "2023": {
       "osf": 9,
-      "zenodo": 2
+      "zenodo": 3
     },
     "2024": {
       "osf": 17,
-      "zenodo": 2
+      "zenodo": 3
     },
     "2026": {
       "osf": 19,
-      "zenodo": 4
+      "zenodo": 5
     }
   },
   "venues_detail": [
@@ -294,7 +298,7 @@
       "longname": "Open Science at ITC (OS@ITC), Faculty of Geo-Information Science and Earth Observation, University of Twente",
       "year_range": "2021",
       "label": "institution",
-      "cert_count": 2,
+      "cert_count": 3,
       "page_type": "institution",
       "page_type_plural": "institutions",
       "page_slug": "Open%20Science%20at%20ITC",
@@ -318,7 +322,7 @@
     {
       "name": "unknown",
       "venue_count": 3,
-      "cert_count": 9
+      "cert_count": 10
     }
   ]
 }
