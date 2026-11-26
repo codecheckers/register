@@ -51,8 +51,23 @@ jobs:
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Render
+        # register_render() fails when a lookup of a remote resource failed, as
+        # during an OSF outage, which would otherwise commit a register that
+        # lacks data the previous rendering had. A second try waits for the
+        # service and reuses the cache in /tmp from the first, so it asks again
+        # only for what failed; if it fails too, nothing is committed.
         run: |
-          R -e 'options("R.cache.rootPath" = "/tmp"); codecheck::register_render(); warnings()'
+          for attempt in 1 2; do
+            if R -e 'options("R.cache.rootPath" = "/tmp"); codecheck::register_render(); warnings()'; then
+              exit 0
+            fi
+            if [ "$attempt" = 1 ]; then
+              echo "::warning::The rendering is incomplete, trying again in 15 minutes"
+              sleep 900
+            fi
+          done
+          echo "::error::The rendering is incomplete twice, nothing is committed"
+          exit 1
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
       - name: Check for stray render files
