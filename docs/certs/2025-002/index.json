@@ -21,7 +21,8 @@
         "name": "François Yvon"
       }
     ],
-    "reference": "https://aclanthology.org/2022.lrec-1.328/"
+    "reference": "https://aclanthology.org/2022.lrec-1.328/",
+    "openalex": "https://openalex.org/W4281255428"
   },
   "codecheck": {
     "codecheckers": [

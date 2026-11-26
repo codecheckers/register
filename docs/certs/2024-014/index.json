@@ -108,7 +108,8 @@
         "name": "N Athanasiadis"
       }
     ],
-    "reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f"
+    "reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
+    "openalex": "https://openalex.org/W7199288874"
   },
   "codecheck": {
     "codecheckers": [

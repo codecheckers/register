@@ -20,7 +20,7 @@
     "Report": "https://doi.org/10.17605/OSF.IO/spxt5",
     "Title": "CY-Bench : A comprehensive benchmark dataset for sub-national crop yield forecasting",
     "Paper reference": "https://www.overleaf.com/read/znytpcwfjrrf#a4ca1f",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W7199288874",
     "Check date": "2024-09-26"
   },
   {
@@ -140,7 +140,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15023714",
     "Title": "Determination of a diffusion coefficient function for long rooms using a least square optimization approach",
     "Paper reference": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4403440488",
     "Check date": "2024-11-08"
   },
   {
@@ -164,7 +164,7 @@
     "Report": "https://doi.org/10.5281/zenodo.15173758",
     "Title": "Evaluating Subtitle Segmentation for End-to-end Generation systems",
     "Paper reference": "https://aclanthology.org/2022.lrec-1.328/",
-    "OpenAlex": null,
+    "OpenAlex": "https://openalex.org/W4281255428",
     "Check date": "2025-02-14"
   }
 ]

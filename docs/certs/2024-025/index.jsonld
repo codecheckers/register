@@ -41,7 +41,8 @@
         "@id": "https://orcid.org/0000-0002-9671-5558"
       }
     ],
-    "url": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf"
+    "url": "https://pure.tue.nl/ws/portalfiles/portal/339520759/IN_2024_3491.pdf",
+    "sameAs": "https://openalex.org/W4403440488"
   },
   "sameAs": "https://www.wikidata.org/entity/Q141269603",
   "reviewBody": "A step-by-step execution of the guidelines present in the repository (README.md) led to accurate reproduction of the plots shown in the associated paper publication.\n",

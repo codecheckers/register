@@ -46,7 +46,8 @@
         "name": "François Yvon"
       }
     ],
-    "url": "https://aclanthology.org/2022.lrec-1.328/"
+    "url": "https://aclanthology.org/2022.lrec-1.328/",
+    "sameAs": "https://openalex.org/W4281255428"
   },
   "sameAs": "https://www.wikidata.org/entity/Q141269703",
   "reviewBody": "Full reproduction of code which evaluates subtitle segmentation\n",
