@@ -63,12 +63,12 @@
   "venues_cumulative": {
     "2024": 1
   },
-  "codechecker_count": 1,
+  "codechecker_count": 3,
   "codecheckers_per_year": {
-    "2024": 1
+    "2024": 3
   },
   "codecheckers_cumulative": {
-    "2024": 1
+    "2024": 3
   },
   "platform_per_year": {
     "2024": {

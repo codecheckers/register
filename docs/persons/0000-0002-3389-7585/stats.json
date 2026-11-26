@@ -69,12 +69,14 @@
     "2021": 1,
     "2024": 2
   },
-  "codechecker_count": 1,
+  "codechecker_count": 4,
   "codecheckers_per_year": {
-    "2021": 1
+    "2021": 1,
+    "2024": 3
   },
   "codecheckers_cumulative": {
-    "2021": 1
+    "2021": 1,
+    "2024": 4
   },
   "platform_per_year": {
     "2021": {

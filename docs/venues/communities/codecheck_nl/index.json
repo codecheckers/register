@@ -79,7 +79,7 @@
     },
     {
       "id": "2024-025",
-      "days": -747
+      "days": -748
     },
     {
       "id": "2025-001",
@@ -113,14 +113,14 @@
     "2024": 1,
     "2025": 1
   },
-  "codechecker_count": 25,
+  "codechecker_count": 30,
   "codecheckers_per_year": {
-    "2024": 21,
+    "2024": 26,
     "2025": 5
   },
   "codecheckers_cumulative": {
-    "2024": 21,
-    "2025": 25
+    "2024": 26,
+    "2025": 30
   },
   "platform_per_year": {
     "2024": {
