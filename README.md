@@ -232,7 +232,9 @@ Copilot promts:
 
 ## License
 
-The data in this repository is published under a [Open Data Commons Attribution License](https://opendatacommons.org/licenses/by/summary/) (ODC-BY).
+The data in this repository is dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/) (CC0). Copies of the register obtained before 2026-11-27 were published under the [Open Data Commons Attribution License](https://opendatacommons.org/licenses/by/summary/) (ODC-BY), see [register#225](https://github.com/codecheckers/register/issues/225).
+
+Credit is still welcome: please cite the register's [Zenodo deposit](https://doi.org/10.5281/zenodo.4059767) when you reuse the data.
 
 The code and documentation in this repository is published under the [MIT License](https://choosealicense.com/licenses/mit/).
 
